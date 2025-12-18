@@ -1,6 +1,6 @@
-﻿# 🇨🇳 Chinese Learning App
+﻿# 🇨🇳 ChineseFlow
 
-A Chinese language learning application based on the official HSK 3.0 Standard (2021) from China's Ministry of Education.
+**Master Chinese with flow.** A modern Chinese language learning application based on the official HSK 3.0 Standard (2021) from China's Ministry of Education.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.24.5-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.5.4-blue)

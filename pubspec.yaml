@@ -1,5 +1,5 @@
-name: chinese_learning_app
-description: "Chinese Learning App - HSK 3.0 vocabulary and tests"
+name: chinese_flow
+description: "ChineseFlow - Master Chinese with HSK 3.0 vocabulary and interactive tests"
 publish_to: 'none'
 
 version: 1.0.1+2
@@ -33,6 +33,7 @@ dependencies:
   
   # UI
   flutter_slidable: ^3.0.1
+  url_launcher: ^6.2.2
 
 dev_dependencies:
   flutter_test:

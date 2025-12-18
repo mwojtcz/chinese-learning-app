@@ -74,15 +74,26 @@ class _DictionaryTabState extends State<DictionaryTab> {
                   return Padding(
                     padding: const EdgeInsets.only(right: 8.0),
                     child: FilterChip(
-                      label: Text('$level ($count)'),
+                      label: Text(
+                        '$level ($count)',
+                        style: TextStyle(
+                          color: isSelected ? Colors.white : Colors.white70,
+                          fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                        ),
+                      ),
                       selected: isSelected,
                       onSelected: (selected) {
                         provider.setSelectedLevel(level);
                       },
-                      backgroundColor: Theme.of(context).brightness == Brightness.dark
-                          ? Color(0xFF2C3E50)
-                          : Colors.grey[200],
-                      selectedColor: Theme.of(context).colorScheme.primaryContainer,
+                      backgroundColor: Theme.of(context).colorScheme.surface.withOpacity(0.3),
+                      selectedColor: Theme.of(context).colorScheme.primary,
+                      checkmarkColor: Colors.white,
+                      side: BorderSide(
+                        color: isSelected 
+                          ? Theme.of(context).colorScheme.primary
+                          : Colors.white.withOpacity(0.2),
+                        width: 1,
+                      ),
                     ),
                   );
                 }).toList(),
@@ -349,15 +360,10 @@ class _WordCard extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: Theme.of(context).brightness == Brightness.dark
-                      ? [
-                          Color(0xFF2C3E50),
-                          Color(0xFF34495E),
-                        ]
-                      : [
-                          _getLevelColor(word.level).withOpacity(0.9),
-                          _getLevelColor(word.level).withOpacity(0.7),
-                        ],
+                  colors: [
+                    _getLevelColor(word.level),
+                    _getLevelColor(word.level).withOpacity(0.7),
+                  ],
                 ),
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(12),
@@ -393,11 +399,12 @@ class _WordCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     // Pinyin + Level badge
                     Row(
                       children: [
-                        Expanded(
+                        Flexible(
                           child: Text(
                             word.pinyin,
                             style: TextStyle(
@@ -454,20 +461,32 @@ class _WordCard extends StatelessWidget {
                     // Tagi + Part of Speech
                     if (word.tags.isNotEmpty || word.partOfSpeech != null) ...[
                       const SizedBox(height: 4),
-                      Row(
-                        children: [
+                      Flexible(
+                        child: Row(
+                          children: [
                           if (word.partOfSpeech != null)
                             Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 1),
+                              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                               decoration: BoxDecoration(
-                                color: Theme.of(context).colorScheme.secondaryContainer,
-                                borderRadius: BorderRadius.circular(3),
+                                color: Theme.of(context).colorScheme.primary.withOpacity(0.8),
+                                borderRadius: BorderRadius.circular(4),
+                                border: Border.all(
+                                  color: Colors.white.withOpacity(0.3),
+                                  width: 0.5,
+                                ),
                               ),
                               child: Text(
                                 word.partOfSpeech!,
-                                style: TextStyle(
-                                  fontSize: 9,
-                                  color: Theme.of(context).colorScheme.onSecondaryContainer,
+                                style: const TextStyle(
+                                  fontSize: 10,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w600,
+                                  shadows: [
+                                    Shadow(
+                                      color: Colors.black45,
+                                      blurRadius: 1,
+                                    ),
+                                  ],
                                 ),
                               ),
                             ),
@@ -476,22 +495,34 @@ class _WordCard extends StatelessWidget {
                           ...word.tags.take(2).map((tag) => Padding(
                             padding: const EdgeInsets.only(right: 4),
                             child: Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 1),
+                              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                               decoration: BoxDecoration(
                                 color: _getTagColor(tag),
-                                borderRadius: BorderRadius.circular(3),
+                                borderRadius: BorderRadius.circular(4),
+                                border: Border.all(
+                                  color: Colors.white.withOpacity(0.3),
+                                  width: 0.5,
+                                ),
                               ),
                               child: Text(
                                 tag,
                                 style: const TextStyle(
-                                  fontSize: 8,
+                                  fontSize: 10,
                                   color: Colors.white,
+                                  fontWeight: FontWeight.w600,
+                                  shadows: [
+                                    Shadow(
+                                      color: Colors.black45,
+                                      blurRadius: 1,
+                                    ),
+                                  ],
                                 ),
                               ),
                             ),
                           )),
                         ],
                       ),
+                    ),
                     ],
                   ],
                 ),
