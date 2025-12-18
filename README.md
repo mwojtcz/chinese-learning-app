@@ -1,168 +1,172 @@
 ﻿# 🇨🇳 Chinese Learning App
 
-Aplikacja do nauki języka chińskiego oparta na standardzie HSK 3.0 (2021) od Ministerstwa Edukacji Chin.
+A Chinese language learning application based on the official HSK 3.0 Standard (2021) from China's Ministry of Education.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.24.5-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.5.4-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🌐 Demo Online
+## 🌐 Live Demo
 
-**[➡️ Wypróbuj aplikację online](https://mwojtcz.github.io/chinese-learning-app/)** (wersja web)
+**[➡️ Try the app online](https://mwojtcz.github.io/chinese-learning-app/)** (web version)
 
-Lub pobierz aplikację Windows z sekcji [Releases](https://github.com/mwojtcz/chinese-learning-app/releases).
+Or download the Windows application from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases).
 
-## ✨ Funkcje
+## ✨ Features
 
-- 📚 **Słownik HSK** - 2,229 słów z poziomów HSK 1-3 (standard 3.0)
-- ⭐ **Moje Słowa** - Zapisuj ulubione słówka do nauki
-- 📝 **System Testów** - 3 tryby testowania:
-  - 🇨🇳 → 🇵🇱 (Hanzi → Polski)
-  - 🇵🇱 → 🇨🇳 (Polski → Hanzi)
+- 📚 **HSK Dictionary** - 2,229 words from HSK levels 1-3 (standard 3.0)
+- ⭐ **My Words** - Save favorite words for studying
+- 📝 **Test System** - 3 testing modes:
+  - 🇨🇳 → 🇬🇧 (Hanzi → English/Polish)
+  - 🇬🇧 → 🇨🇳 (English/Polish → Hanzi)
   - 🔤 → 🇨🇳 (Pinyin → Hanzi)
-- 🎨 **Ciemny Motyw** - Elegancki interfejs z matowym designem
-- 🔍 **Zaawansowane Wyszukiwanie** - Filtrowanie po poziomie HSK, częściach mowy i znacznikach
-- 📊 **Automatyczne Tagowanie** - Inteligentne kategoryzowanie słówek
-- 💾 **Automatyczny Zapis** - Poprawne odpowiedzi dodawane do "Moich Słów"
+- 🎨 **Dark Theme** - Elegant interface with matte design
+- 🔍 **Advanced Search** - Filter by HSK level, parts of speech, and tags
+- 📊 **Auto-Tagging** - Intelligent word categorization
+- 💾 **Auto-Save** - Correct answers automatically added to "My Words"
 
-## 🚀 Instalacja
+## 🚀 Installation
 
-### Wymagania
+### Requirements
 
-- Flutter 3.24.5 lub nowszy
-- Dart 3.5.4 lub nowszy
-- Windows 10/11 (dla kompilacji Windows)
+- Flutter 3.24.5 or newer
+- Dart 3.5.4 or newer
+- Windows 10/11 (for Windows builds)
 
-### Uruchomienie
+### Running from Source
 
 ```bash
-# Sklonuj repozytorium
+# Clone repository
 git clone https://github.com/mwojtcz/chinese-learning-app.git
 cd chinese-learning-app
 
-# Zainstaluj zależności
+# Install dependencies
 flutter pub get
 
-# Uruchom aplikację
+# Run application
 flutter run -d windows
 ```
 
-### Pobranie Gotowej Aplikacji
+### Download Pre-built Application
 
-Pobierz najnowszą wersję z sekcji [Releases](https://github.com/mwojtcz/chinese-learning-app/releases):
-- Rozpakuj archiwum ZIP
-- Uruchom `chinese_learning_app.exe`
-- Nie wymaga instalacji - portable!
+Download the latest version from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases):
+- Extract the ZIP archive
+- Run `chinese_learning_app.exe`
+- No installation required - portable!
 
-## 📖 Jak Używać
+## 📖 How to Use
 
-### Słownik
-- Przeglądaj wszystkie 2,229 słów HSK 1-3
-- Filtruj po poziomie (HSK-1, HSK-2, HSK-3)
-- Wyszukuj po hanzi, pinyin lub tłumaczeniu
-- Kliknij słowo aby dodać do "Moich Słów"
+### Dictionary
+- Browse all 2,229 HSK 1-3 words
+- Filter by level (HSK-1, HSK-2, HSK-3)
+- Search by hanzi, pinyin, or translation
+- Click a word to add to "My Words"
 
-### Moje Słowa
-- Przeglądaj zapisane słówka
-- Wszystkie funkcje filtrowania jak w Słowniku
-- Usuń słowa jednym kliknięciem
+### My Words
+- View saved words
+- All filtering features as in Dictionary
+- Remove words with one click
 
 ### Test
-1. Wybierz tryb testu
-2. Wybierz poziom HSK
-3. Ustaw liczbę pytań (5-50)
-4. Zaznacz "Tylko z Moich Słów" (opcjonalnie)
-5. Rozpocznij test!
-6. Poprawne odpowiedzi automatycznie trafiają do "Moich Słów"
+1. Choose test mode
+2. Select HSK level
+3. Set number of questions (5-50)
+4. Check "Only from My Words" (optional)
+5. Start test!
+6. Correct answers are automatically added to "My Words"
 
-## 📁 Struktura Projektu
+## 📁 Project Structure
 
 ```
 chinese_learning_app/
 ├── lib/
 │   ├── main.dart                    # Entry point
-│   ├── models/                      # Modele danych
+│   ├── models/                      # Data models
 │   │   ├── word.dart
 │   │   └── test_config.dart
 │   ├── providers/                   # State management
 │   │   ├── word_provider.dart
 │   │   └── test_provider.dart
-│   ├── database/                    # Obsługa bazy danych
+│   ├── database/                    # Database handling
 │   │   └── database_helper.dart
-│   └── widgets/                     # Komponenty UI
+│   └── widgets/                     # UI components
 │       ├── dictionary_tab.dart
 │       ├── my_words_tab.dart
 │       └── test_tab.dart
 ├── assets/
-│   └── data/                        # Słownictwo HSK
-│       ├── hsk1_words.json          # 500 słów
-│       ├── hsk2_words.json          # 763 słowa
-│       └── hsk3_words.json          # 966 słów
+│   └── data/                        # HSK vocabulary
+│       ├── hsk1_words.json          # 500 words (with Polish)
+│       ├── hsk2_words.json          # 763 words (with Polish)
+│       └── hsk3_words.json          # 966 words (English only)
 ├── .github/
 │   └── workflows/
-│       └── build-windows.yml        # CI/CD - automatyczne budowanie
+│       └── build-windows.yml        # CI/CD - automated builds
 └── releases/
     └── ChineseLearningApp-v1.0.0-Windows.zip
 ```
 
-## 📊 Źródła Danych
+## 📊 Data Sources
 
-Słownictwo HSK 3.0 pochodzi z oficjalnego standardu Ministerstwa Edukacji Chin (GF0025-2021):
-- [krmanik/HSK-3.0](https://github.com/krmanik/HSK-3.0) - OCR oficjalnego PDF standardu
+HSK 3.0 vocabulary sourced from the official Ministry of Education of China standard (GF0025-2021):
+- [krmanik/HSK-3.0](https://github.com/krmanik/HSK-3.0) - OCR of official PDF standard
 
-**Poziomy HSK 3.0:**
-- **HSK-1**: 500 słów (基础 - podstawowy)
-- **HSK-2**: 763 słowa (提高 - średniozaawansowany)  
-- **HSK-3**: 966 słów (进阶 - zaawansowany)
-- **Łącznie**: 2,229 słów
+**HSK 3.0 Levels:**
+- **HSK-1**: 500 words (基础 - basic)
+- **HSK-2**: 763 words (提高 - intermediate)  
+- **HSK-3**: 966 words (进阶 - advanced)
+- **Total**: 2,229 words
 
-## 🛠️ Technologie
+## 🛠️ Technologies
 
-- **Flutter** - Framework UI
+- **Flutter** - UI framework
 - **Provider** - State management
-- **SQLite** - Lokalna baza danych
-- **Shared Preferences** - Przechowywanie preferencji
+- **SQLite** - Local database
+- **Shared Preferences** - Preferences storage
 
-## 📄 Budowanie i Releases
+## 📄 Building and Releases
 
-### Gotowa Aplikacja Windows
+### Pre-built Windows Application
 
-Najprościej: pobierz ZIP z [Releases](https://github.com/mwojtcz/chinese-learning-app/releases)!
+Easiest option: download ZIP from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases)!
 
-### Kompilacja Ręczna
+### Manual Build
 
 ```bash
 # Windows
 flutter build windows --release
 
-# Executable w: build/windows/x64/runner/Release/
+# Executable in: build/windows/x64/runner/Release/
+
+# Web (for GitHub Pages)
+flutter build web --release --base-href "/chinese-learning-app/"
 ```
 
-**Uwaga**: Ze względu na problemy z polskimi znakami w ścieżce Windows, zalecane jest budowanie w ścieżce bez znaków specjalnych (np. `C:\build_temp\`).
+**Note**: Due to issues with Polish characters in Windows paths, it's recommended to build in a path without special characters (e.g., `C:\build_temp\`).
 
 ### Roadmap
 
-- [ ] Dodanie polskich tłumaczeń dla HSK-2 i HSK-3
-- [ ] System powtórek oparty na Spaced Repetition (SRS)
-- [ ] Eksport/import własnych list słów
-- [ ] Statystyki postępów w nauce
-- [ ] Nagrania audio wymowy (pinyin)
-- [ ] Mechanizm auto-update
+- [x] HSK-2 Polish translations
+- [ ] HSK-3 Polish translations
+- [ ] Spaced Repetition System (SRS)
+- [ ] Export/import word lists
+- [ ] Learning progress statistics
+- [ ] Audio pronunciation recordings (pinyin)
+- [ ] Auto-update mechanism
 
-## 📝 Licencja
+## 📝 License
 
-MIT License - zobacz [LICENSE](LICENSE)
+MIT License - see [LICENSE](LICENSE)
 
-## 🤝 Współpraca
+## 🤝 Contributing
 
-Pull requesty są mile widziane! W przypadku większych zmian, proszę najpierw otworzyć [issue](https://github.com/mwojtcz/chinese-learning-app/issues) aby przedyskutować proponowane zmiany.
+Pull requests are welcome! For major changes, please open an [issue](https://github.com/mwojtcz/chinese-learning-app/issues) first to discuss proposed changes.
 
-Zobacz [CONTRIBUTING.md](CONTRIBUTING.md) dla szczegółów.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## 📧 Kontakt
+## 📧 Contact
 
-Masz pytania lub sugestie? Otwórz [issue](https://github.com/mwojtcz/chinese-learning-app/issues)!
+Have questions or suggestions? Open an [issue](https://github.com/mwojtcz/chinese-learning-app/issues)!
 
 ---
 
-**Dobrej nauki chińskiego! 加油! (jiā yóu!)** 🇨🇳
+**Happy Chinese learning! 加油! (jiā yóu!)** 🇨🇳
