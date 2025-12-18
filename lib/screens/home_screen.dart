@@ -22,7 +22,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   late AnimationController _emojiAnimationController;
   
   static const _emojis = ['🏮', '🎋', '🧧', '🎁', '🎊', '🥠', '🎆', '🧨', '🐉', '🌸', '🎐', '🍜', '🥟', '🍵'];
-  static const _emojiDistributionMultiplier = 73; // Pseudo-random position seed
+  // Multiplier for computing emoji X positions to create stable pseudo-random distribution.
+  // Value 73 (prime number) reduces visible repeating patterns in horizontal layout.
+  static const _emojiDistributionMultiplier = 73;
 
   @override
   void initState() {

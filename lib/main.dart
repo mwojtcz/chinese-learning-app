@@ -51,8 +51,8 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.dark,
             primary: kChineseRed, // Vibrant Chinese red
             secondary: const Color(0xFFFFD700), // Chinese gold
-            surface: const Color(0xFF1A1A1A), // Dark black
-            background: const Color(0xFF0D0D0D), // Deeper black
+            surface: const Color(0xFF1A1A1A), // Charcoal surface
+            background: const Color(0xFF0D0D0D), // Near-black background
           ),
           useMaterial3: true,
           fontFamily: 'Roboto',
