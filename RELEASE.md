@@ -1,20 +1,20 @@
-# Jak przygotować release
+# Release Process
 
-## 1. Aktualizacja wersji
+## 1. Update Version
 
-Edytuj `pubspec.yaml`:
+Edit `pubspec.yaml`:
 ```yaml
-version: 1.0.1+2  # Zwiększ numer wersji
+version: 1.0.1+2  # Increment version number
 ```
 
-## 2. Aktualizacja skryptu instalatora
+## 2. Update Installer Script
 
-Edytuj `installer/setup.iss`:
+Edit `installer/setup.iss`:
 ```iss
 #define MyAppVersion "1.0.1"
 ```
 
-## 3. Commit i tag
+## 3. Commit and Tag
 
 ```bash
 git add .
@@ -26,24 +26,24 @@ git push origin v1.0.1
 
 ## 4. GitHub Actions
 
-GitHub Actions automatycznie:
-- Zbuduje aplikację Windows
-- Utworzy archiwum ZIP
-- Opublikuje w sekcji Releases
+GitHub Actions will automatically:
+- Build the Windows application
+- Create a ZIP archive
+- Publish to the Releases section
 
-## 5. Utworzenie instalatora (opcjonalne, lokalnie)
+## 5. Create Installer (Optional, Local)
 
-Jeśli masz zainstalowany Inno Setup:
+If you have Inno Setup installed:
 
-1. Pobierz build z GitHub Actions
-2. Rozpakuj do `build/windows/x64/runner/Release/`
-3. Uruchom Inno Setup Compiler
-4. Otwórz `installer/setup.iss`
-5. Kliknij "Compile"
-6. Instalator pojawi się w folderze `installer/Output/`
+1. Download the build from GitHub Actions
+2. Extract to `build/windows/x64/runner/Release/`
+3. Run Inno Setup Compiler
+4. Open `installer/setup.iss`
+5. Click "Compile"
+6. Installer will appear in `installer/Output/`
 
-## Uwagi
+## Notes
 
-- GitHub Actions buduje na czystym środowisku Windows (bez polskich znaków)
-- Lokalne budowanie wymaga ścieżki bez polskich znaków
-- Każdy release powinien mieć unikalny tag wersji
+- GitHub Actions builds in a clean Windows environment (no Polish characters in path)
+- Local building requires a path without Polish characters
+- Each release should have a unique version tag

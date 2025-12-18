@@ -1,17 +1,17 @@
 # Screenshots
 
-Dodaj tutaj screenshoty aplikacji:
+Add application screenshots here:
 
-- `screenshot.png` - główny widok aplikacji (używany w README)
-- `dictionary.png` - zakładka Słownik
-- `my-words.png` - zakładka Moje Słowa
-- `test.png` - zakładka Test
+- `screenshot.png` - Main application view (used in README)
+- `dictionary.png` - Dictionary tab
+- `my-words.png` - My Words tab
+- `test.png` - Test tab
 
-## Jak zrobić screenshot
+## How to Take Screenshots
 
-1. Uruchom aplikację: `flutter run -d chrome`
-2. Przejdź do danej zakładki
-3. Użyj narzędzi deweloperskich Chrome (F12)
-4. Ustaw rozmiar okna np. 1200x800px
-5. Zrób screenshot (Win + Shift + S)
-6. Zapisz w tym folderze
+1. Run the app: `flutter run -d chrome`
+2. Navigate to the desired tab
+3. Use Chrome DevTools (F12)
+4. Set window size to e.g. 1200x800px
+5. Take screenshot (Win + Shift + S on Windows, Cmd + Shift + 4 on macOS)
+6. Save in this folder
