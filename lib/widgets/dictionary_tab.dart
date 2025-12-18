@@ -405,6 +405,7 @@ class _WordCard extends StatelessWidget {
                     Row(
                       children: [
                         Flexible(
+                          fit: FlexFit.tight,
                           child: Text(
                             word.pinyin,
                             style: TextStyle(
@@ -463,6 +464,7 @@ class _WordCard extends StatelessWidget {
                       const SizedBox(height: 4),
                       Flexible(
                         child: Row(
+                          mainAxisSize: MainAxisSize.min,
                           children: [
                           if (word.partOfSpeech != null)
                             Container(

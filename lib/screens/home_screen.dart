@@ -20,6 +20,9 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   late TabController _tabController;
   late AnimationController _emojiAnimationController;
+  
+  static const _emojis = ['🏮', '🎋', '🧧', '🎁', '🎊', '🥠', '🎆', '🧨', '🐉', '🌸', '🎐', '🍜', '🥟', '🍵'];
+  static const _emojiHorizontalSpacing = 73; // Pseudo-random distribution multiplier
 
   @override
   void initState() {
@@ -150,8 +153,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   }
 
   Widget _buildFallingEmojisLayer() {
-    final emojis = ['🏮', '🎋', '🧧', '🎁', '🎊', '🥠', '🎆', '🧨', '🐉', '🌸', '🎐', '🍜', '🥟', '🍵'];
-    
     return LayoutBuilder(
       builder: (context, constraints) {
         final screenWidth = constraints.maxWidth;
@@ -160,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         return Stack(
           children: List.generate(12, (index) {
             final progress = (_emojiAnimationController.value + index * 0.08) % 1.0;
-            final xPos = ((index * 73) % 100) / 100.0 * screenWidth;
+            final xPos = ((index * _emojiHorizontalSpacing) % 100) / 100.0 * screenWidth;
             final speed = 0.8 + (index % 3) * 0.2;
             // Start above screen (-100) and fall to below screen (+100)
             final yPos = (progress * speed * (screenHeight + 200)) - 100;
@@ -170,7 +171,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               left: xPos,
               top: yPos,
               child: Text(
-                emojis[index % emojis.length],
+                _emojis[index % _emojis.length],
                 style: TextStyle(fontSize: size),
               ),
             );
