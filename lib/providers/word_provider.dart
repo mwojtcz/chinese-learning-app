@@ -158,15 +158,14 @@ class WordProvider with ChangeNotifier {
     
     // Load main vocabulary first (most important)
     await _loadAllWords();
+    _loadingProgress = 0.5;
+    notifyListeners();
+    
+    // Load "my words" (completes loading)
+    await _loadMyWords();
     _loadingProgress = 1.0;
     _isLoading = false;
     notifyListeners();
-    
-    // Load "my words" in background (non-blocking)
-    _loadMyWords().catchError((e) {
-      debugPrint('Error loading my words: $e');
-      _myWords = [];
-    }).then((_) => notifyListeners());
   }
 
   // Load all words from JSON

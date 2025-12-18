@@ -104,6 +104,8 @@ class MyWordsTab extends StatelessWidget {
               child: Row(
                 children: provider.availableLevels.map((level) {
                   final isSelected = provider.selectedLevel == level;
+                  final isDark = Theme.of(context).brightness == Brightness.dark;
+                  
                   return Padding(
                     padding: const EdgeInsets.only(right: 8.0),
                     child: FilterChip(
