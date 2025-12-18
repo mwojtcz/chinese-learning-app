@@ -39,7 +39,7 @@ class _SettingsTabState extends State<SettingsTab> {
   Future<void> _launchGitHubIssues() async {
     final Uri url = Uri.parse('https://github.com/mwojtcz/chinese-learning-app/issues');
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
-      throw Exception('Could not launch $url');
+      throw Exception('Failed to open GitHub Issues page in browser: $url');
     }
   }
 

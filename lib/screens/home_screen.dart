@@ -6,6 +6,7 @@ import '../widgets/dictionary_tab.dart';
 import '../widgets/my_words_tab.dart';
 import '../widgets/test_tab.dart';
 import '../widgets/settings_tab.dart';
+import '../main.dart' show kChineseGold;
 
 // Global notifier for emoji state
 final emojiEnabledNotifier = ValueNotifier<bool>(true);
@@ -103,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         ),
         bottom: TabBar(
           controller: _tabController,
-          indicatorColor: Color(0xFFFFD700),
+          indicatorColor: kChineseGold,
           tabs: const [
             Tab(
               icon: Icon(Icons.book),
