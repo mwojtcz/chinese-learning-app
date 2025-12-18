@@ -28,13 +28,13 @@ Aplikacja do nauki języka chińskiego zgodna ze standardem HSK 3.0 (GF0025-2021
 
 ### Windows
 
-1. Pobierz najnowszy instalator z [Releases](https://github.com/YOUR_USERNAME/chinese_learning_app/releases)
+1. Pobierz najnowszy instalator z [Releases](https://github.com/mwojtcz/chinese_learning_app/releases)
 2. Uruchom `ChineseLearningApp-Setup-1.0.0.exe`
 3. Postępuj zgodnie z instrukcjami instalatora
 
 ### Web
 
-Aplikacja dostępna online: [https://YOUR_USERNAME.github.io/chinese_learning_app](https://YOUR_USERNAME.github.io/chinese_learning_app)
+Aplikacja dostępna online: [https://mwojtcz.github.io/chinese_learning_app](https://mwojtcz.github.io/chinese_learning_app)
 
 ## 🛠️ Rozwój
 
@@ -48,7 +48,7 @@ Aplikacja dostępna online: [https://YOUR_USERNAME.github.io/chinese_learning_ap
 
 ```bash
 # Klonowanie repozytorium
-git clone https://github.com/YOUR_USERNAME/chinese_learning_app.git
+git clone https://github.com/mwojtcz/chinese_learning_app.git
 cd chinese_learning_app
 
 # Instalacja zależności
@@ -134,7 +134,7 @@ Pull requesty są mile widziane! W przypadku większych zmian, proszę najpierw 
 
 ## 📧 Kontakt
 
-Masz pytania lub sugestie? Otwórz [issue](https://github.com/YOUR_USERNAME/chinese_learning_app/issues)!
+Masz pytania lub sugestie? Otwórz [issue](https://github.com/mwojtcz/chinese_learning_app/issues)!
 
 ---
 
