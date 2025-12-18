@@ -10,10 +10,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Loading indicator with progress percentage in Dictionary tab
 - Async initialization ensures vocabulary loads before UI renders
+- Improved HSK filter chips with better contrast in dark mode
 
 ### Fixed
 - Words not loading immediately in Dictionary tab - now loads on app start
 - Loading progress shows 0-100% with animated circular indicator
+- HSK filter buttons low contrast in My Words tab - now clearly visible with borders and proper colors
+
+### Changed
+- Filter chips now have bold text when selected
+- Border styling added to filter chips (2px selected, 1px unselected)
 
 ### To Be Added
 - Grouping words by tags in Dictionary view

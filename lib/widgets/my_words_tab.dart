@@ -104,16 +104,35 @@ class MyWordsTab extends StatelessWidget {
               child: Row(
                 children: provider.availableLevels.map((level) {
                   final isSelected = provider.selectedLevel == level;
+                  final isDark = Theme.of(context).brightness == Brightness.dark;
+                  
                   return Padding(
                     padding: const EdgeInsets.only(right: 8.0),
                     child: FilterChip(
-                      label: Text(level),
+                      label: Text(
+                        level,
+                        style: TextStyle(
+                          color: isSelected
+                              ? (isDark ? Colors.white : Colors.black)
+                              : (isDark ? Colors.grey[300] : Colors.grey[700]),
+                          fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                        ),
+                      ),
                       selected: isSelected,
                       onSelected: (selected) {
                         provider.setSelectedLevel(level);
                       },
-                      backgroundColor: Colors.grey[200],
-                      selectedColor: Theme.of(context).colorScheme.primaryContainer,
+                      backgroundColor: isDark ? Colors.grey[850] : Colors.grey[200],
+                      selectedColor: isDark 
+                          ? Theme.of(context).colorScheme.primary.withOpacity(0.3)
+                          : Theme.of(context).colorScheme.primaryContainer,
+                      checkmarkColor: isDark ? Colors.white : null,
+                      side: BorderSide(
+                        color: isSelected
+                            ? Theme.of(context).colorScheme.primary
+                            : (isDark ? Colors.grey[700]! : Colors.grey[400]!),
+                        width: isSelected ? 2 : 1,
+                      ),
                     ),
                   );
                 }).toList(),
