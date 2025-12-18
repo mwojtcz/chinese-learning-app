@@ -1,0 +1,7055 @@
+[
+  {
+    "hanzi": "一",
+    "pinyin": "yī",
+    "english": "one",
+    "polish": "jeden",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 1
+  },
+  {
+    "hanzi": "二",
+    "pinyin": "èr",
+    "english": "two",
+    "polish": "dwa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 2
+  },
+  {
+    "hanzi": "三",
+    "pinyin": "sān",
+    "english": "three",
+    "polish": "trzy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 3
+  },
+  {
+    "hanzi": "四",
+    "pinyin": "sì",
+    "english": "four",
+    "polish": "cztery",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 4
+  },
+  {
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "english": "five",
+    "polish": "pięć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 5
+  },
+  {
+    "hanzi": "六",
+    "pinyin": "liù",
+    "english": "six",
+    "polish": "sześć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 6
+  },
+  {
+    "hanzi": "七",
+    "pinyin": "qī",
+    "english": "seven",
+    "polish": "siedem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 7
+  },
+  {
+    "hanzi": "八",
+    "pinyin": "bā",
+    "english": "eight",
+    "polish": "osiem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 8
+  },
+  {
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "english": "nine",
+    "polish": "dziewięć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 9
+  },
+  {
+    "hanzi": "十",
+    "pinyin": "shí",
+    "english": "ten",
+    "polish": "dziesięć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 10
+  },
+  {
+    "hanzi": "个",
+    "pinyin": "gè",
+    "english": "measure word (general)",
+    "polish": "liczebnik ogólny",
+    "level": "HSK-1",
+    "notes": "Most common measure word",
+    "tags": [
+      "classifier",
+      "essential"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 11
+  },
+  {
+    "hanzi": "本",
+    "pinyin": "běn",
+    "english": "measure word for books",
+    "polish": "liczebnik dla książek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 12
+  },
+  {
+    "hanzi": "杯",
+    "pinyin": "bēi",
+    "english": "cup, measure word for drinks",
+    "polish": "filiżanka, liczebnik dla napojów",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "drink"
+    ],
+    "partOfSpeech": "noun/measure word",
+    "frequency": 13
+  },
+  {
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "english": "yuan (currency), piece",
+    "polish": "juan (waluta), kawałek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "money"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 14
+  },
+  {
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "english": "year (of age)",
+    "polish": "lat (wiek)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "age",
+      "time"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 15
+  },
+  {
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "english": "I, me",
+    "polish": "ja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 16
+  },
+  {
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "english": "you",
+    "polish": "ty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 17
+  },
+  {
+    "hanzi": "他",
+    "pinyin": "tā",
+    "english": "he, him",
+    "polish": "on",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 18
+  },
+  {
+    "hanzi": "她",
+    "pinyin": "tā",
+    "english": "she, her",
+    "polish": "ona",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 19
+  },
+  {
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "english": "we, us",
+    "polish": "my",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 20
+  },
+  {
+    "hanzi": "谁",
+    "pinyin": "shéi/shuí",
+    "english": "who",
+    "polish": "kto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 21
+  },
+  {
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "english": "what",
+    "polish": "co",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 22
+  },
+  {
+    "hanzi": "哪",
+    "pinyin": "nǎ/něi",
+    "english": "which",
+    "polish": "który",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 23
+  },
+  {
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "english": "where",
+    "polish": "gdzie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 24
+  },
+  {
+    "hanzi": "这",
+    "pinyin": "zhè/zhèi",
+    "english": "this",
+    "polish": "to, ten",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "demonstrative"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 25
+  },
+  {
+    "hanzi": "那",
+    "pinyin": "nà/nèi",
+    "english": "that",
+    "polish": "tamten, to",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "demonstrative"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 26
+  },
+  {
+    "hanzi": "是",
+    "pinyin": "shì",
+    "english": "to be",
+    "polish": "być",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 27
+  },
+  {
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "english": "to have, there is",
+    "polish": "mieć, jest",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 28
+  },
+  {
+    "hanzi": "在",
+    "pinyin": "zài",
+    "english": "at, in, on",
+    "polish": "w, na (lokalizacja)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "location",
+      "essential"
+    ],
+    "partOfSpeech": "verb/preposition",
+    "frequency": 29
+  },
+  {
+    "hanzi": "会",
+    "pinyin": "huì",
+    "english": "can, able to",
+    "polish": "umieć, potrafić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "auxiliary"
+    ],
+    "partOfSpeech": "auxiliary verb",
+    "frequency": 30
+  },
+  {
+    "hanzi": "能",
+    "pinyin": "néng",
+    "english": "can, be able to",
+    "polish": "móc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "auxiliary"
+    ],
+    "partOfSpeech": "auxiliary verb",
+    "frequency": 31
+  },
+  {
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "english": "to eat",
+    "polish": "jeść",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "food",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 32
+  },
+  {
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "english": "to drink",
+    "polish": "pić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "drink",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 33
+  },
+  {
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "english": "to look, to watch",
+    "polish": "patrzeć, oglądać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 34
+  },
+  {
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "english": "to see",
+    "polish": "widzieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 35
+  },
+  {
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "english": "to listen",
+    "polish": "słuchać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 36
+  },
+  {
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "english": "to say, to speak",
+    "polish": "mówić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "communication"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 37
+  },
+  {
+    "hanzi": "读",
+    "pinyin": "dú",
+    "english": "to read",
+    "polish": "czytać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 38
+  },
+  {
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "english": "to write",
+    "polish": "pisać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 39
+  },
+  {
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "english": "to study, to learn",
+    "polish": "uczyć się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 40
+  },
+  {
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "english": "to work, job",
+    "polish": "pracować, praca",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "noun",
+      "work"
+    ],
+    "partOfSpeech": "verb/noun",
+    "frequency": 41
+  },
+  {
+    "hanzi": "来",
+    "pinyin": "lái",
+    "english": "to come",
+    "polish": "przychodzić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 42
+  },
+  {
+    "hanzi": "去",
+    "pinyin": "qù",
+    "english": "to go",
+    "polish": "iść, jechać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 43
+  },
+  {
+    "hanzi": "回",
+    "pinyin": "huí",
+    "english": "to return",
+    "polish": "wracać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 44
+  },
+  {
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "english": "to open, to drive",
+    "polish": "otwierać, prowadzić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 45
+  },
+  {
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "english": "to sit",
+    "polish": "siedzieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 46
+  },
+  {
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "english": "to live",
+    "polish": "mieszkać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "housing"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 47
+  },
+  {
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "english": "to sleep",
+    "polish": "spać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 48
+  },
+  {
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "english": "to do, to make",
+    "polish": "robić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 49
+  },
+  {
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "english": "to buy",
+    "polish": "kupować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "shopping"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 50
+  },
+  {
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "english": "to make a phone call",
+    "polish": "dzwonić (telefonicznie)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "communication"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 51
+  },
+  {
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "english": "to know, recognize",
+    "polish": "znać, rozpoznawać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "social"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 52
+  },
+  {
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "english": "to like",
+    "polish": "lubić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 53
+  },
+  {
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "english": "to love",
+    "polish": "kochać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 54
+  },
+  {
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "english": "to think, to want",
+    "polish": "myśleć, chcieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "thinking"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 55
+  },
+  {
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "english": "to be called",
+    "polish": "nazywać się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "identity"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 56
+  },
+  {
+    "hanzi": "不",
+    "pinyin": "bù",
+    "english": "no, not",
+    "polish": "nie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "negation",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 57
+  },
+  {
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "english": "not have",
+    "polish": "nie mieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "negation"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 58
+  },
+  {
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "english": "very",
+    "polish": "bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 59
+  },
+  {
+    "hanzi": "太",
+    "pinyin": "tài",
+    "english": "too, extremely",
+    "polish": "za bardzo, zbyt",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 60
+  },
+  {
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "english": "all, both",
+    "polish": "wszyscy, wszystko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "scope"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 61
+  },
+  {
+    "hanzi": "也",
+    "pinyin": "yě",
+    "english": "also, too",
+    "polish": "też, również",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 62
+  },
+  {
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "english": "good, well",
+    "polish": "dobry, dobrze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 63
+  },
+  {
+    "hanzi": "大",
+    "pinyin": "dà",
+    "english": "big, large",
+    "polish": "duży",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 64
+  },
+  {
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "english": "small, little",
+    "polish": "mały",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 65
+  },
+  {
+    "hanzi": "多",
+    "pinyin": "duō",
+    "english": "many, much",
+    "polish": "dużo, wiele",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "quantity"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 66
+  },
+  {
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "english": "few, little",
+    "polish": "mało",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "quantity"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 67
+  },
+  {
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "english": "cold",
+    "polish": "zimny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "temperature",
+      "weather"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 68
+  },
+  {
+    "hanzi": "热",
+    "pinyin": "rè",
+    "english": "hot",
+    "polish": "gorący",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "temperature",
+      "weather"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 69
+  },
+  {
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "english": "happy, glad",
+    "polish": "szczęśliwy, zadowolony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 70
+  },
+  {
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "english": "beautiful, pretty",
+    "polish": "piękny, ładny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "appearance"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 71
+  },
+  {
+    "hanzi": "的",
+    "pinyin": "de",
+    "english": "possessive particle",
+    "polish": "partykuła dzierżawcza",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "essential",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 72
+  },
+  {
+    "hanzi": "了",
+    "pinyin": "le",
+    "english": "particle (past tense)",
+    "polish": "partykuła (czas przeszły)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "essential",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 73
+  },
+  {
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "english": "question particle",
+    "polish": "partykuła pytająca",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "question",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 74
+  },
+  {
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "english": "question particle",
+    "polish": "partykuła pytająca",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "question",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 75
+  },
+  {
+    "hanzi": "和",
+    "pinyin": "hé",
+    "english": "and",
+    "polish": "i",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction",
+      "essential"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 76
+  },
+  {
+    "hanzi": "人",
+    "pinyin": "rén",
+    "english": "person, people",
+    "polish": "osoba, ludzie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "people"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 77
+  },
+  {
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "english": "father, dad",
+    "polish": "tata, ojciec",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 78
+  },
+  {
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "english": "mother, mom",
+    "polish": "mama",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 79
+  },
+  {
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "english": "son",
+    "polish": "syn",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 80
+  },
+  {
+    "hanzi": "女儿",
+    "pinyin": "nǚ'ér",
+    "english": "daughter",
+    "polish": "córka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 81
+  },
+  {
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "english": "friend",
+    "polish": "przyjaciel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "social"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 82
+  },
+  {
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "english": "classmate",
+    "polish": "kolega z klasy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "social"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 83
+  },
+  {
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "english": "teacher",
+    "polish": "nauczyciel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "occupation"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 84
+  },
+  {
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "english": "student",
+    "polish": "student, uczeń",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "occupation"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 85
+  },
+  {
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "english": "doctor",
+    "polish": "lekarz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "occupation",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 86
+  },
+  {
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "english": "Mr., sir",
+    "polish": "pan",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "title"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 87
+  },
+  {
+    "hanzi": "小姐",
+    "pinyin": "xiǎojiě",
+    "english": "Miss",
+    "polish": "panna",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "title"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 88
+  },
+  {
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "english": "home, family",
+    "polish": "dom, rodzina",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 89
+  },
+  {
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "english": "school",
+    "polish": "szkoła",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 90
+  },
+  {
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "english": "shop, store",
+    "polish": "sklep",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "shopping"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 91
+  },
+  {
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "english": "restaurant, hotel",
+    "polish": "restauracja, hotel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 92
+  },
+  {
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "english": "hospital",
+    "polish": "szpital",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 93
+  },
+  {
+    "hanzi": "火车站",
+    "pinyin": "huǒchēzhàn",
+    "english": "train station",
+    "polish": "dworzec kolejowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 94
+  },
+  {
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "english": "China",
+    "polish": "Chiny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "country"
+    ],
+    "partOfSpeech": "proper noun",
+    "frequency": 95
+  },
+  {
+    "hanzi": "北京",
+    "pinyin": "Běijīng",
+    "english": "Beijing",
+    "polish": "Pekin",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "city"
+    ],
+    "partOfSpeech": "proper noun",
+    "frequency": 96
+  },
+  {
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "english": "up, on",
+    "polish": "góra, na",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location",
+      "direction"
+    ],
+    "partOfSpeech": "noun/preposition",
+    "frequency": 97
+  },
+  {
+    "hanzi": "下",
+    "pinyin": "xià",
+    "english": "down, under",
+    "polish": "dół, pod",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location",
+      "direction"
+    ],
+    "partOfSpeech": "noun/preposition",
+    "frequency": 98
+  },
+  {
+    "hanzi": "前面",
+    "pinyin": "qiánmiàn",
+    "english": "front, ahead",
+    "polish": "przed, z przodu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location",
+      "direction"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 99
+  },
+  {
+    "hanzi": "后面",
+    "pinyin": "hòumiàn",
+    "english": "behind, at the back",
+    "polish": "za, z tyłu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location",
+      "direction"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 100
+  },
+  {
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "english": "inside, in",
+    "polish": "w środku, w",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location"
+    ],
+    "partOfSpeech": "noun/preposition",
+    "frequency": 101
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "english": "today",
+    "polish": "dzisiaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 102
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "english": "tomorrow",
+    "polish": "jutro",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 103
+  },
+  {
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "english": "yesterday",
+    "polish": "wczoraj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 104
+  },
+  {
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "english": "morning",
+    "polish": "przedpołudnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 105
+  },
+  {
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "english": "noon",
+    "polish": "południe",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 106
+  },
+  {
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "english": "afternoon",
+    "polish": "popołudnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 107
+  },
+  {
+    "hanzi": "年",
+    "pinyin": "nián",
+    "english": "year",
+    "polish": "rok",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 108
+  },
+  {
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "english": "month, moon",
+    "polish": "miesiąc, księżyc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 109
+  },
+  {
+    "hanzi": "日",
+    "pinyin": "rì",
+    "english": "day, sun",
+    "polish": "dzień, słońce",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 110
+  },
+  {
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "english": "week",
+    "polish": "tydzień",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 111
+  },
+  {
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "english": "o'clock, dot",
+    "polish": "godzina, punkt",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time",
+      "classifier"
+    ],
+    "partOfSpeech": "noun/measure word",
+    "frequency": 112
+  },
+  {
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "english": "minute",
+    "polish": "minuta",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 113
+  },
+  {
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "english": "now",
+    "polish": "teraz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 114
+  },
+  {
+    "hanzi": "时候",
+    "pinyin": "shíhou",
+    "english": "time, moment",
+    "polish": "czas, moment",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 115
+  },
+  {
+    "hanzi": "号",
+    "pinyin": "hào",
+    "english": "date, number",
+    "polish": "numer, data",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time",
+      "number"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 116
+  },
+  {
+    "hanzi": "书",
+    "pinyin": "shū",
+    "english": "book",
+    "polish": "książka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "study",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 117
+  },
+  {
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "english": "Chinese language",
+    "polish": "język chiński",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "language",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 118
+  },
+  {
+    "hanzi": "字",
+    "pinyin": "zì",
+    "english": "character, word",
+    "polish": "znak, słowo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "language"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 119
+  },
+  {
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "english": "name",
+    "polish": "imię, nazwa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "identity"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 120
+  },
+  {
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "polish": "woda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 121
+  },
+  {
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "english": "tea",
+    "polish": "herbata",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 122
+  },
+  {
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "english": "cooked rice",
+    "polish": "gotowany ryż",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 123
+  },
+  {
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "english": "dish, vegetable",
+    "polish": "danie, warzywo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 124
+  },
+  {
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "english": "fruit",
+    "polish": "owoc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 125
+  },
+  {
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "english": "apple",
+    "polish": "jabłko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 126
+  },
+  {
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "english": "cup, glass",
+    "polish": "kubek, szklanka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 127
+  },
+  {
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "english": "money",
+    "polish": "pieniądze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "money"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 128
+  },
+  {
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "english": "airplane",
+    "polish": "samolot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 129
+  },
+  {
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "english": "taxi",
+    "polish": "taksówka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 130
+  },
+  {
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "english": "television",
+    "polish": "telewizja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "media"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 131
+  },
+  {
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "english": "computer",
+    "polish": "komputer",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "technology"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 132
+  },
+  {
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "english": "movie, film",
+    "polish": "film",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "media",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 133
+  },
+  {
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "english": "weather",
+    "polish": "pogoda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "weather"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 134
+  },
+  {
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "english": "cat",
+    "polish": "kot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 135
+  },
+  {
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "english": "dog",
+    "polish": "pies",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 136
+  },
+  {
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "english": "thing",
+    "polish": "rzecz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 137
+  },
+  {
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "english": "clothes",
+    "polish": "ubranie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 138
+  },
+  {
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "english": "table, desk",
+    "polish": "stół, biurko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 139
+  },
+  {
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "english": "chair",
+    "polish": "krzesło",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 140
+  },
+  {
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "english": "thank you",
+    "polish": "dziękuję",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite",
+      "essential"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 141
+  },
+  {
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "english": "you're welcome",
+    "polish": "proszę bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 142
+  },
+  {
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "english": "sorry",
+    "polish": "przepraszam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 143
+  },
+  {
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "english": "it doesn't matter",
+    "polish": "nie szkodzi",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 144
+  },
+  {
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "english": "goodbye",
+    "polish": "do widzenia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite",
+      "essential"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 145
+  },
+  {
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "english": "please",
+    "polish": "proszę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "polite"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 146
+  },
+  {
+    "hanzi": "喂",
+    "pinyin": "wèi/wéi",
+    "english": "hello (on phone)",
+    "polish": "halo (telefon)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "communication"
+    ],
+    "partOfSpeech": "interjection",
+    "frequency": 147
+  },
+  {
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "english": "some",
+    "polish": "trochę, kilka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "quantity"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 148
+  },
+  {
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "english": "how many, how much",
+    "polish": "ile",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question",
+      "quantity"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 149
+  },
+  {
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "english": "how many, several",
+    "polish": "ile, kilka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question",
+      "quantity",
+      "number"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 150
+  },
+  {
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "english": "how",
+    "polish": "jak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 151
+  },
+  {
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "english": "how about",
+    "polish": "co sądzisz, jak tam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question",
+      "expression"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 152
+  },
+  {
+    "hanzi": "一点儿",
+    "pinyin": "yīdiǎnr",
+    "english": "a little, a bit",
+    "polish": "trochę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "quantity"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 153
+  },
+  {
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "english": "to rain",
+    "polish": "padać (deszcz)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "weather"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 154
+  },
+  {
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "english": "to open, to start",
+    "polish": "otwierać, uruchamiać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 155
+  },
+  {
+    "hanzi": "关",
+    "pinyin": "guān",
+    "english": "to close",
+    "polish": "zamykać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 156
+  },
+  {
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "english": "to stand, station",
+    "polish": "stać, stacja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "verb/noun",
+    "frequency": 157
+  },
+  {
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "english": "to sit",
+    "polish": "siedzieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 158
+  },
+  {
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "english": "to walk, to go",
+    "polish": "iść, chodzić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 159
+  },
+  {
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "english": "to run",
+    "polish": "biegać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion",
+      "sport"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 160
+  },
+  {
+    "hanzi": "飞",
+    "pinyin": "fēi",
+    "english": "to fly",
+    "polish": "latać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 161
+  },
+  {
+    "hanzi": "游",
+    "pinyin": "yóu",
+    "english": "to swim, to travel",
+    "polish": "pływać, podróżować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "sport"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 162
+  },
+  {
+    "hanzi": "开车",
+    "pinyin": "kāi chē",
+    "english": "to drive",
+    "polish": "prowadzić samochód",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "transport"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 163
+  },
+  {
+    "hanzi": "骑",
+    "pinyin": "qí",
+    "english": "to ride",
+    "polish": "jeździć (konno, rowerem)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion",
+      "transport"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 164
+  },
+  {
+    "hanzi": "自行车",
+    "pinyin": "zìxíngchē",
+    "english": "bicycle",
+    "polish": "rower",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 165
+  },
+  {
+    "hanzi": "摩托车",
+    "pinyin": "mótuōchē",
+    "english": "motorcycle",
+    "polish": "motocykl",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 166
+  },
+  {
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "english": "train",
+    "polish": "pociąg",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 167
+  },
+  {
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "english": "airplane",
+    "polish": "samolot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 168
+  },
+  {
+    "hanzi": "地铁",
+    "pinyin": "dìtiě",
+    "english": "subway",
+    "polish": "metro",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 169
+  },
+  {
+    "hanzi": "公交车",
+    "pinyin": "gōngjiāochē",
+    "english": "bus",
+    "polish": "autobus",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 170
+  },
+  {
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "english": "taxi",
+    "polish": "taksówka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 171
+  },
+  {
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "english": "bank",
+    "polish": "bank",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "money"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 172
+  },
+  {
+    "hanzi": "邮局",
+    "pinyin": "yóujú",
+    "english": "post office",
+    "polish": "poczta",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 173
+  },
+  {
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "english": "supermarket",
+    "polish": "supermarket",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "shopping"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 174
+  },
+  {
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "english": "shop, store",
+    "polish": "sklep",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "shopping"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 175
+  },
+  {
+    "hanzi": "市场",
+    "pinyin": "shìchǎng",
+    "english": "market",
+    "polish": "targ, rynek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "shopping"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 176
+  },
+  {
+    "hanzi": "公园",
+    "pinyin": "gōngyuán",
+    "english": "park",
+    "polish": "park",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 177
+  },
+  {
+    "hanzi": "动物园",
+    "pinyin": "dòngwùyuán",
+    "english": "zoo",
+    "polish": "zoo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 178
+  },
+  {
+    "hanzi": "图书馆",
+    "pinyin": "túshūguǎn",
+    "english": "library",
+    "polish": "biblioteka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 179
+  },
+  {
+    "hanzi": "博物馆",
+    "pinyin": "bówùguǎn",
+    "english": "museum",
+    "polish": "muzeum",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 180
+  },
+  {
+    "hanzi": "体育馆",
+    "pinyin": "tǐyùguǎn",
+    "english": "gymnasium, stadium",
+    "polish": "hala sportowa, stadion",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 181
+  },
+  {
+    "hanzi": "游泳池",
+    "pinyin": "yóuyǒngchí",
+    "english": "swimming pool",
+    "polish": "basen",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 182
+  },
+  {
+    "hanzi": "厕所",
+    "pinyin": "cèsuǒ",
+    "english": "toilet, restroom",
+    "polish": "toaleta",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 183
+  },
+  {
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "english": "pharmacy",
+    "polish": "apteka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 184
+  },
+  {
+    "hanzi": "理发店",
+    "pinyin": "lǐfàdiàn",
+    "english": "barber shop",
+    "polish": "fryzjer",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 185
+  },
+  {
+    "hanzi": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "english": "bathroom, restroom",
+    "polish": "łazienka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 186
+  },
+  {
+    "hanzi": "卧室",
+    "pinyin": "wòshì",
+    "english": "bedroom",
+    "polish": "sypialnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 187
+  },
+  {
+    "hanzi": "客厅",
+    "pinyin": "kètīng",
+    "english": "living room",
+    "polish": "salon",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 188
+  },
+  {
+    "hanzi": "厨房",
+    "pinyin": "chúfáng",
+    "english": "kitchen",
+    "polish": "kuchnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 189
+  },
+  {
+    "hanzi": "阳台",
+    "pinyin": "yángtái",
+    "english": "balcony",
+    "polish": "balkon",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 190
+  },
+  {
+    "hanzi": "楼",
+    "pinyin": "lóu",
+    "english": "building, floor",
+    "polish": "budynek, piętro",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 191
+  },
+  {
+    "hanzi": "楼上",
+    "pinyin": "lóushàng",
+    "english": "upstairs",
+    "polish": "na górze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 192
+  },
+  {
+    "hanzi": "楼下",
+    "pinyin": "lóuxià",
+    "english": "downstairs",
+    "polish": "na dole",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 193
+  },
+  {
+    "hanzi": "电梯",
+    "pinyin": "diàntī",
+    "english": "elevator",
+    "polish": "winda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 194
+  },
+  {
+    "hanzi": "楼梯",
+    "pinyin": "lóutī",
+    "english": "stairs",
+    "polish": "schody",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 195
+  },
+  {
+    "hanzi": "窗户",
+    "pinyin": "chuānghu",
+    "english": "window",
+    "polish": "okno",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 196
+  },
+  {
+    "hanzi": "门口",
+    "pinyin": "ménkǒu",
+    "english": "doorway, entrance",
+    "polish": "wejście",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 197
+  },
+  {
+    "hanzi": "墙",
+    "pinyin": "qiáng",
+    "english": "wall",
+    "polish": "ściana",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 198
+  },
+  {
+    "hanzi": "地板",
+    "pinyin": "dìbǎn",
+    "english": "floor",
+    "polish": "podłoga",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 199
+  },
+  {
+    "hanzi": "天花板",
+    "pinyin": "tiānhuābǎn",
+    "english": "ceiling",
+    "polish": "sufit",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 200
+  },
+  {
+    "hanzi": "床",
+    "pinyin": "chuáng",
+    "english": "bed",
+    "polish": "łóżko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 201
+  },
+  {
+    "hanzi": "沙发",
+    "pinyin": "shāfā",
+    "english": "sofa",
+    "polish": "sofa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 202
+  },
+  {
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "english": "chair",
+    "polish": "krzesło",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 203
+  },
+  {
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "english": "table, desk",
+    "polish": "stół, biurko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 204
+  },
+  {
+    "hanzi": "书桌",
+    "pinyin": "shūzhuō",
+    "english": "desk",
+    "polish": "biurko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 205
+  },
+  {
+    "hanzi": "书架",
+    "pinyin": "shūjià",
+    "english": "bookshelf",
+    "polish": "półka na książki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 206
+  },
+  {
+    "hanzi": "柜子",
+    "pinyin": "guìzi",
+    "english": "cabinet, cupboard",
+    "polish": "szafka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 207
+  },
+  {
+    "hanzi": "冰箱",
+    "pinyin": "bīngxiāng",
+    "english": "refrigerator",
+    "polish": "lodówka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 208
+  },
+  {
+    "hanzi": "洗衣机",
+    "pinyin": "xǐyījī",
+    "english": "washing machine",
+    "polish": "pralka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 209
+  },
+  {
+    "hanzi": "空调",
+    "pinyin": "kōngtiáo",
+    "english": "air conditioner",
+    "polish": "klimatyzacja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 210
+  },
+  {
+    "hanzi": "风扇",
+    "pinyin": "fēngshàn",
+    "english": "fan",
+    "polish": "wiatrak, wentylator",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 211
+  },
+  {
+    "hanzi": "钟",
+    "pinyin": "zhōng",
+    "english": "clock",
+    "polish": "zegar",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 212
+  },
+  {
+    "hanzi": "镜子",
+    "pinyin": "jìngzi",
+    "english": "mirror",
+    "polish": "lustro",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 213
+  },
+  {
+    "hanzi": "照片",
+    "pinyin": "zhàopiàn",
+    "english": "photograph",
+    "polish": "zdjęcie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 214
+  },
+  {
+    "hanzi": "画",
+    "pinyin": "huà",
+    "english": "painting, to draw",
+    "polish": "obraz, rysować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "verb"
+    ],
+    "partOfSpeech": "noun/verb",
+    "frequency": 215
+  },
+  {
+    "hanzi": "地图",
+    "pinyin": "dìtú",
+    "english": "map",
+    "polish": "mapa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 216
+  },
+  {
+    "hanzi": "伞",
+    "pinyin": "sǎn",
+    "english": "umbrella",
+    "polish": "parasol",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 217
+  },
+  {
+    "hanzi": "钥匙",
+    "pinyin": "yàoshi",
+    "english": "key",
+    "polish": "klucz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 218
+  },
+  {
+    "hanzi": "锁",
+    "pinyin": "suǒ",
+    "english": "lock",
+    "polish": "zamek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 219
+  },
+  {
+    "hanzi": "刀",
+    "pinyin": "dāo",
+    "english": "knife",
+    "polish": "nóż",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 220
+  },
+  {
+    "hanzi": "叉子",
+    "pinyin": "chāzi",
+    "english": "fork",
+    "polish": "widelec",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 221
+  },
+  {
+    "hanzi": "勺子",
+    "pinyin": "sháozi",
+    "english": "spoon",
+    "polish": "łyżka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 222
+  },
+  {
+    "hanzi": "筷子",
+    "pinyin": "kuàizi",
+    "english": "chopsticks",
+    "polish": "pałeczki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 223
+  },
+  {
+    "hanzi": "盘子",
+    "pinyin": "pánzi",
+    "english": "plate",
+    "polish": "talerz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 224
+  },
+  {
+    "hanzi": "碗",
+    "pinyin": "wǎn",
+    "english": "bowl",
+    "polish": "miska",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "food",
+      "classifier"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 225
+  },
+  {
+    "hanzi": "瓶子",
+    "pinyin": "píngzi",
+    "english": "bottle",
+    "polish": "butelka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 226
+  },
+  {
+    "hanzi": "袋子",
+    "pinyin": "dàizi",
+    "english": "bag",
+    "polish": "torba, worek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 227
+  },
+  {
+    "hanzi": "箱子",
+    "pinyin": "xiāngzi",
+    "english": "box, suitcase",
+    "polish": "pudełko, walizka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 228
+  },
+  {
+    "hanzi": "礼物",
+    "pinyin": "lǐwù",
+    "english": "gift, present",
+    "polish": "prezent",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 229
+  },
+  {
+    "hanzi": "玩具",
+    "pinyin": "wánjù",
+    "english": "toy",
+    "polish": "zabawka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 230
+  },
+  {
+    "hanzi": "球",
+    "pinyin": "qiú",
+    "english": "ball",
+    "polish": "piłka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 231
+  },
+  {
+    "hanzi": "足球",
+    "pinyin": "zúqiú",
+    "english": "football, soccer",
+    "polish": "piłka nożna",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 232
+  },
+  {
+    "hanzi": "篮球",
+    "pinyin": "lánqiú",
+    "english": "basketball",
+    "polish": "koszykówka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 233
+  },
+  {
+    "hanzi": "羽毛球",
+    "pinyin": "yǔmáoqiú",
+    "english": "badminton",
+    "polish": "badminton",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 234
+  },
+  {
+    "hanzi": "乒乓球",
+    "pinyin": "pīngpāngqiú",
+    "english": "table tennis, ping pong",
+    "polish": "tenis stołowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 235
+  },
+  {
+    "hanzi": "网球",
+    "pinyin": "wǎngqiú",
+    "english": "tennis",
+    "polish": "tenis",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 236
+  },
+  {
+    "hanzi": "排球",
+    "pinyin": "páiqiú",
+    "english": "volleyball",
+    "polish": "siatkówka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 237
+  },
+  {
+    "hanzi": "游戏",
+    "pinyin": "yóuxì",
+    "english": "game",
+    "polish": "gra",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 238
+  },
+  {
+    "hanzi": "音乐",
+    "pinyin": "yīnyuè",
+    "english": "music",
+    "polish": "muzyka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 239
+  },
+  {
+    "hanzi": "歌",
+    "pinyin": "gē",
+    "english": "song",
+    "polish": "piosenka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 240
+  },
+  {
+    "hanzi": "舞",
+    "pinyin": "wǔ",
+    "english": "dance",
+    "polish": "taniec",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 241
+  },
+  {
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "english": "movie, film",
+    "polish": "film",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "entertainment",
+      "media"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 242
+  },
+  {
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "english": "television",
+    "polish": "telewizja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "media",
+      "technology"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 243
+  },
+  {
+    "hanzi": "广播",
+    "pinyin": "guǎngbō",
+    "english": "broadcast, radio",
+    "polish": "radio",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "media"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 244
+  },
+  {
+    "hanzi": "新闻",
+    "pinyin": "xīnwén",
+    "english": "news",
+    "polish": "wiadomości",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "media"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 245
+  },
+  {
+    "hanzi": "杂志",
+    "pinyin": "zázhì",
+    "english": "magazine",
+    "polish": "magazyn, czasopismo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "media"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 246
+  },
+  {
+    "hanzi": "词典",
+    "pinyin": "cídiǎn",
+    "english": "dictionary",
+    "polish": "słownik",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 247
+  },
+  {
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "english": "pen",
+    "polish": "długopis",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 248
+  },
+  {
+    "hanzi": "铅笔",
+    "pinyin": "qiānbǐ",
+    "english": "pencil",
+    "polish": "ołówek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 249
+  },
+  {
+    "hanzi": "橡皮",
+    "pinyin": "xiàngpí",
+    "english": "eraser",
+    "polish": "gumka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 250
+  },
+  {
+    "hanzi": "尺子",
+    "pinyin": "chǐzi",
+    "english": "ruler",
+    "polish": "linijka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 251
+  },
+  {
+    "hanzi": "剪刀",
+    "pinyin": "jiǎndāo",
+    "english": "scissors",
+    "polish": "nożyczki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 252
+  },
+  {
+    "hanzi": "本子",
+    "pinyin": "běnzi",
+    "english": "notebook",
+    "polish": "zeszyt",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 253
+  },
+  {
+    "hanzi": "纸",
+    "pinyin": "zhǐ",
+    "english": "paper",
+    "polish": "papier",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 254
+  },
+  {
+    "hanzi": "信",
+    "pinyin": "xìn",
+    "english": "letter",
+    "polish": "list",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 255
+  },
+  {
+    "hanzi": "邮票",
+    "pinyin": "yóupiào",
+    "english": "stamp",
+    "polish": "znaczek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 256
+  },
+  {
+    "hanzi": "卡片",
+    "pinyin": "kǎpiàn",
+    "english": "card",
+    "polish": "karta, kartka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 257
+  },
+  {
+    "hanzi": "包裹",
+    "pinyin": "bāoguǒ",
+    "english": "package, parcel",
+    "polish": "paczka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 258
+  },
+  {
+    "hanzi": "护照",
+    "pinyin": "hùzhào",
+    "english": "passport",
+    "polish": "paszport",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 259
+  },
+  {
+    "hanzi": "签证",
+    "pinyin": "qiānzhèng",
+    "english": "visa",
+    "polish": "wiza",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 260
+  },
+  {
+    "hanzi": "钱包",
+    "pinyin": "qiánbāo",
+    "english": "wallet",
+    "polish": "portfel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "money"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 261
+  },
+  {
+    "hanzi": "眼镜",
+    "pinyin": "yǎnjìng",
+    "english": "glasses",
+    "polish": "okulary",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 262
+  },
+  {
+    "hanzi": "帽子",
+    "pinyin": "màozi",
+    "english": "hat, cap",
+    "polish": "czapka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 263
+  },
+  {
+    "hanzi": "围巾",
+    "pinyin": "wéijīn",
+    "english": "scarf",
+    "polish": "szalik",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 264
+  },
+  {
+    "hanzi": "手套",
+    "pinyin": "shǒutào",
+    "english": "gloves",
+    "polish": "rękawiczki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 265
+  },
+  {
+    "hanzi": "袜子",
+    "pinyin": "wàzi",
+    "english": "socks",
+    "polish": "skarpety",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 266
+  },
+  {
+    "hanzi": "裤子",
+    "pinyin": "kùzi",
+    "english": "pants, trousers",
+    "polish": "spodnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 267
+  },
+  {
+    "hanzi": "裙子",
+    "pinyin": "qúnzi",
+    "english": "skirt",
+    "polish": "spódnica",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 268
+  },
+  {
+    "hanzi": "外套",
+    "pinyin": "wàitào",
+    "english": "coat, jacket",
+    "polish": "kurtka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 269
+  },
+  {
+    "hanzi": "T恤",
+    "pinyin": "T-xù",
+    "english": "T-shirt",
+    "polish": "koszulka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 270
+  },
+  {
+    "hanzi": "毛衣",
+    "pinyin": "máoyī",
+    "english": "sweater",
+    "polish": "sweter",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 271
+  },
+  {
+    "hanzi": "大衣",
+    "pinyin": "dàyī",
+    "english": "overcoat",
+    "polish": "płaszcz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 272
+  },
+  {
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "english": "shoes",
+    "polish": "buty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 273
+  },
+  {
+    "hanzi": "拖鞋",
+    "pinyin": "tuōxié",
+    "english": "slippers",
+    "polish": "kapcie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 274
+  },
+  {
+    "hanzi": "运动鞋",
+    "pinyin": "yùndòngxié",
+    "english": "sneakers, sports shoes",
+    "polish": "buty sportowe",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing",
+      "sport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 275
+  },
+  {
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "english": "color",
+    "polish": "kolor",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "essential"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 276
+  },
+  {
+    "hanzi": "白色",
+    "pinyin": "báisè",
+    "english": "white",
+    "polish": "biały",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 277
+  },
+  {
+    "hanzi": "黑色",
+    "pinyin": "hēisè",
+    "english": "black",
+    "polish": "czarny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 278
+  },
+  {
+    "hanzi": "红色",
+    "pinyin": "hóngsè",
+    "english": "red",
+    "polish": "czerwony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 279
+  },
+  {
+    "hanzi": "黄色",
+    "pinyin": "huángsè",
+    "english": "yellow",
+    "polish": "żółty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 280
+  },
+  {
+    "hanzi": "蓝色",
+    "pinyin": "lánsè",
+    "english": "blue",
+    "polish": "niebieski",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 281
+  },
+  {
+    "hanzi": "绿色",
+    "pinyin": "lǜsè",
+    "english": "green",
+    "polish": "zielony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 282
+  },
+  {
+    "hanzi": "紫色",
+    "pinyin": "zǐsè",
+    "english": "purple",
+    "polish": "fioletowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 283
+  },
+  {
+    "hanzi": "粉色",
+    "pinyin": "fěnsè",
+    "english": "pink",
+    "polish": "różowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 284
+  },
+  {
+    "hanzi": "灰色",
+    "pinyin": "huīsè",
+    "english": "gray",
+    "polish": "szary",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 285
+  },
+  {
+    "hanzi": "棕色",
+    "pinyin": "zōngsè",
+    "english": "brown",
+    "polish": "brązowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 286
+  },
+  {
+    "hanzi": "橙色",
+    "pinyin": "chéngsè",
+    "english": "orange",
+    "polish": "pomarańczowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 287
+  },
+  {
+    "hanzi": "银色",
+    "pinyin": "yínsè",
+    "english": "silver",
+    "polish": "srebrny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 288
+  },
+  {
+    "hanzi": "金色",
+    "pinyin": "jīnsè",
+    "english": "gold, golden",
+    "polish": "złoty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "color"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 289
+  },
+  {
+    "hanzi": "身体",
+    "pinyin": "shēntǐ",
+    "english": "body",
+    "polish": "ciało",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 290
+  },
+  {
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "english": "head",
+    "polish": "głowa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 291
+  },
+  {
+    "hanzi": "头发",
+    "pinyin": "tóufa",
+    "english": "hair",
+    "polish": "włosy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 292
+  },
+  {
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "english": "face",
+    "polish": "twarz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 293
+  },
+  {
+    "hanzi": "嘴",
+    "pinyin": "zuǐ",
+    "english": "mouth",
+    "polish": "usta",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 294
+  },
+  {
+    "hanzi": "牙齿",
+    "pinyin": "yáchǐ",
+    "english": "teeth",
+    "polish": "zęby",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 295
+  },
+  {
+    "hanzi": "舌头",
+    "pinyin": "shétou",
+    "english": "tongue",
+    "polish": "język",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 296
+  },
+  {
+    "hanzi": "脖子",
+    "pinyin": "bózi",
+    "english": "neck",
+    "polish": "szyja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 297
+  },
+  {
+    "hanzi": "肩膀",
+    "pinyin": "jiānbǎng",
+    "english": "shoulder",
+    "polish": "ramię",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 298
+  },
+  {
+    "hanzi": "胳膊",
+    "pinyin": "gēbo",
+    "english": "arm",
+    "polish": "ręka (od ramienia)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 299
+  },
+  {
+    "hanzi": "手指",
+    "pinyin": "shǒuzhǐ",
+    "english": "finger",
+    "polish": "palec",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 300
+  },
+  {
+    "hanzi": "腿",
+    "pinyin": "tuǐ",
+    "english": "leg",
+    "polish": "noga",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 301
+  },
+  {
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "english": "foot",
+    "polish": "stopa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 302
+  },
+  {
+    "hanzi": "心",
+    "pinyin": "xīn",
+    "english": "heart",
+    "polish": "serce",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body",
+      "emotion"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 303
+  },
+  {
+    "hanzi": "胃",
+    "pinyin": "wèi",
+    "english": "stomach",
+    "polish": "żołądek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 304
+  },
+  {
+    "hanzi": "肝",
+    "pinyin": "gān",
+    "english": "liver",
+    "polish": "wątroba",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 305
+  },
+  {
+    "hanzi": "肺",
+    "pinyin": "fèi",
+    "english": "lung",
+    "polish": "płuco",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 306
+  },
+  {
+    "hanzi": "血",
+    "pinyin": "xuè",
+    "english": "blood",
+    "polish": "krew",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 307
+  },
+  {
+    "hanzi": "骨头",
+    "pinyin": "gǔtou",
+    "english": "bone",
+    "polish": "kość",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "body"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 308
+  },
+  {
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "english": "rice",
+    "polish": "ryż",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 309
+  },
+  {
+    "hanzi": "面",
+    "pinyin": "miàn",
+    "english": "noodle, flour",
+    "polish": "makaron, mąka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 310
+  },
+  {
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "english": "meat",
+    "polish": "mięso",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 311
+  },
+  {
+    "hanzi": "猪肉",
+    "pinyin": "zhūròu",
+    "english": "pork",
+    "polish": "wieprzowina",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 312
+  },
+  {
+    "hanzi": "牛肉",
+    "pinyin": "niúròu",
+    "english": "beef",
+    "polish": "wołowina",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 313
+  },
+  {
+    "hanzi": "羊肉",
+    "pinyin": "yángròu",
+    "english": "mutton, lamb",
+    "polish": "baranina",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 314
+  },
+  {
+    "hanzi": "鸡肉",
+    "pinyin": "jīròu",
+    "english": "chicken",
+    "polish": "kurczak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 315
+  },
+  {
+    "hanzi": "鸭肉",
+    "pinyin": "yāròu",
+    "english": "duck meat",
+    "polish": "kaczka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 316
+  },
+  {
+    "hanzi": "蔬菜",
+    "pinyin": "shūcài",
+    "english": "vegetable",
+    "polish": "warzywa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 317
+  },
+  {
+    "hanzi": "土豆",
+    "pinyin": "tǔdòu",
+    "english": "potato",
+    "polish": "ziemniak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 318
+  },
+  {
+    "hanzi": "西红柿",
+    "pinyin": "xīhóngshì",
+    "english": "tomato",
+    "polish": "pomidor",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 319
+  },
+  {
+    "hanzi": "黄瓜",
+    "pinyin": "huángguā",
+    "english": "cucumber",
+    "polish": "ogórek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 320
+  },
+  {
+    "hanzi": "白菜",
+    "pinyin": "báicài",
+    "english": "Chinese cabbage",
+    "polish": "kapusta pekińska",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 321
+  },
+  {
+    "hanzi": "萝卜",
+    "pinyin": "luóbo",
+    "english": "radish",
+    "polish": "rzodkiewka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 322
+  },
+  {
+    "hanzi": "豆腐",
+    "pinyin": "dòufu",
+    "english": "tofu",
+    "polish": "tofu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 323
+  },
+  {
+    "hanzi": "糖",
+    "pinyin": "táng",
+    "english": "sugar, candy",
+    "polish": "cukier, cukierek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 324
+  },
+  {
+    "hanzi": "盐",
+    "pinyin": "yán",
+    "english": "salt",
+    "polish": "sól",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 325
+  },
+  {
+    "hanzi": "油",
+    "pinyin": "yóu",
+    "english": "oil",
+    "polish": "olej",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 326
+  },
+  {
+    "hanzi": "醋",
+    "pinyin": "cù",
+    "english": "vinegar",
+    "polish": "ocet",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 327
+  },
+  {
+    "hanzi": "酱油",
+    "pinyin": "jiàngyóu",
+    "english": "soy sauce",
+    "polish": "sos sojowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 328
+  },
+  {
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "english": "soup",
+    "polish": "zupa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 329
+  },
+  {
+    "hanzi": "粥",
+    "pinyin": "zhōu",
+    "english": "congee, porridge",
+    "polish": "kleik ryżowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 330
+  },
+  {
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "english": "dumpling",
+    "polish": "pierożki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 331
+  },
+  {
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "english": "steamed bun",
+    "polish": "parowana bułeczka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 332
+  },
+  {
+    "hanzi": "馒头",
+    "pinyin": "mántou",
+    "english": "steamed bread",
+    "polish": "parowany chleb",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 333
+  },
+  {
+    "hanzi": "饼",
+    "pinyin": "bǐng",
+    "english": "pancake, cake",
+    "polish": "naleśnik, ciasto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 334
+  },
+  {
+    "hanzi": "蛋糕",
+    "pinyin": "dàngāo",
+    "english": "cake",
+    "polish": "ciasto, tort",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 335
+  },
+  {
+    "hanzi": "饼干",
+    "pinyin": "bǐnggān",
+    "english": "biscuit, cookie",
+    "polish": "ciastko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 336
+  },
+  {
+    "hanzi": "巧克力",
+    "pinyin": "qiǎokèlì",
+    "english": "chocolate",
+    "polish": "czekolada",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 337
+  },
+  {
+    "hanzi": "冰淇淋",
+    "pinyin": "bīngqílín",
+    "english": "ice cream",
+    "polish": "lody",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 338
+  },
+  {
+    "hanzi": "葡萄",
+    "pinyin": "pútao",
+    "english": "grape",
+    "polish": "winogrono",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 339
+  },
+  {
+    "hanzi": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "english": "banana",
+    "polish": "banan",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 340
+  },
+  {
+    "hanzi": "橘子",
+    "pinyin": "júzi",
+    "english": "tangerine, orange",
+    "polish": "mandarynka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 341
+  },
+  {
+    "hanzi": "柠檬",
+    "pinyin": "níngméng",
+    "english": "lemon",
+    "polish": "cytryna",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 342
+  },
+  {
+    "hanzi": "草莓",
+    "pinyin": "cǎoméi",
+    "english": "strawberry",
+    "polish": "truskawka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 343
+  },
+  {
+    "hanzi": "桃子",
+    "pinyin": "táozi",
+    "english": "peach",
+    "polish": "brzoskwinia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 344
+  },
+  {
+    "hanzi": "梨",
+    "pinyin": "lí",
+    "english": "pear",
+    "polish": "gruszka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 345
+  },
+  {
+    "hanzi": "樱桃",
+    "pinyin": "yīngtáo",
+    "english": "cherry",
+    "polish": "czereśnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 346
+  },
+  {
+    "hanzi": "果汁",
+    "pinyin": "guǒzhī",
+    "english": "juice",
+    "polish": "sok",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 347
+  },
+  {
+    "hanzi": "可乐",
+    "pinyin": "kělè",
+    "english": "cola",
+    "polish": "cola",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 348
+  },
+  {
+    "hanzi": "啤酒",
+    "pinyin": "píjiǔ",
+    "english": "beer",
+    "polish": "piwo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 349
+  },
+  {
+    "hanzi": "葡萄酒",
+    "pinyin": "pútaojiǔ",
+    "english": "wine",
+    "polish": "wino",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 350
+  },
+  {
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "english": "cat",
+    "polish": "kot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 351
+  },
+  {
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "english": "dog",
+    "polish": "pies",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 352
+  },
+  {
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "english": "bird",
+    "polish": "ptak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 353
+  },
+  {
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "horse",
+    "polish": "koń",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 354
+  },
+  {
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "english": "cow, ox",
+    "polish": "krowa, wół",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 355
+  },
+  {
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "english": "sheep, goat",
+    "polish": "owca, koza",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 356
+  },
+  {
+    "hanzi": "猪",
+    "pinyin": "zhū",
+    "english": "pig",
+    "polish": "świnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 357
+  },
+  {
+    "hanzi": "鸡",
+    "pinyin": "jī",
+    "english": "chicken",
+    "polish": "kura",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 358
+  },
+  {
+    "hanzi": "鸭",
+    "pinyin": "yā",
+    "english": "duck",
+    "polish": "kaczka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 359
+  },
+  {
+    "hanzi": "兔子",
+    "pinyin": "tùzi",
+    "english": "rabbit",
+    "polish": "królik",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 360
+  },
+  {
+    "hanzi": "蛇",
+    "pinyin": "shé",
+    "english": "snake",
+    "polish": "wąż",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 361
+  },
+  {
+    "hanzi": "老虎",
+    "pinyin": "lǎohǔ",
+    "english": "tiger",
+    "polish": "tygrys",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 362
+  },
+  {
+    "hanzi": "狮子",
+    "pinyin": "shīzi",
+    "english": "lion",
+    "polish": "lew",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 363
+  },
+  {
+    "hanzi": "熊猫",
+    "pinyin": "xióngmāo",
+    "english": "panda",
+    "polish": "panda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 364
+  },
+  {
+    "hanzi": "大象",
+    "pinyin": "dàxiàng",
+    "english": "elephant",
+    "polish": "słoń",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 365
+  },
+  {
+    "hanzi": "猴子",
+    "pinyin": "hóuzi",
+    "english": "monkey",
+    "polish": "małpa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 366
+  },
+  {
+    "hanzi": "树",
+    "pinyin": "shù",
+    "english": "tree",
+    "polish": "drzewo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 367
+  },
+  {
+    "hanzi": "花",
+    "pinyin": "huā",
+    "english": "flower",
+    "polish": "kwiat",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 368
+  },
+  {
+    "hanzi": "河",
+    "pinyin": "hé",
+    "english": "river",
+    "polish": "rzeka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 369
+  },
+  {
+    "hanzi": "湖",
+    "pinyin": "hú",
+    "english": "lake",
+    "polish": "jezioro",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 370
+  },
+  {
+    "hanzi": "海",
+    "pinyin": "hǎi",
+    "english": "sea",
+    "polish": "morze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 371
+  },
+  {
+    "hanzi": "山",
+    "pinyin": "shān",
+    "english": "mountain",
+    "polish": "góra",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature",
+      "location"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 372
+  },
+  {
+    "hanzi": "太阳",
+    "pinyin": "tàiyáng",
+    "english": "sun",
+    "polish": "słońce",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature",
+      "weather"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 373
+  },
+  {
+    "hanzi": "月亮",
+    "pinyin": "yuèliang",
+    "english": "moon",
+    "polish": "księżyc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 374
+  },
+  {
+    "hanzi": "星星",
+    "pinyin": "xīngxing",
+    "english": "star",
+    "polish": "gwiazda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "nature"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 375
+  },
+  {
+    "hanzi": "云",
+    "pinyin": "yún",
+    "english": "cloud",
+    "polish": "chmura",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "weather"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 376
+  },
+  {
+    "hanzi": "风",
+    "pinyin": "fēng",
+    "english": "wind",
+    "polish": "wiatr",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "weather"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 377
+  },
+  {
+    "hanzi": "拿",
+    "pinyin": "ná",
+    "english": "to take, to hold",
+    "polish": "brać, trzymać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 378
+  },
+  {
+    "hanzi": "放",
+    "pinyin": "fàng",
+    "english": "to put, to place",
+    "polish": "kłaść",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 379
+  },
+  {
+    "hanzi": "拉",
+    "pinyin": "lā",
+    "english": "to pull",
+    "polish": "ciągnąć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 380
+  },
+  {
+    "hanzi": "推",
+    "pinyin": "tuī",
+    "english": "to push",
+    "polish": "pchać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 381
+  },
+  {
+    "hanzi": "扔",
+    "pinyin": "rēng",
+    "english": "to throw",
+    "polish": "rzucać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 382
+  },
+  {
+    "hanzi": "抓",
+    "pinyin": "zhuā",
+    "english": "to grab, to catch",
+    "polish": "chwytać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 383
+  },
+  {
+    "hanzi": "打",
+    "pinyin": "dǎ",
+    "english": "to hit, to play",
+    "polish": "bić, grać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 384
+  },
+  {
+    "hanzi": "踢",
+    "pinyin": "tī",
+    "english": "to kick",
+    "polish": "kopać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "sport"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 385
+  },
+  {
+    "hanzi": "跳",
+    "pinyin": "tiào",
+    "english": "to jump",
+    "polish": "skakać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 386
+  },
+  {
+    "hanzi": "笑",
+    "pinyin": "xiào",
+    "english": "to laugh, to smile",
+    "polish": "śmiać się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 387
+  },
+  {
+    "hanzi": "哭",
+    "pinyin": "kū",
+    "english": "to cry",
+    "polish": "płakać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 388
+  },
+  {
+    "hanzi": "唱",
+    "pinyin": "chàng",
+    "english": "to sing",
+    "polish": "śpiewać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "entertainment"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 389
+  },
+  {
+    "hanzi": "跳舞",
+    "pinyin": "tiàowǔ",
+    "english": "to dance",
+    "polish": "tańczyć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "entertainment"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 390
+  },
+  {
+    "hanzi": "大",
+    "pinyin": "dà",
+    "english": "big, large",
+    "polish": "duży",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 391
+  },
+  {
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "english": "small, little",
+    "polish": "mały",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 392
+  },
+  {
+    "hanzi": "多",
+    "pinyin": "duō",
+    "english": "many, much",
+    "polish": "dużo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "quantity",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 393
+  },
+  {
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "english": "few, little",
+    "polish": "mało",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "quantity",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 394
+  },
+  {
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "english": "long",
+    "polish": "długi",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 395
+  },
+  {
+    "hanzi": "短",
+    "pinyin": "duǎn",
+    "english": "short",
+    "polish": "krótki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 396
+  },
+  {
+    "hanzi": "胖",
+    "pinyin": "pàng",
+    "english": "fat",
+    "polish": "gruby",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "appearance"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 397
+  },
+  {
+    "hanzi": "瘦",
+    "pinyin": "shòu",
+    "english": "thin, skinny",
+    "polish": "chudy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "appearance"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 398
+  },
+  {
+    "hanzi": "厚",
+    "pinyin": "hòu",
+    "english": "thick",
+    "polish": "gruby (o grubości)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 399
+  },
+  {
+    "hanzi": "薄",
+    "pinyin": "báo",
+    "english": "thin (in thickness)",
+    "polish": "cienki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 400
+  },
+  {
+    "hanzi": "宽",
+    "pinyin": "kuān",
+    "english": "wide",
+    "polish": "szeroki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 401
+  },
+  {
+    "hanzi": "窄",
+    "pinyin": "zhǎi",
+    "english": "narrow",
+    "polish": "wąski",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 402
+  },
+  {
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "english": "happy",
+    "polish": "szczęśliwy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 403
+  },
+  {
+    "hanzi": "难过",
+    "pinyin": "nánguò",
+    "english": "sad",
+    "polish": "smutny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 404
+  },
+  {
+    "hanzi": "生气",
+    "pinyin": "shēngqì",
+    "english": "angry",
+    "polish": "zły",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 405
+  },
+  {
+    "hanzi": "害怕",
+    "pinyin": "hàipà",
+    "english": "afraid, scared",
+    "polish": "przestraszony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 406
+  },
+  {
+    "hanzi": "担心",
+    "pinyin": "dānxīn",
+    "english": "worried",
+    "polish": "zmartwiony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 407
+  },
+  {
+    "hanzi": "容易",
+    "pinyin": "róngyì",
+    "english": "easy",
+    "polish": "łatwy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 408
+  },
+  {
+    "hanzi": "难",
+    "pinyin": "nán",
+    "english": "difficult",
+    "polish": "trudny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 409
+  },
+  {
+    "hanzi": "简单",
+    "pinyin": "jiǎndān",
+    "english": "simple",
+    "polish": "prosty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 410
+  },
+  {
+    "hanzi": "复杂",
+    "pinyin": "fùzá",
+    "english": "complex",
+    "polish": "złożony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 411
+  },
+  {
+    "hanzi": "干净",
+    "pinyin": "gānjìng",
+    "english": "clean",
+    "polish": "czysty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 412
+  },
+  {
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "english": "dirty",
+    "polish": "brudny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 413
+  },
+  {
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "english": "new",
+    "polish": "nowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 414
+  },
+  {
+    "hanzi": "旧",
+    "pinyin": "jiù",
+    "english": "old (of things)",
+    "polish": "stary",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 415
+  },
+  {
+    "hanzi": "年轻",
+    "pinyin": "niánqīng",
+    "english": "young",
+    "polish": "młody",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "age"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 416
+  },
+  {
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "english": "old (of people)",
+    "polish": "stary (o ludziach)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "age"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 417
+  },
+  {
+    "hanzi": "快乐",
+    "pinyin": "kuàilè",
+    "english": "happy, joyful",
+    "polish": "radosny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 418
+  },
+  {
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "english": "beautiful",
+    "polish": "ładny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "appearance"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 419
+  },
+  {
+    "hanzi": "丑",
+    "pinyin": "chǒu",
+    "english": "ugly",
+    "polish": "brzydki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "appearance"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 420
+  },
+  {
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "english": "very",
+    "polish": "bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 421
+  },
+  {
+    "hanzi": "太",
+    "pinyin": "tài",
+    "english": "too, very",
+    "polish": "zbyt, bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 422
+  },
+  {
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "english": "really, truly",
+    "polish": "naprawdę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 423
+  },
+  {
+    "hanzi": "特别",
+    "pinyin": "tèbié",
+    "english": "especially",
+    "polish": "specjalnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 424
+  },
+  {
+    "hanzi": "非常",
+    "pinyin": "fēicháng",
+    "english": "very, extremely",
+    "polish": "bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 425
+  },
+  {
+    "hanzi": "最",
+    "pinyin": "zuì",
+    "english": "most",
+    "polish": "najbardziej",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 426
+  },
+  {
+    "hanzi": "比较",
+    "pinyin": "bǐjiào",
+    "english": "relatively, comparatively",
+    "polish": "względnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 427
+  },
+  {
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "english": "more, even more",
+    "polish": "bardziej",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 428
+  },
+  {
+    "hanzi": "也",
+    "pinyin": "yě",
+    "english": "also, too",
+    "polish": "również",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 429
+  },
+  {
+    "hanzi": "还",
+    "pinyin": "hái",
+    "english": "still, also",
+    "polish": "jeszcze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 430
+  },
+  {
+    "hanzi": "再",
+    "pinyin": "zài",
+    "english": "again",
+    "polish": "znowu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 431
+  },
+  {
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "english": "then, just",
+    "polish": "właśnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 432
+  },
+  {
+    "hanzi": "才",
+    "pinyin": "cái",
+    "english": "just, only then",
+    "polish": "dopiero",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 433
+  },
+  {
+    "hanzi": "已经",
+    "pinyin": "yǐjīng",
+    "english": "already",
+    "polish": "już",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 434
+  },
+  {
+    "hanzi": "正在",
+    "pinyin": "zhèngzài",
+    "english": "in the process of",
+    "polish": "właśnie (robić)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 435
+  },
+  {
+    "hanzi": "一起",
+    "pinyin": "yìqǐ",
+    "english": "together",
+    "polish": "razem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 436
+  },
+  {
+    "hanzi": "一边",
+    "pinyin": "yìbiān",
+    "english": "one side, while",
+    "polish": "jednocześnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 437
+  },
+  {
+    "hanzi": "一直",
+    "pinyin": "yìzhí",
+    "english": "always, straight",
+    "polish": "cały czas",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 438
+  },
+  {
+    "hanzi": "马上",
+    "pinyin": "mǎshàng",
+    "english": "immediately",
+    "polish": "natychmiast",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 439
+  },
+  {
+    "hanzi": "立刻",
+    "pinyin": "lìkè",
+    "english": "immediately",
+    "polish": "natychmiast",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 440
+  },
+  {
+    "hanzi": "和",
+    "pinyin": "hé",
+    "english": "and, with",
+    "polish": "i, z",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction",
+      "essential"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 441
+  },
+  {
+    "hanzi": "跟",
+    "pinyin": "gēn",
+    "english": "with, and",
+    "polish": "z",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "preposition"
+    ],
+    "partOfSpeech": "preposition",
+    "frequency": 442
+  },
+  {
+    "hanzi": "或者",
+    "pinyin": "huòzhě",
+    "english": "or",
+    "polish": "lub",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 443
+  },
+  {
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "english": "but",
+    "polish": "ale",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction",
+      "essential"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 444
+  },
+  {
+    "hanzi": "可是",
+    "pinyin": "kěshì",
+    "english": "but, however",
+    "polish": "jednak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 445
+  },
+  {
+    "hanzi": "因为",
+    "pinyin": "yīnwèi",
+    "english": "because",
+    "polish": "ponieważ",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction",
+      "essential"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 446
+  },
+  {
+    "hanzi": "所以",
+    "pinyin": "suǒyǐ",
+    "english": "therefore",
+    "polish": "dlatego",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction",
+      "essential"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 447
+  },
+  {
+    "hanzi": "如果",
+    "pinyin": "rúguǒ",
+    "english": "if",
+    "polish": "jeśli",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 448
+  },
+  {
+    "hanzi": "虽然",
+    "pinyin": "suīrán",
+    "english": "although",
+    "polish": "chociaż",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 449
+  },
+  {
+    "hanzi": "而且",
+    "pinyin": "érqiě",
+    "english": "moreover, and",
+    "polish": "ponadto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 450
+  },
+  {
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "english": "who, whom",
+    "polish": "kto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 451
+  },
+  {
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "english": "what",
+    "polish": "co",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 452
+  },
+  {
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "english": "which",
+    "polish": "który",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 453
+  },
+  {
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "english": "where",
+    "polish": "gdzie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 454
+  },
+  {
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "english": "how",
+    "polish": "jak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 455
+  },
+  {
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "english": "how about",
+    "polish": "jak (o czymś)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 456
+  },
+  {
+    "hanzi": "为什么",
+    "pinyin": "wèishénme",
+    "english": "why",
+    "polish": "dlaczego",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 457
+  },
+  {
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "english": "how many, how much",
+    "polish": "ile",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 458
+  },
+  {
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "english": "how many (less than 10)",
+    "polish": "ile (mniej niż 10)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "number"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 459
+  },
+  {
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "english": "this",
+    "polish": "to, ten",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 460
+  },
+  {
+    "hanzi": "那",
+    "pinyin": "nà",
+    "english": "that",
+    "polish": "tamto, tamten",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 461
+  },
+  {
+    "hanzi": "这儿",
+    "pinyin": "zhèr",
+    "english": "here",
+    "polish": "tutaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 462
+  },
+  {
+    "hanzi": "那儿",
+    "pinyin": "nàr",
+    "english": "there",
+    "polish": "tam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 463
+  },
+  {
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "english": "here",
+    "polish": "tutaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 464
+  },
+  {
+    "hanzi": "那里",
+    "pinyin": "nàlǐ",
+    "english": "there",
+    "polish": "tam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 465
+  },
+  {
+    "hanzi": "帮",
+    "pinyin": "bāng",
+    "english": "to help",
+    "polish": "pomagać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 466
+  },
+  {
+    "hanzi": "教",
+    "pinyin": "jiāo",
+    "english": "to teach",
+    "polish": "uczyć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 467
+  },
+  {
+    "hanzi": "送",
+    "pinyin": "sòng",
+    "english": "to send, to give",
+    "polish": "wysyłać, dawać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 468
+  },
+  {
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "english": "to borrow, to lend",
+    "polish": "pożyczać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 469
+  },
+  {
+    "hanzi": "还",
+    "pinyin": "huán",
+    "english": "to return (something)",
+    "polish": "zwracać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 470
+  },
+  {
+    "hanzi": "忘记",
+    "pinyin": "wàngjì",
+    "english": "to forget",
+    "polish": "zapominać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 471
+  },
+  {
+    "hanzi": "记得",
+    "pinyin": "jìde",
+    "english": "to remember",
+    "polish": "pamiętać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 472
+  },
+  {
+    "hanzi": "希望",
+    "pinyin": "xīwàng",
+    "english": "to hope, to wish",
+    "polish": "mieć nadzieję",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 473
+  },
+  {
+    "hanzi": "决定",
+    "pinyin": "juédìng",
+    "english": "to decide",
+    "polish": "decydować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 474
+  },
+  {
+    "hanzi": "选择",
+    "pinyin": "xuǎnzé",
+    "english": "to choose",
+    "polish": "wybierać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 475
+  },
+  {
+    "hanzi": "同意",
+    "pinyin": "tóngyì",
+    "english": "to agree",
+    "polish": "zgadzać się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 476
+  },
+  {
+    "hanzi": "相信",
+    "pinyin": "xiāngxìn",
+    "english": "to believe",
+    "polish": "wierzyć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 477
+  },
+  {
+    "hanzi": "检查",
+    "pinyin": "jiǎnchá",
+    "english": "to check, to examine",
+    "polish": "sprawdzać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 478
+  },
+  {
+    "hanzi": "准备",
+    "pinyin": "zhǔnbèi",
+    "english": "to prepare",
+    "polish": "przygotowywać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 479
+  },
+  {
+    "hanzi": "开始",
+    "pinyin": "kāishǐ",
+    "english": "to start, to begin",
+    "polish": "zaczynać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 480
+  },
+  {
+    "hanzi": "结束",
+    "pinyin": "jiéshù",
+    "english": "to end, to finish",
+    "polish": "kończyć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 481
+  },
+  {
+    "hanzi": "继续",
+    "pinyin": "jìxù",
+    "english": "to continue",
+    "polish": "kontynuować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 482
+  },
+  {
+    "hanzi": "停止",
+    "pinyin": "tíngzhǐ",
+    "english": "to stop",
+    "polish": "zatrzymywać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 483
+  },
+  {
+    "hanzi": "改变",
+    "pinyin": "gǎibiàn",
+    "english": "to change",
+    "polish": "zmieniać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 484
+  },
+  {
+    "hanzi": "增加",
+    "pinyin": "zēngjiā",
+    "english": "to increase",
+    "polish": "zwiększać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 485
+  },
+  {
+    "hanzi": "减少",
+    "pinyin": "jiǎnshǎo",
+    "english": "to decrease",
+    "polish": "zmniejszać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 486
+  },
+  {
+    "hanzi": "提高",
+    "pinyin": "tígāo",
+    "english": "to improve, to raise",
+    "polish": "podnosić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 487
+  },
+  {
+    "hanzi": "降低",
+    "pinyin": "jiàngdī",
+    "english": "to lower, to reduce",
+    "polish": "obniżać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 488
+  },
+  {
+    "hanzi": "保护",
+    "pinyin": "bǎohù",
+    "english": "to protect",
+    "polish": "chronić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 489
+  },
+  {
+    "hanzi": "破坏",
+    "pinyin": "pòhuài",
+    "english": "to destroy",
+    "polish": "niszczyć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 490
+  },
+  {
+    "hanzi": "事",
+    "pinyin": "shì",
+    "english": "matter, thing",
+    "polish": "sprawa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "essential"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 491
+  },
+  {
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "english": "question, problem",
+    "polish": "pytanie, problem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "essential"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 492
+  },
+  {
+    "hanzi": "办法",
+    "pinyin": "bànfǎ",
+    "english": "method, way",
+    "polish": "sposób",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 493
+  },
+  {
+    "hanzi": "机会",
+    "pinyin": "jīhuì",
+    "english": "opportunity",
+    "polish": "okazja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 494
+  },
+  {
+    "hanzi": "结果",
+    "pinyin": "jiéguǒ",
+    "english": "result",
+    "polish": "rezultat",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 495
+  },
+  {
+    "hanzi": "原因",
+    "pinyin": "yuányīn",
+    "english": "reason, cause",
+    "polish": "przyczyna",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 496
+  },
+  {
+    "hanzi": "影响",
+    "pinyin": "yǐngxiǎng",
+    "english": "influence, effect",
+    "polish": "wpływ",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "verb"
+    ],
+    "partOfSpeech": "noun/verb",
+    "frequency": 497
+  },
+  {
+    "hanzi": "重要",
+    "pinyin": "zhòngyào",
+    "english": "important",
+    "polish": "ważny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 498
+  },
+  {
+    "hanzi": "必要",
+    "pinyin": "bìyào",
+    "english": "necessary",
+    "polish": "niezbędny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 499
+  },
+  {
+    "hanzi": "可能",
+    "pinyin": "kěnéng",
+    "english": "possible, maybe",
+    "polish": "możliwy, może",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "adverb"
+    ],
+    "partOfSpeech": "adjective/adverb",
+    "frequency": 500
+  }
+]
