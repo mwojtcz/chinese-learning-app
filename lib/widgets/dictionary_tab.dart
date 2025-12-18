@@ -515,11 +515,9 @@ class _WordCard extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                            ),
-                          )),
+                            )),
                         ],
-
-                    ),
+                      ),
                     ],
                   ],
                 ),
