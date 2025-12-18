@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### To Be Added
+- Grouping words by tags in Dictionary view
+- Footer with thanks (PL/EN/CN) and feedback link
+- Spaced Repetition System (SRS)
+- HSK-3 Polish translations
+- Audio pronunciation recordings
+
+## [1.1.0] - 2025-12-18
+
 ### Added
 - **ChineseFlow** - New application name and branding
 - Settings tab with emoji animation toggle and issue reporting
@@ -15,7 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Burgundy gradient AppBar with white bottom shadow
 - Loading indicator with progress percentage in Dictionary tab
 - Async initialization ensures vocabulary loads before UI renders
-- Windows database initialization (sqflite_ffi)
+- Database schema version 2 with tags, partOfSpeech, and frequency columns
+- Wrap widget for tags to prevent overflow on narrow screens
 
 ### Changed
 - Unified HSK filter chip styling across Dictionary and My Words tabs
@@ -23,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved tab label visibility with gold color for active tabs
 - Centered ChineseFlow title in AppBar
 - Enhanced contrast for HSK filter buttons
+- Database column naming convention to camelCase
 
 ### Fixed
 - Words not loading immediately in Dictionary tab - now loads on app start
@@ -30,19 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - HSK filter buttons low contrast in My Words tab
 - Database initialization errors on Windows platform
 - Inconsistent styling between tags and part of speech labels
-
-### To Be Added
-- Grouping words by tags in Dictionary view
-- Footer with thanks (PL/EN/CN) and feedback link
-- Chinese-themed color scheme (dark + red)
-- Improved tag visibility on word cards
-- Spaced Repetition System (SRS)
-- HSK-3 Polish translations
-- Audio pronunciation recordings
-
-### To Be Fixed
-- HSK filter buttons low contrast in My Words tab
-- No minimum window width in desktop version
+- SQL errors when adding words to "My Words" (missing database columns)
+- Tag layout overflow with Row replaced by Wrap widget
 
 ## [1.0.1] - 2025-12-18
 
@@ -72,6 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Windows portable application
 - Web version (GitHub Pages)
 
-[Unreleased]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/mwojtcz/chinese-learning-app/releases/tag/v1.0.0
