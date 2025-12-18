@@ -404,8 +404,7 @@ class _WordCard extends StatelessWidget {
                     // Pinyin + Level badge
                     Row(
                       children: [
-                        Flexible(
-                          fit: FlexFit.tight,
+                        Expanded(
                           child: Text(
                             word.pinyin,
                             style: TextStyle(

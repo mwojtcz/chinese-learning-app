@@ -7,6 +7,9 @@ import 'providers/word_provider.dart';
 import 'providers/test_provider.dart';
 import 'screens/home_screen.dart';
 
+// App theme colors
+const kChineseRed = Color(0xFFE63946);
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
@@ -44,9 +47,9 @@ class MyApp extends StatelessWidget {
         ),
         darkTheme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color(0xFFE63946), // Vibrant Chinese red
+            seedColor: kChineseRed,
             brightness: Brightness.dark,
-            primary: const Color(0xFFE63946), // Vibrant Chinese red
+            primary: kChineseRed, // Vibrant Chinese red
             secondary: const Color(0xFFFFD700), // Chinese gold
             surface: const Color(0xFF1A1A1A), // Dark black
             background: const Color(0xFF0D0D0D), // Deeper black
