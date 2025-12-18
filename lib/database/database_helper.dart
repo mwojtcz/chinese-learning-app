@@ -34,7 +34,7 @@ class DatabaseHelper {
 
     return await openDatabase(
       path,
-      version: 2, // Increment version for migration
+      version: 2, // Incremented to version 2 for schema migration
       onCreate: _createDB,
       onUpgrade: _onUpgrade,
     );

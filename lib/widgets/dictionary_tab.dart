@@ -461,10 +461,10 @@ class _WordCard extends StatelessWidget {
                     // Tagi + Part of Speech
                     if (word.tags.isNotEmpty || word.partOfSpeech != null) ...[
                       const SizedBox(height: 4),
-                      Flexible(
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
+                      Wrap(
+                        spacing: 4,
+                        runSpacing: 4,
+                        children: [
                           if (word.partOfSpeech != null)
                             Container(
                               padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
@@ -491,11 +491,7 @@ class _WordCard extends StatelessWidget {
                                 ),
                               ),
                             ),
-                          if (word.partOfSpeech != null && word.tags.isNotEmpty)
-                            const SizedBox(width: 4),
-                          ...word.tags.take(2).map((tag) => Padding(
-                            padding: const EdgeInsets.only(right: 4),
-                            child: Container(
+                          ...word.tags.take(2).map((tag) => Container(
                               padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                               decoration: BoxDecoration(
                                 color: _getTagColor(tag),
@@ -522,7 +518,7 @@ class _WordCard extends StatelessWidget {
                             ),
                           )),
                         ],
-                      ),
+
                     ),
                     ],
                   ],
