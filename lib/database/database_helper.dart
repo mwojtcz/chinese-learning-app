@@ -34,9 +34,19 @@ class DatabaseHelper {
 
     return await openDatabase(
       path,
-      version: 1,
+      version: 2, // Incremented to version 2 for schema migration
       onCreate: _createDB,
+      onUpgrade: _onUpgrade,
     );
+  }
+
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    if (oldVersion < 2) {
+      // Add missing columns for version 2
+      await db.execute('ALTER TABLE my_words ADD COLUMN tags TEXT');
+      await db.execute('ALTER TABLE my_words ADD COLUMN partOfSpeech TEXT');
+      await db.execute('ALTER TABLE my_words ADD COLUMN frequency INTEGER');
+    }
   }
 
   Future<void> _createDB(Database db, int version) async {
@@ -47,6 +57,9 @@ class DatabaseHelper {
         english TEXT NOT NULL,
         polish TEXT NOT NULL,
         level TEXT NOT NULL,
+        tags TEXT,
+        partOfSpeech TEXT,
+        frequency INTEGER,
         notes TEXT,
         added_date TEXT NOT NULL
       )

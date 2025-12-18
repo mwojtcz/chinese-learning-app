@@ -112,9 +112,7 @@ class MyWordsTab extends StatelessWidget {
                       label: Text(
                         level,
                         style: TextStyle(
-                          color: isSelected
-                              ? (isDark ? Colors.white : Colors.black)
-                              : (isDark ? Colors.grey[300] : Colors.grey[700]),
+                          color: isSelected ? Colors.white : Colors.white70,
                           fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
                         ),
                       ),
@@ -122,16 +120,14 @@ class MyWordsTab extends StatelessWidget {
                       onSelected: (selected) {
                         provider.setSelectedLevel(level);
                       },
-                      backgroundColor: isDark ? Colors.grey[850] : Colors.grey[200],
-                      selectedColor: isDark 
-                          ? Theme.of(context).colorScheme.primary.withOpacity(0.3)
-                          : Theme.of(context).colorScheme.primaryContainer,
-                      checkmarkColor: isDark ? Colors.white : null,
+                      backgroundColor: Theme.of(context).colorScheme.surface.withOpacity(0.3),
+                      selectedColor: Theme.of(context).colorScheme.primary,
+                      checkmarkColor: Colors.white,
                       side: BorderSide(
-                        color: isSelected
-                            ? Theme.of(context).colorScheme.primary
-                            : (isDark ? Colors.grey[700]! : Colors.grey[400]!),
-                        width: isSelected ? 2 : 1,
+                        color: isSelected 
+                          ? Theme.of(context).colorScheme.primary
+                          : Colors.white.withOpacity(0.2),
+                        width: 1,
                       ),
                     ),
                   );

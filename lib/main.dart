@@ -1,11 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:provider/provider.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'dart:io' show Platform;
 import 'providers/word_provider.dart';
 import 'providers/test_provider.dart';
 import 'screens/home_screen.dart';
 
+// App theme colors
+const kChineseRed = Color(0xFFE63946);
+const kChineseGold = Color(0xFFFFD700);
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  
+  // Initialize sqflite for desktop platforms
+  if (!kIsWeb && (Platform.isWindows || Platform.isLinux)) {
+    sqfliteFfiInit();
+    databaseFactory = databaseFactoryFfi;
+  }
+  
   runApp(const MyApp());
 }
 
@@ -22,7 +36,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => TestProvider()),
       ],
       child: MaterialApp(
-        title: 'Nauka Chińskiego',
+        title: 'ChineseFlow',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
@@ -34,14 +48,28 @@ class MyApp extends StatelessWidget {
         ),
         darkTheme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.blueGrey,
+            seedColor: kChineseRed,
             brightness: Brightness.dark,
+            primary: kChineseRed, // Vibrant Chinese red
+            secondary: kChineseGold, // Chinese gold
+            surface: const Color(0xFF1A1A1A), // Charcoal surface
+            background: const Color(0xFF0D0D0D), // Near-black background
           ),
           useMaterial3: true,
           fontFamily: 'Roboto',
-          cardTheme: CardTheme(
-            color: Color(0xFF1E2530),
+          scaffoldBackgroundColor: const Color(0xFF0D0D0D),
+          cardTheme: const CardTheme(
+            color: Color(0xFF1A1A1A),
+            elevation: 3,
+          ),
+          appBarTheme: const AppBarTheme(
+            backgroundColor: Color(0xFF1A1A1A),
             elevation: 2,
+          ),
+          tabBarTheme: TabBarTheme(
+            labelColor: kChineseGold, // Chinese gold for active tab
+            unselectedLabelColor: Colors.white70,
+            indicatorColor: kChineseGold,
           ),
         ),
         themeMode: ThemeMode.dark, // Domyślnie ciemny motyw

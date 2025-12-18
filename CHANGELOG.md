@@ -8,18 +8,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **ChineseFlow** - New application name and branding
+- Settings tab with emoji animation toggle and issue reporting
+- Animated falling Chinese emojis (14 types: 🏮🎋🧧🎁🎊🥠🎆🧨🐉🌸🎐🍜🥟🍵)
+- Minimum window size (800x600px) for desktop version
+- Burgundy gradient AppBar with white bottom shadow
 - Loading indicator with progress percentage in Dictionary tab
 - Async initialization ensures vocabulary loads before UI renders
-- Improved HSK filter chips with better contrast in dark mode
+- Windows database initialization (sqflite_ffi)
+
+### Changed
+- Unified HSK filter chip styling across Dictionary and My Words tabs
+- Enhanced tag and part of speech styling with borders and shadows
+- Improved tab label visibility with gold color for active tabs
+- Centered ChineseFlow title in AppBar
+- Enhanced contrast for HSK filter buttons
 
 ### Fixed
 - Words not loading immediately in Dictionary tab - now loads on app start
-- Loading progress shows 0-100% with animated circular indicator
-- HSK filter buttons low contrast in My Words tab - now clearly visible with borders and proper colors
-
-### Changed
-- Filter chips now have bold text when selected
-- Border styling added to filter chips (2px selected, 1px unselected)
+- Window resize overflow issues in word cards
+- HSK filter buttons low contrast in My Words tab
+- Database initialization errors on Windows platform
+- Inconsistent styling between tags and part of speech labels
 
 ### To Be Added
 - Grouping words by tags in Dictionary view
