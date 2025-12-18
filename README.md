@@ -6,6 +6,12 @@ Aplikacja do nauki języka chińskiego oparta na standardzie HSK 3.0 (2021) od M
 ![Dart](https://img.shields.io/badge/Dart-3.5.4-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## 🌐 Demo Online
+
+**[➡️ Wypróbuj aplikację online](https://mwojtcz.github.io/chinese-learning-app/)** (wersja web)
+
+Lub pobierz aplikację Windows z sekcji [Releases](https://github.com/mwojtcz/chinese-learning-app/releases).
+
 ## ✨ Funkcje
 
 - 📚 **Słownik HSK** - 2,229 słów z poziomów HSK 1-3 (standard 3.0)
