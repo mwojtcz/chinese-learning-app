@@ -205,6 +205,47 @@ class _DictionaryTabState extends State<DictionaryTab> {
         Expanded(
           child: Consumer<WordProvider>(
             builder: (context, provider, child) {
+              // Show loading indicator
+              if (provider.isLoading) {
+                return Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      SizedBox(
+                        width: 80,
+                        height: 80,
+                        child: CircularProgressIndicator(
+                          value: provider.loadingProgress,
+                          strokeWidth: 6,
+                          backgroundColor: Colors.grey[800],
+                          valueColor: AlwaysStoppedAnimation<Color>(
+                            Theme.of(context).colorScheme.primary,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 24),
+                      Text(
+                        'Loading vocabulary...',
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.grey[400],
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        '${(provider.loadingProgress * 100).toInt()}%',
+                        style: TextStyle(
+                          fontSize: 32,
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              }
+              
               final words = provider.filteredWords;
 
               if (words.isEmpty) {

@@ -14,6 +14,10 @@ class WordProvider with ChangeNotifier {
   
   final DatabaseHelper _dbHelper = DatabaseHelper.instance;
   
+  // Loading state
+  bool _isLoading = true;
+  double _loadingProgress = 0.0;
+  
   // Cache dla filteredWords
   List<Word>? _cachedFilteredWords;
   String _lastFilterState = '';
@@ -27,6 +31,8 @@ class WordProvider with ChangeNotifier {
   String get searchQuery => _searchQuery;
   String get selectedTag => _selectedTag;
   String get selectedPartOfSpeech => _selectedPartOfSpeech;
+  bool get isLoading => _isLoading;
+  double get loadingProgress => _loadingProgress;
 
   // Get available HSK levels
   List<String> get availableLevels {
@@ -146,9 +152,21 @@ class WordProvider with ChangeNotifier {
 
   // Initialize data
   Future<void> loadData() async {
-    await _loadAllWords();
-    await _loadMyWords();
+    _isLoading = true;
+    _loadingProgress = 0.0;
     notifyListeners();
+    
+    // Load main vocabulary first (most important)
+    await _loadAllWords();
+    _loadingProgress = 1.0;
+    _isLoading = false;
+    notifyListeners();
+    
+    // Load "my words" in background (non-blocking)
+    _loadMyWords().catchError((e) {
+      debugPrint('Error loading my words: $e');
+      _myWords = [];
+    }).then((_) => notifyListeners());
   }
 
   // Load all words from JSON
@@ -171,7 +189,18 @@ class WordProvider with ChangeNotifier {
 
   // Load "my words" from database
   Future<void> _loadMyWords() async {
-    _myWords = await _dbHelper.getMyWords();
+    try {
+      _myWords = await _dbHelper.getMyWords().timeout(
+        const Duration(seconds: 5),
+        onTimeout: () {
+          debugPrint('Warning: getMyWords() timeout, returning empty list');
+          return [];
+        },
+      );
+    } catch (e) {
+      debugPrint('Error loading my words: $e');
+      _myWords = [];
+    }
   }
 
   // Add word to "my words"
