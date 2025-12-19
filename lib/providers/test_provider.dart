@@ -66,19 +66,37 @@ class TestProvider with ChangeNotifier {
   TestQuestion _createQuestion(Word word, List<Word> allWords) {
     List<String> options = [];
     String correctAnswer = '';
+    final isReverse = _config.direction == TestDirection.polishToChinese;
     
     switch (_config.mode) {
       case TestMode.multipleChoice:
-        correctAnswer = word.polishTranslation;
-        options = [correctAnswer];
-        
-        // Dodaj 3 losowe niepoprawne odpowiedzi
-        final otherWords = allWords.where((w) => w.hanzi != word.hanzi).toList();
-        otherWords.shuffle(_random);
-        
-        for (var i = 0; i < 3 && i < otherWords.length; i++) {
-          if (!options.contains(otherWords[i].polishTranslation)) {
-            options.add(otherWords[i].polishTranslation);
+        if (isReverse) {
+          // Polish → Chinese: pokazuj polskie, odpowiedź to hanzi
+          correctAnswer = word.hanzi;
+          options = [correctAnswer];
+          
+          // Dodaj 3 losowe niepoprawne odpowiedzi (inne hanzi)
+          final otherWords = allWords.where((w) => w.hanzi != word.hanzi).toList();
+          otherWords.shuffle(_random);
+          
+          for (var i = 0; i < 3 && i < otherWords.length; i++) {
+            if (!options.contains(otherWords[i].hanzi)) {
+              options.add(otherWords[i].hanzi);
+            }
+          }
+        } else {
+          // Chinese → Polish: pokazuj hanzi, odpowiedź to polskie
+          correctAnswer = word.polishTranslation;
+          options = [correctAnswer];
+          
+          // Dodaj 3 losowe niepoprawne odpowiedzi
+          final otherWords = allWords.where((w) => w.hanzi != word.hanzi).toList();
+          otherWords.shuffle(_random);
+          
+          for (var i = 0; i < 3 && i < otherWords.length; i++) {
+            if (!options.contains(otherWords[i].polishTranslation)) {
+              options.add(otherWords[i].polishTranslation);
+            }
           }
         }
         
@@ -86,7 +104,7 @@ class TestProvider with ChangeNotifier {
         break;
       
       case TestMode.typing:
-        correctAnswer = word.hanzi;
+        correctAnswer = isReverse ? word.hanzi : word.polishTranslation;
         break;
       
       case TestMode.flashcard:

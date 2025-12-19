@@ -3,6 +3,7 @@ class TestConfig {
   final List<String> selectedTags;
   final int questionCount;
   final TestMode mode;
+  final TestDirection direction;
   final bool includeLearnedWords;
 
   TestConfig({
@@ -10,6 +11,7 @@ class TestConfig {
     this.selectedTags = const [],
     this.questionCount = 10,
     this.mode = TestMode.multipleChoice,
+    this.direction = TestDirection.chineseToPolish,
     this.includeLearnedWords = false,
   });
 
@@ -18,6 +20,7 @@ class TestConfig {
     List<String>? selectedTags,
     int? questionCount,
     TestMode? mode,
+    TestDirection? direction,
     bool? includeLearnedWords,
   }) {
     return TestConfig(
@@ -25,9 +28,15 @@ class TestConfig {
       selectedTags: selectedTags ?? this.selectedTags,
       questionCount: questionCount ?? this.questionCount,
       mode: mode ?? this.mode,
+      direction: direction ?? this.direction,
       includeLearnedWords: includeLearnedWords ?? this.includeLearnedWords,
     );
   }
+}
+
+enum TestDirection {
+  chineseToPolish,  // Chinese → Polish (default)
+  polishToChinese,  // Polish → Chinese (reverse)
 }
 
 enum TestMode {
