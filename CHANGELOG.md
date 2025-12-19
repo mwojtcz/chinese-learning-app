@@ -10,9 +10,80 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### To Be Added
 - Grouping words by tags in Dictionary view
 - Footer with thanks (PL/EN/CN) and feedback link
-- Spaced Repetition System (SRS)
 - Audio pronunciation recordings
 - HSK 5-6 vocabulary (2,211 additional words)
+- Expand Chengyu database with more idioms
+- SRS (Spaced Repetition System)
+- Advanced test types (Fill-in-the-Blank, Matching Pairs, Sentence Building)
+- Statistics dashboard with charts
+- Dark mode toggle in settings
+
+## [1.4.0] - 2025-12-19
+
+### Added
+- **Chengyu Learning Screen** 🎋 - New dedicated tab for Chinese idioms
+  - 5 curated chengyu with literal and actual meanings
+  - Example sentences for each idiom
+  - Beautiful card-based layout with color-coded sections
+  - Includes: 画蛇添足, 守株待兔, 亡羊补牢, 井底之蛙, 滥竽充数
+- **Smooth Page Transitions** - AnimatedSwitcher with 300ms fade effect
+  - Eliminates jarring screen switches
+  - Elegant fade in/out animations
+  - Improved UX with easeInOut curves
+
+### Changed
+- **Complete UI Redesign** - Dark theme with improved readability
+  - Dashboard: Compact two-column layout (Quick Actions left, Stats right)
+  - Stats cards: Row-based design instead of grid
+  - All cards: Dark grey (`grey.shade800/900`) background
+  - Significantly increased font sizes across the entire app (14-36px range)
+  - Drawer menu: Dark background with better contrast
+  - Menu items: Larger icons (30px) and text (17px)
+  - Selected items: Gold icon + white bold text
+  - Locked features: Visible grey with lock icons
+- **Dashboard Layout Optimization**
+  - Quick Actions: Single large card with 3 buttons (left, 2/3 width)
+  - Stats: 4 compact cards stacked vertically (right, 1/3 width)
+  - All widgets: Reduced padding and spacing for compact view
+  - Grid aspect ratio: 3.5 for ultra-flat stat cards
+  - Navigation buttons now functional (link to Dictionary, Tests, My Words)
+- **Typography Improvements**
+  - Welcome header: 36px (was 24px)
+  - Streak counter: 18px title, 36px emoji
+  - Quick actions: 20px title, 17px buttons
+  - Stats: 22px emoji, 19px values, 14px labels
+  - Chengyu: 28px Chinese, 16px pinyin, 15px descriptions
+  - Drawer: 34px header, 17px menu items
+
+### Removed
+- Gradient backgrounds from drawer (replaced with solid dark theme)
+- White/light card backgrounds (replaced with dark grey)
+
+## [1.3.0] - 2025-12-19
+
+### Added
+- **Dashboard/Home Screen** - Complete redesign with actionable insights
+  - Welcome header with time-based greeting (早上好/下午好/晚上好)
+  - Study streak counter with fire emoji 🔥
+  - Quick stats grid (Total Words, My Words, To Review, Accuracy)
+  - Quick action buttons (Continue Learning, Daily Practice, Review Weak Words)
+  - Progress chart placeholder (7-day/30-day view coming soon)
+  - Chengyu of the Day widget 🎋 (example: 画蛇添足)
+- **Hamburger Menu Navigation** 🍔 - Drawer-based navigation replacing tabs
+  - Home (Dashboard)
+  - Dictionary (HSK vocabulary)
+  - My Words (saved words)
+  - Tests (practice & review)
+  - Settings (preferences)
+  - Placeholders for Chengyu, Statistics, SRS Review (coming soon)
+- **Active route highlighting** - Visual feedback for current screen
+- **Gradient drawer header** - Burgundy branding with app description
+
+### Changed
+- **Navigation paradigm** - Tabs replaced with drawer menu for scalability
+- **Screen structure** - Dedicated screens instead of tab widgets
+- **Title updates dynamically** - AppBar shows current screen name
+- **Better information architecture** - Clearer separation of features
 
 ## [1.2.0] - 2025-12-19
 
