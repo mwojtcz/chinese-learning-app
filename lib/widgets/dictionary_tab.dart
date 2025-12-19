@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/word_provider.dart';
 import '../models/word.dart';
+import 'chinese_text.dart';
 
 class DictionaryTab extends StatefulWidget {
   const DictionaryTab({super.key});
@@ -371,8 +372,9 @@ class _WordCard extends StatelessWidget {
                 ),
               ),
               child: Center(
-                child: Text(
+                child: ChineseText(
                   word.hanzi,
+                  traditional: word.traditional,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: word.hanzi.length == 1 ? 52 : (word.hanzi.length == 2 ? 36 : 28),

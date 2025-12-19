@@ -11,6 +11,9 @@ import '../main.dart' show kChineseGold;
 // Global notifier for emoji state
 final emojiEnabledNotifier = ValueNotifier<bool>(true);
 
+// Global notifier for Traditional Chinese mode
+final traditionalChineseNotifier = ValueNotifier<bool>(false);
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 

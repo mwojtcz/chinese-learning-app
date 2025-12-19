@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/test_provider.dart';
 import '../providers/word_provider.dart';
 import '../models/test_config.dart';
+import 'chinese_text.dart';
 
 class TestTab extends StatelessWidget {
   const TestTab({super.key});

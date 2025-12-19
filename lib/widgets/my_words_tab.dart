@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/word_provider.dart';
 import '../models/word.dart';
 import 'add_word_dialog.dart';
+import 'chinese_text.dart';
 
 class MyWordsTab extends StatelessWidget {
   const MyWordsTab({super.key});
@@ -275,8 +276,9 @@ class _MyWordCard extends StatelessWidget {
                         ),
                         const SizedBox(width: 12),
                         // Hanzi
-                        Text(
+                        ChineseText(
                           word.hanzi,
+                          traditional: word.traditional,
                           style: const TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
