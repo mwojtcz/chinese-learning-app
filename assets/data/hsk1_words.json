@@ -11,7 +11,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 1
+    "frequency": 1,
+    "traditional": "一"
   },
   {
     "hanzi": "二",
@@ -25,7 +26,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 2
+    "frequency": 2,
+    "traditional": "二"
   },
   {
     "hanzi": "三",
@@ -39,7 +41,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 3
+    "frequency": 3,
+    "traditional": "三"
   },
   {
     "hanzi": "四",
@@ -53,7 +56,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 4
+    "frequency": 4,
+    "traditional": "四"
   },
   {
     "hanzi": "五",
@@ -67,7 +71,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 5
+    "frequency": 5,
+    "traditional": "五"
   },
   {
     "hanzi": "六",
@@ -81,7 +86,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 6
+    "frequency": 6,
+    "traditional": "六"
   },
   {
     "hanzi": "七",
@@ -95,7 +101,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 7
+    "frequency": 7,
+    "traditional": "七"
   },
   {
     "hanzi": "八",
@@ -109,7 +116,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 8
+    "frequency": 8,
+    "traditional": "八"
   },
   {
     "hanzi": "九",
@@ -123,7 +131,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 9
+    "frequency": 9,
+    "traditional": "九"
   },
   {
     "hanzi": "十",
@@ -137,7 +146,8 @@
       "essential"
     ],
     "partOfSpeech": "numeral",
-    "frequency": 10
+    "frequency": 10,
+    "traditional": "十"
   },
   {
     "hanzi": "个",
@@ -151,7 +161,8 @@
       "essential"
     ],
     "partOfSpeech": "measure word",
-    "frequency": 11
+    "frequency": 11,
+    "traditional": "個"
   },
   {
     "hanzi": "本",
@@ -164,7 +175,8 @@
       "classifier"
     ],
     "partOfSpeech": "measure word",
-    "frequency": 12
+    "frequency": 12,
+    "traditional": "本"
   },
   {
     "hanzi": "杯",
@@ -178,7 +190,8 @@
       "drink"
     ],
     "partOfSpeech": "noun/measure word",
-    "frequency": 13
+    "frequency": 13,
+    "traditional": "杯"
   },
   {
     "hanzi": "块",
@@ -192,7 +205,8 @@
       "money"
     ],
     "partOfSpeech": "measure word",
-    "frequency": 14
+    "frequency": 14,
+    "traditional": "塊"
   },
   {
     "hanzi": "岁",
@@ -207,7 +221,8 @@
       "time"
     ],
     "partOfSpeech": "measure word",
-    "frequency": 15
+    "frequency": 15,
+    "traditional": "歲"
   },
   {
     "hanzi": "我",
@@ -221,7 +236,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 16
+    "frequency": 16,
+    "traditional": "我"
   },
   {
     "hanzi": "你",
@@ -235,7 +251,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 17
+    "frequency": 17,
+    "traditional": "你"
   },
   {
     "hanzi": "他",
@@ -249,7 +266,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 18
+    "frequency": 18,
+    "traditional": "他"
   },
   {
     "hanzi": "她",
@@ -263,7 +281,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 19
+    "frequency": 19,
+    "traditional": "她"
   },
   {
     "hanzi": "我们",
@@ -276,7 +295,8 @@
       "pronoun"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 20
+    "frequency": 20,
+    "traditional": "我們"
   },
   {
     "hanzi": "谁",
@@ -290,7 +310,8 @@
       "question"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 21
+    "frequency": 21,
+    "traditional": "誰"
   },
   {
     "hanzi": "什么",
@@ -304,7 +325,8 @@
       "question"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 22
+    "frequency": 22,
+    "traditional": "什麼"
   },
   {
     "hanzi": "哪",
@@ -318,7 +340,8 @@
       "question"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 23
+    "frequency": 23,
+    "traditional": "哪"
   },
   {
     "hanzi": "哪儿",
@@ -333,7 +356,8 @@
       "location"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 24
+    "frequency": 24,
+    "traditional": "哪兒"
   },
   {
     "hanzi": "这",
@@ -347,7 +371,8 @@
       "demonstrative"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 25
+    "frequency": 25,
+    "traditional": "這"
   },
   {
     "hanzi": "那",
@@ -361,7 +386,8 @@
       "demonstrative"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 26
+    "frequency": 26,
+    "traditional": "那"
   },
   {
     "hanzi": "是",
@@ -375,7 +401,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 27
+    "frequency": 27,
+    "traditional": "是"
   },
   {
     "hanzi": "有",
@@ -389,7 +416,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 28
+    "frequency": 28,
+    "traditional": "有"
   },
   {
     "hanzi": "在",
@@ -404,7 +432,8 @@
       "essential"
     ],
     "partOfSpeech": "verb/preposition",
-    "frequency": 29
+    "frequency": 29,
+    "traditional": "在"
   },
   {
     "hanzi": "会",
@@ -418,7 +447,8 @@
       "auxiliary"
     ],
     "partOfSpeech": "auxiliary verb",
-    "frequency": 30
+    "frequency": 30,
+    "traditional": "會"
   },
   {
     "hanzi": "能",
@@ -432,7 +462,8 @@
       "auxiliary"
     ],
     "partOfSpeech": "auxiliary verb",
-    "frequency": 31
+    "frequency": 31,
+    "traditional": "能"
   },
   {
     "hanzi": "吃",
@@ -447,7 +478,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 32
+    "frequency": 32,
+    "traditional": "喫"
   },
   {
     "hanzi": "喝",
@@ -462,7 +494,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 33
+    "frequency": 33,
+    "traditional": "喝"
   },
   {
     "hanzi": "看",
@@ -476,7 +509,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 34
+    "frequency": 34,
+    "traditional": "看"
   },
   {
     "hanzi": "看见",
@@ -489,7 +523,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 35
+    "frequency": 35,
+    "traditional": "看見"
   },
   {
     "hanzi": "听",
@@ -503,7 +538,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 36
+    "frequency": 36,
+    "traditional": "聽"
   },
   {
     "hanzi": "说",
@@ -517,7 +553,8 @@
       "communication"
     ],
     "partOfSpeech": "verb",
-    "frequency": 37
+    "frequency": 37,
+    "traditional": "說"
   },
   {
     "hanzi": "读",
@@ -531,7 +568,8 @@
       "study"
     ],
     "partOfSpeech": "verb",
-    "frequency": 38
+    "frequency": 38,
+    "traditional": "讀"
   },
   {
     "hanzi": "写",
@@ -545,7 +583,8 @@
       "study"
     ],
     "partOfSpeech": "verb",
-    "frequency": 39
+    "frequency": 39,
+    "traditional": "寫"
   },
   {
     "hanzi": "学习",
@@ -559,7 +598,8 @@
       "study"
     ],
     "partOfSpeech": "verb",
-    "frequency": 40
+    "frequency": 40,
+    "traditional": "學習"
   },
   {
     "hanzi": "工作",
@@ -574,7 +614,8 @@
       "work"
     ],
     "partOfSpeech": "verb/noun",
-    "frequency": 41
+    "frequency": 41,
+    "traditional": "工作"
   },
   {
     "hanzi": "来",
@@ -588,7 +629,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 42
+    "frequency": 42,
+    "traditional": "來"
   },
   {
     "hanzi": "去",
@@ -602,7 +644,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 43
+    "frequency": 43,
+    "traditional": "去"
   },
   {
     "hanzi": "回",
@@ -616,7 +659,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 44
+    "frequency": 44,
+    "traditional": "回"
   },
   {
     "hanzi": "开",
@@ -629,7 +673,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 45
+    "frequency": 45,
+    "traditional": "開"
   },
   {
     "hanzi": "坐",
@@ -643,7 +688,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 46
+    "frequency": 46,
+    "traditional": "坐"
   },
   {
     "hanzi": "住",
@@ -657,7 +703,8 @@
       "housing"
     ],
     "partOfSpeech": "verb",
-    "frequency": 47
+    "frequency": 47,
+    "traditional": "住"
   },
   {
     "hanzi": "睡觉",
@@ -671,7 +718,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 48
+    "frequency": 48,
+    "traditional": "睡覺"
   },
   {
     "hanzi": "做",
@@ -685,7 +733,8 @@
       "daily"
     ],
     "partOfSpeech": "verb",
-    "frequency": 49
+    "frequency": 49,
+    "traditional": "做"
   },
   {
     "hanzi": "买",
@@ -699,7 +748,8 @@
       "shopping"
     ],
     "partOfSpeech": "verb",
-    "frequency": 50
+    "frequency": 50,
+    "traditional": "買"
   },
   {
     "hanzi": "打电话",
@@ -713,7 +763,8 @@
       "communication"
     ],
     "partOfSpeech": "verb phrase",
-    "frequency": 51
+    "frequency": 51,
+    "traditional": "打電話"
   },
   {
     "hanzi": "认识",
@@ -727,7 +778,8 @@
       "social"
     ],
     "partOfSpeech": "verb",
-    "frequency": 52
+    "frequency": 52,
+    "traditional": "認識"
   },
   {
     "hanzi": "喜欢",
@@ -741,7 +793,8 @@
       "emotion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 53
+    "frequency": 53,
+    "traditional": "喜歡"
   },
   {
     "hanzi": "爱",
@@ -755,7 +808,8 @@
       "emotion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 54
+    "frequency": 54,
+    "traditional": "愛"
   },
   {
     "hanzi": "想",
@@ -769,7 +823,8 @@
       "thinking"
     ],
     "partOfSpeech": "verb",
-    "frequency": 55
+    "frequency": 55,
+    "traditional": "想"
   },
   {
     "hanzi": "叫",
@@ -783,7 +838,8 @@
       "identity"
     ],
     "partOfSpeech": "verb",
-    "frequency": 56
+    "frequency": 56,
+    "traditional": "叫"
   },
   {
     "hanzi": "不",
@@ -798,7 +854,8 @@
       "essential"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 57
+    "frequency": 57,
+    "traditional": "不"
   },
   {
     "hanzi": "没有",
@@ -812,7 +869,8 @@
       "negation"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 58
+    "frequency": 58,
+    "traditional": "沒有"
   },
   {
     "hanzi": "很",
@@ -826,7 +884,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 59
+    "frequency": 59,
+    "traditional": "很"
   },
   {
     "hanzi": "太",
@@ -840,7 +899,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 60
+    "frequency": 60,
+    "traditional": "太"
   },
   {
     "hanzi": "都",
@@ -854,7 +914,8 @@
       "scope"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 61
+    "frequency": 61,
+    "traditional": "都"
   },
   {
     "hanzi": "也",
@@ -867,7 +928,8 @@
       "adverb"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 62
+    "frequency": 62,
+    "traditional": "也"
   },
   {
     "hanzi": "好",
@@ -881,7 +943,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 63
+    "frequency": 63,
+    "traditional": "好"
   },
   {
     "hanzi": "大",
@@ -895,7 +958,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 64
+    "frequency": 64,
+    "traditional": "大"
   },
   {
     "hanzi": "小",
@@ -909,7 +973,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 65
+    "frequency": 65,
+    "traditional": "小"
   },
   {
     "hanzi": "多",
@@ -923,7 +988,8 @@
       "quantity"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 66
+    "frequency": 66,
+    "traditional": "多"
   },
   {
     "hanzi": "少",
@@ -937,7 +1003,8 @@
       "quantity"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 67
+    "frequency": 67,
+    "traditional": "少"
   },
   {
     "hanzi": "冷",
@@ -952,7 +1019,8 @@
       "weather"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 68
+    "frequency": 68,
+    "traditional": "冷"
   },
   {
     "hanzi": "热",
@@ -967,7 +1035,8 @@
       "weather"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 69
+    "frequency": 69,
+    "traditional": "熱"
   },
   {
     "hanzi": "高兴",
@@ -981,7 +1050,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 70
+    "frequency": 70,
+    "traditional": "高興"
   },
   {
     "hanzi": "漂亮",
@@ -995,7 +1065,8 @@
       "appearance"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 71
+    "frequency": 71,
+    "traditional": "漂亮"
   },
   {
     "hanzi": "的",
@@ -1010,7 +1081,8 @@
       "grammar"
     ],
     "partOfSpeech": "particle",
-    "frequency": 72
+    "frequency": 72,
+    "traditional": "的"
   },
   {
     "hanzi": "了",
@@ -1025,7 +1097,8 @@
       "grammar"
     ],
     "partOfSpeech": "particle",
-    "frequency": 73
+    "frequency": 73,
+    "traditional": "了"
   },
   {
     "hanzi": "吗",
@@ -1040,7 +1113,8 @@
       "grammar"
     ],
     "partOfSpeech": "particle",
-    "frequency": 74
+    "frequency": 74,
+    "traditional": "嗎"
   },
   {
     "hanzi": "呢",
@@ -1055,7 +1129,8 @@
       "grammar"
     ],
     "partOfSpeech": "particle",
-    "frequency": 75
+    "frequency": 75,
+    "traditional": "呢"
   },
   {
     "hanzi": "和",
@@ -1069,7 +1144,8 @@
       "essential"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 76
+    "frequency": 76,
+    "traditional": "和"
   },
   {
     "hanzi": "人",
@@ -1083,7 +1159,8 @@
       "people"
     ],
     "partOfSpeech": "noun",
-    "frequency": 77
+    "frequency": 77,
+    "traditional": "人"
   },
   {
     "hanzi": "爸爸",
@@ -1097,7 +1174,8 @@
       "family"
     ],
     "partOfSpeech": "noun",
-    "frequency": 78
+    "frequency": 78,
+    "traditional": "爸爸"
   },
   {
     "hanzi": "妈妈",
@@ -1111,7 +1189,8 @@
       "family"
     ],
     "partOfSpeech": "noun",
-    "frequency": 79
+    "frequency": 79,
+    "traditional": "媽媽"
   },
   {
     "hanzi": "儿子",
@@ -1125,7 +1204,8 @@
       "family"
     ],
     "partOfSpeech": "noun",
-    "frequency": 80
+    "frequency": 80,
+    "traditional": "兒子"
   },
   {
     "hanzi": "女儿",
@@ -1139,7 +1219,8 @@
       "family"
     ],
     "partOfSpeech": "noun",
-    "frequency": 81
+    "frequency": 81,
+    "traditional": "女兒"
   },
   {
     "hanzi": "朋友",
@@ -1153,7 +1234,8 @@
       "social"
     ],
     "partOfSpeech": "noun",
-    "frequency": 82
+    "frequency": 82,
+    "traditional": "朋友"
   },
   {
     "hanzi": "同学",
@@ -1168,7 +1250,8 @@
       "social"
     ],
     "partOfSpeech": "noun",
-    "frequency": 83
+    "frequency": 83,
+    "traditional": "同學"
   },
   {
     "hanzi": "老师",
@@ -1183,7 +1266,8 @@
       "occupation"
     ],
     "partOfSpeech": "noun",
-    "frequency": 84
+    "frequency": 84,
+    "traditional": "老師"
   },
   {
     "hanzi": "学生",
@@ -1198,7 +1282,8 @@
       "occupation"
     ],
     "partOfSpeech": "noun",
-    "frequency": 85
+    "frequency": 85,
+    "traditional": "學生"
   },
   {
     "hanzi": "医生",
@@ -1213,7 +1298,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 86
+    "frequency": 86,
+    "traditional": "醫生"
   },
   {
     "hanzi": "先生",
@@ -1227,7 +1313,8 @@
       "title"
     ],
     "partOfSpeech": "noun",
-    "frequency": 87
+    "frequency": 87,
+    "traditional": "先生"
   },
   {
     "hanzi": "小姐",
@@ -1241,7 +1328,8 @@
       "title"
     ],
     "partOfSpeech": "noun",
-    "frequency": 88
+    "frequency": 88,
+    "traditional": "小姐"
   },
   {
     "hanzi": "家",
@@ -1256,7 +1344,8 @@
       "family"
     ],
     "partOfSpeech": "noun",
-    "frequency": 89
+    "frequency": 89,
+    "traditional": "家"
   },
   {
     "hanzi": "学校",
@@ -1271,7 +1360,8 @@
       "place"
     ],
     "partOfSpeech": "noun",
-    "frequency": 90
+    "frequency": 90,
+    "traditional": "學校"
   },
   {
     "hanzi": "商店",
@@ -1286,7 +1376,8 @@
       "shopping"
     ],
     "partOfSpeech": "noun",
-    "frequency": 91
+    "frequency": 91,
+    "traditional": "商店"
   },
   {
     "hanzi": "饭店",
@@ -1301,7 +1392,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 92
+    "frequency": 92,
+    "traditional": "飯店"
   },
   {
     "hanzi": "医院",
@@ -1316,7 +1408,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 93
+    "frequency": 93,
+    "traditional": "醫院"
   },
   {
     "hanzi": "火车站",
@@ -1331,7 +1424,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 94
+    "frequency": 94,
+    "traditional": "火車站"
   },
   {
     "hanzi": "中国",
@@ -1346,7 +1440,8 @@
       "country"
     ],
     "partOfSpeech": "proper noun",
-    "frequency": 95
+    "frequency": 95,
+    "traditional": "中國"
   },
   {
     "hanzi": "北京",
@@ -1361,7 +1456,8 @@
       "city"
     ],
     "partOfSpeech": "proper noun",
-    "frequency": 96
+    "frequency": 96,
+    "traditional": "北京"
   },
   {
     "hanzi": "上",
@@ -1376,7 +1472,8 @@
       "direction"
     ],
     "partOfSpeech": "noun/preposition",
-    "frequency": 97
+    "frequency": 97,
+    "traditional": "上"
   },
   {
     "hanzi": "下",
@@ -1391,7 +1488,8 @@
       "direction"
     ],
     "partOfSpeech": "noun/preposition",
-    "frequency": 98
+    "frequency": 98,
+    "traditional": "下"
   },
   {
     "hanzi": "前面",
@@ -1406,7 +1504,8 @@
       "direction"
     ],
     "partOfSpeech": "noun",
-    "frequency": 99
+    "frequency": 99,
+    "traditional": "前面"
   },
   {
     "hanzi": "后面",
@@ -1421,7 +1520,8 @@
       "direction"
     ],
     "partOfSpeech": "noun",
-    "frequency": 100
+    "frequency": 100,
+    "traditional": "後面"
   },
   {
     "hanzi": "里",
@@ -1435,7 +1535,8 @@
       "location"
     ],
     "partOfSpeech": "noun/preposition",
-    "frequency": 101
+    "frequency": 101,
+    "traditional": "裏"
   },
   {
     "hanzi": "今天",
@@ -1449,7 +1550,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 102
+    "frequency": 102,
+    "traditional": "今天"
   },
   {
     "hanzi": "明天",
@@ -1463,7 +1565,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 103
+    "frequency": 103,
+    "traditional": "明天"
   },
   {
     "hanzi": "昨天",
@@ -1477,7 +1580,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 104
+    "frequency": 104,
+    "traditional": "昨天"
   },
   {
     "hanzi": "上午",
@@ -1491,7 +1595,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 105
+    "frequency": 105,
+    "traditional": "上午"
   },
   {
     "hanzi": "中午",
@@ -1505,7 +1610,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 106
+    "frequency": 106,
+    "traditional": "中午"
   },
   {
     "hanzi": "下午",
@@ -1519,7 +1625,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 107
+    "frequency": 107,
+    "traditional": "下午"
   },
   {
     "hanzi": "年",
@@ -1533,7 +1640,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 108
+    "frequency": 108,
+    "traditional": "年"
   },
   {
     "hanzi": "月",
@@ -1547,7 +1655,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 109
+    "frequency": 109,
+    "traditional": "月"
   },
   {
     "hanzi": "日",
@@ -1561,7 +1670,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 110
+    "frequency": 110,
+    "traditional": "日"
   },
   {
     "hanzi": "星期",
@@ -1575,7 +1685,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 111
+    "frequency": 111,
+    "traditional": "星期"
   },
   {
     "hanzi": "点",
@@ -1590,7 +1701,8 @@
       "classifier"
     ],
     "partOfSpeech": "noun/measure word",
-    "frequency": 112
+    "frequency": 112,
+    "traditional": "點"
   },
   {
     "hanzi": "分钟",
@@ -1604,7 +1716,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 113
+    "frequency": 113,
+    "traditional": "分鐘"
   },
   {
     "hanzi": "现在",
@@ -1618,7 +1731,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 114
+    "frequency": 114,
+    "traditional": "現在"
   },
   {
     "hanzi": "时候",
@@ -1632,7 +1746,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 115
+    "frequency": 115,
+    "traditional": "時候"
   },
   {
     "hanzi": "号",
@@ -1647,7 +1762,8 @@
       "number"
     ],
     "partOfSpeech": "noun",
-    "frequency": 116
+    "frequency": 116,
+    "traditional": "號"
   },
   {
     "hanzi": "书",
@@ -1662,7 +1778,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 117
+    "frequency": 117,
+    "traditional": "書"
   },
   {
     "hanzi": "汉语",
@@ -1677,7 +1794,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 118
+    "frequency": 118,
+    "traditional": "漢語"
   },
   {
     "hanzi": "字",
@@ -1691,7 +1809,8 @@
       "language"
     ],
     "partOfSpeech": "noun",
-    "frequency": 119
+    "frequency": 119,
+    "traditional": "字"
   },
   {
     "hanzi": "名字",
@@ -1705,7 +1824,8 @@
       "identity"
     ],
     "partOfSpeech": "noun",
-    "frequency": 120
+    "frequency": 120,
+    "traditional": "名字"
   },
   {
     "hanzi": "水",
@@ -1719,7 +1839,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 121
+    "frequency": 121,
+    "traditional": "水"
   },
   {
     "hanzi": "茶",
@@ -1733,7 +1854,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 122
+    "frequency": 122,
+    "traditional": "茶"
   },
   {
     "hanzi": "米饭",
@@ -1747,7 +1869,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 123
+    "frequency": 123,
+    "traditional": "米飯"
   },
   {
     "hanzi": "菜",
@@ -1761,7 +1884,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 124
+    "frequency": 124,
+    "traditional": "菜"
   },
   {
     "hanzi": "水果",
@@ -1775,7 +1899,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 125
+    "frequency": 125,
+    "traditional": "水果"
   },
   {
     "hanzi": "苹果",
@@ -1790,7 +1915,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 126
+    "frequency": 126,
+    "traditional": "蘋果"
   },
   {
     "hanzi": "杯子",
@@ -1805,7 +1931,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 127
+    "frequency": 127,
+    "traditional": "杯子"
   },
   {
     "hanzi": "钱",
@@ -1819,7 +1946,8 @@
       "money"
     ],
     "partOfSpeech": "noun",
-    "frequency": 128
+    "frequency": 128,
+    "traditional": "錢"
   },
   {
     "hanzi": "飞机",
@@ -1833,7 +1961,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 129
+    "frequency": 129,
+    "traditional": "飛機"
   },
   {
     "hanzi": "出租车",
@@ -1847,7 +1976,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 130
+    "frequency": 130,
+    "traditional": "出租車"
   },
   {
     "hanzi": "电视",
@@ -1862,7 +1992,8 @@
       "media"
     ],
     "partOfSpeech": "noun",
-    "frequency": 131
+    "frequency": 131,
+    "traditional": "電視"
   },
   {
     "hanzi": "电脑",
@@ -1877,7 +2008,8 @@
       "technology"
     ],
     "partOfSpeech": "noun",
-    "frequency": 132
+    "frequency": 132,
+    "traditional": "電腦"
   },
   {
     "hanzi": "电影",
@@ -1892,7 +2024,8 @@
       "entertainment"
     ],
     "partOfSpeech": "noun",
-    "frequency": 133
+    "frequency": 133,
+    "traditional": "電影"
   },
   {
     "hanzi": "天气",
@@ -1906,7 +2039,8 @@
       "weather"
     ],
     "partOfSpeech": "noun",
-    "frequency": 134
+    "frequency": 134,
+    "traditional": "天氣"
   },
   {
     "hanzi": "猫",
@@ -1920,7 +2054,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 135
+    "frequency": 135,
+    "traditional": "貓"
   },
   {
     "hanzi": "狗",
@@ -1934,7 +2069,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 136
+    "frequency": 136,
+    "traditional": "狗"
   },
   {
     "hanzi": "东西",
@@ -1948,7 +2084,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 137
+    "frequency": 137,
+    "traditional": "東西"
   },
   {
     "hanzi": "衣服",
@@ -1962,7 +2099,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 138
+    "frequency": 138,
+    "traditional": "衣服"
   },
   {
     "hanzi": "桌子",
@@ -1976,7 +2114,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 139
+    "frequency": 139,
+    "traditional": "桌子"
   },
   {
     "hanzi": "椅子",
@@ -1990,7 +2129,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 140
+    "frequency": 140,
+    "traditional": "椅子"
   },
   {
     "hanzi": "谢谢",
@@ -2005,7 +2145,8 @@
       "essential"
     ],
     "partOfSpeech": "expression",
-    "frequency": 141
+    "frequency": 141,
+    "traditional": "謝謝"
   },
   {
     "hanzi": "不客气",
@@ -2019,7 +2160,8 @@
       "polite"
     ],
     "partOfSpeech": "expression",
-    "frequency": 142
+    "frequency": 142,
+    "traditional": "不客氣"
   },
   {
     "hanzi": "对不起",
@@ -2033,7 +2175,8 @@
       "polite"
     ],
     "partOfSpeech": "expression",
-    "frequency": 143
+    "frequency": 143,
+    "traditional": "對不起"
   },
   {
     "hanzi": "没关系",
@@ -2047,7 +2190,8 @@
       "polite"
     ],
     "partOfSpeech": "expression",
-    "frequency": 144
+    "frequency": 144,
+    "traditional": "沒關係"
   },
   {
     "hanzi": "再见",
@@ -2062,7 +2206,8 @@
       "essential"
     ],
     "partOfSpeech": "expression",
-    "frequency": 145
+    "frequency": 145,
+    "traditional": "再見"
   },
   {
     "hanzi": "请",
@@ -2076,7 +2221,8 @@
       "polite"
     ],
     "partOfSpeech": "verb",
-    "frequency": 146
+    "frequency": 146,
+    "traditional": "請"
   },
   {
     "hanzi": "喂",
@@ -2090,7 +2236,8 @@
       "communication"
     ],
     "partOfSpeech": "interjection",
-    "frequency": 147
+    "frequency": 147,
+    "traditional": "喂"
   },
   {
     "hanzi": "些",
@@ -2104,7 +2251,8 @@
       "quantity"
     ],
     "partOfSpeech": "measure word",
-    "frequency": 148
+    "frequency": 148,
+    "traditional": "些"
   },
   {
     "hanzi": "多少",
@@ -2118,7 +2266,8 @@
       "quantity"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 149
+    "frequency": 149,
+    "traditional": "多少"
   },
   {
     "hanzi": "几",
@@ -2133,7 +2282,8 @@
       "number"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 150
+    "frequency": 150,
+    "traditional": "幾"
   },
   {
     "hanzi": "怎么",
@@ -2146,7 +2296,8 @@
       "question"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 151
+    "frequency": 151,
+    "traditional": "怎麼"
   },
   {
     "hanzi": "怎么样",
@@ -2160,7 +2311,8 @@
       "expression"
     ],
     "partOfSpeech": "expression",
-    "frequency": 152
+    "frequency": 152,
+    "traditional": "怎麼樣"
   },
   {
     "hanzi": "一点儿",
@@ -2173,7 +2325,8 @@
       "quantity"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 153
+    "frequency": 153,
+    "traditional": "一點兒"
   },
   {
     "hanzi": "下雨",
@@ -2187,7 +2340,8 @@
       "weather"
     ],
     "partOfSpeech": "verb phrase",
-    "frequency": 154
+    "frequency": 154,
+    "traditional": "下雨"
   },
   {
     "hanzi": "开",
@@ -2201,7 +2355,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 155
+    "frequency": 155,
+    "traditional": "開"
   },
   {
     "hanzi": "关",
@@ -2215,7 +2370,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 156
+    "frequency": 156,
+    "traditional": "關"
   },
   {
     "hanzi": "站",
@@ -2230,7 +2386,8 @@
       "transport"
     ],
     "partOfSpeech": "verb/noun",
-    "frequency": 157
+    "frequency": 157,
+    "traditional": "站"
   },
   {
     "hanzi": "坐",
@@ -2244,7 +2401,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 158
+    "frequency": 158,
+    "traditional": "坐"
   },
   {
     "hanzi": "走",
@@ -2259,7 +2417,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 159
+    "frequency": 159,
+    "traditional": "走"
   },
   {
     "hanzi": "跑",
@@ -2274,7 +2433,8 @@
       "sport"
     ],
     "partOfSpeech": "verb",
-    "frequency": 160
+    "frequency": 160,
+    "traditional": "跑"
   },
   {
     "hanzi": "飞",
@@ -2288,7 +2448,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 161
+    "frequency": 161,
+    "traditional": "飛"
   },
   {
     "hanzi": "游",
@@ -2302,7 +2463,8 @@
       "sport"
     ],
     "partOfSpeech": "verb",
-    "frequency": 162
+    "frequency": 162,
+    "traditional": "遊"
   },
   {
     "hanzi": "开车",
@@ -2316,7 +2478,8 @@
       "transport"
     ],
     "partOfSpeech": "verb phrase",
-    "frequency": 163
+    "frequency": 163,
+    "traditional": "開車"
   },
   {
     "hanzi": "骑",
@@ -2331,7 +2494,8 @@
       "transport"
     ],
     "partOfSpeech": "verb",
-    "frequency": 164
+    "frequency": 164,
+    "traditional": "騎"
   },
   {
     "hanzi": "自行车",
@@ -2345,7 +2509,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 165
+    "frequency": 165,
+    "traditional": "自行車"
   },
   {
     "hanzi": "摩托车",
@@ -2359,7 +2524,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 166
+    "frequency": 166,
+    "traditional": "摩托車"
   },
   {
     "hanzi": "火车",
@@ -2373,7 +2539,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 167
+    "frequency": 167,
+    "traditional": "火車"
   },
   {
     "hanzi": "飞机",
@@ -2387,7 +2554,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 168
+    "frequency": 168,
+    "traditional": "飛機"
   },
   {
     "hanzi": "地铁",
@@ -2401,7 +2569,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 169
+    "frequency": 169,
+    "traditional": "地鐵"
   },
   {
     "hanzi": "公交车",
@@ -2415,7 +2584,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 170
+    "frequency": 170,
+    "traditional": "公交車"
   },
   {
     "hanzi": "出租车",
@@ -2429,7 +2599,8 @@
       "transport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 171
+    "frequency": 171,
+    "traditional": "出租車"
   },
   {
     "hanzi": "银行",
@@ -2444,7 +2615,8 @@
       "money"
     ],
     "partOfSpeech": "noun",
-    "frequency": 172
+    "frequency": 172,
+    "traditional": "銀行"
   },
   {
     "hanzi": "邮局",
@@ -2458,7 +2630,8 @@
       "place"
     ],
     "partOfSpeech": "noun",
-    "frequency": 173
+    "frequency": 173,
+    "traditional": "郵局"
   },
   {
     "hanzi": "超市",
@@ -2473,7 +2646,8 @@
       "shopping"
     ],
     "partOfSpeech": "noun",
-    "frequency": 174
+    "frequency": 174,
+    "traditional": "超市"
   },
   {
     "hanzi": "商店",
@@ -2488,7 +2662,8 @@
       "shopping"
     ],
     "partOfSpeech": "noun",
-    "frequency": 175
+    "frequency": 175,
+    "traditional": "商店"
   },
   {
     "hanzi": "市场",
@@ -2503,7 +2678,8 @@
       "shopping"
     ],
     "partOfSpeech": "noun",
-    "frequency": 176
+    "frequency": 176,
+    "traditional": "市場"
   },
   {
     "hanzi": "公园",
@@ -2517,7 +2693,8 @@
       "place"
     ],
     "partOfSpeech": "noun",
-    "frequency": 177
+    "frequency": 177,
+    "traditional": "公園"
   },
   {
     "hanzi": "动物园",
@@ -2532,7 +2709,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 178
+    "frequency": 178,
+    "traditional": "動物園"
   },
   {
     "hanzi": "图书馆",
@@ -2547,7 +2725,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 179
+    "frequency": 179,
+    "traditional": "圖書館"
   },
   {
     "hanzi": "博物馆",
@@ -2561,7 +2740,8 @@
       "place"
     ],
     "partOfSpeech": "noun",
-    "frequency": 180
+    "frequency": 180,
+    "traditional": "博物館"
   },
   {
     "hanzi": "体育馆",
@@ -2576,7 +2756,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 181
+    "frequency": 181,
+    "traditional": "體育館"
   },
   {
     "hanzi": "游泳池",
@@ -2591,7 +2772,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 182
+    "frequency": 182,
+    "traditional": "游泳池"
   },
   {
     "hanzi": "厕所",
@@ -2605,7 +2787,8 @@
       "place"
     ],
     "partOfSpeech": "noun",
-    "frequency": 183
+    "frequency": 183,
+    "traditional": "廁所"
   },
   {
     "hanzi": "药店",
@@ -2620,7 +2803,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 184
+    "frequency": 184,
+    "traditional": "藥店"
   },
   {
     "hanzi": "理发店",
@@ -2634,7 +2818,8 @@
       "place"
     ],
     "partOfSpeech": "noun",
-    "frequency": 185
+    "frequency": 185,
+    "traditional": "理髮店"
   },
   {
     "hanzi": "洗手间",
@@ -2649,7 +2834,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 186
+    "frequency": 186,
+    "traditional": "洗手間"
   },
   {
     "hanzi": "卧室",
@@ -2663,7 +2849,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 187
+    "frequency": 187,
+    "traditional": "臥室"
   },
   {
     "hanzi": "客厅",
@@ -2677,7 +2864,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 188
+    "frequency": 188,
+    "traditional": "客廳"
   },
   {
     "hanzi": "厨房",
@@ -2691,7 +2879,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 189
+    "frequency": 189,
+    "traditional": "廚房"
   },
   {
     "hanzi": "阳台",
@@ -2705,7 +2894,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 190
+    "frequency": 190,
+    "traditional": "陽臺"
   },
   {
     "hanzi": "楼",
@@ -2719,7 +2909,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 191
+    "frequency": 191,
+    "traditional": "樓"
   },
   {
     "hanzi": "楼上",
@@ -2733,7 +2924,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 192
+    "frequency": 192,
+    "traditional": "樓上"
   },
   {
     "hanzi": "楼下",
@@ -2747,7 +2939,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 193
+    "frequency": 193,
+    "traditional": "樓下"
   },
   {
     "hanzi": "电梯",
@@ -2761,7 +2954,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 194
+    "frequency": 194,
+    "traditional": "電梯"
   },
   {
     "hanzi": "楼梯",
@@ -2775,7 +2969,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 195
+    "frequency": 195,
+    "traditional": "樓梯"
   },
   {
     "hanzi": "窗户",
@@ -2789,7 +2984,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 196
+    "frequency": 196,
+    "traditional": "窗戶"
   },
   {
     "hanzi": "门口",
@@ -2803,7 +2999,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 197
+    "frequency": 197,
+    "traditional": "門口"
   },
   {
     "hanzi": "墙",
@@ -2817,7 +3014,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 198
+    "frequency": 198,
+    "traditional": "牆"
   },
   {
     "hanzi": "地板",
@@ -2831,7 +3029,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 199
+    "frequency": 199,
+    "traditional": "地板"
   },
   {
     "hanzi": "天花板",
@@ -2845,7 +3044,8 @@
       "housing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 200
+    "frequency": 200,
+    "traditional": "天花板"
   },
   {
     "hanzi": "床",
@@ -2859,7 +3059,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 201
+    "frequency": 201,
+    "traditional": "牀"
   },
   {
     "hanzi": "沙发",
@@ -2873,7 +3074,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 202
+    "frequency": 202,
+    "traditional": "沙發"
   },
   {
     "hanzi": "椅子",
@@ -2887,7 +3089,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 203
+    "frequency": 203,
+    "traditional": "椅子"
   },
   {
     "hanzi": "桌子",
@@ -2901,7 +3104,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 204
+    "frequency": 204,
+    "traditional": "桌子"
   },
   {
     "hanzi": "书桌",
@@ -2916,7 +3120,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 205
+    "frequency": 205,
+    "traditional": "書桌"
   },
   {
     "hanzi": "书架",
@@ -2930,7 +3135,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 206
+    "frequency": 206,
+    "traditional": "書架"
   },
   {
     "hanzi": "柜子",
@@ -2944,7 +3150,8 @@
       "furniture"
     ],
     "partOfSpeech": "noun",
-    "frequency": 207
+    "frequency": 207,
+    "traditional": "櫃子"
   },
   {
     "hanzi": "冰箱",
@@ -2958,7 +3165,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 208
+    "frequency": 208,
+    "traditional": "冰箱"
   },
   {
     "hanzi": "洗衣机",
@@ -2972,7 +3180,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 209
+    "frequency": 209,
+    "traditional": "洗衣機"
   },
   {
     "hanzi": "空调",
@@ -2986,7 +3195,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 210
+    "frequency": 210,
+    "traditional": "空調"
   },
   {
     "hanzi": "风扇",
@@ -3000,7 +3210,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 211
+    "frequency": 211,
+    "traditional": "風扇"
   },
   {
     "hanzi": "钟",
@@ -3015,7 +3226,8 @@
       "time"
     ],
     "partOfSpeech": "noun",
-    "frequency": 212
+    "frequency": 212,
+    "traditional": "鍾"
   },
   {
     "hanzi": "镜子",
@@ -3029,7 +3241,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 213
+    "frequency": 213,
+    "traditional": "鏡子"
   },
   {
     "hanzi": "照片",
@@ -3043,7 +3256,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 214
+    "frequency": 214,
+    "traditional": "照片"
   },
   {
     "hanzi": "画",
@@ -3057,7 +3271,8 @@
       "verb"
     ],
     "partOfSpeech": "noun/verb",
-    "frequency": 215
+    "frequency": 215,
+    "traditional": "畫"
   },
   {
     "hanzi": "地图",
@@ -3071,7 +3286,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 216
+    "frequency": 216,
+    "traditional": "地圖"
   },
   {
     "hanzi": "伞",
@@ -3085,7 +3301,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 217
+    "frequency": 217,
+    "traditional": "傘"
   },
   {
     "hanzi": "钥匙",
@@ -3099,7 +3316,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 218
+    "frequency": 218,
+    "traditional": "鑰匙"
   },
   {
     "hanzi": "锁",
@@ -3113,7 +3331,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 219
+    "frequency": 219,
+    "traditional": "鎖"
   },
   {
     "hanzi": "刀",
@@ -3127,7 +3346,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 220
+    "frequency": 220,
+    "traditional": "刀"
   },
   {
     "hanzi": "叉子",
@@ -3142,7 +3362,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 221
+    "frequency": 221,
+    "traditional": "叉子"
   },
   {
     "hanzi": "勺子",
@@ -3157,7 +3378,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 222
+    "frequency": 222,
+    "traditional": "勺子"
   },
   {
     "hanzi": "筷子",
@@ -3172,7 +3394,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 223
+    "frequency": 223,
+    "traditional": "筷子"
   },
   {
     "hanzi": "盘子",
@@ -3187,7 +3410,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 224
+    "frequency": 224,
+    "traditional": "盤子"
   },
   {
     "hanzi": "碗",
@@ -3203,7 +3427,8 @@
       "classifier"
     ],
     "partOfSpeech": "noun",
-    "frequency": 225
+    "frequency": 225,
+    "traditional": "碗"
   },
   {
     "hanzi": "瓶子",
@@ -3217,7 +3442,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 226
+    "frequency": 226,
+    "traditional": "瓶子"
   },
   {
     "hanzi": "袋子",
@@ -3231,7 +3457,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 227
+    "frequency": 227,
+    "traditional": "袋子"
   },
   {
     "hanzi": "箱子",
@@ -3245,7 +3472,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 228
+    "frequency": 228,
+    "traditional": "箱子"
   },
   {
     "hanzi": "礼物",
@@ -3259,7 +3487,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 229
+    "frequency": 229,
+    "traditional": "禮物"
   },
   {
     "hanzi": "玩具",
@@ -3273,7 +3502,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 230
+    "frequency": 230,
+    "traditional": "玩具"
   },
   {
     "hanzi": "球",
@@ -3287,7 +3517,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 231
+    "frequency": 231,
+    "traditional": "球"
   },
   {
     "hanzi": "足球",
@@ -3301,7 +3532,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 232
+    "frequency": 232,
+    "traditional": "足球"
   },
   {
     "hanzi": "篮球",
@@ -3315,7 +3547,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 233
+    "frequency": 233,
+    "traditional": "籃球"
   },
   {
     "hanzi": "羽毛球",
@@ -3329,7 +3562,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 234
+    "frequency": 234,
+    "traditional": "羽毛球"
   },
   {
     "hanzi": "乒乓球",
@@ -3343,7 +3577,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 235
+    "frequency": 235,
+    "traditional": "乒乓球"
   },
   {
     "hanzi": "网球",
@@ -3357,7 +3592,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 236
+    "frequency": 236,
+    "traditional": "網球"
   },
   {
     "hanzi": "排球",
@@ -3371,7 +3607,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 237
+    "frequency": 237,
+    "traditional": "排球"
   },
   {
     "hanzi": "游戏",
@@ -3385,7 +3622,8 @@
       "entertainment"
     ],
     "partOfSpeech": "noun",
-    "frequency": 238
+    "frequency": 238,
+    "traditional": "遊戲"
   },
   {
     "hanzi": "音乐",
@@ -3399,7 +3637,8 @@
       "entertainment"
     ],
     "partOfSpeech": "noun",
-    "frequency": 239
+    "frequency": 239,
+    "traditional": "音樂"
   },
   {
     "hanzi": "歌",
@@ -3413,7 +3652,8 @@
       "entertainment"
     ],
     "partOfSpeech": "noun",
-    "frequency": 240
+    "frequency": 240,
+    "traditional": "歌"
   },
   {
     "hanzi": "舞",
@@ -3427,7 +3667,8 @@
       "entertainment"
     ],
     "partOfSpeech": "noun",
-    "frequency": 241
+    "frequency": 241,
+    "traditional": "舞"
   },
   {
     "hanzi": "电影",
@@ -3442,7 +3683,8 @@
       "media"
     ],
     "partOfSpeech": "noun",
-    "frequency": 242
+    "frequency": 242,
+    "traditional": "電影"
   },
   {
     "hanzi": "电视",
@@ -3457,7 +3699,8 @@
       "technology"
     ],
     "partOfSpeech": "noun",
-    "frequency": 243
+    "frequency": 243,
+    "traditional": "電視"
   },
   {
     "hanzi": "广播",
@@ -3471,7 +3714,8 @@
       "media"
     ],
     "partOfSpeech": "noun",
-    "frequency": 244
+    "frequency": 244,
+    "traditional": "廣播"
   },
   {
     "hanzi": "新闻",
@@ -3485,7 +3729,8 @@
       "media"
     ],
     "partOfSpeech": "noun",
-    "frequency": 245
+    "frequency": 245,
+    "traditional": "新聞"
   },
   {
     "hanzi": "杂志",
@@ -3499,7 +3744,8 @@
       "media"
     ],
     "partOfSpeech": "noun",
-    "frequency": 246
+    "frequency": 246,
+    "traditional": "雜誌"
   },
   {
     "hanzi": "词典",
@@ -3513,7 +3759,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 247
+    "frequency": 247,
+    "traditional": "詞典"
   },
   {
     "hanzi": "笔",
@@ -3528,7 +3775,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 248
+    "frequency": 248,
+    "traditional": "筆"
   },
   {
     "hanzi": "铅笔",
@@ -3543,7 +3791,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 249
+    "frequency": 249,
+    "traditional": "鉛筆"
   },
   {
     "hanzi": "橡皮",
@@ -3558,7 +3807,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 250
+    "frequency": 250,
+    "traditional": "橡皮"
   },
   {
     "hanzi": "尺子",
@@ -3573,7 +3823,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 251
+    "frequency": 251,
+    "traditional": "尺子"
   },
   {
     "hanzi": "剪刀",
@@ -3587,7 +3838,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 252
+    "frequency": 252,
+    "traditional": "剪刀"
   },
   {
     "hanzi": "本子",
@@ -3602,7 +3854,8 @@
       "study"
     ],
     "partOfSpeech": "noun",
-    "frequency": 253
+    "frequency": 253,
+    "traditional": "本子"
   },
   {
     "hanzi": "纸",
@@ -3616,7 +3869,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 254
+    "frequency": 254,
+    "traditional": "紙"
   },
   {
     "hanzi": "信",
@@ -3630,7 +3884,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 255
+    "frequency": 255,
+    "traditional": "信"
   },
   {
     "hanzi": "邮票",
@@ -3644,7 +3899,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 256
+    "frequency": 256,
+    "traditional": "郵票"
   },
   {
     "hanzi": "卡片",
@@ -3658,7 +3914,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 257
+    "frequency": 257,
+    "traditional": "卡片"
   },
   {
     "hanzi": "包裹",
@@ -3672,7 +3929,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 258
+    "frequency": 258,
+    "traditional": "包裹"
   },
   {
     "hanzi": "护照",
@@ -3686,7 +3944,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 259
+    "frequency": 259,
+    "traditional": "護照"
   },
   {
     "hanzi": "签证",
@@ -3700,7 +3959,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 260
+    "frequency": 260,
+    "traditional": "簽證"
   },
   {
     "hanzi": "钱包",
@@ -3715,7 +3975,8 @@
       "money"
     ],
     "partOfSpeech": "noun",
-    "frequency": 261
+    "frequency": 261,
+    "traditional": "錢包"
   },
   {
     "hanzi": "眼镜",
@@ -3729,7 +3990,8 @@
       "object"
     ],
     "partOfSpeech": "noun",
-    "frequency": 262
+    "frequency": 262,
+    "traditional": "眼鏡"
   },
   {
     "hanzi": "帽子",
@@ -3743,7 +4005,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 263
+    "frequency": 263,
+    "traditional": "帽子"
   },
   {
     "hanzi": "围巾",
@@ -3757,7 +4020,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 264
+    "frequency": 264,
+    "traditional": "圍巾"
   },
   {
     "hanzi": "手套",
@@ -3771,7 +4035,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 265
+    "frequency": 265,
+    "traditional": "手套"
   },
   {
     "hanzi": "袜子",
@@ -3785,7 +4050,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 266
+    "frequency": 266,
+    "traditional": "襪子"
   },
   {
     "hanzi": "裤子",
@@ -3799,7 +4065,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 267
+    "frequency": 267,
+    "traditional": "褲子"
   },
   {
     "hanzi": "裙子",
@@ -3813,7 +4080,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 268
+    "frequency": 268,
+    "traditional": "裙子"
   },
   {
     "hanzi": "外套",
@@ -3827,7 +4095,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 269
+    "frequency": 269,
+    "traditional": "外套"
   },
   {
     "hanzi": "T恤",
@@ -3841,7 +4110,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 270
+    "frequency": 270,
+    "traditional": "T恤"
   },
   {
     "hanzi": "毛衣",
@@ -3855,7 +4125,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 271
+    "frequency": 271,
+    "traditional": "毛衣"
   },
   {
     "hanzi": "大衣",
@@ -3869,7 +4140,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 272
+    "frequency": 272,
+    "traditional": "大衣"
   },
   {
     "hanzi": "鞋",
@@ -3883,7 +4155,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 273
+    "frequency": 273,
+    "traditional": "鞋"
   },
   {
     "hanzi": "拖鞋",
@@ -3897,7 +4170,8 @@
       "clothing"
     ],
     "partOfSpeech": "noun",
-    "frequency": 274
+    "frequency": 274,
+    "traditional": "拖鞋"
   },
   {
     "hanzi": "运动鞋",
@@ -3912,7 +4186,8 @@
       "sport"
     ],
     "partOfSpeech": "noun",
-    "frequency": 275
+    "frequency": 275,
+    "traditional": "運動鞋"
   },
   {
     "hanzi": "颜色",
@@ -3926,7 +4201,8 @@
       "essential"
     ],
     "partOfSpeech": "noun",
-    "frequency": 276
+    "frequency": 276,
+    "traditional": "顏色"
   },
   {
     "hanzi": "白色",
@@ -3940,7 +4216,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 277
+    "frequency": 277,
+    "traditional": "白色"
   },
   {
     "hanzi": "黑色",
@@ -3954,7 +4231,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 278
+    "frequency": 278,
+    "traditional": "黑色"
   },
   {
     "hanzi": "红色",
@@ -3968,7 +4246,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 279
+    "frequency": 279,
+    "traditional": "紅色"
   },
   {
     "hanzi": "黄色",
@@ -3982,7 +4261,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 280
+    "frequency": 280,
+    "traditional": "黃色"
   },
   {
     "hanzi": "蓝色",
@@ -3996,7 +4276,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 281
+    "frequency": 281,
+    "traditional": "藍色"
   },
   {
     "hanzi": "绿色",
@@ -4010,7 +4291,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 282
+    "frequency": 282,
+    "traditional": "綠色"
   },
   {
     "hanzi": "紫色",
@@ -4024,7 +4306,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 283
+    "frequency": 283,
+    "traditional": "紫色"
   },
   {
     "hanzi": "粉色",
@@ -4038,7 +4321,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 284
+    "frequency": 284,
+    "traditional": "粉色"
   },
   {
     "hanzi": "灰色",
@@ -4052,7 +4336,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 285
+    "frequency": 285,
+    "traditional": "灰色"
   },
   {
     "hanzi": "棕色",
@@ -4066,7 +4351,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 286
+    "frequency": 286,
+    "traditional": "棕色"
   },
   {
     "hanzi": "橙色",
@@ -4080,7 +4366,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 287
+    "frequency": 287,
+    "traditional": "橙色"
   },
   {
     "hanzi": "银色",
@@ -4094,7 +4381,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 288
+    "frequency": 288,
+    "traditional": "銀色"
   },
   {
     "hanzi": "金色",
@@ -4108,7 +4396,8 @@
       "color"
     ],
     "partOfSpeech": "noun",
-    "frequency": 289
+    "frequency": 289,
+    "traditional": "金色"
   },
   {
     "hanzi": "身体",
@@ -4123,7 +4412,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 290
+    "frequency": 290,
+    "traditional": "身體"
   },
   {
     "hanzi": "头",
@@ -4137,7 +4427,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 291
+    "frequency": 291,
+    "traditional": "頭"
   },
   {
     "hanzi": "头发",
@@ -4151,7 +4442,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 292
+    "frequency": 292,
+    "traditional": "頭髮"
   },
   {
     "hanzi": "脸",
@@ -4165,7 +4457,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 293
+    "frequency": 293,
+    "traditional": "臉"
   },
   {
     "hanzi": "嘴",
@@ -4179,7 +4472,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 294
+    "frequency": 294,
+    "traditional": "嘴"
   },
   {
     "hanzi": "牙齿",
@@ -4193,7 +4487,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 295
+    "frequency": 295,
+    "traditional": "牙齒"
   },
   {
     "hanzi": "舌头",
@@ -4207,7 +4502,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 296
+    "frequency": 296,
+    "traditional": "舌頭"
   },
   {
     "hanzi": "脖子",
@@ -4221,7 +4517,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 297
+    "frequency": 297,
+    "traditional": "脖子"
   },
   {
     "hanzi": "肩膀",
@@ -4235,7 +4532,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 298
+    "frequency": 298,
+    "traditional": "肩膀"
   },
   {
     "hanzi": "胳膊",
@@ -4249,7 +4547,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 299
+    "frequency": 299,
+    "traditional": "胳膊"
   },
   {
     "hanzi": "手指",
@@ -4263,7 +4562,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 300
+    "frequency": 300,
+    "traditional": "手指"
   },
   {
     "hanzi": "腿",
@@ -4277,7 +4577,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 301
+    "frequency": 301,
+    "traditional": "腿"
   },
   {
     "hanzi": "脚",
@@ -4291,7 +4592,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 302
+    "frequency": 302,
+    "traditional": "腳"
   },
   {
     "hanzi": "心",
@@ -4306,7 +4608,8 @@
       "emotion"
     ],
     "partOfSpeech": "noun",
-    "frequency": 303
+    "frequency": 303,
+    "traditional": "心"
   },
   {
     "hanzi": "胃",
@@ -4321,7 +4624,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 304
+    "frequency": 304,
+    "traditional": "胃"
   },
   {
     "hanzi": "肝",
@@ -4336,7 +4640,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 305
+    "frequency": 305,
+    "traditional": "肝"
   },
   {
     "hanzi": "肺",
@@ -4351,7 +4656,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 306
+    "frequency": 306,
+    "traditional": "肺"
   },
   {
     "hanzi": "血",
@@ -4366,7 +4672,8 @@
       "health"
     ],
     "partOfSpeech": "noun",
-    "frequency": 307
+    "frequency": 307,
+    "traditional": "血"
   },
   {
     "hanzi": "骨头",
@@ -4380,7 +4687,8 @@
       "body"
     ],
     "partOfSpeech": "noun",
-    "frequency": 308
+    "frequency": 308,
+    "traditional": "骨頭"
   },
   {
     "hanzi": "米",
@@ -4394,7 +4702,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 309
+    "frequency": 309,
+    "traditional": "米"
   },
   {
     "hanzi": "面",
@@ -4408,7 +4717,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 310
+    "frequency": 310,
+    "traditional": "面"
   },
   {
     "hanzi": "肉",
@@ -4422,7 +4732,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 311
+    "frequency": 311,
+    "traditional": "肉"
   },
   {
     "hanzi": "猪肉",
@@ -4436,7 +4747,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 312
+    "frequency": 312,
+    "traditional": "豬肉"
   },
   {
     "hanzi": "牛肉",
@@ -4450,7 +4762,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 313
+    "frequency": 313,
+    "traditional": "牛肉"
   },
   {
     "hanzi": "羊肉",
@@ -4464,7 +4777,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 314
+    "frequency": 314,
+    "traditional": "羊肉"
   },
   {
     "hanzi": "鸡肉",
@@ -4478,7 +4792,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 315
+    "frequency": 315,
+    "traditional": "雞肉"
   },
   {
     "hanzi": "鸭肉",
@@ -4492,7 +4807,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 316
+    "frequency": 316,
+    "traditional": "鴨肉"
   },
   {
     "hanzi": "蔬菜",
@@ -4506,7 +4822,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 317
+    "frequency": 317,
+    "traditional": "蔬菜"
   },
   {
     "hanzi": "土豆",
@@ -4520,7 +4837,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 318
+    "frequency": 318,
+    "traditional": "土豆"
   },
   {
     "hanzi": "西红柿",
@@ -4534,7 +4852,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 319
+    "frequency": 319,
+    "traditional": "西紅柿"
   },
   {
     "hanzi": "黄瓜",
@@ -4548,7 +4867,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 320
+    "frequency": 320,
+    "traditional": "黃瓜"
   },
   {
     "hanzi": "白菜",
@@ -4562,7 +4882,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 321
+    "frequency": 321,
+    "traditional": "白菜"
   },
   {
     "hanzi": "萝卜",
@@ -4576,7 +4897,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 322
+    "frequency": 322,
+    "traditional": "蘿蔔"
   },
   {
     "hanzi": "豆腐",
@@ -4590,7 +4912,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 323
+    "frequency": 323,
+    "traditional": "豆腐"
   },
   {
     "hanzi": "糖",
@@ -4604,7 +4927,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 324
+    "frequency": 324,
+    "traditional": "糖"
   },
   {
     "hanzi": "盐",
@@ -4618,7 +4942,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 325
+    "frequency": 325,
+    "traditional": "鹽"
   },
   {
     "hanzi": "油",
@@ -4632,7 +4957,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 326
+    "frequency": 326,
+    "traditional": "油"
   },
   {
     "hanzi": "醋",
@@ -4646,7 +4972,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 327
+    "frequency": 327,
+    "traditional": "醋"
   },
   {
     "hanzi": "酱油",
@@ -4660,7 +4987,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 328
+    "frequency": 328,
+    "traditional": "醬油"
   },
   {
     "hanzi": "汤",
@@ -4674,7 +5002,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 329
+    "frequency": 329,
+    "traditional": "湯"
   },
   {
     "hanzi": "粥",
@@ -4688,7 +5017,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 330
+    "frequency": 330,
+    "traditional": "粥"
   },
   {
     "hanzi": "饺子",
@@ -4702,7 +5032,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 331
+    "frequency": 331,
+    "traditional": "餃子"
   },
   {
     "hanzi": "包子",
@@ -4716,7 +5047,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 332
+    "frequency": 332,
+    "traditional": "包子"
   },
   {
     "hanzi": "馒头",
@@ -4730,7 +5062,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 333
+    "frequency": 333,
+    "traditional": "饅頭"
   },
   {
     "hanzi": "饼",
@@ -4744,7 +5077,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 334
+    "frequency": 334,
+    "traditional": "餅"
   },
   {
     "hanzi": "蛋糕",
@@ -4758,7 +5092,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 335
+    "frequency": 335,
+    "traditional": "蛋糕"
   },
   {
     "hanzi": "饼干",
@@ -4772,7 +5107,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 336
+    "frequency": 336,
+    "traditional": "餅乾"
   },
   {
     "hanzi": "巧克力",
@@ -4786,7 +5122,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 337
+    "frequency": 337,
+    "traditional": "巧克力"
   },
   {
     "hanzi": "冰淇淋",
@@ -4800,7 +5137,8 @@
       "food"
     ],
     "partOfSpeech": "noun",
-    "frequency": 338
+    "frequency": 338,
+    "traditional": "冰淇淋"
   },
   {
     "hanzi": "葡萄",
@@ -4815,7 +5153,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 339
+    "frequency": 339,
+    "traditional": "葡萄"
   },
   {
     "hanzi": "香蕉",
@@ -4830,7 +5169,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 340
+    "frequency": 340,
+    "traditional": "香蕉"
   },
   {
     "hanzi": "橘子",
@@ -4845,7 +5185,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 341
+    "frequency": 341,
+    "traditional": "橘子"
   },
   {
     "hanzi": "柠檬",
@@ -4860,7 +5201,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 342
+    "frequency": 342,
+    "traditional": "檸檬"
   },
   {
     "hanzi": "草莓",
@@ -4875,7 +5217,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 343
+    "frequency": 343,
+    "traditional": "草莓"
   },
   {
     "hanzi": "桃子",
@@ -4890,7 +5233,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 344
+    "frequency": 344,
+    "traditional": "桃子"
   },
   {
     "hanzi": "梨",
@@ -4905,7 +5249,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 345
+    "frequency": 345,
+    "traditional": "梨"
   },
   {
     "hanzi": "樱桃",
@@ -4920,7 +5265,8 @@
       "fruit"
     ],
     "partOfSpeech": "noun",
-    "frequency": 346
+    "frequency": 346,
+    "traditional": "櫻桃"
   },
   {
     "hanzi": "果汁",
@@ -4934,7 +5280,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 347
+    "frequency": 347,
+    "traditional": "果汁"
   },
   {
     "hanzi": "可乐",
@@ -4948,7 +5295,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 348
+    "frequency": 348,
+    "traditional": "可樂"
   },
   {
     "hanzi": "啤酒",
@@ -4962,7 +5310,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 349
+    "frequency": 349,
+    "traditional": "啤酒"
   },
   {
     "hanzi": "葡萄酒",
@@ -4976,7 +5325,8 @@
       "drink"
     ],
     "partOfSpeech": "noun",
-    "frequency": 350
+    "frequency": 350,
+    "traditional": "葡萄酒"
   },
   {
     "hanzi": "猫",
@@ -4990,7 +5340,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 351
+    "frequency": 351,
+    "traditional": "貓"
   },
   {
     "hanzi": "狗",
@@ -5004,7 +5355,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 352
+    "frequency": 352,
+    "traditional": "狗"
   },
   {
     "hanzi": "鸟",
@@ -5018,7 +5370,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 353
+    "frequency": 353,
+    "traditional": "鳥"
   },
   {
     "hanzi": "马",
@@ -5032,7 +5385,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 354
+    "frequency": 354,
+    "traditional": "馬"
   },
   {
     "hanzi": "牛",
@@ -5046,7 +5400,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 355
+    "frequency": 355,
+    "traditional": "牛"
   },
   {
     "hanzi": "羊",
@@ -5060,7 +5415,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 356
+    "frequency": 356,
+    "traditional": "羊"
   },
   {
     "hanzi": "猪",
@@ -5074,7 +5430,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 357
+    "frequency": 357,
+    "traditional": "豬"
   },
   {
     "hanzi": "鸡",
@@ -5088,7 +5445,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 358
+    "frequency": 358,
+    "traditional": "雞"
   },
   {
     "hanzi": "鸭",
@@ -5102,7 +5460,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 359
+    "frequency": 359,
+    "traditional": "鴨"
   },
   {
     "hanzi": "兔子",
@@ -5116,7 +5475,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 360
+    "frequency": 360,
+    "traditional": "兔子"
   },
   {
     "hanzi": "蛇",
@@ -5130,7 +5490,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 361
+    "frequency": 361,
+    "traditional": "蛇"
   },
   {
     "hanzi": "老虎",
@@ -5144,7 +5505,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 362
+    "frequency": 362,
+    "traditional": "老虎"
   },
   {
     "hanzi": "狮子",
@@ -5158,7 +5520,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 363
+    "frequency": 363,
+    "traditional": "獅子"
   },
   {
     "hanzi": "熊猫",
@@ -5172,7 +5535,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 364
+    "frequency": 364,
+    "traditional": "熊貓"
   },
   {
     "hanzi": "大象",
@@ -5186,7 +5550,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 365
+    "frequency": 365,
+    "traditional": "大象"
   },
   {
     "hanzi": "猴子",
@@ -5200,7 +5565,8 @@
       "animal"
     ],
     "partOfSpeech": "noun",
-    "frequency": 366
+    "frequency": 366,
+    "traditional": "猴子"
   },
   {
     "hanzi": "树",
@@ -5214,7 +5580,8 @@
       "nature"
     ],
     "partOfSpeech": "noun",
-    "frequency": 367
+    "frequency": 367,
+    "traditional": "樹"
   },
   {
     "hanzi": "花",
@@ -5228,7 +5595,8 @@
       "nature"
     ],
     "partOfSpeech": "noun",
-    "frequency": 368
+    "frequency": 368,
+    "traditional": "花"
   },
   {
     "hanzi": "河",
@@ -5243,7 +5611,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 369
+    "frequency": 369,
+    "traditional": "河"
   },
   {
     "hanzi": "湖",
@@ -5258,7 +5627,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 370
+    "frequency": 370,
+    "traditional": "湖"
   },
   {
     "hanzi": "海",
@@ -5273,7 +5643,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 371
+    "frequency": 371,
+    "traditional": "海"
   },
   {
     "hanzi": "山",
@@ -5288,7 +5659,8 @@
       "location"
     ],
     "partOfSpeech": "noun",
-    "frequency": 372
+    "frequency": 372,
+    "traditional": "山"
   },
   {
     "hanzi": "太阳",
@@ -5303,7 +5675,8 @@
       "weather"
     ],
     "partOfSpeech": "noun",
-    "frequency": 373
+    "frequency": 373,
+    "traditional": "太陽"
   },
   {
     "hanzi": "月亮",
@@ -5317,7 +5690,8 @@
       "nature"
     ],
     "partOfSpeech": "noun",
-    "frequency": 374
+    "frequency": 374,
+    "traditional": "月亮"
   },
   {
     "hanzi": "星星",
@@ -5331,7 +5705,8 @@
       "nature"
     ],
     "partOfSpeech": "noun",
-    "frequency": 375
+    "frequency": 375,
+    "traditional": "星星"
   },
   {
     "hanzi": "云",
@@ -5345,7 +5720,8 @@
       "weather"
     ],
     "partOfSpeech": "noun",
-    "frequency": 376
+    "frequency": 376,
+    "traditional": "雲"
   },
   {
     "hanzi": "风",
@@ -5359,7 +5735,8 @@
       "weather"
     ],
     "partOfSpeech": "noun",
-    "frequency": 377
+    "frequency": 377,
+    "traditional": "風"
   },
   {
     "hanzi": "拿",
@@ -5373,7 +5750,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 378
+    "frequency": 378,
+    "traditional": "拿"
   },
   {
     "hanzi": "放",
@@ -5387,7 +5765,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 379
+    "frequency": 379,
+    "traditional": "放"
   },
   {
     "hanzi": "拉",
@@ -5401,7 +5780,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 380
+    "frequency": 380,
+    "traditional": "拉"
   },
   {
     "hanzi": "推",
@@ -5415,7 +5795,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 381
+    "frequency": 381,
+    "traditional": "推"
   },
   {
     "hanzi": "扔",
@@ -5429,7 +5810,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 382
+    "frequency": 382,
+    "traditional": "扔"
   },
   {
     "hanzi": "抓",
@@ -5442,7 +5824,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 383
+    "frequency": 383,
+    "traditional": "抓"
   },
   {
     "hanzi": "打",
@@ -5456,7 +5839,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 384
+    "frequency": 384,
+    "traditional": "打"
   },
   {
     "hanzi": "踢",
@@ -5470,7 +5854,8 @@
       "sport"
     ],
     "partOfSpeech": "verb",
-    "frequency": 385
+    "frequency": 385,
+    "traditional": "踢"
   },
   {
     "hanzi": "跳",
@@ -5484,7 +5869,8 @@
       "motion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 386
+    "frequency": 386,
+    "traditional": "跳"
   },
   {
     "hanzi": "笑",
@@ -5498,7 +5884,8 @@
       "emotion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 387
+    "frequency": 387,
+    "traditional": "笑"
   },
   {
     "hanzi": "哭",
@@ -5512,7 +5899,8 @@
       "emotion"
     ],
     "partOfSpeech": "verb",
-    "frequency": 388
+    "frequency": 388,
+    "traditional": "哭"
   },
   {
     "hanzi": "唱",
@@ -5526,7 +5914,8 @@
       "entertainment"
     ],
     "partOfSpeech": "verb",
-    "frequency": 389
+    "frequency": 389,
+    "traditional": "唱"
   },
   {
     "hanzi": "跳舞",
@@ -5540,7 +5929,8 @@
       "entertainment"
     ],
     "partOfSpeech": "verb phrase",
-    "frequency": 390
+    "frequency": 390,
+    "traditional": "跳舞"
   },
   {
     "hanzi": "大",
@@ -5555,7 +5945,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 391
+    "frequency": 391,
+    "traditional": "大"
   },
   {
     "hanzi": "小",
@@ -5570,7 +5961,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 392
+    "frequency": 392,
+    "traditional": "小"
   },
   {
     "hanzi": "多",
@@ -5585,7 +5977,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 393
+    "frequency": 393,
+    "traditional": "多"
   },
   {
     "hanzi": "少",
@@ -5600,7 +5993,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 394
+    "frequency": 394,
+    "traditional": "少"
   },
   {
     "hanzi": "长",
@@ -5614,7 +6008,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 395
+    "frequency": 395,
+    "traditional": "長"
   },
   {
     "hanzi": "短",
@@ -5628,7 +6023,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 396
+    "frequency": 396,
+    "traditional": "短"
   },
   {
     "hanzi": "胖",
@@ -5642,7 +6038,8 @@
       "appearance"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 397
+    "frequency": 397,
+    "traditional": "胖"
   },
   {
     "hanzi": "瘦",
@@ -5656,7 +6053,8 @@
       "appearance"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 398
+    "frequency": 398,
+    "traditional": "瘦"
   },
   {
     "hanzi": "厚",
@@ -5670,7 +6068,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 399
+    "frequency": 399,
+    "traditional": "厚"
   },
   {
     "hanzi": "薄",
@@ -5684,7 +6083,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 400
+    "frequency": 400,
+    "traditional": "薄"
   },
   {
     "hanzi": "宽",
@@ -5698,7 +6098,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 401
+    "frequency": 401,
+    "traditional": "寬"
   },
   {
     "hanzi": "窄",
@@ -5712,7 +6113,8 @@
       "size"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 402
+    "frequency": 402,
+    "traditional": "窄"
   },
   {
     "hanzi": "高兴",
@@ -5726,7 +6128,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 403
+    "frequency": 403,
+    "traditional": "高興"
   },
   {
     "hanzi": "难过",
@@ -5740,7 +6143,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 404
+    "frequency": 404,
+    "traditional": "難過"
   },
   {
     "hanzi": "生气",
@@ -5754,7 +6158,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 405
+    "frequency": 405,
+    "traditional": "生氣"
   },
   {
     "hanzi": "害怕",
@@ -5768,7 +6173,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 406
+    "frequency": 406,
+    "traditional": "害怕"
   },
   {
     "hanzi": "担心",
@@ -5782,7 +6188,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 407
+    "frequency": 407,
+    "traditional": "擔心"
   },
   {
     "hanzi": "容易",
@@ -5795,7 +6202,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 408
+    "frequency": 408,
+    "traditional": "容易"
   },
   {
     "hanzi": "难",
@@ -5809,7 +6217,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 409
+    "frequency": 409,
+    "traditional": "難"
   },
   {
     "hanzi": "简单",
@@ -5822,7 +6231,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 410
+    "frequency": 410,
+    "traditional": "簡單"
   },
   {
     "hanzi": "复杂",
@@ -5835,7 +6245,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 411
+    "frequency": 411,
+    "traditional": "複雜"
   },
   {
     "hanzi": "干净",
@@ -5848,7 +6259,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 412
+    "frequency": 412,
+    "traditional": "乾淨"
   },
   {
     "hanzi": "脏",
@@ -5861,7 +6273,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 413
+    "frequency": 413,
+    "traditional": "髒"
   },
   {
     "hanzi": "新",
@@ -5875,7 +6288,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 414
+    "frequency": 414,
+    "traditional": "新"
   },
   {
     "hanzi": "旧",
@@ -5888,7 +6302,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 415
+    "frequency": 415,
+    "traditional": "舊"
   },
   {
     "hanzi": "年轻",
@@ -5902,7 +6317,8 @@
       "age"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 416
+    "frequency": 416,
+    "traditional": "年輕"
   },
   {
     "hanzi": "老",
@@ -5916,7 +6332,8 @@
       "age"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 417
+    "frequency": 417,
+    "traditional": "老"
   },
   {
     "hanzi": "快乐",
@@ -5930,7 +6347,8 @@
       "emotion"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 418
+    "frequency": 418,
+    "traditional": "快樂"
   },
   {
     "hanzi": "漂亮",
@@ -5944,7 +6362,8 @@
       "appearance"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 419
+    "frequency": 419,
+    "traditional": "漂亮"
   },
   {
     "hanzi": "丑",
@@ -5958,7 +6377,8 @@
       "appearance"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 420
+    "frequency": 420,
+    "traditional": "醜"
   },
   {
     "hanzi": "很",
@@ -5973,7 +6393,8 @@
       "essential"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 421
+    "frequency": 421,
+    "traditional": "很"
   },
   {
     "hanzi": "太",
@@ -5987,7 +6408,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 422
+    "frequency": 422,
+    "traditional": "太"
   },
   {
     "hanzi": "真",
@@ -6001,7 +6423,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 423
+    "frequency": 423,
+    "traditional": "真"
   },
   {
     "hanzi": "特别",
@@ -6015,7 +6438,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 424
+    "frequency": 424,
+    "traditional": "特別"
   },
   {
     "hanzi": "非常",
@@ -6029,7 +6453,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 425
+    "frequency": 425,
+    "traditional": "非常"
   },
   {
     "hanzi": "最",
@@ -6044,7 +6469,8 @@
       "essential"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 426
+    "frequency": 426,
+    "traditional": "最"
   },
   {
     "hanzi": "比较",
@@ -6057,7 +6483,8 @@
       "adverb"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 427
+    "frequency": 427,
+    "traditional": "比較"
   },
   {
     "hanzi": "更",
@@ -6071,7 +6498,8 @@
       "degree"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 428
+    "frequency": 428,
+    "traditional": "更"
   },
   {
     "hanzi": "也",
@@ -6085,7 +6513,8 @@
       "essential"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 429
+    "frequency": 429,
+    "traditional": "也"
   },
   {
     "hanzi": "还",
@@ -6099,7 +6528,8 @@
       "essential"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 430
+    "frequency": 430,
+    "traditional": "還"
   },
   {
     "hanzi": "再",
@@ -6113,7 +6543,8 @@
       "time"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 431
+    "frequency": 431,
+    "traditional": "再"
   },
   {
     "hanzi": "就",
@@ -6127,7 +6558,8 @@
       "essential"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 432
+    "frequency": 432,
+    "traditional": "就"
   },
   {
     "hanzi": "才",
@@ -6140,7 +6572,8 @@
       "adverb"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 433
+    "frequency": 433,
+    "traditional": "才"
   },
   {
     "hanzi": "已经",
@@ -6154,7 +6587,8 @@
       "time"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 434
+    "frequency": 434,
+    "traditional": "已經"
   },
   {
     "hanzi": "正在",
@@ -6168,7 +6602,8 @@
       "time"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 435
+    "frequency": 435,
+    "traditional": "正在"
   },
   {
     "hanzi": "一起",
@@ -6181,7 +6616,8 @@
       "adverb"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 436
+    "frequency": 436,
+    "traditional": "一起"
   },
   {
     "hanzi": "一边",
@@ -6194,7 +6630,8 @@
       "adverb"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 437
+    "frequency": 437,
+    "traditional": "一邊"
   },
   {
     "hanzi": "一直",
@@ -6208,7 +6645,8 @@
       "time"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 438
+    "frequency": 438,
+    "traditional": "一直"
   },
   {
     "hanzi": "马上",
@@ -6222,7 +6660,8 @@
       "time"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 439
+    "frequency": 439,
+    "traditional": "馬上"
   },
   {
     "hanzi": "立刻",
@@ -6236,7 +6675,8 @@
       "time"
     ],
     "partOfSpeech": "adverb",
-    "frequency": 440
+    "frequency": 440,
+    "traditional": "立刻"
   },
   {
     "hanzi": "和",
@@ -6250,7 +6690,8 @@
       "essential"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 441
+    "frequency": 441,
+    "traditional": "和"
   },
   {
     "hanzi": "跟",
@@ -6263,7 +6704,8 @@
       "preposition"
     ],
     "partOfSpeech": "preposition",
-    "frequency": 442
+    "frequency": 442,
+    "traditional": "跟"
   },
   {
     "hanzi": "或者",
@@ -6276,7 +6718,8 @@
       "conjunction"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 443
+    "frequency": 443,
+    "traditional": "或者"
   },
   {
     "hanzi": "但是",
@@ -6290,7 +6733,8 @@
       "essential"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 444
+    "frequency": 444,
+    "traditional": "但是"
   },
   {
     "hanzi": "可是",
@@ -6303,7 +6747,8 @@
       "conjunction"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 445
+    "frequency": 445,
+    "traditional": "可是"
   },
   {
     "hanzi": "因为",
@@ -6317,7 +6762,8 @@
       "essential"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 446
+    "frequency": 446,
+    "traditional": "因爲"
   },
   {
     "hanzi": "所以",
@@ -6331,7 +6777,8 @@
       "essential"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 447
+    "frequency": 447,
+    "traditional": "所以"
   },
   {
     "hanzi": "如果",
@@ -6344,7 +6791,8 @@
       "conjunction"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 448
+    "frequency": 448,
+    "traditional": "如果"
   },
   {
     "hanzi": "虽然",
@@ -6357,7 +6805,8 @@
       "conjunction"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 449
+    "frequency": 449,
+    "traditional": "雖然"
   },
   {
     "hanzi": "而且",
@@ -6370,7 +6819,8 @@
       "conjunction"
     ],
     "partOfSpeech": "conjunction",
-    "frequency": 450
+    "frequency": 450,
+    "traditional": "而且"
   },
   {
     "hanzi": "谁",
@@ -6385,7 +6835,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 451
+    "frequency": 451,
+    "traditional": "誰"
   },
   {
     "hanzi": "什么",
@@ -6400,7 +6851,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 452
+    "frequency": 452,
+    "traditional": "什麼"
   },
   {
     "hanzi": "哪",
@@ -6415,7 +6867,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 453
+    "frequency": 453,
+    "traditional": "哪"
   },
   {
     "hanzi": "哪儿",
@@ -6430,7 +6883,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 454
+    "frequency": 454,
+    "traditional": "哪兒"
   },
   {
     "hanzi": "怎么",
@@ -6445,7 +6899,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 455
+    "frequency": 455,
+    "traditional": "怎麼"
   },
   {
     "hanzi": "怎么样",
@@ -6459,7 +6914,8 @@
       "question"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 456
+    "frequency": 456,
+    "traditional": "怎麼樣"
   },
   {
     "hanzi": "为什么",
@@ -6474,7 +6930,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 457
+    "frequency": 457,
+    "traditional": "爲什麼"
   },
   {
     "hanzi": "多少",
@@ -6489,7 +6946,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 458
+    "frequency": 458,
+    "traditional": "多少"
   },
   {
     "hanzi": "几",
@@ -6504,7 +6962,8 @@
       "number"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 459
+    "frequency": 459,
+    "traditional": "幾"
   },
   {
     "hanzi": "这",
@@ -6518,7 +6977,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 460
+    "frequency": 460,
+    "traditional": "這"
   },
   {
     "hanzi": "那",
@@ -6532,7 +6992,8 @@
       "essential"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 461
+    "frequency": 461,
+    "traditional": "那"
   },
   {
     "hanzi": "这儿",
@@ -6546,7 +7007,8 @@
       "location"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 462
+    "frequency": 462,
+    "traditional": "這兒"
   },
   {
     "hanzi": "那儿",
@@ -6560,7 +7022,8 @@
       "location"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 463
+    "frequency": 463,
+    "traditional": "那兒"
   },
   {
     "hanzi": "这里",
@@ -6574,7 +7037,8 @@
       "location"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 464
+    "frequency": 464,
+    "traditional": "這裏"
   },
   {
     "hanzi": "那里",
@@ -6588,7 +7052,8 @@
       "location"
     ],
     "partOfSpeech": "pronoun",
-    "frequency": 465
+    "frequency": 465,
+    "traditional": "那裏"
   },
   {
     "hanzi": "帮",
@@ -6601,7 +7066,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 466
+    "frequency": 466,
+    "traditional": "幫"
   },
   {
     "hanzi": "教",
@@ -6615,7 +7081,8 @@
       "study"
     ],
     "partOfSpeech": "verb",
-    "frequency": 467
+    "frequency": 467,
+    "traditional": "教"
   },
   {
     "hanzi": "送",
@@ -6628,7 +7095,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 468
+    "frequency": 468,
+    "traditional": "送"
   },
   {
     "hanzi": "借",
@@ -6641,7 +7109,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 469
+    "frequency": 469,
+    "traditional": "借"
   },
   {
     "hanzi": "还",
@@ -6654,7 +7123,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 470
+    "frequency": 470,
+    "traditional": "還"
   },
   {
     "hanzi": "忘记",
@@ -6667,7 +7137,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 471
+    "frequency": 471,
+    "traditional": "忘記"
   },
   {
     "hanzi": "记得",
@@ -6680,7 +7151,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 472
+    "frequency": 472,
+    "traditional": "記得"
   },
   {
     "hanzi": "希望",
@@ -6693,7 +7165,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 473
+    "frequency": 473,
+    "traditional": "希望"
   },
   {
     "hanzi": "决定",
@@ -6706,7 +7179,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 474
+    "frequency": 474,
+    "traditional": "決定"
   },
   {
     "hanzi": "选择",
@@ -6719,7 +7193,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 475
+    "frequency": 475,
+    "traditional": "選擇"
   },
   {
     "hanzi": "同意",
@@ -6732,7 +7207,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 476
+    "frequency": 476,
+    "traditional": "同意"
   },
   {
     "hanzi": "相信",
@@ -6745,7 +7221,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 477
+    "frequency": 477,
+    "traditional": "相信"
   },
   {
     "hanzi": "检查",
@@ -6758,7 +7235,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 478
+    "frequency": 478,
+    "traditional": "檢查"
   },
   {
     "hanzi": "准备",
@@ -6771,7 +7249,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 479
+    "frequency": 479,
+    "traditional": "準備"
   },
   {
     "hanzi": "开始",
@@ -6785,7 +7264,8 @@
       "essential"
     ],
     "partOfSpeech": "verb",
-    "frequency": 480
+    "frequency": 480,
+    "traditional": "開始"
   },
   {
     "hanzi": "结束",
@@ -6798,7 +7278,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 481
+    "frequency": 481,
+    "traditional": "結束"
   },
   {
     "hanzi": "继续",
@@ -6811,7 +7292,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 482
+    "frequency": 482,
+    "traditional": "繼續"
   },
   {
     "hanzi": "停止",
@@ -6824,7 +7306,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 483
+    "frequency": 483,
+    "traditional": "停止"
   },
   {
     "hanzi": "改变",
@@ -6837,7 +7320,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 484
+    "frequency": 484,
+    "traditional": "改變"
   },
   {
     "hanzi": "增加",
@@ -6850,7 +7334,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 485
+    "frequency": 485,
+    "traditional": "增加"
   },
   {
     "hanzi": "减少",
@@ -6863,7 +7348,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 486
+    "frequency": 486,
+    "traditional": "減少"
   },
   {
     "hanzi": "提高",
@@ -6876,7 +7362,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 487
+    "frequency": 487,
+    "traditional": "提高"
   },
   {
     "hanzi": "降低",
@@ -6889,7 +7376,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 488
+    "frequency": 488,
+    "traditional": "降低"
   },
   {
     "hanzi": "保护",
@@ -6902,7 +7390,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 489
+    "frequency": 489,
+    "traditional": "保護"
   },
   {
     "hanzi": "破坏",
@@ -6915,7 +7404,8 @@
       "verb"
     ],
     "partOfSpeech": "verb",
-    "frequency": 490
+    "frequency": 490,
+    "traditional": "破壞"
   },
   {
     "hanzi": "事",
@@ -6929,7 +7419,8 @@
       "essential"
     ],
     "partOfSpeech": "noun",
-    "frequency": 491
+    "frequency": 491,
+    "traditional": "事"
   },
   {
     "hanzi": "问题",
@@ -6943,7 +7434,8 @@
       "essential"
     ],
     "partOfSpeech": "noun",
-    "frequency": 492
+    "frequency": 492,
+    "traditional": "問題"
   },
   {
     "hanzi": "办法",
@@ -6956,7 +7448,8 @@
       "noun"
     ],
     "partOfSpeech": "noun",
-    "frequency": 493
+    "frequency": 493,
+    "traditional": "辦法"
   },
   {
     "hanzi": "机会",
@@ -6969,7 +7462,8 @@
       "noun"
     ],
     "partOfSpeech": "noun",
-    "frequency": 494
+    "frequency": 494,
+    "traditional": "機會"
   },
   {
     "hanzi": "结果",
@@ -6982,7 +7476,8 @@
       "noun"
     ],
     "partOfSpeech": "noun",
-    "frequency": 495
+    "frequency": 495,
+    "traditional": "結果"
   },
   {
     "hanzi": "原因",
@@ -6995,7 +7490,8 @@
       "noun"
     ],
     "partOfSpeech": "noun",
-    "frequency": 496
+    "frequency": 496,
+    "traditional": "原因"
   },
   {
     "hanzi": "影响",
@@ -7009,7 +7505,8 @@
       "verb"
     ],
     "partOfSpeech": "noun/verb",
-    "frequency": 497
+    "frequency": 497,
+    "traditional": "影響"
   },
   {
     "hanzi": "重要",
@@ -7023,7 +7520,8 @@
       "essential"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 498
+    "frequency": 498,
+    "traditional": "重要"
   },
   {
     "hanzi": "必要",
@@ -7036,7 +7534,8 @@
       "adjective"
     ],
     "partOfSpeech": "adjective",
-    "frequency": 499
+    "frequency": 499,
+    "traditional": "必要"
   },
   {
     "hanzi": "可能",
@@ -7050,6 +7549,7 @@
       "adverb"
     ],
     "partOfSpeech": "adjective/adverb",
-    "frequency": 500
+    "frequency": 500,
+    "traditional": "可能"
   }
 ]

@@ -159,7 +159,7 @@ class DatabaseHelper {
     final List<Word> allWords = [];
     
     // Lista plików dla każdego poziomu HSK
-    final levels = ['hsk1', 'hsk2', 'hsk3'];
+    final levels = ['hsk1', 'hsk2', 'hsk3', 'hsk4'];
     
     for (final level in levels) {
       try {
