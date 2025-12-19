@@ -202,6 +202,7 @@ class _TestConfigScreenState extends State<TestConfigScreen> {
               ElevatedButton.icon(
                 onPressed: () async {
                   final testProvider = Provider.of<TestProvider>(context, listen: false);
+                  final wordProvider = Provider.of<WordProvider>(context, listen: false);
                   
                   final config = TestConfig(
                     selectedLevels: _selectedLevels,
@@ -222,7 +223,8 @@ class _TestConfigScreenState extends State<TestConfigScreen> {
                     ),
                   );
                   
-                  await testProvider.startTest();
+                  // Przekaż cache słów z WordProvider dla szybszego startu
+                  await testProvider.startTest(availableWords: wordProvider.allWords);
                   
                   if (context.mounted) {
                     Navigator.of(context).pop(); // Zamknij loading
@@ -397,42 +399,79 @@ class _TestScreenState extends State<TestScreen> {
   }
 
   Widget _buildMultipleChoice(TestProvider testProvider, TestQuestion question) {
-    return ListView.builder(
-      itemCount: question.options.length,
-      itemBuilder: (context, index) {
-        final option = question.options[index];
-        final isSelected = _selectedAnswer == option;
-        final hasAnswered = question.userAnswer != null;
-        final isCorrect = option == question.correctAnswer;
-        final showResult = hasAnswered && isSelected;
-        
-        return Padding(
-          padding: const EdgeInsets.only(bottom: 12.0),
-          child: ElevatedButton(
-            onPressed: !hasAnswered
-                ? () {
-                    setState(() {
-                      _selectedAnswer = option;
-                    });
-                    testProvider.answerQuestion(option);
-                  }
-                : null,
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsets.all(20.0),
-              backgroundColor: showResult
-                  ? (question.userAnswer! ? Colors.green : Colors.red)
-                  : isSelected
-                      ? Theme.of(context).colorScheme.primaryContainer
+    final hasAnswered = question.userAnswer != null;
+    
+    return Column(
+      children: [
+        Expanded(
+          child: ListView.builder(
+            itemCount: question.options.length,
+            itemBuilder: (context, index) {
+              final option = question.options[index];
+              final isSelected = _selectedAnswer == option;
+              final isCorrect = option == question.correctAnswer;
+              final isUserAnswer = hasAnswered && option == question.options[question.options.indexOf(question.correctAnswer)];
+              
+              Color? backgroundColor;
+              Color? foregroundColor;
+              
+              if (hasAnswered) {
+                // Po odpowiedzi pokaż zielony dla poprawnej, czerwony dla błędnej
+                if (isCorrect) {
+                  backgroundColor = Colors.green;
+                  foregroundColor = Colors.white;
+                } else if (isSelected) {
+                  backgroundColor = Colors.red;
+                  foregroundColor = Colors.white;
+                }
+              } else if (isSelected) {
+                // Przed odpowiedzią tylko zaznacz wybraną opcję
+                backgroundColor = Theme.of(context).colorScheme.primaryContainer;
+              }
+              
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12.0),
+                child: ElevatedButton(
+                  onPressed: !hasAnswered
+                      ? () {
+                          setState(() {
+                            _selectedAnswer = option;
+                          });
+                        }
                       : null,
-              foregroundColor: showResult ? Colors.white : null,
-            ),
-            child: Text(
-              option,
-              style: const TextStyle(fontSize: 18),
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.all(20.0),
+                    backgroundColor: backgroundColor,
+                    foregroundColor: foregroundColor,
+                  ),
+                  child: Text(
+                    option,
+                    style: const TextStyle(fontSize: 18),
+                  ),
+                ),
+              );
+            },
+          ),
+        ),
+        const SizedBox(height: 16),
+        if (!hasAnswered && _selectedAnswer != null)
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton.icon(
+              onPressed: () {
+                if (_selectedAnswer != null) {
+                  testProvider.answerQuestion(_selectedAnswer!);
+                }
+              },
+              icon: const Icon(Icons.check_circle),
+              label: const Text('Potwierdź odpowiedź'),
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.all(16.0),
+                textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
             ),
           ),
-        );
-      },
+      ],
     );
   }
 
