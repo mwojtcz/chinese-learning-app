@@ -28,13 +28,13 @@ class TestProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> startTest() async {
+  Future<void> startTest({List<Word>? availableWords}) async {
     _testStartTime = DateTime.now();
     _isTestActive = true;
     _currentQuestionIndex = 0;
     
-    // Załaduj słowa na podstawie konfiguracji
-    List<Word> allWords = await _dbHelper.loadAllWords();
+    // Użyj przekazanych słów lub załaduj z bazy (fallback)
+    List<Word> allWords = availableWords ?? await _dbHelper.loadAllWords();
     
     // Filtruj według wybranych poziomów
     allWords = allWords.where((w) => _config.selectedLevels.contains(w.level)).toList();
