@@ -33,6 +33,7 @@ class _TestConfigScreenState extends State<TestConfigScreen> {
   final List<String> _selectedTags = [];
   int _questionCount = 10;
   TestMode _mode = TestMode.multipleChoice;
+  TestDirection _direction = TestDirection.chineseToPolish;
   bool _includeLearnedWords = false;
 
   @override
@@ -145,6 +146,48 @@ class _TestConfigScreenState extends State<TestConfigScreen> {
               ),
               const SizedBox(height: 16),
               
+              // Kierunek testu
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Kierunek testu',
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      RadioListTile<TestDirection>(
+                        title: const Text('🇨🇳 → 🇵🇱 Chiński → Polski'),
+                        subtitle: const Text('Zobacz chiński znak, wybierz polskie tłumaczenie'),
+                        value: TestDirection.chineseToPolish,
+                        groupValue: _direction,
+                        onChanged: (value) {
+                          setState(() {
+                            _direction = value!;
+                          });
+                        },
+                      ),
+                      RadioListTile<TestDirection>(
+                        title: const Text('🇵🇱 → 🇨🇳 Polski → Chiński'),
+                        subtitle: const Text('Zobacz polskie słowo, wybierz chiński znak'),
+                        value: TestDirection.polishToChinese,
+                        groupValue: _direction,
+                        onChanged: (value) {
+                          setState(() {
+                            _direction = value!;
+                          });
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              
               // Liczba pytań
               Card(
                 child: Padding(
@@ -209,6 +252,7 @@ class _TestConfigScreenState extends State<TestConfigScreen> {
                     selectedTags: _selectedTags,
                     questionCount: _questionCount,
                     mode: _mode,
+                    direction: _direction,
                     includeLearnedWords: _includeLearnedWords,
                   );
                   
@@ -307,15 +351,33 @@ class _TestScreenState extends State<TestScreen> {
                       padding: const EdgeInsets.all(24.0),
                       child: Column(
                         children: [
-                          Text(
-                            question.hanzi,
-                            style: const TextStyle(fontSize: 64, fontWeight: FontWeight.bold),
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            question.pinyin,
-                            style: const TextStyle(fontSize: 24, color: Colors.black54),
-                          ),
+                          // Pokaż pytanie zależnie od kierunku
+                          if (testProvider.config.direction == TestDirection.chineseToPolish) ...[
+                            Text(
+                              question.hanzi,
+                              style: const TextStyle(fontSize: 64, fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              question.pinyin,
+                              style: const TextStyle(fontSize: 24, color: Colors.black54),
+                            ),
+                          ] else ...[
+                            const Text(
+                              'Jak to powiedzieć po chińsku?',
+                              style: TextStyle(fontSize: 16, color: Colors.black54),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              question.polish,
+                              style: const TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              question.english,
+                              style: const TextStyle(fontSize: 20, color: Colors.black54),
+                            ),
+                          ],
                           const SizedBox(height: 8),
                           Container(
                             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
@@ -476,19 +538,24 @@ class _TestScreenState extends State<TestScreen> {
   }
 
   Widget _buildTypingMode(TestProvider testProvider, TestQuestion question) {
+    final isReverse = testProvider.config.direction == TestDirection.polishToChinese;
+    
     return Column(
       children: [
         Text(
-          'Wpisz tłumaczenie chińskiego znaku:',
+          isReverse 
+            ? 'Wpisz chiński znak (hanzi):'
+            : 'Wpisz polskie tłumaczenie:',
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 16),
         TextField(
           controller: _typingController,
           enabled: question.userAnswer == null,
-          decoration: const InputDecoration(
+          decoration: InputDecoration(
             labelText: 'Twoja odpowiedź',
-            border: OutlineInputBorder(),
+            hintText: isReverse ? 'np. 你好' : 'np. cześć',
+            border: const OutlineInputBorder(),
           ),
           onSubmitted: (value) {
             if (value.isNotEmpty) {
