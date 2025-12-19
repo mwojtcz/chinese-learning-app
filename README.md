@@ -4,6 +4,7 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.24.5-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.5.4-blue)
+![Version](https://img.shields.io/badge/version-1.4.0-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🌐 Live Demo
@@ -14,16 +15,33 @@ Or download the Windows application from [Releases](https://github.com/mwojtcz/c
 
 ## ✨ Features
 
-- 📚 **HSK Dictionary** - 2,229 words from HSK levels 1-3 (standard 3.0)
+- 🏠 **Dashboard** - Actionable learning hub with stats, streak counter, and quick actions
+- 📚 **HSK Dictionary** - 3,229 words from HSK levels 1-4 (standard 3.0)
+  - 🔀 Traditional/Simplified Chinese toggle
+  - 🇵🇱 Polish translations via DeepL API
+  - 🇬🇧 English translations
+- 🎋 **Chengyu Learning** - Chinese idioms with literal and actual meanings
+  - Example sentences for context
+  - Beautiful card-based layout
 - ⭐ **My Words** - Save favorite words for studying
 - 📝 **Test System** - 3 testing modes:
   - 🇨🇳 → 🇬🇧 (Hanzi → English/Polish)
   - 🇬🇧 → 🇨🇳 (English/Polish → Hanzi)
   - 🔤 → 🇨🇳 (Pinyin → Hanzi)
-- 🎨 **Dark Theme** - Elegant interface with matte design
+- 🎨 **Modern Dark Theme** - Elegant interface with improved readability
 - 🔍 **Advanced Search** - Filter by HSK level, parts of speech, and tags
 - 📊 **Auto-Tagging** - Intelligent word categorization
 - 💾 **Auto-Save** - Correct answers automatically added to "My Words"
+- 🎯 **Smooth Animations** - Fade transitions between screens
+
+## 🆕 What's New in v1.4.0
+
+- ✅ **Chengyu Screen** - Learn Chinese idioms with detailed explanations
+- ✅ **Complete UI Redesign** - Dark theme with optimized layout
+- ✅ **Smooth Transitions** - Elegant fade animations between screens
+- ✅ **Improved Typography** - Significantly larger, more readable fonts
+- ✅ **Compact Dashboard** - Two-column layout for better space utilization
+- ✅ **Functional Quick Actions** - Navigate directly to Dictionary, Tests, or My Words
 
 ## 🚀 Installation
 
@@ -56,8 +74,14 @@ Download the latest version from [Releases](https://github.com/mwojtcz/chinese-l
 
 ## 📖 How to Use
 
+### Dashboard
+- View your learning streak 🔥
+- See total vocabulary progress
+- Quick access to Dictionary, Tests, and My Words
+- Daily chengyu (Chinese idiom)
+
 ### Dictionary
-- Browse all 2,229 HSK 1-3 words
+- Browse all 3,229 HSK 1-4 words
 - Filter by level (HSK-1, HSK-2, HSK-3)
 - Search by hanzi, pinyin, or translation
 - Click a word to add to "My Words"

@@ -2,7 +2,7 @@ name: chinese_flow
 description: "ChineseFlow - Master Chinese with HSK 3.0 vocabulary and interactive tests"
 publish_to: 'none'
 
-version: 1.2.0+3
+version: 1.4.0+5
 
 environment:
   sdk: ^3.5.4
