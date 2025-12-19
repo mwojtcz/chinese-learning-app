@@ -96,6 +96,7 @@ class TestProvider with ChangeNotifier {
     
     return TestQuestion(
       hanzi: word.hanzi,
+      traditional: word.traditional,
       pinyin: word.pinyin,
       english: word.englishTranslation,
       polish: word.polishTranslation,
@@ -113,6 +114,7 @@ class TestProvider with ChangeNotifier {
     
     _questions[_currentQuestionIndex] = TestQuestion(
       hanzi: question.hanzi,
+      traditional: question.traditional,
       pinyin: question.pinyin,
       english: question.english,
       polish: question.polish,
@@ -133,6 +135,7 @@ class TestProvider with ChangeNotifier {
     
     _questions[_currentQuestionIndex] = TestQuestion(
       hanzi: question.hanzi,
+      traditional: question.traditional,
       pinyin: question.pinyin,
       english: question.english,
       polish: question.polish,

@@ -1,5 +1,6 @@
 class Word {
   final String hanzi;
+  final String traditional; // Traditional Chinese (繁體字)
   final String pinyin;
   final String englishTranslation;
   final String polishTranslation;
@@ -11,6 +12,7 @@ class Word {
 
   Word({
     required this.hanzi,
+    String? traditional,
     required this.pinyin,
     required this.englishTranslation,
     required this.polishTranslation,
@@ -19,12 +21,13 @@ class Word {
     this.tags = const [],
     this.partOfSpeech,
     this.frequency,
-  });
+  }) : traditional = traditional ?? hanzi; // Default to simplified if not provided
 
   // Convert from JSON
   factory Word.fromJson(Map<String, dynamic> json) {
     return Word(
       hanzi: json['hanzi'] as String,
+      traditional: json['traditional'] as String?,
       pinyin: json['pinyin'] as String,
       englishTranslation: json['english'] as String,
       polishTranslation: json['polish'] as String,
@@ -40,6 +43,7 @@ class Word {
   Map<String, dynamic> toJson() {
     return {
       'hanzi': hanzi,
+      'traditional': traditional,
       'pinyin': pinyin,
       'english': englishTranslation,
       'polish': polishTranslation,
@@ -55,6 +59,7 @@ class Word {
   Map<String, dynamic> toMap() {
     return {
       'hanzi': hanzi,
+      'traditional': traditional,
       'pinyin': pinyin,
       'english': englishTranslation,
       'polish': polishTranslation,
@@ -70,6 +75,7 @@ class Word {
   factory Word.fromMap(Map<String, dynamic> map) {
     return Word(
       hanzi: map['hanzi'] as String,
+      traditional: map['traditional'] as String?,
       pinyin: map['pinyin'] as String,
       englishTranslation: map['english'] as String,
       polishTranslation: map['polish'] as String,

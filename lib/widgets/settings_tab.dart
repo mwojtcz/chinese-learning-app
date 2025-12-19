@@ -21,6 +21,7 @@ class _SettingsTabState extends State<SettingsTab> {
     try {
       final prefs = await SharedPreferences.getInstance();
       emojiEnabledNotifier.value = prefs.getBool('emojis_enabled') ?? true;
+      traditionalChineseNotifier.value = prefs.getBool('traditional_chinese') ?? false;
     } catch (e) {
       // Ignore errors
     }
@@ -31,6 +32,16 @@ class _SettingsTabState extends State<SettingsTab> {
     try {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setBool('emojis_enabled', value);
+    } catch (e) {
+      // Ignore errors
+    }
+  }
+
+  Future<void> _toggleTraditionalChinese(bool value) async {
+    traditionalChineseNotifier.value = value;
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool('traditional_chinese', value);
     } catch (e) {
       // Ignore errors
     }
@@ -92,6 +103,20 @@ class _SettingsTabState extends State<SettingsTab> {
                       value: emojisEnabled,
                       onChanged: _toggleEmojis,
                       secondary: const Icon(Icons.auto_awesome),
+                    );
+                  },
+                ),
+                ValueListenableBuilder<bool>(
+                  valueListenable: traditionalChineseNotifier,
+                  builder: (context, useTraditional, child) {
+                    return SwitchListTile(
+                      title: Text(useTraditional ? '繁體中文 (Traditional)' : '简体中文 (Simplified)'),
+                      subtitle: Text(useTraditional 
+                        ? 'Wyświetl znaki tradycyjne (臺灣/香港)'
+                        : 'Wyświetl znaki uproszczone (中國大陸)'),
+                      value: useTraditional,
+                      onChanged: _toggleTraditionalChinese,
+                      secondary: const Icon(Icons.translate),
                     );
                   },
                 ),

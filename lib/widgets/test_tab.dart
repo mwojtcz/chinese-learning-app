@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/test_provider.dart';
 import '../providers/word_provider.dart';
 import '../models/test_config.dart';
+import 'chinese_text.dart';
 
 class TestTab extends StatelessWidget {
   const TestTab({super.key});
@@ -307,8 +308,9 @@ class _TestScreenState extends State<TestScreen> {
                       padding: const EdgeInsets.all(24.0),
                       child: Column(
                         children: [
-                          Text(
+                          ChineseText(
                             question.hanzi,
+                            traditional: question.traditional,
                             style: const TextStyle(fontSize: 64, fontWeight: FontWeight.bold),
                           ),
                           const SizedBox(height: 8),

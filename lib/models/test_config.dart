@@ -38,6 +38,7 @@ enum TestMode {
 
 class TestQuestion {
   final String hanzi;
+  final String traditional;
   final String pinyin;
   final String english;
   final String polish;
@@ -49,6 +50,7 @@ class TestQuestion {
 
   TestQuestion({
     required this.hanzi,
+    required this.traditional,
     required this.pinyin,
     required this.english,
     required this.polish,

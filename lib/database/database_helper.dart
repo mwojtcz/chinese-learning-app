@@ -5,6 +5,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/services.dart' show rootBundle;
 import '../models/word.dart';
+import '../utils/chinese_converter_helper.dart';
 
 class DatabaseHelper {
   static final DatabaseHelper instance = DatabaseHelper._init();
@@ -34,7 +35,7 @@ class DatabaseHelper {
 
     return await openDatabase(
       path,
-      version: 2, // Incremented to version 2 for schema migration
+      version: 3, // Incremented to version 3 for traditional Chinese support
       onCreate: _createDB,
       onUpgrade: _onUpgrade,
     );
@@ -47,12 +48,17 @@ class DatabaseHelper {
       await db.execute('ALTER TABLE my_words ADD COLUMN partOfSpeech TEXT');
       await db.execute('ALTER TABLE my_words ADD COLUMN frequency INTEGER');
     }
+    if (oldVersion < 3) {
+      // Add traditional Chinese column for version 3
+      await db.execute('ALTER TABLE my_words ADD COLUMN traditional TEXT');
+    }
   }
 
   Future<void> _createDB(Database db, int version) async {
     await db.execute('''
       CREATE TABLE my_words (
         hanzi TEXT PRIMARY KEY,
+        traditional TEXT,
         pinyin TEXT NOT NULL,
         english TEXT NOT NULL,
         polish TEXT NOT NULL,
@@ -159,7 +165,25 @@ class DatabaseHelper {
       try {
         final String jsonString = await rootBundle.loadString('assets/data/${level}_words.json');
         final List<dynamic> jsonList = json.decode(jsonString);
-        final words = jsonList.map((json) => Word.fromJson(json)).toList();
+        final words = jsonList.map((json) {
+          final word = Word.fromJson(json);
+          // Auto-convert to traditional if not already set
+          if (word.traditional == word.hanzi) {
+            return Word(
+              hanzi: word.hanzi,
+              traditional: ChineseConverterHelper.toTraditional(word.hanzi),
+              pinyin: word.pinyin,
+              englishTranslation: word.englishTranslation,
+              polishTranslation: word.polishTranslation,
+              level: word.level,
+              notes: word.notes,
+              tags: word.tags,
+              partOfSpeech: word.partOfSpeech,
+              frequency: word.frequency,
+            );
+          }
+          return word;
+        }).toList();
         allWords.addAll(words);
       } catch (e) {
         print('Error loading $level: $e');
