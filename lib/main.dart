@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
               borderSide: BorderSide(color: Color(0xFFE9E1D5)),
             ),
           ),
-          tabBarTheme: const TabBarThemeData(
+          tabBarTheme: const TabBarTheme(
             labelColor: kChineseRed,
             unselectedLabelColor: Color(0xFF77776F),
             indicatorColor: kChineseRed,
