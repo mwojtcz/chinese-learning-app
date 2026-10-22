@@ -26,6 +26,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
+          flutter-version: '3.47.7'
           channel: 'stable'
       
       - name: Get dependencies
@@ -33,6 +34,9 @@ jobs:
 
       - name: Test Windows update manifest validation
         run: flutter test test/windows_updater_test.dart
+
+      - name: Build web compatibility
+        run: flutter build web --release --base-href "/chinese-learning-app/"
 
       - name: Build Windows Release
         shell: pwsh

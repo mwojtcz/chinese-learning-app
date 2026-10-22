@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/foundation.dart'
+    show defaultTargetPlatform, kIsWeb, TargetPlatform;
 import 'package:provider/provider.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
-import 'dart:io' show Platform;
 import 'providers/word_provider.dart';
 import 'providers/test_provider.dart';
 import 'screens/home_screen.dart';
@@ -15,7 +15,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
   // Initialize sqflite for desktop platforms
-  if (!kIsWeb && (Platform.isWindows || Platform.isLinux)) {
+  if (!kIsWeb &&
+      (defaultTargetPlatform == TargetPlatform.windows ||
+          defaultTargetPlatform == TargetPlatform.linux)) {
     sqfliteFfiInit();
     databaseFactory = databaseFactoryFfi;
   }
@@ -58,11 +60,6 @@ class MyApp extends StatelessWidget {
               borderRadius: BorderRadius.all(Radius.circular(16)),
               borderSide: BorderSide(color: Color(0xFFE9E1D5)),
             ),
-          ),
-          tabBarTheme: const TabBarTheme(
-            labelColor: kChineseRed,
-            unselectedLabelColor: Color(0xFF77776F),
-            indicatorColor: kChineseRed,
           ),
         ),
         themeMode: ThemeMode.light,
