@@ -39,7 +39,8 @@ class _PracticeTabState extends State<PracticeTab> {
   final _answerController = TextEditingController();
 
   _PracticeMode _mode = _PracticeMode.vocabulary;
-  String _selectedLevel = 'HSK-1';
+  late String _selectedLevel =
+      widget.target == LearningTarget.chinese ? 'HSK-1' : 'A1';
   Word? _word;
   PracticeExercise? _exercise;
   List<String> _options = const [];
