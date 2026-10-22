@@ -1,0 +1,259 @@
+{
+  "exercises": [
+    {
+      "id": "pl-a1-accusative-ksiazka",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Uzupełnij biernik: Czytam ___ (książka).",
+        "zhHans": "填入正确的宾格形式：Czytam ___（książka，书）。",
+        "zhHant": "填入正確的賓格形式：Czytam ___（książka，書）。"
+      },
+      "answer": "książkę",
+      "acceptedAnswers": ["książkę"],
+      "explanation": {
+        "pl": "Czasownik „czytać” łączy się tu z biernikiem: czytam książkę.",
+        "zhHans": "动词 czytać（读）在这里搭配宾格：czytam książkę（我读书）。",
+        "zhHant": "動詞 czytać（讀）在這裡搭配賓格：czytam książkę（我讀書）。"
+      }
+    },
+    {
+      "id": "pl-a1-genitive-negation",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Uzupełnij zdanie: Nie mam ___ (czas).",
+        "zhHans": "填空：Nie mam ___（czas，时间）。",
+        "zhHant": "填空：Nie mam ___（czas，時間）。"
+      },
+      "answer": "czasu",
+      "acceptedAnswers": ["czasu"],
+      "explanation": {
+        "pl": "Po przeczeniu „nie mam” używamy dopełniacza: nie mam czasu.",
+        "zhHans": "否定表达 nie mam（我没有）后用属格：nie mam czasu（我没有时间）。",
+        "zhHant": "否定表達 nie mam（我沒有）後用屬格：nie mam czasu（我沒有時間）。"
+      }
+    },
+    {
+      "id": "pl-a1-instrumental-brat",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Uzupełnij narzędnik: Idę z ___ (brat).",
+        "zhHans": "填入正确的工具格：Idę z ___（brat，哥哥/弟弟）。",
+        "zhHant": "填入正確的工具格：Idę z ___（brat，哥哥／弟弟）。"
+      },
+      "answer": "bratem",
+      "acceptedAnswers": ["bratem"],
+      "explanation": {
+        "pl": "„Z” w znaczeniu „razem z” wymaga narzędnika: z bratem.",
+        "zhHans": "z 表示“和……一起”时要求工具格：z bratem（和兄弟一起）。",
+        "zhHant": "z 表示「和……一起」時要求工具格：z bratem（和兄弟一起）。"
+      }
+    },
+    {
+      "id": "pl-a1-locative-warszawa",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Uzupełnij miejscownik: Mieszkam w ___. (Warszawa)",
+        "zhHans": "填入正确的处所格：Mieszkam w ___。（Warszawa，华沙）",
+        "zhHant": "填入正確的處所格：Mieszkam w ___。（Warszawa，華沙）"
+      },
+      "answer": "Warszawie",
+      "acceptedAnswers": ["Warszawie"],
+      "explanation": {
+        "pl": "Po „w” w znaczeniu miejsca używamy miejscownika: w Warszawie.",
+        "zhHans": "w 表示地点时使用处所格：w Warszawie（在华沙）。",
+        "zhHant": "w 表示地點時使用處所格：w Warszawie（在華沙）。"
+      }
+    },
+    {
+      "id": "pl-a1-dative-student",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Uzupełnij celownik: Daję książkę ___. (student)",
+        "zhHans": "填入正确的与格：Daję książkę ___。（student，学生）",
+        "zhHant": "填入正確的與格：Daję książkę ___。（student，學生）"
+      },
+      "answer": "studentowi",
+      "acceptedAnswers": ["studentowi"],
+      "explanation": {
+        "pl": "Odbiorca w zdaniu „daję komu?” występuje w celowniku: studentowi.",
+        "zhHans": "表示“给谁”时，接受者用与格：studentowi（给学生）。",
+        "zhHant": "表示「給誰」時，接受者用與格：studentowi（給學生）。"
+      }
+    },
+    {
+      "id": "pl-a1-instrumental-profession",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Uzupełnij zdanie: Marek jest ___. (student)",
+        "zhHans": "填空：Marek jest ___。（student，学生）",
+        "zhHant": "填空：Marek jest ___。（student，學生）"
+      },
+      "answer": "studentem",
+      "acceptedAnswers": ["studentem"],
+      "explanation": {
+        "pl": "Nazwę zawodu lub roli po „być” często podajemy w narzędniku: jest studentem.",
+        "zhHans": "表示职业或身份时，być（是）后常用工具格：jest studentem（是学生）。",
+        "zhHant": "表示職業或身分時，być（是）後常用工具格：jest studentem（是學生）。"
+      }
+    },
+    {
+      "id": "pl-a1-verb-present",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Wybierz formę czasownika: Ja ___ po polsku. (mówić)",
+        "zhHans": "填入正确的动词形式：Ja ___ po polsku。（mówić，说）",
+        "zhHant": "填入正確的動詞形式：Ja ___ po polsku。（mówić，說）"
+      },
+      "answer": "mówię",
+      "acceptedAnswers": ["mówię"],
+      "explanation": {
+        "pl": "Dla „ja” czasownik „mówić” ma formę „mówię”.",
+        "zhHans": "mówić（说）与 ja（我）搭配时变为 mówię。",
+        "zhHant": "mówić（說）與 ja（我）搭配時變為 mówię。"
+      }
+    },
+    {
+      "id": "pl-a1-adjective-gender",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {
+        "pl": "Dopasuj rodzaj: To jest ___ książka. (dobry)",
+        "zhHans": "选择阴性形式：To jest ___ książka。（dobry，好）",
+        "zhHant": "選擇陰性形式：To jest ___ książka。（dobry，好）"
+      },
+      "answer": "dobra",
+      "acceptedAnswers": ["dobra"],
+      "explanation": {
+        "pl": "„Książka” jest rodzaju żeńskiego, dlatego przymiotnik ma formę „dobra”.",
+        "zhHans": "książka（书）是阴性名词，所以形容词用 dobra。",
+        "zhHant": "książka（書）是陰性名詞，所以形容詞用 dobra。"
+      }
+    },
+    {
+      "id": "zh-hsk1-copula",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Uzupełnij zdanie „On jest nauczycielem”: 他___老师。",
+        "zhHans": "填入系词，表达“他是老师”：他___老师。",
+        "zhHant": "填入繫詞，表達「他是老師」：他___老師。"
+      },
+      "answer": "是",
+      "acceptedAnswers": ["是"],
+      "explanation": {
+        "pl": "是 łączy podmiot z rzeczownikiem lub tożsamością: 他是老师。",
+        "zhHans": "是连接主语与名词或身份：他是老师。",
+        "zhHant": "是連接主語與名詞或身分：他是老師。"
+      }
+    },
+    {
+      "id": "zh-hsk1-negation-bu",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Wstaw przeczenie: „Nie piję kawy”: 我___喝咖啡。",
+        "zhHans": "填入否定词，表达“我不喝咖啡”：我___喝咖啡。",
+        "zhHant": "填入否定詞，表達「我不喝咖啡」：我___喝咖啡。"
+      },
+      "answer": "不",
+      "acceptedAnswers": ["不"],
+      "explanation": {
+        "pl": "不 przeczy zwyczajowi lub ogólnej czynności: 我不喝咖啡。",
+        "zhHans": "不用于否定习惯或一般行为：我不喝咖啡。",
+        "zhHant": "不用於否定習慣或一般行為：我不喝咖啡。"
+      }
+    },
+    {
+      "id": "zh-hsk1-classifier-ben",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Wstaw klasyfikator do książek: 我有两___书。",
+        "zhHans": "填入书籍的量词：我有两___书。",
+        "zhHant": "填入書籍的量詞：我有兩___書。"
+      },
+      "answer": "本",
+      "acceptedAnswers": ["本"],
+      "explanation": {
+        "pl": "本 jest klasyfikatorem używanym między innymi do książek: 两本书。",
+        "zhHans": "本是书籍等物品常用的量词：两本书。",
+        "zhHant": "本是書籍等物品常用的量詞：兩本書。"
+      }
+    },
+    {
+      "id": "zh-hsk1-past-mei",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Wstaw przeczenie zdarzenia, które się nie wydarzyło: 我___去学校。",
+        "zhHans": "填入表示动作尚未发生的否定词：我___去学校。",
+        "zhHant": "填入表示動作尚未發生的否定詞：我___去學校。"
+      },
+      "answer": "没",
+      "acceptedAnswers": ["没", "沒"],
+      "explanation": {
+        "pl": "没 (lub 没有) często przeczy temu, że zdarzenie nastąpiło: 我没去学校。",
+        "zhHans": "没（或没有）常用于否定已经发生的动作：我没去学校。",
+        "zhHant": "沒（或沒有）常用於否定已經發生的動作：我沒去學校。"
+      }
+    },
+    {
+      "id": "zh-hsk1-measure-ge",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Uzupełnij klasyfikator ogólny: 三___人。",
+        "zhHans": "填入常用通用量词：三___人。",
+        "zhHant": "填入常用通用量詞：三___人。"
+      },
+      "answer": "个",
+      "acceptedAnswers": ["个", "個"],
+      "explanation": {
+        "pl": "个 (tradycyjnie 個) to częsty klasyfikator ogólny: 三个人。",
+        "zhHans": "个是常用的通用量词：三个人。",
+        "zhHant": "個是常用的通用量詞：三個人。"
+      }
+    },
+    {
+      "id": "zh-hsk1-verb-zai",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Wstaw 在, aby powiedzieć „Uczę się w domu”: 我___家学习。",
+        "zhHans": "填入 在，表达“我在家学习”：我___家学习。",
+        "zhHant": "填入 在，表達「我在家學習」：我___家學習。"
+      },
+      "answer": "在",
+      "acceptedAnswers": ["在"],
+      "explanation": {
+        "pl": "Określenie miejsca zwykle stoi przed czasownikiem: 我在家学习。",
+        "zhHans": "地点状语通常放在动词前：我在家学习。",
+        "zhHant": "地點狀語通常放在動詞前：我在家學習。"
+      }
+    },
+    {
+      "id": "zh-hsk1-comparison-bi",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {
+        "pl": "Uzupełnij porównanie „Jest wyższy ode mnie”: 他___我高。",
+        "zhHans": "填入比较词，表达“他比我高”：他___我高。",
+        "zhHant": "填入比較詞，表達「他比我高」：他___我高。"
+      },
+      "answer": "比",
+      "acceptedAnswers": ["比"],
+      "explanation": {
+        "pl": "比 wprowadza punkt odniesienia w porównaniu: 他比我高。",
+        "zhHans": "比引出比较对象：他比我高。",
+        "zhHant": "比引出比較對象：他比我高。"
+      }
+    }
+  ]
+}

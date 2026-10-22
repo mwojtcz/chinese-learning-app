@@ -8,8 +8,8 @@ import 'providers/test_provider.dart';
 import 'screens/home_screen.dart';
 
 // App theme colors
-const kChineseRed = Color(0xFFE63946);
-const kChineseGold = Color(0xFFFFD700);
+const kChineseRed = Color(0xFFB44535);
+const kChineseGold = Color(0xFFC49A56);
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,43 +36,36 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => TestProvider()),
       ],
       child: MaterialApp(
-        title: 'ChineseFlow',
+        title: 'Cíkǎ · Chinese & Polish',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.red,
+            seedColor: kChineseRed,
             brightness: Brightness.light,
           ),
           useMaterial3: true,
           fontFamily: 'Roboto',
-        ),
-        darkTheme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(
-            seedColor: kChineseRed,
-            brightness: Brightness.dark,
-            primary: kChineseRed, // Vibrant Chinese red
-            secondary: kChineseGold, // Chinese gold
-            surface: const Color(0xFF1A1A1A), // Charcoal surface
-            background: const Color(0xFF0D0D0D), // Near-black background
-          ),
-          useMaterial3: true,
-          fontFamily: 'Roboto',
-          scaffoldBackgroundColor: const Color(0xFF0D0D0D),
-          cardTheme: const CardTheme(
-            color: Color(0xFF1A1A1A),
-            elevation: 3,
-          ),
+          scaffoldBackgroundColor: const Color(0xFFF6F2EB),
           appBarTheme: const AppBarTheme(
-            backgroundColor: Color(0xFF1A1A1A),
-            elevation: 2,
+            backgroundColor: Color(0xFFF6F2EB),
+            foregroundColor: Color(0xFF242521),
+            elevation: 0,
           ),
-          tabBarTheme: TabBarTheme(
-            labelColor: kChineseGold, // Chinese gold for active tab
-            unselectedLabelColor: Colors.white70,
-            indicatorColor: kChineseGold,
+          inputDecorationTheme: InputDecorationTheme(
+            filled: true,
+            fillColor: const Color(0xFFFFFCF6),
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.all(Radius.circular(16)),
+              borderSide: BorderSide(color: Color(0xFFE9E1D5)),
+            ),
+          ),
+          tabBarTheme: const TabBarThemeData(
+            labelColor: kChineseRed,
+            unselectedLabelColor: Color(0xFF77776F),
+            indicatorColor: kChineseRed,
           ),
         ),
-        themeMode: ThemeMode.dark, // Domyślnie ciemny motyw
+        themeMode: ThemeMode.light,
         home: const HomeScreen(),
       ),
     );

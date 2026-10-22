@@ -9,6 +9,16 @@ class Word {
   final List<String> tags;
   final String? partOfSpeech;
   final int? frequency;
+  final String? sourceWord;
+
+  String get displayHanzi {
+    final separator = hanzi.lastIndexOf('#');
+    final headword = separator > 0 &&
+            int.tryParse(hanzi.substring(separator + 1)) != null
+        ? hanzi.substring(0, separator)
+        : sourceWord ?? hanzi;
+    return headword.replaceFirst(RegExp(r'\d+$'), '');
+  }
 
   Word({
     required this.hanzi,
@@ -21,6 +31,7 @@ class Word {
     this.tags = const [],
     this.partOfSpeech,
     this.frequency,
+    this.sourceWord,
   }) : traditional = traditional ?? hanzi; // Default to simplified if not provided
 
   // Convert from JSON
@@ -36,6 +47,7 @@ class Word {
       tags: (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList() ?? [],
       partOfSpeech: json['partOfSpeech'] as String?,
       frequency: json['frequency'] as int?,
+      sourceWord: json['sourceWord'] as String?,
     );
   }
 
@@ -52,6 +64,7 @@ class Word {
       'tags': tags,
       'partOfSpeech': partOfSpeech,
       'frequency': frequency,
+      'sourceWord': sourceWord,
     };
   }
 
@@ -68,6 +81,7 @@ class Word {
       'tags': tags.join(','),
       'partOfSpeech': partOfSpeech,
       'frequency': frequency,
+      'sourceWord': sourceWord,
     };
   }
 
@@ -84,6 +98,7 @@ class Word {
       tags: (map['tags'] as String?)?.split(',').where((s) => s.isNotEmpty).toList() ?? [],
       partOfSpeech: map['partOfSpeech'] as String?,
       frequency: map['frequency'] as int?,
+      sourceWord: map['sourceWord'] as String?,
     );
   }
 

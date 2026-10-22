@@ -1,0 +1,260 @@
+{
+  "entries": [
+    {
+      "lemmas": ["student"],
+      "forms": [
+        {"label": "Mianownik", "value": "student"},
+        {"label": "Dopełniacz", "value": "studenta"},
+        {"label": "Celownik", "value": "studentowi"},
+        {"label": "Biernik", "value": "studenta"},
+        {"label": "Narzędnik", "value": "studentem"},
+        {"label": "Miejscownik", "value": "studencie"},
+        {"label": "Wołacz", "value": "studencie!"}
+      ],
+      "example": {
+        "pl": "Student rozmawia z nauczycielem.",
+        "zhHans": "学生正在和老师交谈。",
+        "zhHant": "學生正在和老師交談。"
+      }
+    },
+    {
+      "lemmas": ["książka", "ksiazka"],
+      "forms": [
+        {"label": "Mianownik", "value": "książka"},
+        {"label": "Dopełniacz", "value": "książki"},
+        {"label": "Celownik", "value": "książce"},
+        {"label": "Biernik", "value": "książkę"},
+        {"label": "Narzędnik", "value": "książką"},
+        {"label": "Miejscownik", "value": "książce"},
+        {"label": "Wołacz", "value": "książko!"},
+        {"label": "Liczba mnoga", "value": "książki"}
+      ],
+      "example": {
+        "pl": "Czytam książkę o Polsce.",
+        "zhHans": "我在读一本关于波兰的书。",
+        "zhHant": "我在讀一本關於波蘭的書。"
+      }
+    },
+    {
+      "lemmas": ["dziecko"],
+      "forms": [
+        {"label": "Mianownik", "value": "dziecko"},
+        {"label": "Dopełniacz", "value": "dziecka"},
+        {"label": "Celownik", "value": "dziecku"},
+        {"label": "Biernik", "value": "dziecko"},
+        {"label": "Narzędnik", "value": "dzieckiem"},
+        {"label": "Miejscownik", "value": "dziecku"},
+        {"label": "Liczba mnoga", "value": "dzieci"}
+      ],
+      "example": {
+        "pl": "Dziecko pije wodę.",
+        "zhHans": "孩子在喝水。",
+        "zhHant": "孩子在喝水。"
+      }
+    },
+    {
+      "lemmas": ["człowiek"],
+      "forms": [
+        {"label": "Mianownik", "value": "człowiek"},
+        {"label": "Dopełniacz", "value": "człowieka"},
+        {"label": "Celownik", "value": "człowiekowi"},
+        {"label": "Biernik", "value": "człowieka"},
+        {"label": "Narzędnik", "value": "człowiekiem"},
+        {"label": "Miejscownik", "value": "człowieku"},
+        {"label": "Liczba mnoga", "value": "ludzie"}
+      ],
+      "example": {
+        "pl": "Człowiek uczy się przez całe życie.",
+        "zhHans": "人一生都在学习。",
+        "zhHant": "人一生都在學習。"
+      }
+    },
+    {
+      "lemmas": ["kobieta"],
+      "forms": [
+        {"label": "Mianownik", "value": "kobieta"},
+        {"label": "Dopełniacz", "value": "kobiety"},
+        {"label": "Celownik", "value": "kobiecie"},
+        {"label": "Biernik", "value": "kobietę"},
+        {"label": "Narzędnik", "value": "kobietą"},
+        {"label": "Miejscownik", "value": "kobiecie"},
+        {"label": "Liczba mnoga", "value": "kobiety"}
+      ],
+      "example": {
+        "pl": "Rozmawiam z kobietą.",
+        "zhHans": "我正在和一位女士交谈。",
+        "zhHant": "我正在和一位女士交談。"
+      }
+    },
+    {
+      "lemmas": ["brat"],
+      "forms": [
+        {"label": "Mianownik", "value": "brat"},
+        {"label": "Dopełniacz", "value": "brata"},
+        {"label": "Celownik", "value": "bratu"},
+        {"label": "Biernik", "value": "brata"},
+        {"label": "Narzędnik", "value": "bratem"},
+        {"label": "Miejscownik", "value": "bracie"},
+        {"label": "Wołacz", "value": "bracie!"},
+        {"label": "Liczba mnoga", "value": "bracia"}
+      ],
+      "example": {
+        "pl": "Idę z bratem do domu.",
+        "zhHans": "我和哥哥/弟弟一起回家。",
+        "zhHant": "我和哥哥／弟弟一起回家。"
+      }
+    },
+    {
+      "lemmas": ["czas"],
+      "forms": [
+        {"label": "Mianownik", "value": "czas"},
+        {"label": "Dopełniacz", "value": "czasu"},
+        {"label": "Celownik", "value": "czasowi"},
+        {"label": "Biernik", "value": "czas"},
+        {"label": "Narzędnik", "value": "czasem"},
+        {"label": "Miejscownik", "value": "czasie"},
+        {"label": "Wołacz", "value": "czasie!"},
+        {"label": "Liczba mnoga", "value": "czasy"}
+      ],
+      "example": {
+        "pl": "Nie mam teraz czasu.",
+        "zhHans": "我现在没有时间。",
+        "zhHant": "我現在沒有時間。"
+      }
+    },
+    {
+      "lemmas": ["dom"],
+      "forms": [
+        {"label": "Mianownik", "value": "dom"},
+        {"label": "Dopełniacz", "value": "domu"},
+        {"label": "Celownik", "value": "domowi"},
+        {"label": "Biernik", "value": "dom"},
+        {"label": "Narzędnik", "value": "domem"},
+        {"label": "Miejscownik", "value": "domu"},
+        {"label": "Liczba mnoga", "value": "domy"}
+      ],
+      "example": {
+        "pl": "Wracam do domu.",
+        "zhHans": "我回家。",
+        "zhHant": "我回家。"
+      }
+    },
+    {
+      "lemmas": ["woda"],
+      "forms": [
+        {"label": "Mianownik", "value": "woda"},
+        {"label": "Dopełniacz", "value": "wody"},
+        {"label": "Celownik", "value": "wodzie"},
+        {"label": "Biernik", "value": "wodę"},
+        {"label": "Narzędnik", "value": "wodą"},
+        {"label": "Miejscownik", "value": "wodzie"},
+        {"label": "Liczba mnoga", "value": "wody"}
+      ],
+      "example": {
+        "pl": "Poproszę szklankę wody.",
+        "zhHans": "请给我一杯水。",
+        "zhHant": "請給我一杯水。"
+      }
+    },
+    {
+      "lemmas": ["dobry"],
+      "forms": [
+        {"label": "Stopień wyższy", "value": "lepszy / lepsza / lepsze"},
+        {"label": "Stopień najwyższy", "value": "najlepszy / najlepsza / najlepsze"}
+      ],
+      "example": {
+        "pl": "Ta książka jest lepsza.",
+        "zhHans": "这本书更好。",
+        "zhHant": "這本書更好。"
+      }
+    },
+    {
+      "lemmas": ["duży"],
+      "forms": [
+        {"label": "Stopień wyższy", "value": "większy / większa / większe"},
+        {"label": "Stopień najwyższy", "value": "największy / największa / największe"}
+      ],
+      "example": {
+        "pl": "Ten dom jest większy.",
+        "zhHans": "这栋房子更大。",
+        "zhHant": "這棟房子更大。"
+      }
+    },
+    {
+      "lemmas": ["mały"],
+      "forms": [
+        {"label": "Stopień wyższy", "value": "mniejszy / mniejsza / mniejsze"},
+        {"label": "Stopień najwyższy", "value": "najmniejszy / najmniejsza / najmniejsze"}
+      ],
+      "example": {
+        "pl": "To jest mniejszy dom.",
+        "zhHans": "这是一栋更小的房子。",
+        "zhHant": "這是一棟更小的房子。"
+      }
+    },
+    {
+      "lemmas": ["być"],
+      "forms": [
+        {"label": "ja", "value": "jestem"},
+        {"label": "ty", "value": "jesteś"},
+        {"label": "on/ona/ono", "value": "jest"},
+        {"label": "my", "value": "jesteśmy"},
+        {"label": "wy", "value": "jesteście"},
+        {"label": "oni/one", "value": "są"}
+      ],
+      "example": {
+        "pl": "Jestem studentem.",
+        "zhHans": "我是学生。",
+        "zhHant": "我是學生。"
+      }
+    },
+    {
+      "lemmas": ["mieć"],
+      "forms": [
+        {"label": "ja", "value": "mam"},
+        {"label": "ty", "value": "masz"},
+        {"label": "on/ona/ono", "value": "ma"},
+        {"label": "my", "value": "mamy"},
+        {"label": "wy", "value": "macie"},
+        {"label": "oni/one", "value": "mają"}
+      ],
+      "example": {
+        "pl": "Mam nową książkę.",
+        "zhHans": "我有一本新书。",
+        "zhHant": "我有一本新書。"
+      }
+    },
+    {
+      "lemmas": ["mówić"],
+      "forms": [
+        {"label": "ja", "value": "mówię"},
+        {"label": "ty", "value": "mówisz"},
+        {"label": "on/ona/ono", "value": "mówi"},
+        {"label": "my", "value": "mówimy"},
+        {"label": "wy", "value": "mówicie"},
+        {"label": "oni/one", "value": "mówią"}
+      ],
+      "example": {
+        "pl": "Mówię po polsku.",
+        "zhHans": "我说波兰语。",
+        "zhHant": "我說波蘭語。"
+      }
+    },
+    {
+      "lemmas": ["jeść"],
+      "forms": [
+        {"label": "ja", "value": "jem"},
+        {"label": "ty", "value": "jesz"},
+        {"label": "on/ona/ono", "value": "je"},
+        {"label": "my", "value": "jemy"},
+        {"label": "wy", "value": "jecie"},
+        {"label": "oni/one", "value": "jedzą"}
+      ],
+      "example": {
+        "pl": "Jemy razem kolację.",
+        "zhHans": "我们一起吃晚饭。",
+        "zhHant": "我們一起吃晚餐。"
+      }
+    }
+  ]
+}

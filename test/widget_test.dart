@@ -1,30 +1,45 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:chinese_learning_app/main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:chinese_flow/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('shows the study deck and switches the interface to Chinese', (tester) async {
+    SharedPreferences.setMockInitialValues({});
     await tester.pumpWidget(const MyApp());
+    await tester.pumpAndSettle();
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    expect(find.text('Jedna karta na raz.'), findsOneWidget);
+    expect(find.text('Talia'), findsOneWidget);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    await tester.tap(find.byTooltip('简体中文'));
+    await tester.pumpAndSettle();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    expect(find.text('一次一张卡。'), findsOneWidget);
+    expect(find.text('词卡'), findsOneWidget);
+
+    await tester.tap(find.text('HSK 词库'));
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('HSK 5'));
+    await tester.tap(find.text('HSK 5'));
+    await tester.pumpAndSettle();
+    expect(find.text('班'), findsOneWidget);
+
+    await tester.ensureVisible(find.text('HSK 6'));
+    await tester.tap(find.text('HSK 6'));
+    await tester.pumpAndSettle();
+    expect(find.text('花'), findsOneWidget);
+
+    await tester.ensureVisible(find.text('HSK 7–9'));
+    await tester.tap(find.text('HSK 7–9'));
+    await tester.pumpAndSettle();
+    expect(find.text('次'), findsOneWidget);
+
+    await tester.tap(find.text('练习'));
+    await tester.pumpAndSettle();
+    expect(find.text('把词语用出来。'), findsOneWidget);
+
+    await tester.tap(find.text('填空'));
+    await tester.pumpAndSettle();
+    expect(find.byType(TextField), findsOneWidget);
   });
 }

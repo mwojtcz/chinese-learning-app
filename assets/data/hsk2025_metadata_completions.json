@@ -1,0 +1,350 @@
+{
+  "HSK-1|123": {
+    "english": "not have; there is/are not",
+    "pinyin": "méi (yǒu)"
+  },
+  "HSK-1|266": {
+    "english": "a little; somewhat",
+    "pinyin": "yǒu (yì) diǎnr"
+  },
+  "HSK-2|185": {
+    "english": "sometimes; at times",
+    "pinyin": "yǒu shí (hou)"
+  },
+  "HSK-3|206": {
+    "english": "to check tickets",
+    "pinyin": "jiǎn piào"
+  },
+  "HSK-5|308": {
+    "english": "e-commerce; online retail",
+    "pinyin": "diàn shāng"
+  },
+  "HSK-5|1374": {
+    "english": "otherwise; or else; alternatively",
+    "pinyin": "yào bù (rán)"
+  },
+  "HSK-6|134": {
+    "english": "output; to produce",
+    "pinyin": "chǎn chū"
+  },
+  "HSK-6|327": {
+    "english": "low-carbon",
+    "pinyin": "dī tàn"
+  },
+  "HSK-6|386": {
+    "english": "every; all; whenever",
+    "pinyin": "fán (shì)"
+  },
+  "HSK-6|453": {
+    "english": "high and new technology; high-tech",
+    "pinyin": "gāo xīn jì shù"
+  },
+  "HSK-6|1479": {
+    "english": "new media",
+    "pinyin": "xīn méi tǐ"
+  },
+  "HSK-6|1481": {
+    "english": "new energy; renewable energy",
+    "pinyin": "xīn néng yuán"
+  },
+  "HSK-6|1614": {
+    "english": "strong; energetic; interesting",
+    "pinyin": "yǒu jìn"
+  },
+  "HSK-6|1672": {
+    "english": "proportion; percentage; share",
+    "pinyin": "zhàn bǐ"
+  },
+  "HSK-7-9|144": {
+    "english": "to keep fresh; preserve freshness",
+    "pinyin": "bǎo xiān"
+  },
+  "HSK-7-9|256": {
+    "english": "ingenious; original and inventive",
+    "pinyin": "bié jù jiàng xīn"
+  },
+  "HSK-7-9|257": {
+    "english": "although; even though; don't look",
+    "pinyin": "bié kàn"
+  },
+  "HSK-7-9|260": {
+    "english": "let alone; not to mention; don't say",
+    "pinyin": "bié shuō"
+  },
+  "HSK-7-9|315": {
+    "english": "not count as; not be considered; not bad",
+    "pinyin": "bù suàn"
+  },
+  "HSK-7-9|682": {
+    "english": "to request advice (polite)",
+    "pinyin": "cì jiào"
+  },
+  "HSK-7-9|749": {
+    "english": "to lead a team",
+    "pinyin": "dài duì"
+  },
+  "HSK-7-9|824": {
+    "english": "big data",
+    "pinyin": "dà shù jù"
+  },
+  "HSK-7-9|842": {
+    "english": "to reach the summit; top",
+    "pinyin": "dēng dǐng"
+  },
+  "HSK-7-9|860": {
+    "english": "to come last; bottom-ranked",
+    "pinyin": "diàn dǐ"
+  },
+  "HSK-7-9|1188": {
+    "english": "to brave wind and dew; travel rough",
+    "pinyin": "fēng cān lù sù"
+  },
+  "HSK-7-9|1202": {
+    "english": "scenic sight; distinctive landscape",
+    "pinyin": "fēng jǐng xiàn"
+  },
+  "HSK-7-9|1258": {
+    "english": "to be rich in; contain abundant",
+    "pinyin": "fù hán"
+  },
+  "HSK-7-9|1292": {
+    "english": "to carry a heavy load; burden",
+    "pinyin": "fù zhòng"
+  },
+  "HSK-7-9|1416": {
+    "english": "central heating; heating supply",
+    "pinyin": "gōng nuǎn"
+  },
+  "HSK-7-9|1422": {
+    "english": "to announce publicly; public notice",
+    "pinyin": "gōng shì"
+  },
+  "HSK-7-9|1524": {
+    "english": "to return; come back",
+    "pinyin": "guī lái"
+  },
+  "HSK-7-9|1679": {
+    "english": "letter of congratulations",
+    "pinyin": "hè xìn"
+  },
+  "HSK-7-9|1681": {
+    "english": "far from being only; much more than",
+    "pinyin": "hé zhǐ"
+  },
+  "HSK-7-9|1733": {
+    "english": "month-on-month; period-on-period comparison",
+    "pinyin": "huán bǐ"
+  },
+  "HSK-7-9|1765": {
+    "english": "laughter and cheerful voices",
+    "pinyin": "huān shēng xiào yǔ"
+  },
+  "HSK-7-9|2093": {
+    "english": "to intensify; to exacerbate; intensification",
+    "pinyin": "jī huà"
+  },
+  "HSK-7-9|2126": {
+    "english": "splendid and varied; a succession of wonderful things",
+    "pinyin": "jīng cǎi fēn chéng"
+  },
+  "HSK-7-9|2144": {
+    "english": "to continue for a long time without stopping",
+    "pinyin": "jīng jiǔ bù xī"
+  },
+  "HSK-7-9|2194": {
+    "english": "silk banner of honor or appreciation",
+    "pinyin": "jǐn qí"
+  },
+  "HSK-7-9|2237": {
+    "english": "to take one's seat",
+    "pinyin": "jiù zuò"
+  },
+  "HSK-7-9|2312": {
+    "english": "to be located in; rank among",
+    "pinyin": "jū yú"
+  },
+  "HSK-7-9|2366": {
+    "english": "an opportunity that can be exploited",
+    "pinyin": "kě chéng zhī jī"
+  },
+  "HSK-7-9|2376": {
+    "english": "passenger flow; customer traffic",
+    "pinyin": "kè liú"
+  },
+  "HSK-7-9|2418": {
+    "english": "whistle; to whistle",
+    "pinyin": "kǒu shàor"
+  },
+  "HSK-7-9|2484": {
+    "english": "to drive; spur; pull along",
+    "pinyin": "lā dòng"
+  },
+  "HSK-7-9|2492": {
+    "english": "hard-won; not easily achieved",
+    "pinyin": "lái zhī bù yì"
+  },
+  "HSK-7-9|2561": {
+    "english": "two wings; two flanks",
+    "pinyin": "liǎng yì"
+  },
+  "HSK-7-9|2579": {
+    "english": "honest and upright; clean governance",
+    "pinyin": "lián zhèng"
+  },
+  "HSK-7-9|2611": {
+    "english": "to perform a meritorious deed; merit",
+    "pinyin": "lì gōng"
+  },
+  "HSK-7-9|2650": {
+    "english": "unreasonable; outrageous; far-fetched",
+    "pinyin": "lí pǔr"
+  },
+  "HSK-7-9|2677": {
+    "english": "direction of flow; to flow toward",
+    "pinyin": "liú xiàng"
+  },
+  "HSK-7-9|2708": {
+    "english": "section of a road",
+    "pinyin": "lù duàn"
+  },
+  "HSK-7-9|2735": {
+    "english": "journey; route",
+    "pinyin": "lù tú"
+  },
+  "HSK-7-9|2963": {
+    "english": "energy consumption",
+    "pinyin": "néng hào"
+  },
+  "HSK-7-9|2973": {
+    "english": "New Year picture (traditional print)",
+    "pinyin": "nián huà"
+  },
+  "HSK-7-9|3208": {
+    "english": "unprecedented; without precedent",
+    "pinyin": "qián wú gǔ rén"
+  },
+  "HSK-7-9|3449": {
+    "english": "steaming hot; warm and lively",
+    "pinyin": "rè téng téng"
+  },
+  "HSK-7-9|3484": {
+    "english": "weak point; area of weakness",
+    "pinyin": "ruò xiàng"
+  },
+  "HSK-7-9|3523": {
+    "english": "mountains and rivers; landscape",
+    "pinyin": "shān chuān"
+  },
+  "HSK-7-9|3527": {
+    "english": "first half; first half of a match",
+    "pinyin": "shàng bàn chǎng"
+  },
+  "HSK-7-9|3556": {
+    "english": "commercial use; for business",
+    "pinyin": "shāng yòng"
+  },
+  "HSK-7-9|3596": {
+    "english": "to win; emerge victorious",
+    "pinyin": "shèng chū"
+  },
+  "HSK-7-9|3734": {
+    "english": "market capitalization; market value",
+    "pinyin": "shì zhí"
+  },
+  "HSK-7-9|3763": {
+    "english": "first batch; first group",
+    "pinyin": "shǒu pī"
+  },
+  "HSK-7-9|3912": {
+    "english": "to settle accounts; calculate; reckon with",
+    "pinyin": "suàn zhàng"
+  },
+  "HSK-7-9|3917": {
+    "english": "visible everywhere; ubiquitous",
+    "pinyin": "suí chù kě jiàn"
+  },
+  "HSK-7-9|3984": {
+    "english": "to speak frankly; candidly state",
+    "pinyin": "tǎn yán"
+  },
+  "HSK-7-9|4181": {
+    "english": "breakthrough point; opening",
+    "pinyin": "tū pò kǒu"
+  },
+  "HSK-7-9|4391": {
+    "english": "second half; second half of a match",
+    "pinyin": "xià bàn chǎng"
+  },
+  "HSK-7-9|4494": {
+    "english": "frightening; scary; to frighten",
+    "pinyin": "xià rén"
+  },
+  "HSK-7-9|4505": {
+    "english": "to fall; drop downward",
+    "pinyin": "xià zhuì"
+  },
+  "HSK-7-9|4582": {
+    "english": "anxious and burning with impatience",
+    "pinyin": "xīn jí rú fén"
+  },
+  "HSK-7-9|4653": {
+    "english": "aluminum foil; tin foil",
+    "pinyin": "xī zhǐ"
+  },
+  "HSK-7-9|4686": {
+    "english": "snow-covered mountain; snow mountain",
+    "pinyin": "xuě shān"
+  },
+  "HSK-7-9|4815": {
+    "english": "to be the final act; closing highlight",
+    "pinyin": "yā zhòu"
+  },
+  "HSK-7-9|4852": {
+    "english": "once; as soon as; when (followed by a condition)",
+    "pinyin": "yī jīng"
+  },
+  "HSK-7-9|4989": {
+    "english": "sightseeing boat; pleasure boat",
+    "pinyin": "yóu chuán"
+  },
+  "HSK-7-9|4991": {
+    "english": "to have a definite target; be purposeful",
+    "pinyin": "yǒu dì fàng shǐ"
+  },
+  "HSK-7-9|5031": {
+    "english": "famous far and wide",
+    "pinyin": "yuǎn jìn wén míng"
+  },
+  "HSK-7-9|5150": {
+    "english": "to increase income; revenue growth",
+    "pinyin": "zēng shōu"
+  },
+  "HSK-7-9|5212": {
+    "english": "to spend every day together",
+    "pinyin": "zhāo xī xiāng chǔ"
+  },
+  "HSK-7-9|5256": {
+    "english": "positive energy; optimism",
+    "pinyin": "zhèng néng liàng"
+  },
+  "HSK-7-9|5331": {
+    "english": "to devote oneself to; be committed to",
+    "pinyin": "zhì lì yú"
+  },
+  "HSK-7-9|5460": {
+    "english": "to feature as the main product; main offering",
+    "pinyin": "zhǔ dǎ"
+  },
+  "HSK-7-9|5463": {
+    "english": "bamboo pole",
+    "pinyin": "zhú gān"
+  },
+  "HSK-7-9|5502": {
+    "english": "theme song",
+    "pinyin": "zhǔ tí qǔ"
+  },
+  "HSK-7-9|5618": {
+    "english": "to testify; give evidence",
+    "pinyin": "zuò zhèng"
+  }
+}

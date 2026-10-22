@@ -1,0 +1,1667 @@
+{
+  "lessons": [
+    {
+      "id": "pl-verbs-present",
+      "title": {
+        "pl": "Czas teraźniejszy: główne wzorce odmiany",
+        "zhHans": "现在时：动词变位的主要类型",
+        "zhHant": "現在時：動詞變位的主要類型"
+      },
+      "summary": {
+        "pl": "Polski czasownik zmienia końcówkę w zależności od osoby i liczby. Najpierw poznaj kilka głównych wzorców, potem wyjątki.",
+        "zhHans": "波兰语动词的词尾随人称和数而变化。先掌握几种主要类型，再记忆例外。",
+        "zhHant": "波蘭語動詞的詞尾隨人稱和數而變化。先掌握幾種主要類型，再記憶例外。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Wzór -am, -asz: czytać",
+            "zhHans": "-am, -asz 型：czytać",
+            "zhHant": "-am, -asz 型：czytać"
+          },
+          "explanation": {
+            "pl": "Wiele czasowników na -ać odmienia się jak czytać: czytam, czytasz, czyta, czytamy, czytacie, czytają. Tak samo odmieniają się na przykład pytać, słuchać i mieszkać.",
+            "zhHans": "许多以 -ać 结尾的动词像 czytać（读）一样变位：czytam、czytasz、czyta、czytamy、czytacie、czytają。pytać（问）、słuchać（听）、mieszkać（居住）等动词也是如此。",
+            "zhHant": "許多以 -ać 結尾的動詞像 czytać（讀）一樣變位：czytam、czytasz、czyta、czytamy、czytacie、czytają。pytać（問）、słuchać（聽）、mieszkać（居住）等動詞也是如此。"
+          },
+          "examples": [
+            {
+              "pl": "Czytam książkę, a ty czytasz gazetę.",
+              "zhHans": "我在读书，你在读报纸。",
+              "zhHant": "我在讀書，你在讀報紙。",
+              "pinyin": "Wǒ zài dúshū, nǐ zài dú bàozhǐ."
+            },
+            {
+              "pl": "Mieszkamy w Krakowie.",
+              "zhHans": "我们住在克拉科夫。",
+              "zhHant": "我們住在克拉科夫。",
+              "pinyin": "Wǒmen zhù zài Kèlākēfū."
+            }
+          ],
+          "note": {
+            "pl": "Nie każdy czasownik na -ać należy do tej grupy: pisać (piszę), płakać (płaczę) czy dawać (daję) mają inne końcówki. Najpewniej patrzeć na formę „ja”.",
+            "zhHans": "并非所有以 -ać 结尾的动词都属于这一类：pisać（写）是 piszę，płakać（哭）是 płaczę，dawać（给）是 daję，词尾各不相同。最可靠的办法是看“我”（ja）的变位形式。",
+            "zhHant": "並非所有以 -ać 結尾的動詞都屬於這一類：pisać（寫）是 piszę，płakać（哭）是 płaczę，dawać（給）是 daję，詞尾各不相同。最可靠的辦法是看「我」（ja）的變位形式。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Wzór -ę, -esz i zmiany w temacie",
+            "zhHans": "-ę, -esz 型与词干变化",
+            "zhHant": "-ę, -esz 型與詞幹變化"
+          },
+          "explanation": {
+            "pl": "Drugi duży wzór ma końcówki -ę, -esz, -e, -emy, -ecie, -ą. W temacie często zmienia się spółgłoska: pisać → piszę, piszesz; płakać → płaczę; jechać → jadę, jedziesz, jedzie, jedziemy, jedziecie, jadą.",
+            "zhHans": "第二大类的词尾是 -ę、-esz、-e、-emy、-ecie、-ą。词干中的辅音常常发生变化：pisać → piszę、piszesz；płakać → płaczę；jechać（乘车去）→ jadę、jedziesz、jedzie、jedziemy、jedziecie、jadą。",
+            "zhHant": "第二大類的詞尾是 -ę、-esz、-e、-emy、-ecie、-ą。詞幹中的輔音常常發生變化：pisać → piszę、piszesz；płakać → płaczę；jechać（乘車去）→ jadę、jedziesz、jedzie、jedziemy、jedziecie、jadą。"
+          },
+          "examples": [
+            {
+              "pl": "Piszę list do przyjaciółki.",
+              "zhHans": "我在给女性朋友写信。",
+              "zhHant": "我在給女性朋友寫信。",
+              "pinyin": "Wǒ zài gěi nǚxìng péngyǒu xiěxìn."
+            },
+            {
+              "pl": "Jedziemy do Gdańska.",
+              "zhHans": "我们去格但斯克。",
+              "zhHant": "我們去格但斯克。",
+              "pinyin": "Wǒmen qù Gédànsīkè."
+            }
+          ],
+          "note": {
+            "pl": "Zmiany w temacie nie są w pełni przewidywalne. Ucz się trzech form: „ja”, „ty” i „oni”, a pozostałe zwykle da się wyprowadzić.",
+            "zhHans": "词干变化并不能完全预测。建议同时记住“我”“你”“他们”三个形式，其余形式通常可以由此推出。",
+            "zhHant": "詞幹變化並不能完全預測。建議同時記住「我」「你」「他們」三個形式，其餘形式通常可以由此推出。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Wzór -ę, -isz/-ysz: robić, mówić, uczyć",
+            "zhHans": "-ę, -isz/-ysz 型：robić、mówić、uczyć",
+            "zhHant": "-ę, -isz/-ysz 型：robić、mówić、uczyć"
+          },
+          "explanation": {
+            "pl": "Czasowniki na -ić i -yć mają zwykle końcówki -ę, -isz/-ysz, -i/-y, -imy/-ymy, -icie/-ycie, -ią/-ą: robię, robisz, robi; uczę, uczysz, uczy, uczą. Podobnie odmieniają się niektóre czasowniki na -eć, np. widzieć: widzę, widzisz, widzą.",
+            "zhHans": "以 -ić 和 -yć 结尾的动词通常带有 -ę、-isz/-ysz、-i/-y、-imy/-ymy、-icie/-ycie、-ią/-ą 这组词尾：robię、robisz、robi（做）；uczę、uczysz、uczy、uczą（教）。个别以 -eć 结尾的动词也类似，例如 widzieć（看见）：widzę、widzisz、widzą。",
+            "zhHant": "以 -ić 和 -yć 結尾的動詞通常帶有 -ę、-isz/-ysz、-i/-y、-imy/-ymy、-icie/-ycie、-ią/-ą 這組詞尾：robię、robisz、robi（做）；uczę、uczysz、uczy、uczą（教）。個別以 -eć 結尾的動詞也類似，例如 widzieć（看見）：widzę、widzisz、widzą。"
+          },
+          "examples": [
+            {
+              "pl": "Piotr dużo mówi, ale mało słucha.",
+              "zhHans": "彼得说得多，听得少。",
+              "zhHant": "彼得說得多，聽得少。",
+              "pinyin": "Bǐdé shuō de duō, tīng de shǎo."
+            },
+            {
+              "pl": "Widzę dom, ale nie widzę ogrodu.",
+              "zhHans": "我看见房子，但没看见花园。",
+              "zhHant": "我看見房子，但沒看見花園。",
+              "pinyin": "Wǒ kànjiàn fángzi, dàn méi kànjiàn huāyuán."
+            }
+          ],
+          "note": {
+            "pl": "To nie jest reguła dla wszystkich czasowników na -eć: umieć i rozumieć odmieniają się inaczej (umiem, umiesz; rozumiem, rozumiesz, rozumieją).",
+            "zhHans": "这条规律并不适用于所有以 -eć 结尾的动词：umieć（会）和 rozumieć（理解）的变位不同（umiem、umiesz；rozumiem、rozumiesz、rozumieją）。",
+            "zhHant": "這條規律並不適用於所有以 -eć 結尾的動詞：umieć（會）和 rozumieć（理解）的變位不同（umiem、umiesz；rozumiem、rozumiesz、rozumieją）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Czasowniki na -ować",
+            "zhHans": "以 -ować 结尾的动词",
+            "zhHant": "以 -ować 結尾的動詞"
+          },
+          "explanation": {
+            "pl": "W czasowniku na -ować końcówka -ować zamienia się na -uj-: pracować → pracuję, pracujesz, pracuje, pracujemy, pracujecie, pracują. Podobnie odmieniają się kupować, studiować, dziękować i parkować.",
+            "zhHans": "以 -ować 结尾的动词在现在时中把 -ować 换成 -uj-：pracować（工作）→ pracuję、pracujesz、pracuje、pracujemy、pracujecie、pracują。kupować（买）、studiować（学习某专业）、dziękować（感谢）、parkować（停车）也这样变位。",
+            "zhHant": "以 -ować 結尾的動詞在現在時中把 -ować 換成 -uj-：pracować（工作）→ pracuję、pracujesz、pracuje、pracujemy、pracujecie、pracują。kupować（買）、studiować（學習某專業）、dziękować（感謝）、parkować（停車）也這樣變位。"
+          },
+          "examples": [
+            {
+              "pl": "Pracuję w biurze, a Anna studiuje medycynę.",
+              "zhHans": "我在办公室工作，安娜学医学。",
+              "zhHant": "我在辦公室工作，安娜學醫學。",
+              "pinyin": "Wǒ zài bàngōngshì gōngzuò, Ānnà xué yīxué."
+            },
+            {
+              "pl": "Dziękujemy za pomoc.",
+              "zhHans": "谢谢你们的帮助。",
+              "zhHant": "謝謝你們的幫助。",
+              "pinyin": "Xièxiè nǐmen de bāngzhù."
+            }
+          ],
+          "note": {
+            "pl": "Forma „pracowam” jest błędna. Podobnie dla czasowników na -ywać/-iwać: pokazywać → pokazuję.",
+            "zhHans": "pracowam 是错误的形式。以 -ywać/-iwać 结尾的动词也类似：pokazywać（展示）→ pokazuję。",
+            "zhHant": "pracowam 是錯誤的形式。以 -ywać/-iwać 結尾的動詞也類似：pokazywać（展示）→ pokazuję。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Czasowniki nieregularne",
+            "zhHans": "不规则动词",
+            "zhHant": "不規則動詞"
+          },
+          "explanation": {
+            "pl": "Najczęstsze czasowniki mają własne odmiany: być – jestem, jesteś, jest, jesteśmy, jesteście, są; mieć – mam, masz, ma, mamy, macie, mają; iść – idę, idziesz, idzie; jeść – jem, jesz, je, jemy, jecie, jedzą; chcieć – chcę, chcesz, chce; móc – mogę, możesz, może, możemy, możecie, mogą; wiedzieć – wiem, wiesz, wie, wiemy, wiecie, wiedzą.",
+            "zhHans": "最常用的动词各有自己的变位：być（是）— jestem、jesteś、jest、jesteśmy、jesteście、są；mieć（有）— mam、masz、ma、mamy、macie、mają；iść（走去）— idę、idziesz、idzie；jeść（吃）— jem、jesz、je、jemy、jecie、jedzą；chcieć（想要）— chcę、chcesz、chce；móc（能够）— mogę、możesz、może、możemy、możecie、mogą；wiedzieć（知道）— wiem、wiesz、wie、wiemy、wiecie、wiedzą。",
+            "zhHant": "最常用的動詞各有自己的變位：być（是）— jestem、jesteś、jest、jesteśmy、jesteście、są；mieć（有）— mam、masz、ma、mamy、macie、mają；iść（走去）— idę、idziesz、idzie；jeść（吃）— jem、jesz、je、jemy、jecie、jedzą；chcieć（想要）— chcę、chcesz、chce；móc（能夠）— mogę、możesz、może、możemy、możecie、mogą；wiedzieć（知道）— wiem、wiesz、wie、wiemy、wiecie、wiedzą。"
+          },
+          "examples": [
+            {
+              "pl": "Jestem w domu, ale mam mało czasu.",
+              "zhHans": "我在家，但时间不多。",
+              "zhHant": "我在家，但時間不多。",
+              "pinyin": "Wǒ zài jiā, dàn shíjiān bù duō."
+            },
+            {
+              "pl": "Chcę iść do kina, ale nie mogę.",
+              "zhHans": "我想去看电影，但是不能去。",
+              "zhHant": "我想去看電影，但是不能去。",
+              "pinyin": "Wǒ xiǎng qù kàn diànyǐng, dànshì bù néng qù."
+            }
+          ],
+          "note": {
+            "pl": "Tych czasowników najlepiej uczyć się jako całych zestawów form. Analogie bywają zawodne, a trzecia osoba liczby mnogiej ma różne końcówki: są, mają, jedzą, wiedzą, mogą.",
+            "zhHans": "这些动词最好整组记忆，类推的办法并不总是可靠。第三人称复数的词尾也各不相同：są、mają、jedzą、wiedzą、mogą。",
+            "zhHant": "這些動詞最好整組記憶，類推的辦法並不總是可靠。第三人稱複數的詞尾也各不相同：są、mają、jedzą、wiedzą、mogą。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Zaimek osobowy zwykle się pomija",
+            "zhHans": "人称代词通常省略",
+            "zhHant": "人稱代詞通常省略"
+          },
+          "explanation": {
+            "pl": "Końcówka pokazuje osobę, dlatego zaimków ja, ty, my, wy zwykle nie używamy. Dodajemy je, gdy chcemy podkreślić podmiot lub porównać osoby. W trzeciej osobie podmiot (on, ona, nazwa osoby) musi wynikać z kontekstu.",
+            "zhHans": "词尾已经表明了人称，所以通常不用 ja、ty、my、wy 等代词；想强调主语或进行对比时才加上。第三人称的主语（on、ona 或某个人名）则要从上下文中看出来。",
+            "zhHant": "詞尾已經表明了人稱，所以通常不用 ja、ty、my、wy 等代詞；想強調主語或進行對比時才加上。第三人稱的主語（on、ona 或某個人名）則要從上下文中看出來。"
+          },
+          "examples": [
+            {
+              "pl": "Mieszkam w Warszawie.",
+              "zhHans": "我住在华沙。",
+              "zhHant": "我住在華沙。",
+              "pinyin": "Wǒ zhù zài Huáshā."
+            },
+            {
+              "pl": "Ja mieszkam w Warszawie, a ty w Poznaniu.",
+              "zhHans": "我住在华沙，而你住在波兹南。",
+              "zhHant": "我住在華沙，而你住在波茲南。",
+              "pinyin": "Wǒ zhù zài Huáshā, ér nǐ zhù zài Bōzīnán."
+            }
+          ],
+          "note": {
+            "pl": "Użycie zaimka nie jest błędem, ale w neutralnej wypowiedzi brzmi emfatycznie. Polski czas teraźniejszy może oznaczać zarówno czynność zwyczajową, jak i trwającą w tej chwili: „Czytam” może znaczyć „zwykle czytam” albo „czytam właśnie teraz”.",
+            "zhHans": "加上代词并不算错，但在中性的叙述中会带有强调的语气。波兰语的现在时既可表示经常性的行为，也可表示此刻正在进行的动作：Czytam 可以是“我读”，也可以是“我在读”。",
+            "zhHant": "加上代詞並不算錯，但在中性的敘述中會帶有強調的語氣。波蘭語的現在時既可表示經常性的行為，也可表示此刻正在進行的動作：Czytam 可以是「我讀」，也可以是「我在讀」。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-past",
+      "title": {
+        "pl": "Czas przeszły i zgodność rodzaju",
+        "zhHans": "过去时与性的一致",
+        "zhHant": "過去時與性的一致"
+      },
+      "summary": {
+        "pl": "Czas przeszły zawiera formę na -ł-, która zmienia się zależnie od rodzaju i liczby podmiotu.",
+        "zhHans": "波兰语过去时含有 -ł- 形式，会随主语的性和数而变化。",
+        "zhHant": "波蘭語過去時含有 -ł- 形式，會隨主語的性和數而變化。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Budowa formy na -ł-",
+            "zhHans": "-ł- 形式的构成",
+            "zhHant": "-ł- 形式的構成"
+          },
+          "explanation": {
+            "pl": "Od bezokolicznika odrzucamy -ć i dodajemy -ł- oraz końcówkę osobową: czytać → czytałem/czytałam, czytałeś/czytałaś, czytał/czytała/czytało; w liczbie mnogiej czytaliśmy/czytałyśmy, czytaliście/czytałyście, czytali/czytały.",
+            "zhHans": "去掉不定式的 -ć，加上 -ł- 和人称词尾：czytać（读）→ czytałem/czytałam、czytałeś/czytałaś、czytał/czytała/czytało；复数为 czytaliśmy/czytałyśmy、czytaliście/czytałyście、czytali/czytały。",
+            "zhHant": "去掉不定式的 -ć，加上 -ł- 和人稱詞尾：czytać（讀）→ czytałem/czytałam、czytałeś/czytałaś、czytał/czytała/czytało；複數為 czytaliśmy/czytałyśmy、czytaliście/czytałyście、czytali/czytały。"
+          },
+          "examples": [
+            {
+              "pl": "Wczoraj czytałem książkę, a Anna czytała gazetę.",
+              "zhHans": "昨天我（男）在读书，安娜在读报纸。",
+              "zhHant": "昨天我（男）在讀書，安娜在讀報紙。",
+              "pinyin": "Zuótiān wǒ (nán) zài dúshū, Ānnà zài dú bàozhǐ."
+            }
+          ],
+          "note": {
+            "pl": "Jedna forma przeszła może odpowiadać chińskim konstrukcjom 了, 过 lub 在…, zależnie od aspektu i kontekstu. Niektóre czasowniki na -nąć mają zmianę tematu: zniknąć → zniknął, zniknęła, zniknęli.",
+            "zhHans": "同一个波兰语过去时形式，根据体和语境，可以对应汉语的“了”“过”或“在……”。一些以 -nąć 结尾的动词还会改变词干：zniknąć（消失）→ zniknął、zniknęła、zniknęli。",
+            "zhHant": "同一個波蘭語過去時形式，根據體和語境，可以對應漢語的「了」「過」或「在……」。一些以 -nąć 結尾的動詞還會改變詞幹：zniknąć（消失）→ zniknął、zniknęła、zniknęli。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Rodzaj i liczba: -ł, -ła, -ło, -li, -ły",
+            "zhHans": "性与数：-ł、-ła、-ło、-li、-ły",
+            "zhHant": "性與數：-ł、-ła、-ło、-li、-ły"
+          },
+          "explanation": {
+            "pl": "W liczbie pojedynczej forma zależy od rodzaju: -ł (męski), -ła (żeński), -ło (nijaki). W liczbie mnogiej używamy -li, gdy w grupie jest co najmniej jeden mężczyzna (rodzaj męskoosobowy), a w pozostałych przypadkach -ły.",
+            "zhHans": "单数时，形式取决于性：-ł（阳性）、-ła（阴性）、-ło（中性）。复数时，只要群体中至少有一名男性（阳性人称），就用 -li；其他情况用 -ły。",
+            "zhHant": "單數時，形式取決於性：-ł（陽性）、-ła（陰性）、-ło（中性）。複數時，只要群體中至少有一名男性（陽性人稱），就用 -li；其他情況用 -ły。"
+          },
+          "examples": [
+            {
+              "pl": "Piotr spał, Anna spała, a dziecko też spało.",
+              "zhHans": "彼得在睡觉，安娜在睡觉，孩子也在睡觉。",
+              "zhHant": "彼得在睡覺，安娜在睡覺，孩子也在睡覺。",
+              "pinyin": "Bǐdé zài shuìjiào, Ānnà zài shuìjiào, háizi yě zài shuìjiào."
+            },
+            {
+              "pl": "Koledzy przyszli wcześnie, a koleżanki przyszły później.",
+              "zhHans": "男性朋友们很早就来了，女性朋友们晚些才来。",
+              "zhHant": "男性朋友們很早就來了，女性朋友們晚些才來。",
+              "pinyin": "Nánxìng péngyǒu men hěn zǎojiù lái le, nǚxìng péngyǒu men wǎn xiē cái lái."
+            },
+            {
+              "pl": "Anna i Piotr przyszli razem.",
+              "zhHans": "安娜和彼得一起来了。",
+              "zhHant": "安娜和彼得一起來了。",
+              "pinyin": "Ānnà hé Bǐdé yìqǐ lái le."
+            }
+          ],
+          "note": {
+            "pl": "Rzeczowniki nieosobowe i zwierzęta mają w liczbie mnogiej -ły: psy szczekały, domy stały. Słowo „dzieci” też łączy się z -ły (dzieci spały), a „ludzie” z -li (ludzie przyszli).",
+            "zhHans": "非人称名词和动物的复数用 -ły：psy szczekały（狗在叫）、domy stały（房子立在那里）。dzieci（孩子们）也配 -ły（dzieci spały），而 ludzie（人们）配 -li（ludzie przyszli）。",
+            "zhHant": "非人稱名詞和動物的複數用 -ły：psy szczekały（狗在叫）、domy stały（房子立在那裡）。dzieci（孩子們）也配 -ły（dzieci spały），而 ludzie（人們）配 -li（ludzie przyszli）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Nieregularne tematy w czasie przeszłym",
+            "zhHans": "过去时中不规则的词干",
+            "zhHant": "過去時中不規則的詞幹"
+          },
+          "explanation": {
+            "pl": "Niektóre częste czasowniki mają inny temat w czasie przeszłym: iść → szedł, szła, szło, szli, szły; móc → mógł, mogła, mogli; jeść → jadł, jadła, jedli; wziąć → wziął, wzięła, wzięli; być → był, była, było, byli, były.",
+            "zhHans": "一些常用动词在过去时中使用另一个词干：iść（走去）→ szedł、szła、szło、szli、szły；móc（能够）→ mógł、mogła、mogli；jeść（吃）→ jadł、jadła、jedli；wziąć（拿）→ wziął、wzięła、wzięli；być（是）→ był、była、było、byli、były。",
+            "zhHant": "一些常用動詞在過去時中使用另一個詞幹：iść（走去）→ szedł、szła、szło、szli、szły；móc（能夠）→ mógł、mogła、mogli；jeść（吃）→ jadł、jadła、jedli；wziąć（拿）→ wziął、wzięła、wzięli；być（是）→ był、była、było、byli、były。"
+          },
+          "examples": [
+            {
+              "pl": "Anna poszła do sklepu, a Piotr poszedł do pracy.",
+              "zhHans": "安娜去了商店，彼得去上班了。",
+              "zhHant": "安娜去了商店，彼得去上班了。",
+              "pinyin": "Ānnà qù le shāngdiàn, Bǐdé qù shàngbān le."
+            },
+            {
+              "pl": "Nie mogłam przyjść, bo byłam chora.",
+              "zhHans": "我（女）没能来，因为我生病了。",
+              "zhHant": "我（女）沒能來，因為我生病了。",
+              "pinyin": "Wǒ (nǚ) méi néng lái, yīnwèi wǒ shēngbìng le."
+            }
+          ],
+          "note": {
+            "pl": "Zmiany ó/o i ę/ą nie są w pełni przewidywalne. Warto zapamiętać razem formę męską i żeńską, np. mógł – mogła, wziął – wzięła.",
+            "zhHans": "ó/o、ę/ą 等变化并不能完全预测。最好把阳性和阴性形式放在一起记，例如 mógł – mogła、wziął – wzięła。",
+            "zhHant": "ó/o、ę/ą 等變化並不能完全預測。最好把陽性和陰性形式放在一起記，例如 mógł – mogła、wziął – wzięła。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Pan, pani, państwo w czasie przeszłym",
+            "zhHans": "pan、pani、państwo 与过去时",
+            "zhHant": "pan、pani、państwo 與過去時"
+          },
+          "explanation": {
+            "pl": "Gdy zwracamy się do kogoś słowami pan lub pani, czasownik stoi w trzeciej osobie i zgadza się z płcią rozmówcy. Do pary używamy słowa państwo i formy męskoosobowej, do kilku pań – słowa panie i formy -ły.",
+            "zhHans": "用 pan 或 pani 称呼对方时，动词用第三人称，并与对方的性别一致。称呼一对男女（先生和女士）时用 państwo 和阳性人称复数形式；称呼几位女士时用 panie 和 -ły 形式。",
+            "zhHant": "用 pan 或 pani 稱呼對方時，動詞用第三人稱，並與對方的性別一致。稱呼一對男女（先生和女士）時用 państwo 和陽性人稱複數形式；稱呼幾位女士時用 panie 和 -ły 形式。"
+          },
+          "examples": [
+            {
+              "pl": "Czy pan już zjadł obiad?",
+              "zhHans": "先生，您已经吃过午饭了吗？",
+              "zhHant": "先生，您已經吃過午飯了嗎？",
+              "pinyin": "Xiānshēng, nín yǐjīng chī guò wǔfàn le ma?"
+            },
+            {
+              "pl": "Czy pani już zjadła obiad?",
+              "zhHans": "女士，您已经吃过午饭了吗？",
+              "zhHant": "女士，您已經吃過午飯了嗎？",
+              "pinyin": "Nǚshì, nín yǐjīng chī guò wǔfàn le ma?"
+            },
+            {
+              "pl": "Czy państwo już zjedli obiad?",
+              "zhHans": "先生、女士，你们已经吃过午饭了吗？",
+              "zhHant": "先生、女士，你們已經吃過午飯了嗎？",
+              "pinyin": "Xiānshēng, nǚshì, nǐmen yǐjīng chī guò wǔfàn le ma?"
+            }
+          ],
+          "note": {
+            "pl": "Chińskie 您 nie pokazuje płci, więc w tłumaczeniu dodajemy 先生 lub 女士. W mowie potocznej formy pan/pani bywają zastępowane innymi zwrotami, ale w grzecznych pytaniach ta zgodność jest standardem.",
+            "zhHans": "汉语的“您”不体现性别，所以翻译时要加上“先生”或“女士”。口语中有时会用别的称呼方式代替 pan/pani，但在礼貌的提问中，这种一致关系是标准用法。",
+            "zhHant": "漢語的「您」不體現性別，所以翻譯時要加上「先生」或「女士」。口語中有時會用別的稱呼方式代替 pan/pani，但在禮貌的提問中，這種一致關係是標準用法。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-future",
+      "title": {
+        "pl": "Czas przyszły",
+        "zhHans": "将来时",
+        "zhHant": "將來時"
+      },
+      "summary": {
+        "pl": "Czas przyszły tworzymy inaczej dla czasowników niedokonanych i dokonanych. Aspekt decyduje o formie.",
+        "zhHans": "将来时的构成方式因动词的体而异。未完成体和完成体使用不同的形式。",
+        "zhHant": "將來時的構成方式因動詞的體而異。未完成體和完成體使用不同的形式。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Czas przyszły złożony: będę + bezokolicznik",
+            "zhHans": "复合将来时：będę + 不定式",
+            "zhHant": "複合將來時：będę + 不定式"
+          },
+          "explanation": {
+            "pl": "Czasowniki niedokonane tworzą czas przyszły z formą będę, będziesz, będzie, będziemy, będziecie, będą oraz bezokolicznikiem albo formą na -ł-, zgodną z rodzajem podmiotu.",
+            "zhHans": "未完成体动词的将来时由 będę、będziesz、będzie、będziemy、będziecie、będą 加上不定式，或者加上与主语性一致的 -ł- 形式构成。",
+            "zhHant": "未完成體動詞的將來時由 będę、będziesz、będzie、będziemy、będziecie、będą 加上不定式，或者加上與主語性一致的 -ł- 形式構成。"
+          },
+          "examples": [
+            {
+              "pl": "Jutro będę pracować w domu.",
+              "zhHans": "明天我会在家工作。",
+              "zhHant": "明天我會在家工作。",
+              "pinyin": "Míngtiān wǒ huì zài jiā gōngzuò."
+            },
+            {
+              "pl": "Anna będzie pracowała do późna, a Piotr będzie pracował krócej.",
+              "zhHans": "安娜会工作到很晚，彼得会工作得短一些。",
+              "zhHant": "安娜會工作到很晚，彼得會工作得短一些。",
+              "pinyin": "Ānnà huì gōngzuò dào hěn wǎn, Bǐdé huì gōngzuò de duǎn yìxiē."
+            }
+          ],
+          "note": {
+            "pl": "Obie konstrukcje są poprawne: z bezokolicznikiem jest częściej używana i neutralna. Nie mieszamy ich z czasownikami dokonanymi – formy „będę napisać” nie ma.",
+            "zhHans": "两种结构都正确：带不定式的更常用，也更中性。完成体动词不能这样用，“będę napisać”这种形式并不存在。",
+            "zhHant": "兩種結構都正確：帶不定式的更常用，也更中性。完成體動詞不能這樣用，「będę napisać」這種形式並不存在。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Czasowniki dokonane: forma jak teraźniejsza",
+            "zhHans": "完成体动词：形式像现在时",
+            "zhHant": "完成體動詞：形式像現在時"
+          },
+          "explanation": {
+            "pl": "Czasowniki dokonane nie mają czasu teraźniejszego. Forma zbudowana jak teraźniejsza (napiszę, napiszesz) wyraża czas przyszły i zakończenie czynności.",
+            "zhHans": "完成体动词没有现在时。形式上与现在时相同的变位（napiszę、napiszesz）表示将来，并强调动作完成。",
+            "zhHant": "完成體動詞沒有現在時。形式上與現在時相同的變位（napiszę、napiszesz）表示將來，並強調動作完成。"
+          },
+          "examples": [
+            {
+              "pl": "Jutro napiszę do ciebie.",
+              "zhHans": "明天我给你写信（发消息）。",
+              "zhHant": "明天我給你寫信（發訊息）。",
+              "pinyin": "Míngtiān wǒ gěi nǐ xiěxìn (fā xiāoxī)."
+            },
+            {
+              "pl": "Zrobimy to razem, gdy przyjdziesz.",
+              "zhHans": "等你来了，我们一起做这件事。",
+              "zhHant": "等你來了，我們一起做這件事。",
+              "pinyin": "Děng nǐ lái le, wǒmen yìqǐ zuò zhè jiàn shì."
+            }
+          ],
+          "note": {
+            "pl": "Chińskie 会 i 将 nie odpowiadają ściśle polskim czasom. Często dodają one odcień przypuszczenia, podczas gdy polski czas przyszły dokonany może wyrażać obietnicę lub zdecydowanie.",
+            "zhHans": "汉语的“会”“将”与波兰语的时态并非严格对应。“会”常带有推测的意味，而波兰语的完成体将来时往往表示承诺或决心。",
+            "zhHant": "漢語的「會」「將」與波蘭語的時態並非嚴格對應。「會」常帶有推測的意味，而波蘭語的完成體將來時往往表示承諾或決心。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Który czas przyszły wybrać?",
+            "zhHans": "该选哪一种将来时？",
+            "zhHant": "該選哪一種將來時？"
+          },
+          "explanation": {
+            "pl": "Czas przyszły dokonany (napiszę) skupia się na wyniku lub zakończeniu, a niedokonany (będę pisać) na trwaniu, powtarzaniu lub procesie.",
+            "zhHans": "完成体将来时（napiszę）着眼于结果或完成，未完成体将来时（będę pisać）则强调持续、重复或过程。",
+            "zhHant": "完成體將來時（napiszę）著眼於結果或完成，未完成體將來時（będę pisać）則強調持續、重複或過程。"
+          },
+          "examples": [
+            {
+              "pl": "Napiszę raport do piątku.",
+              "zhHans": "我会在周五前写完报告。",
+              "zhHant": "我會在週五前寫完報告。",
+              "pinyin": "Wǒ huì zài zhōuwǔ qián xiěwán bàogào."
+            },
+            {
+              "pl": "W piątek będę pisać raport cały dzień.",
+              "zhHans": "周五我会写一整天的报告。",
+              "zhHant": "週五我會寫一整天的報告。",
+              "pinyin": "Zhōuwǔ wǒ huì xiě yì zhěngtiān de bàogào."
+            }
+          ],
+          "note": {
+            "pl": "To są tendencje, nie sztywne reguły; decyduje kontekst. Czasowniki bez pary aspektowej, jak być i mieć, mają tylko jedną formę: będę, będę miał/miała.",
+            "zhHans": "这些只是倾向，不是死板的规则，具体要看语境。没有体对应词的动词（如 być 和 mieć）只有一种形式：będę；będę miał/miała。",
+            "zhHant": "這些只是傾向，不是死板的規則，具體要看語境。沒有體對應詞的動詞（如 być 和 mieć）只有一種形式：będę；będę miał/miała。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Czas teraźniejszy z odniesieniem do przyszłości",
+            "zhHans": "用现在时表示将来",
+            "zhHant": "用現在時表示將來"
+          },
+          "explanation": {
+            "pl": "W mowie potocznej mówimy o zaplanowanych wydarzeniach czasem w czasie teraźniejszym, zwłaszcza z określeniem czasu (jutro, w piątek) i z czasownikami ruchu.",
+            "zhHans": "口语中谈论已经安排好的事情时，有时用现在时，尤其是在带有时间词（明天、周五）或使用位移动词的时候。",
+            "zhHant": "口語中談論已經安排好的事情時，有時用現在時，尤其是在帶有時間詞（明天、週五）或使用位移動詞的時候。"
+          },
+          "examples": [
+            {
+              "pl": "Jutro idę do lekarza.",
+              "zhHans": "明天我去看医生。",
+              "zhHant": "明天我去看醫生。",
+              "pinyin": "Míngtiān wǒ qù kàn yīshēng."
+            },
+            {
+              "pl": "W piątek wyjeżdżamy do Wrocławia.",
+              "zhHans": "周五我们动身去弗罗茨瓦夫。",
+              "zhHant": "週五我們動身去弗羅茨瓦夫。",
+              "pinyin": "Zhōuwǔ wǒmen dòngshēn qù Fúluócíwǎfū."
+            }
+          ],
+          "note": {
+            "pl": "Tej konstrukcji nie stosujemy dla wszystkich czasowników. Przy niepewności, obietnicy lub czasie odległym zwykle wybieramy czas przyszły: „Kiedyś napiszę książkę.”",
+            "zhHans": "这种用法并不适合所有动词。表示不确定、承诺或遥远的将来时，通常用将来时：Kiedyś napiszę książkę.（我将来会写一本书。）",
+            "zhHant": "這種用法並不適合所有動詞。表示不確定、承諾或遙遠的將來時，通常用將來時：Kiedyś napiszę książkę.（我將來會寫一本書。）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-aspect",
+      "title": {
+        "pl": "Aspekt: czasowniki niedokonane i dokonane",
+        "zhHans": "体：未完成体与完成体动词",
+        "zhHant": "體：未完成體與完成體動詞"
+      },
+      "summary": {
+        "pl": "Większość polskich czasowników należy do pary aspektowej. Aspekt pokazuje, jak mówiący ujmuje czynność: jako proces czy jako całość.",
+        "zhHans": "大多数波兰语动词都有成对的体。体表示说话者如何看待动作：是一个过程，还是一个整体。",
+        "zhHant": "大多數波蘭語動詞都有成對的體。體表示說話者如何看待動作：是一個過程，還是一個整體。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Na czym polega aspekt?",
+            "zhHans": "什么是体？",
+            "zhHant": "什麼是體？"
+          },
+          "explanation": {
+            "pl": "Czasownik niedokonany (pisać) opisuje czynność w trwaniu, powtarzaną lub ogólnie. Czasownik dokonany (napisać) przedstawia czynność jako całość, zwykle zakończoną i z rezultatem.",
+            "zhHans": "未完成体动词（pisać）描述持续、重复或泛指的动作；完成体动词（napisać）把动作看作一个整体，通常强调已经结束并有结果。",
+            "zhHant": "未完成體動詞（pisać）描述持續、重複或泛指的動作；完成體動詞（napisać）把動作看作一個整體，通常強調已經結束並有結果。"
+          },
+          "examples": [
+            {
+              "pl": "Anna pisała list przez godzinę.",
+              "zhHans": "安娜写了一个小时的信。",
+              "zhHant": "安娜寫了一個小時的信。",
+              "pinyin": "Ānnà xiě le yí gè xiǎoshí de xìn."
+            },
+            {
+              "pl": "Anna napisała list i wysłała go.",
+              "zhHans": "安娜写完了信，并把它寄了出去。",
+              "zhHant": "安娜寫完了信，並把它寄了出去。",
+              "pinyin": "Ānnà xiěwán le xìn, bìng bǎ tā jì le chūqù."
+            }
+          ],
+          "note": {
+            "pl": "Aspekt nie jest tym samym co chińskie 了, 过 czy 在. Chińskie 了 można dodać do obu czasowników, a polski niedokonany bywa tłumaczony jako 在…, jako 过 lub jako zwykły czasownik, w zależności od sytuacji.",
+            "zhHans": "波兰语的体与汉语的“了”“过”“在”并不相同。汉语的“了”对两种体的动词都可以使用；而波兰语未完成体动词可能译成“在……”“过”，也可能译成普通的动词，取决于具体情境。",
+            "zhHant": "波蘭語的體與漢語的「了」「過」「在」並不相同。漢語的「了」對兩種體的動詞都可以使用；而波蘭語未完成體動詞可能譯成「在……」「過」，也可能譯成普通的動詞，取決於具體情境。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Tworzenie par aspektowych",
+            "zhHans": "体的配对方式",
+            "zhHant": "體的配對方式"
+          },
+          "explanation": {
+            "pl": "Pary tworzy się przedrostkiem (pisać – napisać, robić – zrobić), przyrostkiem (kupić – kupować, dać – dawać) lub zupełnie innym tematem (brać – wziąć, mówić – powiedzieć, widzieć – zobaczyć).",
+            "zhHans": "体的配对可以通过前缀（pisać – napisać、robić – zrobić）、后缀（kupić – kupować、dać – dawać）或完全不同的词干（brać – wziąć、mówić – powiedzieć、widzieć – zobaczyć）来实现。",
+            "zhHant": "體的配對可以透過字首（pisać – napisać、robić – zrobić）、字尾（kupić – kupować、dać – dawać）或完全不同的詞幹（brać – wziąć、mówić – powiedzieć、widzieć – zobaczyć）來實現。"
+          },
+          "examples": [
+            {
+              "pl": "Codziennie kupuję chleb, a dziś kupiłem też ser.",
+              "zhHans": "我每天都买面包，今天还买了奶酪。",
+              "zhHant": "我每天都買麵包，今天還買了乳酪。",
+              "pinyin": "Wǒ měi tiān dōu mǎi miànbāo, jīntiān hái mǎi le nǎilào."
+            },
+            {
+              "pl": "Często biorę ten autobus, ale dziś wzięłam taksówkę.",
+              "zhHans": "我常坐这路公交车，但今天我（女）坐了出租车。",
+              "zhHant": "我常坐這路公車，但今天我（女）坐了計程車。",
+              "pinyin": "Wǒ cháng zuò zhè lù gōngjiāochē, dàn jīntiān wǒ (nǚ) zuò le chūzūchē."
+            }
+          ],
+          "note": {
+            "pl": "Przedrostek nie zawsze tylko zmienia aspekt – bywa, że zmienia też znaczenie: pisać znaczy „pisać”, a podpisać – „złożyć podpis”. Nieliczne czasowniki są dwuaspektowe, np. anulować; ich aspekt wynika z kontekstu.",
+            "zhHans": "前缀并不总是只改变体，有时也会改变词义：pisać 是“写”，而 podpisać 是“签名”。少数动词是双体动词，例如 anulować（取消），它们的体要由语境来判断。",
+            "zhHant": "字首並不總是隻改變體，有時也會改變詞義：pisać 是「寫」，而 podpisać 是「簽名」。少數動詞是雙體動詞，例如 anulować（取消），它們的體要由語境來判斷。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Aspekt w czasie przeszłym",
+            "zhHans": "过去时中的体",
+            "zhHant": "過去時中的體"
+          },
+          "explanation": {
+            "pl": "W czasie przeszłym czasownik niedokonany wskazuje na czas trwania, powtarzanie lub samo doświadczenie. Dokonany mówi o zakończeniu i wyniku. Wskazówki: przez godzinę, często, codziennie – niedokonany; w godzinę, już, nagle, w końcu – dokonany.",
+            "zhHans": "在过去时中，未完成体动词表示持续的时间、重复或经历本身，完成体动词则说明动作已经结束并有结果。时间提示：przez godzinę（一小时）、często（经常）、codziennie（每天）常配未完成体；w godzinę（一小时内）、już（已经）、nagle（突然）、w końcu（终于）常配完成体。",
+            "zhHant": "在過去時中，未完成體動詞表示持續的時間、重複或經歷本身，完成體動詞則說明動作已經結束並有結果。時間提示：przez godzinę（一小時）、często（經常）、codziennie（每天）常配未完成體；w godzinę（一小時內）、już（已經）、nagle（突然）、w końcu（終於）常配完成體。"
+          },
+          "examples": [
+            {
+              "pl": "Wczoraj czytałem książkę przez dwie godziny.",
+              "zhHans": "昨天我（男）读了两个小时的书。",
+              "zhHant": "昨天我（男）讀了兩個小時的書。",
+              "pinyin": "Zuótiān wǒ (nán) dú le liǎng gè xiǎoshí de shū."
+            },
+            {
+              "pl": "Wczoraj przeczytałem całą książkę.",
+              "zhHans": "昨天我（男）把整本书读完了。",
+              "zhHant": "昨天我（男）把整本書讀完了。",
+              "pinyin": "Zuótiān wǒ (nán) bǎ zhěng běn shū dúwán le."
+            },
+            {
+              "pl": "Czy czytałeś tę książkę? – Tak, czytałem.",
+              "zhHans": "你读过这本书吗？——读过。",
+              "zhHant": "你讀過這本書嗎？——讀過。",
+              "pinyin": "Nǐ dú guò zhè běn shū ma? — dú guò."
+            }
+          ],
+          "note": {
+            "pl": "Te wskazówki są tendencjami, a nie regułami. Niedokonany może też mówić o zakończonym doświadczeniu (ostatni przykład), a w przeczeniu często wybieramy go, gdy czynność w ogóle się nie odbyła.",
+            "zhHans": "这些提示只是倾向，并不是绝对的规则。未完成体也可以表示已经结束的经历（最后一个例句）；否定句中，如果动作根本没有发生过，也常常选用未完成体。",
+            "zhHant": "這些提示只是傾向，並不是絕對的規則。未完成體也可以表示已經結束的經歷（最後一個例句）；否定句中，如果動作根本沒有發生過，也常常選用未完成體。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Aspekt w bezokoliczniku i po czasownikach fazowych",
+            "zhHans": "不定式与阶段动词中的体",
+            "zhHant": "不定式與階段動詞中的體"
+          },
+          "explanation": {
+            "pl": "Po czasownikach zaczynać, kończyć, przestać i lubić stosujemy zwykle bezokolicznik niedokonany. Po zapomnieć, zdążyć czy udać się częściej pojawia się dokonany.",
+            "zhHans": "在 zaczynać（开始）、kończyć（结束）、przestać（停止）和 lubić（喜欢）后面，通常用未完成体不定式；而在 zapomnieć（忘记）、zdążyć（来得及）、udać się（成功）之后，更常出现完成体。",
+            "zhHant": "在 zaczynać（開始）、kończyć（結束）、przestać（停止）和 lubić（喜歡）後面，通常用未完成體不定式；而在 zapomnieć（忘記）、zdążyć（來得及）、udać się（成功）之後，更常出現完成體。"
+          },
+          "examples": [
+            {
+              "pl": "Zaczynam pracować o ósmej.",
+              "zhHans": "我八点开始工作。",
+              "zhHant": "我八點開始工作。",
+              "pinyin": "Wǒ bā diǎn kāishǐ gōngzuò."
+            },
+            {
+              "pl": "Przestałam palić rok temu.",
+              "zhHans": "我（女）一年前戒烟了。",
+              "zhHant": "我（女）一年前戒菸了。",
+              "pinyin": "Wǒ (nǚ) yìnián qián jièyān le."
+            },
+            {
+              "pl": "Zapomniałem zadzwonić do Anny.",
+              "zhHans": "我（男）忘了给安娜打电话。",
+              "zhHant": "我（男）忘了給安娜打電話。",
+              "pinyin": "Wǒ (nán) wàng le gěi Ānnà dǎdiànhuà."
+            }
+          ],
+          "note": {
+            "pl": "Po chcę, muszę czy mogę możliwe są oba aspekty: „Muszę to zrobić” (wynik) i „Muszę pracować” (proces). Wybór zależy od znaczenia, a nie od jednej reguły.",
+            "zhHans": "在 chcę、muszę、mogę 之后，两种体都可以出现：Muszę to zrobić（我必须把这件事做完，强调结果）和 Muszę pracować（我必须工作，强调过程）。选择取决于想表达的意思，而没有单一的规则。",
+            "zhHant": "在 chcę、muszę、mogę 之後，兩種體都可以出現：Muszę to zrobić（我必須把這件事做完，強調結果）和 Muszę pracować（我必須工作，強調過程）。選擇取決於想表達的意思，而沒有單一的規則。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-imperative",
+      "title": {
+        "pl": "Tryb rozkazujący",
+        "zhHans": "命令式",
+        "zhHant": "命令式"
+      },
+      "summary": {
+        "pl": "Tryb rozkazujący służy do poleceń, próśb, rad i zakazów. Formy zależą od osoby, a wybór aspektu zmienia sens.",
+        "zhHans": "命令式用于命令、请求、建议和禁止。形式随人称而变，体的选择也会改变语气和含义。",
+        "zhHant": "命令式用於命令、請求、建議和禁止。形式隨人稱而變，體的選擇也會改變語氣和含義。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Forma „ty”",
+            "zhHans": "“你”（ty）的形式",
+            "zhHant": "「你」（ty）的形式"
+          },
+          "explanation": {
+            "pl": "Wiele form powstaje od trzeciej osoby liczby mnogiej po odrzuceniu -ą: czytają → czytaj, piszą → pisz, robią → rób, pracują → pracuj. Czasowniki na -ić/-yć często mają formę bez końcówki: kup, mów, ucz.",
+            "zhHans": "很多命令式由第三人称复数去掉 -ą 构成：czytają → czytaj、piszą → pisz、robią → rób、pracują → pracuj。以 -ić/-yć 结尾的动词常常是不带词尾的形式：kup（买）、mów（说）、ucz（教）。",
+            "zhHant": "很多命令式由第三人稱複數去掉 -ą 構成：czytają → czytaj、piszą → pisz、robią → rób、pracują → pracuj。以 -ić/-yć 結尾的動詞常常是不帶詞尾的形式：kup（買）、mów（說）、ucz（教）。"
+          },
+          "examples": [
+            {
+              "pl": "Czytaj głośno!",
+              "zhHans": "请大声读！",
+              "zhHant": "請大聲讀！",
+              "pinyin": "Qǐng dàshēng dú!"
+            },
+            {
+              "pl": "Napisz do mnie jutro.",
+              "zhHans": "明天给我写信吧。",
+              "zhHant": "明天給我寫信吧。",
+              "pinyin": "Míngtiān gěi wǒ xiěxìn ba."
+            },
+            {
+              "pl": "Zrób to, proszę.",
+              "zhHans": "请做这件事。",
+              "zhHant": "請做這件事。",
+              "pinyin": "Qǐng zuò zhè jiàn shì."
+            }
+          ],
+          "note": {
+            "pl": "Wyjątki są liczne: po niektórych zbitkach spółgłosek pojawia się -ij/-yj (zapomnij, zamknij), a w innych przypadkach nie (pomyśl, otwórz). W razie wątpliwości sprawdź słownik.",
+            "zhHans": "例外相当多：在某些辅音连缀之后会出现 -ij/-yj（zapomnij、zamknij），而在另一些情况下则不会（pomyśl、otwórz）。有疑问时请查词典。",
+            "zhHant": "例外相當多：在某些輔音連綴之後會出現 -ij/-yj（zapomnij、zamknij），而在另一些情況下則不會（pomyśl、otwórz）。有疑問時請查詞典。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Nieregularne formy rozkazujące",
+            "zhHans": "不规则的命令式",
+            "zhHant": "不規則的命令式"
+          },
+          "explanation": {
+            "pl": "Kilka bardzo częstych czasowników ma formy, które trzeba zapamiętać: być – bądź, mieć – miej, jeść – jedz, iść – idź, wziąć – weź, dać – daj, powiedzieć – powiedz, pić – pij.",
+            "zhHans": "几个非常常用的动词的命令式需要单独记忆：być – bądź、mieć – miej、jeść – jedz、iść – idź、wziąć – weź、dać – daj、powiedzieć – powiedz、pić – pij。",
+            "zhHant": "幾個非常常用的動詞的命令式需要單獨記憶：być – bądź、mieć – miej、jeść – jedz、iść – idź、wziąć – weź、dać – daj、powiedzieć – powiedz、pić – pij。"
+          },
+          "examples": [
+            {
+              "pl": "Bądź ostrożny!",
+              "zhHans": "小心点！",
+              "zhHant": "小心點！",
+              "pinyin": "Xiǎoxīn diǎn!"
+            },
+            {
+              "pl": "Weź parasol, bo pada.",
+              "zhHans": "带上伞，因为在下雨。",
+              "zhHant": "帶上傘，因為在下雨。",
+              "pinyin": "Dàishàng sǎn, yīnwèi zài xiàyǔ."
+            },
+            {
+              "pl": "Powiedz mi prawdę.",
+              "zhHans": "告诉我真相。",
+              "zhHant": "告訴我真相。",
+              "pinyin": "Gàosù wǒ zhēnxiàng."
+            }
+          ],
+          "note": {
+            "pl": "Przymiotnik po „bądź” zgadza się z rodzajem adresata: do kobiety mówimy „Bądź ostrożna!”.",
+            "zhHans": "bądź 后面的形容词要与对方的性别一致：对女性要说 Bądź ostrożna!（小心点！）。",
+            "zhHant": "bądź 後面的形容詞要與對方的性別一致：對女性要說 Bądź ostrożna!（小心點！）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "My, wy, niech i uprzejme formy",
+            "zhHans": "“我们”“你们”、niech 与礼貌的说法",
+            "zhHant": "「我們」「你們」、niech 與禮貌的說法"
+          },
+          "explanation": {
+            "pl": "Dla „my” dodajemy -my (zróbmy, czytajmy), a dla „wy” -cie (napiszcie, czytajcie). Trzecią osobę tworzymy z niech, a w grzecznych zwrotach często używamy proszę z bezokolicznikiem.",
+            "zhHans": "“我们”形式加 -my（zróbmy、czytajmy），“你们”形式加 -cie（napiszcie、czytajcie）。第三人称用 niech 构成，礼貌的说法则常用 proszę 加不定式。",
+            "zhHant": "「我們」形式加 -my（zróbmy、czytajmy），「你們」形式加 -cie（napiszcie、czytajcie）。第三人稱用 niech 構成，禮貌的說法則常用 proszę 加不定式。"
+          },
+          "examples": [
+            {
+              "pl": "Zróbmy przerwę.",
+              "zhHans": "我们休息一下吧。",
+              "zhHant": "我們休息一下吧。",
+              "pinyin": "Wǒmen xiūxī yíxià ba."
+            },
+            {
+              "pl": "Napiszcie swoje imiona.",
+              "zhHans": "请你们写下自己的名字。",
+              "zhHant": "請你們寫下自己的名字。",
+              "pinyin": "Qǐng nǐmen xiěxià zìjǐ de míngzì."
+            },
+            {
+              "pl": "Proszę usiąść.",
+              "zhHans": "请坐。",
+              "zhHant": "請坐。",
+              "pinyin": "Qǐng zuò."
+            },
+            {
+              "pl": "Niech pani wejdzie.",
+              "zhHans": "女士，请进。",
+              "zhHant": "女士，請進。",
+              "pinyin": "Nǚshì, qǐng jìn."
+            }
+          ],
+          "note": {
+            "pl": "Słowo „proszę” odpowiada chińskiemu 请, ale nie zawsze łagodzi polecenie; ważny jest ton. W prośbach do nieznajomych często wybieramy tryb przypuszczający: „Czy mógłby pan otworzyć okno?”.",
+            "zhHans": "proszę 相当于汉语的“请”，但并不总能缓和命令的语气，语调也很重要。对陌生人提出请求时，常常选用条件式：Czy mógłby pan otworzyć okno?（先生，您能把窗户打开吗？）。",
+            "zhHant": "proszę 相當於漢語的「請」，但並不總能緩和命令的語氣，語調也很重要。對陌生人提出請求時，常常選用條件式：Czy mógłby pan otworzyć okno?（先生，您能把窗戶打開嗎？）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Aspekt w rozkazach i zakazach",
+            "zhHans": "命令与禁止中的体",
+            "zhHant": "命令與禁止中的體"
+          },
+          "explanation": {
+            "pl": "Dla jednorazowej prośby zwykle wybieramy czasownik dokonany: Otwórz okno. Dla zakazu zwykle wybieramy niedokonany: Nie otwieraj okna. Niedokonany bywa też zachętą lub zaproszeniem: Wchodź, proszę.",
+            "zhHans": "一次性的请求通常用完成体：Otwórz okno（把窗户打开）。禁止通常用未完成体：Nie otwieraj okna（不要开窗）。未完成体有时还表示邀请或鼓励：Wchodź, proszę（请进）。",
+            "zhHant": "一次性的請求通常用完成體：Otwórz okno（把窗戶打開）。禁止通常用未完成體：Nie otwieraj okna（不要開窗）。未完成體有時還表示邀請或鼓勵：Wchodź, proszę（請進）。"
+          },
+          "examples": [
+            {
+              "pl": "Otwórz okno, proszę.",
+              "zhHans": "请把窗户打开。",
+              "zhHant": "請把窗戶打開。",
+              "pinyin": "Qǐng bǎ chuānghù dǎkāi."
+            },
+            {
+              "pl": "Nie otwieraj okna!",
+              "zhHans": "不要开窗！",
+              "zhHant": "不要開窗！",
+              "pinyin": "Búyào kāi chuāng!"
+            },
+            {
+              "pl": "Nie zapomnij o kluczach!",
+              "zhHans": "别忘了带钥匙！",
+              "zhHant": "別忘了帶鑰匙！",
+              "pinyin": "Bié wàng le dài yàoshi!"
+            }
+          ],
+          "note": {
+            "pl": "Wyjątkiem są ostrzeżenia przed niezamierzonym zdarzeniem, gdzie po „nie” używamy dokonanego: Nie zapomnij!, Nie spóźnij się!, Nie upadnij!",
+            "zhHans": "警告对方避免无意中发生的事情时是例外，这时“nie”后面用完成体：Nie zapomnij!（别忘了！）、Nie spóźnij się!（别迟到！）、Nie upadnij!（别摔倒！）。",
+            "zhHant": "警告對方避免無意中發生的事情時是例外，這時「nie」後面用完成體：Nie zapomnij!（別忘了！）、Nie spóźnij się!（別遲到！）、Nie upadnij!（別摔倒！）。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-conditional",
+      "title": {
+        "pl": "Tryb przypuszczający",
+        "zhHans": "条件式",
+        "zhHant": "條件式"
+      },
+      "summary": {
+        "pl": "Tryb przypuszczający wyraża życzenia, uprzejme prośby i sytuacje hipotetyczne. Składa się z formy na -ł- i cząstki -by.",
+        "zhHans": "条件式用来表达愿望、礼貌的请求和假设的情况，由 -ł- 形式与小品词 -by 构成。",
+        "zhHant": "條件式用來表達願望、禮貌的請求和假設的情況，由 -ł- 形式與小品詞 -by 構成。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Budowa: forma na -ł- + -by",
+            "zhHans": "构成：-ł- 形式 + -by",
+            "zhHant": "構成：-ł- 形式 + -by"
+          },
+          "explanation": {
+            "pl": "Do formy na -ł- dodajemy końcówki -bym, -byś, -by, -byśmy, -byście, -by: czytałbym/czytałabym, czytałbyś/czytałabyś, czytałby/czytałaby; czytalibyśmy/czytałybyśmy. Rodzaj i liczba działają tak samo jak w czasie przeszłym.",
+            "zhHans": "在 -ł- 形式后加词尾 -bym、-byś、-by、-byśmy、-byście、-by：czytałbym/czytałabym、czytałbyś/czytałabyś、czytałby/czytałaby；czytalibyśmy/czytałybyśmy。性和数的变化与过去时相同。",
+            "zhHant": "在 -ł- 形式後加詞尾 -bym、-byś、-by、-byśmy、-byście、-by：czytałbym/czytałabym、czytałbyś/czytałabyś、czytałby/czytałaby；czytalibyśmy/czytałybyśmy。性和數的變化與過去時相同。"
+          },
+          "examples": [
+            {
+              "pl": "Chciałbym kupić bilet.",
+              "zhHans": "我（男）想买一张票。",
+              "zhHant": "我（男）想買一張票。",
+              "pinyin": "Wǒ (nán) xiǎng mǎi yì zhāng piào."
+            },
+            {
+              "pl": "Chciałabym kupić bilet.",
+              "zhHans": "我（女）想买一张票。",
+              "zhHant": "我（女）想買一張票。",
+              "pinyin": "Wǒ (nǚ) xiǎng mǎi yì zhāng piào."
+            },
+            {
+              "pl": "Anna zjadłaby pizzę.",
+              "zhHans": "安娜想吃块披萨。",
+              "zhHant": "安娜想吃塊披薩。",
+              "pinyin": "Ānnà xiǎng chī kuài pīsà."
+            }
+          ],
+          "note": {
+            "pl": "Chińskie 想, 会 i 可以 nie mają jednej formy odpowiadającej trybowi przypuszczającemu; ton wypowiedzi zależy od kontekstu. Polski pokazuje to wyraźnie końcówką.",
+            "zhHans": "汉语中的“想”“会”“可以”没有与条件式一一对应的单一形式，语气要靠语境来体现；波兰语则通过词尾明确地表现出来。",
+            "zhHant": "漢語中的「想」「會」「可以」沒有與條件式一一對應的單一形式，語氣要靠語境來體現；波蘭語則透過詞尾明確地表現出來。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Ruchoma cząstka -by",
+            "zhHans": "可移动的小品词 -by",
+            "zhHant": "可移動的小品詞 -by"
+          },
+          "explanation": {
+            "pl": "Cząstka -by (z końcówką osobową) może stać oddzielnie od formy na -ł-. Mówimy: Ja bym chciał, Co byś zrobił?, Czy byś mi pomógł? Po spójnikach tworzy z nimi jedną całość: gdybym, żebyś, jakbyśmy.",
+            "zhHans": "小品词 -by（连同人称词尾）可以与 -ł- 形式分开。可以说：Ja bym chciał（我想……）、Co byś zrobił?（你会怎么做？）、Czy byś mi pomógł?（你能帮我吗？）。在连词后面，它与连词合为一体：gdybym、żebyś、jakbyśmy。",
+            "zhHant": "小品詞 -by（連同人稱詞尾）可以與 -ł- 形式分開。可以說：Ja bym chciał（我想……）、Co byś zrobił?（你會怎麼做？）、Czy byś mi pomógł?（你能幫我嗎？）。在連詞後面，它與連詞合為一體：gdybym、żebyś、jakbyśmy。"
+          },
+          "examples": [
+            {
+              "pl": "Co byś zrobiła na moim miejscu?",
+              "zhHans": "如果你（女）处在我的位置，你会怎么做？",
+              "zhHant": "如果你（女）處在我的位置，你會怎麼做？",
+              "pinyin": "Rúguǒ nǐ (nǚ) chǔzài wǒ de wèizhì, nǐ huì zěnme zuò?"
+            },
+            {
+              "pl": "Ja bym tego nie kupił.",
+              "zhHans": "我（男）是不会买这个的。",
+              "zhHant": "我（男）是不會買這個的。",
+              "pinyin": "Wǒ (nán) shì bú huì mǎi zhège de."
+            }
+          ],
+          "note": {
+            "pl": "Miejsce cząstki zależy od rytmu zdania i nacisku; nie każda pozycja brzmi naturalnie. Najbezpieczniej jest naśladować utarte wzory: Chciałbym…, Mógłbyś…, Wolałabym…",
+            "zhHans": "小品词的位置取决于句子的节奏和强调，并不是每种位置听起来都自然。最稳妥的办法是模仿固定的说法：Chciałbym……、Mógłbyś……、Wolałabym……。",
+            "zhHant": "小品詞的位置取決於句子的節奏和強調，並不是每種位置聽起來都自然。最穩妥的辦法是模仿固定的說法：Chciałbym……、Mógłbyś……、Wolałabym……。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Uprzejme prośby i życzenia",
+            "zhHans": "礼貌的请求与愿望",
+            "zhHant": "禮貌的請求與願望"
+          },
+          "explanation": {
+            "pl": "Tryb przypuszczający łagodzi prośby i opinie: Mógłbyś mi pomóc?, Chciałabym zapytać o cenę, Wolałbym zostać w domu. W formie grzecznościowej: Czy mógłby pan…?",
+            "zhHans": "条件式能使请求和意见听起来更委婉：Mógłbyś mi pomóc?（你能帮我吗？）、Chciałabym zapytać o cenę（我想问一下价格）、Wolałbym zostać w domu（我更想待在家里）。礼貌的说法是：Czy mógłby pan……？",
+            "zhHant": "條件式能使請求和意見聽起來更委婉：Mógłbyś mi pomóc?（你能幫我嗎？）、Chciałabym zapytać o cenę（我想問一下價格）、Wolałbym zostać w domu（我更想待在家裡）。禮貌的說法是：Czy mógłby pan……？"
+          },
+          "examples": [
+            {
+              "pl": "Mógłbyś mi pomóc?",
+              "zhHans": "你（男）能帮我一下吗？",
+              "zhHant": "你（男）能幫我一下嗎？",
+              "pinyin": "Nǐ (nán) néng bāng wǒ yíxià ma?"
+            },
+            {
+              "pl": "Wolałbym zostać w domu.",
+              "zhHans": "我（男）更想待在家里。",
+              "zhHant": "我（男）更想待在家裡。",
+              "pinyin": "Wǒ (nán) gèng xiǎng dāi zài jiā lǐ."
+            },
+            {
+              "pl": "Czy mógłby pan otworzyć okno?",
+              "zhHans": "先生，您能把窗户打开吗？",
+              "zhHant": "先生，您能把窗戶打開嗎？",
+              "pinyin": "Xiānshēng, nín néng bǎ chuānghù dǎkāi ma?"
+            }
+          ],
+          "note": {
+            "pl": "Czasownik „powinien” sam wyraża zalecenie, więc zwykle nie dodajemy do niego -by: Powinieneś odpocząć. W polskim nie każda uprzejma prośba wymaga trybu przypuszczającego; krótkie „Proszę…” też jest grzeczne.",
+            "zhHans": "powinien 本身就表示“应该”，所以通常不再加 -by：Powinieneś odpocząć（你应该休息一下）。波兰语中也并非每个礼貌的请求都要用条件式，简短的 Proszę…（请……）同样是礼貌的。",
+            "zhHant": "powinien 本身就表示「應該」，所以通常不再加 -by：Powinieneś odpocząć（你應該休息一下）。波蘭語中也並非每個禮貌的請求都要用條件式，簡短的 Proszę…（請……）同樣是禮貌的。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Zdania warunkowe z „gdyby”",
+            "zhHans": "带 gdyby 的条件句",
+            "zhHant": "帶 gdyby 的條件句"
+          },
+          "explanation": {
+            "pl": "W zdaniach hipotetycznych używamy gdyby (gdy + by) i trybu przypuszczającego w obu częściach: Gdybym miał czas, pojechałbym. Ta sama forma opisuje hipotezę o teraźniejszości i o przeszłości.",
+            "zhHans": "在假设句中使用 gdyby（gdy + by），并在两个分句中都用条件式：Gdybym miał czas, pojechałbym（如果我有时间，我就去了/会去）。同一形式既可以表示对现在的假设，也可以表示对过去的假设。",
+            "zhHant": "在假設句中使用 gdyby（gdy + by），並在兩個分句中都用條件式：Gdybym miał czas, pojechałbym（如果我有時間，我就去了/會去）。同一形式既可以表示對現在的假設，也可以表示對過去的假設。"
+          },
+          "examples": [
+            {
+              "pl": "Gdybym miał czas, pojechałbym do Gdańska.",
+              "zhHans": "如果我（男）有时间，我就去格但斯克。",
+              "zhHant": "如果我（男）有時間，我就去格但斯克。",
+              "pinyin": "Rúguǒ wǒ (nán) yǒu shíjiān, wǒ jiù qù Gédànsīkè."
+            },
+            {
+              "pl": "Gdyby wczoraj padało, zostalibyśmy w domu.",
+              "zhHans": "如果昨天下雨，我们就会待在家里。",
+              "zhHant": "如果昨天下雨，我們就會待在家裡。",
+              "pinyin": "Rúguǒ zuótiān xiàyǔ, wǒmen jiù huì dāi zài jiā lǐ."
+            }
+          ],
+          "note": {
+            "pl": "O czasie decyduje kontekst (wczoraj, teraz). Konstrukcja z „byłbym” (byłbym przyszedł) istnieje, ale jest rzadka lub stylistycznie nacechowana. Warunek realny używa trybu oznajmującego: Jeśli będę miał czas, przyjdę.",
+            "zhHans": "时间要靠语境来判断（昨天、现在）。带 byłbym 的结构（byłbym przyszedł）虽然存在，但很少见，带有特定的文体色彩。真实的条件则用陈述式：Jeśli będę miał czas, przyjdę（如果我有时间，我就来）。",
+            "zhHant": "時間要靠語境來判斷（昨天、現在）。帶 byłbym 的結構（byłbym przyszedł）雖然存在，但很少見，帶有特定的文體色彩。真實的條件則用陳述式：Jeśli będę miał czas, przyjdę（如果我有時間，我就來）。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-infinitive",
+      "title": {
+        "pl": "Bezokolicznik i konstrukcje z nim",
+        "zhHans": "不定式及其相关结构",
+        "zhHant": "不定式及其相關結構"
+      },
+      "summary": {
+        "pl": "Bezokolicznik jest formą słownikową czasownika. Występuje po czasownikach modalnych, w wyrażeniach bezosobowych i w wielu konstrukcjach celu.",
+        "zhHans": "不定式是动词的词典形式，常出现在情态动词之后、无人称表达中，以及许多表示目的的结构里。",
+        "zhHant": "不定式是動詞的詞典形式，常出現在情態動詞之後、無人稱表達中，以及許多表示目的的結構裡。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Jak wygląda bezokolicznik?",
+            "zhHans": "不定式长什么样？",
+            "zhHant": "不定式長什麼樣？"
+          },
+          "explanation": {
+            "pl": "Bezokolicznik kończy się zwykle na -ć: czytać, robić, pisać. Niektóre czasowniki mają -c: móc, pomóc, piec, biec. Inne kończą się na -ść: iść, jeść.",
+            "zhHans": "不定式通常以 -ć 结尾：czytać、robić、pisać。有些动词以 -c 结尾：móc（能够）、pomóc（帮助）、piec（烤）、biec（跑）。还有一些以 -ść 结尾：iść（走去）、jeść（吃）。",
+            "zhHant": "不定式通常以 -ć 結尾：czytać、robić、pisać。有些動詞以 -c 結尾：móc（能夠）、pomóc（幫助）、piec（烤）、biec（跑）。還有一些以 -ść 結尾：iść（走去）、jeść（吃）。"
+          },
+          "examples": [
+            {
+              "pl": "Lubię czytać.",
+              "zhHans": "我喜欢读书。",
+              "zhHant": "我喜歡讀書。",
+              "pinyin": "Wǒ xǐhuān dúshū."
+            },
+            {
+              "pl": "Chcę iść do domu.",
+              "zhHans": "我想回家。",
+              "zhHant": "我想回家。",
+              "pinyin": "Wǒ xiǎng huí jiā."
+            }
+          ],
+          "note": {
+            "pl": "Nie ma jednej reguły, która przewidywałaby końcówkę każdego czasownika; ucz się bezokolicznika razem z formą „ja”. Bezokolicznik nie zmienia się według osoby ani rodzaju.",
+            "zhHans": "没有一条规则能够预测每个动词的结尾，所以应当把不定式和“我”的变位形式一起记忆。不定式不随人称或性而变化。",
+            "zhHant": "沒有一條規則能夠預測每個動詞的結尾，所以應當把不定式和「我」的變位形式一起記憶。不定式不隨人稱或性而變化。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Po czasownikach modalnych i wyrażeniach bezosobowych",
+            "zhHans": "情态动词与无人称表达之后",
+            "zhHant": "情態動詞與無人稱表達之後"
+          },
+          "explanation": {
+            "pl": "Po chcieć, móc, musieć, umieć, woleć i po wyrażeniach można, trzeba, warto, wolno używamy bezokolicznika. Przeczenie zmienia znaczenie: nie wolno oznacza zakaz, a nie trzeba – brak konieczności.",
+            "zhHans": "在 chcieć（想要）、móc（能够）、musieć（必须）、umieć（会）、woleć（宁愿）以及 można（可以）、trzeba（需要）、warto（值得）、wolno（允许）之后使用不定式。否定会改变含义：nie wolno 表示禁止，nie trzeba 表示没有必要。",
+            "zhHant": "在 chcieć（想要）、móc（能夠）、musieć（必須）、umieć（會）、woleć（寧願）以及 można（可以）、trzeba（需要）、warto（值得）、wolno（允許）之後使用不定式。否定會改變含義：nie wolno 表示禁止，nie trzeba 表示沒有必要。"
+          },
+          "examples": [
+            {
+              "pl": "Można tu parkować?",
+              "zhHans": "这里可以停车吗？",
+              "zhHant": "這裡可以停車嗎？",
+              "pinyin": "Zhèlǐ kěyǐ tíngchē ma?"
+            },
+            {
+              "pl": "Trzeba kupić chleb.",
+              "zhHans": "需要买面包。",
+              "zhHant": "需要買麵包。",
+              "pinyin": "Xūyào mǎi miànbāo."
+            },
+            {
+              "pl": "Nie wolno tu palić.",
+              "zhHans": "这里不许吸烟。",
+              "zhHant": "這裡不許吸菸。",
+              "pinyin": "Zhèlǐ bùxǔ xīyān."
+            },
+            {
+              "pl": "Nie trzeba się spieszyć.",
+              "zhHans": "不用着急。",
+              "zhHant": "不用著急。",
+              "pinyin": "Búyòng zháojí."
+            }
+          ],
+          "note": {
+            "pl": "Chińskie 不能, 不可以 i 不用 nie odpowiadają jeden do jednego polskim wyrażeniom. W zależności od kontekstu nie musisz może znaczyć 你不用……, a nie możesz – 你不能……。",
+            "zhHans": "汉语的“不能”“不可以”“不用”与波兰语的表达并非一一对应。根据语境，nie musisz 通常是“你不用……”，而 nie możesz 是“你不能……”。",
+            "zhHant": "漢語的「不能」「不可以」「不用」與波蘭語的表達並非一一對應。根據語境，nie musisz 通常是「你不用……」，而 nie możesz 是「你不能……」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Cel i różne podmioty: żeby, kazać, pozwolić",
+            "zhHans": "目的与不同的主语：żeby、kazać、pozwolić",
+            "zhHant": "目的與不同的主語：żeby、kazać、pozwolić"
+          },
+          "explanation": {
+            "pl": "Gdy podmiot jest ten sam, cel wyrażamy przez żeby + bezokolicznik. Gdy podmioty są różne, używamy żeby + formy na -ł-: żebyś przyszedł. Po kazać, pozwolić i podobnych czasownikach osoba stoi w celowniku, a po niej następuje bezokolicznik.",
+            "zhHans": "主语相同时，用 żeby + 不定式表示目的。主语不同时，用 żeby + -ł- 形式：żebyś przyszedł。在 kazać（吩咐）、pozwolić（允许）等动词之后，对象用与格，后面接不定式。",
+            "zhHant": "主語相同時，用 żeby + 不定式表示目的。主語不同時，用 żeby + -ł- 形式：żebyś przyszedł。在 kazać（吩咐）、pozwolić（允許）等動詞之後，對象用與格，後面接不定式。"
+          },
+          "examples": [
+            {
+              "pl": "Idę do sklepu, żeby kupić chleb.",
+              "zhHans": "我去商店买面包。",
+              "zhHant": "我去商店買麵包。",
+              "pinyin": "Wǒ qù shāngdiàn mǎi miànbāo."
+            },
+            {
+              "pl": "Chcę, żebyś przyszedł.",
+              "zhHans": "我希望你来。",
+              "zhHant": "我希望你來。",
+              "pinyin": "Wǒ xīwàng nǐ lái."
+            },
+            {
+              "pl": "Mama kazała mi posprzątać.",
+              "zhHans": "妈妈让我打扫。",
+              "zhHant": "媽媽讓我打掃。",
+              "pinyin": "Māmā ràng wǒ dǎsǎo."
+            },
+            {
+              "pl": "Nauczyciel pozwolił nam wyjść.",
+              "zhHans": "老师允许我们出去。",
+              "zhHant": "老師允許我們出去。",
+              "pinyin": "Lǎoshī yǔnxǔ wǒmen chūqù."
+            }
+          ],
+          "note": {
+            "pl": "Po chcieć i woleć nie łączymy innej osoby z bezokolicznikiem: nie mówimy „chcę ciebie przyjść”. Po niektórych czasownikach (np. prosić, radzić) są jeszcze inne konstrukcje, więc sprawdzaj wzór dla konkretnego czasownika.",
+            "zhHans": "在 chcieć 和 woleć 之后，不能把另一个人和不定式直接连用，不能说“chcę ciebie przyjść”。prosić（请求）、radzić（建议）等动词后面还有其他结构，因此要针对具体的动词查对应的句型。",
+            "zhHant": "在 chcieć 和 woleć 之後，不能把另一個人和不定式直接連用，不能說「chcę ciebie przyjść」。prosić（請求）、radzić（建議）等動詞後面還有其他結構，因此要針對具體的動詞查對應的句型。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Rzeczownik odczasownikowy po przyimkach",
+            "zhHans": "介词之后的动名词",
+            "zhHant": "介詞之後的動名詞"
+          },
+          "explanation": {
+            "pl": "Po przyimkach (przed, po, bez, do, na) zwykle nie używamy bezokolicznika, tylko rzeczownika odczasownikowego: przed jedzeniem, po pracy, bez czekania. Wyjątkiem jest zamiast, które łączy się z bezokolicznikiem.",
+            "zhHans": "介词（przed、po、bez、do、na）后面通常不用不定式，而是用动名词：przed jedzeniem（吃饭前）、po pracy（下班后）、bez czekania（不用等）。zamiast（而不是）是例外，它可以接不定式。",
+            "zhHant": "介詞（przed、po、bez、do、na）後面通常不用不定式，而是用動名詞：przed jedzeniem（吃飯前）、po pracy（下班後）、bez czekania（不用等）。zamiast（而不是）是例外，它可以接不定式。"
+          },
+          "examples": [
+            {
+              "pl": "Myję ręce przed jedzeniem.",
+              "zhHans": "我吃饭前洗手。",
+              "zhHant": "我吃飯前洗手。",
+              "pinyin": "Wǒ chīfàn qián xǐshǒu."
+            },
+            {
+              "pl": "Po pracy idę na spacer.",
+              "zhHans": "下班后我去散步。",
+              "zhHant": "下班後我去散步。",
+              "pinyin": "Xiàbān hòu wǒ qù sànbù."
+            },
+            {
+              "pl": "Zamiast czekać, zadzwoń.",
+              "zhHans": "别干等了，打个电话吧。",
+              "zhHant": "別乾等了，打個電話吧。",
+              "pinyin": "Bié gān děng le, dǎ gè diànhuà ba."
+            }
+          ],
+          "note": {
+            "pl": "Nie od każdego czasownika powstaje naturalny rzeczownik odczasownikowy. Wtedy lepiej użyć zdania podrzędnego, np. „Zanim wyjdę, zamknę okno.”",
+            "zhHans": "并不是每个动词都有自然的动名词。这时最好改用从句，例如：Zanim wyjdę, zamknę okno.（我出门之前会关上窗户。）",
+            "zhHant": "並不是每個動詞都有自然的動名詞。這時最好改用從句，例如：Zanim wyjdę, zamknę okno.（我出門之前會關上窗戶。）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-reflexive",
+      "title": {
+        "pl": "Czasowniki zwrotne i miejsce „się”",
+        "zhHans": "反身动词与 się 的位置",
+        "zhHant": "反身動詞與 się 的位置"
+      },
+      "summary": {
+        "pl": "„Się” występuje w kilku różnych funkcjach. Nie zawsze oznacza „samego siebie”, a jego miejsce w zdaniu rządzi się zasadami rytmu i akcentu.",
+        "zhHans": "się 有好几种不同的功能，并不总是表示“自己”。它在句中的位置遵循节奏和重音的规律。",
+        "zhHant": "się 有好幾種不同的功能，並不總是表示「自己」。它在句中的位置遵循節奏和重音的規律。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Funkcje „się”",
+            "zhHans": "się 的几种功能",
+            "zhHant": "się 的幾種功能"
+          },
+          "explanation": {
+            "pl": "„Się” może wskazywać czynność skierowaną na siebie (myć się), wzajemną (spotykać się), należeć do stałej formy czasownika (bać się, śmiać się) albo tworzyć konstrukcję bezosobową (Tu się nie pali).",
+            "zhHans": "się 可以表示动作指向自己（myć się，洗漱）、相互的动作（spotykać się，见面）、属于动词的固定形式（bać się，害怕；śmiać się，笑），也可以构成无人称结构（Tu się nie pali）。",
+            "zhHant": "się 可以表示動作指向自己（myć się，洗漱）、相互的動作（spotykać się，見面）、屬於動詞的固定形式（bać się，害怕；śmiać się，笑），也可以構成無人稱結構（Tu się nie pali）。"
+          },
+          "examples": [
+            {
+              "pl": "Anna myje się rano.",
+              "zhHans": "安娜早上洗漱。",
+              "zhHant": "安娜早上洗漱。",
+              "pinyin": "Ānnà zǎoshàng xǐshù."
+            },
+            {
+              "pl": "Spotykamy się w piątek.",
+              "zhHans": "我们周五见面。",
+              "zhHant": "我們週五見面。",
+              "pinyin": "Wǒmen zhōuwǔ jiànmiàn."
+            },
+            {
+              "pl": "Boję się ciemności.",
+              "zhHans": "我怕黑。",
+              "zhHant": "我怕黑。",
+              "pinyin": "Wǒ pà hēi."
+            },
+            {
+              "pl": "Tu się nie pali.",
+              "zhHans": "这里不吸烟。",
+              "zhHant": "這裡不吸菸。",
+              "pinyin": "Zhèlǐ bù xīyān."
+            }
+          ],
+          "note": {
+            "pl": "Dodanie „się” często zmienia znaczenie czasownika: uczyć to „教”, a uczyć się to „学”. Chińskie 自己 nie odpowiada „się” we wszystkich funkcjach.",
+            "zhHans": "加上 się 常常会改变动词的意思：uczyć 是“教”，uczyć się 是“学习”。汉语的“自己”并不对应 się 的所有功能。",
+            "zhHant": "加上 się 常常會改變動詞的意思：uczyć 是「教」，uczyć się 是「學習」。漢語的「自己」並不對應 się 的所有功能。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Miejsce „się” w zdaniu",
+            "zhHans": "się 在句中的位置",
+            "zhHant": "się 在句中的位置"
+          },
+          "explanation": {
+            "pl": "„Się” jest nieakcentowane i zwykle nie stoi na początku zdania. Najczęściej stoi po czasowniku lub po pierwszym akcentowanym wyrazie, np. po pytajniku, spójniku czy przysłówku.",
+            "zhHans": "się 不带重音，通常不放在句首。它多半紧跟在动词之后，或者放在第一个重读词之后，例如疑问词、连词或副词之后。",
+            "zhHant": "się 不帶重音，通常不放在句首。它多半緊跟在動詞之後，或者放在第一個重讀詞之後，例如疑問詞、連詞或副詞之後。"
+          },
+          "examples": [
+            {
+              "pl": "Jak się masz?",
+              "zhHans": "你好吗？",
+              "zhHant": "你好嗎？",
+              "pinyin": "Nǐhǎo ma?"
+            },
+            {
+              "pl": "Czuję się dobrze.",
+              "zhHans": "我感觉很好。",
+              "zhHant": "我感覺很好。",
+              "pinyin": "Wǒ gǎnjué hěn hǎo."
+            },
+            {
+              "pl": "Uśmiechnij się!",
+              "zhHans": "笑一个！",
+              "zhHant": "笑一個！",
+              "pinyin": "Xiào yí gè!"
+            }
+          ],
+          "note": {
+            "pl": "To są tendencje, nie sztywne reguły: „Dobrze się czuję” i „Czuję się dobrze” są poprawne. Zmiana kolejności może jednak zmienić nacisk na jakąś część zdania.",
+            "zhHans": "这些是倾向，而不是死板的规则：Dobrze się czuję 与 Czuję się dobrze 都正确。不过，改变语序可能会改变句子某一部分的强调重点。",
+            "zhHant": "這些是傾向，而不是死板的規則：Dobrze się czuję 與 Czuję się dobrze 都正確。不過，改變語序可能會改變句子某一部分的強調重點。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "„Się” w czasie przeszłym, przyszłym i z bezokolicznikiem",
+            "zhHans": "się 在过去时、将来时和不定式中",
+            "zhHant": "się 在過去時、將來時和不定式中"
+          },
+          "explanation": {
+            "pl": "W czasie przeszłym „się” stoi zwykle po formie na -ł- lub po przysłówku, w przyszłym – przy będę, a w bezokoliczniku – przed nim lub po nim. W konstrukcjach modalnych częste jest ułożenie „chcę się uczyć”.",
+            "zhHans": "在过去时中，się 通常放在 -ł- 形式之后或副词之后；在将来时中，它挨着 będę；与不定式连用时，可以放在不定式之前或之后。在情态结构中，常见的语序是 chcę się uczyć。",
+            "zhHant": "在過去時中，się 通常放在 -ł- 形式之後或副詞之後；在將來時中，它挨著 będę；與不定式連用時，可以放在不定式之前或之後。在情態結構中，常見的語序是 chcę się uczyć。"
+          },
+          "examples": [
+            {
+              "pl": "Wczoraj się spieszyłem.",
+              "zhHans": "昨天我（男）很赶时间。",
+              "zhHant": "昨天我（男）很趕時間。",
+              "pinyin": "Zuótiān wǒ (nán) hěn gǎn shíjiān."
+            },
+            {
+              "pl": "Będziemy się uczyć polskiego.",
+              "zhHans": "我们将学习波兰语。",
+              "zhHant": "我們將學習波蘭語。",
+              "pinyin": "Wǒmen jiāng xuéxí Bōlányǔ."
+            },
+            {
+              "pl": "Chciałbym się z tobą spotkać.",
+              "zhHans": "我（男）想和你见面。",
+              "zhHant": "我（男）想和你見面。",
+              "pinyin": "Wǒ (nán) xiǎng hé nǐ jiànmiàn."
+            }
+          ],
+          "note": {
+            "pl": "Forma „chcę uczyć się” też jest poprawna, ale brzmi bardziej emfatycznie lub oficjalnie. Nie ma jednej kolejności, która pasuje do wszystkich sytuacji.",
+            "zhHans": "Chcę uczyć się 也是正确的，但听起来更强调或更正式。并没有一种语序适用于所有场合。",
+            "zhHant": "Chcę uczyć się 也是正確的，但聽起來更強調或更正式。並沒有一種語序適用於所有場合。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "„Się”, „siebie”, „sobie”, „sobą”",
+            "zhHans": "się 与 siebie、sobie、sobą",
+            "zhHant": "się 與 siebie、sobie、sobą"
+          },
+          "explanation": {
+            "pl": "„Się” zastępuje biernik. W innych przypadkach używamy form siebie (dopełniacz, biernik z naciskiem), sobie (celownik, miejscownik) i sobą (narzędnik). Nie mają one mianownika.",
+            "zhHans": "się 代替宾格。其他格要用 siebie（属格，以及带强调的宾格）、sobie（与格、处所格）和 sobą（工具格）。这些形式没有主格。",
+            "zhHant": "się 代替賓格。其他格要用 siebie（屬格，以及帶強調的賓格）、sobie（與格、處所格）和 sobą（工具格）。這些形式沒有主格。"
+          },
+          "examples": [
+            {
+              "pl": "Kupiłam sobie nową torbę.",
+              "zhHans": "我（女）给自己买了一个新包。",
+              "zhHant": "我（女）給自己買了一個新包。",
+              "pinyin": "Wǒ (nǚ) gěi zìjǐ mǎi le yí gè xīn bāo."
+            },
+            {
+              "pl": "On często mówi o sobie.",
+              "zhHans": "他经常谈论自己。",
+              "zhHant": "他經常談論自己。",
+              "pinyin": "Tā jīngcháng tánlùn zìjǐ."
+            },
+            {
+              "pl": "Patrzę na siebie w lustrze.",
+              "zhHans": "我在镜子里看自己。",
+              "zhHant": "我在鏡子裡看自己。",
+              "pinyin": "Wǒ zài jìngzi lǐ kàn zìjǐ."
+            }
+          ],
+          "note": {
+            "pl": "Zaimek „sobie” bywa też dodatkiem, który podkreśla własną korzyść lub swobodny ton: „Usiądź sobie”. Gdy chodzi o inną osobę niż podmiot, używamy zwykłych zaimków (mnie, jego), a nie „siebie”.",
+            "zhHans": "sobie 有时只是一个附加成分，用来强调为自己着想或表达随意的语气：Usiądź sobie（你随便坐吧）。如果指的是主语以外的人，要用普通的人称代词（mnie、jego），而不是 siebie。",
+            "zhHant": "sobie 有時只是一個附加成分，用來強調為自己著想或表達隨意的語氣：Usiądź sobie（你隨便坐吧）。如果指的是主語以外的人，要用普通的人稱代詞（mnie、jego），而不是 siebie。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-negation",
+      "title": {
+        "pl": "Przeczenie",
+        "zhHans": "否定",
+        "zhHant": "否定"
+      },
+      "summary": {
+        "pl": "Przeczenie w polskim ma własne zasady: stawiamy „nie” przed czasownikiem, łączymy je z zaimkami przeczącymi i często zmieniamy przypadek dopełnienia.",
+        "zhHans": "波兰语的否定有自己的规则：nie 放在动词之前，与否定代词连用，并且常常改变宾语的格。",
+        "zhHant": "波蘭語的否定有自己的規則：nie 放在動詞之前，與否定代詞連用，並且常常改變賓語的格。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Podstawowe przeczenie „nie”",
+            "zhHans": "基本的否定词 nie",
+            "zhHant": "基本的否定詞 nie"
+          },
+          "explanation": {
+            "pl": "Przeczenie tworzymy przez „nie” stawiane bezpośrednio przed czasownikiem w osobie, czasie lub trybie. Przy czasownikach z „się” „nie” stoi przed „się”.",
+            "zhHans": "否定词 nie 直接放在变位动词之前，无论人称、时态还是语式。带 się 的动词中，nie 放在 się 之前。",
+            "zhHant": "否定詞 nie 直接放在變位動詞之前，無論人稱、時態還是語式。帶 się 的動詞中，nie 放在 się 之前。"
+          },
+          "examples": [
+            {
+              "pl": "Nie rozumiem tego słowa.",
+              "zhHans": "我不理解这个词。",
+              "zhHant": "我不理解這個詞。",
+              "pinyin": "Wǒ bù lǐjiě zhège cí."
+            },
+            {
+              "pl": "Piotr nie mieszka w Krakowie.",
+              "zhHans": "彼得不住在克拉科夫。",
+              "zhHant": "彼得不住在克拉科夫。",
+              "pinyin": "Bǐdé bú zhù zài Kèlākēfū."
+            },
+            {
+              "pl": "Nie boję się.",
+              "zhHans": "我不害怕。",
+              "zhHant": "我不害怕。",
+              "pinyin": "Wǒ bú hàipà."
+            }
+          ],
+          "note": {
+            "pl": "Polskie „nie” odpowiada zarówno 不, jak i 没: „Nie byłem tam” to 我没去过那里, a „Nie lubię kawy” to 我不喜欢咖啡. O wyborze decyduje znaczenie i czas, a nie sama partykuła.",
+            "zhHans": "波兰语的 nie 既对应“不”，也对应“没”：Nie byłem tam 是“我没去过那里”，Nie lubię kawy 是“我不喜欢咖啡”。选择“不”还是“没”要看含义和时间，而不是看这个小品词本身。",
+            "zhHant": "波蘭語的 nie 既對應「不」，也對應「沒」：Nie byłem tam 是「我沒去過那裡」，Nie lubię kawy 是「我不喜歡咖啡」。選擇「不」還是「沒」要看含義和時間，而不是看這個小品詞本身。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Wielokrotne przeczenie",
+            "zhHans": "多重否定",
+            "zhHant": "多重否定"
+          },
+          "explanation": {
+            "pl": "Zaimki i przysłówki przeczące (nikt, nic, nigdy, nigdzie, żaden) łączą się w polskim z „nie” przed czasownikiem. Dwa przeczenia nie znoszą się, tylko wzmacniają: Nikt nic nie wie.",
+            "zhHans": "否定代词和副词（nikt、nic、nigdy、nigdzie、żaden）在波兰语中要与动词前的 nie 一起使用。两个否定并不相互抵消，而是互相加强：Nikt nic nie wie。",
+            "zhHant": "否定代詞和副詞（nikt、nic、nigdy、nigdzie、żaden）在波蘭語中要與動詞前的 nie 一起使用。兩個否定並不相互抵消，而是互相加強：Nikt nic nie wie。"
+          },
+          "examples": [
+            {
+              "pl": "Nikt nic nie wie.",
+              "zhHans": "谁也什么都不知道。",
+              "zhHant": "誰也什麼都不知道。",
+              "pinyin": "Shuíyě shénme dōu bù zhīdào."
+            },
+            {
+              "pl": "Nigdy tam nie byłem.",
+              "zhHans": "我（男）从来没去过那里。",
+              "zhHant": "我（男）從來沒去過那裡。",
+              "pinyin": "Wǒ (nán) cónglái méi qù guò nàlǐ."
+            },
+            {
+              "pl": "Ani Anna, ani Piotr nie przyszli.",
+              "zhHans": "安娜和彼得都没有来。",
+              "zhHant": "安娜和彼得都沒有來。",
+              "pinyin": "Ānnà hé Bǐdé dōu méiyǒu lái."
+            }
+          ],
+          "note": {
+            "pl": "W krótkich odpowiedziach „nie” przy czasowniku może zniknąć: „Kiedy tam byłeś? – Nigdy.” Po ani…, ani… orzeczenie ma zwykle liczbę mnogą, a przy osobach różnej płci rodzaj męskoosobowy.",
+            "zhHans": "在简短的回答中，动词前的 nie 可以省略：Kiedy tam byłeś? – Nigdy.（你什么时候去过那里？——从来没有。）ani……ani…… 之后，谓语通常用复数；如果涉及不同性别的人，则用阳性人称形式。",
+            "zhHant": "在簡短的回答中，動詞前的 nie 可以省略：Kiedy tam byłeś? – Nigdy.（你什麼時候去過那裡？——從來沒有。）ani……ani…… 之後，謂語通常用複數；如果涉及不同性別的人，則用陽性人稱形式。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Dopełniacz po przeczeniu",
+            "zhHans": "否定属格",
+            "zhHant": "否定屬格"
+          },
+          "explanation": {
+            "pl": "W zdaniu przeczącym dopełnienie bliższe, które w zdaniu twierdzącym stoi w bierniku, zwykle przyjmuje dopełniacz. Dopełniacz pojawia się też w zdaniach „nie ma” i „nie było”.",
+            "zhHans": "在否定句中，肯定句里用宾格的直接宾语通常改用属格。在 nie ma（没有）和 nie było（没有过）的句子中，也使用属格。",
+            "zhHant": "在否定句中，肯定句裡用賓格的直接賓語通常改用屬格。在 nie ma（沒有）和 nie było（沒有過）的句子中，也使用屬格。"
+          },
+          "examples": [
+            {
+              "pl": "Czytam gazetę. Nie czytam gazety.",
+              "zhHans": "我读报纸。我不读报纸。",
+              "zhHant": "我讀報紙。我不讀報紙。",
+              "pinyin": "Wǒ dú bàozhǐ. Wǒ bù dú bàozhǐ."
+            },
+            {
+              "pl": "W lodówce nie ma mleka.",
+              "zhHans": "冰箱里没有牛奶。",
+              "zhHant": "冰箱裡沒有牛奶。",
+              "pinyin": "Bīngxiāng lǐ méiyǒu niúnǎi."
+            },
+            {
+              "pl": "Wczoraj nie było czasu.",
+              "zhHans": "昨天没有时间。",
+              "zhHant": "昨天沒有時間。",
+              "pinyin": "Zuótiān méiyǒu shíjiān."
+            }
+          ],
+          "note": {
+            "pl": "Zasada dotyczy głównie dopełnień bliższych w bierniku; inne przypadki się nie zmieniają: „Nie pomagam mamie”. W niektórych kontekstach dopuszcza się biernik, ale dopełniacz jest standardem i bezpieczniejszym wyborem. W chińskim nie ma tego zjawiska, więc trzeba nauczyć się go jako wzorca.",
+            "zhHans": "这条规则主要针对宾格的直接宾语；其他格不变：Nie pomagam mamie（我不帮妈妈）。在某些语境中也允许使用宾格，但属格是标准用法，也是更稳妥的选择。汉语中没有这种现象，所以要把它当作一种句型来记忆。",
+            "zhHant": "這條規則主要針對賓格的直接賓語；其他格不變：Nie pomagam mamie（我不幫媽媽）。在某些語境中也允許使用賓格，但屬格是標準用法，也是更穩妥的選擇。漢語中沒有這種現象，所以要把它當作一種句型來記憶。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Przeczenie przy bezokoliczniku i przeczenie kontrastowe",
+            "zhHans": "不定式的否定与对比否定",
+            "zhHant": "不定式的否定與對比否定"
+          },
+          "explanation": {
+            "pl": "Przy bezokoliczniku „nie” stoi bezpośrednio przed nim: staram się nie spóźniać. W zdaniach kontrastowych przeczymy jedną część zdania, a drugą wprowadzamy przez „tylko”: Nie zamawiam kawy, tylko herbatę.",
+            "zhHans": "不定式的否定中，nie 直接放在不定式之前：staram się nie spóźniać（我努力不迟到）。在对比句中，只否定句子的一个部分，再用 tylko 引出另一个部分：Nie zamawiam kawy, tylko herbatę。",
+            "zhHant": "不定式的否定中，nie 直接放在不定式之前：staram się nie spóźniać（我努力不遲到）。在對比句中，只否定句子的一個部分，再用 tylko 引出另一個部分：Nie zamawiam kawy, tylko herbatę。"
+          },
+          "examples": [
+            {
+              "pl": "Staram się nie spóźniać.",
+              "zhHans": "我努力不迟到。",
+              "zhHant": "我努力不遲到。",
+              "pinyin": "Wǒ nǔlì bù chídào."
+            },
+            {
+              "pl": "Nie chcę tego robić.",
+              "zhHans": "我不想做这件事。",
+              "zhHant": "我不想做這件事。",
+              "pinyin": "Wǒ bù xiǎng zuò zhè jiàn shì."
+            },
+            {
+              "pl": "Nie zamawiam kawy, tylko herbatę.",
+              "zhHans": "我不点咖啡，而是点茶。",
+              "zhHant": "我不點咖啡，而是點茶。",
+              "pinyin": "Wǒ bù diǎn kāfēi, érshì diǎn chá."
+            }
+          ],
+          "note": {
+            "pl": "Miejsce przeczenia zmienia znaczenie: „Nie chcę tego robić” to „不想做”, a „Chcę tego nie robić” to „我想不做这件事”, czyli zdanie bardziej nacechowane. Po „tylko” dopełnienie nie zawsze stoi w dopełniaczu, bo to część kontrastu.",
+            "zhHans": "否定词的位置会改变含义：Nie chcę tego robić 是“我不想做”，而 Chcę tego nie robić 是“我想不做这件事”，语气更加特别。在 tylko 之后，宾语不一定用属格，因为它属于对比的部分。",
+            "zhHant": "否定詞的位置會改變含義：Nie chcę tego robić 是「我不想做」，而 Chcę tego nie robić 是「我想不做這件事」，語氣更加特別。在 tylko 之後，賓語不一定用屬格，因為它屬於對比的部分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-government",
+      "title": {
+        "pl": "Rekcja czasowników i przypadki",
+        "zhHans": "动词的支配与格",
+        "zhHant": "動詞的支配與格"
+      },
+      "summary": {
+        "pl": "Rekcja pokazuje, jakiego przypadku lub jakiego przyimka wymaga czasownik. Trzeba się jej uczyć razem z czasownikiem.",
+        "zhHans": "支配（rekcja）说明动词要求哪个格，或者要求哪个介词。必须把它和动词一起学习。",
+        "zhHant": "支配（rekcja）說明動詞要求哪個格，或者要求哪個介詞。必須把它和動詞一起學習。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Czym jest rekcja?",
+            "zhHans": "什么是动词的支配？",
+            "zhHant": "什麼是動詞的支配？"
+          },
+          "explanation": {
+            "pl": "Każdy czasownik wymaga określonego przypadku dopełnienia: czytać książkę (biernik), pomagać mamie (celownik), rozmawiać z bratem (przyimek z i narzędnik). Samo tłumaczenie na chiński nie wystarcza, żeby wybrać przypadek.",
+            "zhHans": "每个动词都要求宾语使用特定的格：czytać książkę（宾格）、pomagać mamie（与格）、rozmawiać z bratem（介词 z 加工具格）。仅仅知道汉语的翻译，还不足以选对格。",
+            "zhHant": "每個動詞都要求賓語使用特定的格：czytać książkę（賓格）、pomagać mamie（與格）、rozmawiać z bratem（介詞 z 加工具格）。僅僅知道漢語的翻譯，還不足以選對格。"
+          },
+          "examples": [
+            {
+              "pl": "Czytam książkę, pomagam mamie i rozmawiam z bratem.",
+              "zhHans": "我读书，帮助妈妈，并和哥哥聊天。",
+              "zhHant": "我讀書，幫助媽媽，並和哥哥聊天。",
+              "pinyin": "Wǒ dúshū, bāngzhù māmā, bìng hé gēgē liáo tiān."
+            }
+          ],
+          "note": {
+            "pl": "Chiński wyraża relacje przez 给, 对, 跟 i szyk wyrazów, a polski przez końcówki. Ucz się czasownika razem z przypadkiem. Niektóre czasowniki dopuszczają dwa warianty, a słowniki bywają niezgodne w drobnych przypadkach.",
+            "zhHans": "汉语通过“给”“对”“跟”和词序来表示这些关系，波兰语则通过词尾。请把动词与它的格一起记忆。有些动词允许两种用法，个别细节上不同的词典也可能不一致。",
+            "zhHant": "漢語透過「給」「對」「跟」和詞序來表示這些關係，波蘭語則透過詞尾。請把動詞與它的格一起記憶。有些動詞允許兩種用法，個別細節上不同的詞典也可能不一致。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Biernik czy dopełniacz?",
+            "zhHans": "宾格还是属格？",
+            "zhHant": "賓格還是屬格？"
+          },
+          "explanation": {
+            "pl": "Większość czasowników przechodnich łączy się z biernikiem: widzieć dom, lubić kawę. Niektóre wymagają dopełniacza: szukać pracy, potrzebować pomocy, słuchać muzyki, bać się psów.",
+            "zhHans": "大多数及物动词搭配宾格：widzieć dom（看见房子）、lubić kawę（喜欢咖啡）。有些动词要求属格：szukać pracy（找工作）、potrzebować pomocy（需要帮助）、słuchać muzyki（听音乐）、bać się psów（怕狗）。",
+            "zhHant": "大多數及物動詞搭配賓格：widzieć dom（看見房子）、lubić kawę（喜歡咖啡）。有些動詞要求屬格：szukać pracy（找工作）、potrzebować pomocy（需要幫助）、słuchać muzyki（聽音樂）、bać się psów（怕狗）。"
+          },
+          "examples": [
+            {
+              "pl": "Szukam pracy.",
+              "zhHans": "我在找工作。",
+              "zhHant": "我在找工作。",
+              "pinyin": "Wǒ zài zhǎo gōngzuò."
+            },
+            {
+              "pl": "Potrzebuję pomocy.",
+              "zhHans": "我需要帮助。",
+              "zhHant": "我需要幫助。",
+              "pinyin": "Wǒ xūyào bāngzhù."
+            },
+            {
+              "pl": "Słucham muzyki.",
+              "zhHans": "我在听音乐。",
+              "zhHant": "我在聽音樂。",
+              "pinyin": "Wǒ zài tīng yīnyuè."
+            },
+            {
+              "pl": "Boję się psów.",
+              "zhHans": "我怕狗。",
+              "zhHant": "我怕狗。",
+              "pinyin": "Wǒ pà gǒu."
+            }
+          ],
+          "note": {
+            "pl": "   Niektóre czasowniki dopuszczają oba przypadki (np. chcieć kawy i chcieć kawę), a słowniki zalecają różne warianty. W razie wątpliwości sprawdź hasło czasownika.",
+            "zhHans": "有些动词允许两种格（例如 chcieć kawy 和 chcieć kawę），不同词典推荐的用法也不尽相同。有疑问时请查该动词的词条。",
+            "zhHant": "有些動詞允許兩種格（例如 chcieć kawy 和 chcieć kawę），不同詞典推薦的用法也不盡相同。有疑問時請查該動詞的詞條。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Celownik: komu?",
+            "zhHans": "与格：给谁？",
+            "zhHant": "與格：給誰？"
+          },
+          "explanation": {
+            "pl": "Celownik występuje po czasownikach takich jak pomagać, dziękować, wierzyć, radzić i podobać się. Przy „podobać się” osoba oceniająca stoi w celowniku, a oceniana rzecz jest podmiotem.",
+            "zhHans": "与格出现在 pomagać（帮助）、dziękować（感谢）、wierzyć（相信）、radzić（建议）和 podobać się（喜欢）等动词之后。在 podobać się 中，作出评价的人用与格，被评价的事物是主语。",
+            "zhHant": "與格出現在 pomagać（幫助）、dziękować（感謝）、wierzyć（相信）、radzić（建議）和 podobać się（喜歡）等動詞之後。在 podobać się 中，作出評價的人用與格，被評價的事物是主語。"
+          },
+          "examples": [
+            {
+              "pl": "Pomagam mamie w kuchni.",
+              "zhHans": "我在厨房里帮妈妈。",
+              "zhHant": "我在廚房裡幫媽媽。",
+              "pinyin": "Wǒ zài chúfáng lǐ bāng māmā."
+            },
+            {
+              "pl": "Annie bardzo podoba się ten film.",
+              "zhHans": "安娜很喜欢这部电影。",
+              "zhHant": "安娜很喜歡這部電影。",
+              "pinyin": "Ānnà hěn xǐhuān zhè bù diànyǐng."
+            },
+            {
+              "pl": "Dziękuję ci za prezent.",
+              "zhHans": "谢谢你的礼物。",
+              "zhHant": "謝謝你的禮物。",
+              "pinyin": "Xièxiè nǐ de lǐwù."
+            }
+          ],
+          "note": {
+            "pl": "Chińskie 喜欢 ma osobę jako podmiot, a polskie „podobać się” odwraca tę konstrukcję. „Lubić” (biernik) jest bliższe 喜欢, ale „podobać się” sugeruje, że coś przypadło nam do gustu.",
+            "zhHans": "汉语“喜欢”的主语是人，而波兰语的 podobać się 把结构反了过来。lubić（宾格）更接近“喜欢”，而 podobać się 表示某物合自己的心意。",
+            "zhHant": "漢語「喜歡」的主語是人，而波蘭語的 podobać się 把結構反了過來。lubić（賓格）更接近「喜歡」，而 podobać się 表示某物合自己的心意。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Narzędnik: kim? czym?",
+            "zhHans": "工具格：是谁？用什么？",
+            "zhHant": "工具格：是誰？用什麼？"
+          },
+          "explanation": {
+            "pl": "Narzędnik występuje po czasownikach takich jak interesować się, zajmować się, zostać oraz wyraża środek transportu. Często stoi też w orzeczniku z „być”, szczególnie przy zawodach i rolach.",
+            "zhHans": "工具格出现在 interesować się（对……感兴趣）、zajmować się（从事）、zostać（成为）等动词之后，也用来表示交通工具。在与 być 搭配的表语中，尤其是表示职业和身份时，也常用工具格。",
+            "zhHant": "工具格出現在 interesować się（對……感興趣）、zajmować się（從事）、zostać（成為）等動詞之後，也用來表示交通工具。在與 być 搭配的表語中，尤其是表示職業和身份時，也常用工具格。"
+          },
+          "examples": [
+            {
+              "pl": "Mój brat jest lekarzem.",
+              "zhHans": "我哥哥是医生。",
+              "zhHant": "我哥哥是醫生。",
+              "pinyin": "Wǒ gēgē shì yīshēng."
+            },
+            {
+              "pl": "Interesuję się historią.",
+              "zhHans": "我对历史感兴趣。",
+              "zhHant": "我對歷史感興趣。",
+              "pinyin": "Wǒ duì lìshǐ gǎnxìngqù."
+            },
+            {
+              "pl": "Jedziemy do pracy tramwajem.",
+              "zhHans": "我们坐电车去上班。",
+              "zhHant": "我們坐電車去上班。",
+              "pinyin": "Wǒmen zuò diànchē qù shàngbān."
+            }
+          ],
+          "note": {
+            "pl": "Po „to” zwykle używamy mianownika: „To lekarz”. Przymiotniki w orzeczniku często stoją w mianowniku: „Jest zmęczony”. Zasada nie dotyczy każdego zdania z „być”.",
+            "zhHans": "在 to 之后，通常使用主格：To lekarz（这是个医生）。作表语的形容词常用主格：Jest zmęczony（他累了）。这条规则并不适用于每一个带 być 的句子。",
+            "zhHant": "在 to 之後，通常使用主格：To lekarz（這是個醫生）。作表語的形容詞常用主格：Jest zmęczony（他累了）。這條規則並不適用於每一個帶 być 的句子。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Czasownik + przyimek + przypadek",
+            "zhHans": "动词 + 介词 + 格",
+            "zhHant": "動詞 + 介詞 + 格"
+          },
+          "explanation": {
+            "pl": "Wiele czasowników wymaga określonego przyimka i przypadku: czekać na + biernik, myśleć o + miejscownik, rozmawiać z + narzędnik, dzwonić do + dopełniacz, zależeć od + dopełniacz, pytać o + biernik.",
+            "zhHans": "很多动词要求特定的介词与格：czekać na + 宾格、myśleć o + 处所格、rozmawiać z + 工具格、dzwonić do + 属格、zależeć od + 属格、pytać o + 宾格。",
+            "zhHant": "很多動詞要求特定的介詞與格：czekać na + 賓格、myśleć o + 處所格、rozmawiać z + 工具格、dzwonić do + 屬格、zależeć od + 屬格、pytać o + 賓格。"
+          },
+          "examples": [
+            {
+              "pl": "Czekam na autobus.",
+              "zhHans": "我在等公交车。",
+              "zhHant": "我在等公車。",
+              "pinyin": "Wǒ zài děng gōngjiāochē."
+            },
+            {
+              "pl": "Myślę o wakacjach.",
+              "zhHans": "我在想假期。",
+              "zhHant": "我在想假期。",
+              "pinyin": "Wǒ zài xiǎng jiàqī."
+            },
+            {
+              "pl": "Rozmawiam z Anną o pracy.",
+              "zhHans": "我在和安娜谈工作。",
+              "zhHant": "我在和安娜談工作。",
+              "pinyin": "Wǒ zài hé Ānnà tán gōngzuò."
+            },
+            {
+              "pl": "Zadzwonię do ciebie jutro.",
+              "zhHans": "我明天给你打电话。",
+              "zhHant": "我明天給你打電話。",
+              "pinyin": "Wǒ míngtiān gěi nǐ dǎdiànhuà."
+            },
+            {
+              "pl": "To zależy od pogody.",
+              "zhHans": "这取决于天气。",
+              "zhHant": "這取決於天氣。",
+              "pinyin": "Zhè qǔjuéyú tiānqì."
+            }
+          ],
+          "note": {
+            "pl": "Ten sam przyimek może łączyć się z różnymi przypadkami: „o” z biernikiem w „pytać o drogę” i z miejscownikiem w „myśleć o wakacjach”. Przyimki rzadko mają jeden stały odpowiednik w chińskim, dlatego warto zapamiętywać całe frazy.",
+            "zhHans": "同一个介词可以搭配不同的格：o 在 pytać o drogę（问路）中用宾格，在 myśleć o wakacjach（想假期）中用处所格。介词很少有固定不变的汉语对应词，所以最好把整个短语一起记住。",
+            "zhHant": "同一個介詞可以搭配不同的格：o 在 pytać o drogę（問路）中用賓格，在 myśleć o wakacjach（想假期）中用處所格。介詞很少有固定不變的漢語對應詞，所以最好把整個短語一起記住。"
+          }
+        }
+      ]
+    }
+  ]
+}

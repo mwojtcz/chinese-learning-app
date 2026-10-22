@@ -1,0 +1,2225 @@
+{
+  "lessons": [
+    {
+      "id": "zh-word-order-shi-you",
+      "title": {
+        "pl": "Szyk zdania, 是 i 有",
+        "zhHans": "基本语序、是与有",
+        "zhHant": "基本語序、是與有"
+      },
+      "summary": {
+        "pl": "Podstawowy szyk to podmiot + (czas) + (miejsce) + orzeczenie + dopełnienie. Czasownik się nie odmienia, a „być”, „mieć” i „znajdować się” oddają trzy różne słowa: 是, 有 i 在.",
+        "zhHans": "基本语序是：主语＋（时间）＋（地点）＋谓语＋宾语。动词不变形；“是”“有”“在”分别表示判断、拥有／存在和所在。",
+        "zhHant": "基本語序是：主語＋（時間）＋（地點）＋謂語＋賓語。動詞不變形；「是」「有」「在」分別表示判斷、擁有／存在和所在。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Podstawowy szyk: podmiot – czas – miejsce – czynność",
+            "zhHans": "基本语序：主语―时间―地点―动作",
+            "zhHant": "基本語序：主語―時間―地點―動作"
+          },
+          "explanation": {
+            "pl": "Chiński nie odmienia czasownika przez osoby ani czasy, więc o roli wyrazów decyduje głównie ich miejsce w zdaniu. Okoliczniki czasu i miejsca stoją zwykle przed czasownikiem, a dopełnienie po nim. Okolicznik czasu może też stać na początku zdania, przed podmiotem.",
+            "zhHans": "汉语动词不随人称或时态变形，词语的作用主要靠语序决定。时间和地点状语通常放在动词之前，宾语放在动词之后。时间状语也可以放在句首、主语之前。",
+            "zhHant": "漢語動詞不隨人稱或時態變形，詞語的作用主要靠語序決定。時間和地點狀語通常放在動詞之前，賓語放在動詞之後。時間狀語也可以放在句首、主語之前。"
+          },
+          "examples": [
+            {
+              "pl": "Uczę się chińskiego.",
+              "zhHans": "我学习中文。",
+              "zhHant": "我學習中文。",
+              "pinyin": "Wǒ xuéxí Zhōngwén."
+            },
+            {
+              "pl": "Jutro spotykamy się w szkole.",
+              "zhHans": "我们明天在学校见面。",
+              "zhHant": "我們明天在學校見面。",
+              "pinyin": "Wǒmen míngtiān zài xuéxiào jiànmiàn."
+            },
+            {
+              "pl": "Jutro spotykamy się w szkole. (czas na początku zdania)",
+              "zhHans": "明天我们在学校见面。",
+              "zhHant": "明天我們在學校見面。",
+              "pinyin": "Míngtiān wǒmen zài xuéxiào jiànmiàn."
+            }
+          ],
+          "note": {
+            "pl": "Zwykle nie przestawia się czasu i miejsca za czasownik, jak w polskim „spotykamy się w szkole jutro”; po czasowniku stoją głównie dopełnienia i dopowiedzenia (dopełnienia czasu trwania, wyniku itd.).",
+            "zhHans": "一般不把时间、地点状语放到动词之后；动词之后主要是宾语和补语（如时量、结果等）。",
+            "zhHant": "一般不把時間、地點狀語放到動詞之後；動詞之後主要是賓語和補語（如時量、結果等）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "是 — orzecznik imienny (A jest B)",
+            "zhHans": "“是”―判断句（A是B）",
+            "zhHant": "「是」―判斷句（A是B）"
+          },
+          "explanation": {
+            "pl": "是 łączy dwa rzeczowniki lub wyrażenia rzeczownikowe i wyraża tożsamość lub przynależność do kategorii. Przeczenie to 不是. Nie stawia się 是 przed zwykłym orzeczeniem przymiotnikowym (patrz lekcja o 很).",
+            "zhHans": "“是”连接两个名词性成分，表示等同或归类。否定用“不是”。形容词谓语前一般不加“是”（见“很”一课）。",
+            "zhHant": "「是」連接兩個名詞性成分，表示等同或歸類。否定用「不是」。形容詞謂語前一般不加「是」（見「很」一課）。"
+          },
+          "examples": [
+            {
+              "pl": "Ona jest moją nauczycielką.",
+              "zhHans": "她是我的老师。",
+              "zhHant": "她是我的老師。",
+              "pinyin": "Tā shì wǒ de lǎoshī."
+            },
+            {
+              "pl": "On nie jest lekarzem.",
+              "zhHans": "他不是医生。",
+              "zhHant": "他不是醫生。",
+              "pinyin": "Tā bú shì yīshēng."
+            },
+            {
+              "pl": "Czy to jest twój telefon?",
+              "zhHans": "这是你的手机吗？",
+              "zhHant": "這是你的手機嗎？",
+              "pinyin": "Zhè shì nǐ de shǒujī ma?"
+            }
+          ],
+          "note": {
+            "pl": "是 służy także do podkreślania (是……的) i w odpowiedziach typu „tak/zgadza się”, ale nie jest uniwersalnym odpowiednikiem polskiego „być”.",
+            "zhHans": "“是”还用于强调（是……的），也可单独表示“对／是的”；但它并不等于所有场合的“be”。",
+            "zhHant": "「是」還用於強調（是……的），也可單獨表示「對／是的」；但它並不等於所有場合的「be」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "有 — posiadanie i istnienie",
+            "zhHans": "“有”―拥有与存在",
+            "zhHant": "「有」―擁有與存在"
+          },
+          "explanation": {
+            "pl": "有 oznacza „mieć” (A 有 B) oraz „jest/znajduje się” w konstrukcji miejsce + 有 + rzecz (istnienie). Przeczenie to zawsze 没有 (nie 不有).",
+            "zhHans": "“有”表示“拥有”（A有B），也用于“地点＋有＋事物”表示存在。否定一律用“没有”，不说“不有”。",
+            "zhHant": "「有」表示「擁有」（A有B），也用於「地點＋有＋事物」表示存在。否定一律用「沒有」，不說「不有」。"
+          },
+          "examples": [
+            {
+              "pl": "Mam dwie starsze siostry.",
+              "zhHans": "我有两个姐姐。",
+              "zhHant": "我有兩個姐姐。",
+              "pinyin": "Wǒ yǒu liǎng gè jiějie."
+            },
+            {
+              "pl": "Na stole jest książka.",
+              "zhHans": "桌子上有一本书。",
+              "zhHant": "桌子上有一本書。",
+              "pinyin": "Zhuōzi shang yǒu yì běn shū."
+            },
+            {
+              "pl": "W szkole jest wielu uczniów.",
+              "zhHans": "学校里有很多学生。",
+              "zhHant": "學校裡有很多學生。",
+              "pinyin": "Xuéxiào lǐ yǒu hěn duō xuésheng."
+            },
+            {
+              "pl": "Nie mam czasu.",
+              "zhHans": "我没有时间。",
+              "zhHant": "我沒有時間。",
+              "pinyin": "Wǒ méiyǒu shíjiān."
+            }
+          ],
+          "note": {
+            "pl": "W konstrukcji istnienia rzecz jest zwykle nieokreślona (一本书, 很多学生). Gdy chcesz powiedzieć, gdzie jest znana rzecz, użyj 在 (następna sekcja).",
+            "zhHans": "表示存在时，事物通常是不确定的（一本书、很多学生）。要说明某个已知事物在哪里，用“在”（见下一节）。",
+            "zhHant": "表示存在時，事物通常是不確定的（一本書、很多學生）。要說明某個已知事物在哪裡，用「在」（見下一節）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "在 — gdzie coś jest; 有 czy 在?",
+            "zhHans": "“在”―所在；“有”还是“在”？",
+            "zhHant": "「在」―所在；「有」還是「在」？"
+          },
+          "explanation": {
+            "pl": "Wzór: rzecz (określona) + 在 + miejsce odpowiada na pytanie „gdzie jest X?”. Wzór: miejsce + 有 + rzecz (nieokreślona) odpowiada na „co tam jest?”. Pozycję względną oddają słowa jak 上, 下, 里, 前, 后 po rzeczowniku.",
+            "zhHans": "“确定的事物＋在＋地点”回答“某物在哪儿”；“地点＋有＋不确定的事物”回答“那里有什么”。方位词如上、下、里、前、后放在名词之后。",
+            "zhHant": "「確定的事物＋在＋地點」回答「某物在哪兒」；「地點＋有＋不確定的事物」回答「那裡有什麼」。方位詞如上、下、裡、前、後放在名詞之後。"
+          },
+          "examples": [
+            {
+              "pl": "Mój telefon jest na stole.",
+              "zhHans": "我的手机在桌子上。",
+              "zhHant": "我的手機在桌子上。",
+              "pinyin": "Wǒ de shǒujī zài zhuōzi shang."
+            },
+            {
+              "pl": "Na stole jest telefon.",
+              "zhHans": "桌子上有一个手机。",
+              "zhHant": "桌子上有一個手機。",
+              "pinyin": "Zhuōzi shang yǒu yí gè shǒujī."
+            },
+            {
+              "pl": "Gdzie jest łazienka?",
+              "zhHans": "洗手间在哪儿？",
+              "zhHant": "洗手間在哪兒？",
+              "pinyin": "Xǐshǒujiān zài nǎr?"
+            }
+          ],
+          "note": {
+            "pl": "Porównaj: 在 odpowiada na „gdzie?”, 有 na „co tam jest?”. Zamiana ich miejscami zwykle daje zdanie nienaturalne.",
+            "zhHans": "对比：“在”回答“在哪儿”，“有”回答“有什么”。两者随意互换，句子通常会不自然。",
+            "zhHant": "對比：「在」回答「在哪兒」，「有」回答「有什麼」。兩者隨意互換，句子通常會不自然。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-numbers-classifiers",
+      "title": {
+        "pl": "Liczebniki, 二 i 两, liczniki",
+        "zhHans": "数字、二与两、量词",
+        "zhHant": "數字、二與兩、量詞"
+      },
+      "summary": {
+        "pl": "Między liczebnikiem (lub 这/那/几) a rzeczownikiem zwykle stoi licznik (量词). Rzeczownik nie ma liczby mnogiej. Dwa słowa na „2”: 二 do liczenia i numerów, 两 przed licznikiem.",
+        "zhHans": "数词（或“这／那／几”）和名词之间通常要加量词。名词没有复数形式。“2”有两个说法：数数、编号用“二”，量词前多用“两”。",
+        "zhHant": "數詞（或「這／那／幾」）和名詞之間通常要加量詞。名詞沒有複數形式。「2」有兩個說法：數數、編號用「二」，量詞前多用「兩」。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Liczebniki podstawowe",
+            "zhHans": "基本数字",
+            "zhHant": "基本數字"
+          },
+          "explanation": {
+            "pl": "1–10: 一 二 三 四 五 六 七 八 九 十. 11–19: 十 + cyfra (十一, 十二). 20, 30…: cyfra + 十 (二十, 三十). 21: 二十一. 100: 一百; 101: 一百零一; 110: 一百一十 (lub 一百一); 1000: 一千; 10 000: 一万. Przy liczbie z „dziurą” mówi się 零 (líng).",
+            "zhHans": "1–10：一二三四五六七八九十。11–19：十＋个位（十一、十二）。20、30……：个位＋十（二十、三十）。21：二十一。100：一百；101：一百零一；110：一百一十（或一百一）；1000：一千；10000：一万。数中间有空位时要说“零”。",
+            "zhHant": "1–10：一二三四五六七八九十。11–19：十＋個位（十一、十二）。20、30……：個位＋十（二十、三十）。21：二十一。100：一百；101：一百零一；110：一百一十（或一百一）；1000：一千；10000：一萬。數中間有空位時要說「零」。"
+          },
+          "examples": [
+            {
+              "pl": "Mam dwanaścioro uczniów.",
+              "zhHans": "我有十二个学生。",
+              "zhHant": "我有十二個學生。",
+              "pinyin": "Wǒ yǒu shí'èr gè xuésheng."
+            },
+            {
+              "pl": "To kosztuje sto jeden juanów.",
+              "zhHans": "这个一百零一块。",
+              "zhHant": "這個一百零一塊。",
+              "pinyin": "Zhè ge yì bǎi líng yī kuài."
+            },
+            {
+              "pl": "W klasie jest dwadzieścia dwie osoby.",
+              "zhHans": "班里有二十二个人。",
+              "zhHant": "班裡有二十二個人。",
+              "pinyin": "Bān lǐ yǒu èrshí'èr gè rén."
+            }
+          ],
+          "note": {
+            "pl": "Znak 一 zmienia ton zależnie od następnej sylaby (yì / yí), a pinyin w przykładach to pokazuje; tak samo 不 przed czwartym tonem to bú. Przy czytaniu numerów „1” bywa czytane yāo.",
+            "zhHans": "“一”随后一个音节变调（yì／yí），例句拼音已标出；“不”在第四声前读 bú。念号码时“1”常读 yāo。",
+            "zhHant": "「一」隨後一個音節變調（yì／yí），例句拼音已標出；「不」在第四聲前讀 bú。念號碼時「1」常讀 yāo。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "二 czy 两?",
+            "zhHans": "“二”还是“两”？",
+            "zhHant": "「二」還是「兩」？"
+          },
+          "explanation": {
+            "pl": "Używaj 二 w liczeniu, w liczbach porządkowych (第二), w datach i miesiącach (二月, 十二月), w liczbach złożonych (十二, 二十, 二十二) oraz przy ułamkach i dziesiętnych. Używaj 两 przed licznikiem lub rzeczownikiem miary: 两个, 两本, 两点 (godzina), 两天, 两年. Przy setkach, tysiącach i dziesiątkach tysięcy możliwe są oba: 两百 / 二百 (po 两 częste), 两千, 两万 — 两 jest zwykle naturalniejsze.",
+            "zhHans": "数数、序数（第二）、月份日期（二月、十二月）、复合数（十二、二十、二十二）以及分数小数中用“二”。量词或度量名词前用“两”：两个、两本、两点（钟点）、两天、两年。百、千、万前两者都可以：两百／二百，两千，两万——“两”通常更自然。",
+            "zhHant": "數數、序數（第二）、月份日期（二月、十二月）、複合數（十二、二十、二十二）以及分數小數中用「二」。量詞或度量名詞前用「兩」：兩個、兩本、兩點（鐘點）、兩天、兩年。百、千、萬前兩者都可以：兩百／二百，兩千，兩萬——「兩」通常更自然。"
+          },
+          "examples": [
+            {
+              "pl": "Mam dwie książki.",
+              "zhHans": "我有两本书。",
+              "zhHant": "我有兩本書。",
+              "pinyin": "Wǒ yǒu liǎng běn shū."
+            },
+            {
+              "pl": "Jest druga.",
+              "zhHans": "现在两点。",
+              "zhHant": "現在兩點。",
+              "pinyin": "Xiànzài liǎng diǎn."
+            },
+            {
+              "pl": "To jest lekcja druga.",
+              "zhHans": "这是第二课。",
+              "zhHant": "這是第二課。",
+              "pinyin": "Zhè shì dì-èr kè."
+            },
+            {
+              "pl": "Dwieście juanów.",
+              "zhHans": "两百块。",
+              "zhHant": "兩百塊。",
+              "pinyin": "Liǎng bǎi kuài."
+            }
+          ],
+          "note": {
+            "pl": "W liczbach wielocyfrowych 两 stoi tylko na początku „grupy” wraz z jednostką (两百, 两千, 两万), natomiast 12, 20, 22 piszemy 十二, 二十, 二十二. Przy 两 nie mówi się 二个 w znaczeniu „dwa egzemplarze”.",
+            "zhHans": "多位数中，“两”只用在带单位的最高位（两百、两千、两万）；12、20、22 说十二、二十、二十二。表示“两个”时不说“二个”。",
+            "zhHant": "多位數中，「兩」只用在帶單位的最高位（兩百、兩千、兩萬）；12、20、22 說十二、二十、二十二。表示「兩個」時不說「二個」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Liczniki (量词)",
+            "zhHans": "量词",
+            "zhHant": "量詞"
+          },
+          "explanation": {
+            "pl": "Wzór: liczebnik / 这 / 那 / 几 / 每 + licznik + rzeczownik. Licznik zależy od rzeczownika (kształt, rodzaj, kategoria). Uniwersalne: 个 (też w roli „domyślnej”). Częste: 本 (książki), 杯 (napoje w kubku), 张 (płaskie rzeczy: bilety, papier), 只 (małe zwierzęta, jedna z pary), 件 (ubrania wierzchnie, sprawy), 条 (długie, wąskie: ryby, spodnie), 位 (osoby, grzecznościowo).",
+            "zhHans": "格式：数词／这／那／几／每＋量词＋名词。量词由名词的类别、形状等决定。通用量词：个。常见：本（书）、杯（杯装饮料）、张（平面物体：票、纸）、只（小动物、成对物中的一个）、件（上衣、事情）、条（长条形：鱼、裤子）、位（人，较礼貌）。",
+            "zhHant": "格式：數詞／這／那／幾／每＋量詞＋名詞。量詞由名詞的類別、形狀等決定。通用量詞：個。常見：本（書）、杯（杯裝飲料）、張（平面物體：票、紙）、只（小動物、成對物中的一個）、件（上衣、事情）、條（長條形：魚、褲子）、位（人，較禮貌）。"
+          },
+          "examples": [
+            {
+              "pl": "Trzy książki",
+              "zhHans": "三本书",
+              "zhHant": "三本書",
+              "pinyin": "sān běn shū"
+            },
+            {
+              "pl": "Filiżanka herbaty",
+              "zhHans": "一杯茶",
+              "zhHant": "一杯茶",
+              "pinyin": "yì bēi chá"
+            },
+            {
+              "pl": "Dwa bilety",
+              "zhHans": "两张票",
+              "zhHant": "兩張票",
+              "pinyin": "liǎng zhāng piào"
+            },
+            {
+              "pl": "Jeden kot",
+              "zhHans": "一只猫",
+              "zhHant": "一隻貓",
+              "pinyin": "yì zhī māo"
+            },
+            {
+              "pl": "Jedna koszula",
+              "zhHans": "一件衣服",
+              "zhHant": "一件衣服",
+              "pinyin": "yí jiàn yīfu"
+            },
+            {
+              "pl": "Ta nauczycielka (grzecznie)",
+              "zhHans": "这位老师",
+              "zhHant": "這位老師",
+              "pinyin": "zhè wèi lǎoshī"
+            },
+            {
+              "pl": "Ile osób?",
+              "zhHans": "几个人？",
+              "zhHant": "幾個人？",
+              "pinyin": "jǐ gè rén?"
+            }
+          ],
+          "note": {
+            "pl": "Nie ma jednej „prawidłowej” listy: wielu rzeczowników używa się z kilkoma licznikami, a 个 jest często akceptowalne w mowie, ale nie wszędzie naturalne (np. 一本书 brzmi lepiej niż 一个书). Uczysz się rzeczownik razem z licznikiem.",
+            "zhHans": "没有一份“唯一正确”的搭配表：许多名词可配多个量词，口语中“个”常可接受，但并非处处自然（如“一本书”比“一个书”好）。学名词时最好连量词一起记。",
+            "zhHant": "沒有一份「唯一正確」的搭配表：許多名詞可配多個量詞，口語中「個」常可接受，但並非處處自然（如「一本書」比「一個書」好）。學名詞時最好連量詞一起記。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-time-date",
+      "title": {
+        "pl": "Czas, data i dni tygodnia",
+        "zhHans": "时间、日期与星期",
+        "zhHant": "時間、日期與星期"
+      },
+      "summary": {
+        "pl": "Daty i godziny zapisuje się od największej jednostki do najmniejszej. Określenie czasu stoi przed czasownikiem (lub na początku zdania).",
+        "zhHans": "日期和钟点从大单位到小单位表达。时间词放在动词前（或句首）。",
+        "zhHant": "日期和鐘點從大單位到小單位表達。時間詞放在動詞前（或句首）。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Data i dzień tygodnia",
+            "zhHans": "日期与星期",
+            "zhHant": "日期與星期"
+          },
+          "explanation": {
+            "pl": "Kolejność: rok → miesiąc → dzień. Rok czyta się cyfra po cyfrze (二〇二六年). Miesiące: 一月…十二月. Dni miesiąca: 号 (mowa) lub 日 (pisownia, styl formalny). Dni tygodnia: 星期一…星期六, niedziela: 星期天 / 星期日. Przy podawaniu daty czasownik 是 jest zwykle opcjonalny.",
+            "zhHans": "顺序：年→月→日。年份逐位读（二〇二六年）。月份：一月……十二月。日：口语用“号”，书面和正式场合用“日”。星期：星期一……星期六，星期天／星期日。说日期时“是”常可省略。",
+            "zhHant": "順序：年→月→日。年份逐位讀（二〇二六年）。月份：一月……十二月。日：口語用「號」，書面和正式場合用「日」。星期：星期一……星期六，星期天／星期日。說日期時「是」常可省略。"
+          },
+          "examples": [
+            {
+              "pl": "Dziś jest czwartek, 22 października.",
+              "zhHans": "今天是十月二十二号，星期四。",
+              "zhHant": "今天是十月二十二號，星期四。",
+              "pinyin": "Jīntiān shì shí yuè èrshí'èr hào, xīngqīsì."
+            },
+            {
+              "pl": "Mamy rok 2026.",
+              "zhHans": "今年是二〇二六年。",
+              "zhHant": "今年是二〇二六年。",
+              "pinyin": "Jīnnián shì èr líng èr liù nián."
+            },
+            {
+              "pl": "W przyszły poniedziałek mamy zebranie.",
+              "zhHans": "我们下个星期一开会。",
+              "zhHant": "我們下個星期一開會。",
+              "pinyin": "Wǒmen xià ge xīngqīyī kāihuì."
+            }
+          ],
+          "note": {
+            "pl": "Słowa względne: 前天 / 昨天 / 今天 / 明天 / 后天; 上个星期 / 这个星期 / 下个星期; 上个月 / 这个月 / 下个月; 去年 / 今年 / 明年. Zwróć uwagę na 个 przed 星期 i 月 w wyrażeniach 上／下个…",
+            "zhHans": "相对时间词：前天／昨天／今天／明天／后天；上个星期／这个星期／下个星期；上个月／这个月／下个月；去年／今年／明年。“上／下个星期、月”中有“个”。",
+            "zhHant": "相對時間詞：前天／昨天／今天／明天／後天；上個星期／這個星期／下個星期；上個月／這個月／下個月；去年／今年／明年。「上／下個星期、月」中有「個」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Godziny",
+            "zhHans": "钟点",
+            "zhHant": "鐘點"
+          },
+          "explanation": {
+            "pl": "Godzina: 点 (diǎn); minuty: 分 (fēn); wpół: 半; kwadrans: 一刻 / 三刻. „Za pięć dziewiąta”: 差五分九点. Dla godziny „druga” mówi się 两点, nie 二点. Przy minutach poniżej dziesięciu dodaje się często 零: 三点零五分. Pora dnia stoi przed godziną: 早上, 上午, 中午, 下午, 晚上.",
+            "zhHans": "钟点用“点”，分钟用“分”，半点用“半”，一刻钟用“一刻／三刻”。“差五分九点”＝差五分钟九点。2 点说“两点”，不说“二点”。不足十分时常加“零”：三点零五分。表示一天中时段的词放在钟点前：早上、上午、中午、下午、晚上。",
+            "zhHant": "鐘點用「點」，分鐘用「分」，半點用「半」，一刻鐘用「一刻／三刻」。「差五分九點」＝差五分鐘九點。2 點說「兩點」，不說「二點」。不足十分時常加「零」：三點零五分。表示一天中時段的詞放在鐘點前：早上、上午、中午、下午、晚上。"
+          },
+          "examples": [
+            {
+              "pl": "Która jest godzina?",
+              "zhHans": "现在几点？",
+              "zhHant": "現在幾點？",
+              "pinyin": "Xiànzài jǐ diǎn?"
+            },
+            {
+              "pl": "Jest wpół do trzeciej. (dosł. 2:30)",
+              "zhHans": "现在两点半。",
+              "zhHant": "現在兩點半。",
+              "pinyin": "Xiànzài liǎng diǎn bàn."
+            },
+            {
+              "pl": "Za pięć dziewiąta.",
+              "zhHans": "差五分九点。",
+              "zhHant": "差五分九點。",
+              "pinyin": "Chà wǔ fēn jiǔ diǎn."
+            },
+            {
+              "pl": "Codziennie rano wstaję o siódmej.",
+              "zhHans": "我每天早上七点起床。",
+              "zhHant": "我每天早上七點起床。",
+              "pinyin": "Wǒ měi tiān zǎoshang qī diǎn qǐchuáng."
+            }
+          ],
+          "note": {
+            "pl": "W nowych tekstach spotyka się też zapis cyfrowy (7:00), ale w mowie nadal używa się 点. Nie mieszaj 点 (godzina zegarowa) z 小时 (liczba godzin trwania).",
+            "zhHans": "书面上也常见数字写法（7:00），口语仍说“点”。不要把“点”（钟点）与“小时”（时间长度）混用。",
+            "zhHant": "書面上也常見數字寫法（7:00），口語仍說「點」。不要把「點」（鐘點）與「小時」（時間長度）混用。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Miejsce czasu w zdaniu",
+            "zhHans": "时间词的位置",
+            "zhHant": "時間詞的位置"
+          },
+          "explanation": {
+            "pl": "Okolicznik czasu stoi po podmiocie albo na początku zdania, przed orzeczeniem. Czas trwania (jak długo?) natomiast stoi po czasowniku — patrz lekcja o frazach miary.",
+            "zhHans": "时间状语放在主语之后或句首，位于谓语之前。表示持续多长时间的“时量”则放在动词之后——见“数量短语”一课。",
+            "zhHant": "時間狀語放在主語之後或句首，位於謂語之前。表示持續多長時間的「時量」則放在動詞之後——見「數量短語」一課。"
+          },
+          "examples": [
+            {
+              "pl": "W zeszłym roku pracowałem w Pekinie.",
+              "zhHans": "去年我在北京工作。",
+              "zhHant": "去年我在北京工作。",
+              "pinyin": "Qùnián wǒ zài Běijīng gōngzuò."
+            },
+            {
+              "pl": "Mam jutro rano lekcję.",
+              "zhHans": "我明天上午有课。",
+              "zhHant": "我明天上午有課。",
+              "pinyin": "Wǒ míngtiān shàngwǔ yǒu kè."
+            }
+          ],
+          "note": {
+            "pl": "Jeśli podajesz kilka określeń czasu, porządkuj je od ogółu do szczegółu: 明天上午九点.",
+            "zhHans": "同时出现几个时间词时，从大到小排列：明天上午九点。",
+            "zhHant": "同時出現幾個時間詞時，從大到小排列：明天上午九點。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-adjective-predicate",
+      "title": {
+        "pl": "Orzeczenie przymiotnikowe i 很",
+        "zhHans": "形容词谓语与“很”",
+        "zhHant": "形容詞謂語與「很」"
+      },
+      "summary": {
+        "pl": "Przymiotnik może być orzeczeniem bez „być”. W zdaniu oznajmiającym zwykle poprzedza go przysłówek stopnia, najczęściej 很, który często traci pełne znaczenie „bardzo”.",
+        "zhHans": "形容词可以直接作谓语，不需要“是”。陈述句里形容词前通常带程度副词，最常见的是“很”，它往往没有强烈的“非常”义。",
+        "zhHant": "形容詞可以直接作謂語，不需要「是」。陳述句裡形容詞前通常帶程度副詞，最常見的是「很」，它往往沒有強烈的「非常」義。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "很 + przymiotnik",
+            "zhHans": "“很”＋形容词",
+            "zhHant": "「很」＋形容詞"
+          },
+          "explanation": {
+            "pl": "Zdanie 她高 bez żadnego przysłówka brzmi jak porównanie lub kontrast („ona jest wysoka, (a on nie)”). W neutralnym stwierdzeniu używa się więc 很 + przymiotnik. Przeczenie: 不 + przymiotnik, bez 很 (他不高).",
+            "zhHans": "光说“她高”常带有对比或比较的意味（“她高，（他不高）”）。中性陈述通常说“很＋形容词”。否定：不＋形容词，一般不再加“很”（他不高）。",
+            "zhHant": "光說「她高」常帶有對比或比較的意味（「她高，（他不高）」）。中性陳述通常說「很＋形容詞」。否定：不＋形容詞，一般不再加「很」（他不高）。"
+          },
+          "examples": [
+            {
+              "pl": "Ona jest wysoka.",
+              "zhHans": "她很高。",
+              "zhHant": "她很高。",
+              "pinyin": "Tā hěn gāo."
+            },
+            {
+              "pl": "Dziś jest zimno.",
+              "zhHans": "今天很冷。",
+              "zhHant": "今天很冷。",
+              "pinyin": "Jīntiān hěn lěng."
+            },
+            {
+              "pl": "Ona jest wysoka, a on niski. (kontrast)",
+              "zhHans": "她高，他矮。",
+              "zhHant": "她高，他矮。",
+              "pinyin": "Tā gāo, tā ǎi."
+            },
+            {
+              "pl": "To pytanie nie jest trudne.",
+              "zhHans": "这个问题不难。",
+              "zhHant": "這個問題不難。",
+              "pinyin": "Zhè ge wèntí bù nán."
+            }
+          ],
+          "note": {
+            "pl": "Nie traktuj każdego 很 jako „bardzo”. Dopiero wypowiedziane z naciskiem lub w zestawieniu 很不 + przymiotnik (很不容易) niesie wyraźne wzmocnienie.",
+            "zhHans": "不要把每个“很”都理解成“very”。只有重读，或用在“很不＋形容词”（很不容易）等结构中时，才有明显的强调义。",
+            "zhHant": "不要把每個「很」都理解成「very」。只有重讀，或用在「很不＋形容詞」（很不容易）等結構中時，才有明顯的強調義。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Inne przysłówki stopnia",
+            "zhHans": "其他程度副词",
+            "zhHant": "其他程度副詞"
+          },
+          "explanation": {
+            "pl": "非常, 特别 (szczególnie), 真 (naprawdę, wykrzyknik), 太……了 (za, zbyt; także „wspaniale” w pochwale), 比较 (dość, względnie), 有点儿 (nieco, zwykle negatywnie), 不太 (niezbyt). Dla 太 w pochwale lub skardze używa się wzoru 太 + przymiotnik + 了.",
+            "zhHans": "非常、特别、真（感叹）、太……了（过分，或用于夸赞）、比较、有点儿（稍微，常含不满）、不太（不怎么）。“太”常与句末“了”连用。",
+            "zhHant": "非常、特別、真（感嘆）、太……了（過分，或用於誇讚）、比較、有點兒（稍微，常含不滿）、不太（不怎麼）。「太」常與句末「了」連用。"
+          },
+          "examples": [
+            {
+              "pl": "Ta restauracja jest bardzo dobra.",
+              "zhHans": "这家餐厅非常好。",
+              "zhHant": "這家餐廳非常好。",
+              "pinyin": "Zhè jiā cāntīng fēicháng hǎo."
+            },
+            {
+              "pl": "Ta książka jest za droga!",
+              "zhHans": "这本书太贵了！",
+              "zhHant": "這本書太貴了！",
+              "pinyin": "Zhè běn shū tài guì le!"
+            },
+            {
+              "pl": "Tutejsze jedzenie jest naprawdę smaczne!",
+              "zhHans": "这里的菜真好吃！",
+              "zhHant": "這裡的菜真好吃！",
+              "pinyin": "Zhèlǐ de cài zhēn hǎochī!"
+            },
+            {
+              "pl": "Jestem niezbyt zajęty.",
+              "zhHans": "我不太忙。",
+              "zhHant": "我不太忙。",
+              "pinyin": "Wǒ bú tài máng."
+            }
+          ],
+          "note": {
+            "pl": "太 + przymiotnik + 了 może znaczyć zarówno „za …”, jak i „super …” — rozstrzyga kontekst i intonacja.",
+            "zhHans": "“太＋形容词＋了”既可表示“过于……”，也可表示“真……啊”，要看语境和语气。",
+            "zhHant": "「太＋形容詞＋了」既可表示「過於……」，也可表示「真……啊」，要看語境和語氣。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Pytania z przymiotnikiem",
+            "zhHans": "形容词谓语句的疑问",
+            "zhHant": "形容詞謂語句的疑問"
+          },
+          "explanation": {
+            "pl": "Używa się 吗 lub formy 形容词＋不＋形容词. W pytaniu typu A不A przysłówek 很 nie występuje.",
+            "zhHans": "可用“吗”，也可用“形容词＋不＋形容词”的正反问。正反问中不加“很”。",
+            "zhHant": "可用「嗎」，也可用「形容詞＋不＋形容詞」的正反問。正反問中不加「很」。"
+          },
+          "examples": [
+            {
+              "pl": "Czy jesteś zajęty?",
+              "zhHans": "你忙吗？",
+              "zhHant": "你忙嗎？",
+              "pinyin": "Nǐ máng ma?"
+            },
+            {
+              "pl": "Czy jesteś zajęty? (A-nie-A)",
+              "zhHans": "你忙不忙？",
+              "zhHant": "你忙不忙？",
+              "pinyin": "Nǐ máng bu máng?"
+            }
+          ],
+          "note": {
+            "pl": "W odpowiedzi „tak” powtarzasz przymiotnik: 忙 / 很忙; w odpowiedzi „nie”: 不忙.",
+            "zhHans": "肯定回答可重复形容词：忙／很忙；否定回答：不忙。",
+            "zhHant": "肯定回答可重複形容詞：忙／很忙；否定回答：不忙。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-negation",
+      "title": {
+        "pl": "Przeczenie: 不 i 没",
+        "zhHans": "否定：不与没",
+        "zhHant": "否定：不與沒"
+      },
+      "summary": {
+        "pl": "不 zaprzecza zwyczajom, przyszłości, chęciom i cechom; 没(有) zaprzecza zaistnieniu zdarzenia w przeszłości oraz czasownikowi 有.",
+        "zhHans": "“不”否定习惯、将来、意愿和性质；“没(有)”否定已发生的动作、完成，以及动词“有”。",
+        "zhHant": "「不」否定習慣、將來、意願和性質；「沒(有)」否定已發生的動作、完成，以及動詞「有」。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "不 — zwykle, przyszłe, nieczasowe",
+            "zhHans": "“不”―习惯、将来、一般性否定",
+            "zhHant": "「不」―習慣、將來、一般性否定"
+          },
+          "explanation": {
+            "pl": "不 stawia się przed czasownikiem, przymiotnikiem lub czasownikiem modalnym. Odnosi się do tego, co jest zwyczajowe, do przyszłości, do woli lub do ogólnej cechy. 不 przed czwartym tonem czytamy jako bú (不是, 不去).",
+            "zhHans": "“不”放在动词、形容词或能愿动词之前，用于习惯、将来、意愿或一般性质。“不”在第四声前读 bú（不是、不去）。",
+            "zhHant": "「不」放在動詞、形容詞或能願動詞之前，用於習慣、將來、意願或一般性質。「不」在第四聲前讀 bú（不是、不去）。"
+          },
+          "examples": [
+            {
+              "pl": "Nie piję kawy.",
+              "zhHans": "我不喝咖啡。",
+              "zhHant": "我不喝咖啡。",
+              "pinyin": "Wǒ bù hē kāfēi."
+            },
+            {
+              "pl": "Jutro nie idę do szkoły.",
+              "zhHans": "明天我不去学校。",
+              "zhHant": "明天我不去學校。",
+              "pinyin": "Míngtiān wǒ bú qù xuéxiào."
+            },
+            {
+              "pl": "On nie jest Chińczykiem.",
+              "zhHans": "他不是中国人。",
+              "zhHant": "他不是中國人。",
+              "pinyin": "Tā bú shì Zhōngguó rén."
+            }
+          ],
+          "note": {
+            "pl": "不 negujemy też 是 (不是), ale nie 有 — tu używa się 没有.",
+            "zhHans": "“是”用“不是”否定，但“有”不能用“不”，要用“没有”。",
+            "zhHant": "「是」用「不是」否定，但「有」不能用「不」，要用「沒有」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "没 / 没有 — zdarzenie nie zaszło",
+            "zhHans": "“没／没有”―动作未发生",
+            "zhHant": "「沒／沒有」―動作未發生"
+          },
+          "explanation": {
+            "pl": "没 (czasem pełne 没有) neguje czasownik dla zdarzeń z przeszłości lub „jeszcze nie”. Po 没 nie dodaje się 了. Często łączy się z 过 („nigdy nie”) lub 还 („jeszcze nie”).",
+            "zhHans": "“没（有）”否定过去或到现在为止尚未发生的动作。“没”之后一般不再用“了”。常与“过”（从未）或“还”（还没）连用。",
+            "zhHant": "「沒（有）」否定過去或到現在為止尚未發生的動作。「沒」之後一般不再用「了」。常與「過」（從未）或「還」（還沒）連用。"
+          },
+          "examples": [
+            {
+              "pl": "Wczoraj nie poszedłem do szkoły.",
+              "zhHans": "昨天我没去学校。",
+              "zhHant": "昨天我沒去學校。",
+              "pinyin": "Zuótiān wǒ méi qù xuéxiào."
+            },
+            {
+              "pl": "On jeszcze nie jadł.",
+              "zhHans": "他还没吃饭。",
+              "zhHant": "他還沒吃飯。",
+              "pinyin": "Tā hái méi chīfàn."
+            },
+            {
+              "pl": "Nigdy tego nie jadłem.",
+              "zhHans": "我没吃过。",
+              "zhHant": "我沒吃過。",
+              "pinyin": "Wǒ méi chī guo."
+            },
+            {
+              "pl": "Nie mam czasu.",
+              "zhHans": "我没有时间。",
+              "zhHant": "我沒有時間。",
+              "pinyin": "Wǒ méiyǒu shíjiān."
+            }
+          ],
+          "note": {
+            "pl": "Porównaj: 我不去 (nie idę / nie zamierzam iść) i 我没去 (nie poszedłem). Wyjątek: w kontekstach hipotetycznych lub „zwykle” w przeszłości mogą wystąpić 不 (以前我不喝咖啡).",
+            "zhHans": "对比：“我不去”（不去／不打算去）和“我没去”（没有去）。例外：表示过去的习惯或假设时可用“不”（以前我不喝咖啡）。",
+            "zhHant": "對比：「我不去」（不去／不打算去）和「我沒去」（沒有去）。例外：表示過去的習慣或假設時可用「不」（以前我不喝咖啡）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Inne przeczenia: 别, 不用, 不要",
+            "zhHans": "其他否定：别、不用、不要",
+            "zhHant": "其他否定：別、不用、不要"
+          },
+          "explanation": {
+            "pl": "别 (lub 不要) to zakaz: „nie rób”. 不用 znaczy „nie trzeba”. 不要 może znaczyć „nie chcę” lub „nie rób”, zależnie od kontekstu.",
+            "zhHans": "“别”（或“不要”）表示禁止：“不要做”。“不用”表示“不必”。“不要”依语境可表示“不想要”或“别……”。",
+            "zhHant": "「別」（或「不要」）表示禁止：「不要做」。「不用」表示「不必」。「不要」依語境可表示「不想要」或「別……」。"
+          },
+          "examples": [
+            {
+              "pl": "Nie zapomnij zabrać parasola!",
+              "zhHans": "别忘了带伞！",
+              "zhHant": "別忘了帶傘！",
+              "pinyin": "Bié wàng le dài sǎn!"
+            },
+            {
+              "pl": "Nie musisz przychodzić.",
+              "zhHans": "你不用来。",
+              "zhHant": "你不用來。",
+              "pinyin": "Nǐ búyòng lái."
+            },
+            {
+              "pl": "Nie chcę tego.",
+              "zhHans": "我不要这个。",
+              "zhHant": "我不要這個。",
+              "pinyin": "Wǒ bú yào zhè ge."
+            }
+          ],
+          "note": {
+            "pl": "W negacji modalnych: 不能 (nie można / nie jest w stanie), 不会 (nie umie / raczej nie), 不想 (nie chce), 不用 (nie musi). 没 nie łączy się z większością modalnych.",
+            "zhHans": "能愿动词的否定：不能、不会、不想、不用。“没”一般不与大多数能愿动词连用。",
+            "zhHant": "能願動詞的否定：不能、不會、不想、不用。「沒」一般不與大多數能願動詞連用。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-aspect-le-guo-zhe",
+      "title": {
+        "pl": "Aspekt: 了, 过, 着, 在",
+        "zhHans": "动态助词：了、过、着、在",
+        "zhHant": "動態助詞：了、過、著、在"
+      },
+      "summary": {
+        "pl": "Chińskie partykuły aspektu opisują, jak przebiega czynność (zakończona, doświadczona, trwająca), a nie kiedy się odbyła. Nie są to znaczniki czasu przeszłego.",
+        "zhHans": "汉语的动态助词说明动作的进行方式（完成、经历、持续），而不是时间本身；它们不是过去时标记。",
+        "zhHant": "漢語的動態助詞說明動作的進行方式（完成、經歷、持續），而不是時間本身；它們不是過去時標記。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "了 — zakończenie lub zmiana stanu",
+            "zhHans": "“了”―完成或变化",
+            "zhHant": "「了」―完成或變化"
+          },
+          "explanation": {
+            "pl": "V + 了 oznacza, że czynność została doprowadzona do końca; 了 na końcu zdania sygnalizuje nową sytuację lub zmianę stanu. Z dopełnieniem ilościowym lub określonym zwykle: V + 了 + liczba + licznik + rzecz. Samo 了 po czasowniku nie wymaga, by zdarzenie było w przeszłości: może być w przyszłości („jak tylko zjem…”).",
+            "zhHans": "“动词＋了”表示动作完成；句末“了”表示新情况或状态变化。宾语带数量或限定成分时，常用“动词＋了＋数量＋宾语”。动词后的“了”不一定表示过去，也可用于将来（“……了就……”）。",
+            "zhHant": "「動詞＋了」表示動作完成；句末「了」表示新情況或狀態變化。賓語帶數量或限定成分時，常用「動詞＋了＋數量＋賓語」。動詞後的「了」不一定表示過去，也可用於將來（「……了就……」）。"
+          },
+          "examples": [
+            {
+              "pl": "Zjadłem śniadanie.",
+              "zhHans": "我吃了早饭。",
+              "zhHant": "我吃了早飯。",
+              "pinyin": "Wǒ chī le zǎofàn."
+            },
+            {
+              "pl": "Kupiłem trzy książki.",
+              "zhHans": "我买了三本书。",
+              "zhHant": "我買了三本書。",
+              "pinyin": "Wǒ mǎi le sān běn shū."
+            },
+            {
+              "pl": "Pada. (zaczęło padać)",
+              "zhHans": "下雨了。",
+              "zhHant": "下雨了。",
+              "pinyin": "Xià yǔ le."
+            },
+            {
+              "pl": "Jutro po jedzeniu pójdę.",
+              "zhHans": "明天我吃了饭就去。",
+              "zhHant": "明天我吃了飯就去。",
+              "pinyin": "Míngtiān wǒ chī le fàn jiù qù."
+            }
+          ],
+          "note": {
+            "pl": "Dla zdarzeń zwyczajowych, stanów (是, 喜欢, 知道…) i opisów w przeszłości zwykle nie dodajemy 了: 昨天我很忙 (bez 了).",
+            "zhHans": "习惯性动作、状态动词（是、喜欢、知道等）以及对过去情况的描写，通常不加“了”：昨天我很忙。",
+            "zhHant": "習慣性動作、狀態動詞（是、喜歡、知道等）以及對過去情況的描寫，通常不加「了」：昨天我很忙。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "过 — doświadczenie",
+            "zhHans": "“过”―经历",
+            "zhHant": "「過」―經歷"
+          },
+          "explanation": {
+            "pl": "V + 过 oznacza, że ktoś kiedyś doświadczył czegoś („zdarzyło mi się…”). Przeczenie: 没 + V + 过. 过 w tym użyciu ma ton neutralny (guo).",
+            "zhHans": "“动词＋过”表示曾经有过某种经历。否定：没＋动词＋过。此处的“过”读轻声 guo。",
+            "zhHant": "「動詞＋過」表示曾經有過某種經歷。否定：沒＋動詞＋過。此處的「過」讀輕聲 guo。"
+          },
+          "examples": [
+            {
+              "pl": "Czy byłeś w Chinach?",
+              "zhHans": "你去过中国吗？",
+              "zhHant": "你去過中國嗎？",
+              "pinyin": "Nǐ qù guo Zhōngguó ma?"
+            },
+            {
+              "pl": "Nigdy nie uczyłem się francuskiego.",
+              "zhHans": "我没学过法语。",
+              "zhHant": "我沒學過法語。",
+              "pinyin": "Wǒ méi xué guo Fǎyǔ."
+            }
+          ],
+          "note": {
+            "pl": "过 sugeruje, że doświadczenie nie trwa już teraz i jest istotne jako fakt; nie opisuje konkretnego jednorazowego zdarzenia z podanym czasem (tam raczej 了 albo 是……的).",
+            "zhHans": "“过”强调曾有的经历，现在已不再进行；描述某一次具体、带明确时间的事件时，更常用“了”或“是……的”。",
+            "zhHant": "「過」強調曾有的經歷，現在已不再進行；描述某一次具體、帶明確時間的事件時，更常用「了」或「是……的」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "着 i 在 — trwanie",
+            "zhHans": "“着”与“在”―持续",
+            "zhHant": "「著」與「在」―持續"
+          },
+          "explanation": {
+            "pl": "V + 着 opisuje stan wynikły z czynności lub sposób, w jaki coś trwa (np. otwarte, wiszące, stojące). 在 / 正在 + V (ewentualnie z 呢 na końcu) opisuje czynność w toku. Obie konstrukcje trzeba odróżniać: 着 patrzy na stan, 在 na proces.",
+            "zhHans": "“动词＋着”描写动作之后保持的状态或伴随方式（开着、挂着、站着）。“在／正在＋动词”（句末可加“呢”）表示动作正在进行。两者要区分：“着”重状态，“在”重进行。",
+            "zhHant": "「動詞＋著」描寫動作之後保持的狀態或伴隨方式（開著、掛著、站著）。「在／正在＋動詞」（句末可加「呢」）表示動作正在進行。兩者要區分：「著」重狀態，「在」重進行。"
+          },
+          "examples": [
+            {
+              "pl": "Na ścianie wisi obraz.",
+              "zhHans": "墙上挂着一幅画。",
+              "zhHant": "牆上掛著一幅畫。",
+              "pinyin": "Qiáng shang guà zhe yì fú huà."
+            },
+            {
+              "pl": "Drzwi są otwarte, wejdź.",
+              "zhHans": "门开着，你进来吧。",
+              "zhHant": "門開著，你進來吧。",
+              "pinyin": "Mén kāi zhe, nǐ jìnlái ba."
+            },
+            {
+              "pl": "On teraz czyta.",
+              "zhHans": "他正在看书。",
+              "zhHant": "他正在看書。",
+              "pinyin": "Tā zhèngzài kàn shū."
+            },
+            {
+              "pl": "Mówi z uśmiechem: „Cześć!”",
+              "zhHans": "她笑着说：“你好！”",
+              "zhHant": "她笑著說：「你好！」",
+              "pinyin": "Tā xiào zhe shuō: “Nǐ hǎo!”"
+            }
+          ],
+          "note": {
+            "pl": "Nie każdy czasownik przyjmuje 着 i nie każdy opis stanu wymaga 着.             Czynność w toku zaprzecza się zwykle przez 没(有)在 + V; przy 着 przeczenie to 没 + V + 着.",
+            "zhHans": "并非所有动词都能带“着”，也不是所有状态描写都需要“着”。进行中的动作一般用“没（有）在＋动词”否定；“着”的否定是“没＋动词＋着”。",
+            "zhHant": "並非所有動詞都能帶「著」，也不是所有狀態描寫都需要「著」。進行中的動作一般用「沒（有）在＋動詞」否定；「著」的否定是「沒＋動詞＋著」。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-de-di-de",
+      "title": {
+        "pl": "的, 地 i 得",
+        "zhHans": "“的”“地”“得”",
+        "zhHant": "「的」「地」「得」"
+      },
+      "summary": {
+        "pl": "Trzy partykuły wymawiane tak samo (de), ale pełniące różne funkcje: 的 łączy określenie z rzeczownikiem, 地 łączy okolicznik z czasownikiem, 得 wprowadza dopowiedzenie po czasowniku.",
+        "zhHans": "三个读音相同（de）的助词，作用不同：“的”连接定语和名词，“地”连接状语和动词，“得”引出动词后的补语。",
+        "zhHant": "三個讀音相同（de）的助詞，作用不同：「的」連接定語和名詞，「地」連接狀語和動詞，「得」引出動詞後的補語。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "的 — określenie przed rzeczownikiem",
+            "zhHans": "“的”―定语标记",
+            "zhHant": "「的」―定語標記"
+          },
+          "explanation": {
+            "pl": "定语 + 的 + rzeczownik: przynależność, opis, zdanie względne. Pomija się 的 często przy zaimkach z krewnymi i instytucjami bliskimi (我妈妈, 我们学校) oraz przy jednosylabowych przymiotnikach (好书, 大房子). 的 może też zastąpić rzeczownik: 红的 „czerwony (ten)”.",
+            "zhHans": "“定语＋的＋名词”表示领属、描写或修饰性从句。表亲属或亲近机构的代词后常省略“的”（我妈妈、我们学校）；单音节形容词直接修饰名词时也常不加（好书、大房子）。“的”还可代替名词：红的＝红色的那个。",
+            "zhHant": "「定語＋的＋名詞」表示領屬、描寫或修飾性從句。表親屬或親近機構的代詞後常省略「的」（我媽媽、我們學校）；單音節形容詞直接修飾名詞時也常不加（好書、大房子）。「的」還可代替名詞：紅的＝紅色的那個。"
+          },
+          "examples": [
+            {
+              "pl": "To jest mój telefon.",
+              "zhHans": "这是我的手机。",
+              "zhHant": "這是我的手機。",
+              "pinyin": "Zhè shì wǒ de shǒujī."
+            },
+            {
+              "pl": "Moja mama jest bardzo zajęta.",
+              "zhHans": "我妈妈很忙。",
+              "zhHant": "我媽媽很忙。",
+              "pinyin": "Wǒ māma hěn máng."
+            },
+            {
+              "pl": "Ta czerwona sukienka",
+              "zhHans": "这件红色的衣服",
+              "zhHant": "這件紅色的衣服",
+              "pinyin": "zhè jiàn hóngsè de yīfu"
+            },
+            {
+              "pl": "Bardzo ciekawa historia",
+              "zhHans": "一个很有意思的故事",
+              "zhHant": "一個很有意思的故事",
+              "pinyin": "yí gè hěn yǒu yìsi de gùshi"
+            },
+            {
+              "pl": "Lubię czerwone, nie lubię niebieskich.",
+              "zhHans": "我喜欢红的，不喜欢蓝的。",
+              "zhHant": "我喜歡紅的，不喜歡藍的。",
+              "pinyin": "Wǒ xǐhuan hóng de, bù xǐhuan lán de."
+            }
+          ],
+          "note": {
+            "pl": "Gdy określenie jest długie lub jest zdaniem, 的 jest zazwyczaj konieczne: 我昨天买的书 „książka, którą kupiłem wczoraj”.",
+            "zhHans": "定语较长或是一个小句时，通常必须用“的”：我昨天买的书。",
+            "zhHant": "定語較長或是一個小句時，通常必須用「的」：我昨天買的書。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "地 — okolicznik przed czasownikiem",
+            "zhHans": "“地”―状语标记",
+            "zhHant": "「地」―狀語標記"
+          },
+          "explanation": {
+            "pl": "Okolicznik sposobu + 地 + czasownik. W mowie 地 bywa pomijane, szczególnie przy dwusylabowych okolicznikach powtórzonych lub krótkich. Pisownia rozróżnia 地 i 的, ale wymowa jest ta sama.",
+            "zhHans": "“方式状语＋地＋动词”。口语中“地”常可省略，尤其是叠词或较短的状语。书面上“地”与“的”分写，读音相同。",
+            "zhHant": "「方式狀語＋地＋動詞」。口語中「地」常可省略，尤其是疊詞或較短的狀語。書面上「地」與「的」分寫，讀音相同。"
+          },
+          "examples": [
+            {
+              "pl": "Mówi radośnie: „Dziękuję!”",
+              "zhHans": "她高兴地说：“谢谢！”",
+              "zhHant": "她高興地說：「謝謝！」",
+              "pinyin": "Tā gāoxìng de shuō: “Xièxie!”"
+            },
+            {
+              "pl": "Proszę mów powoli.",
+              "zhHans": "请慢慢地说。",
+              "zhHant": "請慢慢地說。",
+              "pinyin": "Qǐng mànmàn de shuō."
+            }
+          ],
+          "note": {
+            "pl": "Przymiotnik jednosylabowy sam nie bierze 地; mówi się 快跑 / 跑得快 zależnie od konstrukcji.",
+            "zhHans": "单音节形容词一般不加“地”，而用“快跑”或“跑得快”等结构。",
+            "zhHant": "單音節形容詞一般不加「地」，而用「快跑」或「跑得快」等結構。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "得 — dopowiedzenie stopnia",
+            "zhHans": "“得”―补语标记",
+            "zhHant": "「得」―補語標記"
+          },
+          "explanation": {
+            "pl": "Czasownik + 得 + przymiotnik lub zdanie opisuje jak/stopień wykonywania czynności. Gdy jest dopełnienie, powtarza się czasownik: V + O + V + 得 + … (lub dopełnienie wysuwa się przed czasownik). Szczegóły: lekcja o dopowiedzeniach.",
+            "zhHans": "“动词＋得＋形容词／小句”描述动作进行的状态或程度。有宾语时重复动词：动词＋宾语＋动词＋得……（或把宾语前置）。详见“补语”一课。",
+            "zhHant": "「動詞＋得＋形容詞／小句」描述動作進行的狀態或程度。有賓語時重複動詞：動詞＋賓語＋動詞＋得……（或把賓語前置）。詳見「補語」一課。"
+          },
+          "examples": [
+            {
+              "pl": "On biega szybko.",
+              "zhHans": "他跑得很快。",
+              "zhHant": "他跑得很快。",
+              "pinyin": "Tā pǎo de hěn kuài."
+            },
+            {
+              "pl": "Ona nie mówi zbyt wyraźnie.",
+              "zhHans": "她说得不太清楚。",
+              "zhHant": "她說得不太清楚。",
+              "pinyin": "Tā shuō de bú tài qīngchu."
+            }
+          ],
+          "note": {
+            "pl": "Pamiętaj: 得 ma kilka zastosowań (też „móc” w 听得懂 i modalne děi). Tu chodzi o 得 jako znacznik dopowiedzenia.",
+            "zhHans": "“得”有多种用法（如可能补语“听得懂”、能愿动词 děi），这里指的是补语标记。",
+            "zhHant": "「得」有多種用法（如可能補語「聽得懂」、能願動詞 děi），這裡指的是補語標記。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "是……的 — podkreślenie okoliczności",
+            "zhHans": "“是……的”―强调",
+            "zhHant": "「是……的」―強調"
+          },
+          "explanation": {
+            "pl": "Gdy czynność już się wydarzyła, a chcesz zapytać lub powiedzieć o czasie, miejscu, sposobie, osobie, używa się 是 przed elementem podkreślanym i 的 na końcu. 是 często pomija się w twierdzeniach.",
+            "zhHans": "动作已经发生，而想强调时间、地点、方式或施事时，用“是”放在强调成分前，句末加“的”。肯定句中“是”常可省略。",
+            "zhHant": "動作已經發生，而想強調時間、地點、方式或施事時，用「是」放在強調成分前，句末加「的」。肯定句中「是」常可省略。"
+          },
+          "examples": [
+            {
+              "pl": "Przyszedłem wczoraj.",
+              "zhHans": "我是昨天来的。",
+              "zhHant": "我是昨天來的。",
+              "pinyin": "Wǒ shì zuótiān lái de."
+            },
+            {
+              "pl": "Kiedy tu przyszedłeś?",
+              "zhHans": "你是什么时候来的？",
+              "zhHant": "你是什麼時候來的？",
+              "pinyin": "Nǐ shì shénme shíhou lái de?"
+            }
+          ],
+          "note": {
+            "pl": "Przeczenie: 不是……的 (我不是坐飞机来的). Nie używa się tej konstrukcji do przyszłości jak zwykłego „zamierzam”.",
+            "zhHans": "否定：不是……的（我不是坐飞机来的）。此结构主要说明已发生事情的细节，不用作一般将来意图。",
+            "zhHant": "否定：不是……的（我不是坐飛機來的）。此結構主要說明已發生事情的細節，不用作一般將來意圖。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-measure-phrases",
+      "title": {
+        "pl": "Frazy miary: czas trwania, częstotliwość, ilość",
+        "zhHans": "数量短语：时量、动量与程度",
+        "zhHant": "數量短語：時量、動量與程度"
+      },
+      "summary": {
+        "pl": "Wyrażenia ilościowe (jak długo, ile razy, trochę, ile?) mają swoje stałe miejsca: czas trwania i liczba razy stoją po czasowniku, a ilość przed rzeczownikiem.",
+        "zhHans": "数量表达（多久、几次、一点儿、多少）有固定位置：时量和动量放在动词后，物量放在名词前。",
+        "zhHant": "數量表達（多久、幾次、一點兒、多少）有固定位置：時量和動量放在動詞後，物量放在名詞前。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Czas trwania po czasowniku",
+            "zhHans": "时量补语",
+            "zhHant": "時量補語"
+          },
+          "explanation": {
+            "pl": "V + (了) + czas trwania + (的) + dopełnienie. Gdy jest dopełnienie, możliwe jest też powtórzenie czasownika: V + O + V + 了 + czas. Czas trwania ma: 一个小时, 两天, 三年, 半个月. „Półtorej godziny”: 一个半小时.",
+            "zhHans": "“动词＋（了）＋时量＋（的）＋宾语”。有宾语时也可重复动词：动词＋宾语＋动词＋了＋时量。时量如：一个小时、两天、三年、半个月。“一个半小时”表示一小时半。",
+            "zhHant": "「動詞＋（了）＋時量＋（的）＋賓語」。有賓語時也可重複動詞：動詞＋賓語＋動詞＋了＋時量。時量如：一個小時、兩天、三年、半個月。「一個半小時」表示一小時半。"
+          },
+          "examples": [
+            {
+              "pl": "Uczę się chińskiego od dwóch lat.",
+              "zhHans": "我学了两年中文。",
+              "zhHant": "我學了兩年中文。",
+              "pinyin": "Wǒ xué le liǎng nián Zhōngwén."
+            },
+            {
+              "pl": "Uczę się chińskiego od dwóch lat. (powtórzony czasownik)",
+              "zhHans": "我学中文学了两年。",
+              "zhHant": "我學中文學了兩年。",
+              "pinyin": "Wǒ xué Zhōngwén xué le liǎng nián."
+            },
+            {
+              "pl": "Czekałem na ciebie godzinę.",
+              "zhHans": "我等了你一个小时。",
+              "zhHant": "我等了你一個小時。",
+              "pinyin": "Wǒ děng le nǐ yí gè xiǎoshí."
+            },
+            {
+              "pl": "Co dzień śpi osiem godzin.",
+              "zhHans": "他每天睡八个小时。",
+              "zhHant": "他每天睡八個小時。",
+              "pinyin": "Tā měi tiān shuì bā gè xiǎoshí."
+            }
+          ],
+          "note": {
+            "pl": "Gdy czynność trwa nadal, na końcu zdania dodaje się jeszcze 了: 我学了两年中文了 („uczę się już dwa lata”). Bez niego zdanie jest bardziej neutralne i często opisuje okres zakończony.",
+            "zhHans": "动作仍在继续时，句末常再加“了”：我学了两年中文了（现在还在学）。没有句末“了”时，语气较中性，常只是说明学过两年。",
+            "zhHant": "動作仍在繼續時，句末常再加「了」：我學了兩年中文了（現在還在學）。沒有句末「了」時，語氣較中性，常只是說明學過兩年。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Liczba razy: 次, 遍, 趟",
+            "zhHans": "动量补语：次、遍、趟",
+            "zhHant": "動量補語：次、遍、趟"
+          },
+          "explanation": {
+            "pl": "V + liczba + 次 (zdarzenie), 遍 (od początku do końca), 趟 (podróż tam i z powrotem). Pozycja dopełnienia: zaimek stoi przed liczbą razy (见过他两次); nazwa miejsca może stać przed lub po (去过北京两次 / 去过两次北京); zwykły rzeczownik przeważnie przed.",
+            "zhHans": "“动词＋数词＋次（事件）／遍（从头到尾）／趟（往返）”。宾语位置：代词放在动量前（见过他两次）；地名可前可后（去过北京两次／去过两次北京）；一般名词多放在动量前。",
+            "zhHant": "「動詞＋數詞＋次（事件）／遍（從頭到尾）／趟（往返）」。賓語位置：代詞放在動量前（見過他兩次）；地名可前可後（去過北京兩次／去過兩次北京）；一般名詞多放在動量前。"
+          },
+          "examples": [
+            {
+              "pl": "Byłem w Pekinie dwa razy.",
+              "zhHans": "我去过北京两次。",
+              "zhHant": "我去過北京兩次。",
+              "pinyin": "Wǒ qù guo Běijīng liǎng cì."
+            },
+            {
+              "pl": "Widziałem go dwa razy.",
+              "zhHans": "我见过他两次。",
+              "zhHant": "我見過他兩次。",
+              "pinyin": "Wǒ jiàn guo tā liǎng cì."
+            },
+            {
+              "pl": "Proszę powtórzyć jeszcze raz.",
+              "zhHans": "请再说一遍。",
+              "zhHant": "請再說一遍。",
+              "pinyin": "Qǐng zài shuō yí biàn."
+            }
+          ],
+          "note": {
+            "pl": "次 liczy zdarzenia, 遍 całe wykonanie czynności od początku do końca. Nie zamieniaj ich dowolnie.",
+            "zhHans": "“次”数事件次数，“遍”强调从头到尾完整做一次，二者不要随意互换。",
+            "zhHant": "「次」數事件次數，「遍」強調從頭到尾完整做一次，二者不要隨意互換。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "一点儿 i 有点儿",
+            "zhHans": "“一点儿”与“有点儿”",
+            "zhHant": "「一點兒」與「有點兒」"
+          },
+          "explanation": {
+            "pl": "一点儿 po czasowniku lub przymiotniku oznacza „trochę/ nieco”; 有点儿 przed przymiotnikiem lub czasownikiem oznacza „nieco, trochę za” i zwykle wyraża niezadowolenie. 一点儿 również przed rzeczownikiem: 一点儿水. Przy rozkazach 一点儿 łagodzi: 说慢一点儿.",
+            "zhHans": "“一点儿”放在动词或形容词后表示“稍微”；“有点儿”放在形容词或动词前表示“有些……”，常含不满。“一点儿”也可用在名词前：一点儿水。祈使句里“一点儿”使语气和缓：说慢一点儿。",
+            "zhHant": "「一點兒」放在動詞或形容詞後表示「稍微」；「有點兒」放在形容詞或動詞前表示「有些……」，常含不滿。「一點兒」也可用在名詞前：一點兒水。祈使句裡「一點兒」使語氣和緩：說慢一點兒。"
+          },
+          "examples": [
+            {
+              "pl": "Ta sukienka jest trochę droga.",
+              "zhHans": "这件衣服有点儿贵。",
+              "zhHant": "這件衣服有點兒貴。",
+              "pinyin": "Zhè jiàn yīfu yǒudiǎnr guì."
+            },
+            {
+              "pl": "Proszę mów trochę wolniej.",
+              "zhHans": "请说慢一点儿。",
+              "zhHant": "請說慢一點兒。",
+              "pinyin": "Qǐng shuō màn yìdiǎnr."
+            },
+            {
+              "pl": "Daj mi trochę wody.",
+              "zhHans": "给我一点儿水。",
+              "zhHant": "給我一點兒水。",
+              "pinyin": "Gěi wǒ yìdiǎnr shuǐ."
+            }
+          ],
+          "note": {
+            "pl": "Nie mieszaj: 有点儿贵 (trochę za drogie) i 贵一点儿 (odrobinę droższe, bez odcienia niezadowolenia). Po 有点儿 zwykle nie stoi przymiotnik pozytywny.",
+            "zhHans": "不要混淆：“有点儿贵”（有点嫌贵）和“贵一点儿”（稍贵一些，不带不满）。“有点儿”后一般不接褒义形容词。",
+            "zhHant": "不要混淆：「有點兒貴」（有點嫌貴）和「貴一點兒」（稍貴一些，不帶不滿）。「有點兒」後一般不接褒義形容詞。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "几, 多少, 多 + przymiotnik",
+            "zhHans": "“几”“多少”“多＋形容词”",
+            "zhHant": "「幾」「多少」「多＋形容詞」"
+          },
+          "explanation": {
+            "pl": "几 pyta o małą liczbę (spodziewaną poniżej dziesięciu) i wymaga licznika. 多少 pyta o dowolną liczbę, licznik jest opcjonalny. 多 + przymiotnik pyta o wymiar lub wiek: 多大 (ile lat / jak duży), 多高 (jak wysoki), 多远 (jak daleko).",
+            "zhHans": "“几”问较小的数目（预期十以内），后面要有量词。“多少”可问任何数目，量词可有可无。“多＋形容词”问程度、年龄：多大、多高、多远。",
+            "zhHant": "「幾」問較小的數目（預期十以內），後面要有量詞。「多少」可問任何數目，量詞可有可無。「多＋形容詞」問程度、年齡：多大、多高、多遠。"
+          },
+          "examples": [
+            {
+              "pl": "Ile osób przyszło dzisiaj?",
+              "zhHans": "今天来了几个人？",
+              "zhHant": "今天來了幾個人？",
+              "pinyin": "Jīntiān lái le jǐ gè rén?"
+            },
+            {
+              "pl": "Ile to kosztuje?",
+              "zhHans": "这个多少钱？",
+              "zhHant": "這個多少錢？",
+              "pinyin": "Zhè ge duōshao qián?"
+            },
+            {
+              "pl": "Ile masz lat?",
+              "zhHans": "你今年多大？",
+              "zhHant": "你今年多大？",
+              "pinyin": "Nǐ jīnnián duō dà?"
+            }
+          ],
+          "note": {
+            "pl": "Pytając o wiek dziecka, mówi się 几岁; do osoby dorosłej, 多大 lub bardziej formalnie 多大年纪 (starsza osoba).",
+            "zhHans": "问小孩年龄常说“几岁”；问一般人说“多大”，问长者可说更礼貌的“多大年纪”。",
+            "zhHant": "問小孩年齡常說「幾歲」；問一般人說「多大」，問長者可說更禮貌的「多大年紀」。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-comparison",
+      "title": {
+        "pl": "Porównania: 比, 更, 最",
+        "zhHans": "比较：比、更、最",
+        "zhHant": "比較：比、更、最"
+      },
+      "summary": {
+        "pl": "Chiński porównuje przez 比 (A jest bardziej … niż B), 没有 (nie tak … jak), 跟……一样 (tak samo) i przysłówki 更 / 最. Przymiotnik w zdaniu z 比 nie bierze 很.",
+        "zhHans": "汉语用“比”（A比B……）、“没有”（不如）、“跟……一样”（相同）以及副词“更／最”表示比较。“比”字句中的形容词前不加“很”。",
+        "zhHant": "漢語用「比」（A比B……）、「沒有」（不如）、「跟……一樣」（相同）以及副詞「更／最」表示比較。「比」字句中的形容詞前不加「很」。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "A 比 B + przymiotnik",
+            "zhHans": "A比B＋形容词",
+            "zhHant": "A比B＋形容詞"
+          },
+          "explanation": {
+            "pl": "Wzór: A + 比 + B + przymiotnik (+ różnica). Różnicę wyraża się po przymiotniku (一点儿, 得多, 很多, 两岁, 三公斤) lub przed nim przez 更 / 还 (jeszcze bardziej). Nie używa się 很, 非常, 太 przed przymiotnikiem po 比.",
+            "zhHans": "格式：A＋比＋B＋形容词（＋差别）。差别放在形容词之后（一点儿、得多、很多、两岁、三公斤），或在形容词前用“更／还”（更加）。“比”字句中的形容词前不能用“很、非常、太”。",
+            "zhHant": "格式：A＋比＋B＋形容詞（＋差別）。差別放在形容詞之後（一點兒、得多、很多、兩歲、三公斤），或在形容詞前用「更／還」（更加）。「比」字句中的形容詞前不能用「很、非常、太」。"
+          },
+          "examples": [
+            {
+              "pl": "On jest wyższy ode mnie.",
+              "zhHans": "他比我高。",
+              "zhHant": "他比我高。",
+              "pinyin": "Tā bǐ wǒ gāo."
+            },
+            {
+              "pl": "Dziś jest znacznie zimniej niż wczoraj.",
+              "zhHans": "今天比昨天冷得多。",
+              "zhHant": "今天比昨天冷得多。",
+              "pinyin": "Jīntiān bǐ zuótiān lěng de duō."
+            },
+            {
+              "pl": "On jest ode mnie starszy o dwa lata.",
+              "zhHans": "他比我大两岁。",
+              "zhHant": "他比我大兩歲。",
+              "pinyin": "Tā bǐ wǒ dà liǎng suì."
+            },
+            {
+              "pl": "Ta jest jeszcze droższa niż tamta.",
+              "zhHans": "这件比那件更贵。",
+              "zhHant": "這件比那件更貴。",
+              "pinyin": "Zhè jiàn bǐ nà jiàn gèng guì."
+            }
+          ],
+          "note": {
+            "pl": "更 i 还 wyrażają „jeszcze bardziej” w stosunku do czegoś już „wysokiego”. Nie zastępują poprawnej struktury 比 (nie mówi się 他更高我 zamiast 他比我高).",
+            "zhHans": "“更”和“还”表示在已有程度上“更加”。它们不能代替“比”的结构（不说“他更高我”）。",
+            "zhHant": "「更」和「還」表示在已有程度上「更加」。它們不能代替「比」的結構（不說「他更高我」）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Przeczenie: 没有, 不如, 不比",
+            "zhHans": "否定：没有、不如、不比",
+            "zhHant": "否定：沒有、不如、不比"
+          },
+          "explanation": {
+            "pl": "A 没有 B + przymiotnik znaczy „A nie jest tak … jak B” (A jest mniej …). 不如 ma podobny sens („A nie dorównuje B”) i często niesie ocenę, że B jest lepsze. 不比 jest możliwe, ale nie jest prostą negacją 比: 他不比我高 znaczy raczej „nie jest wyższy ode mnie” (może być tego samego wzrostu). Dla „mniej niż” bezpieczniej użyć 没有.",
+            "zhHans": "“A没有B＋形容词”表示A不如B。“不如”意思相近（A不及B），常带有B更好的评价。“不比”可以说，但不是“比”的简单否定：“他不比我高”更接近“他不高于我（可能一样高，也可能更矮）”。表达“不如”时用“没有”更稳妥。",
+            "zhHant": "「A沒有B＋形容詞」表示A不如B。「不如」意思相近（A不及B），常帶有B更好的評價。「不比」可以說，但不是「比」的簡單否定：「他不比我高」更接近「他不高於我（可能一樣高，也可能更矮）」。表達「不如」時用「沒有」更穩妥。"
+          },
+          "examples": [
+            {
+              "pl": "Nie jestem taki wysoki jak ty.",
+              "zhHans": "我没有你高。",
+              "zhHant": "我沒有你高。",
+              "pinyin": "Wǒ méiyǒu nǐ gāo."
+            },
+            {
+              "pl": "Jem tak samo szybko jak on.",
+              "zhHans": "我吃得跟他一样快。",
+              "zhHant": "我吃得跟他一樣快。",
+              "pinyin": "Wǒ chī de gēn tā yíyàng kuài."
+            },
+            {
+              "pl": "Mamy ten sam wzrost.",
+              "zhHans": "我跟他一样高。",
+              "zhHant": "我跟他一樣高。",
+              "pinyin": "Wǒ gēn tā yíyàng gāo."
+            }
+          ],
+          "note": {
+            "pl": "Przy 一样 można dodać przymiotnik: A 跟 B 一样 + przymiotnik. Przeczenie: 跟……不一样 („nie jest taki sam”).",
+            "zhHans": "“一样”后可接形容词：A跟B一样＋形容词。否定：跟……不一样。",
+            "zhHant": "「一樣」後可接形容詞：A跟B一樣＋形容詞。否定：跟……不一樣。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "最 i 越来越",
+            "zhHans": "“最”与“越来越”",
+            "zhHant": "「最」與「越來越」"
+          },
+          "explanation": {
+            "pl": "最 + przymiotnik daje stopień najwyższy: „najbardziej …”. Konstrukcja 越来越 + przymiotnik oznacza „coraz bardziej”. W porównaniu z czasownikiem dopowiedzenia: 他的汉语说得比我好.",
+            "zhHans": "“最＋形容词”表示最高程度。“越来越＋形容词”表示程度不断加深。与动词补语结合：他的汉语说得比我好。",
+            "zhHant": "「最＋形容詞」表示最高程度。「越來越＋形容詞」表示程度不斷加深。與動詞補語結合：他的漢語說得比我好。"
+          },
+          "examples": [
+            {
+              "pl": "On jest najwyższy w naszej klasie.",
+              "zhHans": "他是我们班最高的。",
+              "zhHant": "他是我們班最高的。",
+              "pinyin": "Tā shì wǒmen bān zuì gāo de."
+            },
+            {
+              "pl": "Jej chiński jest najlepszy.",
+              "zhHans": "她的中文最好。",
+              "zhHant": "她的中文最好。",
+              "pinyin": "Tā de Zhōngwén zuì hǎo."
+            },
+            {
+              "pl": "Robi się coraz zimniej.",
+              "zhHans": "天气越来越冷了。",
+              "zhHant": "天氣越來越冷了。",
+              "pinyin": "Tiānqì yuè lái yuè lěng le."
+            },
+            {
+              "pl": "On mówi po chińsku lepiej ode mnie.",
+              "zhHans": "他的汉语说得比我好。",
+              "zhHant": "他的漢語說得比我好。",
+              "pinyin": "Tā de Hànyǔ shuō de bǐ wǒ hǎo."
+            }
+          ],
+          "note": {
+            "pl": "Przy 最 przymiotnik często pojawia się z 的 gdy rzeczownik jest opuszczony (最高的 „ten najwyższy”).",
+            "zhHans": "名词省略时，“最＋形容词”后常加“的”（最高的＝最高的那个）。",
+            "zhHant": "名詞省略時，「最＋形容詞」後常加「的」（最高的＝最高的那個）。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-complements-degree-potential",
+      "title": {
+        "pl": "Dopowiedzenia stopnia i możliwości",
+        "zhHans": "状态补语与可能补语",
+        "zhHant": "狀態補語與可能補語"
+      },
+      "summary": {
+        "pl": "Dopowiedzenie (补语) stoi po czasowniku i opisuje, jak lub w jakim stopniu czynność przebiega (V得…) albo czy da się ją wykonać (V得/不 + wynik).",
+        "zhHans": "补语放在动词后，说明动作进行得怎样、程度如何（动词＋得……），或动作能否实现（动词＋得／不＋结果）。",
+        "zhHant": "補語放在動詞後，說明動作進行得怎樣、程度如何（動詞＋得……），或動作能否實現（動詞＋得／不＋結果）。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Dopowiedzenie stopnia: V + 得 + opis",
+            "zhHans": "状态补语：动词＋得＋描述",
+            "zhHant": "狀態補語：動詞＋得＋描述"
+          },
+          "explanation": {
+            "pl": "Struktura V + 得 + przymiotnik: ocena wykonania czynności. Przymiotnik zwykle ma 很 lub inny przysłówek. Przeczenie: V + 得 + 不 + przymiotnik. Z dopełnieniem: powtórz czasownik (说汉语说得很流利) albo wysuń dopełnienie na początek (汉语他说得很流利).",
+            "zhHans": "“动词＋得＋形容词”评价动作的状态。形容词前通常加“很”等副词。否定：动词＋得＋不＋形容词。有宾语时，重复动词（说汉语说得很流利），或把宾语提前（汉语他说得很流利）。",
+            "zhHant": "「動詞＋得＋形容詞」評價動作的狀態。形容詞前通常加「很」等副詞。否定：動詞＋得＋不＋形容詞。有賓語時，重複動詞（說漢語說得很流利），或把賓語提前（漢語他說得很流利）。"
+          },
+          "examples": [
+            {
+              "pl": "Ona śpiewa bardzo dobrze.",
+              "zhHans": "她唱得很好。",
+              "zhHant": "她唱得很好。",
+              "pinyin": "Tā chàng de hěn hǎo."
+            },
+            {
+              "pl": "On mówi po chińsku bardzo płynnie.",
+              "zhHans": "他说汉语说得很流利。",
+              "zhHant": "他說漢語說得很流利。",
+              "pinyin": "Tā shuō Hànyǔ shuō de hěn liúlì."
+            },
+            {
+              "pl": "On wstaje niezbyt wcześnie.",
+              "zhHans": "他起得不早。",
+              "zhHant": "他起得不早。",
+              "pinyin": "Tā qǐ de bù zǎo."
+            }
+          ],
+          "note": {
+            "pl": "W przeciwieństwie do okolicznika (快跑) ocena następuje po czasowniku i dotyczy sposobu wykonania, często już zakończonego lub charakterystycznego.",
+            "zhHans": "与状语（如“快跑”）不同，这类补语在动词之后，说明动作完成得怎样，常带有评价意味。",
+            "zhHant": "與狀語（如「快跑」）不同，這類補語在動詞之後，說明動作完成得怎樣，常帶有評價意味。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Dopowiedzenie możliwości: V + 得/不 + wynik",
+            "zhHans": "可能补语：动词＋得／不＋结果",
+            "zhHant": "可能補語：動詞＋得／不＋結果"
+          },
+          "explanation": {
+            "pl": "Wstaw 得 (można) lub 不 (nie można) między czasownik a dopowiedzenie wyniku lub kierunku: 听得懂 „da się zrozumieć ze słuchu”, 听不懂 „nie da się”. W pytaniach: V 得 + wynik + 吗 / V 得 V 不 + wynik. W mowie 得 i 不 mają ton neutralny.",
+            "zhHans": "在动词和结果补语或趋向补语之间加“得”（可以）或“不”（不可以）：听得懂＝听得明白，听不懂＝听不明白。疑问句：动词得＋结果＋吗，或“动词得／不＋结果”并列。口语中“得、不”读轻声。",
+            "zhHant": "在動詞和結果補語或趨向補語之間加「得」（可以）或「不」（不可以）：聽得懂＝聽得明白，聽不懂＝聽不明白。疑問句：動詞得＋結果＋嗎，或「動詞得／不＋結果」並列。口語中「得、不」讀輕聲。"
+          },
+          "examples": [
+            {
+              "pl": "Czy rozumiesz (ze słuchu)?",
+              "zhHans": "你听得懂吗？",
+              "zhHant": "你聽得懂嗎？",
+              "pinyin": "Nǐ tīng de dǒng ma?"
+            },
+            {
+              "pl": "Nie rozumiem.",
+              "zhHans": "我听不懂。",
+              "zhHant": "我聽不懂。",
+              "pinyin": "Wǒ tīng bu dǒng."
+            },
+            {
+              "pl": "Tyle jedzenia, nie dam rady zjeść.",
+              "zhHans": "这么多菜，我吃不完。",
+              "zhHant": "這麼多菜，我吃不完。",
+              "pinyin": "Zhème duō cài, wǒ chī bu wán."
+            },
+            {
+              "pl": "Drzwi się nie otwierają.",
+              "zhHans": "门打不开。",
+              "zhHant": "門打不開。",
+              "pinyin": "Mén dǎ bu kāi."
+            },
+            {
+              "pl": "Dasz radę sam to unieść?",
+              "zhHans": "你一个人拿得动吗？",
+              "zhHant": "你一個人拿得動嗎？",
+              "pinyin": "Nǐ yí gè rén ná de dòng ma?"
+            }
+          ],
+          "note": {
+            "pl": "Forma pozytywna 得 jest używana rzadziej niż negatywna 不; w twierdzeniach często zastępuje ją 能 / 可以 + V + wynik (你能听懂吗？). Nie wszystkie wyniki tworzą formy potencjalne.",
+            "zhHans": "肯定式“得”不如否定式“不”常用；肯定时也常说“能／可以＋动词＋结果”（你能听懂吗？）。并非所有结果补语都能构成可能式。",
+            "zhHant": "肯定式「得」不如否定式「不」常用；肯定時也常說「能／可以＋動詞＋結果」（你能聽懂嗎？）。並非所有結果補語都能構成可能式。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-result-directional",
+      "title": {
+        "pl": "Dopowiedzenia wyniku i kierunku",
+        "zhHans": "结果补语与趋向补语",
+        "zhHant": "結果補語與趨向補語"
+      },
+      "summary": {
+        "pl": "Po czasowniku często stoi dodatkowy element, który mówi o wyniku czynności (完, 懂, 到, 错) albo o kierunku ruchu (来, 去, 上, 下, 进, 出, 回, 过, 起).",
+        "zhHans": "动词后常加一个成分，说明动作的结果（完、懂、到、错）或动作的方向（来、去、上、下、进、出、回、过、起）。",
+        "zhHant": "動詞後常加一個成分，說明動作的結果（完、懂、到、錯）或動作的方向（來、去、上、下、進、出、回、過、起）。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Dopowiedzenia wyniku",
+            "zhHans": "结果补语",
+            "zhHant": "結果補語"
+          },
+          "explanation": {
+            "pl": "V + 完 (skończyć), 好 (dobrze/gotowe), 到 (osiągnąć), 见 (spostrzec), 懂 (zrozumieć), 错 (pomylić), 会 (opanować), 清楚 (wyraźnie). Przeczenie dla zdarzeń: 没 + V + wynik (nie 不). Często występuje z 了.",
+            "zhHans": "动词＋完（做完）、好（做好）、到（找到）、见（听见）、懂（看懂）、错（写错）、会（学会）、清楚（听清楚）。否定已发生的事用“没＋动词＋结果”，不用“不”。常与“了”连用。",
+            "zhHant": "動詞＋完（做完）、好（做好）、到（找到）、見（聽見）、懂（看懂）、錯（寫錯）、會（學會）、清楚（聽清楚）。否定已發生的事用「沒＋動詞＋結果」，不用「不」。常與「了」連用。"
+          },
+          "examples": [
+            {
+              "pl": "Skończyłem pracę domową.",
+              "zhHans": "我做完作业了。",
+              "zhHant": "我做完作業了。",
+              "pinyin": "Wǒ zuò wán zuòyè le."
+            },
+            {
+              "pl": "Napisałeś błędnie.",
+              "zhHans": "你写错了。",
+              "zhHant": "你寫錯了。",
+              "pinyin": "Nǐ xiě cuò le."
+            },
+            {
+              "pl": "Znalazłem klucze.",
+              "zhHans": "我找到钥匙了。",
+              "zhHant": "我找到鑰匙了。",
+              "pinyin": "Wǒ zhǎo dào yàoshi le."
+            },
+            {
+              "pl": "Nie zrozumiałem tego artykułu.",
+              "zhHans": "我没看懂这篇文章。",
+              "zhHant": "我沒看懂這篇文章。",
+              "pinyin": "Wǒ méi kàn dǒng zhè piān wénzhāng."
+            }
+          ],
+          "note": {
+            "pl": "Wynik jest częścią czasownika złożonego: nic nie wstawia się między czasownik a wynik (poza 得/不 w formie potencjalnej). Nie mów 做作业完.",
+            "zhHans": "结果补语紧跟动词，中间不能随意插入别的成分（可能式的“得／不”除外）。不说“做作业完”。",
+            "zhHant": "結果補語緊跟動詞，中間不能隨意插入別的成分（可能式的「得／不」除外）。不說「做作業完」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Dopowiedzenia kierunku: proste i złożone",
+            "zhHans": "趋向补语：简单与复合",
+            "zhHant": "趨向補語：簡單與複合"
+          },
+          "explanation": {
+            "pl": "Proste: V + 来 (w kierunku mówiącego) / 去 (od mówiącego). Złożone: V + 上, 下, 进, 出, 回, 过, 起 + 来/去. Wybór 来 / 去 zależy od położenia mówiącego względem ruchu. Miejsce docelowe stoi przed 来/去: 走进教室来.",
+            "zhHans": "简单：动词＋来（朝说话人）／去（离开说话人）。复合：动词＋上／下／进／出／回／过／起＋来／去。“来／去”的选择取决于说话人相对于动作方向的位置。处所宾语放在“来／去”前：走进教室来。",
+            "zhHant": "簡單：動詞＋來（朝說話人）／去（離開說話人）。複合：動詞＋上／下／進／出／回／過／起＋來／去。「來／去」的選擇取決於說話人相對於動作方向的位置。處所賓語放在「來／去」前：走進教室來。"
+          },
+          "examples": [
+            {
+              "pl": "On wszedł do klasy.",
+              "zhHans": "他走进教室来了。",
+              "zhHant": "他走進教室來了。",
+              "pinyin": "Tā zǒu jìn jiàoshì lái le."
+            },
+            {
+              "pl": "Proszę wyjąć książkę.",
+              "zhHans": "请把书拿出来。",
+              "zhHant": "請把書拿出來。",
+              "pinyin": "Qǐng bǎ shū ná chūlái."
+            },
+            {
+              "pl": "On zbiegł z góry.",
+              "zhHans": "他从楼上跑下来了。",
+              "zhHant": "他從樓上跑下來了。",
+              "pinyin": "Tā cóng lóu shàng pǎo xiàlái le."
+            },
+            {
+              "pl": "Kupiła książkę i wróciła z nią.",
+              "zhHans": "她买回来一本书。",
+              "zhHant": "她買回來一本書。",
+              "pinyin": "Tā mǎi huílái yì běn shū."
+            }
+          ],
+          "note": {
+            "pl": "Gdy dopełnienie jest rzeczą, można je umieścić przed lub po 来/去: 拿出一本书来 / 拿出来一本书. Gdy dopełnienie jest miejscem, musi stać przed 来/去.",
+            "zhHans": "宾语是事物时，可放在“来／去”之前或之后：拿出一本书来／拿出来一本书。宾语是处所时，必须放在“来／去”之前。",
+            "zhHant": "賓語是事物時，可放在「來／去」之前或之後：拿出一本書來／拿出來一本書。賓語是處所時，必須放在「來／去」之前。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Znaczenia przenośne: 起来, 下去, 出来",
+            "zhHans": "引申义：起来、下去、出来",
+            "zhHant": "引申義：起來、下去、出來"
+          },
+          "explanation": {
+            "pl": "起来: zacząć coś (笑起来 „zacząć się śmiać”), przypomnieć (想起来), wyglądać na (看起来). 下去: kontynuować (说下去). 出来: wyjść na jaw, rozpoznać (看出来 „zauważyć”). Nie oznaczają one tylko ruchu fizycznego.",
+            "zhHans": "“起来”：开始（笑起来）、想起（想起来）、看上去（看起来）。“下去”：继续（说下去）。“出来”：显露、辨认（看出来）。这些不只表示实际的位移。",
+            "zhHant": "「起來」：開始（笑起來）、想起（想起來）、看上去（看起來）。「下去」：繼續（說下去）。「出來」：顯露、辨認（看出來）。這些不只表示實際的位移。"
+          },
+          "examples": [
+            {
+              "pl": "Przypomniałem sobie!",
+              "zhHans": "我想起来了！",
+              "zhHant": "我想起來了！",
+              "pinyin": "Wǒ xiǎng qǐlái le!"
+            },
+            {
+              "pl": "Wygląda na zmęczoną.",
+              "zhHans": "她看起来很累。",
+              "zhHant": "她看起來很累。",
+              "pinyin": "Tā kàn qǐlái hěn lèi."
+            },
+            {
+              "pl": "Proszę mów dalej.",
+              "zhHans": "请说下去。",
+              "zhHant": "請說下去。",
+              "pinyin": "Qǐng shuō xiàqù."
+            }
+          ],
+          "note": {
+            "pl": "Znaczenia przenośne trzeba uczyć się jako całych połączeń (看起来, 说下去, 想出来) i nie wolno ich zawsze tłumaczyć dosłownie.",
+            "zhHans": "引申义要作为固定搭配整体学习（看起来、说下去、想出来），不能总是字面理解。",
+            "zhHant": "引申義要作為固定搭配整體學習（看起來、說下去、想出來），不能總是字面理解。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-ba-bei",
+      "title": {
+        "pl": "Konstrukcje 把 i 被",
+        "zhHans": "“把”字句与“被”字句",
+        "zhHant": "「把」字句與「被」字句"
+      },
+      "summary": {
+        "pl": "把 przenosi dopełnienie przed czasownik i podkreśla, co zostało z nim zrobione. 被 tworzy stronę bierną: odbiorca czynności jest podmiotem, a sprawca (opcjonalnie) następuje po 被.",
+        "zhHans": "“把”把宾语提到动词前，强调对它做了什么。“被”构成被动：受事者作主语，施事者（可省略）放在“被”后。",
+        "zhHant": "「把」把賓語提到動詞前，強調對它做了什麼。「被」構成被動：受事者作主語，施事者（可省略）放在「被」後。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "把 — co zrobić z przedmiotem",
+            "zhHans": "“把”―对事物的处置",
+            "zhHant": "「把」―對事物的處置"
+          },
+          "explanation": {
+            "pl": "S + 把 + O + V + dodatkowy element (wynik, kierunek, 了, miejsce, adresat). Sam czasownik nie wystarcza: nie mówi się 我把书看. Dopełnienie jest zwykle określone/znane. Przeczenie i czasowniki modalne stoją przed 把: 我没把作业带来. Nie tworzy się 把 z czasownikami stanu (有, 是, 喜欢, 知道, 觉得).",
+            "zhHans": "主语＋把＋宾语＋动词＋其他成分（结果、趋向、了、处所、对象）。光杆动词一般不行：不说“我把书看”。宾语通常是确定、已知的事物。否定词和能愿动词放在“把”之前：我没把作业带来。表状态的动词（有、是、喜欢、知道、觉得）一般不能用于“把”字句。",
+            "zhHant": "主語＋把＋賓語＋動詞＋其他成分（結果、趨向、了、處所、對象）。光桿動詞一般不行：不說「我把書看」。賓語通常是確定、已知的事物。否定詞和能願動詞放在「把」之前：我沒把作業帶來。表狀態的動詞（有、是、喜歡、知道、覺得）一般不能用於「把」字句。"
+          },
+          "examples": [
+            {
+              "pl": "Zrobiłem pracę domową do końca.",
+              "zhHans": "我把作业做完了。",
+              "zhHant": "我把作業做完了。",
+              "pinyin": "Wǒ bǎ zuòyè zuò wán le."
+            },
+            {
+              "pl": "Proszę zamknąć drzwi.",
+              "zhHans": "请把门关上。",
+              "zhHant": "請把門關上。",
+              "pinyin": "Qǐng bǎ mén guān shàng."
+            },
+            {
+              "pl": "Położyła książkę na stole.",
+              "zhHans": "她把书放在桌子上。",
+              "zhHant": "她把書放在桌子上。",
+              "pinyin": "Tā bǎ shū fàng zài zhuōzi shang."
+            },
+            {
+              "pl": "Już dałem mu pieniądze.",
+              "zhHans": "我已经把钱给他了。",
+              "zhHant": "我已經把錢給他了。",
+              "pinyin": "Wǒ yǐjīng bǎ qián gěi tā le."
+            },
+            {
+              "pl": "Nie zabrałem pracy domowej.",
+              "zhHans": "我没把作业带来。",
+              "zhHant": "我沒把作業帶來。",
+              "pinyin": "Wǒ méi bǎ zuòyè dài lái."
+            }
+          ],
+          "note": {
+            "pl": "Nie każde zdanie z dopełnieniem wymaga 把; w wielu sytuacjach zwykły szyk SVO jest równie dobry i bardziej neutralny. 把 jest natomiast naturalne, gdy mowa o przemieszczeniu, zmianie lub dokończeniu, np. 把中文翻译成波兰语.",
+            "zhHans": "有宾语的句子并非都要用“把”；很多情况下普通的主谓宾句同样自然，且更中性。涉及位移、变化或完成时，“把”更自然，如：把中文翻译成波兰语。",
+            "zhHant": "有賓語的句子並非都要用「把」；很多情況下普通的主謂賓句同樣自然，且更中性。涉及位移、變化或完成時，「把」更自然，如：把中文翻譯成波蘭語。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "被 — strona bierna",
+            "zhHans": "“被”―被动句",
+            "zhHant": "「被」―被動句"
+          },
+          "explanation": {
+            "pl": "Odbiorca + 被 + (sprawca) + V + dodatkowy element. Sprawca bywa pomijany (我的手机被偷了). W mowie często 让 lub 叫 zastępują 被 gdy sprawca jest podany (杯子让弟弟打破了). Tradycyjnie 被 sugeruje zdarzenie niepożądane, ale współcześnie używa się go także neutralnie lub pozytywnie (被选为班长). Przeczenie przed 被: 没被.",
+            "zhHans": "受事者＋被＋（施事者）＋动词＋其他成分。施事者可省略（我的手机被偷了）。口语里有施事者时也常用“让／叫”代替“被”（杯子让弟弟打破了）。传统上“被”多含不如意义，但现在也可用于中性或积极意义（被选为班长）。否定词放在“被”前：没被。",
+            "zhHant": "受事者＋被＋（施事者）＋動詞＋其他成分。施事者可省略（我的手機被偷了）。口語裡有施事者時也常用「讓／叫」代替「被」（杯子讓弟弟打破了）。傳統上「被」多含不如意義，但現在也可用於中性或積極意義（被選為班長）。否定詞放在「被」前：沒被。"
+          },
+          "examples": [
+            {
+              "pl": "Mój telefon został skradziony.",
+              "zhHans": "我的手机被偷了。",
+              "zhHant": "我的手機被偷了。",
+              "pinyin": "Wǒ de shǒujī bèi tōu le."
+            },
+            {
+              "pl": "Brat stłukł kubek.",
+              "zhHans": "杯子被弟弟打破了。",
+              "zhHant": "杯子被弟弟打破了。",
+              "pinyin": "Bēizi bèi dìdi dǎ pò le."
+            },
+            {
+              "pl": "Nauczyciel go skrytykował.",
+              "zhHans": "他被老师批评了。",
+              "zhHant": "他被老師批評了。",
+              "pinyin": "Tā bèi lǎoshī pīpíng le."
+            },
+            {
+              "pl": "Wiatr otworzył okno.",
+              "zhHans": "窗户让风吹开了。",
+              "zhHant": "窗戶讓風吹開了。",
+              "pinyin": "Chuānghu ràng fēng chuī kāi le."
+            }
+          ],
+          "note": {
+            "pl": "Chiński woli stronę czynną. Używaj 被 wtedy, gdy ważniejszy jest odbiorca lub skutek czynności, a nie wszędzie, gdzie polski ma stronę bierną.",
+            "zhHans": "汉语更倾向用主动句。当受事者或结果更重要时再用“被”，不要处处按波兰语的被动句对译。",
+            "zhHant": "漢語更傾向用主動句。當受事者或結果更重要時再用「被」，不要處處按波蘭語的被動句對譯。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-modal-verbs",
+      "title": {
+        "pl": "Czasowniki modalne",
+        "zhHans": "能愿动词",
+        "zhHant": "能願動詞"
+      },
+      "summary": {
+        "pl": "Czasowniki modalne (会, 能, 可以, 要, 想, 得, 应该…) stoją przed czasownikiem głównym. Różnice w sensie bywają subtelne, więc ucz się ich na przykładach.",
+        "zhHans": "能愿动词（会、能、可以、要、想、得、应该等）放在主要动词之前。它们的意义差别有时很细，要结合例句学习。",
+        "zhHant": "能願動詞（會、能、可以、要、想、得、應該等）放在主要動詞之前。它們的意義差別有時很細，要結合例句學習。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "会, 能, 可以 — umiejętność, możliwość, pozwolenie",
+            "zhHans": "“会”“能”“可以”―技能、能力、许可",
+            "zhHant": "「會」「能」「可以」―技能、能力、許可"
+          },
+          "explanation": {
+            "pl": "会: nabyta umiejętność („umieć”) i prawdopodobieństwo („będzie”). 能: zdolność fizyczna lub warunki umożliwiające („móc”). 可以: zgoda, pozwolenie, możliwość. Przeczenie: 不会 (nie umie, raczej nie będzie), 不能 (nie może — okoliczności, zakaz), 不可以 / 不能 (nie wolno). W prośbach o pozwolenie typowo 可以 lub 能.",
+            "zhHans": "“会”：学来的技能，也可表示可能性（将会）。“能”：身体能力或客观条件允许。“可以”：许可、允许、可能。否定：不会（不懂／不太可能）、不能（情况不允许、被禁止）、不可以／不能（不允许）。请求许可时常用“可以”或“能”。",
+            "zhHant": "「會」：學來的技能，也可表示可能性（將會）。「能」：身體能力或客觀條件允許。「可以」：許可、允許、可能。否定：不會（不懂／不太可能）、不能（情況不允許、被禁止）、不可以／不能（不允許）。請求許可時常用「可以」或「能」。"
+          },
+          "examples": [
+            {
+              "pl": "On umie pływać.",
+              "zhHans": "他会游泳。",
+              "zhHant": "他會游泳。",
+              "pinyin": "Tā huì yóuyǒng."
+            },
+            {
+              "pl": "Dziś nie mogę przyjść, bo jestem chory.",
+              "zhHans": "我今天不能来，因为我生病了。",
+              "zhHant": "我今天不能來，因為我生病了。",
+              "pinyin": "Wǒ jīntiān bù néng lái, yīnwèi wǒ shēngbìng le."
+            },
+            {
+              "pl": "Możesz użyć mojego telefonu.",
+              "zhHans": "你可以用我的电话。",
+              "zhHant": "你可以用我的電話。",
+              "pinyin": "Nǐ kěyǐ yòng wǒ de diànhuà."
+            },
+            {
+              "pl": "Tu nie wolno palić.",
+              "zhHans": "这里不能抽烟。",
+              "zhHant": "這裡不能抽菸。",
+              "pinyin": "Zhèlǐ bù néng chōuyān."
+            },
+            {
+              "pl": "Jutro może będzie padać.",
+              "zhHans": "明天可能会下雨。",
+              "zhHant": "明天可能會下雨。",
+              "pinyin": "Míngtiān kěnéng huì xià yǔ."
+            }
+          ],
+          "note": {
+            "pl": "Granica między 会 / 能 / 可以 nie jest ścisła. W prostym zdaniu „umiem” użyj 会, a gdy chodzi o to, czy okoliczności pozwalają — 能.",
+            "zhHans": "“会／能／可以”之间的界限并不绝对。表示“学会了”用“会”，表示条件是否允许时用“能”。",
+            "zhHant": "「會／能／可以」之間的界限並不絕對。表示「學會了」用「會」，表示條件是否允許時用「能」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "想, 要, 得, 应该, 必须 — chęć i konieczność",
+            "zhHans": "“想”“要”“得”“应该”“必须”―意愿与必要",
+            "zhHant": "「想」「要」「得」「應該」「必須」―意願與必要"
+          },
+          "explanation": {
+            "pl": "想: chcieć, mieć ochotę, zamierzać. 要: chcieć, potrzebować, zamierzać; w niektórych kontekstach „musieć”. 得 (děi): „muszę” (potocznie). 应该: „powinien”. 必须: „koniecznie trzeba” (silniejsze). Przeczenie: 不想 (nie chce), 不用 / 不必 (nie musi), 不应该 (nie powinien), 不要 (nie chce / nie rób).",
+            "zhHans": "“想”：想要、打算。“要”：想要、需要、打算；有些语境表示“必须”。“得”（děi）：口语的“必须”。“应该”：应当。“必须”：非……不可，语气更强。否定：不想（不愿）、不用／不必（不需要）、不应该、不要（不想要／别……）。",
+            "zhHant": "「想」：想要、打算。「要」：想要、需要、打算；有些語境表示「必須」。「得」（děi）：口語的「必須」。「應該」：應當。「必須」：非……不可，語氣更強。否定：不想（不願）、不用／不必（不需要）、不應該、不要（不想要／別……）。"
+          },
+          "examples": [
+            {
+              "pl": "Chcę pić herbatę.",
+              "zhHans": "我想喝茶。",
+              "zhHant": "我想喝茶。",
+              "pinyin": "Wǒ xiǎng hē chá."
+            },
+            {
+              "pl": "Poproszę kawę.",
+              "zhHans": "我要一杯咖啡。",
+              "zhHant": "我要一杯咖啡。",
+              "pinyin": "Wǒ yào yì bēi kāfēi."
+            },
+            {
+              "pl": "Muszę już iść.",
+              "zhHans": "我得走了。",
+              "zhHant": "我得走了。",
+              "pinyin": "Wǒ děi zǒu le."
+            },
+            {
+              "pl": "Powinieneś wcześniej kłaść się spać.",
+              "zhHans": "你应该早点儿睡。",
+              "zhHant": "你應該早點兒睡。",
+              "pinyin": "Nǐ yīnggāi zǎo diǎnr shuì."
+            },
+            {
+              "pl": "Nie musisz kupować biletu.",
+              "zhHans": "你不用买票。",
+              "zhHant": "你不用買票。",
+              "pinyin": "Nǐ búyòng mǎi piào."
+            }
+          ],
+          "note": {
+            "pl": "W mowie potocznej 得 (děi) nie ma zwykłej negacji; mówi się 不用 („nie musi”) albo 不能 („nie wolno”), zależnie od sensu.",
+            "zhHans": "口语里“得 děi”没有对应的否定式；依意思说“不用”（不必）或“不能”（不可以）。",
+            "zhHant": "口語裡「得 děi」沒有對應的否定式；依意思說「不用」（不必）或「不能」（不可以）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Szyk modalnych w zdaniu",
+            "zhHans": "能愿动词的语序",
+            "zhHant": "能願動詞的語序"
+          },
+          "explanation": {
+            "pl": "Podmiot + (przeczenie) + modalny + czasownik + dopełnienie. Przysłówki (也, 都, 很) stoją przed modalnym. W pytaniach A-nie-A powtarza się modalny: 你会不会说中文？",
+            "zhHans": "主语＋（否定）＋能愿动词＋动词＋宾语。副词（也、都、很）放在能愿动词前。正反问重复能愿动词：你会不会说中文？",
+            "zhHant": "主語＋（否定）＋能願動詞＋動詞＋賓語。副詞（也、都、很）放在能願動詞前。正反問重複能願動詞：你會不會說中文？"
+          },
+          "examples": [
+            {
+              "pl": "Ona też umie mówić po chińsku.",
+              "zhHans": "她也会说中文。",
+              "zhHant": "她也會說中文。",
+              "pinyin": "Tā yě huì shuō Zhōngwén."
+            },
+            {
+              "pl": "Czy umiesz mówić po chińsku?",
+              "zhHans": "你会不会说中文？",
+              "zhHant": "你會不會說中文？",
+              "pinyin": "Nǐ huì bu huì shuō Zhōngwén?"
+            }
+          ],
+          "note": {
+            "pl": "了 stoi zwykle po czasowniku głównym lub na końcu zdania, a nie bezpośrednio po czasowniku modalnym.",
+            "zhHans": "“了”一般放在主要动词后或句末，不直接放在能愿动词之后。",
+            "zhHant": "「了」一般放在主要動詞後或句末，不直接放在能願動詞之後。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-questions",
+      "title": {
+        "pl": "Pytania",
+        "zhHans": "疑问句",
+        "zhHant": "疑問句"
+      },
+      "summary": {
+        "pl": "Pytania w chińskim zachowują szyk zdania oznajmującego. Zadajemy je przez 吗, formę A-nie-A, słowa pytające lub 还是.",
+        "zhHans": "汉语疑问句基本保持陈述句语序。常用“吗”、正反问、疑问词和“还是”来提问。",
+        "zhHant": "漢語疑問句基本保持陳述句語序。常用「嗎」、正反問、疑問詞和「還是」來提問。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Pytania tak/nie: 吗, A不A, 吧, 呢",
+            "zhHans": "是非问与正反问：吗、A不A、吧、呢",
+            "zhHant": "是非問與正反問：嗎、A不A、吧、呢"
+          },
+          "explanation": {
+            "pl": "吗 na końcu zdania zamienia je w pytanie tak/nie. A不A (你去不去？, 是不是, 有没有) pyta bez 吗. 吧 prosi o potwierdzenie przypuszczenia. 呢 po rzeczowniku pyta „a ...?” (你呢？) lub „gdzie jest …?” (我的手机呢？). Nie łączy się 吗 z formą A不A ani ze słowem pytającym.",
+            "zhHans": "句末“吗”把陈述句变成是非问。“A不A”（你去不去？、是不是、有没有）不用“吗”。“吧”用于推测并求证。名词后加“呢”表示“……呢？”（你呢？）或“……在哪儿？”（我的手机呢？）。“吗”不与正反问或疑问词同用。",
+            "zhHant": "句末「嗎」把陳述句變成是非問。「A不A」（你去不去？、是不是、有沒有）不用「嗎」。「吧」用於推測並求證。名詞後加「呢」表示「……呢？」（你呢？）或「……在哪兒？」（我的手機呢？）。「嗎」不與正反問或疑問詞同用。"
+          },
+          "examples": [
+            {
+              "pl": "Czy jesteś uczniem?",
+              "zhHans": "你是学生吗？",
+              "zhHant": "你是學生嗎？",
+              "pinyin": "Nǐ shì xuésheng ma?"
+            },
+            {
+              "pl": "Czy pijesz herbatę?",
+              "zhHans": "你喝不喝茶？",
+              "zhHant": "你喝不喝茶？",
+              "pinyin": "Nǐ hē bu hē chá?"
+            },
+            {
+              "pl": "Czy masz rodzeństwo?",
+              "zhHans": "你有没有兄弟姐妹？",
+              "zhHant": "你有沒有兄弟姐妹？",
+              "pinyin": "Nǐ yǒu méiyǒu xiōngdì jiěmèi?"
+            },
+            {
+              "pl": "Czy on jest twoim nauczycielem?",
+              "zhHans": "他是不是你的老师？",
+              "zhHant": "他是不是你的老師？",
+              "pinyin": "Tā shì bu shì nǐ de lǎoshī?"
+            }
+          ],
+          "note": {
+            "pl": "Odpowiedź na pytanie tak/nie powtarza czasownik: 你喝茶吗？ — 喝 / 不喝. Krótkie 是 / 对 pasują raczej do pytań o potwierdzenie (他是老师吗？ — 是).",
+            "zhHans": "回答是非问时通常重复动词：你喝茶吗？―喝／不喝。单说“是”“对”多用于回答核实性问题（他是老师吗？―是）。",
+            "zhHant": "回答是非問時通常重複動詞：你喝茶嗎？―喝／不喝。單說「是」「對」多用於回答核實性問題（他是老師嗎？―是）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Słowa pytające na miejscu odpowiedzi",
+            "zhHans": "疑问词放在答案的位置",
+            "zhHant": "疑問詞放在答案的位置"
+          },
+          "explanation": {
+            "pl": "谁 (kto), 什么 (co / jaki), 哪 + licznik (który), 哪儿／哪里 (gdzie), 什么时候 (kiedy), 为什么 (dlaczego), 怎么 (jak; w niektórych kontekstach także „jak to możliwe”), 怎么样 (jak, jaki), 几 / 多少 (ile). Słowo pytające zajmuje miejsce odpowiedzi w zdaniu oznajmującym.",
+            "zhHans": "谁、什么、哪＋量词（哪个）、哪儿／哪里、什么时候、为什么、怎么（方式；有时表示惊讶）、怎么样、几／多少。疑问词的位置就是答案在陈述句中的位置。",
+            "zhHant": "誰、什麼、哪＋量詞（哪個）、哪兒／哪裡、什麼時候、為什麼、怎麼（方式；有時表示驚訝）、怎麼樣、幾／多少。疑問詞的位置就是答案在陳述句中的位置。"
+          },
+          "examples": [
+            {
+              "pl": "Jak masz na imię?",
+              "zhHans": "你叫什么名字？",
+              "zhHant": "你叫什麼名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?"
+            },
+            {
+              "pl": "Gdzie mieszkasz?",
+              "zhHans": "你住在哪儿？",
+              "zhHant": "你住在哪兒？",
+              "pinyin": "Nǐ zhù zài nǎr?"
+            },
+            {
+              "pl": "Kiedy kończysz pracę?",
+              "zhHans": "你什么时候下班？",
+              "zhHant": "你什麼時候下班？",
+              "pinyin": "Nǐ shénme shíhou xiàbān?"
+            },
+            {
+              "pl": "Dlaczego uczysz się chińskiego?",
+              "zhHans": "你为什么学中文？",
+              "zhHant": "你為什麼學中文？",
+              "pinyin": "Nǐ wèishénme xué Zhōngwén?"
+            },
+            {
+              "pl": "Jak dojść na dworzec?",
+              "zhHans": "去火车站怎么走？",
+              "zhHant": "去火車站怎麼走？",
+              "pinyin": "Qù huǒchēzhàn zěnme zǒu?"
+            },
+            {
+              "pl": "Który chcesz?",
+              "zhHans": "你要哪个？",
+              "zhHant": "你要哪個？",
+              "pinyin": "Nǐ yào nǎ ge?"
+            },
+            {
+              "pl": "Kto jest twoim nauczycielem?",
+              "zhHans": "谁是你的老师？",
+              "zhHant": "誰是你的老師？",
+              "pinyin": "Shéi shì nǐ de lǎoshī?"
+            }
+          ],
+          "note": {
+            "pl": "怎么 pyta o sposób (怎么走) lub wyraża zdziwienie (你怎么还没来？). 为什么 stoi przed czasownikiem.",
+            "zhHans": "“怎么”问方式（怎么走），也可表示惊讶（你怎么还没来？）。“为什么”放在动词之前。",
+            "zhHant": "「怎麼」問方式（怎麼走），也可表示驚訝（你怎麼還沒來？）。「為什麼」放在動詞之前。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Pytania alternatywne: 还是",
+            "zhHans": "选择问：还是",
+            "zhHant": "選擇問：還是"
+          },
+          "explanation": {
+            "pl": "A 还是 B? („A czy B?”) w pytaniach. W zdaniach oznajmujących „lub” oddaje 或者. W odpowiedzi wybiera się jedną opcję.",
+            "zhHans": "“A还是B？”用于问句。陈述句中表示“或者”用“或者”。回答时选其一。",
+            "zhHant": "「A還是B？」用於問句。陳述句中表示「或者」用「或者」。回答時選其一。"
+          },
+          "examples": [
+            {
+              "pl": "Pijesz herbatę czy kawę?",
+              "zhHans": "你喝茶还是咖啡？",
+              "zhHant": "你喝茶還是咖啡？",
+              "pinyin": "Nǐ hē chá háishi kāfēi?"
+            },
+            {
+              "pl": "Wypiję herbatę albo kawę.",
+              "zhHans": "我喝茶或者咖啡。",
+              "zhHant": "我喝茶或者咖啡。",
+              "pinyin": "Wǒ hē chá huòzhě kāfēi."
+            }
+          ],
+          "note": {
+            "pl": "Pytanie alternatywne nie bierze 吗: 你喝茶还是咖啡吗？ jest błędne.",
+            "zhHans": "选择问不加“吗”：“你喝茶还是咖啡吗？”是错句。",
+            "zhHant": "選擇問不加「嗎」：「你喝茶還是咖啡嗎？」是錯句。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-sentence-particles",
+      "title": {
+        "pl": "Partykuły zdaniowe: 吧, 呢, 啊, 嘛, 的",
+        "zhHans": "常见语气助词：吧、呢、啊、嘛、的",
+        "zhHant": "常見語氣助詞：吧、呢、啊、嘛、的"
+      },
+      "summary": {
+        "pl": "Partykuły na końcu zdania nadają mu ton emocjonalny lub funkcję komunikacyjną: łagodzą prośbę, sygnalizują przypuszczenie, podkreślają oczywistość. Zazwyczaj mają ton neutralny.",
+        "zhHans": "句末语气助词给句子增添语气或交际功能：缓和请求、表示推测、强调显而易见。它们通常读轻声。",
+        "zhHant": "句末語氣助詞給句子增添語氣或交際功能：緩和請求、表示推測、強調顯而易見。它們通常讀輕聲。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "吧 i 呢",
+            "zhHans": "“吧”与“呢”",
+            "zhHant": "「吧」與「呢」"
+          },
+          "explanation": {
+            "pl": "吧: propozycja, łagodny rozkaz, przypuszczenie, zgoda (好吧). 呢: pytanie „a …?” (我很好，你呢？), czynność w toku (他在睡觉呢), kontynuacja stanu lub podkreślenie (还早呢 „jeszcze wcześnie!”).",
+            "zhHans": "“吧”：建议、缓和命令、推测、勉强同意（好吧）。“呢”：“……呢？”的追问（我很好，你呢？）、动作进行中（他在睡觉呢）、强调程度或状态持续（还早呢）。",
+            "zhHant": "「吧」：建議、緩和命令、推測、勉強同意（好吧）。「呢」：「……呢？」的追問（我很好，你呢？）、動作進行中（他在睡覺呢）、強調程度或狀態持續（還早呢）。"
+          },
+          "examples": [
+            {
+              "pl": "Chodźmy.",
+              "zhHans": "我们走吧。",
+              "zhHant": "我們走吧。",
+              "pinyin": "Wǒmen zǒu ba."
+            },
+            {
+              "pl": "Dziś chyba go nie ma w domu, prawda?",
+              "zhHans": "他今天不在家吧？",
+              "zhHant": "他今天不在家吧？",
+              "pinyin": "Tā jīntiān bú zài jiā ba?"
+            },
+            {
+              "pl": "Mam się dobrze, a ty?",
+              "zhHans": "我很好，你呢？",
+              "zhHant": "我很好，你呢？",
+              "pinyin": "Wǒ hěn hǎo, nǐ ne?"
+            },
+            {
+              "pl": "Gdzie jest mój telefon?",
+              "zhHans": "我的手机呢？",
+              "zhHant": "我的手機呢？",
+              "pinyin": "Wǒ de shǒujī ne?"
+            },
+            {
+              "pl": "On właśnie śpi.",
+              "zhHans": "他在睡觉呢。",
+              "zhHant": "他在睡覺呢。",
+              "pinyin": "Tā zài shuìjiào ne."
+            }
+          ],
+          "note": {
+            "pl": "吧 złagodzi prośbę, ale może też brzmieć niezdecydowanie. Nie dodawaj go do zwykłych pytań z 吗.",
+            "zhHans": "“吧”会使语气缓和，也可能显得不确定。不要把它加到已有“吗”的疑问句里。",
+            "zhHant": "「吧」會使語氣緩和，也可能顯得不確定。不要把它加到已有「嗎」的疑問句裡。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "啊, 嘛, 啦",
+            "zhHans": "“啊”“嘛”“啦”",
+            "zhHant": "「啊」「嘛」「啦」"
+          },
+          "explanation": {
+            "pl": "啊 (a, ya, wa… zależnie od poprzedzającej głoski) łagodzi lub wzmacnia emocje: wykrzyknik, przypomnienie, pytanie. 嘛 podkreśla, że coś jest oczywiste lub że to wyjaśnienie. 啦 = 了 + 啊: zmiana stanu z emfazą.",
+            "zhHans": "“啊”（因前字读音而变读 ya、wa 等）使语气缓和或加强：感叹、提醒、疑问。“嘛”强调事情显而易见，或表示解释。“啦”＝“了＋啊”：表示变化并带感情色彩。",
+            "zhHant": "「啊」（因前字讀音而變讀 ya、wa 等）使語氣緩和或加強：感嘆、提醒、疑問。「嘛」強調事情顯而易見，或表示解釋。「啦」＝「了＋啊」：表示變化並帶感情色彩。"
+          },
+          "examples": [
+            {
+              "pl": "Jakie to ładne!",
+              "zhHans": "真漂亮啊！",
+              "zhHant": "真漂亮啊！",
+              "pinyin": "Zhēn piàoliang a!"
+            },
+            {
+              "pl": "On jest tu nowy, więc oczywiście nie wie.",
+              "zhHans": "他是新来的嘛，当然不知道。",
+              "zhHant": "他是新來的嘛，當然不知道。",
+              "pinyin": "Tā shì xīn lái de ma, dāngrán bù zhīdào."
+            },
+            {
+              "pl": "Znakomicie!",
+              "zhHans": "太好了！",
+              "zhHant": "太好了！",
+              "pinyin": "Tài hǎo le!"
+            }
+          ],
+          "note": {
+            "pl": "Partykuły emocjonalne używane z umiarem brzmią naturalnie; w tekstach formalnych (artykuły, instrukcje) zwykle ich unika się.",
+            "zhHans": "语气助词适量使用才自然；在正式文体（文章、说明书）中一般少用。",
+            "zhHant": "語氣助詞適量使用才自然；在正式文體（文章、說明書）中一般少用。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "的 na końcu zdania",
+            "zhHans": "句末的“的”",
+            "zhHant": "句末的「的」"
+          },
+          "explanation": {
+            "pl": "的 na końcu zdania wyraża pewność lub ocenę mówiącego („tak już jest”, „na pewno”). Często łączy się z 会: 他会来的.",
+            "zhHans": "句末“的”表示说话人的肯定或判断（“本来就是这样”“一定”）。常与“会”搭配：他会来的。",
+            "zhHant": "句末「的」表示說話人的肯定或判斷（「本來就是這樣」「一定」）。常與「會」搭配：他會來的。"
+          },
+          "examples": [
+            {
+              "pl": "On na pewno przyjdzie.",
+              "zhHans": "他会来的。",
+              "zhHant": "他會來的。",
+              "pinyin": "Tā huì lái de."
+            },
+            {
+              "pl": "Nie martw się, wszystko będzie dobrze.",
+              "zhHans": "别担心，会好的。",
+              "zhHant": "別擔心，會好的。",
+              "pinyin": "Bié dānxīn, huì hǎo de."
+            }
+          ],
+          "note": {
+            "pl": "To nie jest to samo co 是……的 (podkreślenie okoliczności zdarzenia przeszłego); tu 的 wzmacnia pewność.",
+            "zhHans": "这与“是……的”（强调已发生事件的细节）不同；此处“的”加强肯定的语气。",
+            "zhHant": "這與「是……的」（強調已發生事件的細節）不同；此處「的」加強肯定的語氣。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-common-adverbs",
+      "title": {
+        "pl": "Częste przysłówki: 也, 都, 又, 再, 就, 才, 还",
+        "zhHans": "常见副词：也、都、又、再、就、才、还",
+        "zhHant": "常見副詞：也、都、又、再、就、才、還"
+      },
+      "summary": {
+        "pl": "Przysłówki stoją po podmiocie i przed czasownikiem (lub przymiotnikiem). Ich kolejność jest stała, a znaczenie często zależy od położenia w zdaniu.",
+        "zhHans": "副词放在主语之后、动词（或形容词）之前。它们的顺序相对固定，意义常取决于位置。",
+        "zhHant": "副詞放在主語之後、動詞（或形容詞）之前。它們的順序相對固定，意義常取決於位置。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "也 i 都",
+            "zhHans": "“也”与“都”",
+            "zhHant": "「也」與「都」"
+          },
+          "explanation": {
+            "pl": "也 = „też”, 都 = „wszyscy / wszystko”. Gdy występują razem: 也都 (też wszyscy). 都 odnosi się do wszystkiego, co jest wcześniej (po lewej). Przeczenie: 都不 = wszyscy nie (nikt); 不都 = nie wszyscy.",
+            "zhHans": "“也”＝also，“都”＝all。同时出现时用“也都”。“都”总括它前面（左边）的成分。否定：“都不”＝全都不（没有人）；“不都”＝不是全都（部分）。",
+            "zhHant": "「也」＝also，「都」＝all。同時出現時用「也都」。「都」總括它前面（左邊）的成分。否定：「都不」＝全都不（沒有人）；「不都」＝不是全都（部分）。"
+          },
+          "examples": [
+            {
+              "pl": "Ja też jestem uczniem.",
+              "zhHans": "我也是学生。",
+              "zhHant": "我也是學生。",
+              "pinyin": "Wǒ yě shì xuésheng."
+            },
+            {
+              "pl": "Wszyscy jesteśmy uczniami.",
+              "zhHans": "我们都是学生。",
+              "zhHant": "我們都是學生。",
+              "pinyin": "Wǒmen dōu shì xuésheng."
+            },
+            {
+              "pl": "My też wszyscy lubimy herbatę.",
+              "zhHans": "我们也都喜欢茶。",
+              "zhHant": "我們也都喜歡茶。",
+              "pinyin": "Wǒmen yě dōu xǐhuan chá."
+            },
+            {
+              "pl": "Żadne z nas nie jest nauczycielem.",
+              "zhHans": "我们都不是老师。",
+              "zhHant": "我們都不是老師。",
+              "pinyin": "Wǒmen dōu bú shì lǎoshī."
+            },
+            {
+              "pl": "Nie wszyscy jesteśmy nauczycielami.",
+              "zhHans": "我们不都是老师。",
+              "zhHant": "我們不都是老師。",
+              "pinyin": "Wǒmen bù dōu shì lǎoshī."
+            }
+          ],
+          "note": {
+            "pl": "Nie mów 也我: 也 musi stać po podmiocie, przed orzeczeniem.",
+            "zhHans": "不说“也我”：“也”必须放在主语之后、谓语之前。",
+            "zhHant": "不說「也我」：「也」必須放在主語之後、謂語之前。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "又 i 再 — powtórzenie",
+            "zhHans": "“又”与“再”―重复",
+            "zhHant": "「又」與「再」―重複"
+          },
+          "explanation": {
+            "pl": "又 mówi o powtórzeniu, które już zaszło (także o cyklicznych terminach: 明天又是星期一). 再 mówi o powtórzeniu w przyszłości, planowanym lub prośbie. 还 = „jeszcze”, „nadal”.",
+            "zhHans": "“又”表示已经发生的重复（也用于周期性的事：明天又是星期一）。“再”表示将来的重复、计划或请求。“还”＝仍然、还有。",
+            "zhHant": "「又」表示已經發生的重複（也用於週期性的事：明天又是星期一）。「再」表示將來的重複、計劃或請求。「還」＝仍然、還有。"
+          },
+          "examples": [
+            {
+              "pl": "Wczoraj znowu się spóźnił.",
+              "zhHans": "他昨天又迟到了。",
+              "zhHant": "他昨天又遲到了。",
+              "pinyin": "Tā zuótiān yòu chídào le."
+            },
+            {
+              "pl": "Proszę powtórzyć jeszcze raz.",
+              "zhHans": "请再说一遍。",
+              "zhHant": "請再說一遍。",
+              "pinyin": "Qǐng zài shuō yí biàn."
+            },
+            {
+              "pl": "Przyjdę jutro jeszcze raz.",
+              "zhHans": "我明天再来。",
+              "zhHant": "我明天再來。",
+              "pinyin": "Wǒ míngtiān zài lái."
+            },
+            {
+              "pl": "On nadal pracuje.",
+              "zhHans": "他还在工作。",
+              "zhHant": "他還在工作。",
+              "pinyin": "Tā hái zài gōngzuò."
+            }
+          ],
+          "note": {
+            "pl": "Różnicę zapamiętaj: 又 = już się powtórzyło, 再 = jeszcze się powtórzy. Gdy mowa o powtórzeniu w przyszłości, zwykle używa się 再, nie 又.",
+            "zhHans": "记忆要点：“又”＝已经重复了，“再”＝还要重复。谈将来的重复时不用“又”。",
+            "zhHant": "記憶要點：「又」＝已經重複了，「再」＝還要重複。談將來的重複時不用「又」。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "就 i 才 — wcześnie / późno",
+            "zhHans": "“就”与“才”―早／晚",
+            "zhHant": "「就」與「才」―早／晚"
+          },
+          "explanation": {
+            "pl": "就 podkreśla, że coś zdarzyło się wcześnie, szybko lub łatwo; 才 podkreśla, że dopiero teraz, późno lub z trudem. Oceny „wcześnie / późno” zależą od oczekiwań mówiącego.",
+            "zhHans": "“就”强调早、快、容易；“才”强调晚、慢、不容易。“早／晚”取决于说话人的预期。",
+            "zhHant": "「就」強調早、快、容易；「才」強調晚、慢、不容易。「早／晚」取決於說話人的預期。"
+          },
+          "examples": [
+            {
+              "pl": "On już o ósmej był na miejscu.",
+              "zhHans": "他八点就到了。",
+              "zhHant": "他八點就到了。",
+              "pinyin": "Tā bā diǎn jiù dào le."
+            },
+            {
+              "pl": "On dotarł dopiero o ósmej.",
+              "zhHans": "他八点才到。",
+              "zhHant": "他八點才到。",
+              "pinyin": "Tā bā diǎn cái dào."
+            }
+          ],
+          "note": {
+            "pl": "就 i 才 mają też inne funkcje (np. 就 jako „zaraz po…, wtedy…”; 才 „dopiero wtedy…”). Tu pokazano tylko najczęstsze.",
+            "zhHans": "“就”和“才”还有其他用法（如“就”＝随即，“才”＝这才）。这里只列最常见的。",
+            "zhHant": "「就」和「才」還有其他用法（如「就」＝隨即，「才」＝這才）。這裡只列最常見的。"
+          }
+        }
+      ]
+    }
+  ]
+}

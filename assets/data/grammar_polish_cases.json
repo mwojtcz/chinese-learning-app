@@ -1,0 +1,935 @@
+{
+  "lessons": [
+    {
+      "id": "pl-cases-seven-cases",
+      "title": {
+        "pl": "Siedem przypadków w praktyce",
+        "zhHans": "波兰语七个格的实用入门",
+        "zhHant": "波蘭語七個格的實用入門"
+      },
+      "summary": {
+        "pl": "Polski ma siedem przypadków. Końcówka rzeczownika pokazuje jego rolę w zdaniu, więc szyk wyrazów jest swobodniejszy niż w chińskim.",
+        "zhHans": "波兰语有七个格。名词的词尾表明它在句中的作用，所以语序比汉语自由。汉语靠语序和介词，波兰语靠词尾。",
+        "zhHant": "波蘭語有七個格。名詞的詞尾表明它在句中的作用，所以語序比漢語自由。漢語靠語序和介詞，波蘭語靠詞尾。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Mianownik: kto? co?", "zhHans": "主格：谁？什么？", "zhHant": "主格：誰？什麼？" },
+          "explanation": {
+            "pl": "Mianownik to forma słownikowa. Używamy go dla podmiotu i po „to jest”.",
+            "zhHans": "主格是词典里的原形，用于主语，也用于「to jest（这是）」之后。",
+            "zhHant": "主格是詞典裡的原形，用於主語，也用於「to jest（這是）」之後。"
+          },
+          "examples": [
+            { "pl": "Mama pracuje w szkole.", "zhHans": "妈妈在学校工作。", "zhHant": "媽媽在學校工作。" },
+            { "pl": "To jest nowy dom.", "zhHans": "这是一座新房子。", "zhHant": "這是一棟新房子。" }
+          ],
+          "note": {
+            "pl": "W słowniku szukaj mianownika liczby pojedynczej; odmienione słowo najpierw sprowadź do tej formy.",
+            "zhHans": "查词典时要找单数主格；遇到变了形的词，先还原成主格再查。",
+            "zhHant": "查詞典時要找單數主格；遇到變了形的詞，先還原成主格再查。"
+          }
+        },
+        {
+          "heading": { "pl": "Dopełniacz: kogo? czego?", "zhHans": "属格：谁的？什么的？", "zhHant": "屬格：誰的？什麼的？" },
+          "explanation": {
+            "pl": "Dopełniacz oznacza przynależność, brak i ilość, a także występuje po wielu przyimkach.",
+            "zhHans": "属格表示所属、「没有」和数量，也出现在很多介词之后。",
+            "zhHant": "屬格表示所屬、「沒有」和數量，也出現在很多介詞之後。"
+          },
+          "examples": [
+            { "pl": "Nie ma mamy w domu.", "zhHans": "妈妈不在家。", "zhHant": "媽媽不在家。" },
+            { "pl": "To jest książka mamy.", "zhHans": "这是妈妈的书。", "zhHant": "這是媽媽的書。" },
+            { "pl": "Potrzebuję czasu.", "zhHans": "我需要时间。", "zhHant": "我需要時間。" }
+          ],
+          "note": {
+            "pl": "Chińskie „妈妈的书” po polsku to „książka mamy”: rzecz posiadana stoi pierwsza, a właściciel w dopełniaczu po niej.",
+            "zhHans": "汉语「妈妈的书」在波兰语里是「książka mamy」：被拥有的东西在前，拥有者的属格在后，顺序与汉语相反。",
+            "zhHant": "漢語「媽媽的書」在波蘭語裡是「książka mamy」：被擁有的東西在前，擁有者的屬格在後，順序與漢語相反。"
+          }
+        },
+        {
+          "heading": { "pl": "Celownik: komu? czemu?", "zhHans": "与格：给谁？对谁？", "zhHant": "與格：給誰？對誰？" },
+          "explanation": {
+            "pl": "Celownik oznacza odbiorcę lub osobę, której coś dotyczy.",
+            "zhHans": "与格表示接受者，或与某件事有关的人，常对应汉语的「给」「对」。",
+            "zhHant": "與格表示接受者，或與某件事有關的人，常對應漢語的「給」「對」。"
+          },
+          "examples": [
+            { "pl": "Dziękuję mamie.", "zhHans": "我感谢妈妈。", "zhHant": "我感謝媽媽。" },
+            { "pl": "Pomagam mamie w kuchni.", "zhHans": "我在厨房帮妈妈。", "zhHant": "我在廚房幫媽媽。" }
+          ],
+          "note": {
+            "pl": "Niektóre czasowniki wymagają celownika, choć po chińsku mają zwykłe dopełnienie: pomagać komuś, dziękować komuś. Ucz się ich jako stałych połączeń.",
+            "zhHans": "有些动词必须带与格，而汉语里是普通宾语：pomagać komuś（帮助某人）、dziękować komuś（感谢某人）。要当作固定搭配记。",
+            "zhHant": "有些動詞必須帶與格，而漢語裡是普通賓語：pomagać komuś（幫助某人）、dziękować komuś（感謝某人）。要當作固定搭配記。"
+          }
+        },
+        {
+          "heading": { "pl": "Biernik: kogo? co?", "zhHans": "宾格：谁？什么？（直接宾语）", "zhHant": "賓格：誰？什麼？（直接賓語）" },
+          "explanation": {
+            "pl": "Biernik oznacza bezpośrednie dopełnienie. Rzeczowniki żeńskie na -a mają w nim końcówkę -ę.",
+            "zhHans": "宾格用于直接宾语。以 -a 结尾的阴性名词变成 -ę；其他性和数的规律见后面的课。",
+            "zhHant": "賓格用於直接賓語。以 -a 結尾的陰性名詞變成 -ę；其他性和數的規律見後面的課。"
+          },
+          "examples": [
+            { "pl": "Kocham mamę.", "zhHans": "我爱妈妈。", "zhHant": "我愛媽媽。" },
+            { "pl": "Czytam książkę.", "zhHans": "我在读书。", "zhHant": "我在讀書。" }
+          ],
+          "note": {
+            "pl": "Nie wystarczy położyć „książka” po czasowniku jak po chińsku; dopełnienie musi mieć końcówkę biernika.",
+            "zhHans": "汉语只要把宾语放在动词后面就行，波兰语还必须把宾语变成宾格形式，不能说「Czytam książka」。",
+            "zhHant": "漢語只要把賓語放在動詞後面就行，波蘭語還必須把賓語變成賓格形式，不能說「Czytam książka」。"
+          }
+        },
+        {
+          "heading": { "pl": "Narzędnik: z kim? z czym? czym?", "zhHans": "工具格：和谁？用什么？", "zhHant": "工具格：和誰？用什麼？" },
+          "explanation": {
+            "pl": "Narzędnik oznacza towarzysza (z + narzędnik), narzędzie lub środek transportu bez przyimka oraz rolę po „być”.",
+            "zhHans": "工具格表示「和谁一起」（z＋工具格）、「用什么工具」「乘什么交通工具」（不带介词），也表示「是……」的身份。",
+            "zhHant": "工具格表示「和誰一起」（z＋工具格）、「用什麼工具」「乘什麼交通工具」（不帶介詞），也表示「是……」的身分。"
+          },
+          "examples": [
+            { "pl": "Idę z mamą do kina.", "zhHans": "我和妈妈去看电影。", "zhHant": "我和媽媽去看電影。" },
+            { "pl": "Piszę długopisem.", "zhHans": "我用圆珠笔写字。", "zhHant": "我用原子筆寫字。" }
+          ],
+          "note": {
+            "pl": "Po chińsku „和” i „用” to różne słowa, a po polsku obie funkcje wyraża narzędnik; tylko „z kim” wymaga przyimka z.",
+            "zhHans": "汉语里「和」和「用」是两个词，波兰语两种意思都用工具格，只是「和」要加介词 z，「用」不加。",
+            "zhHant": "漢語裡「和」和「用」是兩個詞，波蘭語兩種意思都用工具格，只是「和」要加介詞 z，「用」不加。"
+          }
+        },
+        {
+          "heading": { "pl": "Miejscownik: o kim? o czym? gdzie?", "zhHans": "前置格（地点格）：关于谁？在哪里？", "zhHant": "前置格（地點格）：關於誰？在哪裡？" },
+          "explanation": {
+            "pl": "Miejscownik występuje tylko po przyimkach: w, na, o, po, przy.",
+            "zhHans": "前置格只与介词连用：w（在……里）、na（在……上）、o（关于）、po（……之后）、przy（在……旁）。",
+            "zhHant": "前置格只與介詞連用：w（在……裡）、na（在……上）、o（關於）、po（……之後）、przy（在……旁）。"
+          },
+          "examples": [
+            { "pl": "Rozmawiamy o mamie.", "zhHans": "我们在谈论妈妈。", "zhHant": "我們在談論媽媽。" },
+            { "pl": "Mieszkam w Warszawie.", "zhHans": "我住在华沙。", "zhHant": "我住在華沙。" }
+          ],
+          "note": {
+            "pl": "Zwróć uwagę na zmianę spółgłoski: Warszawa → w Warszawie, nie „w Warszawe”. Szczegóły w lekcji o oboczności.",
+            "zhHans": "注意词干辅音会变：Warszawa → w Warszawie，不是「w Warszawe」。详见关于词干交替的一课。",
+            "zhHant": "注意詞幹輔音會變：Warszawa → w Warszawie，不是「w Warszawe」。詳見關於詞幹交替的一課。"
+          }
+        },
+        {
+          "heading": { "pl": "Wołacz: zwracanie się do kogoś", "zhHans": "呼格：称呼对方", "zhHant": "呼格：稱呼對方" },
+          "explanation": {
+            "pl": "Wołacz służy do bezpośredniego zwracania się do osoby. Czasem jest taki sam jak mianownik, ale wiele częstych słów ma osobną formę.",
+            "zhHans": "呼格用于直接称呼人。有时与主格相同，但很多常用词有专门的形式。",
+            "zhHant": "呼格用於直接稱呼人。有時與主格相同，但很多常用詞有專門的形式。"
+          },
+          "examples": [
+            { "pl": "Mamo, chodź tutaj!", "zhHans": "妈妈，过来！", "zhHant": "媽媽，過來！" },
+            { "pl": "Dzień dobry, panie doktorze.", "zhHans": "医生先生，您好。", "zhHant": "醫生先生，您好。" }
+          ],
+          "note": {
+            "pl": "W liczbie mnogiej wołacz równa się mianownikowi. Do rozumienia tekstu nie jest konieczny, ale w mowie brzmi naturalnie.",
+            "zhHans": "复数的呼格等于主格。读懂文章时用不到，但口语里用对了听起来很自然。",
+            "zhHant": "複數的呼格等於主格。讀懂文章時用不到，但口語裡用對了聽起來很自然。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-noun-genders",
+      "title": {
+        "pl": "Rodzaje rzeczowników",
+        "zhHans": "名词的性：阳性、阴性、中性",
+        "zhHant": "名詞的性：陽性、陰性、中性"
+      },
+      "summary": {
+        "pl": "Każdy rzeczownik ma rodzaj, a przymiotniki, zaimki i czasowniki w czasie przeszłym zgadzają się z nim. Zakończenie podpowiada rodzaj, ale ma wyjątki.",
+        "zhHans": "每个名词都有性，形容词、代词和过去时动词要与它保持一致。词尾能提示性，但有不少例外。汉语没有性，要靠记忆和词尾规律。",
+        "zhHant": "每個名詞都有性，形容詞、代詞和過去時動詞要與它保持一致。詞尾能提示性，但有不少例外。漢語沒有性，要靠記憶和詞尾規律。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Typowe końcówki", "zhHans": "典型词尾", "zhHant": "典型詞尾" },
+          "explanation": {
+            "pl": "Zwykle: spółgłoska na końcu to rodzaj męski, -a to żeński, a -o, -e, -ę, -um to nijaki.",
+            "zhHans": "一般规律：以辅音结尾多为阳性；以 -a 结尾多为阴性；以 -o、-e、-ę、-um 结尾多为中性。",
+            "zhHant": "一般規律：以輔音結尾多為陽性；以 -a 結尾多為陰性；以 -o、-e、-ę、-um 結尾多為中性。"
+          },
+          "examples": [
+            { "pl": "ten stół – ten dom", "zhHans": "这张桌子——这座房子（阳性）", "zhHant": "這張桌子——這棟房子（陽性）" },
+            { "pl": "ta książka – ta kobieta", "zhHans": "这本书——这个女人（阴性）", "zhHant": "這本書——這個女人（陰性）" },
+            { "pl": "to okno – to morze", "zhHans": "这扇窗——这片海（中性）", "zhHant": "這扇窗——這片海（中性）" }
+          ],
+          "note": {
+            "pl": "Ucz się rzeczownika razem ze wskazówką: ten / ta / to + słowo.",
+            "zhHans": "背名词时连同 ten / ta / to 一起背，性就跟着记住了。",
+            "zhHant": "背名詞時連同 ten / ta / to 一起背，性就跟著記住了。"
+          }
+        },
+        {
+          "heading": { "pl": "Ważne wyjątki", "zhHans": "重要的例外", "zhHant": "重要的例外" },
+          "explanation": {
+            "pl": "Część rzeczowników męskich kończy się na -a, a część żeńskich na spółgłoskę. Niektóre nijakie mają nietypowe końcówki.",
+            "zhHans": "一部分阳性名词以 -a 结尾，一部分阴性名词以辅音结尾，中性名词里也有少数词尾特殊的。",
+            "zhHant": "一部分陽性名詞以 -a 結尾，一部分陰性名詞以輔音結尾，中性名詞裡也有少數詞尾特殊的。"
+          },
+          "examples": [
+            { "pl": "ten mężczyzna, ten kolega, ten dentysta", "zhHans": "这位男士、这位同学、这位牙医（以 -a 结尾的阳性）", "zhHant": "這位男士、這位同學、這位牙醫（以 -a 結尾的陽性）" },
+            { "pl": "ta noc, ta rzecz, ta miłość, ta sól", "zhHans": "夜晚、东西、爱、盐（以辅音结尾的阴性）", "zhHant": "夜晚、東西、愛、鹽（以輔音結尾的陰性）" },
+            { "pl": "to imię, to zwierzę, to muzeum", "zhHans": "名字、动物、博物馆（特殊的中性）", "zhHant": "名字、動物、博物館（特殊的中性）" }
+          ],
+          "note": {
+            "pl": "Rzeczowniki na -ść (miłość, wolność) są zwykle żeńskie. Rzeczowniki męskie na -a odmieniają się jak żeńskie, ale przymiotnik jest męski: dobry kolega.",
+            "zhHans": "以 -ść 结尾的名词（miłość、wolność）通常是阴性。以 -a 结尾的阳性名词词尾变化像阴性，但形容词用阳性：dobry kolega（好同学）。",
+            "zhHant": "以 -ść 結尾的名詞（miłość、wolność）通常是陰性。以 -a 結尾的陽性名詞詞尾變化像陰性，但形容詞用陽性：dobry kolega（好同學）。"
+          }
+        },
+        {
+          "heading": { "pl": "Trzy typy rodzaju męskiego", "zhHans": "阳性分三类", "zhHant": "陽性分三類" },
+          "explanation": {
+            "pl": "Rodzaj męski dzieli się na osobowy (ludzie), żywotny (zwierzęta) i nieżywotny (rzeczy). Różnica widoczna jest w bierniku.",
+            "zhHans": "阳性分为：人（有生命，指人）、动物（有生命）、物（无生命）。区别主要体现在宾格上。",
+            "zhHant": "陽性分為：人（有生命，指人）、動物（有生命）、物（無生命）。區別主要體現在賓格上。"
+          },
+          "examples": [
+            { "pl": "Widzę studenta.", "zhHans": "我看见一个大学生。", "zhHant": "我看見一個大學生。" },
+            { "pl": "Widzę kota.", "zhHans": "我看见一只猫。", "zhHant": "我看見一隻貓。" },
+            { "pl": "Widzę stół.", "zhHans": "我看见一张桌子。", "zhHant": "我看見一張桌子。" }
+          ],
+          "note": {
+            "pl": "Rzeczowniki żywotne i osobowe mają w bierniku formę dopełniacza (kota, studenta); nieżywotne zachowują formę mianownika (stół).",
+            "zhHans": "有生命的阳性名词（人和动物）宾格等于属格（kota、studenta）；无生命的保持主格形式（stół）。",
+            "zhHant": "有生命的陽性名詞（人和動物）賓格等於屬格（kota、studenta）；無生命的保持主格形式（stół）。"
+          }
+        },
+        {
+          "heading": { "pl": "Zgodność rodzaju", "zhHans": "性的一致", "zhHant": "性的一致" },
+          "explanation": {
+            "pl": "Przymiotnik i czasownik w czasie przeszłym przyjmują rodzaj rzeczownika. W czasie przeszłym mówiący używa też własnego rodzaju.",
+            "zhHans": "形容词和过去时动词要采用名词的性。过去时里说话人还要用自己的性。",
+            "zhHant": "形容詞和過去時動詞要採用名詞的性。過去時裡說話人還要用自己的性。"
+          },
+          "examples": [
+            { "pl": "nowy dom, nowa książka, nowe okno", "zhHans": "新房子、新书、新窗户", "zhHant": "新房子、新書、新窗戶" },
+            { "pl": "Student był w domu. Studentka była w domu. Dziecko było w domu.", "zhHans": "男大学生在家。女大学生在家。孩子在家。", "zhHant": "男大學生在家。女大學生在家。孩子在家。" },
+            { "pl": "Jestem zmęczony. / Jestem zmęczona.", "zhHans": "我累了。（男）/ 我累了。（女）", "zhHant": "我累了。（男）/ 我累了。（女）" }
+          ],
+          "note": {
+            "pl": "Kobieta mówi: „Byłam w Polsce”, mężczyzna: „Byłem w Polsce”. Po chińsku taka różnica nie istnieje, więc łatwo ją pominąć.",
+            "zhHans": "女性说 Byłam w Polsce，男性说 Byłem w Polsce（我去过波兰）。汉语没有这种区别，所以很容易忘记。",
+            "zhHant": "女性說 Byłam w Polsce，男性說 Byłem w Polsce（我去過波蘭）。漢語沒有這種區別，所以很容易忘記。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-stem-alternations",
+      "title": {
+        "pl": "Twarde i miękkie spółgłoski, oboczności",
+        "zhHans": "硬辅音、软辅音与词干交替",
+        "zhHant": "硬輔音、軟輔音與詞幹交替"
+      },
+      "summary": {
+        "pl": "Końcówka zależy od ostatniej spółgłoski tematu, a w wielu formach sama spółgłoska się zmienia. To zjawisko często zaskakuje uczących się.",
+        "zhHans": "词尾取决于词干最后一个辅音，很多形式里辅音本身也会变化。这是初学者最容易出错的地方，要把常见的变化当作模式来记。",
+        "zhHant": "詞尾取決於詞幹最後一個輔音，很多形式裡輔音本身也會變化。這是初學者最容易出錯的地方，要把常見的變化當作模式來記。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Cztery grupy tematów", "zhHans": "词干的四种类型", "zhHant": "詞幹的四種類型" },
+          "explanation": {
+            "pl": "Temat twardy (t, d, s, z, ł, r, m, n, p, b, w, f), miękki (ć, ś, ź, ń, j, l, c, dz, ci, si), szumiący (sz, ż, rz, cz, dż) i welarny (k, g, ch). Od grupy zależą końcówki liczby mnogiej i niektórych przypadków.",
+            "zhHans": "词干末尾分硬辅音（t, d, s, z, ł, r, m, n, p, b, w, f）、软辅音（ć, ś, ź, ń, j, l, c, dz 等）、咝擦音（sz, ż, rz, cz, dż）和软腭音（k, g, ch）。不同类型的复数词尾和部分格的词尾不同。",
+            "zhHant": "詞幹末尾分硬輔音（t, d, s, z, ł, r, m, n, p, b, w, f）、軟輔音（ć, ś, ź, ń, j, l, c, dz 等）、嘶擦音（sz, ż, rz, cz, dż）和軟齶音（k, g, ch）。不同類型的複數詞尾和部分格的詞尾不同。"
+          },
+          "examples": [
+            { "pl": "stół – stoły", "zhHans": "桌子——桌子们（硬辅音：-y）", "zhHant": "桌子——桌子們（硬輔音：-y）" },
+            { "pl": "książka – książki; noga – nogi", "zhHans": "书——书（复数）；腿——腿（复数）（k、g 后写 -i）", "zhHant": "書——書（複數）；腿——腿（複數）（k、g 後寫 -i）" },
+            { "pl": "koń – konie; ulica – ulice", "zhHans": "马——马（复数）；街道——街道（复数）（软辅音：-e）", "zhHant": "馬——馬（複數）；街道——街道（複數）（軟輔音：-e）" },
+            { "pl": "nóż – noże; gość – goście", "zhHans": "刀——刀（复数）；客人——客人（复数）", "zhHant": "刀——刀（複數）；客人——客人（複數）" }
+          ],
+          "note": {
+            "pl": "Po k i g nigdy nie piszemy -y, tylko -i (książki, nogi). Zasada ortograficzna dotyczy też przymiotników.",
+            "zhHans": "k 和 g 后面从不写 -y，只写 -i（książki, nogi）。这条拼写规则对形容词也适用。",
+            "zhHant": "k 和 g 後面從不寫 -y，只寫 -i（książki, nogi）。這條拼寫規則對形容詞也適用。"
+          }
+        },
+        {
+          "heading": { "pl": "Zmiękczenie przed -e / -ie", "zhHans": "遇到 -e / -ie 时的软化", "zhHant": "遇到 -e / -ie 時的軟化" },
+          "explanation": {
+            "pl": "W miejscowniku (i celowniku) rzeczowników żeńskich oraz w miejscowniku męskim i nijakim spółgłoska ostatnia często się zmiękcza: r→rz, k→c, g→dz, t→ci, d→dz, s→ś, z→ź, ł→l, n→ń, w→wi, p→pi, b→bi, m→mi.",
+            "zhHans": "阴性名词的前置格（和与格），以及部分阳性、中性名词的前置格里，词干末尾辅音常常软化：r→rz，k→c，g→dz，t→ci，d→dz，s→ś，z→ź，ł→l，n→ń，w→wi，p→pi，b→bi，m→mi。",
+            "zhHant": "陰性名詞的前置格（和與格），以及部分陽性、中性名詞的前置格裡，詞幹末尾輔音常常軟化：r→rz，k→c，g→dz，t→ci，d→dz，s→ś，z→ź，ł→l，n→ń，w→wi，p→pi，b→bi，m→mi。"
+          },
+          "examples": [
+            { "pl": "ręka – w ręce; matka – o matce", "zhHans": "手——在手里；母亲——关于母亲（k→c）", "zhHant": "手——在手裡；母親——關於母親（k→c）" },
+            { "pl": "noga – na nodze; góra – w górze", "zhHans": "腿——在腿上（g→dz）；山——在山里（r→rz）", "zhHant": "腿——在腿上（g→dz）；山——在山裡（r→rz）" },
+            { "pl": "szkoła – w szkole; Warszawa – w Warszawie", "zhHans": "学校——在学校（ł→l）；华沙——在华沙（w→wi）", "zhHant": "學校——在學校（ł→l）；華沙——在華沙（w→wi）" },
+            { "pl": "kobieta – o kobiecie; woda – w wodzie; mapa – na mapie", "zhHans": "女人——关于女人（t→ci）；水——在水里（d→dz）；地图——在地图上（p→pi）", "zhHant": "女人——關於女人（t→ci）；水——在水裡（d→dz）；地圖——在地圖上（p→pi）" },
+            { "pl": "miasto – w mieście; krzesło – na krześle; brat – o bracie; kot – o kocie", "zhHans": "城市——在城市里；椅子——在椅子上；哥哥/弟弟——关于哥哥；猫——关于猫", "zhHant": "城市——在城市裡；椅子——在椅子上；哥哥/弟弟——關於哥哥；貓——關於貓" }
+          ],
+          "note": {
+            "pl": "Przed -e spółgłoska d daje dz (woda → w wodzie), a nie dź. Nie każdy rzeczownik zmiękcza się tak samo, więc zapamiętuj formę miejscownika razem ze słowem.",
+            "zhHans": "注意 woda → w wodzie 里 d 变成 dz，而不是 dź。并非所有名词的变化方式都一样，所以要把前置格形式和单词一起记。",
+            "zhHant": "注意 woda → w wodzie 裡 d 變成 dz，而不是 dź。並非所有名詞的變化方式都一樣，所以要把前置格形式和單詞一起記。"
+          }
+        },
+        {
+          "heading": { "pl": "Ruchome e i oboczność ó / o", "zhHans": "活动元音 e 与 ó / o 交替", "zhHant": "活動元音 e 與 ó / o 交替" },
+          "explanation": {
+            "pl": "Wiele rzeczowników męskich traci -e- w odmianie. Inne zmieniają ó na o lub ą na ę.",
+            "zhHans": "很多阳性名词在变格时会丢掉词干中的 -e-；还有的把 ó 变成 o，或把 ą 变成 ę。",
+            "zhHant": "很多陽性名詞在變格時會丟掉詞幹中的 -e-；還有的把 ó 變成 o，或把 ą 變成 ę。"
+          },
+          "examples": [
+            { "pl": "pies – psa; sen – snu; dzień – dnia", "zhHans": "狗——狗的；梦——梦的；日子——日子的", "zhHant": "狗——狗的；夢——夢的；日子——日子的" },
+            { "pl": "chłopiec – chłopca; ojciec – ojca; Marek – Marka", "zhHans": "男孩——男孩的；父亲——父亲的；Marek——Marek 的", "zhHant": "男孩——男孩的；父親——父親的；Marek——Marek 的" },
+            { "pl": "stół – stołu; kościół – kościoła", "zhHans": "桌子——桌子的；教堂——教堂的（ó→o）", "zhHant": "桌子——桌子的；教堂——教堂的（ó→o）" },
+            { "pl": "ząb – zęby; mąż – męża", "zhHans": "牙——牙（复数）；丈夫——丈夫的（ą→ę）", "zhHant": "牙——牙（複數）；丈夫——丈夫的（ą→ę）" }
+          ],
+          "note": {
+            "pl": "Nie każde -e- jest ruchome: sens – sensu, gen – genu zachowują e. Najlepiej uczyć się formy dopełniacza razem ze słowem.",
+            "zhHans": "不是所有 -e- 都会丢：sens（意义）→ sensu、gen（基因）→ genu 保留 e。最好把属格形式和单词一起背。",
+            "zhHant": "不是所有 -e- 都會丟：sens（意義）→ sensu、gen（基因）→ genu 保留 e。最好把屬格形式和單詞一起背。"
+          }
+        },
+        {
+          "heading": { "pl": "Miejscownik męski: -e czy -u?", "zhHans": "阳性前置格：-e 还是 -u？", "zhHant": "陽性前置格：-e 還是 -u？" },
+          "explanation": {
+            "pl": "Rzeczowniki męskie z końcówką twardą mają w miejscowniku -ie (zmiękczenie). Rzeczowniki z k, g, ch oraz miękkimi i szumiącymi tematami mają -u.",
+            "zhHans": "词干末尾是硬辅音的阳性名词，前置格用 -ie（带软化）；词干以 k、g、ch 或软辅音、咝擦音结尾的，则用 -u。",
+            "zhHant": "詞幹末尾是硬輔音的陽性名詞，前置格用 -ie（帶軟化）；詞幹以 k、g、ch 或軟輔音、嘶擦音結尾的，則用 -u。"
+          },
+          "examples": [
+            { "pl": "o bracie, o kocie, o Piotrze", "zhHans": "关于哥哥、关于猫、关于 Piotr", "zhHant": "關於哥哥、關於貓、關於 Piotr" },
+            { "pl": "o Polaku, o lekarzu, o nauczycielu", "zhHans": "关于波兰人、关于医生、关于老师", "zhHant": "關於波蘭人、關於醫生、關於老師" },
+            { "pl": "w domu, w roku, w kraju, w pokoju", "zhHans": "在家里、在这一年、在国家、在房间里（常用例外：-u）", "zhHant": "在家裡、在這一年、在國家、在房間裡（常用例外：-u）" }
+          ],
+          "note": {
+            "pl": "Brak prostej reguły: nie zgaduj. Zapamiętaj częste wyjątki z -u (dom, rok, kraj, pokój) i formy z -e (w lesie, o bracie).",
+            "zhHans": "没有简单规则，不要靠猜。把常见的 -u 例外（dom、rok、kraj、pokój）和 -e 形式（w lesie、o bracie）一起背下来。",
+            "zhHant": "沒有簡單規則，不要靠猜。把常見的 -u 例外（dom、rok、kraj、pokój）和 -e 形式（w lesie、o bracie）一起背下來。"
+          }
+        },
+        {
+          "heading": { "pl": "Oboczności w liczbie mnogiej osobowej", "zhHans": "表示男性群体的复数中的交替", "zhHant": "表示男性群體的複數中的交替" },
+          "explanation": {
+            "pl": "W mianowniku liczby mnogiej rzeczowników osobowych męskich dochodzi do silnych zmian: k→c, g→dz, t→ci, d→dzi, ch→si i innych.",
+            "zhHans": "指男性（或男女混合）群体的名词，主格复数会发生明显变化：k→c，g→dz，t→ci，d→dzi 等；形容词也跟着变。",
+            "zhHant": "指男性（或男女混合）群體的名詞，主格複數會發生明顯變化：k→c，g→dz，t→ci，d→dzi 等；形容詞也跟著變。"
+          },
+          "examples": [
+            { "pl": "Polak – Polacy; Chińczyk – Chińczycy; Niemiec – Niemcy", "zhHans": "波兰人——波兰人们；中国人——中国人们；德国人——德国人们", "zhHant": "波蘭人——波蘭人們；中國人——中國人們；德國人——德國人們" },
+            { "pl": "kolega – koledzy; student – studenci", "zhHans": "同学——同学们；大学生——大学生们", "zhHant": "同學——同學們；大學生——大學生們" },
+            { "pl": "dobry – dobrzy; młody – młodzi", "zhHans": "好的——好的（男性复数）；年轻的——年轻的（男性复数）", "zhHant": "好的——好的（男性複數）；年輕的——年輕的（男性複數）" }
+          ],
+          "note": {
+            "pl": "Przy mieszanej grupie (kobiety i mężczyźni) używa się formy męskoosobowej: Oni są dobrzy.",
+            "zhHans": "男女混合的群体也用男性形式：Oni są dobrzy（他们很好）。只有全是女性或事物时才用另一种复数。",
+            "zhHant": "男女混合的群體也用男性形式：Oni są dobrzy（他們很好）。只有全是女性或事物時才用另一種複數。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-singular-plural",
+      "title": {
+        "pl": "Liczba pojedyncza i mnoga",
+        "zhHans": "单数与复数",
+        "zhHant": "單數與複數"
+      },
+      "summary": {
+        "pl": "Polski rozróżnia liczbę pojedynczą i mnogą w każdym rzeczowniku, a po liczebnikach używa różnych przypadków.",
+        "zhHans": "波兰语的每个名词都要区分单数和复数，数词后面要用的格也不同。汉语名词形式不变，这是需要专门练习的地方。",
+        "zhHant": "波蘭語的每個名詞都要區分單數和複數，數詞後面要用的格也不同。漢語名詞形式不變，這是需要專門練習的地方。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Mianownik liczby mnogiej", "zhHans": "主格复数", "zhHant": "主格複數" },
+          "explanation": {
+            "pl": "Rzeczowniki męskie rzeczowe i żeńskie mają zwykle -y/-i lub -e, nijakie -a. Rzeczowniki męskoosobowe mają -i/-y, -owie lub zmieniony temat.",
+            "zhHans": "阳性（物）和阴性名词复数一般加 -y/-i 或 -e，中性加 -a；指男性群体的阳性名词用 -i/-y、-owie，或词干发生变化。",
+            "zhHant": "陽性（物）和陰性名詞複數一般加 -y/-i 或 -e，中性加 -a；指男性群體的陽性名詞用 -i/-y、-owie，或詞幹發生變化。"
+          },
+          "examples": [
+            { "pl": "stół – stoły; książka – książki; kobieta – kobiety", "zhHans": "桌子；书；女人（复数）", "zhHant": "桌子；書；女人（複數）" },
+            { "pl": "koń – konie; ulica – ulice; okno – okna", "zhHans": "马；街道；窗户（复数）", "zhHant": "馬；街道；窗戶（複數）" },
+            { "pl": "pan – panowie; ojciec – ojcowie", "zhHans": "先生们；父亲们", "zhHant": "先生們；父親們" },
+            { "pl": "brat – bracia; człowiek – ludzie; dziecko – dzieci; oko – oczy; ucho – uszy; rok – lata", "zhHans": "兄弟们；人们；孩子们；眼睛；耳朵；年（不规则复数）", "zhHant": "兄弟們；人們；孩子們；眼睛；耳朵；年（不規則複數）" }
+          ],
+          "note": {
+            "pl": "Rzeczowniki nieregularne (ludzie, dzieci, oczy, uszy, lata) trzeba po prostu zapamiętać.",
+            "zhHans": "不规则的复数（ludzie, dzieci, oczy, uszy, lata）只能一个个记。",
+            "zhHant": "不規則的複數（ludzie, dzieci, oczy, uszy, lata）只能一個個記。"
+          }
+        },
+        {
+          "heading": { "pl": "Męskoosobowe i pozostałe", "zhHans": "男性群体与其他", "zhHant": "男性群體與其他" },
+          "explanation": {
+            "pl": "Grupa mężczyzn albo grupa mieszana ma formy męskoosobowe. Grupa kobiet, zwierząt i rzeczy ma formy niemęskoosobowe.",
+            "zhHans": "男性群体或男女混合群体用「男性群体形式」；全是女性、动物或事物时用另一种形式。动词（过去时）和形容词也跟着变。",
+            "zhHant": "男性群體或男女混合群體用「男性群體形式」；全是女性、動物或事物時用另一種形式。動詞（過去時）和形容詞也跟著變。"
+          },
+          "examples": [
+            { "pl": "Studenci są zmęczeni.", "zhHans": "男大学生们很累。", "zhHant": "男大學生們很累。" },
+            { "pl": "Studentki są zmęczone.", "zhHans": "女大学生们很累。", "zhHant": "女大學生們很累。" },
+            { "pl": "Anna i Piotr są zmęczeni.", "zhHans": "Anna 和 Piotr 很累。（混合群体用男性形式）", "zhHant": "Anna 和 Piotr 很累。（混合群體用男性形式）" }
+          ],
+          "note": {
+            "pl": "Jeden mężczyzna w grupie wystarczy, by użyć formy męskoosobowej: dziesięć kobiet i jeden mężczyzna – oni.",
+            "zhHans": "只要群体里有一个男性，就用男性形式：十个女人加一个男人，要说 oni（他们）。",
+            "zhHant": "只要群體裡有一個男性，就用男性形式：十個女人加一個男人，要說 oni（他們）。"
+          }
+        },
+        {
+          "heading": { "pl": "Dopełniacz liczby mnogiej", "zhHans": "属格复数", "zhHant": "屬格複數" },
+          "explanation": {
+            "pl": "Są trzy główne typy: -ów (twardy męski), -i/-y (miękki lub szumiący męski) oraz zerowa końcówka (żeński i nijaki, często ze zmianą samogłoski).",
+            "zhHans": "属格复数有三种主要类型：-ów（硬辅音阳性）、-i/-y（软辅音或咝擦音阳性）、零词尾（阴性和中性，词干常有元音变化）。",
+            "zhHant": "屬格複數有三種主要類型：-ów（硬輔音陽性）、-i/-y（軟輔音或嘶擦音陽性）、零詞尾（陰性和中性，詞幹常有元音變化）。"
+          },
+          "examples": [
+            { "pl": "kot – kotów; stół – stołów; pan – panów", "zhHans": "猫；桌子；先生（属格复数）", "zhHant": "貓；桌子；先生（屬格複數）" },
+            { "pl": "lekarz – lekarzy; nauczyciel – nauczycieli; koń – koni", "zhHans": "医生；老师；马（属格复数）", "zhHant": "醫生；老師；馬（屬格複數）" },
+            { "pl": "kobieta – kobiet; książka – książek; okno – okien; miasto – miast", "zhHans": "女人；书；窗户；城市（零词尾）", "zhHant": "女人；書；窗戶；城市（零詞尾）" },
+            { "pl": "szkoła – szkół; kawiarnia – kawiarni; ulica – ulic", "zhHans": "学校；咖啡馆；街道（属格复数）", "zhHant": "學校；咖啡館；街道（屬格複數）" },
+            { "pl": "ludzie – ludzi; dzieci – dzieci; oczy – oczu; ręce – rąk; nogi – nóg; przyjaciele – przyjaciół; lata – lat", "zhHans": "人；孩子；眼睛；手；腿；朋友；年（不规则属格复数）", "zhHant": "人；孩子；眼睛；手；腿；朋友；年（不規則屬格複數）" }
+          ],
+          "note": {
+            "pl": "Przy zerowej końcówce często pojawia się ruchome e (książka – książek, okno – okien). Nie istnieje jedna reguła; zapamiętuj formę dopełniacza.",
+            "zhHans": "零词尾时常常插入活动元音 e（książka – książek，okno – okien）。没有统一规则，要把属格复数形式和单词一起背。",
+            "zhHant": "零詞尾時常常插入活動元音 e（książka – książek，okno – okien）。沒有統一規則，要把屬格複數形式和單詞一起背。"
+          }
+        },
+        {
+          "heading": { "pl": "Tylko liczba mnoga", "zhHans": "只有复数的名词", "zhHant": "只有複數的名詞" },
+          "explanation": {
+            "pl": "Niektóre rzeczowniki nie mają liczby pojedynczej, choć po chińsku odpowiadają rzeczy policzalnej lub zbiorczej.",
+            "zhHans": "有些名词没有单数形式，而汉语里对应的往往是单数或集合名词。",
+            "zhHant": "有些名詞沒有單數形式，而漢語裡對應的往往是單數或集合名詞。"
+          },
+          "examples": [
+            { "pl": "Drzwi są otwarte.", "zhHans": "门开着。", "zhHant": "門開著。" },
+            { "pl": "Mam nowe okulary i spodnie.", "zhHans": "我有新眼镜和新裤子。", "zhHant": "我有新眼鏡和新褲子。" },
+            { "pl": "Nie mam pieniędzy.", "zhHans": "我没有钱。", "zhHant": "我沒有錢。" },
+            { "pl": "Mieszkam w Chinach.", "zhHans": "我住在中国。", "zhHant": "我住在中國。" }
+          ],
+          "note": {
+            "pl": "Chiny, wakacje, urodziny, drzwi, pieniądze są w liczbie mnogiej: w Chinach, na wakacjach, wszystkiego najlepszego na urodziny.",
+            "zhHans": "Chiny（中国）、wakacje（假期）、urodziny（生日）、drzwi（门）、pieniądze（钱）都用复数，所以说 w Chinach、na wakacjach。",
+            "zhHant": "Chiny（中國）、wakacje（假期）、urodziny（生日）、drzwi（門）、pieniądze（錢）都用複數，所以說 w Chinach、na wakacjach。"
+          }
+        },
+        {
+          "heading": { "pl": "Liczebniki a przypadek", "zhHans": "数词与格", "zhHant": "數詞與格" },
+          "explanation": {
+            "pl": "Po 2, 3, 4 stoi mianownik liczby mnogiej, a od 5 w górę dopełniacz. Liczebnik 1 łączy się z liczbą pojedynczą.",
+            "zhHans": "2、3、4 后面用主格复数，5 及以上用属格复数；1 后面用单数。汉语只需加量词，波兰语要变格。",
+            "zhHant": "2、3、4 後面用主格複數，5 及以上用屬格複數；1 後面用單數。漢語只需加量詞，波蘭語要變格。"
+          },
+          "examples": [
+            { "pl": "dwa koty, trzy książki, cztery okna", "zhHans": "两只猫、三本书、四扇窗", "zhHant": "兩隻貓、三本書、四扇窗" },
+            { "pl": "dwie kobiety, dwaj bracia", "zhHans": "两个女人、两个兄弟（阴性用 dwie）", "zhHant": "兩個女人、兩個兄弟（陰性用 dwie）" },
+            { "pl": "pięć kotów, sześć książek, dziesięć okien", "zhHans": "五只猫、六本书、十扇窗", "zhHant": "五隻貓、六本書、十扇窗" }
+          ],
+          "note": {
+            "pl": "Liczebniki złożone kończące się na 2, 3, 4 (np. 22) zwykle działają jak 2, 3, 4, ale 12, 13, 14 działają jak liczby od 5. Dla początkującego wystarczy zasada z tej lekcji.",
+            "zhHans": "以 2、3、4 结尾的合成数词（如 22）一般同 2、3、4，但 12、13、14 和 5 以上一样用属格复数。初学者先掌握上面的规则就够了。",
+            "zhHant": "以 2、3、4 結尾的合成數詞（如 22）一般同 2、3、4，但 12、13、14 和 5 以上一樣用屬格複數。初學者先掌握上面的規則就夠了。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-nom-gen-acc",
+      "title": {
+        "pl": "Mianownik, dopełniacz i biernik: porównanie",
+        "zhHans": "主格、属格、宾格的对比",
+        "zhHant": "主格、屬格、賓格的對比"
+      },
+      "summary": {
+        "pl": "Te trzy przypadki występują najczęściej i często mają podobne formy. Trzeba wiedzieć, kiedy biernik równa się mianownikowi, a kiedy dopełniaczowi.",
+        "zhHans": "这三个格最常用，形式又常常相同或相近。关键是弄清宾格什么时候等于主格，什么时候等于属格。",
+        "zhHant": "這三個格最常用，形式又常常相同或相近。關鍵是弄清賓格什麼時候等於主格，什麼時候等於屬格。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Biernik liczby pojedynczej", "zhHans": "单数宾格", "zhHant": "單數賓格" },
+          "explanation": {
+            "pl": "Żeńskie na -a mają -ę, a nijakie mają formę mianownika. Żeńskie zakończone spółgłoską (noc, miłość) nie zmieniają się.",
+            "zhHans": "以 -a 结尾的阴性名词变成 -ę；中性名词宾格等于主格；以辅音结尾的阴性名词（noc, miłość）不变。",
+            "zhHant": "以 -a 結尾的陰性名詞變成 -ę；中性名詞賓格等於主格；以輔音結尾的陰性名詞（noc, miłość）不變。"
+          },
+          "examples": [
+            { "pl": "Mam siostrę.", "zhHans": "我有一个姐姐/妹妹。", "zhHant": "我有一個姐姐/妹妹。" },
+            { "pl": "Piję kawę.", "zhHans": "我在喝咖啡。", "zhHant": "我在喝咖啡。" },
+            { "pl": "Znam tę kobietę.", "zhHans": "我认识这个女人。", "zhHant": "我認識這個女人。" },
+            { "pl": "Widzę okno.", "zhHans": "我看见一扇窗。", "zhHant": "我看見一扇窗。" },
+            { "pl": "Lubię tę noc.", "zhHans": "我喜欢这个夜晚。", "zhHant": "我喜歡這個夜晚。" }
+          ],
+          "note": {
+            "pl": "Pamiętaj o zgodności: ta → tę, nowa → nową. Nie wolno zostawić „siostra” w mianowniku: „Mam siostra” jest błędne.",
+            "zhHans": "指示词和形容词也要跟着变：ta → tę，nowa → nową。只说「Mam siostra」是错的。",
+            "zhHant": "指示詞和形容詞也要跟著變：ta → tę，nowa → nową。只說「Mam siostra」是錯的。"
+          }
+        },
+        {
+          "heading": { "pl": "Biernik rodzaju męskiego", "zhHans": "阳性宾格", "zhHant": "陽性賓格" },
+          "explanation": {
+            "pl": "Rzeczowniki męskie nieżywotne mają biernik równy mianownikowi. Osoby i zwierzęta mają biernik równy dopełniaczowi.",
+            "zhHans": "无生命的阳性名词，宾格等于主格；人和动物，宾格等于属格。",
+            "zhHant": "無生命的陽性名詞，賓格等於主格；人和動物，賓格等於屬格。"
+          },
+          "examples": [
+            { "pl": "Widzę stół.", "zhHans": "我看见一张桌子。", "zhHant": "我看見一張桌子。" },
+            { "pl": "Widzę brata.", "zhHans": "我看见哥哥/弟弟。", "zhHant": "我看見哥哥/弟弟。" },
+            { "pl": "Pies widzi kota.", "zhHans": "狗看见猫。", "zhHant": "狗看見貓。" },
+            { "pl": "Kot widzi psa.", "zhHans": "猫看见狗。", "zhHant": "貓看見狗。" }
+          ],
+          "note": {
+            "pl": "Dzięki końcówce wiadomo, kto jest podmiotem, więc szyk może być swobodny: kota i psa to dopełnienia. W mowie potocznej słyszy się też „zjadłem banana”, ale początkujący powinni trzymać się formy standardowej.",
+            "zhHans": "靠词尾就知道谁是主语：kota、psa 是宾语，所以语序可以灵活。口语里有时也说 zjadłem banana（我吃了一根香蕉），属于非正式用法，初学者先用标准形式。",
+            "zhHant": "靠詞尾就知道誰是主語：kota、psa 是賓語，所以語序可以靈活。口語裡有時也說 zjadłem banana（我吃了一根香蕉），屬於非正式用法，初學者先用標準形式。"
+          }
+        },
+        {
+          "heading": { "pl": "Biernik liczby mnogiej", "zhHans": "复数宾格", "zhHant": "複數賓格" },
+          "explanation": {
+            "pl": "Tylko męskoosobowe mają biernik równy dopełniaczowi. Wszystkie inne rzeczowniki mają biernik równy mianownikowi.",
+            "zhHans": "只有指男性的复数名词宾格等于属格；其他所有复数名词宾格等于主格。",
+            "zhHant": "只有指男性的複數名詞賓格等於屬格；其他所有複數名詞賓格等於主格。"
+          },
+          "examples": [
+            { "pl": "Znam tych studentów.", "zhHans": "我认识这些男大学生。", "zhHant": "我認識這些男大學生。" },
+            { "pl": "Znam te studentki.", "zhHans": "我认识这些女大学生。", "zhHant": "我認識這些女大學生。" },
+            { "pl": "Widzę koty.", "zhHans": "我看见几只猫。", "zhHant": "我看見幾隻貓。" }
+          ],
+          "note": {
+            "pl": "Zwierzęta w liczbie mnogiej mają biernik równy mianownikowi (koty), mimo że w liczbie pojedynczej jest kota.",
+            "zhHans": "注意：单数的动物是 kota（宾格=属格），但复数的动物是 koty（宾格=主格）。",
+            "zhHant": "注意：單數的動物是 kota（賓格=屬格），但複數的動物是 koty（賓格=主格）。"
+          }
+        },
+        {
+          "heading": { "pl": "Dopełniacz liczby pojedynczej", "zhHans": "单数属格", "zhHant": "單數屬格" },
+          "explanation": {
+            "pl": "Męskie mają -a lub -u, bez prostej reguły. Żeńskie mają -y/-i, a nijakie -a.",
+            "zhHans": "阳性名词用 -a 或 -u，没有简单规则；阴性名词用 -y/-i；中性名词用 -a。",
+            "zhHant": "陽性名詞用 -a 或 -u，沒有簡單規則；陰性名詞用 -y/-i；中性名詞用 -a。"
+          },
+          "examples": [
+            { "pl": "stół – stołu; dom – domu; park – parku; czas – czasu; rok – roku", "zhHans": "桌子、房子、公园、时间、年（属格用 -u）", "zhHant": "桌子、房子、公園、時間、年（屬格用 -u）" },
+            { "pl": "chleb – chleba; ser – sera; ołówek – ołówka; brat – brata", "zhHans": "面包、奶酪、铅笔、哥哥/弟弟（属格用 -a）", "zhHant": "麵包、乳酪、鉛筆、哥哥/弟弟（屬格用 -a）" },
+            { "pl": "mama – mamy; kobieta – kobiety; książka – książki", "zhHans": "妈妈、女人、书（阴性属格）", "zhHant": "媽媽、女人、書（陰性屬格）" },
+            { "pl": "okno – okna; muzeum – muzeum", "zhHans": "窗户；博物馆（-um 结尾的中性名词不变）", "zhHant": "窗戶；博物館（-um 結尾的中性名詞不變）" }
+          ],
+          "note": {
+            "pl": "Przy rzeczownikach męskich nieżywotnych nie ma pewnej reguły; zapamiętuj formę -a/-u razem ze słowem.",
+            "zhHans": "无生命的阳性名词没有可靠规则，要把 -a 或 -u 的形式和单词一起背。人和动物一般用 -a。",
+            "zhHant": "無生命的陽性名詞沒有可靠規則，要把 -a 或 -u 的形式和單詞一起背。人和動物一般用 -a。"
+          }
+        },
+        {
+          "heading": { "pl": "Dopełniacz po przeczeniu", "zhHans": "否定后的属格", "zhHant": "否定後的屬格" },
+          "explanation": {
+            "pl": "Po „nie ma” dopełniacz jest obowiązkowy. Po innych przeczonych czasownikach często zastępuje biernik.",
+            "zhHans": "「nie ma（没有）」之后必须用属格；其他被否定的及物动词后，属格常常取代宾格。",
+            "zhHant": "「nie ma（沒有）」之後必須用屬格；其他被否定的及物動詞後，屬格常常取代賓格。"
+          },
+          "examples": [
+            { "pl": "Jest mleko. – Nie ma mleka.", "zhHans": "有牛奶。——没有牛奶。", "zhHant": "有牛奶。——沒有牛奶。" },
+            { "pl": "Mam czas. – Nie mam czasu.", "zhHans": "我有时间。——我没有时间。", "zhHant": "我有時間。——我沒有時間。" },
+            { "pl": "Piję kawę. – Nie piję kawy.", "zhHans": "我喝咖啡。——我不喝咖啡。", "zhHant": "我喝咖啡。——我不喝咖啡。" },
+            { "pl": "Znam tę kobietę. – Nie znam tej kobiety.", "zhHans": "我认识这个女人。——我不认识这个女人。", "zhHant": "我認識這個女人。——我不認識這個女人。" }
+          ],
+          "note": {
+            "pl": "Po „nie ma” nie zapominaj o dopełniaczu: „Nie ma mleko” jest błędne. Po innych czasownikach w mowie potocznej bywa biernik.",
+            "zhHans": "说「没有」时一定要用属格，不能说 Nie ma mleko。其他否定动词后，口语里有时也会用宾格，但属格最标准。",
+            "zhHant": "說「沒有」時一定要用屬格，不能說 Nie ma mleko。其他否定動詞後，口語裡有時也會用賓格，但屬格最標準。"
+          }
+        },
+        {
+          "heading": { "pl": "Jedno słowo w trzech przypadkach", "zhHans": "同一个词在三个格里", "zhHant": "同一個詞在三個格裡" },
+          "explanation": {
+            "pl": "Porównaj trzy formy tego samego słowa w typowych zdaniach: jest, nie ma, widzę.",
+            "zhHans": "对比同一个词在典型句子中的三种形式：Jest（有）、Nie ma（没有）、Widzę（我看见）。",
+            "zhHant": "對比同一個詞在典型句子中的三種形式：Jest（有）、Nie ma（沒有）、Widzę（我看見）。"
+          },
+          "examples": [
+            { "pl": "Jest brat. Nie ma brata. Widzę brata.", "zhHans": "有哥哥。没有哥哥。我看见哥哥。", "zhHant": "有哥哥。沒有哥哥。我看見哥哥。" },
+            { "pl": "Jest kobieta. Nie ma kobiety. Widzę kobietę.", "zhHans": "有一个女人。没有女人。我看见一个女人。", "zhHant": "有一個女人。沒有女人。我看見一個女人。" },
+            { "pl": "Jest okno. Nie ma okna. Widzę okno.", "zhHans": "有一扇窗。没有窗。我看见一扇窗。", "zhHant": "有一扇窗。沒有窗。我看見一扇窗。" },
+            { "pl": "Jest stół. Nie ma stołu. Widzę stół.", "zhHans": "有一张桌子。没有桌子。我看见一张桌子。", "zhHant": "有一張桌子。沒有桌子。我看見一張桌子。" }
+          ],
+          "note": {
+            "pl": "Zauważ, że okno i stół mają biernik taki sam jak mianownik, a brat i kobieta nie. Takie porównania warto ćwiczyć na własnych przykładach.",
+            "zhHans": "注意 okno 和 stół 的宾格与主格相同，而 brat 和 kobieta 不同。多用自己的例子练习这种对比。",
+            "zhHant": "注意 okno 和 stół 的賓格與主格相同，而 brat 和 kobieta 不同。多用自己的例子練習這種對比。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-genitive-dative",
+      "title": {
+        "pl": "Dopełniacz i celownik w użyciu",
+        "zhHans": "属格与与格的用法",
+        "zhHant": "屬格與與格的用法"
+      },
+      "summary": {
+        "pl": "Dopełniacz pojawia się po ilościach i wielu przyimkach, a celownik po czasownikach dawania i w konstrukcjach z odczuciami.",
+        "zhHans": "属格出现在表示数量的词和许多介词之后；与格用于「给予」类动词，也用于表达感受的句式。",
+        "zhHant": "屬格出現在表示數量的詞和許多介詞之後；與格用於「給予」類動詞，也用於表達感受的句式。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Dopełniacz: ilość i przynależność", "zhHans": "属格：数量与所属", "zhHant": "屬格：數量與所屬" },
+          "explanation": {
+            "pl": "Po słowach takich jak szklanka, dużo, trochę, kilka stoi dopełniacz. Własność wyraża się dopełniaczem postawionym po rzeczowniku.",
+            "zhHans": "szklanka（杯）、dużo（很多）、trochę（一点）、kilka（几个）等词后面用属格。「的」表示所属时，把拥有者的属格放在名词后面。",
+            "zhHant": "szklanka（杯）、dużo（很多）、trochę（一點）、kilka（幾個）等詞後面用屬格。「的」表示所屬時，把擁有者的屬格放在名詞後面。"
+          },
+          "examples": [
+            { "pl": "szklanka wody", "zhHans": "一杯水", "zhHant": "一杯水" },
+            { "pl": "dużo czasu, trochę mleka", "zhHans": "很多时间、一点牛奶", "zhHant": "很多時間、一點牛奶" },
+            { "pl": "kilka książek", "zhHans": "几本书", "zhHant": "幾本書" },
+            { "pl": "dom moich rodziców", "zhHans": "我父母的房子", "zhHant": "我父母的房子" }
+          ],
+          "note": {
+            "pl": "Kolejność jest odwrotna niż w chińskim „我父母的房子”: najpierw rzecz (dom), potem właściciel (rodziców).",
+            "zhHans": "语序与汉语「我父母的房子」相反：先说被拥有的东西（dom），再说拥有者（moich rodziców）。",
+            "zhHant": "語序與漢語「我父母的房子」相反：先說被擁有的東西（dom），再說擁有者（moich rodziców）。"
+          }
+        },
+        {
+          "heading": { "pl": "Przyimki z dopełniaczem", "zhHans": "要求属格的介词", "zhHant": "要求屬格的介詞" },
+          "explanation": {
+            "pl": "Do, z, od, bez, dla, u, obok, koło wymagają dopełniacza.",
+            "zhHans": "do（到）、z（从）、od（从）、bez（没有）、dla（为了）、u（在某人处）、obok / koło（旁边）后面都用属格。",
+            "zhHant": "do（到）、z（從）、od（從）、bez（沒有）、dla（為了）、u（在某人處）、obok / koło（旁邊）後面都用屬格。"
+          },
+          "examples": [
+            { "pl": "Jestem z Chin. Jestem z Polski.", "zhHans": "我来自中国。我来自波兰。", "zhHant": "我來自中國。我來自波蘭。" },
+            { "pl": "Idę do lekarza.", "zhHans": "我去看医生。", "zhHant": "我去看醫生。" },
+            { "pl": "Mieszkam u brata.", "zhHans": "我住在哥哥/弟弟家。", "zhHant": "我住在哥哥/弟弟家。" },
+            { "pl": "Kawa bez cukru. Prezent dla mamy. List od siostry.", "zhHans": "不加糖的咖啡。给妈妈的礼物。姐姐/妹妹的来信。", "zhHant": "不加糖的咖啡。給媽媽的禮物。姐姐/妹妹的來信。" },
+            { "pl": "Obok dworca jest poczta.", "zhHans": "火车站旁边有邮局。", "zhHant": "火車站旁邊有郵局。" }
+          ],
+          "note": {
+            "pl": "Uwaga: z + dopełniacz to „z, pochodzący z” (z Polski), a z + narzędnik to „razem z” (z mamą). To dwa różne znaczenia.",
+            "zhHans": "注意：z＋属格表示「来自」（z Polski），z＋工具格表示「和……一起」（z mamą），是两种不同的意思。",
+            "zhHant": "注意：z＋屬格表示「來自」（z Polski），z＋工具格表示「和……一起」（z mamą），是兩種不同的意思。"
+          }
+        },
+        {
+          "heading": { "pl": "Celownik: formy", "zhHans": "与格的形式", "zhHant": "與格的形式" },
+          "explanation": {
+            "pl": "Rzeczowniki męskie i nijakie mają -owi lub -u, a żeńskie mają formę taką samą jak miejscownik. W liczbie mnogiej końcówka to -om.",
+            "zhHans": "阳性和中性名词用 -owi 或 -u；阴性名词的与格与前置格同形；复数一律用 -om。",
+            "zhHant": "陽性和中性名詞用 -owi 或 -u；陰性名詞的與格與前置格同形；複數一律用 -om。"
+          },
+          "examples": [
+            { "pl": "student – studentowi; lekarz – lekarzowi", "zhHans": "大学生；医生（与格）", "zhHant": "大學生；醫生（與格）" },
+            { "pl": "brat – bratu; kot – kotu (także: bratowi, kotowi)", "zhHans": "哥哥/弟弟；猫（两种形式都可以）", "zhHant": "哥哥/弟弟；貓（兩種形式都可以）" },
+            { "pl": "dziecko – dziecku; okno – oknu", "zhHans": "孩子；窗户（与格）", "zhHant": "孩子；窗戶（與格）" },
+            { "pl": "mama – mamie; siostra – siostrze; kobieta – kobiecie", "zhHans": "妈妈；姐姐/妹妹；女人（与格＝前置格）", "zhHant": "媽媽；姐姐/妹妹；女人（與格＝前置格）" },
+            { "pl": "studenci – studentom; okna – oknom", "zhHans": "大学生们；窗户们（复数与格）", "zhHant": "大學生們；窗戶們（複數與格）" }
+          ],
+          "note": {
+            "pl": "Dla rzeczowników męskich osobowych -owi jest najbezpieczniejsze. Krótka forma -u występuje przy wielu popularnych słowach (bratu, kotu, synu).",
+            "zhHans": "指人的阳性名词用 -owi 最保险。许多常用词也常用短形式 -u（bratu, kotu）。",
+            "zhHant": "指人的陽性名詞用 -owi 最保險。許多常用詞也常用短形式 -u（bratu, kotu）。"
+          }
+        },
+        {
+          "heading": { "pl": "Czasowniki z celownikiem", "zhHans": "要求与格的动词", "zhHant": "要求與格的動詞" },
+          "explanation": {
+            "pl": "Pomagać, dziękować, dawać, ufać i opowiadać łączą się z celownikiem osoby.",
+            "zhHans": "pomagać（帮助）、dziękować（感谢）、dawać（给）、ufać（信任）、opowiadać（讲述）后面的人用与格。",
+            "zhHant": "pomagać（幫助）、dziękować（感謝）、dawać（給）、ufać（信任）、opowiadać（講述）後面的人用與格。"
+          },
+          "examples": [
+            { "pl": "Pomagam przyjacielowi.", "zhHans": "我帮助朋友。", "zhHant": "我幫助朋友。" },
+            { "pl": "Daję bratu prezent.", "zhHans": "我送给哥哥/弟弟一个礼物。", "zhHant": "我送給哥哥/弟弟一個禮物。" },
+            { "pl": "Opowiadam dzieciom bajkę.", "zhHans": "我给孩子们讲童话。", "zhHant": "我給孩子們講童話。" },
+            { "pl": "Ufam jej.", "zhHans": "我信任她。", "zhHant": "我信任她。" }
+          ],
+          "note": {
+            "pl": "Nie tłumacz tych czasowników słowo w słowo z chińskiego. Zapamiętaj je razem z celownikiem, np. „pomagać komuś”.",
+            "zhHans": "不要从汉语逐字翻译这些动词，要记成固定搭配，例如 pomagać komuś（帮助某人）。",
+            "zhHant": "不要從漢語逐字翻譯這些動詞，要記成固定搭配，例如 pomagać komuś（幫助某人）。"
+          }
+        },
+        {
+          "heading": { "pl": "Konstrukcje z odczuciami", "zhHans": "表达感受的句式", "zhHant": "表達感受的句式" },
+          "explanation": {
+            "pl": "Odczucia i preferencje często wyraża się celownikiem osoby: komuś jest zimno, komuś się podoba, komuś brakuje.",
+            "zhHans": "感受和喜好常用「人的与格＋词」来表达：谁觉得冷、谁喜欢、谁缺少。人不是主语，而是与格。",
+            "zhHant": "感受和喜好常用「人的與格＋詞」來表達：誰覺得冷、誰喜歡、誰缺少。人不是主語，而是與格。"
+          },
+          "examples": [
+            { "pl": "Podoba mi się ten film.", "zhHans": "我喜欢这部电影。", "zhHant": "我喜歡這部電影。" },
+            { "pl": "Podobają mi się te książki.", "zhHans": "我喜欢这些书。", "zhHant": "我喜歡這些書。" },
+            { "pl": "Jest mi zimno.", "zhHans": "我觉得冷。", "zhHant": "我覺得冷。" },
+            { "pl": "Brakuje mi czasu.", "zhHans": "我缺时间。", "zhHant": "我缺時間。" },
+            { "pl": "Chce mi się spać.", "zhHans": "我想睡觉。", "zhHant": "我想睡覺。" },
+            { "pl": "Daję ci książkę.", "zhHans": "我给你一本书。", "zhHant": "我給你一本書。" }
+          ],
+          "note": {
+            "pl": "Zaimki celownika: mi, ci, mu, jej, nam, wam, im. Czasownik zgadza się z rzeczą, którą się lubi: podoba się film, podobają się książki.",
+            "zhHans": "与格代词：mi（我）、ci（你）、mu（他）、jej（她）、nam（我们）、wam（你们）、im（他们）。动词与「被喜欢的东西」一致：podoba się film，podobają się książki。",
+            "zhHant": "與格代詞：mi（我）、ci（你）、mu（他）、jej（她）、nam（我們）、wam（你們）、im（他們）。動詞與「被喜歡的東西」一致：podoba się film，podobają się książki。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-instrumental-locative-vocative",
+      "title": {
+        "pl": "Narzędnik, miejscownik i wołacz",
+        "zhHans": "工具格、前置格与呼格",
+        "zhHant": "工具格、前置格與呼格"
+      },
+      "summary": {
+        "pl": "Trzy przypadki pozostałe: narzędnik (z kim, czym, kim jestem), miejscownik (gdzie, o kim) i wołacz (zwracanie się).",
+        "zhHans": "剩下的三个格：工具格（和谁、用什么、是什么身份）、前置格（在哪里、关于谁）和呼格（称呼）。",
+        "zhHant": "剩下的三個格：工具格（和誰、用什麼、是什麼身分）、前置格（在哪裡、關於誰）和呼格（稱呼）。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Narzędnik: formy", "zhHans": "工具格的形式", "zhHant": "工具格的形式" },
+          "explanation": {
+            "pl": "Rzeczowniki żeńskie mają -ą, męskie i nijakie -em (po k i g: -iem), a liczba mnoga -ami. Rzeczowniki męskie na -a mają -ą.",
+            "zhHans": "阴性名词用 -ą；阳性和中性用 -em（k、g 之后用 -iem）；复数用 -ami。以 -a 结尾的阳性名词（kolega）也用 -ą。",
+            "zhHant": "陰性名詞用 -ą；陽性和中性用 -em（k、g 之後用 -iem）；複數用 -ami。以 -a 結尾的陽性名詞（kolega）也用 -ą。"
+          },
+          "examples": [
+            { "pl": "Rozmawiam z kolegą.", "zhHans": "我和同学聊天。", "zhHant": "我和同學聊天。" },
+            { "pl": "Jadę autobusem.", "zhHans": "我乘公共汽车去。", "zhHant": "我搭公車去。" },
+            { "pl": "Idę z dzieckiem do parku.", "zhHans": "我和孩子去公园。", "zhHant": "我和孩子去公園。" },
+            { "pl": "Jestem z dziećmi i z ludźmi.", "zhHans": "我和孩子们、人们在一起。", "zhHant": "我和孩子們、人們在一起。" }
+          ],
+          "note": {
+            "pl": "Nieregularne formy liczby mnogiej: ludźmi, dziećmi, przyjaciółmi, pieniędzmi. Trzeba je zapamiętać.",
+            "zhHans": "不规则的复数形式：ludźmi、dziećmi、przyjaciółmi、pieniędzmi，需要单独记。",
+            "zhHant": "不規則的複數形式：ludźmi、dziećmi、przyjaciółmi、pieniędzmi，需要單獨記。"
+          }
+        },
+        {
+          "heading": { "pl": "Narzędnik: być + zawód", "zhHans": "工具格：「是」＋身份", "zhHant": "工具格：「是」＋身分" },
+          "explanation": {
+            "pl": "Po „być” w zdaniach o zawodzie i roli używa się narzędnika, ale po „to jest” stoi mianownik.",
+            "zhHans": "说职业、身份时，być 之后常用工具格；而「to jest」之后用主格。",
+            "zhHant": "說職業、身分時，być 之後常用工具格；而「to jest」之後用主格。"
+          },
+          "examples": [
+            { "pl": "Jestem lekarzem.", "zhHans": "我是医生。", "zhHant": "我是醫生。" },
+            { "pl": "Mój brat był nauczycielem.", "zhHans": "我的哥哥/弟弟当过老师。", "zhHant": "我的哥哥/弟弟當過老師。" },
+            { "pl": "To jest lekarz.", "zhHans": "这是一位医生。", "zhHant": "這是一位醫生。" }
+          ],
+          "note": {
+            "pl": "Po chińsku zawsze jest „是”, a po polsku wybór przypadku zależy od konstrukcji. W mowie potocznej mianownik po „jestem” też się zdarza, ale standardem jest narzędnik.",
+            "zhHans": "汉语总是「是」，波兰语则要看句型选格。口语里 jestem 后有时也用主格，但标准用法是工具格。",
+            "zhHant": "漢語總是「是」，波蘭語則要看句型選格。口語裡 jestem 後有時也用主格，但標準用法是工具格。"
+          }
+        },
+        {
+          "heading": { "pl": "Nad, pod, przed, za, między", "zhHans": "nad、pod、przed、za、między：位置与方向", "zhHant": "nad、pod、przed、za、między：位置與方向" },
+          "explanation": {
+            "pl": "Te przyimki łączą się z narzędnikiem, gdy mówimy o miejscu, a z biernikiem, gdy mówimy o kierunku ruchu.",
+            "zhHans": "这些介词表示位置（在哪里）时用工具格，表示运动的方向（去哪里）时用宾格。",
+            "zhHant": "這些介詞表示位置（在哪裡）時用工具格，表示運動的方向（去哪裡）時用賓格。"
+          },
+          "examples": [
+            { "pl": "Jestem nad morzem. – Jadę nad morze.", "zhHans": "我在海边。——我去海边。", "zhHant": "我在海邊。——我去海邊。" },
+            { "pl": "Kot jest pod stołem. – Kot idzie pod stół.", "zhHans": "猫在桌子下面。——猫走到桌子下面去。", "zhHant": "貓在桌子下面。——貓走到桌子下面去。" }
+          ],
+          "note": {
+            "pl": "Pytanie „gdzie?” (miejsce) → narzędnik; pytanie „dokąd?” (kierunek) → biernik. Wiele chińskich zdań wygląda tak samo w obu przypadkach, więc trzeba uważać.",
+            "zhHans": "问「在哪里（gdzie）」用工具格；问「去哪里（dokąd）」用宾格。汉语里两种情形常常说法一样，所以要特别留意。",
+            "zhHant": "問「在哪裡（gdzie）」用工具格；問「去哪裡（dokąd）」用賓格。漢語裡兩種情形常常說法一樣，所以要特別留意。"
+          }
+        },
+        {
+          "heading": { "pl": "Miejscownik: w, na, o, po, przy", "zhHans": "前置格：w, na, o, po, przy", "zhHant": "前置格：w, na, o, po, przy" },
+          "explanation": {
+            "pl": "Miejscownik występuje wyłącznie po przyimkach. W liczbie mnogiej ma końcówkę -ach.",
+            "zhHans": "前置格只和介词连用。复数词尾是 -ach。",
+            "zhHant": "前置格只和介詞連用。複數詞尾是 -ach。"
+          },
+          "examples": [
+            { "pl": "Rozmawiamy o filmie.", "zhHans": "我们在谈论电影。", "zhHant": "我們在談論電影。" },
+            { "pl": "Mieszkam w Chinach.", "zhHans": "我住在中国。", "zhHant": "我住在中國。" },
+            { "pl": "On mieszka na Węgrzech, a ona w Czechach.", "zhHans": "他住在匈牙利，她住在捷克。", "zhHant": "他住在匈牙利，她住在捷克。" }
+          ],
+          "note": {
+            "pl": "Wybór między „w” a „na” nie ma jednej reguły: w szkole, w mieście, ale na poczcie, na dworcu, na uniwersytecie, na wsi.",
+            "zhHans": "w 和 na 的选择没有统一规则：w szkole（在学校）、w mieście（在城里），但 na poczcie（在邮局）、na dworcu（在火车站）、na uniwersytecie（在大学）、na wsi（在农村）。",
+            "zhHant": "w 和 na 的選擇沒有統一規則：w szkole（在學校）、w mieście（在城裡），但 na poczcie（在郵局）、na dworcu（在火車站）、na uniwersytecie（在大學）、na wsi（在農村）。"
+          }
+        },
+        {
+          "heading": { "pl": "Miejsce czy kierunek?", "zhHans": "地点还是方向？", "zhHant": "地點還是方向？" },
+          "explanation": {
+            "pl": "Pytanie „gdzie?” wymaga miejscownika, a pytanie „dokąd?” wymaga dopełniacza (do) lub biernika (na).",
+            "zhHans": "问「在哪里」用前置格；问「去哪里」，用 do＋属格或 na＋宾格。要注意介词也配套变化。",
+            "zhHant": "問「在哪裡」用前置格；問「去哪裡」，用 do＋屬格或 na＋賓格。要注意介詞也配套變化。"
+          },
+          "examples": [
+            { "pl": "Jestem w domu. – Idę do domu.", "zhHans": "我在家。——我回家。", "zhHant": "我在家。——我回家。" },
+            { "pl": "Jestem na poczcie. – Idę na pocztę.", "zhHans": "我在邮局。——我去邮局。", "zhHant": "我在郵局。——我去郵局。" },
+            { "pl": "Mieszkam w Polsce. – Jadę do Polski.", "zhHans": "我住在波兰。——我去波兰。", "zhHant": "我住在波蘭。——我去波蘭。" }
+          ],
+          "note": {
+            "pl": "Z „w” odpowiada „do”, a z „na” odpowiada „na” (z biernikiem): zapamiętaj pary w–do i na–na.",
+            "zhHans": "w 的方向形式是 do，na 的方向形式仍是 na（但接宾格）：记住 w→do、na→na 这两对。",
+            "zhHant": "w 的方向形式是 do，na 的方向形式仍是 na（但接賓格）：記住 w→do、na→na 這兩對。"
+          }
+        },
+        {
+          "heading": { "pl": "Wołacz", "zhHans": "呼格", "zhHant": "呼格" },
+          "explanation": {
+            "pl": "Końcówki: -o (mamo, kobieto), -iu (Aniu, Kasiu), -e po twardych spółgłoskach (bracie, Piotrze, panie), -u po k, g oraz po miękkich i szumiących (Marku, lekarzu, synu).",
+            "zhHans": "词尾：-o（mamo, kobieto）；-iu（Aniu, Kasiu）；硬辅音词干后用 -e（bracie, Piotrze, panie）；k、g 以及软辅音、咝擦音词干后用 -u（Marku, lekarzu, synu）。",
+            "zhHant": "詞尾：-o（mamo, kobieto）；-iu（Aniu, Kasiu）；硬輔音詞幹後用 -e（bracie, Piotrze, panie）；k、g 以及軟輔音、嘶擦音詞幹後用 -u（Marku, lekarzu, synu）。"
+          },
+          "examples": [
+            { "pl": "Mamo, chodź tutaj!", "zhHans": "妈妈，到这儿来！", "zhHant": "媽媽，到這兒來！" },
+            { "pl": "Piotrze, pomóż mi.", "zhHans": "Piotr，帮帮我。", "zhHant": "Piotr，幫幫我。" },
+            { "pl": "Marku, dziękuję!", "zhHans": "Marek，谢谢！", "zhHant": "Marek，謝謝！" },
+            { "pl": "Panie doktorze, proszę wejść.", "zhHans": "医生先生，请进。", "zhHant": "醫生先生，請進。" },
+            { "pl": "Boże! Chłopcze! Człowieku!", "zhHans": "天哪！小伙子！喂，人哪！", "zhHant": "天哪！小夥子！喂，人哪！" }
+          ],
+          "note": {
+            "pl": "Wołacz liczby mnogiej równa się mianownikowi. W mowie potocznej często mówi się „Ania!” zamiast „Aniu!”, ale do dorosłych oficjalnie używa się „Pani Anno”.",
+            "zhHans": "复数呼格等于主格。口语里常直接叫 Ania!（而不是 Aniu!）。正式场合称呼成年人要说 Pani Anno（Anna 女士）。",
+            "zhHant": "複數呼格等於主格。口語裡常直接叫 Ania!（而不是 Aniu!）。正式場合稱呼成年人要說 Pani Anno（Anna 女士）。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pl-cases-adjectives-pronouns",
+      "title": {
+        "pl": "Przymiotniki i zaimki w przypadkach",
+        "zhHans": "形容词与代词的变格",
+        "zhHant": "形容詞與代詞的變格"
+      },
+      "summary": {
+        "pl": "Przymiotnik zgadza się z rzeczownikiem w rodzaju, liczbie i przypadku. Zaimki osobowe mają własne, nieregularne formy.",
+        "zhHans": "形容词要与名词在性、数、格上一致。人称代词有自己的不规则形式，要单独背。",
+        "zhHant": "形容詞要與名詞在性、數、格上一致。人稱代詞有自己的不規則形式，要單獨背。"
+      },
+      "sections": [
+        {
+          "heading": { "pl": "Przymiotnik w liczbie pojedynczej", "zhHans": "单数形容词", "zhHant": "單數形容詞" },
+          "explanation": {
+            "pl": "Przymiotnik „nowy” w mianowniku, dopełniaczu i bierniku zmienia końcówkę zależnie od rodzaju.",
+            "zhHans": "以形容词 nowy（新的）为例，主格、属格和宾格的词尾随性而变。",
+            "zhHant": "以形容詞 nowy（新的）為例，主格、屬格和賓格的詞尾隨性而變。"
+          },
+          "examples": [
+            { "pl": "To jest nowy dom.", "zhHans": "这是一座新房子。（阳性主格）", "zhHant": "這是一棟新房子。（陽性主格）" },
+            { "pl": "Widzę nowego psa i nowego studenta.", "zhHans": "我看见一条新来的狗和一位新来的学生。（阳性有生命宾格）", "zhHant": "我看見一條新來的狗和一位新來的學生。（陽性有生命賓格）" },
+            { "pl": "Czytam nową książkę.", "zhHans": "我在读一本新书。（阴性宾格）", "zhHant": "我在讀一本新書。（陰性賓格）" },
+            { "pl": "Nie ma nowej książki ani nowego okna.", "zhHans": "没有新书，也没有新窗户。（阴性、中性属格）", "zhHant": "沒有新書，也沒有新窗戶。（陰性、中性屬格）" }
+          ],
+          "note": {
+            "pl": "Dla rodzaju męskiego nieżywotnego biernik równa się mianownikowi: widzę nowy dom.",
+            "zhHans": "无生命的阳性名词，宾格与主格相同：widzę nowy dom（我看见一座新房子）。",
+            "zhHant": "無生命的陽性名詞，賓格與主格相同：widzę nowy dom（我看見一棟新房子）。"
+          }
+        },
+        {
+          "heading": { "pl": "Pozostałe przypadki", "zhHans": "其他格", "zhHant": "其他格" },
+          "explanation": {
+            "pl": "Celownik: -emu/-ej; narzędnik: -ym/-ą; miejscownik: -ym/-ej. Po k, g oraz po miękkich spółgłoskach pojawia się -im zamiast -ym.",
+            "zhHans": "与格：-emu / -ej；工具格：-ym / -ą；前置格：-ym / -ej。k、g 和软辅音词干之后用 -im 代替 -ym。",
+            "zhHant": "與格：-emu / -ej；工具格：-ym / -ą；前置格：-ym / -ej。k、g 和軟輔音詞幹之後用 -im 代替 -ym。"
+          },
+          "examples": [
+            { "pl": "Pomagam nowemu koledze.", "zhHans": "我帮助新同学。", "zhHant": "我幫助新同學。" },
+            { "pl": "Mieszkam w nowym domu.", "zhHans": "我住在新房子里。", "zhHant": "我住在新房子裡。" },
+            { "pl": "Idę z nową koleżanką do kina.", "zhHans": "我和新同学（女）去看电影。", "zhHant": "我和新同學（女）去看電影。" },
+            { "pl": "Rozmawiamy o nowej książce.", "zhHans": "我们在谈论那本新书。", "zhHant": "我們在談論那本新書。" },
+            { "pl": "Mieszkam w polskim mieście i jadę ostatnim autobusem.", "zhHans": "我住在波兰的城市里，乘最后一班公共汽车。", "zhHant": "我住在波蘭的城市裡，搭最後一班公車。" }
+          ],
+          "note": {
+            "pl": "Mała ściąga: -ego (męski i nijaki, dopełniacz), -emu (celownik), -ym (narzędnik i miejscownik), -ej (żeński: dopełniacz, celownik, miejscownik), -ą (żeński: biernik i narzędnik).",
+            "zhHans": "速记：-ego（阳性和中性属格）、-emu（与格）、-ym（工具格和前置格）、-ej（阴性属格、与格、前置格）、-ą（阴性宾格和工具格）。",
+            "zhHant": "速記：-ego（陽性和中性屬格）、-emu（與格）、-ym（工具格和前置格）、-ej（陰性屬格、與格、前置格）、-ą（陰性賓格和工具格）。"
+          }
+        },
+        {
+          "heading": { "pl": "Przymiotnik w liczbie mnogiej", "zhHans": "复数形容词", "zhHant": "複數形容詞" },
+          "explanation": {
+            "pl": "W mianowniku liczby mnogiej męskoosobowe mają -i/-y ze zmianą spółgłoski, pozostałe -e. Dopełniacz i miejscownik: -ych/-ich; celownik: -ym/-im; narzędnik: -ymi/-imi.",
+            "zhHans": "主格复数：男性群体用 -i/-y（辅音还会变化），其他用 -e。属格和前置格：-ych / -ich；与格：-ym / -im；工具格：-ymi / -imi。",
+            "zhHant": "主格複數：男性群體用 -i/-y（輔音還會變化），其他用 -e。屬格和前置格：-ych / -ich；與格：-ym / -im；工具格：-ymi / -imi。"
+          },
+          "examples": [
+            { "pl": "dobrzy studenci, dobre studentki, dobre domy", "zhHans": "好学生们（男）、好学生们（女）、好房子们", "zhHant": "好學生們（男）、好學生們（女）、好房子們" },
+            { "pl": "Polacy są młodzi, a Polki są młode.", "zhHans": "波兰男人们很年轻，波兰女人们也很年轻。", "zhHant": "波蘭男人們很年輕，波蘭女人們也很年輕。" },
+            { "pl": "Znam tych dobrych studentów.", "zhHans": "我认识这些好学生（男）。", "zhHant": "我認識這些好學生（男）。" },
+            { "pl": "Rozmawiam z polskimi przyjaciółmi.", "zhHans": "我和波兰朋友们聊天。", "zhHant": "我和波蘭朋友們聊天。" }
+          ],
+          "note": {
+            "pl": "Biernik męskoosobowy równa się dopełniaczowi (tych dobrych studentów); pozostałe rodzaje: biernik = mianownik.",
+            "zhHans": "男性群体的宾格等于属格（tych dobrych studentów）；其他的宾格等于主格。",
+            "zhHant": "男性群體的賓格等於屬格（tych dobrych studentów）；其他的賓格等於主格。"
+          }
+        },
+        {
+          "heading": { "pl": "Zaimki osobowe", "zhHans": "人称代词", "zhHant": "人稱代詞" },
+          "explanation": {
+            "pl": "Każdy zaimek ma osobne formy w przypadkach. Kolejność: mianownik – dopełniacz – celownik – biernik – narzędnik – miejscownik.",
+            "zhHans": "每个人称代词在各格里都有专门的形式。顺序：主格 – 属格 – 与格 – 宾格 – 工具格 – 前置格。",
+            "zhHant": "每個人稱代詞在各格裡都有專門的形式。順序：主格 – 屬格 – 與格 – 賓格 – 工具格 – 前置格。"
+          },
+          "examples": [
+            { "pl": "ja – mnie – mi/mnie – mnie – mną – mnie", "zhHans": "我的各个格（与格有短形式 mi）", "zhHant": "我的各個格（與格有短形式 mi）" },
+            { "pl": "ty – ciebie – ci/tobie – cię/ciebie – tobą – tobie", "zhHans": "你的各个格（有短形式 ci、cię）", "zhHant": "你的各個格（有短形式 ci、cię）" },
+            { "pl": "on/ono – jego – mu/jemu – go (on), je (ono) – nim – nim", "zhHans": "他/它（中性）的各个格", "zhHant": "他/它（中性）的各個格" },
+            { "pl": "ona – jej – jej – ją – nią – niej", "zhHans": "她的各个格", "zhHant": "她的各個格" },
+            { "pl": "my – nas – nam – nas – nami – nas", "zhHans": "我们的各个格", "zhHant": "我們的各個格" },
+            { "pl": "wy – was – wam – was – wami – was", "zhHans": "你们的各个格", "zhHant": "你們的各個格" },
+            { "pl": "oni/one – ich – im – ich/je – nimi – nich", "zhHans": "他们/她们（物）的各个格（男性群体宾格 ich，其他 je）", "zhHant": "他們/她們（物）的各個格（男性群體賓格 ich，其他 je）" }
+          ],
+          "note": {
+            "pl": "Krótkie formy (mi, ci, mu, cię, go) są nieakcentowane i nie stoją po przyimku ani na początku zdania.",
+            "zhHans": "短形式（mi, ci, mu, cię, go）不重读，不能放在介词后面，也不放句首。要强调时用长形式（mnie, tobie, jemu, ciebie, jego）。",
+            "zhHant": "短形式（mi, ci, mu, cię, go）不重讀，不能放在介詞後面，也不放句首。要強調時用長形式（mnie, tobie, jemu, ciebie, jego）。"
+          }
+        },
+        {
+          "heading": { "pl": "Zaimki w zdaniach", "zhHans": "代词在句中", "zhHant": "代詞在句中" },
+          "explanation": {
+            "pl": "Po przyimkach zaimki trzeciej osoby mają formy z n-: do niego, z nią, o nich, dla niej.",
+            "zhHans": "第三人称代词在介词之后要加 n-：do niego、z nią、o nich、dla niej。",
+            "zhHant": "第三人稱代詞在介詞之後要加 n-：do niego、z nią、o nich、dla niej。"
+          },
+          "examples": [
+            { "pl": "Widzę cię.", "zhHans": "我看见你。", "zhHant": "我看見你。" },
+            { "pl": "Daję ci książkę.", "zhHans": "我给你一本书。", "zhHant": "我給你一本書。" },
+            { "pl": "Idę z nią do kina.", "zhHans": "我和她去看电影。", "zhHant": "我和她去看電影。" },
+            { "pl": "Nie ma go w domu.", "zhHans": "他不在家。", "zhHant": "他不在家。" },
+            { "pl": "Czekam na ciebie.", "zhHans": "我在等你。", "zhHant": "我在等你。" },
+            { "pl": "Obok niej siedzi brat.", "zhHans": "她旁边坐着哥哥/弟弟。", "zhHant": "她旁邊坐著哥哥/弟弟。" }
+          ],
+          "note": {
+            "pl": "Nie mówimy „z ją”, tylko „z nią”, a po przyimku „na” stoi „ciebie”, nie „cię”.",
+            "zhHans": "不能说 z ją，要说 z nią；na 之后用 ciebie，不用 cię。",
+            "zhHant": "不能說 z ją，要說 z nią；na 之後用 ciebie，不用 cię。"
+          }
+        }
+      ]
+    }
+  ]
+}
