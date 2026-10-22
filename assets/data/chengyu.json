@@ -1,0 +1,184 @@
+{
+  "idioms": [
+    {
+      "id": "hua-she-tian-zu", "simplified": "画蛇添足", "traditional": "畫蛇添足", "pinyin": "huà shé tiān zú", "motif": "snake",
+      "englishMeaning": "To spoil something by adding unnecessary details.",
+      "meaning": {"pl": "Zepsuć coś przez zbędne dodatki; przedobrzyć.", "zhHans": "做多余的事，反而把事情弄坏。", "zhHant": "做多餘的事，反而把事情弄壞。"},
+      "literal": {"pl": "Narysować węża i dodać mu nogi.", "zhHans": "画好蛇后，又给蛇添上脚。", "zhHant": "畫好蛇後，又給蛇添上腳。"},
+      "example": {"pl": "Ten plakat jest już czytelny; kolejne ozdoby tylko by go zepsuły.", "zhHans": "这张海报已经很清楚了，再加装饰就是画蛇添足。", "zhHant": "這張海報已經很清楚了，再加裝飾就是畫蛇添足。"},
+      "story": {"pl": "W opowieści z «Intryg Walczących Królestw» zwycięzca konkursu rysowania węża dodaje mu nogi. Przegrywa, bo wąż nóg nie ma.", "zhHans": "《战国策》中，几个人比赛画蛇。一人先画完，又添上脚，结果失去奖赏，因为蛇本来没有脚。", "zhHant": "《戰國策》中，幾個人比賽畫蛇。一人先畫完，又添上腳，結果失去獎賞，因為蛇本來沒有腳。"},
+      "caution": {"pl": "Krytyczne: dodatek jest nie tylko zbędny, ale pogarsza efekt.", "zhHans": "含贬义；强调多余的举动破坏了原来的效果。", "zhHant": "含貶義；強調多餘的舉動破壞了原來的效果。"}
+    },
+    {
+      "id": "shou-zhu-dai-tu", "simplified": "守株待兔", "traditional": "守株待兔", "pinyin": "shǒu zhū dài tù", "motif": "field",
+      "englishMeaning": "To wait idly for luck instead of making an effort.",
+      "meaning": {"pl": "Biernie czekać na szczęście zamiast działać.", "zhHans": "不肯努力，只想靠偶然的好运获利。", "zhHant": "不肯努力，只想靠偶然的好運獲利。"},
+      "literal": {"pl": "Pilnować pnia, czekając na zająca.", "zhHans": "守着树桩，等待兔子撞来。", "zhHant": "守著樹樁，等待兔子撞來。"},
+      "example": {"pl": "Szukając pracy, trzeba wysyłać zgłoszenia, a nie czekać na cud.", "zhHans": "找工作要主动投简历，不能守株待兔。", "zhHant": "找工作要主動投履歷，不能守株待兔。"},
+      "story": {"pl": "W «Han Feizi» zając ginie po uderzeniu w pień. Rolnik porzuca pracę i czeka przy pniu na kolejnego. Przypadek się nie powtarza.", "zhHans": "《韩非子》中，一只兔子撞死在树桩上。农夫便放下农具守着树桩，却再也没有等到兔子。", "zhHant": "《韓非子》中，一隻兔子撞死在樹樁上。農夫便放下農具守著樹樁，卻再也沒有等到兔子。"},
+      "caution": {"pl": "Krytykuje bierność i poleganie na przypadku, nie cierpliwość samą w sobie.", "zhHans": "批评侥幸心理和不知变通，不是批评耐心等待。", "zhHant": "批評僥倖心理和不知變通，不是批評耐心等待。"}
+    },
+    {
+      "id": "jing-di-zhi-wa", "simplified": "井底之蛙", "traditional": "井底之蛙", "pinyin": "jǐng dǐ zhī wā", "motif": "well",
+      "englishMeaning": "A person with a narrow outlook and limited experience.",
+      "meaning": {"pl": "Osoba o ciasnych horyzontach i małym doświadczeniu.", "zhHans": "见识狭窄、眼界有限的人。", "zhHant": "見識狹窄、眼界有限的人。"},
+      "literal": {"pl": "Żaba na dnie studni.", "zhHans": "住在井底的青蛙。", "zhHant": "住在井底的青蛙。"},
+      "example": {"pl": "Dopiero po podróży odkryłem, jak ograniczone były moje horyzonty.", "zhHans": "出门旅行后，我才发现自己以前真是井底之蛙。", "zhHant": "出門旅行後，我才發現自己以前真是井底之蛙。"},
+      "story": {"pl": "«Zhuangzi» porównuje ograniczoną wiedzę do żaby, której nie da się opowiedzieć o morzu, bo zna tylko studnię.", "zhHans": "《庄子》说，不能跟井里的青蛙谈论大海，因为它的认识受居住环境限制。", "zhHant": "《莊子》說，不能跟井裡的青蛙談論大海，因為牠的認識受居住環境限制。"},
+      "caution": {"pl": "O ludziach brzmi obraźliwie; bezpieczniejsze w samokrytyce.", "zhHans": "用于他人时带有贬义；用于自嘲语气较缓和。", "zhHant": "用於他人時帶有貶義；用於自嘲語氣較緩和。"}
+    },
+    {
+      "id": "sai-weng-shi-ma", "simplified": "塞翁失马", "traditional": "塞翁失馬", "pinyin": "sài wēng shī mǎ", "motif": "horse",
+      "englishMeaning": "A loss may turn out to be a blessing in disguise.",
+      "meaning": {"pl": "Nieszczęście może z czasem obrócić się w szczęście.", "zhHans": "坏事可能转化为好事，祸福难以预料。", "zhHant": "壞事可能轉化為好事，禍福難以預料。"},
+      "literal": {"pl": "Starzec znad granicy stracił konia.", "zhHans": "边塞的一位老人丢了马。", "zhHant": "邊塞的一位老人丟了馬。"},
+      "example": {"pl": "Nie dostał tej pracy, ale znalazł lepszą — strata okazała się szczęściem.", "zhHans": "他没得到那份工作，却找到了更合适的，真是塞翁失马，焉知非福。", "zhHant": "他沒得到那份工作，卻找到了更合適的，真是塞翁失馬，焉知非福。"},
+      "story": {"pl": "W «Huainanzi» koń starca ucieka, a później wraca z innym koniem. Dalsze zdarzenia znów zmieniają szczęście w nieszczęście i odwrotnie.", "zhHans": "《淮南子》中，老人的马跑了，后来带着另一匹马回来。之后的事情又让祸福不断转化。", "zhHant": "《淮南子》中，老人的馬跑了，後來帶著另一匹馬回來。之後的事情又讓禍福不斷轉化。"},
+      "caution": {"pl": "Nie obiecuje, że każda strata przyniesie korzyść; często z 焉知非福.", "zhHans": "常与“焉知非福”连用；并不是保证坏事一定变成好事。", "zhHant": "常與「焉知非福」連用；並不是保證壞事一定變成好事。"}
+    },
+    {
+      "id": "wang-yang-bu-lao", "simplified": "亡羊补牢", "traditional": "亡羊補牢", "pinyin": "wáng yáng bǔ láo", "motif": "field",
+      "englishMeaning": "To remedy a problem after a loss and prevent further damage.",
+      "meaning": {"pl": "Naprawić błąd po stracie, by uniknąć kolejnych szkód.", "zhHans": "出了问题后及时补救，避免继续受损。", "zhHant": "出了問題後及時補救，避免繼續受損。"},
+      "literal": {"pl": "Po utracie owcy naprawić zagrodę.", "zhHans": "丢了羊以后修补羊圈。", "zhHant": "丟了羊以後修補羊圈。"},
+      "example": {"pl": "Po utracie pliku zaczął robić kopie zapasowe — lepiej naprawić błąd późno niż wcale.", "zhHans": "丢过文件后，他开始定期备份，也算亡羊补牢。", "zhHant": "丟過檔案後，他開始定期備份，也算亡羊補牢。"},
+      "story": {"pl": "«Intrygi Walczących Królestw» przytaczają radę: naprawa zagrody po utracie owcy nie jest jeszcze spóźniona. To zachęta do naprawienia błędów.", "zhHans": "《战国策》用“亡羊而补牢，未为迟也”劝人及时补救，说明犯错后仍可采取措施。", "zhHant": "《戰國策》用「亡羊而補牢，未為遲也」勸人及時補救，說明犯錯後仍可採取措施。"},
+      "caution": {"pl": "Zwykle pozytywna zachęta do działania; 亡 oznacza tu utratę, a nie śmierć.", "zhHans": "通常用于劝人补救；这里的“亡”是丢失，不是死亡。", "zhHant": "通常用於勸人補救；這裡的「亡」是丟失，不是死亡。"}
+    },
+    {
+      "id": "ba-miao-zhu-zhang", "simplified": "拔苗助长", "traditional": "拔苗助長", "pinyin": "bá miáo zhù zhǎng", "motif": "field",
+      "englishMeaning": "To harm progress by trying to force it too quickly.",
+      "meaning": {"pl": "Szkodzić rozwojowi przez nadmierne przyspieszanie.", "zhHans": "急于求成，违反发展规律，反而造成损害。", "zhHant": "急於求成，違反發展規律，反而造成損害。"},
+      "literal": {"pl": "Wyciągać sadzonki, żeby szybciej rosły.", "zhHans": "把禾苗往上拔，想帮助它长高。", "zhHant": "把禾苗往上拔，想幫助它長高。"},
+      "example": {"pl": "Dawanie początkującemu zbyt trudnych zadań może zahamować jego rozwój.", "zhHans": "让初学者一下子做太难的题，可能是拔苗助长。", "zhHant": "讓初學者一下子做太難的題，可能是拔苗助長。"},
+      "story": {"pl": "W «Mencjuszu» człowiek z państwa Song wyciąga pędy z ziemi, by urosły. Następnego dnia rośliny więdną. Starszy wariant to 揠苗助长.", "zhHans": "《孟子》中，宋人嫌禾苗长得慢，便把苗拔高，结果苗都枯萎了。也作“揠苗助长”。", "zhHant": "《孟子》中，宋人嫌禾苗長得慢，便把苗拔高，結果苗都枯萎了。也作「揠苗助長」。"},
+      "caution": {"pl": "Nie potępia ambicji, lecz naruszanie naturalnego tempa rozwoju.", "zhHans": "批评违背规律的催促，不是反对合理的努力。", "zhHant": "批評違背規律的催促，不是反對合理的努力。"}
+    },
+    {
+      "id": "ke-zhou-qiu-jian", "simplified": "刻舟求剑", "traditional": "刻舟求劍", "pinyin": "kè zhōu qiú jiàn", "motif": "boat",
+      "englishMeaning": "To cling to an outdated method despite changing circumstances.",
+      "meaning": {"pl": "Kurczowo trzymać się starej metody mimo zmiany warunków.", "zhHans": "不懂情况已经变化，仍死守旧办法。", "zhHant": "不懂情況已經變化，仍死守舊辦法。"},
+      "literal": {"pl": "Zaznaczyć miejsce na łodzi, aby odnaleźć miecz.", "zhHans": "在船上刻记号，想按记号找掉进水里的剑。", "zhHant": "在船上刻記號，想按記號找掉進水裡的劍。"},
+      "example": {"pl": "Rynek się zmienił; bezrefleksyjne stosowanie starego planu nie zadziała.", "zhHans": "市场变了，还照搬旧方案，无异于刻舟求剑。", "zhHant": "市場變了，還照搬舊方案，無異於刻舟求劍。"},
+      "story": {"pl": "W «Lüshi chunqiu» pasażer upuszcza miecz do rzeki i nacina burtę. Szuka miecza według nacięcia dopiero po zatrzymaniu łodzi, nie rozumiejąc, że łódź się przemieściła.", "zhHans": "《吕氏春秋》中，有人把剑掉进江里，便在船边刻记号。船停后，他按记号下水找剑，却忘了船已移动。", "zhHant": "《呂氏春秋》中，有人把劍掉進江裡，便在船邊刻記號。船停後，他按記號下水找劍，卻忘了船已移動。"},
+      "caution": {"pl": "Krytyczne; chodzi o ignorowanie zmiany, a nie o każdą tradycyjną metodę.", "zhHans": "含贬义，重点是不顾条件变化，而非一概否定旧方法。", "zhHant": "含貶義，重點是不顧條件變化，而非一概否定舊方法。"}
+    },
+    {
+      "id": "yan-er-dao-ling", "simplified": "掩耳盗铃", "traditional": "掩耳盜鈴", "pinyin": "yǎn ěr dào líng", "motif": "bell",
+      "englishMeaning": "To deceive oneself while ignoring an obvious reality.",
+      "meaning": {"pl": "Oszukiwać samego siebie, ignorując oczywiste fakty.", "zhHans": "用自欺欺人的办法掩盖事实。", "zhHant": "用自欺欺人的辦法掩蓋事實。"},
+      "literal": {"pl": "Zatykać uszy, kradnąc dzwonek.", "zhHans": "捂住自己的耳朵去偷铃铛。", "zhHant": "摀住自己的耳朵去偷鈴鐺。"},
+      "example": {"pl": "Ukrywanie komunikatu o błędzie nie rozwiązuje problemu — to oszukiwanie siebie.", "zhHans": "把错误提示藏起来并不能解决问题，只是掩耳盗铃。", "zhHant": "把錯誤提示藏起來並不能解決問題，只是掩耳盜鈴。"},
+      "story": {"pl": "Pierwowzór z «Lüshi chunqiu» dotyczy dużego dzwonu: złodziej zatyka własne uszy, jakby inni także nie mogli usłyszeć hałasu. Dzisiejszy idiom mówi o dzwonku.", "zhHans": "《吕氏春秋》的原故事写偷钟的人怕声音被听见，便捂住自己的耳朵。后来的常用说法改用“铃”。", "zhHant": "《呂氏春秋》的原故事寫偷鐘的人怕聲音被聽見，便摀住自己的耳朵。後來的常用說法改用「鈴」。"},
+      "caution": {"pl": "Wyraźnie negatywne; nie oznacza skutecznego ukrycia prawdy.", "zhHans": "明显含贬义；并不表示真的成功隐瞒了事实。", "zhHant": "明顯含貶義；並不表示真的成功隱瞞了事實。"}
+    },
+    {
+      "id": "ye-gong-hao-long", "simplified": "叶公好龙", "traditional": "葉公好龍", "pinyin": "yè gōng hào lóng", "motif": "dragon",
+      "englishMeaning": "To profess a love for something but fear its reality.",
+      "meaning": {"pl": "Deklarować zamiłowanie do czegoś, lecz bać się tego w rzeczywistości.", "zhHans": "表面上爱好某事物，实际上并不真正喜欢。", "zhHant": "表面上愛好某事物，實際上並不真正喜歡。"},
+      "literal": {"pl": "Pan Ye kocha smoki.", "zhHans": "叶公喜欢龙。", "zhHant": "葉公喜歡龍。"},
+      "example": {"pl": "Mówi, że lubi przygody, ale odrzuca każdą wyprawę — to tylko deklaracje.", "zhHans": "他总说喜欢冒险，却拒绝每次出行，真有点叶公好龙。", "zhHant": "他總說喜歡冒險，卻拒絕每次出行，真有點葉公好龍。"},
+      "story": {"pl": "W «Xinxu» pana Ye otaczają wizerunki smoków. Gdy prawdziwy smok przychodzi go odwiedzić, gospodarz ucieka przerażony.", "zhHans": "《新序》中，叶公到处装饰龙的图案。真龙听说后前来拜访，他却吓得逃走了。", "zhHant": "《新序》中，葉公到處裝飾龍的圖案。真龍聽說後前來拜訪，他卻嚇得逃走了。"},
+      "caution": {"pl": "Krytykuje pozorne zamiłowanie. 好 czytaj hào, czyli „lubić”.", "zhHans": "含贬义；“好”读 hào，表示喜爱。", "zhHant": "含貶義；「好」讀 hào，表示喜愛。"}
+    },
+    {
+      "id": "dui-niu-tan-qin", "simplified": "对牛弹琴", "traditional": "對牛彈琴", "pinyin": "duì niú tán qín", "motif": "music",
+      "englishMeaning": "To address an audience that cannot understand or appreciate the message.",
+      "meaning": {"pl": "Mówić do odbiorcy, który nie rozumie lub nie docenia przekazu.", "zhHans": "对不能理解或欣赏的人讲道理、谈高深的内容。", "zhHant": "對不能理解或欣賞的人講道理、談高深的內容。"},
+      "literal": {"pl": "Grać na cytrze przed wołem.", "zhHans": "对着牛弹琴。", "zhHant": "對著牛彈琴。"},
+      "example": {"pl": "Posługiwanie się samym żargonem wobec kogoś bez podstaw jest jak mówienie w próżnię.", "zhHans": "对完全没有基础的人只讲术语，无异于对牛弹琴。", "zhHant": "對完全沒有基礎的人只講術語，無異於對牛彈琴。"},
+      "story": {"pl": "W opowieści z «Hongming ji» muzyk Gongming Yi gra wołowi wyrafinowaną melodię, ale zwierzę nadal je trawę. Brak reakcji wynika z niedopasowania przekazu do odbiorcy.", "zhHans": "《弘明集》记载，公明仪为牛弹奏高雅的曲子，牛仍低头吃草，因为它不懂这样的音乐。", "zhHant": "《弘明集》記載，公明儀為牛彈奏高雅的曲子，牛仍低頭吃草，因為牠不懂這樣的音樂。"},
+      "caution": {"pl": "Może obrazić rozmówcę. Może też krytykować nadawcę za niedostosowanie wyjaśnienia.", "zhHans": "用于听者可能不礼貌，也可批评说话者不看对象。", "zhHant": "用於聽者可能不禮貌，也可批評說話者不看對象。"}
+    },
+    {
+      "id": "hua-long-dian-jing", "simplified": "画龙点睛", "traditional": "畫龍點睛", "pinyin": "huà lóng diǎn jīng", "motif": "dragon",
+      "englishMeaning": "To add the crucial finishing touch that brings a work to life.",
+      "meaning": {"pl": "Dodać kluczowy szczegół, który ożywia i dopełnia całość.", "zhHans": "在关键处加上精当的一笔，使整体更加生动。", "zhHant": "在關鍵處加上精當的一筆，使整體更加生動。"},
+      "literal": {"pl": "Namalować smoka i zaznaczyć mu źrenice.", "zhHans": "画好龙以后，点上眼睛。", "zhHant": "畫好龍以後，點上眼睛。"},
+      "example": {"pl": "Ostatnie zdanie celnie dopełnia ten artykuł.", "zhHans": "最后一句话为这篇文章起到了画龙点睛的作用。", "zhHant": "最後一句話為這篇文章起到了畫龍點睛的作用。"},
+      "story": {"pl": "Legenda zapisana w «Lidai minghua ji» mówi o malarzu Zhang Sengyou: gdy domalował smokom oczy, ożyły i odleciały. To opowieść, nie udokumentowane wydarzenie.", "zhHans": "《历代名画记》中的传说说，张僧繇给壁上的龙点上眼睛后，龙便飞走了。这是传说，不是史实证明。", "zhHant": "《歷代名畫記》中的傳說說，張僧繇給壁上的龍點上眼睛後，龍便飛走了。這是傳說，不是史實證明。"},
+      "caution": {"pl": "Pochwała trafnego, ważnego dodatku; przeciwieństwo zbędnego 画蛇添足.", "zhHans": "含褒义，强调关键的点拨；与多余的“画蛇添足”不同。", "zhHant": "含褒義，強調關鍵的點撥；與多餘的「畫蛇添足」不同。"}
+    },
+    {
+      "id": "zi-xiang-mao-dun", "simplified": "自相矛盾", "traditional": "自相矛盾", "pinyin": "zì xiāng máo dùn", "motif": "bow",
+      "englishMeaning": "To contradict oneself; to be internally inconsistent.",
+      "meaning": {"pl": "Zaprzeczać samemu sobie; zawierać wewnętrzną sprzeczność.", "zhHans": "自己的说法或行为前后互相抵触。", "zhHant": "自己的說法或行為前後互相牴觸。"},
+      "literal": {"pl": "Własna włócznia przeciw własnej tarczy.", "zhHans": "自己的矛和盾互相冲突。", "zhHant": "自己的矛和盾互相衝突。"},
+      "example": {"pl": "Najpierw twierdzisz, że nie masz czasu, a potem, że się nudzisz — to sprzeczne.", "zhHans": "你先说没时间，又说无聊，这不是自相矛盾吗？", "zhHant": "你先說沒時間，又說無聊，這不是自相矛盾嗎？"},
+      "story": {"pl": "W «Han Feizi» kupiec zachwala tarczę, której nic nie przebije, oraz włócznię, która przebije wszystko. Nie umie odpowiedzieć, co będzie przy ich zderzeniu.", "zhHans": "《韩非子》中，商人夸盾什么也刺不穿，又夸矛什么都能刺穿。有人问用他的矛刺他的盾会怎样，他便答不出来。", "zhHant": "《韓非子》中，商人誇盾什麼也刺不穿，又誇矛什麼都能刺穿。有人問用他的矛刺他的盾會怎樣，他便答不出來。"},
+      "caution": {"pl": "Dotyczy sprzeczności wewnętrznej, nie po prostu sporu dwóch osób.", "zhHans": "指自身前后矛盾，不只是两个人意见不同。", "zhHant": "指自身前後矛盾，不只是兩個人意見不同。"}
+    },
+    {
+      "id": "hu-jia-hu-wei", "simplified": "狐假虎威", "traditional": "狐假虎威", "pinyin": "hú jiǎ hǔ wēi", "motif": "forest",
+      "englishMeaning": "To bully others by borrowing someone else's power.",
+      "meaning": {"pl": "Zastraszać innych, powołując się na cudzą władzę.", "zhHans": "借别人的权势来吓唬或欺压他人。", "zhHant": "借別人的權勢來嚇唬或欺壓他人。"},
+      "literal": {"pl": "Lis pożycza grozę tygrysa.", "zhHans": "狐狸借用老虎的威风。", "zhHant": "狐狸借用老虎的威風。"},
+      "example": {"pl": "Straszy współpracowników, powołując się na znajomość z kierownikiem.", "zhHans": "他仗着认识经理就吓唬同事，简直是狐假虎威。", "zhHant": "他仗著認識經理就嚇唬同事，簡直是狐假虎威。"},
+      "story": {"pl": "W «Intrygach Walczących Królestw» lis każe tygrysowi iść za sobą. Zwierzęta uciekają przed tygrysem, a lis przekonuje go, że boją się właśnie lisa.", "zhHans": "《战国策》中，狐狸让老虎跟在后面走。百兽其实怕老虎，狐狸却说它们是在怕自己。", "zhHant": "《戰國策》中，狐狸讓老虎跟在後面走。百獸其實怕老虎，狐狸卻說牠們是在怕自己。"},
+      "caution": {"pl": "Negatywne. 假 czytaj jiǎ: tu „pożyczać, wykorzystywać”, nie „wakacje”.", "zhHans": "含贬义；“假”读 jiǎ，这里是借用的意思。", "zhHant": "含貶義；「假」讀 jiǎ，這裡是借用的意思。"}
+    },
+    {
+      "id": "yu-gong-yi-shan", "simplified": "愚公移山", "traditional": "愚公移山", "pinyin": "yú gōng yí shān", "motif": "mountain",
+      "englishMeaning": "To persevere with determination in the face of great difficulties.",
+      "meaning": {"pl": "Wytrwale pokonywać ogromne trudności.", "zhHans": "有毅力、有决心地克服巨大的困难。", "zhHant": "有毅力、有決心地克服巨大的困難。"},
+      "literal": {"pl": "Starzec Yugong przenosi góry.", "zhHans": "愚公要搬走挡路的大山。", "zhHant": "愚公要搬走擋路的大山。"},
+      "example": {"pl": "Uporządkowanie tych materiałów wymaga wytrwałości godnej Yugonga.", "zhHans": "整理这些资料，需要愚公移山的精神。", "zhHant": "整理這些資料，需要愚公移山的精神。"},
+      "story": {"pl": "W «Liezi» starzec wraz z rodziną zaczyna usuwać góry blokujące drogę. Wierzy, że potomkowie będą kontynuować pracę. W legendzie jego upór porusza bóstwo.", "zhHans": "《列子》中，愚公带家人挖山，认为子孙可以接着干。传说中，他的坚持感动了天帝，山最终被搬走。", "zhHant": "《列子》中，愚公帶家人挖山，認為子孫可以接著幹。傳說中，他的堅持感動了天帝，山最終被搬走。"},
+      "caution": {"pl": "Zwykle pochwała wytrwałości; nie odczytuj 愚 jako obelgi wobec bohatera.", "zhHans": "通常赞扬坚持不懈，不是用“愚”来骂人。", "zhHant": "通常讚揚堅持不懈，不是用「愚」來罵人。"}
+    },
+    {
+      "id": "bei-gong-she-ying", "simplified": "杯弓蛇影", "traditional": "杯弓蛇影", "pinyin": "bēi gōng shé yǐng", "motif": "snake",
+      "englishMeaning": "To become frightened by an imagined danger.",
+      "meaning": {"pl": "Bać się urojonego zagrożenia przez nadmierną podejrzliwość.", "zhHans": "因疑神疑鬼而产生不必要的恐惧。", "zhHant": "因疑神疑鬼而產生不必要的恐懼。"},
+      "literal": {"pl": "Odbicie łuku w kielichu wzięte za węża.", "zhHans": "把酒杯里的弓影误认成蛇。", "zhHant": "把酒杯裡的弓影誤認成蛇。"},
+      "example": {"pl": "To tylko wiatr, nie włamywacz — nie doszukuj się nieistniejącego zagrożenia.", "zhHans": "只是风吹门响，别杯弓蛇影，以为有人闯进来了。", "zhHant": "只是風吹門響，別杯弓蛇影，以為有人闖進來了。"},
+      "story": {"pl": "W znanej opowieści, zachowanej m.in. w «Jin shu», gość dostrzega w kielichu odbicie łuku i bierze je za węża. Strach ustępuje po wyjaśnieniu pomyłki.", "zhHans": "《晋书》等文献中的故事说，客人把杯中弓的倒影当成蛇，吓得生病，弄清真相后才消除恐惧。", "zhHant": "《晉書》等文獻中的故事說，客人把杯中弓的倒影當成蛇，嚇得生病，弄清真相後才消除恐懼。"},
+      "caution": {"pl": "Nie używaj do lekceważenia realnego zagrożenia ani czyjegoś cierpienia.", "zhHans": "用于说明误会造成的恐惧，不宜用来轻视真实危险或他人的痛苦。", "zhHant": "用於說明誤會造成的恐懼，不宜用來輕視真實危險或他人的痛苦。"}
+    },
+    {
+      "id": "lan-yu-chong-shu", "simplified": "滥竽充数", "traditional": "濫竽充數", "pinyin": "làn yú chōng shù", "motif": "music",
+      "englishMeaning": "To pass oneself off as qualified or fill a quota with inferior work.",
+      "meaning": {"pl": "Udawać kompetencje lub zapełniać liczbę czymś bezwartościowym.", "zhHans": "没有真本领却混在行家中，或用不好的东西凑数。", "zhHant": "沒有真本領卻混在行家中，或用不好的東西湊數。"},
+      "literal": {"pl": "Udawać grę na yu, by uzupełnić liczbę muzyków.", "zhHans": "不会吹竽，却混在乐队里凑数。", "zhHant": "不會吹竽，卻混在樂隊裡湊數。"},
+      "example": {"pl": "Lepiej przekazać mniej dobrych prac niż zapełniać zestaw słabymi.", "zhHans": "宁可少交几份好作品，也不要滥竽充数。", "zhHant": "寧可少交幾份好作品，也不要濫竽充數。"},
+      "story": {"pl": "W «Han Feizi» pan Nanguo udaje grę na instrumencie dętym yu w dużej orkiestrze. Gdy nowy władca chce słuchać solistów, oszust ucieka.", "zhHans": "《韩非子》中，南郭先生不会吹竽，却混在大乐队里。新君王喜欢听独奏，他只好逃走。", "zhHant": "《韓非子》中，南郭先生不會吹竽，卻混在大樂隊裡。新君王喜歡聽獨奏，他只好逃走。"},
+      "caution": {"pl": "Zwykle krytyczne, czasem żartobliwie skromne o sobie. 竽 to dawny instrument dęty.", "zhHans": "通常含贬义，也可自谦；竽是一种古代吹奏乐器。", "zhHant": "通常含貶義，也可自謙；竽是一種古代吹奏樂器。"}
+    },
+    {
+      "id": "po-fu-chen-zhou", "simplified": "破釜沉舟", "traditional": "破釜沉舟", "pinyin": "pò fǔ chén zhōu", "motif": "boat",
+      "englishMeaning": "To commit fully, cutting off the possibility of retreat.",
+      "meaning": {"pl": "Podjąć nieodwracalną decyzję i zaangażować się bez odwrotu.", "zhHans": "下定决心，不留退路，全力以赴。", "zhHant": "下定決心，不留退路，全力以赴。"},
+      "literal": {"pl": "Rozbić kotły i zatopić łodzie.", "zhHans": "打破做饭的锅，凿沉渡河的船。", "zhHant": "打破做飯的鍋，鑿沉渡河的船。"},
+      "example": {"pl": "Zdecydował się całkowicie poświęcić przygotowaniom do egzaminu.", "zhHans": "他决心破釜沉舟，全力准备这次考试。", "zhHant": "他決心破釜沉舟，全力準備這次考試。"},
+      "story": {"pl": "«Zapiski historyka» opisują, jak Xiang Yu przed bitwą pod Julu kazał zatopić łodzie i rozbić kotły, aby pokazać żołnierzom, że odwrotu nie będzie.", "zhHans": "《史记》记载，项羽在巨鹿之战前让士兵沉船、破锅，表示没有退路，必须决战。", "zhHant": "《史記》記載，項羽在鉅鹿之戰前讓士兵沉船、破鍋，表示沒有退路，必須決戰。"},
+      "caution": {"pl": "Mocna metafora determinacji, nie praktyczna rada, by lekkomyślnie ryzykować.", "zhHans": "强调决心，语气较强；不等于提倡不顾后果地冒险。", "zhHant": "強調決心，語氣較強；不等於提倡不顧後果地冒險。"}
+    },
+    {
+      "id": "wang-mei-zhi-ke", "simplified": "望梅止渴", "traditional": "望梅止渴", "pinyin": "wàng méi zhǐ kě", "motif": "field",
+      "englishMeaning": "To console oneself with an imagined prospect rather than a real solution.",
+      "meaning": {"pl": "Pocieszać się wyobrażeniem czegoś, co nie rozwiązuje realnego problemu.", "zhHans": "用想象或空想来安慰自己，不能真正解决问题。", "zhHant": "用想像或空想來安慰自己，不能真正解決問題。"},
+      "literal": {"pl": "Gasić pragnienie wyobrażeniem śliwek.", "zhHans": "想到酸梅，暂时缓解口渴。", "zhHant": "想到酸梅，暫時緩解口渴。"},
+      "example": {"pl": "Samo oglądanie ofert mieszkań bez pieniędzy na zakup jest tylko pocieszaniem się marzeniem.", "zhHans": "没有购房预算，只看房源，也不过是望梅止渴。", "zhHant": "沒有購屋預算，只看房源，也不過是望梅止渴。"},
+      "story": {"pl": "Według «Shishuo xinyu» Cao Cao powiedział spragnionym żołnierzom, że przed nimi rosną śliwy z kwaśnymi owocami. Na myśl o nich ślina napłynęła im do ust i mogli iść dalej.", "zhHans": "《世说新语》中，曹操对口渴的士兵说前面有酸梅林。士兵想到梅子，嘴里生出唾液，暂时继续前行。", "zhHant": "《世說新語》中，曹操對口渴的士兵說前面有酸梅林。士兵想到梅子，嘴裡生出唾液，暫時繼續前行。"},
+      "caution": {"pl": "Współcześnie zwykle wskazuje na pociechę bez realnej pomocy, nie skuteczny sposób gaszenia pragnienia.", "zhHans": "现代多指空想带来的安慰，不是实际解渴的方法。", "zhHant": "現代多指空想帶來的安慰，不是實際解渴的方法。"}
+    },
+    {
+      "id": "yi-jian-shuang-diao", "simplified": "一箭双雕", "traditional": "一箭雙鵰", "pinyin": "yī jiàn shuāng diāo", "motif": "bow",
+      "englishMeaning": "To achieve two goals with a single action.",
+      "meaning": {"pl": "Osiągnąć dwa cele jednym działaniem.", "zhHans": "做一件事，同时达到两个目的。", "zhHant": "做一件事，同時達到兩個目的。"},
+      "literal": {"pl": "Jedną strzałą trafić dwa orły.", "zhHans": "一支箭射中两只雕。", "zhHant": "一支箭射中兩隻鵰。"},
+      "example": {"pl": "Czytanie chińskich opowiadań rozwija język i przybliża kulturę — dwa cele naraz.", "zhHans": "读中文故事既能学语言，又能了解文化，真是一箭双雕。", "zhHant": "讀中文故事既能學語言，又能了解文化，真是一箭雙鵰。"},
+      "story": {"pl": "«Bei shi» opisuje łucznika Zhangsuna Shenga, który jedną strzałą trafił dwa walczące ptaki drapieżne. Dziś obraz odnosi się do podwójnego rezultatu.", "zhHans": "《北史》记载，长孙晟用一支箭射中了两只相争的雕。后来用来比喻一次行动达到两个目的。", "zhHant": "《北史》記載，長孫晟用一支箭射中了兩隻相爭的鵰。後來用來比喻一次行動達到兩個目的。"},
+      "caution": {"pl": "Zwykle pozytywne. Pinyin podaje ton podstawowy yī; przed jiàn w mowie zwykle yí.", "zhHans": "通常含褒义；拼音标本调 yī，口语中“一箭”的“一”通常变调为 yí。", "zhHant": "通常含褒義；拼音標本調 yī，口語中「一箭」的「一」通常變調為 yí。"}
+    },
+    {
+      "id": "shui-di-shi-chuan", "simplified": "水滴石穿", "traditional": "水滴石穿", "pinyin": "shuǐ dī shí chuān", "motif": "well",
+      "englishMeaning": "Persistent effort can overcome even a very difficult obstacle.",
+      "meaning": {"pl": "Systematyczny wysiłek pozwala pokonać nawet wielkie trudności.", "zhHans": "只要坚持不懈，微小的力量也能取得成果。", "zhHant": "只要堅持不懈，微小的力量也能取得成果。"},
+      "literal": {"pl": "Krople wody przebijają kamień.", "zhHans": "水不断滴落，最终把石头滴穿。", "zhHant": "水不斷滴落，最終把石頭滴穿。"},
+      "example": {"pl": "Ucz się codziennie po trochu; kropla drąży skałę.", "zhHans": "每天学一点，坚持下去就能水滴石穿。", "zhHant": "每天學一點，堅持下去就能水滴石穿。"},
+      "story": {"pl": "Dawne teksty, m.in. «Han shu», używały obrazu wody drążącej kamień. Przysłowiowy obraz przypomina, że znaczenie ma długotrwałość działania, a nie sama siła.", "zhHans": "《汉书》等古代文献用水滴穿石的形象说明，力量虽小，只要长期坚持也能产生效果。", "zhHant": "《漢書》等古代文獻用水滴穿石的形象說明，力量雖小，只要長期堅持也能產生效果。"},
+      "caution": {"pl": "Zachęta do wytrwałości, nie obietnica natychmiastowych wyników. Także 滴水穿石.", "zhHans": "用于鼓励长期坚持，不表示马上见效；也说“滴水穿石”。", "zhHant": "用於鼓勵長期堅持，不表示馬上見效；也說「滴水穿石」。"}
+    }
+  ]
+}

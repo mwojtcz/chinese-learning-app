@@ -15,3 +15,7 @@ The data builder is `assets/data/scripts/build_hsk_2025_data.py`.
 The source repositories and their license notices are provided alongside
 these data. Attribution and share-alike terms apply to the derived vocabulary
 data; the application's MIT code license does not replace them.
+
+Localized topic assignments in `vocabulary_categories.json` are curated
+application metadata keyed to the pinned word-list rows. They are separate
+from imported dictionary tags and retain the source row identity for validation.

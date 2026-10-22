@@ -26,14 +26,14 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.5'
+          flutter-version: '3.47.7'
           channel: 'stable'
       
       - name: Get dependencies
         run: flutter pub get
       
       - name: Build web
-        run: flutter build web --release --base-href /chinese-learning-app/ --web-renderer canvaskit
+        run: flutter build web --release --base-href /chinese-learning-app/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

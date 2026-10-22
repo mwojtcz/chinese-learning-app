@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Polski · 中文</title>
+  <desc id="desc">Dwie papierowe strony połączone nefrytowym mostem. Czerwona zakładka po lewej i znak 中 po prawej symbolizują naukę polskiego i chińskiego.</desc>
+  <rect width="512" height="512" rx="112" fill="#182D32"/>
+  <path d="M144 160 Q204 146 256 176 L256 348 Q204 318 144 332 Z" fill="#F6F2EB"/>
+  <path d="M256 176 Q308 146 368 160 L368 332 Q308 318 256 348 Z" fill="#E4E9DF"/>
+  <path d="M174 157 L194 157 L194 213 L184 205 L174 213 Z" fill="#B44535"/>
+  <path d="M256 184 L256 316" fill="none" stroke="#A7B7AC" stroke-width="5" stroke-linecap="round"/>
+  <path d="M175 240 L219 248 M175 259 L209 265" fill="none" stroke="#75877E" stroke-width="7" stroke-linecap="round"/>
+  <path d="M287 214 L335 214 L335 250 L287 250 Z M311 199 L311 271" fill="none" stroke="#356D60" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M184 307 Q256 248 328 307" fill="none" stroke="#65AA91" stroke-width="14" stroke-linecap="round"/>
+  <path d="M184 307 L184 320 M328 307 L328 320" fill="none" stroke="#65AA91" stroke-width="10" stroke-linecap="round"/>
+</svg>

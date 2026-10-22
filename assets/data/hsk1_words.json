@@ -378,7 +378,7 @@
     "hanzi": "那",
     "pinyin": "nà/nèi",
     "english": "that",
-    "polish": "tamten, to",
+    "polish": "tamten; tamto",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -1088,7 +1088,7 @@
     "hanzi": "了",
     "pinyin": "le",
     "english": "particle (past tense)",
-    "polish": "partykuła (czas przeszły)",
+    "polish": "partykuła zakończonej czynności lub zmiany stanu",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -1753,7 +1753,7 @@
     "hanzi": "号",
     "pinyin": "hào",
     "english": "date, number",
-    "polish": "numer, data",
+    "polish": "numer; oznaczenie; data; nazwa",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -2228,7 +2228,7 @@
     "hanzi": "喂",
     "pinyin": "wèi/wéi",
     "english": "hello (on phone)",
-    "polish": "halo (telefon)",
+    "polish": "halo; hej; karmić (wèi)",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -2273,7 +2273,7 @@
     "hanzi": "几",
     "pinyin": "jǐ",
     "english": "how many, several",
-    "polish": "ile, kilka",
+    "polish": "ile; kilka",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -5587,7 +5587,7 @@
     "hanzi": "花",
     "pinyin": "huā",
     "english": "flower",
-    "polish": "kwiat",
+    "polish": "kwiat; kwiatowy; wydawać (pieniądze); poświęcać (czas)",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -6953,7 +6953,7 @@
     "hanzi": "几",
     "pinyin": "jǐ",
     "english": "how many (less than 10)",
-    "polish": "ile (mniej niż 10)",
+    "polish": "ile; kilka",
     "level": "HSK-1",
     "notes": "",
     "tags": [
@@ -6984,7 +6984,7 @@
     "hanzi": "那",
     "pinyin": "nà",
     "english": "that",
-    "polish": "tamto, tamten",
+    "polish": "tamten; tamto",
     "level": "HSK-1",
     "notes": "",
     "tags": [

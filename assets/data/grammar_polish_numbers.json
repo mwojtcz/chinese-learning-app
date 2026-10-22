@@ -1,6 +1,40 @@
 {
   "lessons": [
     {
+      "id": "pl-numbers-measures-and-differences",
+      "title": {"pl": "Miary, liczebniki w przypadkach i różnica w porównaniu", "zhHans": "度量、数词变格与比较差值", "zhHant": "度量、數詞變格與比較差值"},
+      "summary": {"pl": "Mów precyzyjnie o ilości, uczestnikach i tym, o ile coś się różni.", "zhHans": "准确表达数量、参与者和差值。", "zhHant": "準確表達數量、參與者和差值。"},
+      "sections": [
+        {
+          "heading": {"pl": "Pół, półtora i półtorej", "zhHans": "一半与一个半", "zhHant": "一半與一個半"},
+          "explanation": {"pl": "Po „pół” stosujemy dopełniacz liczby pojedynczej: pół litra. „Półtora” łączy się z rzeczownikiem męskim lub nijakim, „półtorej” z żeńskim; także wymagają dopełniacza pojedynczego. W liczbie dziesiętnej czytanej z „całe / całych” nazwa jednostki zwykle również ma dopełniacz pojedynczy.", "zhHans": "pół 后用单数属格：pół litra（半升）。półtora 与阳性或中性名词连用，półtorej 与阴性名词连用，两者也都要求单数属格。用 całe / całych 读出小数时，单位名词通常也用单数属格。", "zhHant": "pół 後用單數屬格：pół litra（半公升）。półtora 與陽性或中性名詞連用，półtorej 與陰性名詞連用，兩者也都要求單數屬格。用 całe / całych 讀出小數時，單位名詞通常也用單數屬格。"},
+          "examples": [
+            {"pl": "Kup półtora kilograma jabłek i półtorej butelki soku.", "zhHans": "买一公斤半苹果和一瓶半果汁。", "zhHant": "買一公斤半蘋果和一瓶半果汁。"},
+            {"pl": "Trasa ma dwa i pół kilometra, czyli dwie całe i pięć dziesiątych kilometra.", "zhHans": "路线长两公里半，也就是二点五公里。", "zhHant": "路線長兩公里半，也就是二點五公里。"}
+          ],
+          "note": {"pl": "W polskim zapisie dziesiętnym używa się przecinka: 2,5 km. Nie przenoś formy „dwa kilometry” na „dwa i pół kilometra”.", "zhHans": "波兰语小数用逗号：2,5 km。不要把 dwa kilometry 的复数形式套到 dwa i pół kilometra 上。", "zhHant": "波蘭語小數用逗號：2,5 km。不要把 dwa kilometry 的複數形式套到 dwa i pół kilometra 上。"}
+        },
+        {
+          "heading": {"pl": "Przyimek odmienia całą grupę", "zhHans": "介词影响整个数词短语", "zhHant": "介詞影響整個數詞片語"},
+          "explanation": {"pl": "Po przyimku dobieramy przypadek całej grupy: do dwóch nowych szkół, z trzema dobrymi kolegami, o pięciu ciekawych książkach. Podstawowy mianownik „pięć książek” nie oznacza, że rzeczownik zawsze pozostaje w dopełniaczu po pięć.", "zhHans": "介词决定整个短语的格：do dwóch nowych szkół（到两所新学校）、z trzema dobrymi kolegami（和三位好同事一起）、o pięciu ciekawych książkach（关于五本有趣的书）。主格结构 pięć książek 不意味着 pięć 后的名词永远用属格。", "zhHant": "介詞決定整個片語的格：do dwóch nowych szkół（到兩所新學校）、z trzema dobrymi kolegami（和三位好同事一起）、o pięciu ciekawych książkach（關於五本有趣的書）。主格結構 pięć książek 不意味著 pięć 後的名詞永遠用屬格。"},
+          "examples": [
+            {"pl": "Rozmawiam z dwiema nowymi koleżankami.", "zhHans": "我在和两位新来的女同事交谈。", "zhHant": "我在和兩位新來的女同事交談。"},
+            {"pl": "Przyglądam się pięciu starym zdjęciom.", "zhHans": "我在仔细看五张旧照片。", "zhHant": "我在仔細看五張舊照片。"}
+          ],
+          "note": {"pl": "Narzędnik żeński liczebnika dwa ma dwa poprawne warianty: „dwiema” i „dwoma”, np. z dwiema / dwoma koleżankami.", "zhHans": "数词 dwa 的阴性工具格有两个正确变体：dwiema 和 dwoma，例如 z dwiema / dwoma koleżankami。", "zhHant": "數詞 dwa 的陰性工具格有兩個正確變體：dwiema 和 dwoma，例如 z dwiema / dwoma koleżankami。"}
+        },
+        {
+          "heading": {"pl": "Od, niż, o: punkt odniesienia i różnica", "zhHans": "od、niż、o：比较对象与差值", "zhHant": "od、niż、o：比較對象與差值"},
+          "explanation": {"pl": "„Od + dopełniacz” wskazuje punkt odniesienia: starsza od brata. Po „niż” przypadek zależy od budowy porównania: starsza niż brat, pomagam jej częściej niż bratu. „O + biernik” podaje różnicę: o dwa lata starsza, o pięć złotych tańszy. „Dwa razy większy” wyraża stosunek, a nie różnicę o dwie jednostki.", "zhHans": "od + 属格引出比较对象：starsza od brata（比兄弟年长）。niż 后的格取决于句法结构：starsza niż brat；pomagam jej częściej niż bratu（我帮助她的次数比帮助兄弟多）。o + 宾格表示差值：o dwa lata starsza（年长两岁）、o pięć złotych tańszy（便宜五兹罗提）。dwa razy większy 表示倍数，不是多两个单位。", "zhHant": "od + 屬格引出比較對象：starsza od brata（比兄弟年長）。niż 後的格取決於句法結構：starsza niż brat；pomagam jej częściej niż bratu（我幫助她的次數比幫助兄弟多）。o + 賓格表示差值：o dwa lata starsza（年長兩歲）、o pięć złotych tańszy（便宜五茲羅提）。dwa razy większy 表示倍數，不是多兩個單位。"},
+          "examples": [
+            {"pl": "Anna jest o trzy lata starsza od brata.", "zhHans": "安娜比她的兄弟大三岁。", "zhHant": "安娜比她的兄弟大三歲。"},
+            {"pl": "Ten bilet jest tańszy o dziesięć złotych niż tamten.", "zhHans": "这张票比那张便宜十兹罗提。", "zhHant": "這張票比那張便宜十茲羅提。"}
+          ],
+          "note": {"pl": "Przysłówek opisuje czynność: „pracuje lepiej”, nie „pracuje lepszy”. Przymiotnik opisuje rzeczownik: „lepszy wynik”.", "zhHans": "副词修饰动作：pracuje lepiej（工作得更好），不用 pracuje lepszy。形容词修饰名词：lepszy wynik（更好的结果）。", "zhHant": "副詞修飾動作：pracuje lepiej（工作得更好），不用 pracuje lepszy。形容詞修飾名詞：lepszy wynik（更好的結果）。"}
+        }
+      ]
+    },
+    {
       "id": "pl-numbers-cardinal-ordinal",
       "title": {
         "pl": "Liczebniki główne i porządkowe",

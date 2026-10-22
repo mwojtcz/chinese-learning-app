@@ -6,14 +6,9 @@ import '../models/grammar_lesson.dart';
 import '../models/learning_target.dart';
 import '../models/polish_course.dart';
 import '../models/polish_word_forms.dart';
+import '../models/vocabulary_category.dart';
 import '../models/word.dart';
 import '../providers/word_provider.dart';
-
-const _ink = Color(0xFF242521);
-const _mutedInk = Color(0xFF77776F);
-const _paper = Color(0xFFFFFCF6);
-const _accent = Color(0xFFB44535);
-const _line = Color(0xFFE9E1D5);
 
 String _hskLevelLabel(String level) =>
     level == 'HSK-7-9' ? 'HSK 7–9' : level.replaceFirst('-', ' ');
@@ -37,6 +32,7 @@ class StudyDeckTab extends StatefulWidget {
 class _StudyDeckTabState extends State<StudyDeckTab> {
   final FocusNode _focusNode = FocusNode();
   String _selectedLevel = 'HSK-1';
+  String _selectedCategory = VocabularyCategory.allId;
   bool _showSkipped = false;
   bool _revealed = false;
 
@@ -56,7 +52,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
     super.dispose();
   }
 
-  Future<void> _decide(WordProvider provider, Word word, StudyDecision decision) async {
+  Future<void> _decide(
+      WordProvider provider, Word word, StudyDecision decision) async {
     setState(() => _revealed = false);
     await provider.recordStudyDecision(word, decision);
   }
@@ -79,7 +76,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
       _decide(provider, word, StudyDecision.saved);
     } else if (key == LogicalKeyboardKey.arrowUp) {
       _decide(provider, word, StudyDecision.known);
-    } else if (key == LogicalKeyboardKey.space || key == LogicalKeyboardKey.enter) {
+    } else if (key == LogicalKeyboardKey.space ||
+        key == LogicalKeyboardKey.enter) {
       setState(() => _revealed = !_revealed);
     } else {
       return KeyEventResult.ignored;
@@ -89,6 +87,7 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final language = widget.language;
     return Consumer<WordProvider>(
       builder: (context, provider, _) {
@@ -96,13 +95,30 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
           return Center(
             child: CircularProgressIndicator(
               value: provider.loadingProgress,
-              color: _accent,
+              color: colors.primary,
             ),
           );
         }
 
-        final availableWords =
-            provider.allWords.where((word) => word.level == _selectedLevel).toList();
+        final levelWords = provider.allWords
+            .where((word) => word.level == _selectedLevel)
+            .toList();
+        final categories = VocabularyCategory.availableFor(
+          provider.allWords,
+          level: _selectedLevel,
+        );
+        final categoryCounts = {
+          for (final category in categories)
+            category.id: levelWords
+                .where((word) =>
+                    VocabularyCategory.idsFor(word).contains(category.id))
+                .length,
+        };
+        final availableWords = levelWords
+            .where((word) =>
+                _selectedCategory == VocabularyCategory.allId ||
+                VocabularyCategory.idsFor(word).contains(_selectedCategory))
+            .toList();
         final words = availableWords.where((word) {
           final decision = provider.studyDecisionFor(word.hanzi);
           return _showSkipped
@@ -113,7 +129,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
             .where((word) =>
                 provider.studyDecisionFor(word.hanzi) == StudyDecision.skipped)
             .length;
-        final completedCount = availableWords.length - words.length -
+        final completedCount = availableWords.length -
+            words.length -
             (_showSkipped ? 0 : skippedCount);
         final word = words.isEmpty ? null : words.first;
 
@@ -126,7 +143,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
             builder: (context, constraints) {
               final compact = constraints.maxWidth < 620;
               return SingleChildScrollView(
-                padding: EdgeInsets.fromLTRB(compact ? 18 : 32, 8, compact ? 18 : 32, 28),
+                padding: EdgeInsets.fromLTRB(
+                    compact ? 18 : 32, 8, compact ? 18 : 32, 28),
                 child: Center(
                   child: ConstrainedBox(
                     constraints: const BoxConstraints(maxWidth: 900),
@@ -134,13 +152,15 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         _Eyebrow(
-                          language.text('NAUKA • HSK 2025', '学习 • HSK 2025', '學習 • HSK 2025'),
+                          language.text('NAUKA • HSK 2025', '学习 • HSK 2025',
+                              '學習 • HSK 2025'),
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          language.text('Jedna karta na raz.', '一次一张卡。', '一次一張卡。'),
+                          language.text(
+                              'Jedna karta na raz.', '一次一张卡。', '一次一張卡。'),
                           style: TextStyle(
-                            color: _ink,
+                            color: colors.onSurface,
                             fontSize: compact ? 30 : 40,
                             height: 1.08,
                             fontWeight: FontWeight.w700,
@@ -154,7 +174,10 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                             '认识新词，用手势保存，再回来复习。',
                             '認識新詞，用手勢保存，再回來複習。',
                           ),
-                          style: const TextStyle(color: _mutedInk, fontSize: 15, height: 1.45),
+                          style: TextStyle(
+                              color: colors.onSurfaceVariant,
+                              fontSize: 16,
+                              height: 1.45),
                         ),
                         const SizedBox(height: 22),
                         _LevelPicker(
@@ -167,10 +190,23 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                           },
                           onSelected: (level) => setState(() {
                             _selectedLevel = level;
+                            _selectedCategory = VocabularyCategory.allId;
                             _revealed = false;
                           }),
                         ),
                         const SizedBox(height: 18),
+                        _VocabularyCategoryPicker(
+                          language: language,
+                          categories: categories,
+                          categoryCounts: categoryCounts,
+                          allCount: levelWords.length,
+                          selectedCategory: _selectedCategory,
+                          onSelected: (category) => setState(() {
+                            _selectedCategory = category;
+                            _revealed = false;
+                          }),
+                        ),
+                        const SizedBox(height: 14),
                         Wrap(
                           spacing: 8,
                           runSpacing: 4,
@@ -228,8 +264,10 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                                     }),
                             onResetSkipped: _showSkipped
                                 ? () async {
-                                    await provider.revisitSkippedWords(level: _selectedLevel);
-                                    if (mounted) setState(() => _showSkipped = false);
+                                    await provider.revisitSkippedWords(
+                                        level: _selectedLevel);
+                                    if (mounted)
+                                      setState(() => _showSkipped = false);
                                   }
                                 : null,
                           )
@@ -251,7 +289,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                               word,
                               StudyDecision.known,
                             ),
-                            onDetails: () => _showWordDetails(context, word, language),
+                            onDetails: () =>
+                                _showWordDetails(context, word, language),
                           ),
                           const SizedBox(height: 14),
                           Row(
@@ -260,7 +299,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                                 child: _DecisionButton(
                                   icon: Icons.close_rounded,
                                   label: language.text('Pomiń', '跳过', '跳過'),
-                                  color: const Color(0xFF6B7280),
+                                  color: colors.secondary,
+                                  foregroundColor: colors.onSecondary,
                                   onPressed: () => _skip(provider, word),
                                 ),
                               ),
@@ -268,8 +308,10 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                               Expanded(
                                 child: _DecisionButton(
                                   icon: Icons.bookmark_add_outlined,
-                                  label: language.text('Do nauki', '稍后学习', '稍後學習'),
-                                  color: const Color(0xFF315C57),
+                                  label:
+                                      language.text('Do nauki', '稍后学习', '稍後學習'),
+                                  color: colors.tertiary,
+                                  foregroundColor: colors.onTertiary,
                                   onPressed: () => _decide(
                                     provider,
                                     word,
@@ -282,7 +324,8 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                                 child: _DecisionButton(
                                   icon: Icons.check_rounded,
                                   label: language.text('Znam', '我会了', '我會了'),
-                                  color: _accent,
+                                  color: colors.primary,
+                                  foregroundColor: colors.onPrimary,
                                   onPressed: () => _decide(
                                     provider,
                                     word,
@@ -301,7 +344,10 @@ class _StudyDeckTabState extends State<StudyDeckTab> {
                                 '← 跳過     空格：翻面     ↑ 會了     → 稍後學習',
                               ),
                               textAlign: TextAlign.center,
-                              style: const TextStyle(color: _mutedInk, fontSize: 12),
+                              style: TextStyle(
+                                  height: 1.45,
+                                  color: colors.onSurfaceVariant,
+                                  fontSize: 14),
                             ),
                           ),
                         ],
@@ -331,6 +377,7 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
   final _searchController = TextEditingController();
   String _searchQuery = '';
   String _selectedLevel = 'HSK-1';
+  String _selectedCategory = VocabularyCategory.allId;
 
   @override
   void dispose() {
@@ -340,14 +387,22 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final language = widget.language;
     return Consumer<WordProvider>(
       builder: (context, provider, _) {
+        final categories = VocabularyCategory.availableFor(
+          provider.allWords,
+          level: _selectedLevel == 'Wszystkie' ? null : _selectedLevel,
+        );
         final words = provider.allWords.where((word) {
           final query = _searchQuery.trim().toLowerCase();
           final normalizedQuery = Word.normalizePinyin(query);
-          final matchesLevel = _selectedLevel == 'Wszystkie' ||
-              word.level == _selectedLevel;
+          final matchesLevel =
+              _selectedLevel == 'Wszystkie' || word.level == _selectedLevel;
+          final matchesCategory =
+              _selectedCategory == VocabularyCategory.allId ||
+                  VocabularyCategory.idsFor(word).contains(_selectedCategory);
           final matchesSearch = query.isEmpty ||
               word.displayHanzi.toLowerCase().contains(query) ||
               word.hanzi.toLowerCase().contains(query) ||
@@ -356,7 +411,7 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
               Word.normalizePinyin(word.pinyin).contains(normalizedQuery) ||
               word.englishTranslation.toLowerCase().contains(query) ||
               word.polishTranslation.toLowerCase().contains(query);
-          return matchesLevel && matchesSearch;
+          return matchesLevel && matchesCategory && matchesSearch;
         }).toList();
 
         return CustomScrollView(
@@ -368,9 +423,10 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                   _Eyebrow(language.text('SŁOWNIK', '词库', '詞庫')),
                   const SizedBox(height: 8),
                   Text(
-                    language.text('Całe HSK, bez zgadywania.', 'HSK 词库，一目了然。', 'HSK 詞庫，一目了然。'),
-                    style: const TextStyle(
-                      color: _ink,
+                    language.text('Całe HSK, bez zgadywania.', 'HSK 词库，一目了然。',
+                        'HSK 詞庫，一目了然。'),
+                    style: TextStyle(
+                      color: colors.onSurface,
                       fontSize: 34,
                       fontWeight: FontWeight.w700,
                       letterSpacing: -0.8,
@@ -383,7 +439,10 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                       '搜索现有词表，并查看每个级别的数据来源。',
                       '搜尋現有詞表，並查看每個級別的資料來源。',
                     ),
-                    style: const TextStyle(color: _mutedInk, fontSize: 15),
+                    style: TextStyle(
+                        height: 1.45,
+                        color: colors.onSurfaceVariant,
+                        fontSize: 16),
                   ),
                   const SizedBox(height: 5),
                   Text(
@@ -392,10 +451,15 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                       '1–6 级显示该阶段新增词汇；HSK 7–9 为一个综合词表。',
                       '1–6 級顯示該階段新增詞彙；HSK 7–9 為一個綜合詞表。',
                     ),
-                    style: const TextStyle(color: _mutedInk, fontSize: 12),
+                    style: TextStyle(
+                        height: 1.45,
+                        color: colors.onSurfaceVariant,
+                        fontSize: 14),
                   ),
                   const SizedBox(height: 18),
                   TextField(
+                    style: TextStyle(
+                        color: colors.onSurface, fontSize: 16, height: 1.45),
                     controller: _searchController,
                     onChanged: (value) => setState(() => _searchQuery = value),
                     decoration: InputDecoration(
@@ -406,14 +470,14 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                       ),
                       prefixIcon: const Icon(Icons.search),
                       filled: true,
-                      fillColor: _paper,
+                      fillColor: colors.surface,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(16),
-                        borderSide: const BorderSide(color: _line),
+                        borderSide: BorderSide(color: colors.outlineVariant),
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(16),
-                        borderSide: const BorderSide(color: _line),
+                        borderSide: BorderSide(color: colors.outlineVariant),
                       ),
                     ),
                   ),
@@ -427,14 +491,42 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                         if (level != 'Wszystkie')
                           level: provider.getLevelWordCount(level),
                     },
-                    onSelected: (level) => setState(() => _selectedLevel = level),
+                    onSelected: (level) => setState(() {
+                      _selectedLevel = level;
+                      _selectedCategory = VocabularyCategory.allId;
+                    }),
                   ),
                   const SizedBox(height: 12),
+                  if (categories.isNotEmpty) ...[
+                    _VocabularyCategoryPicker(
+                      language: language,
+                      categories: categories,
+                      categoryCounts: {
+                        for (final category in categories)
+                          category.id: provider.allWords
+                              .where((word) =>
+                                  (_selectedLevel == 'Wszystkie' ||
+                                      word.level == _selectedLevel) &&
+                                  VocabularyCategory.idsFor(word)
+                                      .contains(category.id))
+                              .length,
+                      },
+                      allCount: provider.allWords
+                          .where((word) =>
+                              _selectedLevel == 'Wszystkie' ||
+                              word.level == _selectedLevel)
+                          .length,
+                      selectedCategory: _selectedCategory,
+                      onSelected: (category) =>
+                          setState(() => _selectedCategory = category),
+                    ),
+                    const SizedBox(height: 12),
+                  ],
                   if (provider.isLoading)
-                    const Center(
+                    Center(
                       child: Padding(
                         padding: EdgeInsets.all(36),
-                        child: CircularProgressIndicator(color: _accent),
+                        child: CircularProgressIndicator(color: colors.primary),
                       ),
                     )
                   else if (words.isEmpty)
@@ -449,7 +541,10 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                         '${words.length} 个词 • HSK 2025',
                         '${words.length} 個詞 • HSK 2025',
                       ),
-                      style: const TextStyle(color: _mutedInk, fontSize: 13),
+                      style: TextStyle(
+                          height: 1.45,
+                          color: colors.onSurfaceVariant,
+                          fontSize: 14),
                     ),
                 ]),
               ),
@@ -463,7 +558,8 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
                       word: words[index],
                       language: language,
                       decision: provider.studyDecisionFor(words[index].hanzi),
-                      onTap: () => _showWordDetails(context, words[index], language),
+                      onTap: () =>
+                          _showWordDetails(context, words[index], language),
                     ),
                     childCount: words.length,
                   ),
@@ -471,11 +567,98 @@ class _HskLibraryTabState extends State<HskLibraryTab> {
               ),
             SliverPadding(
               padding: const EdgeInsets.fromLTRB(24, 20, 24, 32),
-              sliver: SliverToBoxAdapter(child: _SourceNote(language: language)),
+              sliver:
+                  SliverToBoxAdapter(child: _SourceNote(language: language)),
             ),
           ],
         );
       },
+    );
+  }
+}
+
+class _CategoryChip extends StatelessWidget {
+  const _CategoryChip({
+    super.key,
+    required this.label,
+    required this.count,
+    required this.selected,
+    required this.onSelected,
+  });
+
+  final String label;
+  final int count;
+  final bool selected;
+  final VoidCallback onSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(right: 8),
+      child: FilterChip(
+        label: Text('$label ($count)'),
+        selected: selected,
+        onSelected: (_) => onSelected(),
+      ),
+    );
+  }
+}
+
+class _VocabularyCategoryPicker extends StatelessWidget {
+  const _VocabularyCategoryPicker({
+    required this.language,
+    required this.categories,
+    required this.categoryCounts,
+    required this.allCount,
+    required this.selectedCategory,
+    required this.onSelected,
+  });
+
+  final AppLanguage language;
+  final List<VocabularyCategory> categories;
+  final Map<String, int> categoryCounts;
+  final int allCount;
+  final String selectedCategory;
+  final ValueChanged<String> onSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          language.text('Kategorie tematyczne', '主题分类', '主題分類'),
+          style: TextStyle(
+            color: colors.onSurfaceVariant,
+            fontWeight: FontWeight.w600,
+            fontSize: 13,
+          ),
+        ),
+        const SizedBox(height: 8),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: [
+              _CategoryChip(
+                key: const ValueKey('vocabulary-category-all'),
+                label: language.text('Wszystkie', '全部', '全部'),
+                count: allCount,
+                selected: selectedCategory == VocabularyCategory.allId,
+                onSelected: () => onSelected(VocabularyCategory.allId),
+              ),
+              for (final category in categories)
+                _CategoryChip(
+                  key: ValueKey('vocabulary-category-${category.id}'),
+                  label: category.label(language),
+                  count: categoryCounts[category.id] ?? 0,
+                  selected: selectedCategory == category.id,
+                  onSelected: () => onSelected(category.id),
+                ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
@@ -494,6 +677,7 @@ class _SavedWordsTabState extends State<SavedWordsTab> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final language = widget.language;
     return Consumer<WordProvider>(
       builder: (context, provider, _) {
@@ -519,9 +703,10 @@ class _SavedWordsTabState extends State<SavedWordsTab> {
                   _Eyebrow(language.text('OSOBISTY ZBIÓR', '我的词卡', '我的詞卡')),
                   const SizedBox(height: 8),
                   Text(
-                    language.text('Słowa, które zostają.', '把想学的词留下。', '把想學的詞留下。'),
-                    style: const TextStyle(
-                      color: _ink,
+                    language.text(
+                        'Słowa, które zostają.', '把想学的词留下。', '把想學的詞留下。'),
+                    style: TextStyle(
+                      color: colors.onSurface,
                       fontSize: 34,
                       fontWeight: FontWeight.w700,
                       letterSpacing: -0.8,
@@ -529,19 +714,22 @@ class _SavedWordsTabState extends State<SavedWordsTab> {
                   ),
                   const SizedBox(height: 14),
                   TextField(
+                    style: TextStyle(
+                        color: colors.onSurface, fontSize: 16, height: 1.45),
                     onChanged: (value) => setState(() => _query = value),
                     decoration: InputDecoration(
-                      hintText: language.text('Filtruj zapisane słowa…', '搜索收藏的词…', '搜尋收藏的詞…'),
+                      hintText: language.text(
+                          'Filtruj zapisane słowa…', '搜索收藏的词…', '搜尋收藏的詞…'),
                       prefixIcon: const Icon(Icons.search),
                       filled: true,
-                      fillColor: _paper,
+                      fillColor: colors.surface,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(16),
-                        borderSide: const BorderSide(color: _line),
+                        borderSide: BorderSide(color: colors.outlineVariant),
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(16),
-                        borderSide: const BorderSide(color: _line),
+                        borderSide: BorderSide(color: colors.outlineVariant),
                       ),
                     ),
                   ),
@@ -552,7 +740,10 @@ class _SavedWordsTabState extends State<SavedWordsTab> {
                       '${words.length} 个收藏词',
                       '${words.length} 個收藏詞',
                     ),
-                    style: const TextStyle(color: _mutedInk, fontSize: 13),
+                    style: TextStyle(
+                        height: 1.45,
+                        color: colors.onSurfaceVariant,
+                        fontSize: 14),
                   ),
                   const SizedBox(height: 8),
                   if (words.isEmpty) _EmptySavedWords(language: language),
@@ -571,8 +762,10 @@ class _SavedWordsTabState extends State<SavedWordsTab> {
                         language: language,
                         decision: provider.studyDecisionFor(word.hanzi),
                         trailing: IconButton(
-                          tooltip: language.text('Usuń z zapisanych', '取消收藏', '取消收藏'),
-                          onPressed: () => provider.removeFromMyWords(word.hanzi),
+                          tooltip: language.text(
+                              'Usuń z zapisanych', '取消收藏', '取消收藏'),
+                          onPressed: () =>
+                              provider.removeFromMyWords(word.hanzi),
                           icon: const Icon(Icons.bookmark_remove_outlined),
                         ),
                         onTap: () => _showWordDetails(context, word, language),
@@ -621,6 +814,7 @@ class _GrammarTabState extends State<GrammarTab> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final language = widget.language;
     final polish = language.isPolish;
     return FutureBuilder<List<GrammarLesson>>(
@@ -636,18 +830,22 @@ class _GrammarTabState extends State<GrammarTab> {
                   '语法课程加载失败：${snapshot.error}',
                   '語法課程載入失敗：${snapshot.error}',
                 ),
-                style: const TextStyle(color: _accent),
+                style: TextStyle(
+                    height: 1.45, fontSize: 16, color: colors.primary),
               ),
             ),
           );
         }
         if (!snapshot.hasData) {
-          return const Center(child: CircularProgressIndicator(color: _accent));
+          return Center(
+              child: CircularProgressIndicator(color: colors.primary));
         }
 
         final lessons = snapshot.data!;
-        final chineseLessons = lessons.where((lesson) => lesson.id.startsWith('zh-')).toList();
-        final polishLessons = lessons.where((lesson) => lesson.id.startsWith('pl-')).toList();
+        final chineseLessons =
+            lessons.where((lesson) => lesson.id.startsWith('zh-')).toList();
+        final polishLessons =
+            lessons.where((lesson) => lesson.id.startsWith('pl-')).toList();
         final chineseTab = Tab(
           text: language.text('Chiński · 中文', '中文 · 语法', '中文 · 語法'),
         );
@@ -655,7 +853,8 @@ class _GrammarTabState extends State<GrammarTab> {
           text: language.text('Polski · gramatyka', '波兰语 · 语法', '波蘭語 · 語法'),
         );
         final polishCourseTab = Tab(
-          text: language.text('Kurs polskiego · A1–C2', '波兰语课程 · A1–C2', '波蘭語課程 · A1–C2'),
+          text: language.text(
+              'Kurs polskiego · A1–C2', '波兰语课程 · A1–C2', '波蘭語課程 · A1–C2'),
         );
         final tabs = polish
             ? [polishCourseTab, polishGrammarTab, chineseTab]
@@ -684,9 +883,10 @@ class _GrammarTabState extends State<GrammarTab> {
                     _Eyebrow(language.text('GRAMATYKA', '语法手册', '語法手冊')),
                     const SizedBox(height: 8),
                     Text(
-                      language.text('Zasady, które robią różnicę.', '把规则变成表达力。', '把規則變成表達力。'),
-                      style: const TextStyle(
-                        color: _ink,
+                      language.text('Zasady, które robią różnicę.', '把规则变成表达力。',
+                          '把規則變成表達力。'),
+                      style: TextStyle(
+                        color: colors.onSurface,
                         fontSize: 32,
                         fontWeight: FontWeight.w700,
                         letterSpacing: -0.7,
@@ -695,9 +895,9 @@ class _GrammarTabState extends State<GrammarTab> {
                     const SizedBox(height: 14),
                     TabBar(
                       isScrollable: true,
-                      labelColor: _accent,
-                      unselectedLabelColor: _mutedInk,
-                      indicatorColor: _accent,
+                      labelColor: colors.primary,
+                      unselectedLabelColor: colors.onSurfaceVariant,
+                      indicatorColor: colors.primary,
                       tabs: tabs,
                     ),
                   ],
@@ -725,6 +925,7 @@ class _PolishCourseTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return FutureBuilder<List<PolishCourseLevel>>(
       future: course,
       builder: (context, snapshot) {
@@ -743,7 +944,8 @@ class _PolishCourseTab extends StatelessWidget {
           );
         }
         if (!snapshot.hasData) {
-          return const Center(child: CircularProgressIndicator(color: _accent));
+          return Center(
+              child: CircularProgressIndicator(color: colors.primary));
         }
 
         return ListView(
@@ -752,7 +954,7 @@ class _PolishCourseTab extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(18),
               decoration: BoxDecoration(
-                color: const Color(0xFFECE4D9),
+                color: colors.surfaceContainerHighest,
                 borderRadius: BorderRadius.circular(18),
               ),
               child: Text(
@@ -761,27 +963,30 @@ class _PolishCourseTab extends StatelessWidget {
                   '课程从第一句话循序推进到独立的高级交流。每个单元都包含交际目标、例句、附答案的小练习和实践任务。按此循环学习：认识形式、观察例句、核对答案，再用于自己的表达。格的学习循序渐进；完整表格见下方“波兰语语法”。',
                   '課程從第一句話循序推進到獨立的進階交流。每個單元都包含交際目標、例句、附答案的小練習和實踐任務。依此循環學習：認識形式、觀察例句、核對答案，再用於自己的表達。格的學習循序漸進；完整表格見下方「波蘭語文法」。',
                 ),
-                style: const TextStyle(color: _ink, height: 1.5),
+                style: TextStyle(
+                    fontSize: 16, color: colors.onSurface, height: 1.5),
               ),
             ),
             const SizedBox(height: 12),
             for (final level in snapshot.data!)
               Card(
                 margin: const EdgeInsets.only(bottom: 10),
-                color: _paper,
+                color: colors.surface,
                 elevation: 0,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18),
-                  side: const BorderSide(color: _line),
+                  side: BorderSide(color: colors.outlineVariant),
                 ),
                 clipBehavior: Clip.antiAlias,
                 child: ExpansionTile(
-                  tilePadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 5),
+                  tilePadding:
+                      const EdgeInsets.symmetric(horizontal: 18, vertical: 5),
                   childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
                   title: Text(
                     level.title.forLanguage(language),
-                    style: const TextStyle(
-                      color: _ink,
+                    style: TextStyle(
+                      height: 1.45,
+                      color: colors.onSurface,
                       fontSize: 18,
                       fontWeight: FontWeight.w700,
                     ),
@@ -790,24 +995,33 @@ class _PolishCourseTab extends StatelessWidget {
                     padding: const EdgeInsets.only(top: 5),
                     child: Text(
                       level.canDo.forLanguage(language),
-                      style: const TextStyle(color: _mutedInk, height: 1.4),
+                      style: TextStyle(
+                          fontSize: 16,
+                          color: colors.onSurfaceVariant,
+                          height: 1.4),
                     ),
                   ),
                   children: [
                     for (final unit in level.units)
                       ExpansionTile(
                         tilePadding: const EdgeInsets.symmetric(horizontal: 8),
-                        childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                        childrenPadding:
+                            const EdgeInsets.fromLTRB(12, 0, 12, 12),
                         title: Text(
                           unit.title.forLanguage(language),
-                          style: const TextStyle(
-                            color: _ink,
+                          style: TextStyle(
+                            height: 1.45,
+                            fontSize: 16,
+                            color: colors.onSurface,
                             fontWeight: FontWeight.w700,
                           ),
                         ),
                         subtitle: Text(
                           unit.outcome.forLanguage(language),
-                          style: const TextStyle(color: _mutedInk, height: 1.4),
+                          style: TextStyle(
+                              fontSize: 16,
+                              color: colors.onSurfaceVariant,
+                              height: 1.4),
                         ),
                         children: [
                           _CourseDetail(
@@ -818,34 +1032,44 @@ class _PolishCourseTab extends StatelessWidget {
                           ),
                           const SizedBox(height: 8),
                           _CourseDetail(
-                            label: language.text('Gramatyka i język', '语法与语言重点', '文法與語言重點'),
+                            label: language.text(
+                                'Gramatyka i język', '语法与语言重点', '文法與語言重點'),
                             text: unit.focus.forLanguage(language),
                           ),
                           const SizedBox(height: 8),
                           ExpansionTile(
-                            tilePadding: const EdgeInsets.symmetric(horizontal: 12),
-                            childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                            tilePadding:
+                                const EdgeInsets.symmetric(horizontal: 12),
+                            childrenPadding:
+                                const EdgeInsets.fromLTRB(12, 0, 12, 12),
                             title: Text(
                               language.text('Ćwiczenie', '练习', '練習'),
-                              style: const TextStyle(
-                                color: _accent,
+                              style: TextStyle(
+                                height: 1.45,
+                                fontSize: 16,
+                                color: colors.primary,
                                 fontWeight: FontWeight.w800,
                               ),
                             ),
                             subtitle: Text(
                               unit.practice.forLanguage(language),
-                              style: const TextStyle(color: _ink, height: 1.45),
+                              style: TextStyle(
+                                  fontSize: 16,
+                                  color: colors.onSurface,
+                                  height: 1.45),
                             ),
                             children: [
                               _CourseDetail(
-                                label: language.text('Odpowiedź i wskazówka', '答案与提示', '答案與提示'),
+                                label: language.text(
+                                    'Odpowiedź i wskazówka', '答案与提示', '答案與提示'),
                                 text: unit.answer.forLanguage(language),
                               ),
                             ],
                           ),
                           const SizedBox(height: 8),
                           _CourseDetail(
-                            label: language.text('Zadanie praktyczne', '实践任务', '實踐任務'),
+                            label: language.text(
+                                'Zadanie praktyczne', '实践任务', '實踐任務'),
                             text: unit.task.forLanguage(language),
                           ),
                         ],
@@ -861,7 +1085,8 @@ class _PolishCourseTab extends StatelessWidget {
                   '课程等级和交际目标参考《欧洲语言共同参考框架》及 2025 年波兰语国家考试标准。本课程编排为自编教学方案，并非官方考试大纲。',
                   '課程等級和交際目標參考《歐洲語言共同參考架構》及 2025 年波蘭語國家考試標準。本課程編排為自編教學方案，並非官方考試大綱。',
                 ),
-                style: const TextStyle(color: _mutedInk, fontSize: 12, height: 1.45),
+                style: TextStyle(
+                    color: colors.onSurfaceVariant, fontSize: 14, height: 1.45),
               ),
             ),
           ],
@@ -878,29 +1103,35 @@ class _CourseDetail extends StatelessWidget {
   final String text;
 
   @override
-  Widget build(BuildContext context) => Container(
-        width: double.infinity,
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(
-          color: const Color(0xFFF4EFE7),
-          borderRadius: BorderRadius.circular(12),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              label,
-              style: const TextStyle(
-                color: _accent,
-                fontSize: 12,
-                fontWeight: FontWeight.w800,
-              ),
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: colors.surfaceContainerLow,
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            label,
+            style: TextStyle(
+              height: 1.45,
+              color: colors.primary,
+              fontSize: 14,
+              fontWeight: FontWeight.w800,
             ),
-            const SizedBox(height: 4),
-            Text(text, style: const TextStyle(color: _ink, height: 1.45)),
-          ],
-        ),
-      );
+          ),
+          const SizedBox(height: 4),
+          Text(text,
+              style: TextStyle(
+                  fontSize: 16, color: colors.onSurface, height: 1.45)),
+        ],
+      ),
+    );
+  }
 }
 
 class _GrammarLessonList extends StatelessWidget {
@@ -911,11 +1142,14 @@ class _GrammarLessonList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     if (lessons.isEmpty) {
       return Center(
         child: Text(
-          language.text('Materiały będą dostępne wkrótce.', '课程即将推出。', '課程即將推出。'),
-          style: const TextStyle(color: _mutedInk),
+          language.text(
+              'Materiały będą dostępne wkrótce.', '课程即将推出。', '課程即將推出。'),
+          style: TextStyle(
+              height: 1.45, fontSize: 16, color: colors.onSurfaceVariant),
         ),
       );
     }
@@ -928,21 +1162,26 @@ class _GrammarLessonList extends StatelessWidget {
           margin: const EdgeInsets.only(bottom: 14),
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: _paper,
+            color: colors.surface,
             borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: _line),
+            border: Border.all(color: colors.outlineVariant),
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 lesson.title.forLanguage(language),
-                style: const TextStyle(color: _ink, fontSize: 20, fontWeight: FontWeight.w700),
+                style: TextStyle(
+                    height: 1.45,
+                    color: colors.onSurface,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700),
               ),
               const SizedBox(height: 8),
               Text(
                 lesson.summary.forLanguage(language),
-                style: const TextStyle(color: _mutedInk, height: 1.45),
+                style: TextStyle(
+                    fontSize: 16, color: colors.onSurfaceVariant, height: 1.45),
               ),
               const SizedBox(height: 12),
               for (final section in lesson.sections)
@@ -953,12 +1192,19 @@ class _GrammarLessonList extends StatelessWidget {
                     children: [
                       Text(
                         section.heading.forLanguage(language),
-                        style: const TextStyle(color: _ink, fontSize: 16, fontWeight: FontWeight.w700),
+                        style: TextStyle(
+                            height: 1.45,
+                            color: colors.onSurface,
+                            fontSize: 16,
+                            fontWeight: FontWeight.w700),
                       ),
                       const SizedBox(height: 6),
                       Text(
                         section.explanation.forLanguage(language),
-                        style: const TextStyle(color: _mutedInk, height: 1.45),
+                        style: TextStyle(
+                            fontSize: 16,
+                            color: colors.onSurfaceVariant,
+                            height: 1.45),
                       ),
                       for (final example in section.examples)
                         Container(
@@ -966,7 +1212,7 @@ class _GrammarLessonList extends StatelessWidget {
                           margin: const EdgeInsets.only(top: 7),
                           padding: const EdgeInsets.all(11),
                           decoration: BoxDecoration(
-                            color: const Color(0xFFF4EFE7),
+                            color: colors.surfaceContainerLow,
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Column(
@@ -974,14 +1220,20 @@ class _GrammarLessonList extends StatelessWidget {
                             children: [
                               Text(
                                 example.forLanguage(language),
-                                style: const TextStyle(color: _ink, height: 1.4),
+                                style: TextStyle(
+                                    fontSize: 16,
+                                    color: colors.onSurface,
+                                    height: 1.4),
                               ),
                               if (example.pinyin?.isNotEmpty ?? false)
                                 Padding(
                                   padding: const EdgeInsets.only(top: 3),
                                   child: Text(
                                     example.pinyin!,
-                                    style: const TextStyle(color: _accent, fontSize: 12),
+                                    style: TextStyle(
+                                        height: 1.45,
+                                        color: colors.primary,
+                                        fontSize: 14),
                                   ),
                                 ),
                             ],
@@ -992,9 +1244,12 @@ class _GrammarLessonList extends StatelessWidget {
                       const SizedBox(height: 7),
                       Text(
                         section.note.forLanguage(language),
-                        style: const TextStyle(color: _mutedInk, fontSize: 13, height: 1.4),
+                        style: TextStyle(
+                            color: colors.onSurfaceVariant,
+                            fontSize: 14,
+                            height: 1.4),
                       ),
-                      const Divider(height: 22, color: _line),
+                      Divider(height: 22, color: colors.outlineVariant),
                     ],
                   ),
                 ),
@@ -1014,14 +1269,15 @@ class _GrammarTableView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final columns = table.headers.length;
     final columnWidth = columns <= 2 ? 180.0 : 150.0;
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.only(top: 12, bottom: 6),
       decoration: BoxDecoration(
-        color: _paper,
-        border: Border.all(color: _line),
+        color: colors.surface,
+        border: Border.all(color: colors.outlineVariant),
         borderRadius: BorderRadius.circular(14),
       ),
       child: ClipRRect(
@@ -1029,7 +1285,8 @@ class _GrammarTableView extends StatelessWidget {
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: DataTable(
-            headingRowColor: const WidgetStatePropertyAll(Color(0xFFECE4D9)),
+            headingRowColor:
+                WidgetStatePropertyAll(colors.surfaceContainerHighest),
             dataRowMinHeight: 48,
             dataRowMaxHeight: 92,
             columnSpacing: 18,
@@ -1041,8 +1298,10 @@ class _GrammarTableView extends StatelessWidget {
                     width: columnWidth,
                     child: Text(
                       header.forLanguage(language),
-                      style: const TextStyle(
-                        color: _ink,
+                      style: TextStyle(
+                        height: 1.45,
+                        fontSize: 16,
+                        color: colors.onSurface,
                         fontWeight: FontWeight.w800,
                       ),
                     ),
@@ -1059,7 +1318,10 @@ class _GrammarTableView extends StatelessWidget {
                           width: columnWidth,
                           child: Text(
                             cell.forLanguage(language),
-                            style: const TextStyle(color: _ink, height: 1.35),
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: colors.onSurface,
+                                height: 1.35),
                           ),
                         ),
                       ),
@@ -1247,20 +1509,28 @@ class _GrammarCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Container(
       margin: const EdgeInsets.only(bottom: 14),
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: _paper,
+        color: colors.surface,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: _line),
+        border: Border.all(color: colors.outlineVariant),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: const TextStyle(color: _ink, fontSize: 20, fontWeight: FontWeight.w700)),
+          Text(title,
+              style: TextStyle(
+                  height: 1.45,
+                  color: colors.onSurface,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700)),
           const SizedBox(height: 8),
-          Text(intro, style: const TextStyle(color: _mutedInk, height: 1.45)),
+          Text(intro,
+              style: TextStyle(
+                  fontSize: 16, color: colors.onSurfaceVariant, height: 1.45)),
           const SizedBox(height: 12),
           for (final example in examples)
             Padding(
@@ -1268,13 +1538,25 @@ class _GrammarCard extends StatelessWidget {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('·  ', style: TextStyle(color: _accent, fontWeight: FontWeight.bold)),
-                  Expanded(child: Text(example, style: const TextStyle(color: _ink, height: 1.4))),
+                  Text('·  ',
+                      style: TextStyle(
+                          height: 1.45,
+                          fontSize: 16,
+                          color: colors.primary,
+                          fontWeight: FontWeight.bold)),
+                  Expanded(
+                      child: Text(example,
+                          style: TextStyle(
+                              fontSize: 16,
+                              color: colors.onSurface,
+                              height: 1.4))),
                 ],
               ),
             ),
-          const Divider(height: 18, color: _line),
-          Text(note, style: const TextStyle(color: _mutedInk, fontSize: 13, height: 1.45)),
+          Divider(height: 18, color: colors.outlineVariant),
+          Text(note,
+              style: TextStyle(
+                  color: colors.onSurfaceVariant, fontSize: 14, height: 1.45)),
         ],
       ),
     );
@@ -1306,16 +1588,16 @@ class _Flashcard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final polish = word.polishTranslation.trim();
     final chinesePrimary =
         language.isTraditional ? word.traditional : word.displayHanzi;
-    final polishFront = polish.isEmpty
-        ? word.englishTranslation
-        : polish;
+    final polishFront = polish.isEmpty ? word.englishTranslation : polish;
 
     return GestureDetector(
       onHorizontalDragEnd: (details) {
-        if (details.primaryVelocity == null || details.primaryVelocity!.abs() < 350) return;
+        if (details.primaryVelocity == null ||
+            details.primaryVelocity!.abs() < 350) return;
         if (details.primaryVelocity! < 0) {
           onSwipeLeft();
         } else {
@@ -1323,7 +1605,8 @@ class _Flashcard extends StatelessWidget {
         }
       },
       onVerticalDragEnd: (details) {
-        if (details.primaryVelocity != null && details.primaryVelocity! < -350) {
+        if (details.primaryVelocity != null &&
+            details.primaryVelocity! < -350) {
           onSwipeUp();
         }
       },
@@ -1333,11 +1616,14 @@ class _Flashcard extends StatelessWidget {
         width: double.infinity,
         padding: const EdgeInsets.fromLTRB(24, 18, 24, 24),
         decoration: BoxDecoration(
-          color: _paper,
+          color: colors.surface,
           borderRadius: BorderRadius.circular(26),
-          border: Border.all(color: _line),
-          boxShadow: const [
-            BoxShadow(color: Color(0x120F1612), blurRadius: 28, offset: Offset(0, 12)),
+          border: Border.all(color: colors.outlineVariant),
+          boxShadow: [
+            BoxShadow(
+                color: colors.shadow.withOpacity(0.07),
+                blurRadius: 28,
+                offset: const Offset(0, 12)),
           ],
         ),
         child: Column(
@@ -1350,7 +1636,8 @@ class _Flashcard extends StatelessWidget {
                 IconButton(
                   tooltip: language.text('Szczegóły słowa', '词语详情', '詞語詳情'),
                   onPressed: onDetails,
-                  icon: const Icon(Icons.open_in_new_rounded, color: _mutedInk),
+                  icon: Icon(Icons.open_in_new_rounded,
+                      color: colors.onSurfaceVariant),
                 ),
               ],
             ),
@@ -1380,9 +1667,10 @@ class _Flashcard extends StatelessWidget {
             Center(
               child: Text(
                 language.text('DOTKNIJ, ABY ODKRYĆ', '点击翻面', '點擊翻面'),
-                style: const TextStyle(
-                  color: _mutedInk,
-                  fontSize: 11,
+                style: TextStyle(
+                  height: 1.45,
+                  color: colors.onSurfaceVariant,
+                  fontSize: 14,
                   letterSpacing: 1.4,
                   fontWeight: FontWeight.w700,
                 ),
@@ -1413,6 +1701,7 @@ class _HiddenWord extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     if (showPolish) {
       return Column(
         key: const ValueKey('polish-front'),
@@ -1422,13 +1711,22 @@ class _HiddenWord extends StatelessWidget {
             hasPolishTranslation
                 ? language.text('PO POLSKU', '波兰语', '波蘭語')
                 : language.text('ANGIELSKI POMOST', '英语辅助', '英語輔助'),
-            style: const TextStyle(color: _accent, fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w700),
+            style: TextStyle(
+                height: 1.45,
+                color: colors.primary,
+                fontSize: 14,
+                letterSpacing: 1.6,
+                fontWeight: FontWeight.w700),
           ),
           const SizedBox(height: 14),
           Text(
             polish,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: _ink, fontSize: 42, height: 1.08, fontWeight: FontWeight.w700),
+            style: TextStyle(
+                color: colors.onSurface,
+                fontSize: 42,
+                height: 1.15,
+                fontWeight: FontWeight.w700),
           ),
           if (!hasPolishTranslation) ...[
             const SizedBox(height: 8),
@@ -1439,7 +1737,8 @@ class _HiddenWord extends StatelessWidget {
                 '此詞的波蘭語翻譯尚未補充。',
               ),
               textAlign: TextAlign.center,
-              style: const TextStyle(color: _mutedInk, fontSize: 13),
+              style: TextStyle(
+                  height: 1.45, color: colors.onSurfaceVariant, fontSize: 14),
             ),
           ],
         ],
@@ -1450,11 +1749,17 @@ class _HiddenWord extends StatelessWidget {
       key: const ValueKey('chinese-front'),
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text(chinese, style: const TextStyle(color: _ink, fontSize: 82, fontWeight: FontWeight.w600)),
+        Text(chinese,
+            style: TextStyle(
+                height: 1.2,
+                color: colors.onSurface,
+                fontSize: 82,
+                fontWeight: FontWeight.w600)),
         const SizedBox(height: 12),
         Text(
           language.text('Znaczenie ukryte', '释义已隐藏', '釋義已隱藏'),
-          style: const TextStyle(color: _mutedInk, fontSize: 14),
+          style: TextStyle(
+              height: 1.45, color: colors.onSurfaceVariant, fontSize: 14),
         ),
       ],
     );
@@ -1477,27 +1782,44 @@ class _RevealedWord extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Column(
       key: const ValueKey('word-back'),
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text(chinesePrimary, style: const TextStyle(color: _ink, fontSize: 58, fontWeight: FontWeight.w600)),
-        if (language.isTraditional && word.traditional != word.displayHanzi) ...[
+        Text(chinesePrimary,
+            style: TextStyle(
+                height: 1.2,
+                color: colors.onSurface,
+                fontSize: 58,
+                fontWeight: FontWeight.w600)),
+        if (language.isTraditional &&
+            word.traditional != word.displayHanzi) ...[
           const SizedBox(height: 2),
-          Text('简体 ${word.displayHanzi}', style: const TextStyle(color: _mutedInk, fontSize: 13)),
+          Text('简体 ${word.displayHanzi}',
+              style: TextStyle(
+                  height: 1.45, color: colors.onSurfaceVariant, fontSize: 14)),
         ],
         const SizedBox(height: 5),
         Text(
           word.pinyin,
           textAlign: TextAlign.center,
-          style: const TextStyle(color: _accent, fontSize: 19, fontWeight: FontWeight.w600),
+          style: TextStyle(
+              height: 1.45,
+              color: colors.primary,
+              fontSize: 19,
+              fontWeight: FontWeight.w600),
         ),
         const SizedBox(height: 15),
         if (language.isChinese) ...[
           Text(
             polish.isEmpty ? word.englishTranslation : polish,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: _ink, fontSize: 27, fontWeight: FontWeight.w700),
+            style: TextStyle(
+                height: 1.2,
+                color: colors.onSurface,
+                fontSize: 27,
+                fontWeight: FontWeight.w700),
           ),
           const SizedBox(height: 4),
           Text(
@@ -1505,16 +1827,23 @@ class _RevealedWord extends StatelessWidget {
                 ? language.text('English bridge', '英语辅助', '英語輔助')
                 : word.englishTranslation,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: _mutedInk, fontSize: 14),
+            style: TextStyle(
+                height: 1.45, color: colors.onSurfaceVariant, fontSize: 14),
           ),
         ] else ...[
           Text(
             polish.isEmpty ? word.englishTranslation : polish,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: _ink, fontSize: 25, fontWeight: FontWeight.w700),
+            style: TextStyle(
+                height: 1.2,
+                color: colors.onSurface,
+                fontSize: 25,
+                fontWeight: FontWeight.w700),
           ),
           const SizedBox(height: 4),
-          Text(word.englishTranslation, style: const TextStyle(color: _mutedInk, fontSize: 14)),
+          Text(word.englishTranslation,
+              style: TextStyle(
+                  height: 1.45, color: colors.onSurfaceVariant, fontSize: 14)),
         ],
       ],
     );
@@ -1538,6 +1867,7 @@ class _LevelPicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final levels = [
       if (includeAll) 'Wszystkie',
       for (var number = 1; number <= 6; number++) 'HSK-$number',
@@ -1562,14 +1892,19 @@ class _LevelPicker extends StatelessWidget {
                         if (selected) onSelected(level);
                       }
                     : null,
-                backgroundColor: _paper,
-                selectedColor: _accent,
-                disabledColor: const Color(0xFFEDE7DD),
+                backgroundColor: colors.surface,
+                selectedColor: colors.primary,
+                checkmarkColor: colors.onPrimary,
+                disabledColor: colors.surfaceContainerHighest,
                 labelStyle: TextStyle(
-                  color: selectedLevel == level ? Colors.white : _ink,
+                  color: selectedLevel == level
+                      ? colors.onPrimary
+                      : colors.onSurface,
+                  fontSize: 14,
+                  height: 1.45,
                   fontWeight: FontWeight.w600,
                 ),
-                side: const BorderSide(color: _line),
+                side: BorderSide(color: colors.outlineVariant),
               ),
             ),
         ],
@@ -1595,39 +1930,62 @@ class _LibraryWordTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final chinese =
         language.isTraditional ? word.traditional : word.displayHanzi;
     final translation = word.polishTranslation.trim();
-    return Container(
-      margin: const EdgeInsets.only(bottom: 8),
-      decoration: BoxDecoration(
-        color: _paper,
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: _line),
-      ),
-      child: ListTile(
-        onTap: onTap,
-        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 7),
-        leading: SizedBox(
-          width: 64,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(chinese, style: const TextStyle(color: _ink, fontSize: 25, fontWeight: FontWeight.w600)),
-              Text(_hskLevelLabel(word.level), style: const TextStyle(color: _mutedInk, fontSize: 10)),
-            ],
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8),
+      child: Material(
+        color: colors.surface,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+          side: BorderSide(color: colors.outlineVariant),
+        ),
+        child: ListTile(
+          onTap: onTap,
+          contentPadding:
+              const EdgeInsets.symmetric(horizontal: 16, vertical: 7),
+          leading: SizedBox(
+            width: 64,
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(chinese,
+                      style: TextStyle(
+                          height: 1.2,
+                          color: colors.onSurface,
+                          fontSize: 25,
+                          fontWeight: FontWeight.w600)),
+                  Text(_hskLevelLabel(word.level),
+                      style: TextStyle(
+                          height: 1.45,
+                          color: colors.onSurfaceVariant,
+                          fontSize: 14)),
+                ],
+              ),
+            ),
           ),
+          title: Text(word.pinyin,
+              style: TextStyle(
+                  height: 1.45,
+                  fontSize: 16,
+                  color: colors.primary,
+                  fontWeight: FontWeight.w600)),
+          subtitle: Text(
+            translation.isEmpty
+                ? word.englishTranslation
+                : '$translation  ·  ${word.englishTranslation}',
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(
+                height: 1.45, fontSize: 16, color: colors.onSurfaceVariant),
+          ),
+          trailing:
+              trailing ?? _DecisionMark(language: language, decision: decision),
         ),
-        title: Text(word.pinyin, style: const TextStyle(color: _accent, fontWeight: FontWeight.w600)),
-        subtitle: Text(
-          translation.isEmpty
-              ? word.englishTranslation
-              : '$translation  ·  ${word.englishTranslation}',
-          maxLines: 2,
-          overflow: TextOverflow.ellipsis,
-          style: const TextStyle(color: _mutedInk),
-        ),
-        trailing: trailing ?? _DecisionMark(language: language, decision: decision),
       ),
     );
   }
@@ -1641,7 +1999,9 @@ class _DecisionMark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (decision == null) return const Icon(Icons.chevron_right, color: _mutedInk);
+    final colors = Theme.of(context).colorScheme;
+    if (decision == null)
+      return Icon(Icons.chevron_right, color: colors.onSurfaceVariant);
     final label = switch (decision!) {
       StudyDecision.saved => language.text('Do nauki', '待学习', '待學習'),
       StudyDecision.known => language.text('Znam', '已掌握', '已掌握'),
@@ -1655,9 +2015,11 @@ class _DecisionMark extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Icon(icon, size: 18, color: _accent),
+        Icon(icon, size: 18, color: colors.primary),
         const SizedBox(width: 4),
-        Text(label, style: const TextStyle(color: _mutedInk, fontSize: 11)),
+        Text(label,
+            style: TextStyle(
+                height: 1.45, color: colors.onSurfaceVariant, fontSize: 14)),
       ],
     );
   }
@@ -1693,12 +2055,8 @@ class _EmptyDeck extends StatelessWidget {
         showSkipped
             ? 'Możesz wrócić do nowych słów lub usunąć pominięcia z talii.'
             : 'Możesz przejrzeć pominięte słowa albo sprawdzić cały poziom w bibliotece HSK.',
-        showSkipped
-            ? '可以继续新词，或把跳过的词放回词卡。'
-            : '可以复习跳过的词，或在 HSK 词库查看全部内容。',
-        showSkipped
-            ? '可以繼續新詞，或把跳過的詞放回詞卡。'
-            : '可以複習跳過的詞，或在 HSK 詞庫查看全部內容。',
+        showSkipped ? '可以继续新词，或把跳过的词放回词卡。' : '可以复习跳过的词，或在 HSK 词库查看全部内容。',
+        showSkipped ? '可以繼續新詞，或把跳過的詞放回詞卡。' : '可以複習跳過的詞，或在 HSK 詞庫查看全部內容。',
       ),
       action: skippedCount > 0
           ? TextButton.icon(
@@ -1730,7 +2088,9 @@ class _EmptyLibrary extends StatelessWidget {
       icon: Icons.search_off,
       title: language.text('Nic tu nie znaleziono.', '没有找到词语。', '沒有找到詞語。'),
       message: language.text(
-        isSearchEmpty ? 'Zmień wyszukiwanie lub wybierz inny poziom.' : 'Dla wybranego zakresu nie ma jeszcze danych.',
+        isSearchEmpty
+            ? 'Zmień wyszukiwanie lub wybierz inny poziom.'
+            : 'Dla wybranego zakresu nie ma jeszcze danych.',
         isSearchEmpty ? '请调整搜索内容或选择其他级别。' : '所选范围目前没有数据。',
         isSearchEmpty ? '請調整搜尋內容或選擇其他級別。' : '所選範圍目前沒有資料。',
       ),
@@ -1746,7 +2106,8 @@ class _EmptySavedWords extends StatelessWidget {
   @override
   Widget build(BuildContext context) => _EmptyPanel(
         icon: Icons.bookmark_border_rounded,
-        title: language.text('Twój słownik dopiero się zaczyna.', '收藏夹还是空的。', '收藏夾還是空的。'),
+        title: language.text(
+            'Twój słownik dopiero się zaczyna.', '收藏夹还是空的。', '收藏夾還是空的。'),
         message: language.text(
           'W talii wybierz „Do nauki” albo „Znam”, aby zachować słowo.',
           '在词卡中选择“稍后学习”或“我会了”来保存词语。',
@@ -1770,22 +2131,32 @@ class _EmptyPanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.only(top: 18),
       padding: const EdgeInsets.all(26),
       decoration: BoxDecoration(
-        color: _paper,
+        color: colors.surface,
         borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: _line),
+        border: Border.all(color: colors.outlineVariant),
       ),
       child: Column(
         children: [
-          Icon(icon, color: _accent, size: 32),
+          Icon(icon, color: colors.primary, size: 32),
           const SizedBox(height: 12),
-          Text(title, textAlign: TextAlign.center, style: const TextStyle(color: _ink, fontSize: 20, fontWeight: FontWeight.w700)),
+          Text(title,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  height: 1.45,
+                  color: colors.onSurface,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700)),
           const SizedBox(height: 7),
-          Text(message, textAlign: TextAlign.center, style: const TextStyle(color: _mutedInk, height: 1.45)),
+          Text(message,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 16, color: colors.onSurfaceVariant, height: 1.45)),
           if (action != null) ...[const SizedBox(height: 10), action!],
         ],
       ),
@@ -1799,21 +2170,25 @@ class _SourceNote extends StatelessWidget {
   final AppLanguage language;
 
   @override
-  Widget build(BuildContext context) => Container(
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: const Color(0xFFF1E8DA),
-          borderRadius: BorderRadius.circular(16),
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: colors.surfaceContainerLow,
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Text(
+        language.text(
+          'HSK 2025 • słownictwo z krmanik/HSK-3.0 (CC BY-SA 4.0); angielskie hasła z CC-CEDICT. Szczegóły licencji: assets/data/sources/hsk-2025/License.md.',
+          'HSK 2025 • 词表来自 krmanik/HSK-3.0（CC BY-SA 4.0）；英文释义来自 CC-CEDICT。许可信息：assets/data/sources/hsk-2025/License.md。',
+          'HSK 2025 • 詞表來自 krmanik/HSK-3.0（CC BY-SA 4.0）；英文釋義來自 CC-CEDICT。授權資訊：assets/data/sources/hsk-2025/License.md。',
         ),
-        child: Text(
-          language.text(
-            'HSK 2025 • słownictwo z krmanik/HSK-3.0 (CC BY-SA 4.0); angielskie hasła z CC-CEDICT. Szczegóły licencji: assets/data/sources/hsk-2025/License.md.',
-            'HSK 2025 • 词表来自 krmanik/HSK-3.0（CC BY-SA 4.0）；英文释义来自 CC-CEDICT。许可信息：assets/data/sources/hsk-2025/License.md。',
-            'HSK 2025 • 詞表來自 krmanik/HSK-3.0（CC BY-SA 4.0）；英文釋義來自 CC-CEDICT。授權資訊：assets/data/sources/hsk-2025/License.md。',
-          ),
-          style: const TextStyle(color: _mutedInk, fontSize: 12, height: 1.45),
-        ),
-      );
+        style: TextStyle(
+            color: colors.onSurfaceVariant, fontSize: 14, height: 1.45),
+      ),
+    );
+  }
 }
 
 class _Eyebrow extends StatelessWidget {
@@ -1822,15 +2197,19 @@ class _Eyebrow extends StatelessWidget {
   final String label;
 
   @override
-  Widget build(BuildContext context) => Text(
-        label,
-        style: const TextStyle(
-          color: _accent,
-          fontSize: 11,
-          letterSpacing: 1.6,
-          fontWeight: FontWeight.w800,
-        ),
-      );
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Text(
+      label,
+      style: TextStyle(
+        height: 1.45,
+        color: colors.primary,
+        fontSize: 14,
+        letterSpacing: 1.6,
+        fontWeight: FontWeight.w800,
+      ),
+    );
+  }
 }
 
 class _MetricPill extends StatelessWidget {
@@ -1840,22 +2219,30 @@ class _MetricPill extends StatelessWidget {
   final String label;
 
   @override
-  Widget build(BuildContext context) => Container(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
-        decoration: BoxDecoration(
-          color: _paper,
-          borderRadius: BorderRadius.circular(99),
-          border: Border.all(color: _line),
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(icon, size: 15, color: _accent),
-            const SizedBox(width: 5),
-            Text(label, style: const TextStyle(color: _mutedInk, fontSize: 12, fontWeight: FontWeight.w600)),
-          ],
-        ),
-      );
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+      decoration: BoxDecoration(
+        color: colors.surface,
+        borderRadius: BorderRadius.circular(99),
+        border: Border.all(color: colors.outlineVariant),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 15, color: colors.primary),
+          const SizedBox(width: 5),
+          Text(label,
+              style: TextStyle(
+                  height: 1.45,
+                  color: colors.onSurfaceVariant,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600)),
+        ],
+      ),
+    );
+  }
 }
 
 class _DecisionButton extends StatelessWidget {
@@ -1863,12 +2250,14 @@ class _DecisionButton extends StatelessWidget {
     required this.icon,
     required this.label,
     required this.color,
+    required this.foregroundColor,
     required this.onPressed,
   });
 
   final IconData icon;
   final String label;
   final Color color;
+  final Color foregroundColor;
   final VoidCallback onPressed;
 
   @override
@@ -1878,10 +2267,12 @@ class _DecisionButton extends StatelessWidget {
         label: Text(label, maxLines: 1, overflow: TextOverflow.ellipsis),
         style: FilledButton.styleFrom(
           backgroundColor: color,
-          foregroundColor: Colors.white,
+          foregroundColor: foregroundColor,
           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
-          textStyle: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+          textStyle: const TextStyle(
+              height: 1.45, fontSize: 14, fontWeight: FontWeight.w700),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
         ),
       );
 }
@@ -1892,17 +2283,24 @@ class _LevelBadge extends StatelessWidget {
   final String label;
 
   @override
-  Widget build(BuildContext context) => Container(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-        decoration: BoxDecoration(
-          color: const Color(0xFFF5E6DF),
-          borderRadius: BorderRadius.circular(99),
-        ),
-        child: Text(
-          _hskLevelLabel(label),
-          style: const TextStyle(color: _accent, fontSize: 12, fontWeight: FontWeight.w800),
-        ),
-      );
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: colors.primaryContainer,
+        borderRadius: BorderRadius.circular(99),
+      ),
+      child: Text(
+        _hskLevelLabel(label),
+        style: TextStyle(
+            height: 1.45,
+            color: colors.onPrimaryContainer,
+            fontSize: 14,
+            fontWeight: FontWeight.w800),
+      ),
+    );
+  }
 }
 
 class _WordDetailSheet extends StatelessWidget {
@@ -1913,9 +2311,14 @@ class _WordDetailSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     final polish = word.polishTranslation.trim();
     final primaryChinese =
         language.isTraditional ? word.traditional : word.displayHanzi;
+    final categoryLabels = VocabularyCategory.all
+        .where((category) => word.categories.contains(category.id))
+        .map((category) => category.label(language))
+        .toList(growable: false);
     return SafeArea(
       child: SingleChildScrollView(
         padding: const EdgeInsets.fromLTRB(24, 16, 24, 28),
@@ -1937,19 +2340,34 @@ class _WordDetailSheet extends StatelessWidget {
             Center(
               child: Text(
                 primaryChinese,
-                style: const TextStyle(color: _ink, fontSize: 64, fontWeight: FontWeight.w600),
+                style: TextStyle(
+                    height: 1.2,
+                    color: colors.onSurface,
+                    fontSize: 64,
+                    fontWeight: FontWeight.w600),
               ),
             ),
             if (language.isTraditional && word.traditional != word.displayHanzi)
-              Center(child: Text('简体 ${word.displayHanzi}', style: const TextStyle(color: _mutedInk))),
+              Center(
+                  child: Text('简体 ${word.displayHanzi}',
+                      style: TextStyle(
+                          height: 1.45,
+                          fontSize: 16,
+                          color: colors.onSurfaceVariant))),
             Center(
               child: Text(
                 word.pinyin,
-                style: const TextStyle(color: _accent, fontSize: 19, fontWeight: FontWeight.w600),
+                style: TextStyle(
+                    height: 1.45,
+                    color: colors.primary,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600),
               ),
             ),
             const SizedBox(height: 18),
-            _DetailRow(label: language.text('Po polsku', '波兰语', '波蘭語'), value: polish.isEmpty ? '—' : polish),
+            _DetailRow(
+                label: language.text('Po polsku', '波兰语', '波蘭語'),
+                value: polish.isEmpty ? '—' : polish),
             _DetailRow(label: 'English', value: word.englishTranslation),
             if (word.notes.trim().isNotEmpty)
               _DetailRow(
@@ -1961,13 +2379,19 @@ class _WordDetailSheet extends StatelessWidget {
                 label: language.text('Część mowy', '词性', '詞性'),
                 value: word.partOfSpeech!,
               ),
-            if (word.tags.isNotEmpty)
-              _DetailRow(label: language.text('Temat', '主题', '主題'), value: word.tags.join(' · ')),
+            if (categoryLabels.isNotEmpty)
+              _DetailRow(
+                  label: language.text('Temat', '主题', '主題'),
+                  value: categoryLabels.join(' · ')),
             if (language.isChinese) ...[
               const SizedBox(height: 14),
               Text(
                 language.text('Odmiana po polsku', '波兰语词形', '波蘭語詞形'),
-                style: const TextStyle(color: _ink, fontSize: 18, fontWeight: FontWeight.w700),
+                style: TextStyle(
+                    height: 1.45,
+                    color: colors.onSurface,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700),
               ),
               const SizedBox(height: 7),
               _PolishFormsSection(gloss: polish, language: language),
@@ -1995,61 +2419,68 @@ class _PolishFormsSectionState extends State<_PolishFormsSection> {
       .then(PolishFormsCatalog.fromJson);
 
   @override
-  Widget build(BuildContext context) => FutureBuilder<PolishFormsCatalog>(
-        future: _catalog,
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return Text(
-              widget.language.text(
-                'Nie udało się wczytać tabel odmiany: ${snapshot.error}',
-                '词形表加载失败：${snapshot.error}',
-                '詞形表載入失敗：${snapshot.error}',
-              ),
-              style: const TextStyle(color: _mutedInk, height: 1.45),
-            );
-          }
-          if (!snapshot.hasData) {
-            return const LinearProgressIndicator(color: _accent);
-          }
-
-          final entry = snapshot.data!.lookup(widget.gloss);
-          if (entry == null) {
-            return Text(
-              widget.language.text(
-                'Dla tego hasła nie ma jeszcze indywidualnej tabeli odmiany. Zasady znajdziesz w zakładce Gramatyka.',
-                '这个词条尚无专门的词形表。相关规则请查看“语法”标签。',
-                '這個詞條尚無專門的詞形表。相關規則請查看「語法」標籤。',
-              ),
-              style: const TextStyle(color: _mutedInk, height: 1.45),
-            );
-          }
-
-          return Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              for (final form in entry.forms)
-                _DetailRow(
-                  label: _polishFormLabel(form.label, widget.language),
-                  value: form.value,
-                ),
-              const SizedBox(height: 8),
-              Text(
-                widget.language.text('Przykład', '例句', '例句'),
-                style: const TextStyle(
-                  color: _mutedInk,
-                  fontSize: 13,
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-              const SizedBox(height: 3),
-              Text(
-                entry.example.forLanguage(widget.language),
-                style: const TextStyle(color: _ink, height: 1.45),
-              ),
-            ],
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return FutureBuilder<PolishFormsCatalog>(
+      future: _catalog,
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return Text(
+            widget.language.text(
+              'Nie udało się wczytać tabel odmiany: ${snapshot.error}',
+              '词形表加载失败：${snapshot.error}',
+              '詞形表載入失敗：${snapshot.error}',
+            ),
+            style: TextStyle(
+                fontSize: 16, color: colors.onSurfaceVariant, height: 1.45),
           );
-        },
-      );
+        }
+        if (!snapshot.hasData) {
+          return LinearProgressIndicator(color: colors.primary);
+        }
+
+        final entry = snapshot.data!.lookup(widget.gloss);
+        if (entry == null) {
+          return Text(
+            widget.language.text(
+              'Dla tego hasła nie ma jeszcze indywidualnej tabeli odmiany. Zasady znajdziesz w zakładce Gramatyka.',
+              '这个词条尚无专门的词形表。相关规则请查看“语法”标签。',
+              '這個詞條尚無專門的詞形表。相關規則請查看「語法」標籤。',
+            ),
+            style: TextStyle(
+                fontSize: 16, color: colors.onSurfaceVariant, height: 1.45),
+          );
+        }
+
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            for (final form in entry.forms)
+              _DetailRow(
+                label: _polishFormLabel(form.label, widget.language),
+                value: form.value,
+              ),
+            const SizedBox(height: 8),
+            Text(
+              widget.language.text('Przykład', '例句', '例句'),
+              style: TextStyle(
+                height: 1.45,
+                color: colors.onSurfaceVariant,
+                fontSize: 14,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            const SizedBox(height: 3),
+            Text(
+              entry.example.forLanguage(widget.language),
+              style: TextStyle(
+                  fontSize: 16, color: colors.onSurface, height: 1.45),
+            ),
+          ],
+        );
+      },
+    );
+  }
 }
 
 String _polishFormLabel(String label, AppLanguage language) {
@@ -2083,28 +2514,39 @@ class _DetailRow extends StatelessWidget {
   final String value;
 
   @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.symmetric(vertical: 6),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(
-              width: 112,
-              child: Text(label, style: const TextStyle(color: _mutedInk, fontSize: 13)),
-            ),
-            Expanded(
-              child: Text(value, style: const TextStyle(color: _ink, fontWeight: FontWeight.w600)),
-            ),
-          ],
-        ),
-      );
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(
+            width: 112,
+            child: Text(label,
+                style: TextStyle(
+                    height: 1.45,
+                    color: colors.onSurfaceVariant,
+                    fontSize: 14)),
+          ),
+          Expanded(
+            child: Text(value,
+                style: TextStyle(
+                    height: 1.45,
+                    fontSize: 16,
+                    color: colors.onSurface,
+                    fontWeight: FontWeight.w600)),
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 void _showWordDetails(BuildContext context, Word word, AppLanguage language) {
   showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
-    backgroundColor: _paper,
     shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.vertical(top: Radius.circular(26)),
     ),

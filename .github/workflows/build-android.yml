@@ -1,9 +1,8 @@
 name: Build Android Release
 
 on:
-  push:
-    tags:
-      - 'v*'
+  # The Android runner is not present in the repository. Keep the legacy
+  # workflow manual until the platform is restored and validated.
   workflow_dispatch:
 
 permissions:

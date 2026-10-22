@@ -3,7 +3,7 @@
     "polish": "pole uprawne; grunty rolne"
   },
   "HSK-6|978": {
-    "polish": "dawny wariant znaku 暖"
+    "polish": "ciepły; ogrzewać"
   },
   "HSK-6|980": {
     "polish": "idol; bożyszcze"
@@ -27,7 +27,7 @@
     "polish": "mieć nadzieję; wyczekiwać"
   },
   "HSK-6|988": {
-    "polish": "spuchnięty; porowaty; małe jezioro; porcja moczu lub kału"
+    "polish": "bańka; piana; bąbel; moczyć; zaparzać"
   },
   "HSK-6|989": {
     "polish": "rzucać; ciskać; porzucać"
@@ -66,7 +66,7 @@
     "polish": "oszust; naciągacz"
   },
   "HSK-6|1004": {
-    "polish": "wariant znaku 飘"
+    "polish": "unosić się; powiewać; dryfować"
   },
   "HSK-6|1005": {
     "polish": "unosić się na wodzie; dryfować"
@@ -114,7 +114,9 @@
     "polish": "rzucać się na; rzucać się do; poświęcać energię; trzepotać; klepać; pochylać się"
   },
   "HSK-6|1024": {
-    "polish": "wariant znaku 铺; sklep"
+    "polish": "sklep; kram; łóżko; posłanie",
+    "pinyin": "pù",
+    "english": "plank bed; place to sleep; shop; store; (old) relay station"
   },
   "HSK-6|1025": {
     "polish": "gasić; tłumić; wykorzeniać"
@@ -132,7 +134,7 @@
     "polish": "prowadzić (np. na smyczy); ciągnąć; angażować; wciągać"
   },
   "HSK-6|1030": {
-    "polish": "nazwisko Qiang"
+    "polish": "karabin; broń palna; włócznia"
   },
   "HSK-6|1031": {
     "polish": "ściana"
@@ -201,7 +203,7 @@
     "polish": "w tym czasie; pomiędzy; w trakcie tego okresu"
   },
   "HSK-6|1053": {
-    "polish": "dynastia Qing; nazwisko Qing"
+    "polish": "czysty; przejrzysty; jasny; dynastia Qing"
   },
   "HSK-6|1054": {
     "polish": "wczesny ranek"
@@ -291,7 +293,7 @@
     "polish": "figura szachowa; pionek"
   },
   "HSK-6|1088": {
-    "polish": "nazwisko Qu"
+    "polish": "krzywy; zakrzywiony; zakręt"
   },
   "HSK-6|1089": {
     "polish": "poślubić (kobietę); wziąć sobie żonę"
@@ -432,7 +434,7 @@
     "polish": "puścić; rzucić; wyzwolić; dać upust"
   },
   "HSK-6|1139": {
-    "polish": "Serbia; serbski"
+    "polish": "zatykać; wpychać; upychać; korek; zatyczka"
   },
   "HSK-6|1140": {
     "polish": "zawody; rozgrywki sportowe"
@@ -516,7 +518,7 @@
     "polish": "społeczeństwo; grupa; klub; agencja; dawn. bóstwo ziemi"
   },
   "HSK-6|1171": {
-    "polish": "dawny wariant znaku 射"
+    "polish": "strzelać; wystrzeliwać; emitować"
   },
   "HSK-6|1172": {
     "polish": "dotyczyć; poruszać (temat)"
@@ -681,7 +683,7 @@
     "polish": "dotknięty klęską żywiołową; ucierpieć wskutek kataklizmu"
   },
   "HSK-6|1233": {
-    "polish": "wariant znaku 竖"
+    "polish": "pionowy; pionowo; stawiać pionowo"
   },
   "HSK-6|1235": {
     "polish": "starzeć się; słabnąć z wiekiem; stary i osłabiony"
@@ -852,7 +854,7 @@
     "polish": "specjalnie; celowo"
   },
   "HSK-6|1296": {
-    "polish": "nazwisko Tian"
+    "polish": "pole; ziemia uprawna"
   },
   "HSK-6|1297": {
     "polish": "dodawać; zwiększać; uzupełniać"
@@ -957,10 +959,10 @@
     "polish": "ukradkiem; potajemnie; skrycie"
   },
   "HSK-6|1341": {
-    "polish": "pluć; wypowiadać; mówić"
+    "polish": "tǔ: wypluwać; wydychać; tù: wymiotować"
   },
   "HSK-6|1342": {
-    "polish": "pluć; wypowiadać; mówić"
+    "polish": "tǔ: wypluwać; wydychać; tù: wymiotować"
   },
   "HSK-6|1346": {
     "polish": "spotykać się ponownie (o rodzinie)"
@@ -990,7 +992,7 @@
     "polish": "połykać; brać"
   },
   "HSK-6|1356": {
-    "polish": "wariant znaku 拖"
+    "polish": "ciągnąć; wlec; przeciągać (w czasie)"
   },
   "HSK-6|1357": {
     "polish": "opóźniać; odkładać; zwlekać"
@@ -1155,7 +1157,8 @@
     "polish": "przestraszyć; nastraszyć"
   },
   "HSK-6|1418": {
-    "polish": "włożyć wysiłek; przyłożyć się"
+    "polish": "włożyć wysiłek; przyłożyć się",
+    "english": "to put in effort; to work hard at something"
   },
   "HSK-6|1419": {
     "polish": "składać zamówienie; zamówienie"

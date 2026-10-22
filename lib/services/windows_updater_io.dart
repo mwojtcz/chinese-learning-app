@@ -6,7 +6,7 @@ import 'package:crypto/crypto.dart';
 
 const appVersion = String.fromEnvironment(
   'APP_VERSION',
-  defaultValue: '1.5.0+6',
+  defaultValue: '1.6.0+7',
 );
 const appBuildNumber = int.fromEnvironment('APP_BUILD_NUMBER', defaultValue: 0);
 
@@ -172,6 +172,7 @@ class WindowsUpdater {
         _executableName,
       ],
       mode: ProcessStartMode.detached,
+      workingDirectory: updateDirectory.path,
     );
     if (process.pid == 0) {
       throw StateError('Could not start the Windows update helper.');
@@ -181,7 +182,7 @@ class WindowsUpdater {
 
   static HttpClient _newClient() => HttpClient()
     ..connectionTimeout = const Duration(seconds: 15)
-    ..userAgent = 'Cika-Windows-Updater';
+    ..userAgent = 'Polski-Chinese-Updater';
 
   static Future<HttpClientResponse> _get(
     HttpClient client,
@@ -218,10 +219,10 @@ $backup = Join-Path $parent ".$leaf-backup-$token"
 $swapped = $false
 try {
   Wait-Process -Id $ProcessId -ErrorAction SilentlyContinue
-[IO.Directory]::CreateDirectory($staging) | Out-Null
-Get-ChildItem -LiteralPath $install -Force |
-  Copy-Item -Destination $staging -Recurse -Force
-Expand-Archive -LiteralPath $ArchivePath -DestinationPath $staging -Force
+  [IO.Directory]::CreateDirectory($staging) | Out-Null
+  Get-ChildItem -LiteralPath $install -Force |
+    Copy-Item -Destination $staging -Recurse -Force
+  Expand-Archive -LiteralPath $ArchivePath -DestinationPath $staging -Force
   if (-not (Test-Path -LiteralPath (Join-Path $staging $ExecutableName))) {
     throw 'The downloaded package does not contain the application executable.'
   }
@@ -229,13 +230,12 @@ Expand-Archive -LiteralPath $ArchivePath -DestinationPath $staging -Force
   try {
     Move-Item -LiteralPath $staging -Destination $install
     $swapped = $true
-    $started = Start-Process -FilePath (Join-Path $install $ExecutableName) -PassThru
+    $started = Start-Process -FilePath (Join-Path $install $ExecutableName) -WorkingDirectory $install -PassThru
     Start-Sleep -Seconds 10
     $started.Refresh()
     if ($started.HasExited) {
       throw 'The updated application did not remain running.'
     }
-    Remove-Item -LiteralPath $backup -Recurse -Force
   } catch {
     if ($swapped -and (Test-Path -LiteralPath $install)) {
       Remove-Item -LiteralPath $install -Recurse -Force
@@ -245,6 +245,11 @@ Expand-Archive -LiteralPath $ArchivePath -DestinationPath $staging -Force
       Start-Process -FilePath (Join-Path $install $ExecutableName)
     }
     throw
+  }
+  try {
+    Remove-Item -LiteralPath $backup -Recurse -Force
+  } catch {
+    Write-Warning "The update succeeded but the old app backup could not be removed: $backup"
   }
 } catch {
   $logPath = Join-Path $env:LOCALAPPDATA 'Cika\update-error.log'
@@ -256,7 +261,7 @@ Expand-Archive -LiteralPath $ArchivePath -DestinationPath $staging -Force
     $message += "`n`n$($_.Exception.Message)`n`nDetails: $logPath"
     [System.Windows.MessageBox]::Show(
       $message,
-      'Cika update',
+      'Polski - Chinese update',
       'OK',
       'Error'
     ) | Out-Null
