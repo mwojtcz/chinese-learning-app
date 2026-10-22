@@ -1,176 +1,74 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+Notable changes to the application are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-### To Be Added
-- Grouping words by tags in Dictionary view
-- Footer with thanks (PL/EN/CN) and feedback link
-- Audio pronunciation recordings
-- HSK 5-6 vocabulary (2,211 additional words)
-- Expand Chengyu database with more idioms
-- SRS (Spaced Repetition System)
-- Advanced test types (Fill-in-the-Blank, Matching Pairs, Sentence Building)
-- Statistics dashboard with charts
-- Dark mode toggle in settings
+### Added
+- A portable Windows updater that checks the latest successful `main` build published by GitHub Actions, verifies its SHA-256 checksum, and offers a restart-based update.
+- A rolling Windows prerelease for main-branch builds; tagged Windows releases remain versioned.
+- A localized Polish course with 24 modules across CEFR levels A1–C2, including examples, short exercises with explanations, and practical tasks.
+- A seven-case reference table and sample noun declensions.
+- HSK 2025 vocabulary support for 11,105 entries, with Polish glosses and source attribution.
+
+### Changed
+- Polish learners see Chinese on the flashcard front and recall the Polish meaning.
+- Repository release and contributor guidance now reflects the current GitHub Actions workflows and portable Windows distribution.
 
 ## [1.4.0] - 2025-12-19
 
 ### Added
-- **Chengyu Learning Screen** 🎋 - New dedicated tab for Chinese idioms
-  - 5 curated chengyu with literal and actual meanings
-  - Example sentences for each idiom
-  - Beautiful card-based layout with color-coded sections
-  - Includes: 画蛇添足, 守株待兔, 亡羊补牢, 井底之蛙, 滥竽充数
-- **Smooth Page Transitions** - AnimatedSwitcher with 300ms fade effect
-  - Eliminates jarring screen switches
-  - Elegant fade in/out animations
-  - Improved UX with easeInOut curves
+- Chinese idiom (chengyu) learning screen with example sentences.
+- Animated screen transitions.
 
 ### Changed
-- **Complete UI Redesign** - Dark theme with improved readability
-  - Dashboard: Compact two-column layout (Quick Actions left, Stats right)
-  - Stats cards: Row-based design instead of grid
-  - All cards: Dark grey (`grey.shade800/900`) background
-  - Significantly increased font sizes across the entire app (14-36px range)
-  - Drawer menu: Dark background with better contrast
-  - Menu items: Larger icons (30px) and text (17px)
-  - Selected items: Gold icon + white bold text
-  - Locked features: Visible grey with lock icons
-- **Dashboard Layout Optimization**
-  - Quick Actions: Single large card with 3 buttons (left, 2/3 width)
-  - Stats: 4 compact cards stacked vertically (right, 1/3 width)
-  - All widgets: Reduced padding and spacing for compact view
-  - Grid aspect ratio: 3.5 for ultra-flat stat cards
-  - Navigation buttons now functional (link to Dictionary, Tests, My Words)
-- **Typography Improvements**
-  - Welcome header: 36px (was 24px)
-  - Streak counter: 18px title, 36px emoji
-  - Quick actions: 20px title, 17px buttons
-  - Stats: 22px emoji, 19px values, 14px labels
-  - Chengyu: 28px Chinese, 16px pinyin, 15px descriptions
-  - Drawer: 34px header, 17px menu items
-
-### Removed
-- Gradient backgrounds from drawer (replaced with solid dark theme)
-- White/light card backgrounds (replaced with dark grey)
+- Redesigned application navigation, dashboard, typography, and visual theme.
 
 ## [1.3.0] - 2025-12-19
 
 ### Added
-- **Dashboard/Home Screen** - Complete redesign with actionable insights
-  - Welcome header with time-based greeting (早上好/下午好/晚上好)
-  - Study streak counter with fire emoji 🔥
-  - Quick stats grid (Total Words, My Words, To Review, Accuracy)
-  - Quick action buttons (Continue Learning, Daily Practice, Review Weak Words)
-  - Progress chart placeholder (7-day/30-day view coming soon)
-  - Chengyu of the Day widget 🎋 (example: 画蛇添足)
-- **Hamburger Menu Navigation** 🍔 - Drawer-based navigation replacing tabs
-  - Home (Dashboard)
-  - Dictionary (HSK vocabulary)
-  - My Words (saved words)
-  - Tests (practice & review)
-  - Settings (preferences)
-  - Placeholders for Chengyu, Statistics, SRS Review (coming soon)
-- **Active route highlighting** - Visual feedback for current screen
-- **Gradient drawer header** - Burgundy branding with app description
-
-### Changed
-- **Navigation paradigm** - Tabs replaced with drawer menu for scalability
-- **Screen structure** - Dedicated screens instead of tab widgets
-- **Title updates dynamically** - AppBar shows current screen name
-- **Better information architecture** - Clearer separation of features
+- Dashboard with learning summaries and quick actions.
+- Drawer navigation for the main learning areas.
 
 ## [1.2.0] - 2025-12-19
 
 ### Added
-- **HSK 4 Complete Vocabulary** - 1,000 new words with full translations
-- **Total Vocabulary Expansion** - Now 3,229 words (HSK 1-4)
-- **Improved Traditional Chinese** - OpenCC library for 100% accurate 简体→繁體 conversion
-  - Updated all HSK 1-3 traditional forms (1,745 unique traditional characters)
-  - Professional-grade conversion replacing custom mapping
-- **Complete Polish Translations** - DeepL API integration
-  - HSK 3: 966 words translated to Polish
-  - HSK 4: 1,000 words translated to Polish
-  - High-quality contextual translations
-- **Web Scraping Tools** - Automated HSK vocabulary acquisition from mandarinbean.com
-- **Translation Scripts** - Python automation for batch translations
+- HSK 4 vocabulary, traditional Chinese forms, and Polish translations.
+- Scripts for acquiring and translating vocabulary data.
 
 ### Changed
-- Database now loads HSK 1-4 (previously HSK 1-3)
-- Traditional Chinese conversion quality improved from ~22% to 54% coverage
-- All vocabulary now includes 4 complete languages: 简体字, 繁體字, English, Polski
-
-### Technical
-- Added OpenCC Python library for traditional Chinese conversion
-- Integrated DeepL API for professional-grade translations (used 15% of free tier)
-- Created scraping scripts for HSK vocabulary extraction
-- Updated `database_helper.dart` to include HSK 4
-- Updated `pubspec.yaml` assets to include `hsk4_words.json`
+- Improved traditional-character conversion and vocabulary loading.
 
 ## [1.1.0] - 2025-12-18
 
 ### Added
-- **ChineseFlow** - New application name and branding
-- Settings tab with emoji animation toggle and issue reporting
-- Animated falling Chinese emojis (14 types: 🏮🎋🧧🎁🎊🥠🎆🧨🐉🌸🎐🍜🥟🍵)
-- Minimum window size (800x600px) for desktop version
-- Burgundy gradient AppBar with white bottom shadow
-- Loading indicator with progress percentage in Dictionary tab
-- Async initialization ensures vocabulary loads before UI renders
-- Database schema version 2 with tags, partOfSpeech, and frequency columns
-- Wrap widget for tags to prevent overflow on narrow screens
-
-### Changed
-- Unified HSK filter chip styling across Dictionary and My Words tabs
-- Enhanced tag and part of speech styling with borders and shadows
-- Improved tab label visibility with gold color for active tabs
-- Centered ChineseFlow title in AppBar
-- Enhanced contrast for HSK filter buttons
-- Database column naming convention to camelCase
+- Application settings, visual preferences, and issue-reporting link.
+- Loading progress and improved vocabulary-card layout.
 
 ### Fixed
-- Words not loading immediately in Dictionary tab - now loads on app start
-- Window resize overflow issues in word cards
-- HSK filter buttons low contrast in My Words tab
-- Database initialization errors on Windows platform
-- Inconsistent styling between tags and part of speech labels
-- SQL errors when adding words to "My Words" (missing database columns)
-- Tag layout overflow with Row replaced by Wrap widget
+- Vocabulary loading, database initialization, and several layout issues.
 
 ## [1.0.1] - 2025-12-18
 
 ### Added
-- 763 Polish translations for HSK-2 vocabulary
-- Custom issue templates (bug report, feature request)
-- English documentation (README, CONTRIBUTING, RELEASE)
+- Polish translations for HSK-2 and issue templates.
+- English project documentation.
 
 ### Fixed
-- GitHub Actions permissions for automated releases
-
-### Changed
-- All project documentation translated to English
+- GitHub Actions permissions for automated releases.
 
 ## [1.0.0] - 2025-12-18
 
 ### Added
-- Initial release
-- 2,229 HSK 3.0 words (levels 1-3)
-- 3 test modes (Hanzi→Translation, Translation→Hanzi, Pinyin→Hanzi)
-- Dictionary with advanced filtering
-- My Words collection
-- Dark theme with matte design
-- Responsive grid layout (1-3 columns)
-- Auto-tagging system
-- Auto-save correct answers to My Words
-- Windows portable application
-- Web version (GitHub Pages)
+- Initial Windows portable app and GitHub Pages web build.
+- HSK 3.0 vocabulary browser, practice modes, saved words, and traditional Chinese display.
 
-[Unreleased]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/mwojtcz/chinese-learning-app/releases/tag/v1.4.0
+[1.3.0]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/mwojtcz/chinese-learning-app/releases/tag/v1.0.0

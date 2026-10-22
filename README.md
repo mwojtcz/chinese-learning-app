@@ -11,7 +11,7 @@
 
 **[➡️ Try the app online](https://mwojtcz.github.io/chinese-learning-app/)** (web version)
 
-Or download the Windows application from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases).
+Or download the [latest portable Windows build](https://github.com/mwojtcz/chinese-learning-app/releases/tag/windows-latest).
 
 ## Features
 
@@ -23,6 +23,7 @@ Or download the Windows application from [Releases](https://github.com/mwojtcz/c
 - **Structured 24-module Polish course from A1 to C2**, with localized examples, grammar focus, answer-reveal exercises, and practical tasks for Chinese-speaking learners.
 - **Curated Polish word forms** for selected common nouns, adjectives, and verbs, with example sentences and Chinese translations.
 - **Personal saved-word list** stored locally on the device.
+- **Portable Windows build** with automatic update checks against the latest successful `main` build published by GitHub Actions; updates are checksum-verified, staged beside the app folder, and installed after restart.
 - **Responsive layout** for desktop, tablet, and mobile.
 
 The app keeps English and Polish meanings separate: when a Polish translation is missing, the card labels the English gloss as a bridge instead of presenting it as Polish. All 11,105 HSK entries now have Polish glosses; the 87 source rows that lacked pinyin or English glosses have also been completed. Twenty-three entries carry review notes for context-sensitive or ambiguous readings.
@@ -51,10 +52,10 @@ flutter run -d windows
 
 ### Download Pre-built Application
 
-Download the latest version from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases):
-- Extract the ZIP archive
+Download the latest Windows ZIP from the [latest Windows build](https://github.com/mwojtcz/chinese-learning-app/releases/tag/windows-latest):
+- Extract the ZIP archive to a folder where your Windows user can write files (for example, a folder under Downloads)
 - Run `chinese_learning_app.exe`
-- No installation required - portable!
+- No installer or administrator access is required. Keep the app in the extracted folder; Windows builds check for updates at startup and let you install them with one click. The app restarts after replacing its files.
 
 ## How to Use
 
@@ -74,6 +75,7 @@ chinese_learning_app/
 │   ├── main.dart                    # Entry point
 │   ├── models/                      # Word and interface-language models
 │   ├── providers/                   # Vocabulary and study-decision state
+│   ├── services/                    # Platform services, including Windows updates
 │   ├── screens/
 │   │   ├── home_screen.dart         # Responsive shell and locale switcher
 │   │   ├── learning_tabs.dart       # Deck, HSK, grammar, saved words
@@ -82,11 +84,12 @@ chinese_learning_app/
 │   │   └── database_helper.dart
 ├── assets/
 │   └── data/                        # HSK vocabulary, grammar, exercises, and curated word forms
+├── test/                            # Unit and widget tests
 ├── .github/
 │   └── workflows/
-│       └── build-windows.yml        # CI/CD - automated builds
-└── releases/
-    └── ChineseLearningApp-v1.0.0-Windows.zip
+│       ├── build-windows.yml        # Rolling Windows builds and tagged releases
+│       ├── build-android.yml        # Android release builds
+│       └── deploy-web.yml           # GitHub Pages deployment
 ```
 
 ## Data Sources and Attribution
@@ -118,7 +121,7 @@ The seven-case reference presents nominative through vocative in order, followed
 
 ### Pre-built Windows Application
 
-Easiest option: download ZIP from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases)!
+Download the latest Windows ZIP from the [rolling Windows build](https://github.com/mwojtcz/chinese-learning-app/releases/tag/windows-latest). Main-branch builds update this prerelease; tagged releases remain available as stable releases. Extract the archive to a user-writable folder to enable automatic updates.
 
 ### Manual Build
 
@@ -138,6 +141,8 @@ flutter build web --release --base-href "/chinese-learning-app/"
 
 - [x] Add the HSK 2025 vocabulary lists, including the shared HSK 7–9 band
 - [x] Complete Polish gloss coverage across all HSK 2025 levels (ambiguous entries are marked for review)
+- [x] Add a localized Polish course plan from A1 to C2 with examples and short exercises
+- [x] Add automatic update checks for the portable Windows build
 - [ ] Expand word-level Polish declension and conjugation tables
 - [ ] Add spaced repetition, audio, and printable A5 sheets
 - [ ] Add word-list import/export and learning statistics

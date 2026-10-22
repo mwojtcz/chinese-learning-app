@@ -2,12 +2,18 @@ name: Build Windows Release
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: windows-release-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,24 +26,52 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.5'
           channel: 'stable'
       
       - name: Get dependencies
         run: flutter pub get
-      
+
+      - name: Test Windows update manifest validation
+        run: flutter test test/windows_updater_test.dart
+
       - name: Build Windows Release
-        run: flutter build windows --release
+        shell: pwsh
+        run: |
+          if ($env:GITHUB_REF.StartsWith('refs/tags/')) {
+            $appVersion = $env:GITHUB_REF_NAME.TrimStart('v')
+          } else {
+            $appVersion = (Select-String -Path pubspec.yaml -Pattern '^version:\s*(\S+)').Matches.Groups[1].Value
+          }
+          flutter build windows --release "--dart-define=APP_VERSION=$appVersion" "--dart-define=APP_BUILD_NUMBER=$env:GITHUB_RUN_NUMBER"
       
       - name: Create Build Archive
         run: |
           Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath ChineseLearningApp-Windows.zip
+
+      - name: Create Update Manifest
+        shell: pwsh
+        run: |
+          if ($env:GITHUB_REF.StartsWith('refs/tags/')) {
+            $appVersion = $env:GITHUB_REF_NAME.TrimStart('v')
+          } else {
+            $appVersion = (Select-String -Path pubspec.yaml -Pattern '^version:\s*(\S+)').Matches.Groups[1].Value
+          }
+          $checksum = (Get-FileHash ChineseLearningApp-Windows.zip -Algorithm SHA256).Hash.ToLowerInvariant()
+          @{
+            version = $appVersion
+            buildNumber = [int]$env:GITHUB_RUN_NUMBER
+            archiveName = 'ChineseLearningApp-Windows.zip'
+            downloadUrl = "https://github.com/$env:GITHUB_REPOSITORY/releases/download/windows-latest/ChineseLearningApp-Windows.zip"
+            sha256 = $checksum
+          } | ConvertTo-Json | Set-Content -Path windows-update.json -Encoding utf8NoBOM
       
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
           name: windows-release
-          path: ChineseLearningApp-Windows.zip
+          path: |
+            ChineseLearningApp-Windows.zip
+            windows-update.json
       
       - name: Create Release
         if: startsWith(github.ref, 'refs/tags/')
@@ -48,3 +82,20 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish rolling Windows update
+        if: github.ref == 'refs/heads/main'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $release = gh release view windows-latest --json tagName 2>$null
+          if ($LASTEXITCODE -eq 0) {
+            gh release upload windows-latest ChineseLearningApp-Windows.zip windows-update.json --clobber
+            if ($LASTEXITCODE -ne 0) { throw 'Failed to upload the latest Windows build.' }
+            gh release edit windows-latest --title "Windows latest build" --prerelease --notes "Automatically updated from the latest successful build of main. Build $env:GITHUB_RUN_NUMBER."
+            if ($LASTEXITCODE -ne 0) { throw 'Failed to update the rolling Windows release.' }
+          } else {
+            gh release create windows-latest ChineseLearningApp-Windows.zip windows-update.json --target main --prerelease --title "Windows latest build" --notes "Automatically updated from the latest successful build of main. Build $env:GITHUB_RUN_NUMBER."
+            if ($LASTEXITCODE -ne 0) { throw 'Failed to create the rolling Windows release.' }
+          }
