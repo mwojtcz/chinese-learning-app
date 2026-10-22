@@ -24,6 +24,112 @@
             { "pl": "Mama pracuje w szkole.", "zhHans": "妈妈在学校工作。", "zhHant": "媽媽在學校工作。" },
             { "pl": "To jest nowy dom.", "zhHans": "这是一座新房子。", "zhHant": "這是一棟新房子。" }
           ],
+          "tables": [
+            {
+              "headers": [
+                { "pl": "Kolejność", "zhHans": "顺序", "zhHant": "順序" },
+                { "pl": "Przypadek", "zhHans": "格", "zhHant": "格" },
+                { "pl": "Główne użycie", "zhHans": "主要用法", "zhHant": "主要用法" },
+                { "pl": "Przykład", "zhHans": "例句", "zhHant": "例句" }
+              ],
+              "rows": [
+                [
+                  { "pl": "1", "zhHans": "1", "zhHant": "1" },
+                  { "pl": "Mianownik", "zhHans": "主格", "zhHant": "主格" },
+                  { "pl": "Podmiot; nazwanie lub identyfikacja.", "zhHans": "主语；命名或身份说明。", "zhHant": "主語；命名或身分說明。" },
+                  { "pl": "Student czyta.", "zhHans": "学生在读书。", "zhHant": "學生在讀書。" }
+                ],
+                [
+                  { "pl": "2", "zhHans": "2", "zhHant": "2" },
+                  { "pl": "Dopełniacz", "zhHans": "属格", "zhHant": "屬格" },
+                  { "pl": "Przynależność, brak, ilość; wiele przyimków.", "zhHans": "所属、缺少、数量；也用于许多介词之后。", "zhHant": "所屬、缺少、數量；也用於許多介詞之後。" },
+                  { "pl": "Nie ma studenta.", "zhHans": "没有学生。", "zhHant": "沒有學生。" }
+                ],
+                [
+                  { "pl": "3", "zhHans": "3", "zhHant": "3" },
+                  { "pl": "Celownik", "zhHans": "与格", "zhHant": "與格" },
+                  { "pl": "Odbiorca; osoba, której coś dotyczy.", "zhHans": "接受者；受到某事影响的人。", "zhHant": "接受者；受到某事影響的人。" },
+                  { "pl": "Daję studentowi książkę.", "zhHans": "我给学生一本书。", "zhHant": "我給學生一本書。" }
+                ],
+                [
+                  { "pl": "4", "zhHans": "4", "zhHant": "4" },
+                  { "pl": "Biernik", "zhHans": "宾格", "zhHant": "賓格" },
+                  { "pl": "Dopełnienie bliższe; częsty cel ruchu.", "zhHans": "直接宾语；常用于表示移动的目的地。", "zhHant": "直接賓語；常用於表示移動的目的地。" },
+                  { "pl": "Czytam książkę.", "zhHans": "我在读书。", "zhHant": "我在讀書。" }
+                ],
+                [
+                  { "pl": "5", "zhHans": "5", "zhHant": "5" },
+                  { "pl": "Narzędnik", "zhHans": "工具格", "zhHant": "工具格" },
+                  { "pl": "Narzędzie, towarzysz; rola po „być”.", "zhHans": "工具、同伴；也用于 być（是）之后表示身份。", "zhHant": "工具、同伴；也用於 być（是）之後表示身分。" },
+                  { "pl": "Jestem studentem.", "zhHans": "我是学生。", "zhHant": "我是學生。" }
+                ],
+                [
+                  { "pl": "6", "zhHans": "6", "zhHant": "6" },
+                  { "pl": "Miejscownik", "zhHans": "前置格", "zhHant": "前置格" },
+                  { "pl": "Po przyimkach: w, na, o, po, przy.", "zhHans": "用于 w、na、o、po、przy 等介词之后。", "zhHant": "用於 w、na、o、po、przy 等介詞之後。" },
+                  { "pl": "Mieszkam w domu.", "zhHans": "我住在家里。", "zhHant": "我住在家裡。" }
+                ],
+                [
+                  { "pl": "7", "zhHans": "7", "zhHant": "7" },
+                  { "pl": "Wołacz", "zhHans": "呼格", "zhHant": "呼格" },
+                  { "pl": "Bezpośredni zwrot do osoby.", "zhHans": "直接称呼某人。", "zhHant": "直接稱呼某人。" },
+                  { "pl": "Marku, chodź tutaj!", "zhHans": "马雷克，过来！", "zhHant": "馬雷克，過來！" }
+                ]
+              ]
+            },
+            {
+              "headers": [
+                { "pl": "Przypadek", "zhHans": "格", "zhHant": "格" },
+                { "pl": "student", "zhHans": "student（学生）", "zhHant": "student（學生）" },
+                { "pl": "książka", "zhHans": "książka（书）", "zhHant": "książka（書）" },
+                { "pl": "dziecko", "zhHans": "dziecko（孩子）", "zhHant": "dziecko（孩子）" }
+              ],
+              "rows": [
+                [
+                  { "pl": "1. Mianownik", "zhHans": "1. 主格", "zhHant": "1. 主格" },
+                  { "pl": "student", "zhHans": "student", "zhHant": "student" },
+                  { "pl": "książka", "zhHans": "książka", "zhHant": "książka" },
+                  { "pl": "dziecko", "zhHans": "dziecko", "zhHant": "dziecko" }
+                ],
+                [
+                  { "pl": "2. Dopełniacz", "zhHans": "2. 属格", "zhHant": "2. 屬格" },
+                  { "pl": "studenta", "zhHans": "studenta", "zhHant": "studenta" },
+                  { "pl": "książki", "zhHans": "książki", "zhHant": "książki" },
+                  { "pl": "dziecka", "zhHans": "dziecka", "zhHant": "dziecka" }
+                ],
+                [
+                  { "pl": "3. Celownik", "zhHans": "3. 与格", "zhHant": "3. 與格" },
+                  { "pl": "studentowi", "zhHans": "studentowi", "zhHant": "studentowi" },
+                  { "pl": "książce", "zhHans": "książce", "zhHant": "książce" },
+                  { "pl": "dziecku", "zhHans": "dziecku", "zhHant": "dziecku" }
+                ],
+                [
+                  { "pl": "4. Biernik", "zhHans": "4. 宾格", "zhHant": "4. 賓格" },
+                  { "pl": "studenta", "zhHans": "studenta", "zhHant": "studenta" },
+                  { "pl": "książkę", "zhHans": "książkę", "zhHant": "książkę" },
+                  { "pl": "dziecko", "zhHans": "dziecko", "zhHant": "dziecko" }
+                ],
+                [
+                  { "pl": "5. Narzędnik", "zhHans": "5. 工具格", "zhHant": "5. 工具格" },
+                  { "pl": "studentem", "zhHans": "studentem", "zhHant": "studentem" },
+                  { "pl": "książką", "zhHans": "książką", "zhHant": "książką" },
+                  { "pl": "dzieckiem", "zhHans": "dzieckiem", "zhHant": "dzieckiem" }
+                ],
+                [
+                  { "pl": "6. Miejscownik", "zhHans": "6. 前置格", "zhHant": "6. 前置格" },
+                  { "pl": "studencie", "zhHans": "studencie", "zhHant": "studencie" },
+                  { "pl": "książce", "zhHans": "książce", "zhHant": "książce" },
+                  { "pl": "dziecku", "zhHans": "dziecku", "zhHant": "dziecku" }
+                ],
+                [
+                  { "pl": "7. Wołacz", "zhHans": "7. 呼格", "zhHant": "7. 呼格" },
+                  { "pl": "studencie!", "zhHans": "studencie!", "zhHant": "studencie!" },
+                  { "pl": "książko!", "zhHans": "książko!", "zhHant": "książko!" },
+                  { "pl": "dziecko!", "zhHans": "dziecko!", "zhHant": "dziecko!" }
+                ]
+              ]
+            }
+          ],
           "note": {
             "pl": "W słowniku szukaj mianownika liczby pojedynczej; odmienione słowo najpierw sprowadź do tej formy.",
             "zhHans": "查词典时要找单数主格；遇到变了形的词，先还原成主格再查。",

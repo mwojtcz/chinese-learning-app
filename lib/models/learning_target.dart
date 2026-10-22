@@ -4,6 +4,7 @@ enum LearningTarget { chinese, polish }
 
 extension LearningTargetPresentation on LearningTarget {
   String get code => this == LearningTarget.chinese ? 'chinese' : 'polish';
+  bool get showsPolishOnFlashcardFront => this == LearningTarget.chinese;
 
   String label(AppLanguage language) => this == LearningTarget.chinese
       ? language.text('Chiński', '中文', '中文')

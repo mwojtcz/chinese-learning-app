@@ -24,6 +24,26 @@ void main() {
     }
   });
 
+  test('seven-case lesson includes ordered comparison and inflection tables',
+      () async {
+    final source =
+        await rootBundle.loadString('assets/data/grammar_polish_cases.json');
+    final lessons = grammarLessonsFromJson(source);
+    final cases = lessons.singleWhere(
+      (lesson) => lesson.id == 'pl-cases-seven-cases',
+    );
+    final tables = cases.sections.expand((section) => section.tables).toList();
+
+    expect(tables, hasLength(2));
+    expect(tables.first.rows, hasLength(7));
+    expect(
+      tables.first.rows.map((row) => row.first.polish).toList(),
+      ['1', '2', '3', '4', '5', '6', '7'],
+    );
+    expect(tables.last.rows, hasLength(7));
+    expect(tables.last.rows[3][2].polish, 'książkę');
+  });
+
   test('parses and selects localized grammar lesson text', () {
     const source = '''
     {

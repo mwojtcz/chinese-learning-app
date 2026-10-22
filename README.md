@@ -20,6 +20,7 @@ Or download the Windows application from [Releases](https://github.com/mwojtcz/c
 - **HSK 2025 library and search**, including the shared HSK 7–9 vocabulary band.
 - **Grammar guides** for Chinese and Polish, including classifiers, negation, Chinese 的/地/得, Polish cases, number agreement, adjective comparison, and verb conjugation.
 - **Practice tab** with vocabulary multiple choice and typed sentence-gap exercises, localized in Polish, Simplified Chinese, and Traditional Chinese.
+- **Structured 24-module Polish course from A1 to C2**, with localized examples, grammar focus, answer-reveal exercises, and practical tasks for Chinese-speaking learners.
 - **Curated Polish word forms** for selected common nouns, adjectives, and verbs, with example sentences and Chinese translations.
 - **Personal saved-word list** stored locally on the device.
 - **Responsive layout** for desktop, tablet, and mobile.
@@ -62,7 +63,8 @@ Download the latest version from [Releases](https://github.com/mwojtcz/chinese-l
 - Select an HSK level to focus the deck. Revisit skipped cards from the deck controls.
 - Browse and search the full available vocabulary in **HSK**; open a word to see translations and available Polish forms.
 - Use **Practice** for HSK vocabulary questions or sentence-gap exercises. Polish A1 gap exercises are an initial curated set; Polish vocabulary questions draw from the shared bilingual vocabulary and are not a CEFR placement.
-- Use **Grammar** for short reference lessons in both languages. Detailed Polish paradigms and examples are curated for selected common words, not generated for every dictionary entry.
+- With **Polish** selected as the learning target, flashcards show the Chinese word first; reveal the card to see its Polish meaning and supporting details.
+- Use **Grammar** for reference lessons in both languages. The Polish tab includes 24 sequenced A1–C2 modules, each with examples, a short exercise and answer, and a practical task; it also includes a seven-case chart ordered from nominative to vocative and a sample declension table. Detailed Polish paradigms are curated for selected common words, not generated for every dictionary entry.
 
 ## 📁 Project Structure
 
@@ -100,6 +102,10 @@ The repository's MIT license applies to application code. Source-derived vocabul
 Grammar lessons are localized JSON under `assets/data/grammar_*.json`. Each lesson should include Polish, Simplified Chinese, and Traditional Chinese text, examples, and notes that distinguish rules from common exceptions. Confirm the source and reuse terms for each grammar dataset independently.
 
 Practice exercises are localized in `assets/data/practice_exercises.json`; accepted answer variants are listed explicitly to avoid overly permissive matching. Curated Polish paradigms and example sentences are stored in `assets/data/polish_word_forms.json`. These tables are educational examples for selected entries, not a complete automatic inflection engine.
+
+The Polish course is localized in `assets/data/polish_course.json`; its 24 modules include communication outcomes, grammar guidance, translated examples, a short practice item with an answer and explanation, and an open-ended task. Its progression is informed by the [Council of Europe's CEFR Companion Volume](https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4) and the Polish adult certification-exam standards in the [2025 regulation (Dz.U. 2025 poz. 217)](https://dziennikustaw.gov.pl/DU/2025/217). The syllabus is an original learning plan, not an official exam syllabus or a claim of certification readiness; it does not yet include a complete graded workbook, audio course, or exhaustive word-form engine.
+
+The seven-case reference presents nominative through vocative in order, followed by a comparison of singular noun forms. Its staged, example-first presentation is also informed by GLOSSA's [case-teaching article](https://e-polish.eu/sklep/blog/narzednik-na-start/). This is a teaching reference: actual forms depend on gender, number, animacy, stem alternations, and government.
 
 ## 🛠️ Technologies
 

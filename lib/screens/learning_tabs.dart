@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../models/app_language.dart';
 import '../models/grammar_lesson.dart';
 import '../models/learning_target.dart';
+import '../models/polish_course.dart';
 import '../models/polish_word_forms.dart';
 import '../models/word.dart';
 import '../providers/word_provider.dart';
@@ -599,6 +600,9 @@ class GrammarTab extends StatefulWidget {
 
 class _GrammarTabState extends State<GrammarTab> {
   late final Future<List<GrammarLesson>> _lessons = _loadLessons();
+  late final Future<List<PolishCourseLevel>> _polishCourse = rootBundle
+      .loadString('assets/data/polish_course.json')
+      .then(polishCourseFromJson);
 
   Future<List<GrammarLesson>> _loadLessons() async {
     const assetPaths = [
@@ -644,8 +648,31 @@ class _GrammarTabState extends State<GrammarTab> {
         final lessons = snapshot.data!;
         final chineseLessons = lessons.where((lesson) => lesson.id.startsWith('zh-')).toList();
         final polishLessons = lessons.where((lesson) => lesson.id.startsWith('pl-')).toList();
+        final chineseTab = Tab(
+          text: language.text('Chiński · 中文', '中文 · 语法', '中文 · 語法'),
+        );
+        final polishGrammarTab = Tab(
+          text: language.text('Polski · gramatyka', '波兰语 · 语法', '波蘭語 · 語法'),
+        );
+        final polishCourseTab = Tab(
+          text: language.text('Kurs polskiego · A1–C2', '波兰语课程 · A1–C2', '波蘭語課程 · A1–C2'),
+        );
+        final tabs = polish
+            ? [polishCourseTab, polishGrammarTab, chineseTab]
+            : [chineseTab, polishCourseTab, polishGrammarTab];
+        final pages = polish
+            ? [
+                _PolishCourseTab(course: _polishCourse, language: language),
+                _GrammarLessonList(lessons: polishLessons, language: language),
+                _GrammarLessonList(lessons: chineseLessons, language: language),
+              ]
+            : [
+                _GrammarLessonList(lessons: chineseLessons, language: language),
+                _PolishCourseTab(course: _polishCourse, language: language),
+                _GrammarLessonList(lessons: polishLessons, language: language),
+              ];
         return DefaultTabController(
-          length: 2,
+          length: tabs.length,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -671,26 +698,13 @@ class _GrammarTabState extends State<GrammarTab> {
                       labelColor: _accent,
                       unselectedLabelColor: _mutedInk,
                       indicatorColor: _accent,
-                      tabs: [
-                        Tab(text: polish ? 'Chiński · 中文' : 'Polski · odmiana'),
-                        Tab(text: polish ? 'Polski · odmiana' : '中文 · 语法'),
-                      ],
+                      tabs: tabs,
                     ),
                   ],
                 ),
               ),
               Expanded(
-                child: TabBarView(
-                  children: polish
-                      ? [
-                          _GrammarLessonList(lessons: chineseLessons, language: language),
-                          _GrammarLessonList(lessons: polishLessons, language: language),
-                        ]
-                      : [
-                          _GrammarLessonList(lessons: polishLessons, language: language),
-                          _GrammarLessonList(lessons: chineseLessons, language: language),
-                        ],
-                ),
+                child: TabBarView(children: pages),
               ),
             ],
           ),
@@ -698,6 +712,195 @@ class _GrammarTabState extends State<GrammarTab> {
       },
     );
   }
+}
+
+class _PolishCourseTab extends StatelessWidget {
+  const _PolishCourseTab({
+    required this.course,
+    required this.language,
+  });
+
+  final Future<List<PolishCourseLevel>> course;
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<List<PolishCourseLevel>>(
+      future: course,
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return Center(
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Text(
+                language.text(
+                  'Nie udało się wczytać kursu: ${snapshot.error}',
+                  '课程加载失败：${snapshot.error}',
+                  '課程載入失敗：${snapshot.error}',
+                ),
+              ),
+            ),
+          );
+        }
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator(color: _accent));
+        }
+
+        return ListView(
+          padding: const EdgeInsets.fromLTRB(20, 16, 20, 32),
+          children: [
+            Container(
+              padding: const EdgeInsets.all(18),
+              decoration: BoxDecoration(
+                color: const Color(0xFFECE4D9),
+                borderRadius: BorderRadius.circular(18),
+              ),
+              child: Text(
+                language.text(
+                  'Kurs prowadzi od pierwszych zdań do samodzielnej, zaawansowanej komunikacji. Każdy moduł ma cel komunikacyjny, przykłady, krótkie ćwiczenie z odpowiedzią i zadanie do wykonania. Ucz się w cyklu: poznaj formę, zauważ ją w przykładzie, sprawdź odpowiedź i użyj jej we własnej wypowiedzi. Przypadki wprowadzamy stopniowo — pełna tabela jest niżej w zakładce „Gramatyka PL”.',
+                  '课程从第一句话循序推进到独立的高级交流。每个单元都包含交际目标、例句、附答案的小练习和实践任务。按此循环学习：认识形式、观察例句、核对答案，再用于自己的表达。格的学习循序渐进；完整表格见下方“波兰语语法”。',
+                  '課程從第一句話循序推進到獨立的進階交流。每個單元都包含交際目標、例句、附答案的小練習和實踐任務。依此循環學習：認識形式、觀察例句、核對答案，再用於自己的表達。格的學習循序漸進；完整表格見下方「波蘭語文法」。',
+                ),
+                style: const TextStyle(color: _ink, height: 1.5),
+              ),
+            ),
+            const SizedBox(height: 12),
+            for (final level in snapshot.data!)
+              Card(
+                margin: const EdgeInsets.only(bottom: 10),
+                color: _paper,
+                elevation: 0,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18),
+                  side: const BorderSide(color: _line),
+                ),
+                clipBehavior: Clip.antiAlias,
+                child: ExpansionTile(
+                  tilePadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 5),
+                  childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+                  title: Text(
+                    level.title.forLanguage(language),
+                    style: const TextStyle(
+                      color: _ink,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  subtitle: Padding(
+                    padding: const EdgeInsets.only(top: 5),
+                    child: Text(
+                      level.canDo.forLanguage(language),
+                      style: const TextStyle(color: _mutedInk, height: 1.4),
+                    ),
+                  ),
+                  children: [
+                    for (final unit in level.units)
+                      ExpansionTile(
+                        tilePadding: const EdgeInsets.symmetric(horizontal: 8),
+                        childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                        title: Text(
+                          unit.title.forLanguage(language),
+                          style: const TextStyle(
+                            color: _ink,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                        subtitle: Text(
+                          unit.outcome.forLanguage(language),
+                          style: const TextStyle(color: _mutedInk, height: 1.4),
+                        ),
+                        children: [
+                          _CourseDetail(
+                            label: language.text('Przykłady', '例句', '例句'),
+                            text: unit.examples
+                                .map((example) => example.forLanguage(language))
+                                .join('\n'),
+                          ),
+                          const SizedBox(height: 8),
+                          _CourseDetail(
+                            label: language.text('Gramatyka i język', '语法与语言重点', '文法與語言重點'),
+                            text: unit.focus.forLanguage(language),
+                          ),
+                          const SizedBox(height: 8),
+                          ExpansionTile(
+                            tilePadding: const EdgeInsets.symmetric(horizontal: 12),
+                            childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                            title: Text(
+                              language.text('Ćwiczenie', '练习', '練習'),
+                              style: const TextStyle(
+                                color: _accent,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            subtitle: Text(
+                              unit.practice.forLanguage(language),
+                              style: const TextStyle(color: _ink, height: 1.45),
+                            ),
+                            children: [
+                              _CourseDetail(
+                                label: language.text('Odpowiedź i wskazówka', '答案与提示', '答案與提示'),
+                                text: unit.answer.forLanguage(language),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 8),
+                          _CourseDetail(
+                            label: language.text('Zadanie praktyczne', '实践任务', '實踐任務'),
+                            text: unit.task.forLanguage(language),
+                          ),
+                        ],
+                      ),
+                  ],
+                ),
+              ),
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Text(
+                language.text(
+                  'Poziomy i cele komunikacyjne opracowano z odniesieniem do Europejskiego systemu opisu kształcenia językowego oraz polskich standardów egzaminacyjnych z 2025 r. Układ lekcji jest autorskim planem dydaktycznym, a nie oficjalnym programem egzaminu.',
+                  '课程等级和交际目标参考《欧洲语言共同参考框架》及 2025 年波兰语国家考试标准。本课程编排为自编教学方案，并非官方考试大纲。',
+                  '課程等級和交際目標參考《歐洲語言共同參考架構》及 2025 年波蘭語國家考試標準。本課程編排為自編教學方案，並非官方考試大綱。',
+                ),
+                style: const TextStyle(color: _mutedInk, fontSize: 12, height: 1.45),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+}
+
+class _CourseDetail extends StatelessWidget {
+  const _CourseDetail({required this.label, required this.text});
+
+  final String label;
+  final String text;
+
+  @override
+  Widget build(BuildContext context) => Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: const Color(0xFFF4EFE7),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              label,
+              style: const TextStyle(
+                color: _accent,
+                fontSize: 12,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(text, style: const TextStyle(color: _ink, height: 1.45)),
+          ],
+        ),
+      );
 }
 
 class _GrammarLessonList extends StatelessWidget {
@@ -784,6 +987,8 @@ class _GrammarLessonList extends StatelessWidget {
                             ],
                           ),
                         ),
+                      for (final table in section.tables)
+                        _GrammarTableView(table: table, language: language),
                       const SizedBox(height: 7),
                       Text(
                         section.note.forLanguage(language),
@@ -797,6 +1002,73 @@ class _GrammarLessonList extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+}
+
+class _GrammarTableView extends StatelessWidget {
+  const _GrammarTableView({required this.table, required this.language});
+
+  final GrammarTable table;
+  final AppLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    final columns = table.headers.length;
+    final columnWidth = columns <= 2 ? 180.0 : 150.0;
+    return Container(
+      width: double.infinity,
+      margin: const EdgeInsets.only(top: 12, bottom: 6),
+      decoration: BoxDecoration(
+        color: _paper,
+        border: Border.all(color: _line),
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(13),
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: DataTable(
+            headingRowColor: const WidgetStatePropertyAll(Color(0xFFECE4D9)),
+            dataRowMinHeight: 48,
+            dataRowMaxHeight: 92,
+            columnSpacing: 18,
+            horizontalMargin: 14,
+            columns: [
+              for (final header in table.headers)
+                DataColumn(
+                  label: SizedBox(
+                    width: columnWidth,
+                    child: Text(
+                      header.forLanguage(language),
+                      style: const TextStyle(
+                        color: _ink,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                ),
+            ],
+            rows: [
+              for (final row in table.rows)
+                DataRow(
+                  cells: [
+                    for (final cell in row)
+                      DataCell(
+                        SizedBox(
+                          width: columnWidth,
+                          child: Text(
+                            cell.forLanguage(language),
+                            style: const TextStyle(color: _ink, height: 1.35),
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
@@ -1097,7 +1369,7 @@ class _Flashcard extends StatelessWidget {
                       : _HiddenWord(
                           key: const ValueKey('hidden'),
                           language: language,
-                          isPolishFront: target == LearningTarget.polish,
+                          showPolish: target.showsPolishOnFlashcardFront,
                           chinese: chinesePrimary,
                           polish: polishFront,
                           hasPolishTranslation: polish.isNotEmpty,
@@ -1127,21 +1399,21 @@ class _HiddenWord extends StatelessWidget {
   const _HiddenWord({
     super.key,
     required this.language,
-    required this.isPolishFront,
+    required this.showPolish,
     required this.chinese,
     required this.polish,
     required this.hasPolishTranslation,
   });
 
   final AppLanguage language;
-  final bool isPolishFront;
+  final bool showPolish;
   final String chinese;
   final String polish;
   final bool hasPolishTranslation;
 
   @override
   Widget build(BuildContext context) {
-    if (isPolishFront) {
+    if (showPolish) {
       return Column(
         key: const ValueKey('polish-front'),
         mainAxisAlignment: MainAxisAlignment.center,

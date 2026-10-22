@@ -27,6 +27,19 @@ void main() {
     expect(practiceAnswerMatches('książka', ['książkę']), isFalse);
   });
 
+  test('flashcards prompt in the language being learned', () {
+    expect(
+      LearningTarget.polish.showsPolishOnFlashcardFront,
+      isFalse,
+      reason: 'Polish learners should see Chinese and recall Polish.',
+    );
+    expect(
+      LearningTarget.chinese.showsPolishOnFlashcardFront,
+      isTrue,
+      reason: 'Chinese learners should see Polish and recall Chinese.',
+    );
+  });
+
   test('rejects duplicate exercise IDs', () {
     const source = '''
     {

@@ -72,6 +72,7 @@ flutter:
     - assets/data/grammar_polish_numbers.json
     - assets/data/practice_exercises.json
     - assets/data/polish_word_forms.json
+    - assets/data/polish_course.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

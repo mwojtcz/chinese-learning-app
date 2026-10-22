@@ -70,12 +70,14 @@ class GrammarSection {
     required this.explanation,
     required this.examples,
     required this.note,
+    this.tables = const [],
   });
 
   final GrammarText heading;
   final GrammarText explanation;
   final List<GrammarExample> examples;
   final GrammarText note;
+  final List<GrammarTable> tables;
 
   factory GrammarSection.fromJson(dynamic value) {
     if (value is! Map<String, dynamic>) {
@@ -85,12 +87,50 @@ class GrammarSection {
     if (examplesValue is! List) {
       throw const FormatException('Grammar section examples must be a list.');
     }
+    final tablesValue = value['tables'];
+    if (tablesValue != null && tablesValue is! List) {
+      throw const FormatException('Grammar section tables must be a list.');
+    }
     return GrammarSection(
       heading: GrammarText.fromJson(value['heading']),
       explanation: GrammarText.fromJson(value['explanation']),
       examples: examplesValue.map(GrammarExample.fromJson).toList(growable: false),
       note: GrammarText.fromJson(value['note']),
+      tables: (tablesValue as List? ?? const [])
+          .map(GrammarTable.fromJson)
+          .toList(growable: false),
     );
+  }
+}
+
+@immutable
+class GrammarTable {
+  const GrammarTable({required this.headers, required this.rows});
+
+  final List<GrammarText> headers;
+  final List<List<GrammarText>> rows;
+
+  factory GrammarTable.fromJson(dynamic value) {
+    if (value is! Map<String, dynamic> ||
+        value['headers'] is! List ||
+        value['rows'] is! List) {
+      throw const FormatException('Grammar table needs headers and rows.');
+    }
+    final headers = (value['headers'] as List)
+        .map(GrammarText.fromJson)
+        .toList(growable: false);
+    final rows = (value['rows'] as List).map((row) {
+      if (row is! List || row.length != headers.length) {
+        throw const FormatException(
+          'Grammar table rows must match the number of headers.',
+        );
+      }
+      return row.map(GrammarText.fromJson).toList(growable: false);
+    }).toList(growable: false);
+    if (headers.isEmpty || rows.isEmpty) {
+      throw const FormatException('Grammar table cannot be empty.');
+    }
+    return GrammarTable(headers: headers, rows: rows);
   }
 }
 

@@ -1,0 +1,342 @@
+{
+  "levels": [
+    {
+      "level": "A1",
+      "title": {"pl": "A1 · Pierwsze kroki", "zhHans": "A1 · 入门起步", "zhHant": "A1 · 入門起步"},
+      "canDo": {
+        "pl": "Rozumiesz i używasz prostych, codziennych wyrażeń. Potrafisz przedstawić siebie i zadać podstawowe pytania.",
+        "zhHans": "能理解并使用简单的日常表达；能介绍自己并提出基本问题。",
+        "zhHant": "能理解並使用簡單的日常表達；能介紹自己並提出基本問題。"
+      },
+      "units": [
+        {
+          "title": {"pl": "1. Brzmienie polskiego i przedstawianie się", "zhHans": "1. 波兰语发音与自我介绍", "zhHant": "1. 波蘭語發音與自我介紹"},
+          "outcome": {"pl": "Przedstawiasz się, literujesz imię i pytasz o podstawowe dane.", "zhHans": "能自我介绍、拼读姓名并询问基本信息。", "zhHant": "能自我介紹、拼讀姓名並詢問基本資訊。"},
+          "focus": {"pl": "Alfabet i znaki diakrytyczne; akcent zwykle na przedostatniej sylabie; zaimki ja/ty; być w czasie teraźniejszym; mianownik.", "zhHans": "字母与变音符号；重音通常落在倒数第二音节；代词 ja/ty；动词 być 现在时；主格。", "zhHant": "字母與變音符號；重音通常落在倒數第二音節；代詞 ja/ty；動詞 być 現在式；主格。"},
+          "examples": [
+            {"pl": "Dzień dobry. Mam na imię Lin. Jestem z Chin.", "zhHans": "您好。我叫林。我来自中国。", "zhHant": "您好。我叫林。我來自中國。"},
+            {"pl": "Jak masz na imię? — Mam na imię Anna.", "zhHans": "你叫什么名字？——我叫安娜。", "zhHant": "你叫什麼名字？——我叫安娜。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Jestem ___ Chin. (z / w)", "zhHans": "填空：Jestem ___ Chin.（z / w，来自中国）", "zhHant": "填空：Jestem ___ Chin.（z / w，來自中國）"},
+          "answer": {"pl": "Jestem z Chin. „Z” łączy się tu z dopełniaczem: Chiny → Chin.", "zhHans": "Jestem z Chin. 这里 z 后接属格：Chiny（中国）→ Chin。", "zhHant": "Jestem z Chin. 這裡 z 後接屬格：Chiny（中國）→ Chin。"},
+          "task": {"pl": "Nagraj lub zapisz 5-zdaniową wizytówkę: imię, kraj, języki i zawód.", "zhHans": "录制或写一段 5 句的自我介绍：姓名、国家、语言和职业。", "zhHant": "錄製或寫一段 5 句的自我介紹：姓名、國家、語言和職業。"}
+        },
+        {
+          "title": {"pl": "2. Rodzina, osoby i rodzaj", "zhHans": "2. 家庭、人物与语法性", "zhHant": "2. 家庭、人物與文法性"},
+          "outcome": {"pl": "Opisujesz bliskich i rozpoznajesz rodzaj rzeczownika oraz zgodę przymiotnika.", "zhHans": "能介绍家人，并辨认名词的语法性及形容词一致关系。", "zhHant": "能介紹家人，並辨認名詞的文法性及形容詞一致關係。"},
+          "focus": {"pl": "Rodzaj męski, żeński i nijaki; ten/ta/to; przymiotnik + rzeczownik; liczba mnoga osób.", "zhHans": "阳性、阴性、中性；ten/ta/to；形容词与名词搭配；人物复数。", "zhHant": "陽性、陰性、中性；ten/ta/to；形容詞與名詞搭配；人物複數。"},
+          "examples": [
+            {"pl": "To jest mój brat. Moja siostra jest wysoka.", "zhHans": "这是我哥哥/弟弟。我姐姐/妹妹个子高。", "zhHant": "這是我哥哥／弟弟。我姐姐／妹妹個子高。"},
+            {"pl": "To jest małe dziecko. Te osoby są miłe.", "zhHans": "这是一个小孩。这些人很友善。", "zhHant": "這是一個小孩。這些人很友善。"}
+          ],
+          "practice": {"pl": "Wybierz: ___ dziecko jest małe. (ten / ta / to)", "zhHans": "选择：___ dziecko jest małe.（ten / ta / to）", "zhHant": "選擇：___ dziecko jest małe.（ten / ta / to）"},
+          "answer": {"pl": "To dziecko jest małe. Dziecko ma rodzaj nijaki, dlatego używamy „to”.", "zhHans": "To dziecko jest małe. dziecko 是中性名词，因此使用 to。", "zhHant": "To dziecko jest małe. dziecko 是中性名詞，因此使用 to。"},
+          "task": {"pl": "Opisz rodzinę na zdjęciu: kto to jest, jaki/jaka jest i czym się zajmuje.", "zhHans": "介绍一张家庭照片：人物是谁、性格或外貌如何、从事什么工作。", "zhHant": "介紹一張家庭照片：人物是誰、個性或外貌如何、從事什麼工作。"}
+        },
+        {
+          "title": {"pl": "3. Jedzenie, zakupy i prośby", "zhHans": "3. 饮食、购物与请求", "zhHant": "3. 飲食、購物與請求"},
+          "outcome": {"pl": "Zamawiasz, kupujesz podstawowe produkty i mówisz, czego nie ma.", "zhHans": "能点餐、购买基本商品，并表达某物不存在或没有。", "zhHant": "能點餐、購買基本商品，並表達某物不存在或沒有。"},
+          "focus": {"pl": "Biernik dla typowego dopełnienia; dopełniacz po nie ma i po ilości; poproszę; liczebniki 1–20.", "zhHans": "直接宾语用宾格；nie ma 和数量后用属格；礼貌表达 poproszę；数字 1–20。", "zhHant": "直接賓語用賓格；nie ma 和數量後用屬格；禮貌表達 poproszę；數字 1–20。"},
+          "examples": [
+            {"pl": "Poproszę kawę i dwie bułki.", "zhHans": "请给我一杯咖啡和两个小面包。", "zhHant": "請給我一杯咖啡和兩個小麵包。"},
+            {"pl": "Nie ma mleka. Mam tylko wodę.", "zhHans": "没有牛奶。我只有水。", "zhHant": "沒有牛奶。我只有水。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Poproszę ___ (herbata).", "zhHans": "填空：Poproszę ___（herbata，茶）。", "zhHant": "填空：Poproszę ___（herbata，茶）。"},
+          "answer": {"pl": "Poproszę herbatę. Typowe dopełnienie po „poproszę” występuje w bierniku.", "zhHans": "Poproszę herbatę. 在 poproszę 后，常见直接宾语使用宾格。", "zhHant": "Poproszę herbatę. 在 poproszę 後，常見直接賓語使用賓格。"},
+          "task": {"pl": "Odegraj dialog w kawiarni i sklepie; zamów dwie rzeczy i dopytaj o cenę.", "zhHans": "模拟咖啡馆和商店对话：点两样东西并询问价格。", "zhHant": "模擬咖啡館和商店對話：點兩樣東西並詢問價格。"}
+        },
+        {
+          "title": {"pl": "4. Dzień, czas i miejsca", "zhHans": "4. 日常、时间与地点", "zhHant": "4. 日常、時間與地點"},
+          "outcome": {"pl": "Opowiadasz o planie dnia, godzinie i miejscu zamieszkania.", "zhHans": "能描述日程、时间和居住地点。", "zhHant": "能描述日程、時間和居住地點。"},
+          "focus": {"pl": "Czas teraźniejszy; pytania gdzie/dokąd; w/na + miejscownik dla lokalizacji; narzędnik środka transportu; dni i godziny.", "zhHans": "现在时；gdzie/dokąd；表示地点时 w/na + 处所格；交通工具用工具格；星期与时间。", "zhHant": "現在式；gdzie/dokąd；表示地點時 w/na + 前置格；交通工具用工具格；星期與時間。"},
+          "examples": [
+            {"pl": "Mieszkam w Warszawie. Pracuję od dziewiątej.", "zhHans": "我住在华沙。我从九点开始工作。", "zhHant": "我住在華沙。我從九點開始工作。"},
+            {"pl": "Jadę do pracy autobusem.", "zhHans": "我坐公交车去上班。", "zhHant": "我搭公車去上班。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Mieszkam ___ Warszawie. (w / do)", "zhHans": "填空：Mieszkam ___ Warszawie.（w / do，表示住在华沙）", "zhHant": "填空：Mieszkam ___ Warszawie.（w / do，表示住在華沙）"},
+          "answer": {"pl": "Mieszkam w Warszawie. Pytanie „gdzie?” wskazuje miejsce pobytu; po „w” używamy miejscownika.", "zhHans": "Mieszkam w Warszawie. „gdzie?”询问所在地点；w 后使用处所格。", "zhHant": "Mieszkam w Warszawie. 「gdzie?」詢問所在地點；w 後使用前置格。"},
+          "task": {"pl": "Napisz plan zwykłego dnia i wyjaśnij, jak docierasz do trzech miejsc.", "zhHans": "写出普通一天的安排，并说明如何前往三个地点。", "zhHant": "寫出普通一天的安排，並說明如何前往三個地點。"}
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": {"pl": "A2 · Samodzielność na co dzień", "zhHans": "A2 · 日常生活自如应对", "zhHant": "A2 · 日常生活自如應對"},
+      "canDo": {
+        "pl": "Radzisz sobie w typowych sytuacjach, opisujesz przeszłość i plany oraz piszesz krótkie, praktyczne teksty.",
+        "zhHans": "能应对常见生活场景，描述过去和计划，并写简短实用文本。",
+        "zhHant": "能應對常見生活場景，描述過去和計畫，並寫簡短實用文本。"
+      },
+      "units": [
+        {
+          "title": {"pl": "1. Wczoraj, dziś i jutro", "zhHans": "1. 昨天、今天与明天", "zhHant": "1. 昨天、今天與明天"},
+          "outcome": {"pl": "Relacjonujesz proste wydarzenia i mówisz o zamiarach.", "zhHans": "能叙述简单经历并表达打算。", "zhHant": "能敘述簡單經歷並表達打算。"},
+          "focus": {"pl": "Czas przeszły i rodzaj; aspekt dokonany/niedokonany w częstych parach; przyszłość być + bezokolicznik oraz formy dokonane.", "zhHans": "过去时与性别配合；常见完成体/未完成体动词对；być + 不定式及完成体将来表达。", "zhHant": "過去式與性別配合；常見完成體／未完成體動詞對；być + 不定詞及完成體將來表達。"},
+          "examples": [
+            {"pl": "Wczoraj czytałam książkę, a dziś ją skończę.", "zhHans": "昨天我在看一本书，今天会把它看完。", "zhHant": "昨天我在看一本書，今天會把它看完。"},
+            {"pl": "Jutro będziemy zwiedzać miasto.", "zhHans": "明天我们要游览这座城市。", "zhHant": "明天我們要遊覽這座城市。"}
+          ],
+          "practice": {"pl": "Uzupełnij dla mówiącej kobiety: Wczoraj ___ film. (oglądać, ja)", "zhHans": "填空（女性说话者）：Wczoraj ___ film.（oglądać，我）", "zhHant": "填空（女性說話者）：Wczoraj ___ film.（oglądać，我）"},
+          "answer": {"pl": "Wczoraj oglądałam film. W czasie przeszłym forma czasownika wskazuje rodzaj mówiącej osoby.", "zhHans": "Wczoraj oglądałam film. 过去时动词形式体现说话者的性别。", "zhHant": "Wczoraj oglądałam film. 過去式動詞形式會體現說話者的性別。"},
+          "task": {"pl": "Opowiedz, co robiłeś wczoraj, i zaplanuj następny weekend.", "zhHans": "讲述昨天做了什么，并安排下一个周末。", "zhHant": "講述昨天做了什麼，並安排下一個週末。"}
+        },
+        {
+          "title": {"pl": "2. Pełny zestaw przypadków w użyciu", "zhHans": "2. 七格在生活中的用法", "zhHant": "2. 七格在生活中的用法"},
+          "outcome": {"pl": "Dobierasz przypadek w podstawowych konstrukcjach i odczytujesz jego rolę.", "zhHans": "能在基础结构中选择正确的格，并判断格的句法作用。", "zhHant": "能在基礎結構中選擇正確的格，並判斷格的句法作用。"},
+          "focus": {"pl": "Celownik odbiorcy i doświadczenia; wołacz w zwrotach; rekcja czasowników i przyimków; mianownik–biernik–dopełniacz.", "zhHans": "接受者和体验者用与格；称呼用呼格；动词与介词支配；主格、宾格、属格对比。", "zhHant": "接受者和體驗者用與格；稱呼用呼格；動詞與介詞支配；主格、賓格、屬格對比。"},
+          "examples": [
+            {"pl": "Dziękuję koleżance. Marku, podaj mi książkę.", "zhHans": "我感谢女同学。马雷克，请把书递给我。", "zhHant": "我感謝女同學。馬雷克，請把書遞給我。"},
+            {"pl": "Nie ma klucza, ale klucz leży na stole.", "zhHans": "没有钥匙，但钥匙在桌子上。", "zhHant": "沒有鑰匙，但鑰匙在桌子上。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Dziękuję ___ (koleżanka).", "zhHans": "填空：Dziękuję ___（koleżanka，女同学）。", "zhHant": "填空：Dziękuję ___（koleżanka，女同學）。"},
+          "answer": {"pl": "Dziękuję koleżance. Czasownik „dziękować” łączy się z celownikiem.", "zhHans": "Dziękuję koleżance. 动词 dziękować（感谢）后接与格。", "zhHant": "Dziękuję koleżance. 動詞 dziękować（感謝）後接與格。"},
+          "task": {"pl": "Ułóż dialog: daj komuś prezent, podziękuj, zaproś go i powiedz, dokąd idziecie.", "zhHans": "编写对话：送礼物、道谢、邀请对方，并说明两人要去哪里。", "zhHant": "編寫對話：送禮物、道謝、邀請對方，並說明兩人要去哪裡。"}
+        },
+        {
+          "title": {"pl": "3. Zdrowie, dom i usługi", "zhHans": "3. 健康、住房与服务", "zhHant": "3. 健康、住房與服務"},
+          "outcome": {"pl": "Opisujesz samopoczucie, mieszkanie i rozwiązujesz prosty problem w usłudze.", "zhHans": "能描述健康状况和住房，并处理简单的服务问题。", "zhHant": "能描述健康狀況和住房，並處理簡單的服務問題。"},
+          "focus": {"pl": "Konstrukcje boli mnie; celownik zaimków; dopełniacz po ilości i przeczeniu; przymiotniki oraz stopniowanie regularne.", "zhHans": "boli mnie 结构；代词与格；数量和否定后的属格；形容词及规则比较级。", "zhHant": "boli mnie 結構；代詞與格；數量和否定後的屬格；形容詞及規則比較級。"},
+          "examples": [
+            {"pl": "Boli mnie głowa. Potrzebuję lekarza.", "zhHans": "我头疼。我需要看医生。", "zhHant": "我頭疼。我需要看醫生。"},
+            {"pl": "W moim mieszkaniu jest jaśniej niż tutaj.", "zhHans": "我的公寓比这里更亮。", "zhHant": "我的公寓比這裡更亮。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Boli ___ gardło. (ja)", "zhHans": "填空：Boli ___ gardło.（我，喉咙痛）", "zhHant": "填空：Boli ___ gardło.（我，喉嚨痛）"},
+          "answer": {"pl": "Boli mnie gardło. W tej konstrukcji używamy zaimka w celowniku: ja → mnie.", "zhHans": "Boli mnie gardło. 这个结构中代词用与格：ja → mnie。", "zhHant": "Boli mnie gardło. 這個結構中代詞用與格：ja → mnie。"},
+          "task": {"pl": "Opisz objawy i umów wizytę; zgłoś usterkę w mieszkaniu.", "zhHans": "描述症状并预约；报告住房中的故障。", "zhHant": "描述症狀並預約；報告住房中的故障。"}
+        },
+        {
+          "title": {"pl": "4. Podróż, kierunek i porównanie", "zhHans": "4. 旅行、方向与比较", "zhHant": "4. 旅行、方向與比較"},
+          "outcome": {"pl": "Pytasz o drogę, kupujesz bilet i porównujesz możliwości.", "zhHans": "能问路、买票并比较不同选择。", "zhHant": "能問路、買票並比較不同選擇。"},
+          "focus": {"pl": "Ruch dokąd? + biernik; położenie gdzie? + miejscownik; przyimki do/z/od/na; stopień wyższy i najwyższy.", "zhHans": "方向 dokąd? + 宾格；位置 gdzie? + 处所格；do/z/od/na；比较级与最高级。", "zhHant": "方向 dokąd? + 賓格；位置 gdzie? + 前置格；do/z/od/na；比較級與最高級。"},
+          "examples": [
+            {"pl": "Jedziemy do Krakowa, a teraz jesteśmy w Łodzi.", "zhHans": "我们要去克拉科夫，现在在罗兹。", "zhHant": "我們要去克拉科夫，現在在羅茲。"},
+            {"pl": "Pociąg jest szybszy od autobusu.", "zhHans": "火车比公交车快。", "zhHant": "火車比公車快。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Jutro jedziemy ___ Gdańska. (do / w)", "zhHans": "填空：Jutro jedziemy ___ Gdańska.（do / w，明天去格但斯克）", "zhHant": "填空：Jutro jedziemy ___ Gdańska.（do / w，明天去格但斯克）"},
+          "answer": {"pl": "Jutro jedziemy do Gdańska. „Dokąd?” oznacza kierunek; „do” łączy się z dopełniaczem.", "zhHans": "Jutro jedziemy do Gdańska. „dokąd?”询问方向；do 后接属格。", "zhHant": "Jutro jedziemy do Gdańska. 「dokąd?」詢問方向；do 後接屬格。"},
+          "task": {"pl": "Zaplanuj trasę, kup bilet i uzasadnij, dlaczego wybierasz tę drogę.", "zhHans": "规划路线、买票，并说明为何选择这条路线。", "zhHant": "規劃路線、買票，並說明為何選擇這條路線。"}
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "title": {"pl": "B1 · Niezależny użytkownik", "zhHans": "B1 · 独立使用者", "zhHant": "B1 · 獨立使用者"},
+      "canDo": {
+        "pl": "Rozumiesz główne treści w znanych sprawach, radzisz sobie w podróży, opowiadasz doświadczenia i uzasadniasz opinię.",
+        "zhHans": "能理解熟悉话题的主要内容，在旅行中应对交流，叙述经历并说明观点。",
+        "zhHant": "能理解熟悉話題的主要內容，在旅行中應對交流，敘述經歷並說明觀點。"
+      },
+      "units": [
+        {
+          "title": {"pl": "1. Biografia i opowiadanie", "zhHans": "1. 生平与叙事", "zhHant": "1. 生平與敘事"},
+          "outcome": {"pl": "Tworzysz spójną opowieść o wydarzeniach, doświadczeniach i zmianach.", "zhHans": "能连贯叙述事件、经历和变化。", "zhHant": "能連貫敘述事件、經歷和變化。"},
+          "focus": {"pl": "Aspekt czasownika w narracji; następstwo czasów; spójniki; zaimki względne który/jaki.", "zhHans": "叙事中的动词体；时序；连接词；关系代词 który/jaki。", "zhHant": "敘事中的動詞體；時序；連接詞；關係代詞 który/jaki。"},
+          "examples": [
+            {"pl": "Kiedy studiowałem w Krakowie, poznałem osobę, która zmieniła moje życie.", "zhHans": "我在克拉科夫读书时，认识了一位改变我人生的人。", "zhHant": "我在克拉科夫讀書時，認識了一位改變我人生的人。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Kiedy ___ w Krakowie, poznałem wielu ludzi. (studiować, ja)", "zhHans": "填空：Kiedy ___ w Krakowie, poznałem wielu ludzi.（studiować，我）", "zhHant": "填空：Kiedy ___ w Krakowie, poznałem wielu ludzi.（studiować，我）"},
+          "answer": {"pl": "Kiedy studiowałem w Krakowie, poznałem wielu ludzi. Czas przeszły niedokonany opisuje trwające tło wydarzenia.", "zhHans": "Kiedy studiowałem w Krakowie, poznałem wielu ludzi. 未完成过去时描述事件发生时持续的背景。", "zhHant": "Kiedy studiowałem w Krakowie, poznałem wielu ludzi. 未完成過去式描述事件發生時持續的背景。"},
+          "task": {"pl": "Napisz biografię 180–220 słów z osią czasu i co najmniej pięcioma łącznikami.", "zhHans": "写一篇 180–220 词的生平介绍，包含时间线和至少五个连接词。", "zhHant": "寫一篇 180–220 詞的生平介紹，包含時間線和至少五個連接詞。"}
+        },
+        {
+          "title": {"pl": "2. Praca, nauka i relacje", "zhHans": "2. 工作、学习与人际关系", "zhHant": "2. 工作、學習與人際關係"},
+          "outcome": {"pl": "Opisujesz obowiązki, doświadczenie i relacje oraz prowadzisz rozmowę w znanej sprawie.", "zhHans": "能描述职责、经历和人际关系，并就熟悉事项展开交流。", "zhHant": "能描述職責、經歷和人際關係，並就熟悉事項展開交流。"},
+          "focus": {"pl": "Rekcja częstych czasowników we wszystkich przypadkach; zaimki osobowe i zwrotne; tryb rozkazujący.", "zhHans": "常见动词支配各格；人称代词与反身代词；命令式。", "zhHant": "常見動詞支配各格；人稱代詞與反身代詞；命令式。"},
+          "examples": [
+            {"pl": "Zajmuję się projektowaniem, a po pracy uczę się polskiego.", "zhHans": "我从事设计工作，下班后学习波兰语。", "zhHant": "我從事設計工作，下班後學習波蘭語。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Zajmuję ___ nauczaniem. (się / siebie)", "zhHans": "填空：Zajmuję ___ nauczaniem.（się / siebie，从事教学）", "zhHant": "填空：Zajmuję ___ nauczaniem.（się / siebie，從事教學）"},
+          "answer": {"pl": "Zajmuję się nauczaniem. „Zajmować się” to czasownik zwrotny; wymaga zaimka „się” i narzędnika.", "zhHans": "Zajmuję się nauczaniem. zajmować się 是反身动词，要求 si\u0119 和工具格。", "zhHant": "Zajmuję się nauczaniem. zajmować się 是反身動詞，要求 się 和工具格。"},
+          "task": {"pl": "Przeprowadź rozmowę o pracę i napisz krótką wiadomość z prośbą lub wyjaśnieniem.", "zhHans": "模拟求职面试，并写一条简短请求或说明信息。", "zhHant": "模擬求職面試，並寫一則簡短請求或說明訊息。"}
+        },
+        {
+          "title": {"pl": "3. Opinie, argumenty i media", "zhHans": "3. 观点、论证与媒体", "zhHant": "3. 觀點、論證與媒體"},
+          "outcome": {"pl": "Formułujesz opinię, podajesz powody i reagujesz na odmienne stanowisko.", "zhHans": "能表达观点、给出理由并回应不同意见。", "zhHant": "能表達觀點、提出理由並回應不同意見。"},
+          "focus": {"pl": "Ponieważ, dlatego, chociaż, jednak; bezokolicznik i żeby; stopniowanie i wyrażanie preferencji.", "zhHans": "因为、所以、虽然、但是；不定式与 żeby；比较级和偏好表达。", "zhHant": "因為、所以、雖然、但是；不定詞與 żeby；比較級和偏好表達。"},
+          "examples": [
+            {"pl": "Uważam, że warto czytać wiadomości, chociaż nie zawsze zgadzam się z autorami.", "zhHans": "我认为阅读新闻很有价值，尽管我并不总是同意作者的观点。", "zhHant": "我認為閱讀新聞很有價值，儘管我並不總是同意作者的觀點。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Sądzę, ___ warto uczyć się języków. (że / żeby)", "zhHans": "填空：Sądzę, ___ warto uczyć się języków.（że / żeby，我认为学习语言很有价值）", "zhHant": "填空：Sądzę, ___ warto uczyć się języków.（że / żeby，我認為學習語言很有價值）"},
+          "answer": {"pl": "Sądzę, że warto uczyć się języków. „Że” wprowadza treść opinii; „żeby” zwykle wprowadza cel lub oczekiwanie.", "zhHans": "Sądzę, że warto uczyć się języków. że 引出观点内容；żeby 通常引出目的或期待。", "zhHant": "Sądzę, że warto uczyć się języków. że 引出觀點內容；żeby 通常引出目的或期待。"},
+          "task": {"pl": "Napisz opinię o artykule: teza, dwa argumenty, przykład i odpowiedź na kontrargument.", "zhHans": "写一篇文章评论：观点、两个理由、例子以及对反方意见的回应。", "zhHant": "寫一篇文章評論：觀點、兩個理由、例子以及對反方意見的回應。"}
+        },
+        {
+          "title": {"pl": "4. Wszystkie przypadki w kontekście", "zhHans": "4. 语境中的七个格", "zhHant": "4. 語境中的七個格"},
+          "outcome": {"pl": "Dobierasz formy rzeczownika, przymiotnika i zaimka w typowych zdaniach i połączeniach.", "zhHans": "能在常见句型和搭配中选择名词、形容词及代词的正确形式。", "zhHant": "能在常見句型和搭配中選擇名詞、形容詞及代詞的正確形式。"},
+          "focus": {"pl": "Rekcja czasowników i przyimków; liczba pojedyncza i mnoga; rodzaj męskoosobowy; oboczności.", "zhHans": "动词与介词支配；单复数；阳性人称复数；词干交替。", "zhHant": "動詞與介詞支配；單複數；陽性人稱複數；詞幹交替。"},
+          "examples": [
+            {"pl": "Rozmawiałem z nowymi sąsiadami o planach na przyszłość.", "zhHans": "我和新邻居谈了未来的计划。", "zhHant": "我和新鄰居談了未來的計畫。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Rozmawiałam z now___ koleżankami. (nowa)", "zhHans": "填空：Rozmawiałam z now___ koleżankami.（nowa，和新同学交谈）", "zhHant": "填空：Rozmawiałam z now___ koleżankami.（nowa，和新同學交談）"},
+          "answer": {"pl": "Rozmawiałam z nowymi koleżankami. Przyimek „z” w znaczeniu „razem z” wymaga narzędnika; przymiotnik uzgadnia się z rzeczownikiem.", "zhHans": "Rozmawiałam z nowymi koleżankami. 表示“和……一起”的 z 后接工具格；形容词与名词保持一致。", "zhHant": "Rozmawiałam z nowymi koleżankami. 表示「和……一起」的 z 後接工具格；形容詞與名詞保持一致。"},
+          "task": {"pl": "Popraw błędy w dialogu i uzasadnij wybór przypadku przyimkiem lub czasownikiem.", "zhHans": "修改对话中的错误，并用介词或动词解释格的选择。", "zhHant": "修改對話中的錯誤，並用介詞或動詞解釋格的選擇。"}
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": {"pl": "B2 · Swobodna komunikacja", "zhHans": "B2 · 自如交流", "zhHant": "B2 · 自如交流"},
+      "canDo": {
+        "pl": "Komunikujesz się płynnie i spontanicznie, rozumiesz złożone teksty i jasno rozwijasz argumentację.",
+        "zhHans": "能流利自如地交流，理解复杂文本，并清楚展开论证。",
+        "zhHant": "能流利自如地交流，理解複雜文本，並清楚展開論證。"
+      },
+      "units": [
+        {
+          "title": {"pl": "1. Złożone zdania i spójność tekstu", "zhHans": "1. 复合句与篇章衔接", "zhHant": "1. 複合句與篇章銜接"},
+          "outcome": {"pl": "Łączysz informacje i budujesz logiczne, wielozdaniowe wypowiedzi.", "zhHans": "能整合信息并构建逻辑连贯的多句表达。", "zhHant": "能整合資訊並構建邏輯連貫的多句表達。"},
+          "focus": {"pl": "Zdania podrzędne; imiesłowy w rozumieniu tekstu; szyk dla akcentu; referencja zaimków.", "zhHans": "从句；阅读中的分词；表达焦点的语序；代词指代。", "zhHant": "子句；閱讀中的分詞；表達焦點的語序；代詞指代。"},
+          "examples": [
+            {"pl": "Choć początkowo brakowało danych, zespół opublikował raport, który wyjaśnia przyczyny zmian.", "zhHans": "尽管最初缺少数据，团队还是发布了说明变化原因的报告。", "zhHant": "儘管最初缺少資料，團隊還是發布了說明變化原因的報告。"}
+          ],
+          "practice": {"pl": "Połącz zdania: Padał deszcz. Zostaliśmy w domu. Użyj „ponieważ”.", "zhHans": "合并句子并使用 ponieważ（因为）：下雨了。我们待在家里。", "zhHant": "合併句子並使用 ponieważ（因為）：下雨了。我們待在家裡。"},
+          "answer": {"pl": "Zostaliśmy w domu, ponieważ padał deszcz. Zdanie z „ponieważ” podaje przyczynę.", "zhHans": "Zostaliśmy w domu, ponieważ padał deszcz. ponieważ 引导原因从句。", "zhHant": "Zostaliśmy w domu, ponieważ padał deszcz. ponieważ 引導原因子句。"},
+          "task": {"pl": "Streść dwa źródła i napisz spójny tekst porównujący ich wnioski.", "zhHans": "概述两份材料，并写一篇连贯文章比较它们的结论。", "zhHant": "概述兩份材料，並寫一篇連貫文章比較它們的結論。"}
+        },
+        {
+          "title": {"pl": "2. Rejestr formalny i korespondencja", "zhHans": "2. 正式语体与书信", "zhHant": "2. 正式語體與書信"},
+          "outcome": {"pl": "Dobierasz ton i formę do odbiorcy oraz celu tekstu.", "zhHans": "能根据读者和文本目的调整语气与形式。", "zhHant": "能根據讀者和文本目的調整語氣與形式。"},
+          "focus": {"pl": "Pan/Pani i formy grzecznościowe; strona bierna; nominalizacja; oficjalna rekcja.", "zhHans": "Pan/Pani 礼貌称谓；被动语态；名词化；正式语体中的格支配。", "zhHant": "Pan/Pani 禮貌稱謂；被動語態；名詞化；正式語體中的格支配。"},
+          "examples": [
+            {"pl": "Szanowna Pani, zwracam się z uprzejmą prośbą o przesłanie kopii umowy.", "zhHans": "尊敬的女士：谨此礼貌地请求您寄送合同副本。", "zhHant": "敬愛的女士：謹此禮貌地請求您寄送合約副本。"}
+          ],
+          "practice": {"pl": "Uprzejmie proszę o ___ dokumentu. (przesłać → rzeczownik)", "zhHans": "填空：Uprzejmie proszę o ___ dokumentu.（przesłać，改用名词）", "zhHant": "填空：Uprzejmie proszę o ___ dokumentu.（przesłać，改用名詞）"},
+          "answer": {"pl": "Uprzejmie proszę o przesłanie dokumentu. Formalna prośba często używa rzeczownika odczasownikowego: przesłać → przesłanie.", "zhHans": "Uprzejmie proszę o przesłanie dokumentu. 正式请求常用动词派生名词：przesłać → przesłanie。", "zhHant": "Uprzejmie proszę o przesłanie dokumentu. 正式請求常用動詞衍生名詞：przesłać → przesłanie。"},
+          "task": {"pl": "Napisz formalną reklamację i odpowiedź instytucji, zachowując właściwy rejestr.", "zhHans": "分别写一封正式投诉信和机构回复，保持恰当语体。", "zhHant": "分別寫一封正式申訴信和機構回覆，保持恰當語體。"}
+        },
+        {
+          "title": {"pl": "3. Społeczeństwo, kultura i debata", "zhHans": "3. 社会、文化与讨论", "zhHant": "3. 社會、文化與討論"},
+          "outcome": {"pl": "Przedstawiasz i bronisz stanowiska w sprawach społecznych i kulturalnych.", "zhHans": "能就社会与文化议题表达并捍卫立场。", "zhHant": "能就社會與文化議題表達並捍衛立場。"},
+          "focus": {"pl": "Wątpliwość, ustępstwo, warunek; tryby; kolokacje i frazeologia; słowotwórstwo.", "zhHans": "不确定、让步与条件；语气；搭配和习语；构词。", "zhHant": "不確定、讓步與條件；語氣；搭配和習語；構詞。"},
+          "examples": [
+            {"pl": "Nawet jeśli projekt jest kosztowny, warto go rozważyć, pod warunkiem że przyniesie trwałe korzyści.", "zhHans": "即使项目成本高，只要能带来长期收益，就值得考虑。", "zhHant": "即使專案成本高，只要能帶來長期收益，就值得考慮。"}
+          ],
+          "practice": {"pl": "Uzupełnij: ___ projekt jest drogi, może przynieść korzyści. (Nawet jeśli / Dlatego)", "zhHans": "填空：___ projekt jest drogi, może przynieść korzyści.（Nawet jeśli / Dlatego，尽管项目昂贵……）", "zhHant": "填空：___ projekt jest drogi, może przynieść korzyści.（Nawet jeśli / Dlatego，儘管專案昂貴……）"},
+          "answer": {"pl": "Nawet jeśli projekt jest drogi, może przynieść korzyści. „Nawet jeśli” wprowadza ustępstwo.", "zhHans": "Nawet jeśli projekt jest drogi, może przynieść korzyści. Nawet jeśli 引出让步关系。", "zhHant": "Nawet jeśli projekt jest drogi, może przynieść korzyści. Nawet jeśli 引出讓步關係。"},
+          "task": {"pl": "Weź udział w moderowanej debacie i przygotuj tekst za i przeciw.", "zhHans": "参加有主持的辩论，并准备一篇正反论证文章。", "zhHant": "參加有主持的辯論，並準備一篇正反論證文章。"}
+        },
+        {
+          "title": {"pl": "4. Precyzja gramatyczna i redakcja", "zhHans": "4. 语法准确性与编辑", "zhHant": "4. 文法準確性與編輯"},
+          "outcome": {"pl": "Rozpoznajesz i poprawiasz częste błędy fleksyjne oraz stylistyczne.", "zhHans": "能识别并修改常见的词形和文体错误。", "zhHant": "能辨識並修改常見的詞形和文體錯誤。"},
+          "focus": {"pl": "Zgoda w rozbudowanej grupie nominalnej; liczebniki; rekcja; interpunkcja zdań złożonych.", "zhHans": "复杂名词短语中的一致关系；数词；格支配；复合句标点。", "zhHant": "複雜名詞片語中的一致關係；數詞；格支配；複合句標點。"},
+          "examples": [
+            {"pl": "Wyniki przeprowadzonych przez niezależnych ekspertów badań potwierdziły wcześniejsze wnioski.", "zhHans": "独立专家进行的研究结果证实了先前的结论。", "zhHant": "獨立專家進行的研究結果證實了先前的結論。"}
+          ],
+          "practice": {"pl": "Uzgodnij orzeczenie: Wyniki badań ___ wcześniejsze wnioski. (potwierdzić, przeszłość)", "zhHans": "选择正确的动词形式：Wyniki badań ___ wcześniejsze wnioski.（potwierdzić，过去时）", "zhHant": "選擇正確的動詞形式：Wyniki badań ___ wcześniejsze wnioski.（potwierdzić，過去式）"},
+          "answer": {"pl": "Wyniki badań potwierdziły wcześniejsze wnioski. Podmiot „wyniki” ma liczbę mnogą i rodzaj niemęskoosobowy.", "zhHans": "Wyniki badań potwierdziły wcześniejsze wnioski. 主语 wyniki 是非男性人称复数。", "zhHant": "Wyniki badań potwierdziły wcześniejsze wnioski. 主詞 wyniki 是非男性人稱複數。"},
+          "task": {"pl": "Zredaguj tekst z błędami i opisz, dlaczego każda poprawka jest potrzebna.", "zhHans": "编辑一篇含错误的文章，并说明每处修改的理由。", "zhHant": "編輯一篇含錯誤的文章，並說明每處修改的理由。"}
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": {"pl": "C1 · Polski akademicki i zawodowy", "zhHans": "C1 · 学术与职业波兰语", "zhHant": "C1 · 學術與職業波蘭語"},
+      "canDo": {
+        "pl": "Rozumiesz wymagające, długie teksty i skutecznie używasz polskiego w pracy, nauce i życiu publicznym.",
+        "zhHans": "能理解高难度长文本，并在工作、学习和公共生活中有效使用波兰语。",
+        "zhHant": "能理解高難度長文本，並在工作、學習和公共生活中有效使用波蘭語。"
+      },
+      "units": [
+        {
+          "title": {"pl": "1. Czytanie krytyczne i synteza", "zhHans": "1. 批判性阅读与综合", "zhHant": "1. 批判性閱讀與綜合"},
+          "outcome": {"pl": "Oceniasz argumenty, źródła i perspektywy oraz syntetyzujesz informacje.", "zhHans": "能评价论据、来源与视角，并综合信息。", "zhHant": "能評價論據、來源與視角，並綜合資訊。"},
+          "focus": {"pl": "Modalność i dystans autora; nominalizacja; odwołania; precyzyjne parafrazowanie.", "zhHans": "情态与作者立场；名词化；文本引用；准确改述。", "zhHant": "情態與作者立場；名詞化；文本引用；準確改述。"},
+          "examples": [
+            {"pl": "Autor nie tyle odrzuca tę interpretację, ile wskazuje na ograniczenia dostępnych danych.", "zhHans": "作者与其说是否定这种解释，不如说是在指出现有数据的局限。", "zhHant": "作者與其說是否定這種解釋，不如說是在指出現有資料的侷限。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Autor nie tyle krytykuje metodę, ___ wskazuje jej ograniczenia. (ile / albo)", "zhHans": "填空：Autor nie tyle krytykuje metodę, ___ wskazuje jej ograniczenia.（ile / albo，与其说……不如说……）", "zhHant": "填空：Autor nie tyle krytykuje metodę, ___ wskazuje jej ograniczenia.（ile / albo，與其說……不如說……）"},
+          "answer": {"pl": "Autor nie tyle krytykuje metodę, ile wskazuje jej ograniczenia. Konstrukcja „nie tyle…, ile…” koryguje lub precyzuje pierwszą część wypowiedzi.", "zhHans": "Autor nie tyle krytykuje metodę, ile wskazuje jej ograniczenia. nie tyle…, ile… 用来修正或进一步明确前半句的意思。", "zhHant": "Autor nie tyle krytykuje metodę, ile wskazuje jej ograniczenia. nie tyle…, ile… 用來修正或進一步明確前半句的意思。"},
+          "task": {"pl": "Porównaj trzy źródła i przygotuj syntezę z jawnym rozróżnieniem faktów i opinii.", "zhHans": "比较三份材料并撰写综合报告，明确区分事实与观点。", "zhHant": "比較三份材料並撰寫綜合報告，明確區分事實與觀點。"}
+        },
+        {
+          "title": {"pl": "2. Wypowiedź akademicka", "zhHans": "2. 学术表达", "zhHant": "2. 學術表達"},
+          "outcome": {"pl": "Budujesz uporządkowany referat i tekst z uzasadnionymi wnioskami.", "zhHans": "能组织结构清晰的报告和有论据支持的结论。", "zhHant": "能組織結構清晰的報告和有論據支持的結論。"},
+          "focus": {"pl": "Struktura argumentu; nominalny i bezosobowy styl; łączniki; terminologia.", "zhHans": "论证结构；名词化与非人称表达；连接词；术语。", "zhHant": "論證結構；名詞化與非人稱表達；連接詞；術語。"},
+          "examples": [
+            {"pl": "Wyniki analizy wskazują na zależność, którą należy zweryfikować w dalszych badaniach.", "zhHans": "分析结果显示存在一种关联，仍需在后续研究中加以验证。", "zhHant": "分析結果顯示存在一種關聯，仍需在後續研究中加以驗證。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Analiza wskazuje ___ wyraźną zależność. (na / o)", "zhHans": "填空：Analiza wskazuje ___ wyraźną zależność.（na / o，分析显示一种明显关联）", "zhHant": "填空：Analiza wskazuje ___ wyraźną zależność.（na / o，分析顯示一種明顯關聯）"},
+          "answer": {"pl": "Analiza wskazuje na wyraźną zależność. W tej konstrukcji czasownik „wskazywać” łączy się z „na” i biernikiem.", "zhHans": "Analiza wskazuje na wyraźną zależność. 在此结构中 wskazywać 与 na 和宾格搭配。", "zhHant": "Analiza wskazuje na wyraźną zależność. 在此結構中 wskazywać 與 na 和賓格搭配。"},
+          "task": {"pl": "Napisz abstrakt i wygłoś 5-minutową prezentację z odpowiedziami na pytania.", "zhHans": "撰写摘要并进行五分钟演讲，随后回答问题。", "zhHant": "撰寫摘要並進行五分鐘演講，隨後回答問題。"}
+        },
+        {
+          "title": {"pl": "3. Komunikacja zawodowa i negocjacje", "zhHans": "3. 职场沟通与谈判", "zhHant": "3. 職場溝通與談判"},
+          "outcome": {"pl": "Prowadzisz spotkanie, negocjujesz warunki i redagujesz złożoną korespondencję.", "zhHans": "能主持会议、协商条件并撰写复杂商务通信。", "zhHant": "能主持會議、協商條件並撰寫複雜商務通信。"},
+          "focus": {"pl": "Uprzejma stanowczość; parafraza; idiomy zawodowe; styl i kolokacje.", "zhHans": "礼貌而坚定的表达；改述；职业习语；语体与搭配。", "zhHant": "禮貌而堅定的表達；改述；職業習語；語體與搭配。"},
+          "examples": [
+            {"pl": "Jesteśmy gotowi przedłużyć umowę, o ile uzgodnimy harmonogram wdrożenia.", "zhHans": "只要我们能商定实施时间表，我们愿意延长合同。", "zhHant": "只要我們能商定實施時程，我們願意延長合約。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Możemy podpisać umowę, o ile ___ warunki. (uzgodnić, my)", "zhHans": "填空：Możemy podpisać umowę, o ile ___ warunki.（uzgodnić，我们；只要我们商定条件）", "zhHant": "填空：Możemy podpisać umowę, o ile ___ warunki.（uzgodnić，我們；只要我們商定條件）"},
+          "answer": {"pl": "Możemy podpisać umowę, o ile uzgodnimy warunki. Po „o ile” mówimy o realnym warunku; forma dokonana „uzgodnimy” ma znaczenie przyszłe.", "zhHans": "Możemy podpisać umowę, o ile uzgodnimy warunki. o ile 引出真实条件；完成体 uzgodnimy 表示将来。", "zhHant": "Możemy podpisać umowę, o ile uzgodnimy warunki. o ile 引出真實條件；完成體 uzgodnimy 表示未來。"},
+          "task": {"pl": "Przygotuj agendę, protokół i listę uzgodnionych działań po spotkaniu.", "zhHans": "准备会议议程、纪要和会后行动清单。", "zhHant": "準備會議議程、紀錄和會後行動清單。"}
+        },
+        {
+          "title": {"pl": "4. Styl, rejestr i niuanse znaczenia", "zhHans": "4. 文体、语域与语义细微差别", "zhHant": "4. 文體、語域與語義細微差別"},
+          "outcome": {"pl": "Dostosowujesz styl do odbiorcy i rozpoznajesz ironię, aluzję oraz implikaturę.", "zhHans": "能根据读者调整文体，并理解反讽、暗示和言外之意。", "zhHant": "能根據讀者調整文體，並理解反諷、暗示和言外之意。"},
+          "focus": {"pl": "Synonimia rejestrowa; metafora; ironia; składnia jako środek akcentu.", "zhHans": "语域同义表达；隐喻；反讽；作为强调手段的句法。", "zhHant": "語域同義表達；隱喻；反諷；作為強調手段的句法。"},
+          "examples": [
+            {"pl": "No, rzeczywiście świetny pomysł — szczególnie jeśli lubimy czekać trzy godziny.", "zhHans": "啊，确实是个绝妙主意——尤其是在我们喜欢等三个小时的情况下。（反讽）", "zhHant": "啊，確實是個絕妙主意——尤其是在我們喜歡等三個小時的情況下。（反諷）"}
+          ],
+          "practice": {"pl": "Czy to pochwała, czy ironia? „Świetnie, znowu spóźnił się tylko godzinę.”", "zhHans": "这是赞美还是反讽？“太棒了，他这次只迟到了一小时。”", "zhHant": "這是稱讚還是反諷？「太棒了，他這次只遲到了一小時。」"},
+          "answer": {"pl": "Najpewniej ironia: „tylko godzinę” zestawione ze „świetnie” sygnalizuje krytykę, nie pochwałę. Odczyt zależy też od tonu i sytuacji.", "zhHans": "很可能是反讽：“只迟到一小时”与“太棒了”形成反差，表达批评而非赞美。具体含义也取决于语气和情境。", "zhHant": "很可能是反諷：「只遲到一小時」與「太棒了」形成反差，表達批評而非稱讚。具體含義也取決於語氣和情境。"},
+          "task": {"pl": "Przeredaguj ten sam komunikat dla znajomego, klienta i odbiorcy publicznego.", "zhHans": "把同一信息分别改写给朋友、客户和公众读者。", "zhHant": "把同一訊息分別改寫給朋友、客戶和公眾讀者。"}
+        }
+      ]
+    },
+    {
+      "level": "C2",
+      "title": {"pl": "C2 · Biegłość i precyzja", "zhHans": "C2 · 精通与精准表达", "zhHant": "C2 · 精通與精準表達"},
+      "canDo": {
+        "pl": "Rozumiesz niemal wszystko, co słyszysz i czytasz, oraz precyzyjnie wyrażasz subtelne znaczenia w różnych rejestrach.",
+        "zhHans": "几乎能理解所有听读材料，并能在不同语域中准确表达细微含义。",
+        "zhHant": "幾乎能理解所有聽讀材料，並能在不同語域中準確表達細微含義。"
+      },
+      "units": [
+        {
+          "title": {"pl": "1. Idiom, aluzja i humor", "zhHans": "1. 习语、暗示与幽默", "zhHant": "1. 習語、暗示與幽默"},
+          "outcome": {"pl": "Interpretujesz i tworzysz wypowiedzi wykorzystujące idiom, aluzję i humor.", "zhHans": "能理解并创作运用习语、暗示和幽默的表达。", "zhHant": "能理解並創作運用習語、暗示和幽默的表達。"},
+          "focus": {"pl": "Frazeologizmy; gra słów; konotacje; ograniczenia pragmatyczne.", "zhHans": "固定短语；双关；联想意义；语用限制。", "zhHant": "固定短語；雙關；聯想意義；語用限制。"},
+          "examples": [
+            {"pl": "Kiedy usłyszała tę wiadomość, zaniemówiła z wrażenia.", "zhHans": "听到这个消息时，她惊讶得说不出话来。（习语：zaniemówić z wrażenia）", "zhHant": "聽到這個消息時，她驚訝得說不出話來。（習語：zaniemówić z wrażenia）"}
+          ],
+          "practice": {"pl": "Uzupełnij: Po ogłoszeniu wyników zaniemówił z ___. (wrażenie, dopełniacz)", "zhHans": "填空：Po ogłoszeniu wyników zaniemówił z ___.（wrażenie，属格）", "zhHant": "填空：Po ogłoszeniu wyników zaniemówił z ___.（wrażenie，屬格）"},
+          "answer": {"pl": "Po ogłoszeniu wyników zaniemówił z wrażenia. Utrwalony zwrot „z wrażenia” oznacza silne zaskoczenie lub wzruszenie.", "zhHans": "Po ogłoszeniu wyników zaniemówił z wrażenia. 固定表达 z wrażenia 表示非常惊讶或感动。", "zhHant": "Po ogłoszeniu wyników zaniemówił z wrażenia. 固定表達 z wrażenia 表示非常驚訝或感動。"},
+          "task": {"pl": "Objaśnij aluzje w felietonie i napisz krótką odpowiedź zachowującą podobny ton.", "zhHans": "解释专栏文章中的暗示，并以相似语气写一段回应。", "zhHant": "解釋專欄文章中的暗示，並以相似語氣寫一段回應。"}
+        },
+        {
+          "title": {"pl": "2. Zaawansowana redakcja i przekład", "zhHans": "2. 高阶编辑与翻译", "zhHant": "2. 高階編輯與翻譯"},
+          "outcome": {"pl": "Redagujesz wymagające teksty i zachowujesz sens, ton oraz rytm w parafrazie.", "zhHans": "能编辑高难度文本，并在改述中保留原意、语气和节奏。", "zhHant": "能編輯高難度文本，並在改述中保留原意、語氣和節奏。"},
+          "focus": {"pl": "Rytm zdania; elipsa; wieloznaczność; wariantywność i norma.", "zhHans": "句子节奏；省略；多义性；语言变体与规范。", "zhHant": "句子節奏；省略；多義性；語言變體與規範。"},
+          "examples": [
+            {"pl": "Nie tyle brakowało nam czasu, ile jasnego podziału obowiązków.", "zhHans": "与其说我们缺少时间，不如说缺少明确的职责分工。", "zhHant": "與其說我們缺少時間，不如說缺少明確的職責分工。"}
+          ],
+          "practice": {"pl": "Przeredaguj bez zmiany sensu: Nie tyle był zmęczony, ile rozczarowany.", "zhHans": "不改变意思，改写：与其说他累了，不如说他失望了。", "zhHant": "不改變意思，改寫：與其說他累了，不如說他失望了。"},
+          "answer": {"pl": "Był bardziej rozczarowany niż zmęczony. To jedna z możliwych parafraz; zachowaj kontrast między dwiema cechami.", "zhHans": "Był bardziej rozczarowany niż zmęczony. 这是一种可行的改写；保留两种状态之间的对比。", "zhHant": "Był bardziej rozczarowany niż zmęczony. 這是一種可行的改寫；保留兩種狀態之間的對比。"},
+          "task": {"pl": "Zredaguj tekst ekspercki i przygotuj dwie parafrazy dla różnych odbiorców.", "zhHans": "编辑一篇专业文本，并为不同读者写两个改述版本。", "zhHant": "編輯一篇專業文本，並為不同讀者寫兩個改述版本。"}
+        },
+        {
+          "title": {"pl": "3. Wystąpienie i mediacja", "zhHans": "3. 演讲与沟通协调", "zhHant": "3. 演講與溝通協調"},
+          "outcome": {"pl": "Przekazujesz złożone treści różnym odbiorcom i skutecznie mediujesz znaczenia.", "zhHans": "能向不同受众传达复杂内容，并有效协调理解。", "zhHant": "能向不同受眾傳達複雜內容，並有效協調理解。"},
+          "focus": {"pl": "Rejestr; kondensacja informacji; parafraza; strategie wyjaśniania i naprawy nieporozumień.", "zhHans": "语域；信息浓缩；改述；解释与修复误解的策略。", "zhHant": "語域；資訊濃縮；改述；解釋與修復誤解的策略。"},
+          "examples": [
+            {"pl": "Innymi słowy, propozycja zakłada krótszy termin, ale nie zmienia uzgodnionego zakresu prac.", "zhHans": "换句话说，这项提议缩短了期限，但不改变已商定的工作范围。", "zhHant": "換句話說，這項提議縮短了期限，但不改變已商定的工作範圍。"}
+          ],
+          "practice": {"pl": "Wyjaśnij prościej: „Realizacja projektu zostanie przesunięta z uwagi na opóźnienie dostawy.”", "zhHans": "用更简单的话解释：“由于交付延误，项目实施将推迟。”", "zhHant": "用更簡單的話解釋：「由於交付延誤，專案執行將延後。」"},
+          "answer": {"pl": "Przykład: Projekt zacznie się później, bo dostawa się spóźnia. Dobra mediacja zachowuje sens, ale dostosowuje słownictwo do odbiorcy.", "zhHans": "示例：Projekt zacznie się później, bo dostawa się spóźnia. 有效转述保留原意，同时根据听众调整词汇。", "zhHant": "範例：Projekt zacznie się później, bo dostawa się spóźnia. 有效轉述保留原意，同時根據聽眾調整詞彙。"},
+          "task": {"pl": "Wyjaśnij specjalistyczny temat osobie bez przygotowania, odpowiadając na nieoczekiwane pytania.", "zhHans": "向没有相关背景的人解释专业主题，并回答临时问题。", "zhHant": "向沒有相關背景的人解釋專業主題，並回答臨時問題。"}
+        },
+        {
+          "title": {"pl": "4. Portfolio biegłości", "zhHans": "4. 高阶语言能力作品集", "zhHant": "4. 高階語言能力作品集"},
+          "outcome": {"pl": "Samodzielnie oceniasz, poprawiasz i uzasadniasz decyzje językowe.", "zhHans": "能自主评估、修改并解释语言选择。", "zhHant": "能自主評估、修改並說明語言選擇。"},
+          "focus": {"pl": "Autokorekta; źródła normatywne; warianty regionalne; argumentacja o języku.", "zhHans": "自我校对；规范参考资料；地域变体；语言现象论证。", "zhHant": "自我校對；規範參考資料；地域變體；語言現象論證。"},
+          "examples": [
+            {"pl": "W tym kontekście forma potoczna jest naturalna, natomiast w piśmie urzędowym lepszy będzie wariant neutralny.", "zhHans": "在这个语境中，口语形式很自然；而在公文中，中性表达更合适。", "zhHant": "在這個語境中，口語形式很自然；而在公文中，中性表達更合適。"}
+          ],
+          "practice": {"pl": "Wybierz rejestr do oficjalnego podania: „Chcę dostać odpowiedź” czy „Uprzejmie proszę o udzielenie odpowiedzi”?", "zhHans": "为正式申请选择合适语体：“我想得到答复”还是“谨请给予答复”？", "zhHant": "為正式申請選擇合適語體：「我想得到答覆」還是「謹請給予答覆」？"},
+          "answer": {"pl": "„Uprzejmie proszę o udzielenie odpowiedzi” pasuje do podania. Pierwsza wersja jest zrozumiała, ale bardziej bezpośrednia i mniej formalna.", "zhHans": "“Uprzejmie proszę o udzielenie odpowiedzi”适合正式申请。第一种说法可以理解，但更直接、正式程度较低。", "zhHant": "「Uprzejmie proszę o udzielenie odpowiedzi」適合正式申請。第一種說法可以理解，但較直接、正式程度較低。"},
+          "task": {"pl": "Skompletuj portfolio: esej, prezentacja, redakcja tekstu i komentarz do własnych wyborów.", "zhHans": "完成作品集：论文、演讲、文本编辑和语言选择说明。", "zhHant": "完成作品集：論文、演講、文本編輯和語言選擇說明。"}
+        }
+      ]
+    }
+  ]
+}
