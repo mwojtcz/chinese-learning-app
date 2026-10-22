@@ -32,8 +32,8 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
-      - name: Test Windows update manifest validation
-        run: flutter test test/windows_updater_test.dart
+      - name: Run application tests
+        run: flutter test
 
       - name: Build web compatibility
         run: flutter build web --release --base-href "/chinese-learning-app/"

@@ -44,4 +44,20 @@ void main() {
 
     expect(word.displayHanzi, '别');
   });
+
+  test('preserves curated categories without deriving them from legacy tags',
+      () {
+    final word = Word.fromJson({
+      'hanzi': '过年',
+      'pinyin': 'guò nián',
+      'english': 'to celebrate the New Year',
+      'polish': 'świętować Nowy Rok',
+      'level': 'HSK-2',
+      'tags': ['Time', 'Body'],
+      'categories': ['time'],
+    });
+
+    expect(word.categories, ['time']);
+    expect(word.toJson()['categories'], ['time']);
+  });
 }

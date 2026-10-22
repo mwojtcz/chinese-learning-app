@@ -1,10 +1,10 @@
 # Contributing
 
-Thank you for helping improve Cíkǎ. Keep repository-facing documentation, commit messages, issue titles, and pull request titles/descriptions in English. User-facing learning content should remain localized.
+Thank you for helping improve Polski · 中文. Keep repository-facing documentation, commit messages, issue titles, and pull request titles/descriptions in English. User-facing learning content should remain localized.
 
 ## Development setup
 
-- Flutter 3.24.5 and Dart 3.5.4 or newer.
+- Flutter 3.47.7 and its bundled Dart SDK (the Windows and web release toolchain).
 - Visual Studio 2022 with the Desktop development with C++ workload for Windows builds.
 - Git.
 
@@ -49,10 +49,19 @@ Do not claim a check passed if it was not run. If Flutter is unavailable locally
 - Keep source attribution and license notices with source-derived data. HSK source files and their CC BY-SA 4.0 terms are documented under `assets/data/sources/hsk-2025/`.
 - Do not add API keys, credentials, or unreviewed bulk translations.
 
+## Profiles and portable lessons
+
+- Treat local profiles as workspaces, not authenticated accounts.
+- Never change platform application identifiers or discard legacy progress during a display-name change.
+- Keep imported lesson content separate from learner progress and private teacher notes.
+- Validate package versions, lengths, image payloads, identifiers, and annotation ranges before saving imported data.
+- Test duplicate imports, older revisions, per-profile isolation, failed writes, and migration before changing persistence.
+- Preserve uncertainty: only annotate dictionary matches supported by the local vocabulary, and do not label ambiguous senses as verified.
+
 ## Release automation
 
 - Merging to `main` builds a portable Windows ZIP, updates the `windows-latest` prerelease, and deploys the web app to GitHub Pages.
-- Pushing a `v*` tag builds versioned Windows and Android release assets.
+- Pushing a `v*` tag builds versioned Windows release assets. The legacy Android workflow is manual until its missing runner project is restored.
 - See [RELEASE.md](RELEASE.md) for the release procedure and artifact locations.
 
 ## License

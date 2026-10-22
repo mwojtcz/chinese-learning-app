@@ -18,7 +18,7 @@
     "hanzi": "爱情",
     "pinyin": "àiqíng",
     "english": "god, warmheartedness, affection, love_affair, heart, kindness, tenderness, bosom, love, fondness, romantic love, affectionateness",
-    "polish": "Bóg",
+    "polish": "miłość; miłość romantyczna",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -36,7 +36,7 @@
     "hanzi": "安静",
     "pinyin": "ānjìng",
     "english": "lull, quieten, quiesce, dummy, quiet down, quiet, hush, pipe down, peaceful",
-    "polish": "zastój",
+    "polish": "cichy; spokojny; cisza",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -95,7 +95,7 @@
     "hanzi": "办",
     "pinyin": "bàn",
     "english": "punish (by law), manage, get ... ready, set_up, buy a fair amount of, set up, run, management, handle, tackle, attend to, do, punish, bring ... to justice",
-    "polish": "karać (zgodnie z prawem)",
+    "polish": "robić; załatwiać; organizować; prowadzić",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -126,7 +126,7 @@
     "hanzi": "办公室",
     "pinyin": "bàngōngshì",
     "english": "agency, office, authority, government agency, bureau",
-    "polish": "agencja",
+    "polish": "biuro; gabinet",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -213,7 +213,7 @@
     "hanzi": "报纸",
     "pinyin": "bàozhǐ",
     "english": "paper, headliner, newspaper publisher, tabloid, copyreader, newspaper, rag, courant, newsprint, sheet, gazette, dailies",
-    "polish": "papier",
+    "polish": "gazeta",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -228,7 +228,7 @@
     "hanzi": "北方",
     "pinyin": "běifāng",
     "english": "norland, septentrion, compass north, northern part of country, northernness, northern, magnetic north, northward, north, the North, the northern part of the country",
-    "polish": "norlandia",
+    "polish": "północ; północna część kraju",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -271,7 +271,7 @@
     "hanzi": "笔记",
     "pinyin": "bǐjì",
     "english": "short sketches, adversaria, notes, note",
-    "polish": "krótkie szkice",
+    "polish": "notatki; notować",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -299,7 +299,7 @@
     "hanzi": "背",
     "pinyin": "bèi",
     "english": "learn by heart, recite from memory",
-    "polish": "uczyć się na pamięć",
+    "polish": "uczyć się na pamięć; recytować z pamięci; plecy; tył",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -372,7 +372,7 @@
     "hanzi": "遍",
     "pinyin": "biàn",
     "english": "m.[activity]",
-    "polish": "m.[aktywność]",
+    "polish": "raz (pełne wykonanie czynności); wszędzie; cały",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -386,7 +386,7 @@
     "hanzi": "变成",
     "pinyin": "biàn chéng",
     "english": "grow_into, change into, go, form, grow into, change state, develop into, turn to, fall, turn_into, be, turn, become, turn into, grow, run, get",
-    "polish": "rosnąć",
+    "polish": "stawać się; zamieniać się w",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -513,7 +513,7 @@
     "hanzi": "不要",
     "pinyin": "bùyào",
     "english": "never, noway, don't want, don't (do sth.)",
-    "polish": "nigdy",
+    "polish": "nie chcieć; nie (zakaz); nie należy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -584,7 +584,7 @@
     "hanzi": "不行",
     "pinyin": "bù xíng",
     "english": "won't do, be out of the question, be no good, not work, not be capable",
-    "polish": "nie zrobię",
+    "polish": "nie można; nie da się; niedopuszczalny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -712,7 +712,7 @@
     "hanzi": "层",
     "pinyin": "céng",
     "english": "m.[proximation]",
-    "polish": "m. [bliskość]",
+    "polish": "warstwa; piętro; poziom; klasyfikator warstw",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -726,7 +726,7 @@
     "hanzi": "草",
     "pinyin": "cǎo",
     "english": "female (of animals), herb, herbage, female, careless, hasty, grass, rough, wort, draft, straw",
-    "polish": "samica (zwierząt)",
+    "polish": "trawa",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -815,7 +815,7 @@
     "hanzi": "场",
     "pinyin": "chǎng",
     "english": "m.[event]",
-    "polish": "m.[wydarzenie]",
+    "polish": "klepisko; raz; epizod; klasyfikator zdarzeń",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -829,7 +829,7 @@
     "hanzi": "超过",
     "pinyin": "chāo guò",
     "english": "overpass, overreach, outwalk, outstrip, overstep, outmarch, distance, pass, overstride, outpace, overtop, surpass, crown, exceed, overtake, preponderate, overrun, top, outrun, go_over, transcend, outrange, transgress, go past, break, excess, overhaul, overshine",
-    "polish": "wiadukt",
+    "polish": "przekraczać; przewyższać; wyprzedzać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -859,7 +859,7 @@
     "hanzi": "车辆",
     "pinyin": "chēliàng",
     "english": "voiture, vehicular traffic, vehicle, cars, vehicle traffic, car, vehicles, carriage, rolling_stock, equipment",
-    "polish": "głos",
+    "polish": "pojazd; pojazdy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -873,7 +873,7 @@
     "hanzi": "成绩",
     "pinyin": "chéngjì",
     "english": "execution, carrying into action, achievement, result, showing, carrying out, performance, grade, success, doing, batting average",
-    "polish": "wykonanie",
+    "polish": "wynik; osiągnięcie; oceny szkolne",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -889,7 +889,7 @@
     "hanzi": "称",
     "pinyin": "chēng",
     "english": "call",
-    "polish": "dzwonić",
+    "polish": "ważyć; nazywać; określać; chwalić",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -918,7 +918,7 @@
     "hanzi": "重新",
     "pinyin": "chóngxīn",
     "english": "over_again, newly, afresh, anew, again",
-    "polish": "ponad_znowu",
+    "polish": "ponownie; od nowa",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -946,7 +946,7 @@
     "hanzi": "成为",
     "pinyin": "chéngwéi",
     "english": "find, join, comprise, turn to, commemorate, sample, entomb, come_up, commence, get hold, learn, add up, necessitate, run, make up, constitute, make, form, come, amount, represent, fall, presage, change, be, turn, turn into, become, line up, come up, shape, portend, foretell, get",
-    "polish": "znajdować",
+    "polish": "stawać się; stać się",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1126,7 +1126,7 @@
     "hanzi": "船",
     "pinyin": "chuán",
     "english": "bottom, body, ship, catcher, bow, bark, boat, shipboard, prow, watercraft, craft, drone, vessel, keel, sailer",
-    "polish": "spód",
+    "polish": "statek; łódź",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1173,7 +1173,7 @@
     "hanzi": "词",
     "pinyin": "cí",
     "english": "vocable, words, phrase, a kind of poetry originating in Tang dyn, statement, a form of classical poetry, part of speech, speech, Ci, Chinese poetry, term, word",
-    "polish": "wokalny",
+    "polish": "słowo; wyraz; tekst piosenki",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1246,7 +1246,7 @@
     "hanzi": "打算",
     "pinyin": "dǎsuan",
     "english": "mean, specify, plan, think, intention, propose, design, purpose, contemplate, allot, destine, calculate, intend, designate, be after",
-    "polish": "mieć na myśli",
+    "polish": "planować; zamierzać; zamiar; plan",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1317,7 +1317,7 @@
     "hanzi": "大家",
     "pinyin": "dàjiā",
     "english": "sundry, great master, rich and influential family, pontiff, all of us, everyone, authority, master, distinguished family",
-    "polish": "rozmaity",
+    "polish": "wszyscy; wszyscy razem",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1348,7 +1348,7 @@
     "hanzi": "大量",
     "pinyin": "dàliàng",
     "english": "det.: any numer of, a great many",
-    "polish": "det.: dowolna liczba",
+    "polish": "duża ilość; znaczna liczba; liczny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1418,7 +1418,7 @@
     "hanzi": "大自然",
     "pinyin": "dàzìrán",
     "english": "wild, earth, nature, natural state, state of nature",
-    "polish": "dziki",
+    "polish": "przyroda; natura",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1433,7 +1433,7 @@
     "hanzi": "带",
     "pinyin": "dài",
     "english": "look after, raise",
-    "polish": "opiekować się",
+    "polish": "pas; taśma; nieść; zabierać ze sobą; prowadzić",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1562,7 +1562,7 @@
     "hanzi": "到处",
     "pinyin": "dàochù",
     "english": "universally, everywhere, everyplace, far and near, about, around, far and wide, all_over, high_and_low, all over, throughout, high and low, far_and_near, passim, abroad, at all places",
-    "polish": "uniwersalnie",
+    "polish": "wszędzie; na każdym kroku",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1620,7 +1620,7 @@
     "hanzi": "道理",
     "pinyin": "dàoli",
     "english": "thread, principle, the right way, theory, reason, argument, sense, order, truth, rationality",
-    "polish": "nitka",
+    "polish": "zasada; racja; sens; uzasadnienie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1635,7 +1635,7 @@
     "hanzi": "得",
     "pinyin": "de",
     "english": "should be, need",
-    "polish": "powinno być",
+    "polish": "dé: otrzymywać; uzyskiwać; děi: musieć; de: partykuła dopełnienia sposobu, stopnia lub możliwości",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1705,7 +1705,7 @@
     "hanzi": "灯",
     "pinyin": "dēng",
     "english": "blowlamp, lantern, light source, light, lamp, tube, valve, burner",
-    "polish": "lampa dmuchawa",
+    "polish": "lampa; światło",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1834,7 +1834,7 @@
     "hanzi": "东方",
     "pinyin": "dōngfāng",
     "english": "oriental, dawning, northeast, eastward, E, Orient, orient, orientation, the Orient, Surname, sunrise, eastern, eastern hemisphere, Dongfang, due east, East, the East, east, the east",
-    "polish": "orientalny",
+    "polish": "wschód; Wschód",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1879,7 +1879,7 @@
     "hanzi": "东南",
     "pinyin": "dōngnán",
     "english": "sou'-east, Southeast China, southeast, SE",
-    "polish": "sou'-wschód",
+    "polish": "południowy wschód",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1893,7 +1893,7 @@
     "hanzi": "懂得",
     "pinyin": "dǒngde",
     "english": "experience, know, live, understanding, understand, twig, gaum, grasp",
-    "polish": "doświadczenie",
+    "polish": "rozumieć; wiedzieć; znać się na",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1908,7 +1908,7 @@
     "hanzi": "动物",
     "pinyin": "dòngwù",
     "english": "thing, critter, crittur, zoic, anthropomorphism, animal, deer, animate being, beast, creature, burrow, sire, worker, fauna, brute",
-    "polish": "rzecz",
+    "polish": "zwierzę",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1938,7 +1938,7 @@
     "hanzi": "度",
     "pinyin": "dù",
     "english": "m.[activity]",
-    "polish": "m.[aktywność]",
+    "polish": "stopień; miara; zakres; spędzać (czas)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -1994,7 +1994,7 @@
     "hanzi": "段",
     "pinyin": "duàn",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "odcinek; fragment; etap; akapit",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2008,7 +2008,7 @@
     "hanzi": "队",
     "pinyin": "duì",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "drużyna; zespół; oddział; kolejka",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2038,7 +2038,7 @@
     "hanzi": "懂",
     "pinyin": "dǒng",
     "english": "have, comprehend, understanding, understand, compass, grasp, get the picture, glom, know, apprehend, twig, savvy, follow, make out, dig",
-    "polish": "Posiadać",
+    "polish": "rozumieć; pojmować",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2138,7 +2138,7 @@
     "hanzi": "多数",
     "pinyin": "duōshù",
     "english": "trillions, millions, mort, relative majority, throng, det : majority, prevalence, multitude, lac, Host, host, bulk, horde, raft, million, lakh, rimption, pack, skit, strength, acre, generality, ruck, chunk, number, shoal, multiplicity, billions, preponderance, jillions, zillions, grist, world, majority, meiny, regiment, legion, mass, plurality",
-    "polish": "biliony",
+    "polish": "większość; przeważająca część",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2184,7 +2184,7 @@
     "hanzi": "发",
     "pinyin": "fā",
     "english": "distribute",
-    "polish": "rozkładać",
+    "polish": "wysyłać; wydawać; emitować; rozwijać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2314,7 +2314,7 @@
     "hanzi": "分",
     "pinyin": "fēn",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "dzielić; rozdzielać; część; minuta; punkt; fen (jedna setna juana)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2362,7 +2362,7 @@
     "hanzi": "放心",
     "pinyin": "fàng xīn",
     "english": "disburden, set one's mind at rest, set one's mood at rest, be at ease, feel relieved, rest assured",
-    "polish": "wypłacić",
+    "polish": "być spokojnym; nie martwić się; uspokoić się",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2418,7 +2418,7 @@
     "hanzi": "份",
     "pinyin": "fèn",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "porcja; część; egzemplarz; klasyfikator dokumentów i porcji",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2432,7 +2432,7 @@
     "hanzi": "封",
     "pinyin": "fēng",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "zamykać; zapieczętować; klasyfikator listów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2474,7 +2474,7 @@
     "hanzi": "该",
     "pinyin": "gāi",
     "english": "det.: this, that",
-    "polish": "det.: to",
+    "polish": "powinien; należy; pora na; ten; wspomniany",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2502,7 +2502,7 @@
     "hanzi": "感动",
     "pinyin": "gǎndòng",
     "english": "be touched, be moved, affect, feel, stir, thrill, melt, magnetize, inspire, touch, reach, move",
-    "polish": "być dotykanym",
+    "polish": "wzruszać; poruszać emocjonalnie; wzruszony",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2631,7 +2631,7 @@
     "hanzi": "高中",
     "pinyin": "gāozhōng",
     "english": "senior middle school, senior high school, senior_high_school",
-    "polish": "starsze gimnazjum",
+    "polish": "szkoła średnia wyższego stopnia; liceum",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2702,7 +2702,7 @@
     "hanzi": "公斤",
     "pinyin": "gōngjīn",
     "english": "m.[standard]",
-    "polish": "m.[standardowy]",
+    "polish": "kilogram",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2746,7 +2746,7 @@
     "hanzi": "公里",
     "pinyin": "gōnglǐ",
     "english": "m.[standard]",
-    "polish": "m.[standardowy]",
+    "polish": "kilometr",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2775,7 +2775,7 @@
     "hanzi": "公司",
     "pinyin": "gōngsī",
     "english": "place of business, business organization, incorporation, establishment, business concern, office, concern, business establishment, business, enterprise, company, corporation",
-    "polish": "miejsce prowadzenia działalności",
+    "polish": "firma; przedsiębiorstwo; spółka",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2849,7 +2849,7 @@
     "hanzi": "顾客",
     "pinyin": "gùkè",
     "english": "chap, client, shopper, correspondent, constituency, patronage, trade, market, guest, clientele, newspaperman, newspaperwoman, newswriter, pressman, customer agent, customer, business",
-    "polish": "facet",
+    "polish": "klient; nabywca",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2911,7 +2911,7 @@
     "hanzi": "广场",
     "pinyin": "guǎngchǎng",
     "english": "mews, agora, public square, concourse, carrefour, piazza, plaza, square, campus, place",
-    "polish": "miauczy",
+    "polish": "plac (miejski)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2941,7 +2941,7 @@
     "hanzi": "过来",
     "pinyin": "guò lai",
     "english": "come over/up, up, come over, come up, come_over, come here",
-    "polish": "przyjdź/na górę",
+    "polish": "przyjść; podejść; przejść tutaj",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -2984,7 +2984,7 @@
     "hanzi": "过去",
     "pinyin": "guò qu",
     "english": "go over, pass by",
-    "polish": "przejrzeć",
+    "polish": "przeszłość; dawniej; miniony; przejść; minąć",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3016,7 +3016,7 @@
     "hanzi": "过",
     "pinyin": "guò",
     "english": "[aspect]",
-    "polish": "[aspekt]",
+    "polish": "przechodzić; mijać; partykuła doświadczenia lub zakończenia czynności",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3086,7 +3086,7 @@
     "hanzi": "好处",
     "pinyin": "hǎochu",
     "english": "pull, profit, advantage, stead, benefit, virtu, welfare, virtue, good, behoof, goodness, gain, pap, beauty, beaut",
-    "polish": "ciągnąć",
+    "polish": "korzyść; zaleta; pożytek",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3162,7 +3162,7 @@
     "hanzi": "合适",
     "pinyin": "héshì",
     "english": "set, fit, accommodate, befit, suitable, right, appropriate, belong, beseem, becoming, suit",
-    "polish": "ustawić",
+    "polish": "odpowiedni; stosowny; pasujący",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3220,7 +3220,7 @@
     "hanzi": "红",
     "pinyin": "hóng",
     "english": "in vogue, famous, redden, red, popular",
-    "polish": "modny",
+    "polish": "czerwony; popularny; modny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3304,7 +3304,7 @@
     "hanzi": "花",
     "pinyin": "huā",
     "english": "spend, expend, cost",
-    "polish": "wydawać",
+    "polish": "kwiat; kwiatowy; wydawać (pieniądze); poświęcać (czas)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3376,7 +3376,7 @@
     "hanzi": "画家",
     "pinyin": "huàjiā",
     "english": "painterly, creative person, artist, painter, penman, artists",
-    "polish": "malarski",
+    "polish": "malarz; malarka",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3437,7 +3437,7 @@
     "hanzi": "黄",
     "pinyin": "huáng",
     "english": "Surname",
-    "polish": "Nazwisko",
+    "polish": "żółty; nazwisko Huang",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3451,7 +3451,7 @@
     "hanzi": "换",
     "pinyin": "huàn",
     "english": "adjourn, barter, exchange, commute, reseat, trade, conversion, convert, change",
-    "polish": "zawiesić",
+    "polish": "wymieniać; zmieniać; zastępować",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3652,7 +3652,7 @@
     "hanzi": "加",
     "pinyin": "jiā",
     "english": "dramatise, plant, embroider, intercalate, lard, put in, blow up, inflict, deliver, aggrandize, plus, dramatize, increase, augment, embellish, augmentation, confer, append, add, pad, summate",
-    "polish": "dramatyzować",
+    "polish": "dodawać; zwiększać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3666,7 +3666,7 @@
     "hanzi": "加油",
     "pinyin": "jiā yóu",
     "english": "gas, lubricate, oil, refuel, gas up, embolden, accelerate, lubrication, fuel, cheer, recreate, hearten, make an extra effort",
-    "polish": "gaz",
+    "polish": "tankować; dodawać oleju; dodawać otuchy; do boju!",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3699,7 +3699,7 @@
     "hanzi": "家庭",
     "pinyin": "jiātíng",
     "english": "hearthstone, background, fireside, establishment, household, hearth, domestic, hearthside, menage, home, family unit, family, house",
-    "polish": "kamień paleniskowy",
+    "polish": "rodzina; gospodarstwo domowe",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3718,7 +3718,7 @@
     "hanzi": "家长",
     "pinyin": "jiāzhǎng",
     "english": "masterman, housemaster, graybeard, patriarch, parent of schoolchildren, patriarchal, goodman, patriarchate, paterfamilias, the head of a family, genearch, patriarchy, householder, head of household, the parent or guadian of a child",
-    "polish": "mistrz",
+    "polish": "rodzic; opiekun; głowa rodziny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3752,7 +3752,7 @@
     "hanzi": "假期",
     "pinyin": "jiàqī",
     "english": "season, holiday, leave, period of leave, vacation",
-    "polish": "sezon",
+    "polish": "wakacje; ferie; urlop",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3783,7 +3783,7 @@
     "hanzi": "件",
     "pinyin": "jiàn",
     "english": "correspondence, paper, document, bit, m.[general], , single item, letter, piece",
-    "polish": "korespondencja",
+    "polish": "sztuka; sprawa; klasyfikator ubrań i przedmiotów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3914,7 +3914,7 @@
     "hanzi": "交通",
     "pinyin": "jiāotōng",
     "english": "intercourse, commutation, transportation, communication, commuting, traffic, traffic_light, liaison man, communications, dealings, liaison",
-    "polish": "stosunek płciowy",
+    "polish": "ruch uliczny; transport; komunikacja",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3931,7 +3931,7 @@
     "hanzi": "角",
     "pinyin": "jiǎo",
     "english": "horn, bugle, sth. horn-shaped",
-    "polish": "klakson",
+    "polish": "kąt; róg; jiao (jedna dziesiąta juana)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3973,7 +3973,7 @@
     "hanzi": "叫作",
     "pinyin": "jiàozuò",
     "english": "to call, to be called",
-    "polish": "zadzwonić",
+    "polish": "nazywać; nazywać się",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -3987,7 +3987,7 @@
     "hanzi": "教师",
     "pinyin": "jiàoshī",
     "english": "beak, don, school teacher, schoolman, teacher, schoolmaster, preceptor, professor, pedagogue, schoolteacher, coach, master, instructor, educator, preceptorship",
-    "polish": "dziób",
+    "polish": "nauczyciel; nauczycielka",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4078,7 +4078,7 @@
     "hanzi": "接受",
     "pinyin": "jiēshòu",
     "english": "receive (honors, have, receive, acknowledge, sweep up, espouse, etc.), come to grips, adopt, embrace, greet, welcome, hook on, seize on, take up, accede, taken, entertain, latch on, buy, fasten on, swallow, imbibe, accept, receive (honors/etc.), undergo, get to grips, take, adapt, acceptance, thole",
-    "polish": "otrzymać (wyróżnienia",
+    "polish": "przyjmować; akceptować; otrzymywać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4121,7 +4121,7 @@
     "hanzi": "街",
     "pinyin": "jiē",
     "english": "county fair, fair, place, market, toby, street",
-    "polish": "jarmark powiatowy",
+    "polish": "ulica",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4137,7 +4137,7 @@
     "hanzi": "节",
     "pinyin": "jié",
     "english": "m.[event]",
-    "polish": "m.[wydarzenie]",
+    "polish": "węzeł; odcinek; święto; klasyfikator lekcji i odcinków",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4151,7 +4151,7 @@
     "hanzi": "节目",
     "pinyin": "jiémù",
     "english": "item, item (on program), programme, act, telecast, number, program",
-    "polish": "przedmiot",
+    "polish": "program; występ; punkt programu",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4193,7 +4193,7 @@
     "hanzi": "斤",
     "pinyin": "jīn",
     "english": "m.[standard]",
-    "polish": "m.[standardowy]",
+    "polish": "jin (jednostka masy równa w Chinach 500 gramom)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4238,7 +4238,7 @@
     "hanzi": "进入",
     "pinyin": "jìnrù",
     "english": "go_into, get_in, debouch, get in, go into, move into, come_into, pass, step_in, lapse, get_into, set in, go in, get into, kick in, penetrate, intromission, pierce, come_in, come in, enter, entry, sink, impenetrate",
-    "polish": "idź_do",
+    "polish": "wchodzić; wkraczać; wstępować do",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4252,7 +4252,7 @@
     "hanzi": "今后",
     "pinyin": "jīnhòu",
     "english": "hereafter, henceforth, in the future, from now on",
-    "polish": "poniżej",
+    "polish": "odtąd; od teraz; w przyszłości",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4281,7 +4281,7 @@
     "hanzi": "经常",
     "pinyin": "jīngcháng",
     "english": "everyday, daily, alway, often, a great deal, frequently, sempre, much, regularly, constantly, evermore, day-to-day",
-    "polish": "codzienny",
+    "polish": "często; regularnie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4324,7 +4324,7 @@
     "hanzi": "经理",
     "pinyin": "jīnglǐ",
     "english": "amaldar, intendant, manager, steward, executive, managing director, exec, director, skipper, syndic, executive director",
-    "polish": "amaldar",
+    "polish": "kierownik; dyrektor; menedżer",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4338,7 +4338,7 @@
     "hanzi": "酒店",
     "pinyin": "jiǔdiàn",
     "english": "wineshop, public house",
-    "polish": "winiarnia",
+    "polish": "hotel; restauracja",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4368,7 +4368,7 @@
     "hanzi": "酒",
     "pinyin": "jiǔ",
     "english": "libation, bracer, plonk, wine, tipple, poison, pottle, spirits, creature, vin, cup, drink, hooch, arrack, medicine, alcohol, bottle, hootch, alcoholic drink, rum, bibble, potation, belly-wash, alcoholic beverage, Bacchus, booze, liquor, juice, fortifier, inebriant, lotion, intoxicant",
-    "polish": "libacja",
+    "polish": "alkohol; wino; napój alkoholowy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4413,7 +4413,7 @@
     "hanzi": "举",
     "pinyin": "jǔ",
     "english": "lift, raise, hold up, cite, propose",
-    "polish": "winda",
+    "polish": "podnosić; wznosić; organizować; przytaczać (przykład)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4483,7 +4483,7 @@
     "hanzi": "看法",
     "pinyin": "kànfa",
     "english": "side, view, mentality, idea, outlook, a way of looking at a thing, opinion, thought, sight, standpoint, hypothesis, attitude, hobbyhorse, viewpoint, possibility, theory, slant, pronouncement, way of looking at sth., thinking, supposition, supposal",
-    "polish": "strona",
+    "polish": "pogląd; opinia; punkt widzenia",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4571,7 +4571,7 @@
     "hanzi": "科学",
     "pinyin": "kēxué",
     "english": "ology, scientific, science, scientific knowledge",
-    "polish": "biologia",
+    "polish": "nauka; naukowy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4642,7 +4642,7 @@
     "hanzi": "克",
     "pinyin": "kè",
     "english": "to be able to, to subdue, to restrain, to overcome, gram, variant of 剋|克[ke4], Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God, to scold, to beat",
-    "polish": "móc",
+    "polish": "gram; pokonywać; przezwyciężać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4674,7 +4674,7 @@
     "hanzi": "刻",
     "pinyin": "kè",
     "english": "m.[standard]",
-    "polish": "m.[standardowy]",
+    "polish": "kwadrans; chwila; rzeźbić; grawerować",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -4744,7 +4744,7 @@
     "hanzi": "客人",
     "pinyin": "kèren",
     "english": "stranger, guest, caller, client, visitant, invitee, company, visitor",
-    "polish": "nieznajomy",
+    "polish": "gość; klient",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5098,7 +5098,7 @@
     "hanzi": "凉",
     "pinyin": "liáng",
     "english": "cool, cold, discouraged, disappointed",
-    "polish": "Fajny",
+    "polish": "chłodny; chłodno; stygnąć",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5112,7 +5112,7 @@
     "hanzi": "凉快",
     "pinyin": "liángkuai",
     "english": "nice and cold, pleasantly cool",
-    "polish": "miło i zimno",
+    "polish": "przyjemnie chłodny; chłodno",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5126,7 +5126,7 @@
     "hanzi": "辆",
     "pinyin": "liàng",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "klasyfikator pojazdów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5196,7 +5196,7 @@
     "hanzi": "留",
     "pinyin": "liú",
     "english": "continue, stay, keep, leave behind, leave, grow, accept, (let) grow, leave (sth.), let grow, ask ... to stay, take, bide, wear, study in a foreign country, save, reserve, reservation, ask sb. to stay, remain",
-    "polish": "Kontynuować",
+    "polish": "zostawać; pozostawiać; zatrzymywać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5348,7 +5348,7 @@
     "hanzi": "卖",
     "pinyin": "mài",
     "english": "bring, parade, prostitute, make living at, go, sell out, show off, negotiate, exert to the utmost, tout, not spare, deal, betray, make living by, at, sell, make living by/at, betrayal, trade, fetch, market, bring in",
-    "polish": "przynieść",
+    "polish": "sprzedawać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5461,7 +5461,7 @@
     "hanzi": "名",
     "pinyin": "míng",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "imię; nazwa; sławny; klasyfikator osób",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5475,7 +5475,7 @@
     "hanzi": "名单",
     "pinyin": "míngdān",
     "english": "checklist, register, registry, list, roll, listing, roster, name list",
-    "polish": "lista kontrolna",
+    "polish": "lista nazwisk; lista osób",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5489,7 +5489,7 @@
     "hanzi": "满",
     "pinyin": "mǎn",
     "english": "det.: entirely, wholly",
-    "polish": "det.: całkowicie",
+    "polish": "pełny; całkowity; wypełniać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5503,7 +5503,7 @@
     "hanzi": "目的",
     "pinyin": "mùdì",
     "english": "view, pretence, objective, goal, purport, intention, bourn, object, motive, motivation, meaning, aim, end point, hent, target, scope, sense of purpose, errand, purposefulness, sake, function, end, purpose, quaesitum, intent",
-    "polish": "pogląd",
+    "polish": "cel; zamiar; dążenie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5545,7 +5545,7 @@
     "hanzi": "那",
     "pinyin": "nà",
     "english": "det.: that",
-    "polish": "det.: to",
+    "polish": "tamten; tamto",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5602,7 +5602,7 @@
     "hanzi": "明星",
     "pinyin": "míngxīng",
     "english": "headliner, lucida, (movie/etc.) star, impersonator, (movie, famous performer, stardom, Venus, star, etc.) star, movie_star",
-    "polish": "headliner",
+    "polish": "gwiazda; celebryta; znana osobistość",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5633,7 +5633,7 @@
     "hanzi": "南方",
     "pinyin": "nánfāng",
     "english": "S, due south, the southern part of the country, South, south, southern part of country, the South, southern",
-    "polish": "S",
+    "polish": "południe; południowa część kraju",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5884,7 +5884,7 @@
     "hanzi": "碰",
     "pinyin": "pèng",
     "english": "explore, stub, paw, encounter, knock against, partake, run into, take one's chance, knock, disturb, touch, meet, bump",
-    "polish": "badać",
+    "polish": "dotknąć; zderzyć się; natknąć się; spotkać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5900,7 +5900,7 @@
     "hanzi": "爬",
     "pinyin": "pá",
     "english": "swarm, creep, shin, grabble, crawl, climb, go up, trail, climb up, mount, clamber, scramble",
-    "polish": "rój",
+    "polish": "wspinać się; pełzać; wdrapywać się",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5947,7 +5947,7 @@
     "hanzi": "篇",
     "pinyin": "piān",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "artykuł; utwór; klasyfikator tekstów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -5961,7 +5961,7 @@
     "hanzi": "片",
     "pinyin": "piàn",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "kawałek; plaster; płatek; klasyfikator płaskich przedmiotów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6216,7 +6216,7 @@
     "hanzi": "千",
     "pinyin": "qiān",
     "english": "det.: thousand",
-    "polish": "det.: tys",
+    "polish": "tysiąc",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6258,7 +6258,7 @@
     "hanzi": "前年",
     "pinyin": "qiánnián",
     "english": "the year before last",
-    "polish": "rok wcześniej",
+    "polish": "dwa lata temu; rok przed ubiegłym rokiem",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6302,7 +6302,7 @@
     "hanzi": "轻",
     "pinyin": "qīng",
     "english": "light, agile, alert, easy, simple, rash, reckless, unimportant, frivolous, slight, neglect",
-    "polish": "światło",
+    "polish": "lekki; delikatny; nieznaczny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6407,7 +6407,7 @@
     "hanzi": "球场",
     "pinyin": "qiúchǎng",
     "english": "playing_field, gridiron, court, ball field, field, pitch, course, park, ballpark",
-    "polish": "pole_grania",
+    "polish": "boisko; kort; stadion",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6436,7 +6436,7 @@
     "hanzi": "球队",
     "pinyin": "qiúduì",
     "english": "side, team, ball game team",
-    "polish": "strona",
+    "polish": "drużyna sportowa",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6451,7 +6451,7 @@
     "hanzi": "取",
     "pinyin": "qǔ",
     "english": "have, withdraw, choose, assume, take away, adopt, assumption, select, draw_out, withdrawal, obtain, remove, take, fetch, get, aim at, pick_up, sponge, adoption",
-    "polish": "Posiadać",
+    "polish": "brać; zabierać; odbierać; wybierać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6521,7 +6521,7 @@
     "hanzi": "全部",
     "pinyin": "quánbù",
     "english": "lot, aggregate, all, gross, entirety, allness, shebang, caboodle, complete, bunch, sum, total, gamut, entire, det.: all, totality, whole, everything",
-    "polish": "działka",
+    "polish": "całość; cały; wszystko",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6564,7 +6564,7 @@
     "hanzi": "全身",
     "pinyin": "quánshēn",
     "english": "mutton, the whole body, em, whole body, mut",
-    "polish": "baranina",
+    "polish": "całe ciało",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6578,7 +6578,7 @@
     "hanzi": "全体",
     "pinyin": "quántǐ",
     "english": "great, entirety, general, ensemble, altogether, collectivity, entire, totality, whole body, whole, all, pie, crew, be-all, plenary assembly, en_bloc, wholeness, gamut",
-    "polish": "Świetnie",
+    "polish": "wszyscy; ogół; cały",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6679,7 +6679,7 @@
     "hanzi": "然后",
     "pinyin": "ránhòu",
     "english": "therewith, and so, and_then, and then, thereupon, after that, so, then, with that",
-    "polish": "z tym",
+    "polish": "potem; następnie; później",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6693,7 +6693,7 @@
     "hanzi": "认为",
     "pinyin": "rènwéi",
     "english": "find, treat, deem, suppose, look_on, repute, discount, esteem, accredit, feel, account, calculate, estimate, take to be, reckon, expect, think, hold, trust, recognise, opine, sound off, adjudge, consideration, consider, regard as, look upon, believe_in, disbelieve, allow, conceive, regard, call, imagine, view, forecast, believe, suspect, rate, animadvert, look on, listen, speak up, figure, c",
-    "polish": "znajdować",
+    "polish": "uważać; sądzić; być zdania",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6712,7 +6712,7 @@
     "hanzi": "日子",
     "pinyin": "rìzi",
     "english": "yom, day, a particular day, livelihood, life, date, days, time",
-    "polish": "jom",
+    "polish": "dzień; data; życie; codzienność",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6740,7 +6740,7 @@
     "hanzi": "入口",
     "pinyin": "rù kǒu",
     "english": "adit, window, gateway, propylaeum, entranceway, entree, entrance, portal, in door, threshold, inlet, approach, door, entry, entering, access, entryway, intake, ingress",
-    "polish": "sztolnia",
+    "polish": "wejście; import; wchodzić do ust",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6829,7 +6829,7 @@
     "hanzi": "少年",
     "pinyin": "shàonián",
     "english": "nipper, covey, early youth (10-16), juvenility, adolescent, youngster, teens, gossoon, boy, boy or girl of early youth, spalpeen, juvenile, callan, callant, shaver, lad, laddie, juvenile person, teenager, stripling, young boy, early youth, younker",
-    "polish": "ulicznik",
+    "polish": "nastolatek; młody człowiek; młodzież",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -6979,7 +6979,7 @@
     "hanzi": "省",
     "pinyin": "shěng",
     "english": "to save, to economize, to do without, to omit, to leave out, province, CL:個|个[ge4], to inspect, to examine, to be aware, to pay a visit (to one's parents or elders)",
-    "polish": "zapisać",
+    "polish": "oszczędzać; pomijać; prowincja",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7084,7 +7084,7 @@
     "hanzi": "事情",
     "pinyin": "shìqing",
     "english": "proposition, pie, shebang, thing, affair, occasions, undertaking, concern, question, business, schmear, matter",
-    "polish": "propozycja",
+    "polish": "sprawa; rzecz; zdarzenie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7101,7 +7101,7 @@
     "hanzi": "收到",
     "pinyin": "shōu dào",
     "english": "hear, find, achievement, receive, receipt, obtain, achieve, incur, get, come_to",
-    "polish": "słyszeć",
+    "polish": "otrzymać; odebrać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7117,7 +7117,7 @@
     "hanzi": "收入",
     "pinyin": "shōurù",
     "english": "earning, incoming, gainings, finance, ingathering, proceed, receipts, income, coming-in, taking, pocket, earnings, fruit, revenue, proceeds, living",
-    "polish": "zarobkowy",
+    "polish": "dochód; przychód; zarobki",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7147,7 +7147,7 @@
     "hanzi": "受到",
     "pinyin": "shòudào",
     "english": "experience, receive, come in for, suffer, undergo, come_in_for, be given, come_to, be subjected to",
-    "polish": "doświadczenie",
+    "polish": "otrzymywać; doznawać; podlegać",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7204,7 +7204,7 @@
     "hanzi": "数字",
     "pinyin": "shùzì",
     "english": "numeral, numerical, digit, amount, number, numeric, figure, digital, quantity",
-    "polish": "liczbowy",
+    "polish": "cyfra; liczba; liczbowy; cyfrowy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7287,9 +7287,9 @@
   },
   {
     "hanzi": "数",
-    "pinyin": "shù",
-    "english": "det.: several",
-    "polish": "det.: kilka",
+    "pinyin": "shǔ",
+    "english": "to count; to count as; to regard as; to enumerate",
+    "polish": "liczyć; wyliczać; uważać za",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7404,7 +7404,7 @@
     "hanzi": "它",
     "pinyin": "tā",
     "english": "they (neologism for {1ta1}[3] [4]), [4]), ), this, that, it",
-    "polish": "oni (neologizm dla {1ta1}[3] [4])",
+    "polish": "ono; on; ona (o rzeczach lub zwierzętach)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7418,7 +7418,7 @@
     "hanzi": "它们",
     "pinyin": "tāmen",
     "english": "they, they (non-human)",
-    "polish": "Oni",
+    "polish": "one; oni (o rzeczach lub zwierzętach)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7482,7 +7482,7 @@
     "hanzi": "态度",
     "pinyin": "tàidu",
     "english": "stance, treatment, demeanor, dealing, deportment, pose, behavior, manner, demeanour, way, bearing, attitude, air, behaviour, front, mien, conduct, mental attitude, approach, posture, address, position, bedside_manner, movement, gesture, comportment, presence, sort",
-    "polish": "pozycja sportowa",
+    "polish": "postawa; nastawienie; podejście",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7499,7 +7499,7 @@
     "hanzi": "套",
     "pinyin": "tào",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "komplet; zestaw; pokrowiec; nakładać; klasyfikator kompletów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7614,7 +7614,7 @@
     "hanzi": "体育",
     "pinyin": "tǐyù",
     "english": "training, physical education, athletics, sports, gymnastic, physical_education, physical training, physical culture, physical education/training, gym",
-    "polish": "szkolenie",
+    "polish": "sport; wychowanie fizyczne",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7631,7 +7631,7 @@
     "hanzi": "题",
     "pinyin": "tí",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "temat; pytanie; zadanie; tytuł",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7687,7 +7687,7 @@
     "hanzi": "条",
     "pinyin": "tiáo",
     "english": "bar, item, short note, a long narrow piece, streak, clause, stripe, sth. long and narrow, filet, m.[general], , article, strip, assize, twig, ingot, slip",
-    "polish": "bar",
+    "polish": "pasek; artykuł; punkt; klasyfikator długich, wąskich przedmiotów",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7701,7 +7701,7 @@
     "hanzi": "条件",
     "pinyin": "tiáojiàn",
     "english": "mood, formula, conditional, precondition, prerequisite, requisition, factor, qualification, requirement, stipulation, proviso, circumstances, provision, term, reservation, if, condition",
-    "polish": "nastrój",
+    "polish": "warunek; okoliczności; wymaganie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7791,7 +7791,7 @@
     "hanzi": "停车场",
     "pinyin": "tíngchēchǎng",
     "english": "parking_lot, parking area, parking, car_park, parking lot, car park, halt, yard, park",
-    "polish": "parking_lot",
+    "polish": "parking",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7806,7 +7806,7 @@
     "hanzi": "通",
     "pinyin": "tōng",
     "english": "m.[event]",
-    "polish": "m.[wydarzenie]",
+    "polish": "przechodzić przez; łączyć; komunikować się; znać się na",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7876,7 +7876,7 @@
     "hanzi": "同事",
     "pinyin": "tóngshì",
     "english": "brother, coadjutor, workmate, friend, yokefellow, co-worker, fellow worker, confrere, colleague, stablemate, companion, crew, workfellow, staff, socius, coworker, bedfellow, fellow, haver, rival, comrade",
-    "polish": "brat",
+    "polish": "współpracownik; kolega lub koleżanka z pracy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7981,7 +7981,7 @@
     "hanzi": "完",
     "pinyin": "wán",
     "english": "exhaust, run_out, wipe_out, run out, pay, complete, completion, finish, be through, be over, use_up, wind up, payment, use up, pay (taxes), end up",
-    "polish": "wydechowy",
+    "polish": "kończyć; skończony; cały; kompletny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -7997,7 +7997,7 @@
     "hanzi": "完成",
     "pinyin": "wán chéng",
     "english": "fill in, finish out, fulfil, practice, complete, finish, encompass, clear_up, top_off, cleave, top off, accomplishment, make out, effect, perfective, fulfill, go through, exercise, discharge, fill out, completion, end, run, bring ... to fruition, round_out, achieve, execute, round out, make, cap off, accomplish, practise, follow through, come, finalize, fulfilment, dispatch, bring ...",
-    "polish": "wpisać",
+    "polish": "ukończyć; wykonać; zrealizować",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8029,7 +8029,7 @@
     "hanzi": "外卖",
     "pinyin": "wàimài",
     "english": "to go, take out (relates to food bought at a restaurant)",
-    "polish": "iść",
+    "polish": "jedzenie na wynos; jedzenie z dostawą",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8265,7 +8265,7 @@
     "hanzi": "喂",
     "pinyin": "wèi",
     "english": "hello, hey",
-    "polish": "Witam",
+    "polish": "halo; hej; karmić (wèi)",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8279,7 +8279,7 @@
     "hanzi": "闻",
     "pinyin": "wén",
     "english": "smell",
-    "polish": "zapach",
+    "polish": "słyszeć; wąchać; wieść; wiadomość",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8368,7 +8368,7 @@
     "hanzi": "温度",
     "pinyin": "wēndù",
     "english": "barothermohygrograph, temperature, barothermohygrogram",
-    "polish": "barotermohigrograf",
+    "polish": "temperatura",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8615,7 +8615,7 @@
     "hanzi": "向",
     "pinyin": "xiàng",
     "english": "to, towards",
-    "polish": "Do",
+    "polish": "ku; w kierunku; do; wobec",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8629,7 +8629,7 @@
     "hanzi": "相机",
     "pinyin": "xiàngjī",
     "english": "camera",
-    "polish": "kamera",
+    "polish": "aparat fotograficzny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8758,7 +8758,7 @@
     "hanzi": "校园",
     "pinyin": "xiàoyuán",
     "english": "schoolyard, campus",
-    "polish": "boisko szkolne",
+    "polish": "teren szkoły; kampus",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8772,7 +8772,7 @@
     "hanzi": "校长",
     "pinyin": "xiàozhǎng",
     "english": "prexy, head, principal, headteacher, schoolmaster, master, warden, president, beak, rector, superintendent, director, head teacher, preceptor, headmaster, chancellor, school principal",
-    "polish": "prexy",
+    "polish": "dyrektor szkoły; rektor",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8817,7 +8817,7 @@
     "hanzi": "心里",
     "pinyin": "xīnli",
     "english": "chest, heart, mind",
-    "polish": "klatka piersiowa",
+    "polish": "w sercu; w myślach; w duszy",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8832,7 +8832,7 @@
     "hanzi": "心情",
     "pinyin": "xīnqíng",
     "english": "cognitive state, cue, frame of mind, form, stomach, pulse, humor, feeling, temper, state of mind, cheer, humour, frame/state of mind, mood, vein, spirit, feelings, frame, frame_of_mind, habit of mind, mind, tune",
-    "polish": "stan poznawczy",
+    "polish": "nastrój; samopoczucie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8903,7 +8903,7 @@
     "hanzi": "信号",
     "pinyin": "xìnhào",
     "english": "sign, cue, beacon, code, beacon fire, messenger, signal, semaphore, signaling, waft",
-    "polish": "podpisać",
+    "polish": "sygnał",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8932,7 +8932,7 @@
     "hanzi": "信用卡",
     "pinyin": "xìnyòngkǎ",
     "english": "charge plate, charge card, credit card, credit_card, charge_card, bank card",
-    "polish": "płyta ładująca",
+    "polish": "karta kredytowa",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -8991,7 +8991,7 @@
     "hanzi": "行人",
     "pinyin": "xíngrén",
     "english": "foot traffic, passerby, goer, pedestrian, pedestrian traffic, passenger",
-    "polish": "ruch pieszy",
+    "polish": "pieszy; przechodzień",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9006,7 +9006,7 @@
     "hanzi": "姓",
     "pinyin": "xìng",
     "english": "name",
-    "polish": "nazwa",
+    "polish": "nazwisko; nosić nazwisko",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9020,7 +9020,7 @@
     "hanzi": "行为",
     "pinyin": "xíngwéi",
     "english": "fact, demeanor, form, deportment, dealing, behavior, doings, course, act, point, goings-on, demeanour, procedure, lapse, going, bearing, turn, behaviour, activity, ongoing, thing, human action, conduct, commitment, human activity, behavioral, agency, deed, comportment, action",
-    "polish": "fakt",
+    "polish": "zachowanie; postępowanie; działanie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9078,7 +9078,7 @@
     "hanzi": "许多",
     "pinyin": "xǔduō",
     "english": "lot, scores, lots, sight, pot, heap, quantity, plenty, slews, ton, battalion, many, scads, tidy sum, power, spate, chunk, pile, crowd, vastness, batch, lashings, whole lot, mint, mound, pocketful, large number, trunkful, ream, mickle, great deal, flock, mass, slew, heaps, a lot of, piles, whole slew, mess, raff, slue, gobs, much, lotta, multitude, volume, wad, store, raft, tons, satiety, rafts, doze",
-    "polish": "działka",
+    "polish": "wiele; dużo; liczni",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9184,7 +9184,7 @@
     "hanzi": "样子",
     "pinyin": "yàngzi",
     "english": "tendency, pattern, form, manner, likelihood, way, resemblance, semblance, sample, guise, fashion, wise, model, air, mien, appearance, shape, suggestion, gesture, sort",
-    "polish": "tendencja",
+    "polish": "wygląd; postać; sposób; wzór",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9227,7 +9227,7 @@
     "hanzi": "药",
     "pinyin": "yào",
     "english": "healer, medicine, certain chemicals, drug, medicament, medicinal drug, aspirin, medication, remedy, physic",
-    "polish": "uzdrowiciel",
+    "polish": "lek; lekarstwo",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9397,7 +9397,7 @@
     "hanzi": "以前",
     "pinyin": "yǐqián",
     "english": "langsyne, ago, in the past, formerly, prevenient, before, previously",
-    "polish": "Langsyne",
+    "polish": "wcześniej; dawniej; przed",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9599,7 +9599,7 @@
     "hanzi": "意见",
     "pinyin": "yìjian",
     "english": "latitude, point_of_view, estimation, sight, conceit, verdict, hypothesis, attitude, estimate, possibility, judgement, appraisal, ground, slant, differing opinion, ruling, complaint, thinking, suggestion, comment, advisement, mind, apprehension, say, vote, impression, deliverance, view, understanding, feeling, idea, notion, sentiment, judgment, advice, current, opinion, advert, theory, v",
-    "polish": "szerokość",
+    "polish": "opinia; zdanie; sugestia; zastrzeżenie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9818,7 +9818,7 @@
     "hanzi": "永远",
     "pinyin": "yǒngyuǎn",
     "english": "e'er, always, for_good, evermore, ever, forever",
-    "polish": "eee",
+    "polish": "zawsze; na zawsze; wiecznie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -9975,7 +9975,7 @@
     "hanzi": "鱼",
     "pinyin": "yú",
     "english": "paella, variegated carp, gudgeon, bighead, Yu, Surname, Argonaut, salmon, fish, catfish",
-    "polish": "paella",
+    "polish": "ryba",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10026,7 +10026,7 @@
     "hanzi": "愿意",
     "pinyin": "yuànyi",
     "english": "will, be willing, please, wish, like, care",
-    "polish": "będzie",
+    "polish": "chcieć; być gotowym; zgadzać się",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10098,7 +10098,7 @@
     "hanzi": "运动",
     "pinyin": "yùndong",
     "english": "sports, athletics, exercise, movement, campaign",
-    "polish": "lekkoatletyka",
+    "polish": "sport; ćwiczenia; ruch; uprawiać sport",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10183,7 +10183,7 @@
     "hanzi": "早餐",
     "pinyin": "zǎocān",
     "english": "breaker, petit dejeuner, brekker, dejeuner, breakfast, morning tea",
-    "polish": "przerywacz",
+    "polish": "śniadanie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10258,7 +10258,7 @@
     "hanzi": "怎样",
     "pinyin": "zěnyàng",
     "english": "no matter how, in any way, in a certain way, how?, what, how",
-    "polish": "nieważne jak",
+    "polish": "jak; w jaki sposób",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10461,7 +10461,7 @@
     "hanzi": "这样",
     "pinyin": "zhèyàng",
     "english": "so, such, like this, this way",
-    "polish": "Więc",
+    "polish": "tak; w ten sposób; taki",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10644,7 +10644,7 @@
     "hanzi": "中医",
     "pinyin": "zhōngyī",
     "english": "trad. Ch. medicine, doctor of trad. Ch. medicine",
-    "polish": "handel. Ch. medycyna",
+    "polish": "tradycyjna medycyna chińska; lekarz medycyny chińskiej",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10673,7 +10673,7 @@
     "hanzi": "周",
     "pinyin": "zhōu",
     "english": "Surname",
-    "polish": "Nazwisko",
+    "polish": "tydzień; wokół; obieg; dynastia Zhou; nazwisko Zhou",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10715,7 +10715,7 @@
     "hanzi": "重点",
     "pinyin": "zhòngdiǎn",
     "english": "taproot, accent, emphasis, focal point, point, keystone, hinge, salient point, stress, gravity",
-    "polish": "macica",
+    "polish": "główny punkt; sedno; priorytet",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10773,7 +10773,7 @@
     "hanzi": "自己",
     "pinyin": "zìjǐ",
     "english": "lonesome, number_one, own, ego, self, oneself, name",
-    "polish": "samotny",
+    "polish": "sam; siebie; własny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10830,7 +10830,7 @@
     "hanzi": "自由",
     "pinyin": "zìyóu",
     "english": "free, unrestrained",
-    "polish": "bezpłatny",
+    "polish": "wolność; swoboda; wolny",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10901,7 +10901,7 @@
     "hanzi": "组",
     "pinyin": "zǔ",
     "english": "m.[general]",
-    "polish": "m.[ogólnie]",
+    "polish": "grupa; zespół; zestaw; organizować",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -10930,7 +10930,7 @@
     "hanzi": "组成",
     "pinyin": "zǔ chéng",
     "english": "form, make up (into), compose",
-    "polish": "formularz",
+    "polish": "tworzyć; składać się na; stanowić",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -11008,7 +11008,7 @@
     "hanzi": "作家",
     "pinyin": "zuòjiā",
     "english": "penster, scribe, ink-slinger, pen, inkslinger, writer, wright, novelist, litterateur, literator, tragedian, composer, author, penman, biobibliography, bookman",
-    "polish": "penster",
+    "polish": "pisarz; pisarka; autor",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -11051,7 +11051,7 @@
     "hanzi": "座",
     "pinyin": "zuò",
     "english": "fare, stand, base, constellation, footstall, pedestal, m.[general], , customer, Aquarius, seating, plinth, place, seat",
-    "polish": "opłata za przejazd",
+    "polish": "miejsce siedzące; podstawa; klasyfikator budynków i gór",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -11070,7 +11070,7 @@
     "hanzi": "座位",
     "pinyin": "zuòwei",
     "english": "seat, CL:個|个[ge4]",
-    "polish": "siedziba",
+    "polish": "miejsce siedzące; siedzenie",
     "level": "HSK-2",
     "notes": "",
     "tags": [
@@ -11130,7 +11130,7 @@
     "hanzi": "做饭",
     "pinyin": "zuò fàn",
     "english": "do the cooking, prepare a meal, prepare meal",
-    "polish": "zajmij się gotowaniem",
+    "polish": "gotować; przygotowywać posiłek",
     "level": "HSK-2",
     "notes": "",
     "tags": [

@@ -1,6 +1,74 @@
 {
   "lessons": [
     {
+      "id": "zh-clause-connectors",
+      "title": {"pl": "Łączenie zdań: przyczyna, kontrast i warunek", "zhHans": "复句：原因、转折与条件", "zhHant": "複句：原因、轉折與條件"},
+      "summary": {"pl": "Buduj wypowiedź z 因为……所以……, 虽然……但是…… i 如果……就…… bez kopiowania polskiego szyku.", "zhHans": "用因为……所以……、虽然……但是……和如果……就……组织表达，注意汉语语序。", "zhHant": "用因為……所以……、雖然……但是……和如果……就……組織表達，注意漢語語序。"},
+      "sections": [
+        {
+          "heading": {"pl": "因为……所以……: przyczyna i skutek", "zhHans": "因为……所以……：原因与结果", "zhHant": "因為……所以……：原因與結果"},
+          "explanation": {"pl": "因为 wprowadza przyczynę, a 所以 skutek. W chińskim para jest naturalna, choć po polsku zwykle nie łączymy „ponieważ” i „dlatego” w jednym takim zdaniu. Z kontekstem można pominąć jeden z łączników. Gdy podmioty są różne, 因为 często stoi przed podmiotem swojej części.", "zhHans": "因为引出原因，所以引出结果。汉语中两者搭配很自然，而波兰语通常不会在同一句中这样同时使用 ponieważ 和 dlatego。语境清楚时可省略其中一个关联词。两分句主语不同时，因为常放在其分句主语之前。", "zhHant": "因為引出原因，所以引出結果。漢語中兩者搭配很自然，而波蘭語通常不會在同一句中這樣同時使用 ponieważ 和 dlatego。語境清楚時可省略其中一個關聯詞。兩分句主語不同時，因為常放在其分句主語之前。"},
+          "examples": [
+            {"pl": "Ponieważ pada, nie wychodzimy.", "zhHans": "因为下雨，所以我们不出门。", "zhHant": "因為下雨，所以我們不出門。", "pinyin": "Yīnwèi xià yǔ, suǒyǐ wǒmen bù chūmén."},
+            {"pl": "Dziś nie ma zajęć, więc idę do biblioteki.", "zhHans": "今天没有课，所以我去图书馆。", "zhHant": "今天沒有課，所以我去圖書館。", "pinyin": "Jīntiān méiyǒu kè, suǒyǐ wǒ qù túshūguǎn."}
+          ],
+          "note": {"pl": "„所以” opisuje skutek, nie cel. Cel „żeby” można wyrazić np. przez 为了, zależnie od konstrukcji.", "zhHans": "所以表示结果，不表示目的。波兰语 żeby 表目的时，可根据结构用为了等表达。", "zhHant": "所以表示結果，不表示目的。波蘭語 żeby 表目的時，可根據結構用為了等表達。"}
+        },
+        {
+          "heading": {"pl": "虽然……但是……: mimo przeciwności", "zhHans": "虽然……但是……：让步与转折", "zhHant": "雖然……但是……：讓步與轉折"},
+          "explanation": {"pl": "虽然 uznaje fakt, a 但是 wprowadza wynik niezgodny z oczekiwaniem. Przy wspólnym podmiocie można postawić go przed 虽然. W drugiej części zwykle go nie powtarzamy. Nie dodawaj 是 przed przymiotnikiem tylko dlatego, że po polsku występuje „jest”.", "zhHans": "虽然承认一个事实，但是引出与预期不同的情况。两分句主语相同时，可把主语放在虽然之前，第二分句通常不再重复。形容词作谓语时，不要因为波兰语有 jest 就加是。", "zhHant": "雖然承認一個事實，但是引出與預期不同的情況。兩分句主語相同時，可把主語放在雖然之前，第二分句通常不再重複。形容詞作謂語時，不要因為波蘭語有 jest 就加是。"},
+          "examples": [
+            {"pl": "Chociaż jest bardzo zajęta, codziennie uczy się chińskiego.", "zhHans": "她虽然很忙，但是每天都学中文。", "zhHant": "她雖然很忙，但是每天都學中文。", "pinyin": "Tā suīrán hěn máng, dànshì měitiān dōu xué Zhōngwén."},
+            {"pl": "Choć ta książka jest droga, jest bardzo przydatna.", "zhHans": "这本书虽然很贵，但是很有用。", "zhHant": "這本書雖然很貴，但是很有用。", "pinyin": "Zhè běn shū suīrán hěn guì, dànshì hěn yǒuyòng."}
+          ],
+          "note": {"pl": "但是 można zastąpić przez 但 lub 可是. W krótkim ćwiczeniu wpisuj wskazany łącznik; naturalna parafraza nie zawsze jest odpowiedzią na polecenie.", "zhHans": "但是可换成但或可是。短答练习要求指定关联词时，请按题目作答；自然的改写不一定符合题目要求。", "zhHant": "但是可換成但或可是。短答練習要求指定關聯詞時，請按題目作答；自然的改寫不一定符合題目要求。"}
+        },
+        {
+          "heading": {"pl": "如果……就……: warunek", "zhHans": "如果……就……：条件", "zhHant": "如果……就……：條件"},
+          "explanation": {"pl": "如果 wprowadza założenie, a 就 skutek pod tym warunkiem. 就 stoi po podmiocie i przed orzeczeniem drugiej części. Chiński nie odmienia czasownika jak polski tryb przypuszczający; realność i czas warunku wynikają z kontekstu i dodatkowych wyrażeń.", "zhHans": "如果提出假设，就引出该条件下的结果。就放在第二分句的主语后、谓语前。汉语动词没有波兰语假设语气那样的词形变化；条件的现实性和时间靠语境及其他表达说明。", "zhHant": "如果提出假設，就引出該條件下的結果。就放在第二分句的主語後、謂語前。漢語動詞沒有波蘭語假設語氣那樣的詞形變化；條件的現實性和時間靠語境及其他表達說明。"},
+          "examples": [
+            {"pl": "Jeśli jutro będziesz mieć czas, pójdziemy razem do muzeum.", "zhHans": "如果你明天有时间，我们就一起去博物馆。", "zhHant": "如果你明天有時間，我們就一起去博物館。", "pinyin": "Rúguǒ nǐ míngtiān yǒu shíjiān, wǒmen jiù yìqǐ qù bówùguǎn."},
+            {"pl": "Jeśli nie rozumiesz, zapytaj nauczyciela.", "zhHans": "如果你不懂，就问老师。", "zhHant": "如果你不懂，就問老師。", "pinyin": "Rúguǒ nǐ bù dǒng, jiù wèn lǎoshī."}
+          ],
+          "note": {"pl": "就 nie znaczy zawsze „wtedy”: w innych kontekstach może wyrażać np. wczesną porę lub ograniczenie. Interpretuj całą konstrukcję.", "zhHans": "就并非总是“那么”的意思；其他语境中还可表示时间早或范围限定等，要理解整个结构。", "zhHant": "就並非總是「那麼」的意思；其他語境中還可表示時間早或範圍限定等，要理解整個結構。"}
+        }
+      ]
+    },
+    {
+      "id": "zh-time-sequence-and-scope",
+      "title": {"pl": "Kolejność zdarzeń i zakres przeczenia", "zhHans": "事件顺序与否定范围", "zhHant": "事件順序與否定範圍"},
+      "summary": {"pl": "Rozróżnij 以后 i 以前, 先……再…… oraz 不都 i 都不; nie traktuj 了 jako czasu przeszłego.", "zhHans": "区分以后与以前、先……再……以及不都与都不；不要把了等同于过去时。", "zhHant": "區分以後與以前、先……再……以及不都與都不；不要把了等同於過去式。"},
+      "sections": [
+        {
+          "heading": {"pl": "以前 i 以后 po wyrażeniu zdarzenia", "zhHans": "以前和以后放在事件之后", "zhHant": "以前和以後放在事件之後"},
+          "explanation": {"pl": "Wyrażenie czasu budujemy w kolejności „zdarzenie + 以前 / 以后”: 上课以前 — przed zajęciami, 下课以后 — po zajęciach. Cała fraza zwykle stoi przed orzeczeniem głównym. Nie kopiuj polskiej kolejności „przed + rzeczownik”.", "zhHans": "时间短语按“事件 + 以前／以后”排列：上课以前表示上课之前，下课以后表示下课之后。整个短语通常放在主句谓语之前，不要照搬波兰语“przed + 名词”的顺序。", "zhHant": "時間片語按「事件 + 以前／以後」排列：上課以前表示上課之前，下課以後表示下課之後。整個片語通常放在主句謂語之前，不要照搬波蘭語「przed + 名詞」的順序。"},
+          "examples": [
+            {"pl": "Przed jedzeniem umyj ręce.", "zhHans": "吃饭以前要洗手。", "zhHant": "吃飯以前要洗手。", "pinyin": "Chī fàn yǐqián yào xǐ shǒu."},
+            {"pl": "Po zajęciach pójdę do biblioteki.", "zhHans": "下课以后，我去图书馆。", "zhHant": "下課以後，我去圖書館。", "pinyin": "Xià kè yǐhòu, wǒ qù túshūguǎn."}
+          ],
+          "note": {"pl": "以前 i 以后 mogą też występować samodzielnie w znaczeniu „dawniej” i „później / w przyszłości”; odniesienie ustala kontekst.", "zhHans": "以前和以后也可单独使用，表示过去或之后／将来，具体参照点由语境决定。", "zhHant": "以前和以後也可單獨使用，表示過去或之後／將來，具體參照點由語境決定。"}
+        },
+        {
+          "heading": {"pl": "先……再…… oraz przyszłe V了以后", "zhHans": "先……再……与将来的 V了以后", "zhHant": "先……再……與將來的 V了以後"},
+          "explanation": {"pl": "先……再…… porządkuje czynności: najpierw A, potem B. 再 przed czasownikiem oznacza tu następny krok, nie zdarzenie, które już się powtórzyło. W „吃了饭以后再走” partykuła 了 zaznacza zakończenie jedzenia przed wyjściem; całe zdanie może dotyczyć przyszłości.", "zhHans": "先……再……安排动作顺序：先做 A，再做 B。再放在动词前，这里表示下一步，而不是已经重复发生的动作。在“吃了饭以后再走”中，了表示吃饭先于离开完成，整句可以指将来。", "zhHant": "先……再……安排動作順序：先做 A，再做 B。再放在動詞前，這裡表示下一步，而不是已經重複發生的動作。在「吃了飯以後再走」中，了表示吃飯先於離開完成，整句可以指將來。"},
+          "examples": [
+            {"pl": "Najpierw przeczytaj pytanie, a potem napisz odpowiedź.", "zhHans": "先看问题，再写答案。", "zhHant": "先看問題，再寫答案。", "pinyin": "Xiān kàn wèntí, zài xiě dá'àn."},
+            {"pl": "Jutro wyjdziemy dopiero po zjedzeniu posiłku.", "zhHans": "明天我们吃了饭以后再走。", "zhHant": "明天我們吃了飯以後再走。", "pinyin": "Míngtiān wǒmen chī le fàn yǐhòu zài zǒu."}
+          ],
+          "note": {"pl": "„了 = przeszłość” prowadzi tu do błędu. Nie każda przyszła czynność potrzebuje też 会 lub 要; wystarcza wyraźny kontekst czasowy.", "zhHans": "把“了”等同于过去时会导致误解。未来动作也并非一律需要会或要，明确的时间语境即可。", "zhHant": "把「了」等同於過去式會導致誤解。未來動作也並非一律需要會或要，明確的時間語境即可。"}
+        },
+        {
+          "heading": {"pl": "不都 a 都不: nie wszyscy czy nikt?", "zhHans": "不都与都不：部分否定与全部否定", "zhHant": "不都與都不：部分否定與全部否定"},
+          "explanation": {"pl": "不都 neguje „wszyscy / wszystkie”: nie każdy spełnia warunek. 都不 obejmuje przeczeniem całą wskazaną grupę: nikt z tej grupy. Kolejność 都 i 不 zmienia zakres przeczenia, mimo że oba zdania zawierają te same słowa.", "zhHans": "不都否定“全部如此”，表示并非每个成员都符合；都不则表示所指群体的每个成员都不符合。虽然两个句子用词相同，但都与不的顺序改变了否定范围。", "zhHant": "不都否定「全部如此」，表示並非每個成員都符合；都不則表示所指群體的每個成員都不符合。雖然兩個句子用詞相同，但都與不的順序改變了否定範圍。"},
+          "examples": [
+            {"pl": "Nie wszyscy mówią po chińsku.", "zhHans": "他们不都会说中文。", "zhHant": "他們不都會說中文。", "pinyin": "Tāmen bù dōu huì shuō Zhōngwén."},
+            {"pl": "Żaden z nich nie mówi po chińsku.", "zhHans": "他们都不会说中文。", "zhHant": "他們都不會說中文。", "pinyin": "Tāmen dōu bú huì shuō Zhōngwén."}
+          ],
+          "note": {"pl": "Polskie „nie wszyscy” nie znaczy „nikt”. W tłumaczeniu zachowaj zakres przeczenia, nie tylko poszczególne słowa.", "zhHans": "波兰语 nie wszyscy（并非所有人）不等于 nikt（没有人）。翻译时应保留否定范围，而非只对应单词。", "zhHant": "波蘭語 nie wszyscy（並非所有人）不等於 nikt（沒有人）。翻譯時應保留否定範圍，而非只對應單詞。"}
+        }
+      ]
+    },
+    {
       "id": "zh-word-order-shi-you",
       "title": {
         "pl": "Szyk zdania, 是 i 有",

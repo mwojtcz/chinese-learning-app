@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../screens/home_screen.dart';
+import '../models/app_identity.dart';
 
 class SettingsTab extends StatefulWidget {
   const SettingsTab({super.key});
@@ -71,7 +72,7 @@ class _SettingsTabState extends State<SettingsTab> {
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 8),
-                const Text('ChineseFlow v1.0.1'),
+                const Text(appDisplayName),
                 const SizedBox(height: 4),
                 const Text('Master Chinese with flow'),
                 const SizedBox(height: 4),

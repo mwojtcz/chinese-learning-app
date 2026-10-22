@@ -1,10 +1,10 @@
 {
-    "name": "Cíkǎ · Chinese and Polish",
-    "short_name": "Cíkǎ",
+    "name": "Polski · 中文",
+    "short_name": "Polski · 中文",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F6F2EB",
-    "theme_color": "#B44535",
+    "theme_color": "#182D32",
     "description": "Chinese and Polish flashcards, HSK vocabulary, and grammar guides.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
@@ -12,12 +12,14 @@
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icons/Icon-maskable-192.png",

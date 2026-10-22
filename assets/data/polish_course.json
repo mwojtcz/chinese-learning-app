@@ -56,6 +56,30 @@
           "practice": {"pl": "Uzupełnij: Mieszkam ___ Warszawie. (w / do)", "zhHans": "填空：Mieszkam ___ Warszawie.（w / do，表示住在华沙）", "zhHant": "填空：Mieszkam ___ Warszawie.（w / do，表示住在華沙）"},
           "answer": {"pl": "Mieszkam w Warszawie. Pytanie „gdzie?” wskazuje miejsce pobytu; po „w” używamy miejscownika.", "zhHans": "Mieszkam w Warszawie. „gdzie?”询问所在地点；w 后使用处所格。", "zhHant": "Mieszkam w Warszawie. 「gdzie?」詢問所在地點；w 後使用前置格。"},
           "task": {"pl": "Napisz plan zwykłego dnia i wyjaśnij, jak docierasz do trzech miejsc.", "zhHans": "写出普通一天的安排，并说明如何前往三个地点。", "zhHant": "寫出普通一天的安排，並說明如何前往三個地點。"}
+        },
+        {
+          "title": {"pl": "5. Liczby, ceny i ilości", "zhHans": "5. 数字、价格与数量", "zhHant": "5. 數字、價格與數量"},
+          "outcome": {"pl": "Podajesz ceny i liczysz podstawowe przedmioty, dobierając formę rzeczownika po liczebniku.", "zhHans": "能说价格、数常见物品，并根据数词选择名词形式。", "zhHant": "能說價格、數常見物品，並根據數詞選擇名詞形式。"},
+          "focus": {"pl": "Formy jeden/jedna/jedno; 2–4 + mianownik liczby mnogiej; 5+ + dopełniacz liczby mnogiej; ceny i liczebniki 0–100.", "zhHans": "jeden/jedna/jedno；2–4 后接复数主格；5 以上后接复数属格；价格与 0–100 的数词。", "zhHant": "jeden/jedna/jedno；2–4 後接複數主格；5 以上後接複數屬格；價格與 0–100 的數詞。"},
+          "examples": [
+            {"pl": "Poproszę dwa bilety i pięć jabłek. Ile to kosztuje?", "zhHans": "请给我两张票和五个苹果。多少钱？", "zhHant": "請給我兩張票和五個蘋果。多少錢？"},
+            {"pl": "Te trzy książki kosztują dwadzieścia złotych.", "zhHans": "这三本书一共二十兹罗提。", "zhHant": "這三本書一共二十茲羅提。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Mam trzy ___ i pięć ___ (bilet).", "zhHans": "填空：我有三张票和五张票。（bilet）", "zhHant": "填空：我有三張票和五張票。（bilet）"},
+          "answer": {"pl": "Mam trzy bilety i pięć biletów. Po 2–4 zwykle stoi mianownik liczby mnogiej, a po 5 — dopełniacz liczby mnogiej.", "zhHans": "Mam trzy bilety i pięć biletów。2–4 后通常用复数主格；5 后用复数属格。", "zhHant": "Mam trzy bilety i pięć biletów。2–4 後通常用複數主格；5 後用複數屬格。"},
+          "task": {"pl": "Odegraj zakupy: zapytaj o cenę, kup trzy produkty w różnych ilościach i sprawdź resztę.", "zhHans": "模拟购物：询价，按不同数量购买三种商品，并核对找零。", "zhHant": "模擬購物：詢價，按不同數量購買三種商品，並核對找零。"}
+        },
+        {
+          "title": {"pl": "6. Gdy nie rozumiesz: pytania i uprzejmość", "zhHans": "6. 没听懂时：提问与礼貌", "zhHant": "6. 沒聽懂時：提問與禮貌"},
+          "outcome": {"pl": "Prosisz o powtórzenie, sprawdzasz informację i zwracasz się uprzejmie do nieznajomej osoby.", "zhHans": "能请对方重复、核实信息，并礼貌地称呼陌生人。", "zhHant": "能請對方重複、核實資訊，並禮貌地稱呼陌生人。"},
+          "focus": {"pl": "Czy w pytaniu tak/nie; gdzie i kiedy bez czy; pan/pani + trzecia osoba; proszę + bezokolicznik. Polski nie ma odpowiednika chińskiej partykuły 吗 na końcu każdego pytania.", "zhHans": "是非问句可用句首 czy；gdzie、kiedy 问句不另加 czy；pan/pani 后用第三人称；proszę + 不定式。不要把中文句末“吗”的位置直接搬到波兰语。", "zhHant": "是非問句可用句首 czy；gdzie、kiedy 問句不另加 czy；pan/pani 後用第三人稱；proszę + 不定式。不要把中文句末「嗎」的位置直接搬到波蘭語。"},
+          "examples": [
+            {"pl": "Przepraszam, nie rozumiem. Proszę powtórzyć wolniej.", "zhHans": "对不起，我没听懂。请说慢一点，再说一遍。", "zhHant": "對不起，我沒聽懂。請說慢一點，再說一遍。"},
+            {"pl": "Czy pani mówi po angielsku? Gdzie jest przystanek?", "zhHans": "您会说英语吗？车站在哪里？（对女士）", "zhHant": "您會說英語嗎？車站在哪裡？（對女士）"}
+          ],
+          "practice": {"pl": "Uzupełnij: Czy pan ___ po polsku? (mówić)", "zhHans": "填空：Czy pan ___ po polsku?（mówić，对先生说）", "zhHant": "填空：Czy pan ___ po polsku?（mówić，對先生說）"},
+          "answer": {"pl": "Czy pan mówi po polsku? Po pan używamy trzeciej osoby „mówi”, nie „mówisz”. Można też zapytać z intonacją: „Pan mówi po polsku?”.", "zhHans": "Czy pan mówi po polsku? pan 后用第三人称 mówi，不用 mówisz。也可用升调问 Pan mówi po polsku?。", "zhHant": "Czy pan mówi po polsku? pan 後用第三人稱 mówi，不用 mówisz。也可用升調問 Pan mówi po polsku?。"},
+          "task": {"pl": "Odegraj rozmowę na przystanku: zapytaj o autobus, poproś o powtórzenie i potwierdź numer oraz godzinę.", "zhHans": "模拟在车站的对话：询问公交车，请对方重复，再确认车号与时间。", "zhHant": "模擬在車站的對話：詢問公車，請對方重複，再確認車號與時間。"}
         }
       ]
     },
@@ -115,6 +139,42 @@
           "practice": {"pl": "Uzupełnij: Jutro jedziemy ___ Gdańska. (do / w)", "zhHans": "填空：Jutro jedziemy ___ Gdańska.（do / w，明天去格但斯克）", "zhHant": "填空：Jutro jedziemy ___ Gdańska.（do / w，明天去格但斯克）"},
           "answer": {"pl": "Jutro jedziemy do Gdańska. „Dokąd?” oznacza kierunek; „do” łączy się z dopełniaczem.", "zhHans": "Jutro jedziemy do Gdańska. „dokąd?”询问方向；do 后接属格。", "zhHant": "Jutro jedziemy do Gdańska. 「dokąd?」詢問方向；do 後接屬格。"},
           "task": {"pl": "Zaplanuj trasę, kup bilet i uzasadnij, dlaczego wybierasz tę drogę.", "zhHans": "规划路线、买票，并说明为何选择这条路线。", "zhHant": "規劃路線、買票，並說明為何選擇這條路線。"}
+        },
+        {
+          "title": {"pl": "5. Liczebniki, wiek i zgodność", "zhHans": "5. 数词、年龄与一致关系", "zhHant": "5. 數詞、年齡與一致關係"},
+          "outcome": {"pl": "Mówisz o wieku i większych ilościach, pamiętając o wyjątkach w liczebnikach i rzeczownikach.", "zhHans": "能谈论年龄和较大数量，并掌握数词与名词搭配中的常见例外。", "zhHant": "能談論年齡和較大數量，並掌握數詞與名詞搭配中的常見例外。"},
+          "focus": {"pl": "Liczby 11–19; liczby złożone; 21 lat; 2–4 i 5+; podstawowe formy męskoosobowe.", "zhHans": "11–19；复合数；21 岁的表达；2–4 与 5 以上的模式；阳性人称数词的基础形式。", "zhHant": "11–19；複合數；21 歲的表達；2–4 與 5 以上的模式；陽性人稱數詞的基礎形式。"},
+          "examples": [
+            {"pl": "Mam dwadzieścia jeden lat, a mój brat ma dwadzieścia dwa lata.", "zhHans": "我二十一岁，我哥哥/弟弟二十二岁。", "zhHant": "我二十一歲，我哥哥／弟弟二十二歲。"},
+            {"pl": "W klasie jest dwudziestu dwóch uczniów i trzydzieści książek.", "zhHans": "教室里有二十二名学生和三十本书。", "zhHant": "教室裡有二十二名學生和三十本書。"}
+          ],
+          "practice": {"pl": "Uzupełnij: W bibliotece są dwadzieścia dwa ___ i jedenaście ___. (stół, książka)", "zhHans": "填空：图书馆里有二十二张桌子和十一本书。（stół，książka）", "zhHant": "填空：圖書館裡有二十二張桌子和十一本書。（stół，książka）"},
+          "answer": {"pl": "Dwadzieścia dwa stoły i jedenaście książek. Po 22 używamy mianownika liczby mnogiej; po 11 dopełniacza liczby mnogiej.", "zhHans": "Dwadzieścia dwa stoły i jedenaście książek。22 后用复数主格；11 后用复数属格。", "zhHant": "Dwadzieścia dwa stoły i jedenaście książek。22 後用複數主格；11 後用複數屬格。"},
+          "task": {"pl": "Przeprowadź krótką ankietę: zapytaj pięć osób o wiek i podsumuj wyniki.", "zhHans": "做一个简短调查：询问五个人的年龄并总结结果。", "zhHant": "做一個簡短調查：詢問五個人的年齡並總結結果。"}
+        },
+        {
+          "title": {"pl": "6. Trasa dnia: miejsce, cel i powrót", "zhHans": "6. 日常路线：地点、目的地与返回", "zhHant": "6. 日常路線：地點、目的地與返回"},
+          "outcome": {"pl": "Opisujesz, gdzie jesteś, dokąd idziesz i skąd wracasz; odróżniasz źródło od towarzyszenia.", "zhHans": "能说明所在地点、要去哪里及从哪里返回，并区分来源与陪同。", "zhHant": "能說明所在地點、要去哪裡及從哪裡返回，並區分來源與陪同。"},
+          "focus": {"pl": "Zestawy w szkole / do szkoły / ze szkoły, na poczcie / na pocztę / z poczty, u lekarza / do lekarza / od lekarza; z + dopełniacz lub narzędnik; ruch w obrębie miejsca z miejscownikiem.", "zhHans": "成组学习在／去／从学校、邮局和医生那里；z + 属格表示来源，z + 工具格表示陪同；在某处移动仍可用处所格。", "zhHant": "成組學習在／去／從學校、郵局和醫生那裡；z + 屬格表示來源，z + 工具格表示陪同；在某處移動仍可用前置格。"},
+          "examples": [
+            {"pl": "Rano jestem u lekarza, potem idę na pocztę, a z poczty wracam do domu.", "zhHans": "早上我在医生那里，之后去邮局，再从邮局回家。", "zhHant": "早上我在醫生那裡，之後去郵局，再從郵局回家。"},
+            {"pl": "Wracam z pracy z koleżanką. Po południu biegam w parku.", "zhHans": "我和女同事一起下班回来。下午我在公园跑步。", "zhHant": "我和女同事一起下班回來。下午我在公園跑步。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Idę na ___, wracam z ___ i spotykam się z ___. (poczta, poczta, kolega)", "zhHans": "填空：Idę na ___, wracam z ___ i spotykam się z ___。（poczta、poczta、kolega）", "zhHant": "填空：Idę na ___, wracam z ___ i spotykam się z ___。（poczta、poczta、kolega）"},
+          "answer": {"pl": "Idę na pocztę, wracam z poczty i spotykam się z kolegą. Cel po na ma biernik, źródło po z dopełniacz, a towarzyszenie po z narzędnik.", "zhHans": "Idę na pocztę, wracam z poczty i spotykam się z kolegą。na 表目的地时用宾格；z 表来源时用属格，表陪同时用工具格。", "zhHant": "Idę na pocztę, wracam z poczty i spotykam się z kolegą。na 表目的地時用賓格；z 表來源時用屬格，表陪同時用工具格。"},
+          "task": {"pl": "Opisz trasę z trzema przystankami. Przy każdym podaj miejsce, cel kolejnego przejścia i źródło powrotu; dodaj, z kim idziesz.", "zhHans": "描述有三个停留点的路线，说明每处的位置、下一目的地和返回的起点，再补充同行者。", "zhHant": "描述有三個停留點的路線，說明每處的位置、下一目的地和返回的起點，再補充同行者。"}
+        },
+        {
+          "title": {"pl": "7. Terminy, daty i codzienne dojazdy", "zhHans": "7. 预约、日期与日常交通", "zhHant": "7. 預約、日期與日常交通"},
+          "outcome": {"pl": "Umawiasz wizytę, podajesz datę i odróżniasz jednorazowy przejazd od zwyczaju.", "zhHans": "能预约、说日期，并区分一次乘车与日常出行。", "zhHant": "能預約、說日期，並區分一次乘車與日常出行。"},
+          "focus": {"pl": "Kiedy? drugiego maja; która godzina? ósma; o której? o ósmej; na kiedy? na drugiego maja. Iść/chodzić pieszo, jechać/jeździć środkiem transportu; pojechać jako dokonany wyjazd.", "zhHans": "日期用属格 drugiego maja；报时 ósma，约定时间 o ósmej，预约日期 na drugiego maja。步行用 iść/chodzić，乘车用 jechać/jeździć；pojechać 表示完成体的一次出发。", "zhHant": "日期用屬格 drugiego maja；報時 ósma，約定時間 o ósmej，預約日期 na drugiego maja。步行用 iść/chodzić，乘車用 jechać/jeździć；pojechać 表示完成體的一次出發。"},
+          "examples": [
+            {"pl": "Mam wizytę drugiego maja o ósmej. Proszę przełożyć ją na trzeciego maja.", "zhHans": "我五月二日八点有预约。请改到五月三日。", "zhHant": "我五月二日八點有預約。請改到五月三日。"},
+            {"pl": "Zwykle jeżdżę tramwajem, ale dziś idę pieszo. Jutro pojadę autobusem.", "zhHans": "我通常坐有轨电车，但今天步行。明天我会坐公交车去。", "zhHant": "我通常搭路面電車，但今天步行。明天我會搭公車去。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Wizyta jest ___ (drugi maj) ___ (o + ósma). Codziennie ___ tramwajem. (jechać / jeździć, ja)", "zhHans": "填空：Wizyta jest ___ (drugi maj) ___ (o + ósma)。Codziennie ___ tramwajem。（jechać / jeździć，第一人称单数）", "zhHant": "填空：Wizyta jest ___ (drugi maj) ___ (o + ósma)。Codziennie ___ tramwajem。（jechać / jeździć，第一人稱單數）"},
+          "answer": {"pl": "Wizyta jest drugiego maja o ósmej. Codziennie jeżdżę tramwajem. Data ma dopełniacz, godzina po o miejscownik, a zwyczaj wyraża jeżdżę.", "zhHans": "Wizyta jest drugiego maja o ósmej。Codziennie jeżdżę tramwajem。日期用属格，o 后的时刻用处所格；习惯性乘车用 jeżdżę。", "zhHant": "Wizyta jest drugiego maja o ósmej。Codziennie jeżdżę tramwajem。日期用屬格，o 後的時刻用前置格；習慣性乘車用 jeżdżę。"},
+          "task": {"pl": "Napisz wiadomość o zmianie wizyty: dotychczasowy termin, nowa data i godzina, sposób dojazdu oraz prośba o potwierdzenie.", "zhHans": "写一则改约消息：原定时间、新日期和时刻、交通方式，以及确认请求。", "zhHant": "寫一則改約訊息：原定時間、新日期和時刻、交通方式，以及確認請求。"}
         }
       ]
     },
@@ -170,6 +230,54 @@
           "practice": {"pl": "Uzupełnij: Rozmawiałam z now___ koleżankami. (nowa)", "zhHans": "填空：Rozmawiałam z now___ koleżankami.（nowa，和新同学交谈）", "zhHant": "填空：Rozmawiałam z now___ koleżankami.（nowa，和新同學交談）"},
           "answer": {"pl": "Rozmawiałam z nowymi koleżankami. Przyimek „z” w znaczeniu „razem z” wymaga narzędnika; przymiotnik uzgadnia się z rzeczownikiem.", "zhHans": "Rozmawiałam z nowymi koleżankami. 表示“和……一起”的 z 后接工具格；形容词与名词保持一致。", "zhHant": "Rozmawiałam z nowymi koleżankami. 表示「和……一起」的 z 後接工具格；形容詞與名詞保持一致。"},
           "task": {"pl": "Popraw błędy w dialogu i uzasadnij wybór przypadku przyimkiem lub czasownikiem.", "zhHans": "修改对话中的错误，并用介词或动词解释格的选择。", "zhHant": "修改對話中的錯誤，並用介詞或動詞解釋格的選擇。"}
+        },
+        {
+          "title": {"pl": "5. Aspekt, warunek i uprzejma prośba", "zhHans": "5. 动词体、条件与礼貌请求", "zhHant": "5. 動詞體、條件與禮貌請求"},
+          "outcome": {"pl": "Rozróżniasz trwające tło i zakończony rezultat oraz formułujesz prośby i warunki.", "zhHans": "能区分持续背景与完成结果，并表达请求和条件。", "zhHant": "能區分持續背景與完成結果，並表達請求和條件。"},
+          "focus": {"pl": "Pary aspektowe w narracji; przyszły dokonany i niedokonany; tryb przypuszczający z gdyby; rozkaz i zakaz; zgodność rodzaju.", "zhHans": "叙事中的体对；完成体与未完成体将来时；gdyby 条件句；命令与禁止；性的一致。", "zhHant": "敘事中的體對；完成體與未完成體未來式；gdyby 條件句；命令與禁止；性的搭配。"},
+          "examples": [
+            {"pl": "Kiedy pisałam raport, zadzwonił klient. Wieczorem go dokończę.", "zhHans": "我正在写报告时，客户打来了电话。晚上我会把报告写完。", "zhHant": "我正在寫報告時，客戶打來了電話。晚上我會把報告寫完。"},
+            {"pl": "Czy mógłby pan powtórzyć? Gdybym usłyszała, zapisałabym odpowiedź.", "zhHans": "您能重复一下吗？如果我听到了，我就会把答案记下来。（女性说话者）", "zhHant": "您能重複一下嗎？如果我聽到了，我就會把答案記下來。（女性說話者）"}
+          ],
+          "practice": {"pl": "Uzupełnij warunek: Gdybyśmy mieli czas, ___ muzeum. (odwiedzić)", "zhHans": "填空：如果我们有时间，就会去参观博物馆。（odwiedzić）", "zhHant": "填空：如果我們有時間，就會去參觀博物館。（odwiedzić）"},
+          "answer": {"pl": "Gdybyśmy mieli czas, odwiedzilibyśmy muzeum. „Gdyby” i czasownik w drugiej części zdania tworzą warunek hipotetyczny.", "zhHans": "Gdybyśmy mieli czas, odwiedzilibyśmy muzeum。gdyby 与主句中的虚拟式共同表达假设条件。", "zhHant": "Gdybyśmy mieli czas, odwiedzilibyśmy muzeum。gdyby 與主句中的假設語氣共同表達假設條件。"},
+          "task": {"pl": "Opowiedz o przerwanym planie, zaproponuj plan alternatywny i sformułuj uprzejmą prośbę.", "zhHans": "讲述一个被打断的计划，提出替代安排，并表达一项礼貌请求。", "zhHant": "講述一個被打斷的計畫，提出替代安排，並表達一項禮貌請求。"}
+        },
+        {
+          "title": {"pl": "6. Ile czasu, ile rzeczy, o ile więcej?", "zhHans": "6. 多久、多少、相差多少？", "zhHant": "6. 多久、多少、相差多少？"},
+          "outcome": {"pl": "Odróżniasz czas pracy od czasu osiągnięcia wyniku, odmieniasz grupę liczebnikową i podajesz różnicę w porównaniu.", "zhHans": "能区分工作持续时间与达成结果所需的时间，对数词短语变格，并表达比较差值。", "zhHant": "能區分工作持續時間與達成結果所需的時間，對數詞片語變格，並表達比較差值。"},
+          "focus": {"pl": "Przez godzinę / w godzinę / za godzinę; brak rezultatu po czasowniku dokonanym; półtora i półtorej; z dwiema / dwoma koleżankami; o + biernik jako różnica, od + dopełniacz jako punkt odniesienia.", "zhHans": "przez godzinę／w godzinę／za godzinę；否定完成体表示结果未达成；półtora 与 półtorej；数词的工具格变体 dwiema／dwoma；o + 宾格表示差值，od + 属格引出比较对象。", "zhHant": "przez godzinę／w godzinę／za godzinę；否定完成體表示結果未達成；półtora 與 półtorej；數詞的工具格變體 dwiema／dwoma；o + 賓格表示差值，od + 屬格引出比較對象。"},
+          "examples": [
+            {"pl": "Przez godzinę pisałam raport, ale go nie napisałam. Koleżanka napisała swój w pół godziny.", "zhHans": "我写了一小时报告，却没写完。女同事用半小时写完了她的报告。（女性说话者）", "zhHant": "我寫了一小時報告，卻沒寫完。女同事用半小時寫完了她的報告。（女性說話者）"},
+            {"pl": "Rozmawiałam z dwiema koleżankami przez półtorej godziny. Jedna jest o trzy lata starsza ode mnie.", "zhHans": "我和两位女同事聊了一个半小时。其中一位比我大三岁。（女性说话者）", "zhHant": "我和兩位女同事聊了一個半小時。其中一位比我大三歲。（女性說話者）"}
+          ],
+          "practice": {"pl": "Wybierz poprawne formy: Skończyłam raport (przez / w) godzinę. Czekałam (półtora / półtorej) godziny. Anna jest starsza (o / od) brata.", "zhHans": "选择正确形式：Skończyłam raport (przez / w) godzinę。Czekałam (półtora / półtorej) godziny。Anna jest starsza (o / od) brata。", "zhHant": "選擇正確形式：Skończyłam raport (przez / w) godzinę。Czekałam (półtora / półtorej) godziny。Anna jest starsza (o / od) brata。"},
+          "answer": {"pl": "W godzinę — czas osiągnięcia rezultatu; półtorej godziny — godzina jest żeńska; starsza od brata — od wskazuje punkt odniesienia i wymaga dopełniacza.", "zhHans": "w godzinę 表示完成所需时间；półtorej godziny，因为 godzina 是阴性；starsza od brata，od 引出比较对象并要求属格。", "zhHant": "w godzinę 表示完成所需時間；półtorej godziny，因為 godzina 是陰性；starsza od brata，od 引出比較對象並要求屬格。"},
+          "task": {"pl": "Porównaj dwa sposoby wykonania zadania: czas trwania, osiągnięty rezultat, koszt i różnicę ceny. Użyj jednej odmienionej grupy liczebnikowej.", "zhHans": "比较完成一项任务的两种方法，说明耗时、结果、费用及价格差，并使用一个变格后的数词短语。", "zhHant": "比較完成一項任務的兩種方法，說明耗時、結果、費用及價格差，並使用一個變格後的數詞片語。"}
+        },
+        {
+          "title": {"pl": "7. Dokumenty i reklamacja bez nieporozumień", "zhHans": "7. 办证与投诉：避免误解", "zhHant": "7. 辦證與申訴：避免誤解"},
+          "outcome": {"pl": "Wyjaśniasz problem z dokumentem lub usługą, pytasz o wymagania i formułujesz konkretne żądanie.", "zhHans": "能说明证件或服务问题、询问要求，并提出明确诉求。", "zhHant": "能說明證件或服務問題、詢問要求，並提出明確訴求。"},
+          "focus": {"pl": "Potrzebować + dopełniacz, prosić o + biernik, zależeć na + miejscownik; muszę/nie muszę a nie wolno; swój odnosi się do podmiotu. Negacja nie oznacza automatycznie zakazu.", "zhHans": "potrzebować + 属格，prosić o + 宾格，zależeć na + 处所格；muszę 是必须，nie muszę 是不必，nie wolno 才是禁止；swój 指向主语，不能机械地译成某个固定人称的“自己的”。", "zhHant": "potrzebować + 屬格，prosić o + 賓格，zależeć na + 前置格；muszę 是必須，nie muszę 是不必，nie wolno 才是禁止；swój 指向主語，不能機械地譯成某個固定人稱的「自己的」。"},
+          "examples": [
+            {"pl": "Potrzebuję ważnego dokumentu. Zależy mi na szybkiej odpowiedzi. Proszę o zwrot pieniędzy.", "zhHans": "我需要有效证件。我希望尽快收到答复。请退款。", "zhHant": "我需要有效證件。我希望儘快收到答覆。請退款。"},
+            {"pl": "Nie muszę przynosić kopii, ale muszę pokazać swój paszport. Nie wolno fotografować cudzych dokumentów.", "zhHans": "我不必带复印件，但必须出示自己的护照。禁止拍摄他人的证件。", "zhHant": "我不必帶影本，但必須出示自己的護照。禁止拍攝他人的證件。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Potrzebuję ___ (ważny dokument). Zależy mi na ___ (szybka odpowiedź). Wyjaśnij: „Nie musisz przynosić kopii”.", "zhHans": "填入正确格：Potrzebuję ___ (ważny dokument)。Zależy mi na ___ (szybka odpowiedź)。解释 Nie musisz przynosić kopii。", "zhHant": "填入正確格：Potrzebuję ___ (ważny dokument)。Zależy mi na ___ (szybka odpowiedź)。解釋 Nie musisz przynosić kopii。"},
+          "answer": {"pl": "Potrzebuję ważnego dokumentu. Zależy mi na szybkiej odpowiedzi. „Nie musisz” znosi obowiązek; nie zabrania przyniesienia kopii.", "zhHans": "Potrzebuję ważnego dokumentu。Zależy mi na szybkiej odpowiedzi。nie musisz 表示没有义务，并非不准带复印件。", "zhHant": "Potrzebuję ważnego dokumentu。Zależy mi na szybkiej odpowiedzi。nie musisz 表示沒有義務，並非不准帶影本。"},
+          "task": {"pl": "Napisz reklamację usługi: data, opis usterki, skutek, oczekiwane rozwiązanie i pytanie o termin odpowiedzi. Oddziel fakty od przypuszczeń.", "zhHans": "写一封服务投诉信，包含日期、问题、影响、期望的解决办法和答复期限问题；区分事实与推测。", "zhHant": "寫一封服務申訴信，包含日期、問題、影響、期望的解決辦法和答覆期限問題；區分事實與推測。"}
+        },
+        {
+          "title": {"pl": "8. Kto co powiedział: relacja i zdania względne", "zhHans": "8. 谁说了什么：转述与关系从句", "zhHant": "8. 誰說了什麼：轉述與關係子句"},
+          "outcome": {"pl": "Relacjonujesz wypowiedź i identyfikujesz osobę lub dokument bez niejasnych odwołań.", "zhHans": "能转述话语，并明确指认人物或文件。", "zhHant": "能轉述話語，並明確指認人物或文件。"},
+          "focus": {"pl": "Powiedział, że; zapytał, czy/kiedy; brak obowiązkowego cofania czasu w polskim. Który: rodzaj i liczba od poprzednika, przypadek od funkcji w zdaniu podrzędnym; przyimek stoi przed którym.", "zhHans": "powiedział, że 转述陈述；zapytał, czy/kiedy 转述问题。波兰语没有强制时态后移。który 的性数随先行词，格由从句内部功能决定；介词放在关系代词之前，不照搬中文前置的“……的”。", "zhHant": "powiedział, że 轉述陳述；zapytał, czy/kiedy 轉述問題。波蘭語沒有強制時態後移。który 的性數隨先行詞，格由子句內部功能決定；介詞放在關係代詞之前，不照搬中文前置的「……的」。"},
+          "examples": [
+            {"pl": "Anna powiedziała, że pracuje zdalnie. Zapytałem, czy może przesłać umowę.", "zhHans": "安娜说她在远程工作。我问她能否发送合同。（男性叙述者）", "zhHant": "安娜說她在遠距工作。我問她能否寄送合約。（男性敘述者）"},
+            {"pl": "To lekarka, której wysłałem wyniki, i dokument, o którym rozmawialiśmy.", "zhHans": "这就是我把结果发给的那位女医生，以及我们谈过的那份文件。（男性叙述者）", "zhHant": "這就是我把結果寄給的那位女醫生，以及我們談過的那份文件。（男性敘述者）"}
+          ],
+          "practice": {"pl": "Uzupełnij: To lekarka, ___ wysłałem wyniki. To dokument, o ___ rozmawialiśmy.", "zhHans": "填入 który 的正确形式：To lekarka, ___ wysłałem wyniki。To dokument, o ___ rozmawialiśmy。", "zhHant": "填入 który 的正確形式：To lekarka, ___ wysłałem wyniki。To dokument, o ___ rozmawialiśmy。"},
+          "answer": {"pl": "To lekarka, której wysłałem wyniki. To dokument, o którym rozmawialiśmy. Odbiorca wysyłki wymaga celownika, a o w znaczeniu tematu — miejscownika.", "zhHans": "To lekarka, której wysłałem wyniki。To dokument, o którym rozmawialiśmy。接收者用与格；表示话题的 o 后用处所格。", "zhHant": "To lekarka, której wysłałem wyniki。To dokument, o którym rozmawialiśmy。接收者用與格；表示話題的 o 後用前置格。"},
+          "task": {"pl": "Zrelacjonuj rozmowę z przychodnią: jedną informację, jedno pytanie tak/nie i jedno pytanie o termin. Dodaj zdanie względne identyfikujące dokument.", "zhHans": "转述与诊所的对话：一条信息、一个是非问题和一个时间问题，再用关系从句说明是哪份文件。", "zhHant": "轉述與診所的對話：一條資訊、一個是非問題和一個時間問題，再用關係子句說明是哪份文件。"}
         }
       ]
     },
@@ -225,6 +333,42 @@
           "practice": {"pl": "Uzgodnij orzeczenie: Wyniki badań ___ wcześniejsze wnioski. (potwierdzić, przeszłość)", "zhHans": "选择正确的动词形式：Wyniki badań ___ wcześniejsze wnioski.（potwierdzić，过去时）", "zhHant": "選擇正確的動詞形式：Wyniki badań ___ wcześniejsze wnioski.（potwierdzić，過去式）"},
           "answer": {"pl": "Wyniki badań potwierdziły wcześniejsze wnioski. Podmiot „wyniki” ma liczbę mnogą i rodzaj niemęskoosobowy.", "zhHans": "Wyniki badań potwierdziły wcześniejsze wnioski. 主语 wyniki 是非男性人称复数。", "zhHant": "Wyniki badań potwierdziły wcześniejsze wnioski. 主詞 wyniki 是非男性人稱複數。"},
           "task": {"pl": "Zredaguj tekst z błędami i opisz, dlaczego każda poprawka jest potrzebna.", "zhHans": "编辑一篇含错误的文章，并说明每处修改的理由。", "zhHant": "編輯一篇含錯誤的文章，並說明每處修改的理由。"}
+        },
+        {
+          "title": {"pl": "5. Decyzje: warunek otwarty, hipoteza i cel", "zhHans": "5. 决策：开放条件、假设与目的", "zhHant": "5. 決策：開放條件、假設與目的"},
+          "outcome": {"pl": "Precyzyjnie odróżniasz możliwy plan, niezrealizowaną przeszłość i zamierzony cel przy różnych wykonawcach.", "zhHans": "能准确区分可实现的计划、过去未实现的假设，以及不同主体的目的。", "zhHant": "能準確區分可實現的計畫、過去未實現的假設，以及不同主體的目的。"},
+          "focus": {"pl": "Jeśli + tryb oznajmujący; gdybym + forma na -ł- bez ponownego -bym; kontekst czasowy hipotetycznej przeszłości; żeby + bezokolicznik lub żebyś + forma osobowa.", "zhHans": "jeśli + 陈述式；gdybym + -ł- 形式，不重复 -bym；用时间语境定位过去假设；żeby + 不定式或 żebyś + 人称形式。", "zhHant": "jeśli + 陳述式；gdybym + -ł- 形式，不重複 -bym；用時間語境定位過去假設；żeby + 不定式或 żebyś + 人稱形式。"},
+          "examples": [
+            {"pl": "Jeśli jutro wrócę wcześniej, kupię bilety. Gdybym wczoraj wróciła wcześniej, kupiłabym je taniej.", "zhHans": "如果明天早点回来，我就买票。如果昨天早点回来，就能买得更便宜了。（女性说话者）", "zhHant": "如果明天早點回來，我就買票。如果昨天早點回來，就能買得更便宜了。（女性說話者）"},
+            {"pl": "Zapiszę adres, żeby go nie zapomnieć. Wyślę ci go, żebyś trafiła bez problemu.", "zhHans": "我会记下地址以免忘记，再发给你，好让你顺利找到地方。（对女性说）", "zhHant": "我會記下地址以免忘記，再傳給你，好讓你順利找到地方。（對女性說）"}
+          ],
+          "practice": {"pl": "Popraw tylko formy w nawiasach, mówiąc jako kobieta do kobiety: Gdybym wczoraj (wróciłabym) wcześniej, wysłałabym ci adres, żebyś (trafić) bez problemu.", "zhHans": "女性对女性说话，只改括号内形式：Gdybym wczoraj (wróciłabym) wcześniej, wysłałabym ci adres, żebyś (trafić) bez problemu。", "zhHant": "女性對女性說話，只改括號內形式：Gdybym wczoraj (wróciłabym) wcześniej, wysłałabym ci adres, żebyś (trafić) bez problemu。"},
+          "answer": {"pl": "Gdybym wczoraj wróciła wcześniej, wysłałabym ci adres, żebyś trafiła bez problemu. „Gdybym” już zawiera -bym; po „żebyś” używamy żeńskiej formy „trafiła”.", "zhHans": "Gdybym wczoraj wróciła wcześniej, wysłałabym ci adres, żebyś trafiła bez problemu。gdybym 已包含 -bym；żebyś 后用阴性形式 trafiła。", "zhHant": "Gdybym wczoraj wróciła wcześniej, wysłałabym ci adres, żebyś trafiła bez problemu。gdybym 已包含 -bym；żebyś 後用陰性形式 trafiła。"},
+          "task": {"pl": "Napisz wiadomość po nieudanym spotkaniu: wyjaśnij, co zmieniłaby wcześniejsza decyzja, zaproponuj realny plan na jutro i podaj cel jednego działania.", "zhHans": "在一次未能举行的会面后写消息，说明较早作决定会改变什么，提出明天可行的安排，并解释一个行动的目的。", "zhHant": "在一次未能舉行的會面後寫訊息，說明較早作決定會改變什麼，提出明天可行的安排，並解釋一個行動的目的。"}
+        },
+        {
+          "title": {"pl": "6. Raport: wykonawca, proces i rezultat", "zhHans": "6. 报告：执行者、过程与结果", "zhHant": "6. 報告：執行者、過程與結果"},
+          "outcome": {"pl": "Redagujesz raport, dobierając stronę bierną, konstrukcję bezosobową i imiesłów bez zmiany wykonawcy.", "zhHans": "能在报告中选择被动式、无人称结构与副动词，同时保持行为主体一致。", "zhHant": "能在報告中選擇被動式、無人稱結構與副動詞，同時保持行為主體一致。"},
+          "focus": {"pl": "Był sprawdzany a został sprawdzony; -no/-to nie ujawnia wykonawcy; -ąc oznacza równoczesność, -wszy/-łszy uprzedniość. Imiesłów przysłówkowy i orzeczenie muszą mieć tego samego wykonawcę.", "zhHans": "był sprawdzany 表过程，został sprawdzony 表完成；-no/-to 不说明执行者；-ąc 表同时，-wszy/-łszy 表先行。副动词和主句必须共享执行者，不能直接套用中文省略主语的方式。", "zhHant": "był sprawdzany 表過程，został sprawdzony 表完成；-no/-to 不說明執行者；-ąc 表同時，-wszy/-łszy 表先行。副動詞和主句必須共享執行者，不能直接套用中文省略主語的方式。"},
+          "examples": [
+            {"pl": "Rano raport był sprawdzany. O dwunastej został zatwierdzony przez kierowniczkę. Wysłano go do klienta.", "zhHans": "早上报告正在审核。十二点女主管批准了报告。随后报告被发给客户。", "zhHant": "早上報告正在審核。十二點女主管核准了報告。隨後報告被寄給客戶。"},
+            {"pl": "Sprawdziwszy dane, analityczka wysłała raport. Czytając odpowiedź klienta, zauważyła błąd.", "zhHans": "女分析师核对数据后发送了报告。阅读客户回复时，她发现了错误。", "zhHant": "女分析師核對資料後寄出了報告。閱讀客戶回覆時，她發現了錯誤。"}
+          ],
+          "practice": {"pl": "Popraw zdanie, nazywając wykonawcę: „Czytając raport, pojawił się błąd”. Użyj czasownika zauważyć.", "zhHans": "用 zauważyć 改写病句 Czytając raport, pojawił się błąd，明确谁读报告。", "zhHant": "用 zauważyć 改寫病句 Czytając raport, pojawił się błąd，明確誰讀報告。"},
+          "answer": {"pl": "Czytając raport, zauważyłam błąd. Także: Czytając raport, zauważyłem błąd. Inny poprawny wariant: Podczas czytania raportu zauważyliśmy błąd. Błąd nie jest osobą czytającą.", "zhHans": "可写 Czytając raport, zauważyłam błąd（女性）或 zauważyłem błąd（男性）。也可写 Podczas czytania raportu zauważyliśmy błąd。不能让“错误”充当阅读者。", "zhHant": "可寫 Czytając raport, zauważyłam błąd（女性）或 zauważyłem błąd（男性）。也可寫 Podczas czytania raportu zauważyliśmy błąd。不能讓「錯誤」充當閱讀者。"},
+          "task": {"pl": "Napisz pięciozdaniowy raport o korekcie dokumentu: opisz proces, wynik, odpowiedzialną osobę i kolejność działań. Sprawdź wykonawcę każdego imiesłowu.", "zhHans": "写五句文件修订报告，交代过程、结果、负责人及行动顺序，并检查每个副动词的执行者。", "zhHant": "寫五句文件修訂報告，交代過程、結果、負責人及行動順序，並檢查每個副動詞的執行者。"}
+        },
+        {
+          "title": {"pl": "7. Dane zespołu: liczebniki i zgodność", "zhHans": "7. 团队数据：数词与一致关系", "zhHant": "7. 團隊資料：數詞與一致關係"},
+          "outcome": {"pl": "Opisujesz skład zespołu i ilości, zachowując zgodność orzeczenia oraz odmianę całej grupy.", "zhHans": "能描述团队构成与数量，正确处理谓语一致及整个数词短语的变格。", "zhHant": "能描述團隊構成與數量，正確處理謂語一致及整個數詞片語的變格。"},
+          "focus": {"pl": "Dwaj lekarze przyszli / dwóch lekarzy przyszło; pięć osób przyszło; dwoje dzieci przyszło; dwoje drzwi. Narzędnik: z pięcioma osobami, z dwojgiem dzieci; rzeczownik nie pozostaje w dopełniaczu w każdym przypadku.", "zhHans": "dwaj lekarze przyszli 与 dwóch lekarzy przyszło 都正确；pięć osób、dwoje dzieci 作主语时过去式用中性单数 przyszło；drzwi 可与集合数词连用。工具格为 z pięcioma osobami、z dwojgiem dzieci，不是所有位置都保留属格。", "zhHant": "dwaj lekarze przyszli 與 dwóch lekarzy przyszło 都正確；pięć osób、dwoje dzieci 作主語時過去式用中性單數 przyszło；drzwi 可與集合數詞連用。工具格為 z pięcioma osobami、z dwojgiem dzieci，不是所有位置都保留屬格。"},
+          "examples": [
+            {"pl": "Dwaj lekarze przyszli wcześniej. Dwóch lekarzy przyszło wcześniej. Pięć osób zostało na dyżurze.", "zhHans": "两位男医生提前来了（两种规范说法）。五个人留下值班。", "zhHant": "兩位男醫生提前來了（兩種規範說法）。五個人留下值班。"},
+            {"pl": "Rozmawialiśmy z pięcioma osobami. Opiekunka przyszła z dwojgiem dzieci. W sali jest dwoje drzwi.", "zhHans": "我们与五个人交谈了。女看护带着两个孩子来了。房间里有两扇门。", "zhHant": "我們與五個人交談了。女看護帶著兩個孩子來了。房間裡有兩扇門。"}
+          ],
+          "practice": {"pl": "Uzupełnij: Dwaj lekarze ___, ale pięć osób ___. (przyjść, przeszłość) Rozmawiam z ___ (pięć osób).", "zhHans": "填空：Dwaj lekarze ___, ale pięć osób ___。（przyjść，过去时）Rozmawiam z ___ (pięć osób)。", "zhHant": "填空：Dwaj lekarze ___, ale pięć osób ___。（przyjść，過去式）Rozmawiam z ___ (pięć osób)。"},
+          "answer": {"pl": "Dwaj lekarze przyszli, ale pięć osób przyszło. Rozmawiam z pięcioma osobami. Dwaj łączy się z męskoosobowym przyszli; grupa pięć osób wymaga przyszło.", "zhHans": "Dwaj lekarze przyszli, ale pięć osób przyszło。Rozmawiam z pięcioma osobami。dwaj 搭配阳性人称复数 przyszli；pięć osób 要求中性单数 przyszło。", "zhHant": "Dwaj lekarze przyszli, ale pięć osób przyszło。Rozmawiam z pięcioma osobami。dwaj 搭配陽性人稱複數 przyszli；pięć osób 要求中性單數 przyszło。"},
+          "task": {"pl": "Przygotuj krótkie sprawozdanie z wydarzenia: ilu było uczestników, z kim rozmawiano i komu wysłano materiały. Zastosuj trzy różne przypadki grup liczebnikowych.", "zhHans": "写活动简报：参加人数、与谁交谈、资料发给了谁，使用三种不同格的数词短语。", "zhHant": "寫活動簡報：參加人數、與誰交談、資料寄給了誰，使用三種不同格的數詞片語。"}
         }
       ]
     },
@@ -280,6 +424,18 @@
           "practice": {"pl": "Czy to pochwała, czy ironia? „Świetnie, znowu spóźnił się tylko godzinę.”", "zhHans": "这是赞美还是反讽？“太棒了，他这次只迟到了一小时。”", "zhHant": "這是稱讚還是反諷？「太棒了，他這次只遲到了一小時。」"},
           "answer": {"pl": "Najpewniej ironia: „tylko godzinę” zestawione ze „świetnie” sygnalizuje krytykę, nie pochwałę. Odczyt zależy też od tonu i sytuacji.", "zhHans": "很可能是反讽：“只迟到一小时”与“太棒了”形成反差，表达批评而非赞美。具体含义也取决于语气和情境。", "zhHant": "很可能是反諷：「只遲到一小時」與「太棒了」形成反差，表達批評而非稱讚。具體含義也取決於語氣和情境。"},
           "task": {"pl": "Przeredaguj ten sam komunikat dla znajomego, klienta i odbiorcy publicznego.", "zhHans": "把同一信息分别改写给朋友、客户和公众读者。", "zhHant": "把同一訊息分別改寫給朋友、客戶和公眾讀者。"}
+        },
+        {
+          "title": {"pl": "5. Dowód, zastrzeżenie i odpowiedzialność za wniosek", "zhHans": "5. 证据、保留意见与结论责任", "zhHant": "5. 證據、保留意見與結論責任"},
+          "outcome": {"pl": "Odróżniasz wynik badania od interpretacji i ograniczasz siłę twierdzenia do dostępnych danych.", "zhHans": "能区分研究结果与解释，使论断强度符合证据范围。", "zhHant": "能區分研究結果與解釋，使論斷強度符合證據範圍。"},
+          "focus": {"pl": "Z badania wynika, że; dane sugerują, ale nie dowodzą; mimo + dopełniacz a mimo że + zdanie; dzięki + celownik, wskutek + dopełniacz; nie tyle X, ile Y koryguje interpretację.", "zhHans": "区分 wynika、sugerują 与 dowodzą；mimo + 属格，而 mimo że 后接完整句；dzięki + 与格，wskutek + 属格；nie tyle X, ile Y 表示修正重点，而非简单并列。", "zhHant": "區分 wynika、sugerują 與 dowodzą；mimo + 屬格，而 mimo że 後接完整句；dzięki + 與格，wskutek + 屬格；nie tyle X, ile Y 表示修正重點，而非簡單並列。"},
+          "examples": [
+            {"pl": "Mimo niewielkiej próby wyniki są użyteczne. Mimo że próba jest niewielka, warto zbadać ten trend.", "zhHans": "尽管样本小，结果仍有用。虽然样本小，但这一趋势值得研究。", "zhHant": "儘管樣本小，結果仍有用。雖然樣本小，但這一趨勢值得研究。"},
+            {"pl": "Dane sugerują związek, lecz nie dowodzą przyczynowości. Problem dotyczy nie tyle ceny, ile dostępności usługi.", "zhHans": "数据提示存在关联，却不能证明因果关系。问题与其说在价格，不如说在服务的可获得性。", "zhHant": "資料提示存在關聯，卻不能證明因果關係。問題與其說在價格，不如說在服務的可取得性。"}
+          ],
+          "practice": {"pl": "Popraw rekcję: „Mimo mała próba i dzięki pomoc zespołu zebraliśmy dane”. Następnie dodaj jedno zastrzeżenie do wniosku.", "zhHans": "修正格搭配：Mimo mała próba i dzięki pomoc zespołu zebraliśmy dane。再为结论补充一项限制。", "zhHant": "修正格搭配：Mimo mała próba i dzięki pomoc zespołu zebraliśmy dane。再為結論補充一項限制。"},
+          "answer": {"pl": "Mimo małej próby i dzięki pomocy zespołu zebraliśmy dane. Przykładowe zastrzeżenie: Wynik sugeruje trend, ale nie pozwala uogólnić wniosku na całą populację. Mimo wymaga dopełniacza, dzięki celownika.", "zhHans": "Mimo małej próby i dzięki pomocy zespołu zebraliśmy dane。限制示例：结果提示趋势，但不能推广到整个总体。mimo 要求属格，dzięki 要求与格。", "zhHant": "Mimo małej próby i dzięki pomocy zespołu zebraliśmy dane。限制示例：結果提示趨勢，但不能推廣到整個母體。mimo 要求屬格，dzięki 要求與格。"},
+          "task": {"pl": "Napisz notatkę analityczną: dwa fakty z podaniem źródła, ostrożny wniosek, alternatywne wyjaśnienie i brakujące dane. Nie wymyślaj źródeł.", "zhHans": "写分析备忘录：两项标明来源的事实、审慎结论、替代解释及缺失数据。不要编造来源。", "zhHant": "寫分析備忘錄：兩項標明來源的事實、審慎結論、替代解釋及缺失資料。不要編造來源。"}
         }
       ]
     },
@@ -335,6 +491,18 @@
           "practice": {"pl": "Wybierz rejestr do oficjalnego podania: „Chcę dostać odpowiedź” czy „Uprzejmie proszę o udzielenie odpowiedzi”?", "zhHans": "为正式申请选择合适语体：“我想得到答复”还是“谨请给予答复”？", "zhHant": "為正式申請選擇合適語體：「我想得到答覆」還是「謹請給予答覆」？"},
           "answer": {"pl": "„Uprzejmie proszę o udzielenie odpowiedzi” pasuje do podania. Pierwsza wersja jest zrozumiała, ale bardziej bezpośrednia i mniej formalna.", "zhHans": "“Uprzejmie proszę o udzielenie odpowiedzi”适合正式申请。第一种说法可以理解，但更直接、正式程度较低。", "zhHant": "「Uprzejmie proszę o udzielenie odpowiedzi」適合正式申請。第一種說法可以理解，但較直接、正式程度較低。"},
           "task": {"pl": "Skompletuj portfolio: esej, prezentacja, redakcja tekstu i komentarz do własnych wyborów.", "zhHans": "完成作品集：论文、演讲、文本编辑和语言选择说明。", "zhHant": "完成作品集：論文、演講、文本編輯和語言選擇說明。"}
+        },
+        {
+          "title": {"pl": "5. Mediacja: zakres negacji i ukryte założenia", "zhHans": "5. 调解与转述：否定范围和隐含前提", "zhHant": "5. 調解與轉述：否定範圍和隱含前提"},
+          "outcome": {"pl": "Przekazujesz cudze stanowisko bez rozszerzania jego zakresu i rozpoznajesz pytania zawierające nieuzgodnione założenia.", "zhHans": "能忠实传达他人立场，不扩大适用范围，并识别带有未经认可前提的问题。", "zhHant": "能忠實傳達他人立場，不擴大適用範圍，並識別帶有未經認可前提的問題。"},
+          "focus": {"pl": "Nie wszyscy a nikt; nie musi oznaczać a musi nie oznaczać; tylko i nawet jako operatory zakresu; pytanie „Kiedy przestaliście...?” zakłada wcześniejsze działanie. Zbieżność słów nie gwarantuje równoważności przekładu.", "zhHans": "nie wszyscy 是不全是，nikt 是没有人；nie musi oznaczać 是未必意味着，musi nie oznaczać 是必定不意味着；tylko、nawet 改变范围；Kiedy przestaliście...? 预设此前有该行为。逐词对应不保证译意等同。", "zhHant": "nie wszyscy 是不全是，nikt 是沒有人；nie musi oznaczać 是未必意味著，musi nie oznaczać 是必定不意味著；tylko、nawet 改變範圍；Kiedy przestaliście...? 預設此前有該行為。逐詞對應不保證譯意等同。"},
+          "examples": [
+            {"pl": "Nie wszyscy poparli projekt. Nie wynika z tego, że nikt go nie poparł.", "zhHans": "并非所有人都支持项目。这不意味着没有人支持。", "zhHant": "並非所有人都支持專案。這不意味著沒有人支持。"},
+            {"pl": "Opóźnienie nie musi oznaczać odmowy. Zamiast „Kiedy przestaliście odpowiadać?” zapytaj: „Czy odpowiedź została wysłana, a jeśli tak, to kiedy?”.", "zhHans": "延迟未必意味着拒绝。不要问“你们何时停止回复的？”，而应问“回复是否已发出？如果是，何时发出的？”。", "zhHant": "延遲未必意味著拒絕。不要問「你們何時停止回覆的？」，而應問「回覆是否已寄出？如果是，何時寄出的？」。"}
+          ],
+          "practice": {"pl": "Czy zdania „Nie wszyscy zaakceptowali zmianę” i „Nikt nie zaakceptował zmiany” są równoważne? Zaproponuj neutralne pytanie o liczbę zwolenników.", "zhHans": "Nie wszyscy zaakceptowali zmianę 与 Nikt nie zaakceptował zmiany 是否等义？提出一个中立的问题，询问支持者人数。", "zhHant": "Nie wszyscy zaakceptowali zmianę 與 Nikt nie zaakceptował zmiany 是否等義？提出一個中立的問題，詢問支持者人數。"},
+          "answer": {"pl": "Nie. Pierwsze zdanie wyklucza jednomyślność, ale nie podaje liczby zwolenników; drugie mówi o zerowym poparciu. Neutralnie: „Ile osób zaakceptowało zmianę?”. Także: „Jakie było poparcie dla zmiany?”.", "zhHans": "不等义。第一句排除全体一致，但不说明支持人数；第二句表示零支持。可中立地问 Ile osób zaakceptowało zmianę? 或 Jakie było poparcie dla zmiany?。", "zhHant": "不等義。第一句排除全體一致，但不說明支持人數；第二句表示零支持。可中立地問 Ile osób zaakceptowało zmianę? 或 Jakie było poparcie dla zmiany?。"},
+          "task": {"pl": "Porównaj polskie streszczenie sporu z chińskim przekładem. Zaznacz zakres negacji, źródło każdej opinii i założenia pytań. Ta ścieżka jest materiałem do ćwiczeń, nie kompletnym certyfikowanym podręcznikiem ani potwierdzeniem osiągnięcia C2.", "zhHans": "对照一份争议的波兰语摘要与中文译文，标出否定范围、每项意见的来源及问题的预设。本路线是练习材料，并非完整的认证教材，也不证明已达到 C2。", "zhHant": "對照一份爭議的波蘭語摘要與中文譯文，標出否定範圍、每項意見的來源及問題的預設。本路線是練習材料，並非完整的認證教材，也不證明已達到 C2。"}
         }
       ]
     }

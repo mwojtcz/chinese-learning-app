@@ -1,6 +1,74 @@
 {
   "lessons": [
     {
+      "id": "pl-verbs-aspect-duration-negation",
+      "title": {"pl": "Aspekt a czas trwania, rezultat i przeczenie", "zhHans": "动词体：持续时间、结果与否定", "zhHant": "動詞體：持續時間、結果與否定"},
+      "summary": {"pl": "Rozróżnij czas poświęcony czynności, czas potrzebny na jej ukończenie i brak rezultatu.", "zhHans": "区分花在动作上的时间、完成动作所需的时间和未达成的结果。", "zhHant": "區分花在動作上的時間、完成動作所需的時間和未達成的結果。"},
+      "sections": [
+        {
+          "heading": {"pl": "Przez godzinę czy w godzinę?", "zhHans": "做了一小时，还是一小时内做完？", "zhHant": "做了一小時，還是一小時內做完？"},
+          "explanation": {"pl": "„Przez + biernik” określa odcinek trwania: przez godzinę czytałam. „W + biernik” może określać czas potrzebny do osiągnięcia wyniku: przeczytałam artykuł w godzinę. Sam czas trwania nie przesądza o ukończeniu; wybór aspektu pokazuje sposób ujęcia zdarzenia.", "zhHans": "przez + 宾格表示持续的一段时间：przez godzinę czytałam（我读了一小时）。w + 宾格可表示达成结果所需的时间：przeczytałam artykuł w godzinę（我用一小时读完了文章）。持续时间本身不保证完成，动词体体现说话者如何呈现事件。", "zhHant": "przez + 賓格表示持續的一段時間：przez godzinę czytałam（我讀了一小時）。w + 賓格可表示達成結果所需的時間：przeczytałam artykuł w godzinę（我用一小時讀完了文章）。持續時間本身不保證完成，動詞體體現說話者如何呈現事件。"},
+          "examples": [
+            {"pl": "Przez godzinę czytałam artykuł, ale nie przeczytałam go do końca.", "zhHans": "我读了一个小时的文章，但没有读完。（女性说话者）", "zhHant": "我讀了一個小時的文章，但沒有讀完。（女性說話者）"},
+            {"pl": "Przeczytałam cały artykuł w godzinę.", "zhHans": "我用一个小时读完了整篇文章。（女性说话者）", "zhHant": "我用一個小時讀完了整篇文章。（女性說話者）"}
+          ],
+          "note": {"pl": "Nie myl „w godzinę” z „za godzinę”: „Skończę za godzinę” umieszcza koniec za godzinę od teraz.", "zhHans": "不要把 w godzinę 与 za godzinę 混淆：Skończę za godzinę 表示从现在起一小时后结束。", "zhHant": "不要把 w godzinę 與 za godzinę 混淆：Skończę za godzinę 表示從現在起一小時後結束。"}
+        },
+        {
+          "heading": {"pl": "Nie robiłem a nie zrobiłem", "zhHans": "未做某事与未完成某事", "zhHant": "未做某事與未完成某事"},
+          "explanation": {"pl": "„Nie pisałem raportu” zaprzecza wykonywaniu tej czynności w danym kontekście. „Nie napisałem raportu” zaprzecza osiągnięciu wyniku; mogłem zacząć pisać. Dokonane przeczenie nie dowodzi, że nie podjęto próby.", "zhHans": "Nie pisałem raportu 否定在相关情境中写报告这一活动。Nie napisałem raportu 否定写成报告这一结果；说话者可能已经开始写了。否定完成体不等于从未尝试。", "zhHant": "Nie pisałem raportu 否定在相關情境中寫報告這一活動。Nie napisałem raportu 否定寫成報告這一結果；說話者可能已經開始寫了。否定完成體不等於從未嘗試。"},
+          "examples": [
+            {"pl": "Wczoraj nie pisałem raportu; zajmowałem się fakturami.", "zhHans": "昨天我没写报告，而是在处理发票。（男性说话者）", "zhHant": "昨天我沒寫報告，而是在處理發票。（男性說話者）"},
+            {"pl": "Pisałem raport cały wieczór, ale go nie napisałem.", "zhHans": "我写了一整晚报告，但没写完。（男性说话者）", "zhHant": "我寫了一整晚報告，但沒寫完。（男性說話者）"}
+          ],
+          "note": {"pl": "Chińskie 没写 i 没写完 pomagają zobaczyć kontrast, ale polski aspekt nie jest mechanicznym odpowiednikiem chińskiego 了 ani dopowiedzenia 完.", "zhHans": "汉语的“没写”和“没写完”有助于理解区别，但波兰语的体不能机械地对应汉语的了或结果补语完。", "zhHant": "漢語的「沒寫」和「沒寫完」有助於理解區別，但波蘭語的體不能機械地對應漢語的了或結果補語完。"}
+        },
+        {
+          "heading": {"pl": "Powtórzenie, próba i rezultat", "zhHans": "重复、尝试与结果", "zhHant": "重複、嘗試與結果"},
+          "explanation": {"pl": "Niedokonany może opisywać zwyczaj lub próby; dokonany przedstawia zdarzenie jako całość. Nie ucz się zasady „powtarzanie zawsze wymaga niedokonanego”: „trzy razy zadzwoniłem” liczy trzy zamknięte zdarzenia. Po „udało się” wybieramy zwykle dokonany bezokolicznik, gdy mowa o osiągniętym celu.", "zhHans": "未完成体可以描述习惯或尝试；完成体将事件作为整体呈现。不要记成“重复就必须用未完成体”：trzy razy zadzwoniłem 计算的是三个完整事件。说达成了某个目标时，udało się 后通常接完成体不定式。", "zhHant": "未完成體可以描述習慣或嘗試；完成體將事件作為整體呈現。不要記成「重複就必須用未完成體」：trzy razy zadzwoniłem 計算的是三個完整事件。說達成了某個目標時，udało się 後通常接完成體不定式。"},
+          "examples": [
+            {"pl": "Codziennie dzwoniłem do biura. Dziś zadzwoniłem trzy razy.", "zhHans": "我以前每天给办公室打电话。今天我打了三次。（男性说话者）", "zhHant": "我以前每天給辦公室打電話。今天我打了三次。（男性說話者）"},
+            {"pl": "Próbowałam otworzyć plik i w końcu udało mi się go otworzyć.", "zhHans": "我试着打开文件，最后终于打开了。（女性说话者）", "zhHant": "我試著開啟檔案，最後終於打開了。（女性說話者）"}
+          ],
+          "note": {"pl": "Przedrostek nie gwarantuje pary o identycznym znaczeniu: „pisać – napisać” to para aspektowa, ale „przepisać” dodaje znaczenie kopiowania.", "zhHans": "加前缀不一定只改变体而不改变词义：pisać–napisać 是体对，但 przepisać 增添了抄写的意思。", "zhHant": "加前綴不一定只改變體而不改變詞義：pisać–napisać 是體對，但 przepisać 增添了抄寫的意思。"}
+        }
+      ]
+    },
+    {
+      "id": "pl-verbs-conditions-purpose",
+      "title": {"pl": "Warunek rzeczywisty, hipotetyczny i cel", "zhHans": "现实条件、假设条件与目的", "zhHant": "現實條件、假設條件與目的"},
+      "summary": {"pl": "Dobieraj jeśli, gdyby i żeby do znaczenia, a nie do jednej chińskiej konstrukcji.", "zhHans": "根据意义选用 jeśli、gdyby 和 żeby，而不是与一个汉语句式逐字对应。", "zhHant": "根據意義選用 jeśli、gdyby 和 żeby，而不是與一個漢語句式逐字對應。"},
+      "sections": [
+        {
+          "heading": {"pl": "Jeśli: warunek otwarty", "zhHans": "jeśli：尚未确定的条件", "zhHant": "jeśli：尚未確定的條件"},
+          "explanation": {"pl": "„Jeśli” lub „jeżeli” z trybem oznajmującym przedstawia warunek jako otwarty. W odniesieniu do przyszłości obie części mogą mieć czas przyszły. Dokonane „skończę” jest przyszłe, choć odmienia się podobnie do teraźniejszego.", "zhHans": "jeśli 或 jeżeli 与陈述式连用，把条件作为开放的可能性。涉及未来时，两部分都可以用将来时。完成体 skończę 虽然形式类似现在时，意义却是将来。", "zhHant": "jeśli 或 jeżeli 與陳述式連用，把條件作為開放的可能性。涉及未來時，兩部分都可以用未來式。完成體 skończę 雖然形式類似現在式，意義卻是將來。"},
+          "examples": [
+            {"pl": "Jeśli skończę pracę wcześniej, wrócę pieszo.", "zhHans": "如果我早点做完工作，就步行回去。", "zhHant": "如果我早點做完工作，就步行回去。"},
+            {"pl": "Jeżeli jutro będzie padać, zostaniemy w domu.", "zhHans": "如果明天下雨，我们就待在家里。", "zhHant": "如果明天下雨，我們就待在家裡。"}
+          ],
+          "note": {"pl": "Nie przenoś angielskiego zakazu czasu przyszłego po if na polski: „jeśli będę mieć czas” jest poprawne.", "zhHans": "不要把英语 if 从句通常不用 will 的规则套到波兰语上：jeśli będę mieć czas 是正确的。", "zhHant": "不要把英語 if 子句通常不用 will 的規則套到波蘭語上：jeśli będę mieć czas 是正確的。"}
+        },
+        {
+          "heading": {"pl": "Gdyby: hipoteza i niezrealizowana przeszłość", "zhHans": "gdyby：假设与过去未实现的情况", "zhHant": "gdyby：假設與過去未實現的情況"},
+          "explanation": {"pl": "Po „gdyby” dodajemy formę na -ł-, bez drugiego „by”: gdybym wiedziała, nie „gdybym wiedziałabym”. W zdaniu głównym używamy trybu przypuszczającego. Ten sam schemat może dotyczyć teraźniejszości lub przeszłości; czas doprecyzowuje kontekst, np. „wczoraj”.", "zhHans": "gdyby 后接带 -ł- 的形式，不再加第二个 by：gdybym wiedziała，而不是 gdybym wiedziałabym。主句用假设语气。同一结构可指现在或过去，时间由上下文说明，例如 wczoraj（昨天）。", "zhHant": "gdyby 後接帶 -ł- 的形式，不再加第二個 by：gdybym wiedziała，而不是 gdybym wiedziałabym。主句用假設語氣。同一結構可指現在或過去，時間由上下文說明，例如 wczoraj（昨天）。"},
+          "examples": [
+            {"pl": "Gdybym miała teraz urlop, pojechałabym nad morze.", "zhHans": "如果我现在有假期，就会去海边。（女性说话者）", "zhHant": "如果我現在有假期，就會去海邊。（女性說話者）"},
+            {"pl": "Gdybym wczoraj wyszła wcześniej, zdążyłabym na pociąg.", "zhHans": "如果我昨天早点出门，就赶得上火车了。（女性说话者；实际没赶上）", "zhHant": "如果我昨天早點出門，就趕得上火車了。（女性說話者；實際沒趕上）"}
+          ],
+          "note": {"pl": "Formy „miała / wyszła” zgadzają się z rodzajem mówiącej, a nie oznaczają tu samodzielnie czasu przeszłego.", "zhHans": "miała / wyszła 与女性说话者的性一致；在这一结构中，它们本身不能单独决定所指时间。", "zhHant": "miała / wyszła 與女性說話者的性一致；在這一結構中，它們本身不能單獨決定所指時間。"}
+        },
+        {
+          "heading": {"pl": "Żeby: cel i różne podmioty", "zhHans": "żeby：目的与不同的动作主体", "zhHant": "żeby：目的與不同的動作主體"},
+          "explanation": {"pl": "Przy tym samym wykonawcy celu używamy często „żeby + bezokolicznik”. Gdy wykonawcy się różnią, stosujemy osobową konstrukcję: żebym, żebyś, żeby, żebyśmy, żebyście, żeby + forma na -ł-. Forma na -ł- nie mówi tu o przeszłości.", "zhHans": "目的动作与主句动作由同一个人完成时，常用 żeby + 不定式。主体不同时，用带人称的结构：żebym、żebyś、żeby、żebyśmy、żebyście、żeby，再接带 -ł- 的形式。这里的 -ł- 形式不表示过去。", "zhHant": "目的動作與主句動作由同一個人完成時，常用 żeby + 不定式。主體不同時，用帶人稱的結構：żebym、żebyś、żeby、żebyśmy、żebyście、żeby，再接帶 -ł- 的形式。這裡的 -ł- 形式不表示過去。"},
+          "examples": [
+            {"pl": "Idę do biblioteki, żeby oddać książki.", "zhHans": "我去图书馆还书。", "zhHant": "我去圖書館還書。"},
+            {"pl": "Wyślę ci adres, żebyś trafiła bez problemu.", "zhHans": "我会把地址发给你，好让你顺利找到地方。（对女性说）", "zhHant": "我會把地址傳給你，好讓你順利找到地方。（對女性說）"}
+          ],
+          "note": {"pl": "„Chcę, żebyś przyszedł” wyraża życzenie dotyczące drugiej osoby, nie warunek „gdybyś przyszedł”.", "zhHans": "Chcę, żebyś przyszedł 表达希望对方来，不是 gdybyś przyszedł（如果你来）的条件。", "zhHant": "Chcę, żebyś przyszedł 表達希望對方來，不是 gdybyś przyszedł（如果你來）的條件。"}
+        }
+      ]
+    },
+    {
       "id": "pl-verbs-present",
       "title": {
         "pl": "Czas teraźniejszy: główne wzorce odmiany",

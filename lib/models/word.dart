@@ -7,16 +7,17 @@ class Word {
   final String level; // HSK-1, HSK-2, etc.
   final String notes;
   final List<String> tags;
+  final List<String> categories;
   final String? partOfSpeech;
   final int? frequency;
   final String? sourceWord;
 
   String get displayHanzi {
     final separator = hanzi.lastIndexOf('#');
-    final headword = separator > 0 &&
-            int.tryParse(hanzi.substring(separator + 1)) != null
-        ? hanzi.substring(0, separator)
-        : sourceWord ?? hanzi;
+    final headword =
+        separator > 0 && int.tryParse(hanzi.substring(separator + 1)) != null
+            ? hanzi.substring(0, separator)
+            : sourceWord ?? hanzi;
     return headword.replaceFirst(RegExp(r'\d+$'), '');
   }
 
@@ -29,10 +30,12 @@ class Word {
     required this.level,
     this.notes = '',
     this.tags = const [],
+    this.categories = const [],
     this.partOfSpeech,
     this.frequency,
     this.sourceWord,
-  }) : traditional = traditional ?? hanzi; // Default to simplified if not provided
+  }) : traditional =
+            traditional ?? hanzi; // Default to simplified if not provided
 
   // Convert from JSON
   factory Word.fromJson(Map<String, dynamic> json) {
@@ -44,7 +47,13 @@ class Word {
       polishTranslation: json['polish'] as String,
       level: json['level'] as String,
       notes: json['notes'] as String? ?? '',
-      tags: (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList() ?? [],
+      tags:
+          (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList() ??
+              [],
+      categories: (json['categories'] as List<dynamic>?)
+              ?.map((e) => e as String)
+              .toList() ??
+          [],
       partOfSpeech: json['partOfSpeech'] as String?,
       frequency: json['frequency'] as int?,
       sourceWord: json['sourceWord'] as String?,
@@ -62,6 +71,7 @@ class Word {
       'level': level,
       'notes': notes,
       'tags': tags,
+      'categories': categories,
       'partOfSpeech': partOfSpeech,
       'frequency': frequency,
       'sourceWord': sourceWord,
@@ -95,7 +105,12 @@ class Word {
       polishTranslation: map['polish'] as String,
       level: map['level'] as String,
       notes: map['notes'] as String? ?? '',
-      tags: (map['tags'] as String?)?.split(',').where((s) => s.isNotEmpty).toList() ?? [],
+      tags: (map['tags'] as String?)
+              ?.split(',')
+              .where((s) => s.isNotEmpty)
+              .toList() ??
+          [],
+      categories: const [],
       partOfSpeech: map['partOfSpeech'] as String?,
       frequency: map['frequency'] as int?,
       sourceWord: map['sourceWord'] as String?,
@@ -105,15 +120,35 @@ class Word {
   // Helper method to normalize pinyin (remove tones for search)
   static String normalizePinyin(String pinyin) {
     const toneMap = {
-      'ā': 'a', 'á': 'a', 'ǎ': 'a', 'à': 'a',
-      'ē': 'e', 'é': 'e', 'ě': 'e', 'è': 'e',
-      'ī': 'i', 'í': 'i', 'ǐ': 'i', 'ì': 'i',
-      'ō': 'o', 'ó': 'o', 'ǒ': 'o', 'ò': 'o',
-      'ū': 'u', 'ú': 'u', 'ǔ': 'u', 'ù': 'u',
-      'ǖ': 'ü', 'ǘ': 'ü', 'ǚ': 'ü', 'ǜ': 'ü',
-      'ń': 'n', 'ň': 'n', 'ǹ': 'n',
+      'ā': 'a',
+      'á': 'a',
+      'ǎ': 'a',
+      'à': 'a',
+      'ē': 'e',
+      'é': 'e',
+      'ě': 'e',
+      'è': 'e',
+      'ī': 'i',
+      'í': 'i',
+      'ǐ': 'i',
+      'ì': 'i',
+      'ō': 'o',
+      'ó': 'o',
+      'ǒ': 'o',
+      'ò': 'o',
+      'ū': 'u',
+      'ú': 'u',
+      'ǔ': 'u',
+      'ù': 'u',
+      'ǖ': 'ü',
+      'ǘ': 'ü',
+      'ǚ': 'ü',
+      'ǜ': 'ü',
+      'ń': 'n',
+      'ň': 'n',
+      'ǹ': 'n',
     };
-    
+
     String normalized = pinyin.toLowerCase();
     toneMap.forEach((toned, plain) {
       normalized = normalized.replaceAll(toned, plain);

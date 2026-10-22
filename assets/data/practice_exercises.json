@@ -1,6 +1,546 @@
 {
   "exercises": [
     {
+      "id": "pl-a1-formal-third-person",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij, zwracając się do nieznajomej kobiety: Czy pani ___ po angielsku? (mówić)", "zhHans": "对陌生女士礼貌提问，填入 mówić 的形式：Czy pani ___ po angielsku?", "zhHant": "對陌生女士禮貌提問，填入 mówić 的形式：Czy pani ___ po angielsku?"},
+      "answer": "mówi",
+      "acceptedAnswers": ["mówi"],
+      "explanation": {"pl": "Pani wymaga trzeciej osoby liczby pojedynczej: pani mówi. Mówisz łączy się z ty, nie z pani.", "zhHans": "pani 后用第三人称单数 mówi；mówisz 与 ty 搭配，不能直接用于 pani。", "zhHant": "pani 後用第三人稱單數 mówi；mówisz 與 ty 搭配，不能直接用於 pani。"}
+    },
+    {
+      "id": "pl-a1-repeat-infinitive",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij podanym czasownikiem: Nie rozumiem. Proszę ___ wolniej. (powtórzyć)", "zhHans": "请对方慢一点重复，用 powtórzyć 填空：Nie rozumiem。Proszę ___ wolniej。", "zhHant": "請對方慢一點重複，用 powtórzyć 填空：Nie rozumiem。Proszę ___ wolniej。"},
+      "answer": "powtórzyć",
+      "acceptedAnswers": ["powtórzyć"],
+      "explanation": {"pl": "Proszę + bezokolicznik tworzy uprzejmą prośbę: proszę powtórzyć. Nie dodajemy tu końcówki osobowej.", "zhHans": "proszę + 不定式可表达礼貌请求；这里不把 powtórzyć 变成人称形式。", "zhHant": "proszę + 不定式可表達禮貌請求；這裡不把 powtórzyć 變成人稱形式。"}
+    },
+    {
+      "id": "pl-a1-location-question-word",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Zapytaj o miejsce, wybierając gdzie lub czy: ___ jest przystanek?", "zhHans": "询问车站在哪里，选择 gdzie 或 czy：___ jest przystanek?", "zhHant": "詢問車站在哪裡，選擇 gdzie 或 czy：___ jest przystanek?"},
+      "answer": "gdzie",
+      "acceptedAnswers": ["gdzie"],
+      "explanation": {"pl": "Gdzie pyta o miejsce. Czy wprowadza pytanie tak/nie i nie zastępuje gdzie; nie przenosimy chińskiego 吗 na koniec zdania.", "zhHans": "gdzie 询问地点；czy 引出是非问句，不能代替 gdzie，也不能照搬句末的“吗”。", "zhHant": "gdzie 詢問地點；czy 引出是非問句，不能代替 gdzie，也不能照搬句末的「嗎」。"}
+    },
+    {
+      "id": "pl-a2-calendar-date",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Zapisz słowami datę wizyty: Mam wizytę ___ (2 maja). Wpisz tylko datę.", "zhHans": "用波兰语单词写预约日期：Mam wizytę ___ (2 maja)。只填日期。", "zhHant": "用波蘭語單詞寫預約日期：Mam wizytę ___ (2 maja)。只填日期。"},
+      "answer": "drugiego maja",
+      "acceptedAnswers": ["drugiego maja"],
+      "explanation": {"pl": "Na pytanie kiedy? data przyjmuje dopełniacz: drugiego maja. Drugi maja to forma przy podawaniu dzisiejszej daty, np. Dziś jest drugi maja.", "zhHans": "回答哪天发生某事时，日期用属格 drugiego maja。报今天的日期可说 Dziś jest drugi maja，不要混用。", "zhHant": "回答哪天發生某事時，日期用屬格 drugiego maja。報今天的日期可說 Dziś jest drugi maja，不要混用。"}
+    },
+    {
+      "id": "pl-a2-appointment-hour",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij słowem: Spotkanie zaczyna się o ___ (ósma).", "zhHans": "填入 ósma 的正确形式：Spotkanie zaczyna się o ___。（会议八点开始。）", "zhHant": "填入 ósma 的正確形式：Spotkanie zaczyna się o ___。（會議八點開始。）"},
+      "answer": "ósmej",
+      "acceptedAnswers": ["ósmej"],
+      "explanation": {"pl": "O której godzinie? O ósmej — miejscownik. Która godzina? Ósma — mianownik. Rodzaj żeński wynika z domyślnego słowa godzina.", "zhHans": "约定发生时刻用 o ósmej（处所格）；报时用 ósma（主格）。阴性来自省略的 godzina。", "zhHant": "約定發生時刻用 o ósmej（前置格）；報時用 ósma（主格）。陰性來自省略的 godzina。"}
+    },
+    {
+      "id": "pl-a2-transport-habit",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Wybierz czasownik i odmień: Codziennie ___ do pracy tramwajem. (jechać / jeździć, ja)", "zhHans": "选词并变为第一人称单数：Codziennie ___ do pracy tramwajem。（jechać / jeździć，每天坐电车上班。）", "zhHant": "選詞並變為第一人稱單數：Codziennie ___ do pracy tramwajem。（jechać / jeździć，每天搭電車上班。）"},
+      "answer": "jeżdżę",
+      "acceptedAnswers": ["jeżdżę"],
+      "explanation": {"pl": "Codzienny zwyczaj wyraża jeździć: jeżdżę. Jadę opisuje ukierunkowany przejazd; oba czasowniki są niedokonane.", "zhHans": "日常习惯用 jeździć：jeżdżę。jadę 描述有方向的一次乘车过程。两者都是未完成体，并非完成体配对。", "zhHant": "日常習慣用 jeździć：jeżdżę。jadę 描述有方向的一次乘車過程。兩者都是未完成體，並非完成體配對。"}
+    },
+    {
+      "id": "pl-a2-transport-current-journey",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Opisz trwający przejazd: Właśnie ___ autobusem do urzędu. (jechać, ja)", "zhHans": "描述正在进行的一次乘车：Właśnie ___ autobusem do urzędu。（jechać，第一人称单数）", "zhHant": "描述正在進行的一次乘車：Właśnie ___ autobusem do urzędu。（jechać，第一人稱單數）"},
+      "answer": "jadę",
+      "acceptedAnswers": ["jadę"],
+      "explanation": {"pl": "Jechać odmienia się nieregularnie: jadę, jedziesz. Nie tworzymy formy jecham; polska forma osobowa jest potrzebna także wtedy, gdy podmiot ja jest pominięty.", "zhHans": "jechać 变位不规则：jadę、jedziesz，不是 jecham。即使省略 ja，动词仍须有人称词尾，不能套用中文不变的动词形式。", "zhHant": "jechać 變位不規則：jadę、jedziesz，不是 jecham。即使省略 ja，動詞仍須有人稱詞尾，不能套用中文不變的動詞形式。"}
+    },
+    {
+      "id": "pl-a2-transport-perfective-departure",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Wpisz przyszłą formę podanego czasownika: Jutro ___ do lekarza. (pojechać, ja)", "zhHans": "填入 pojechać 的第一人称单数将来形式：Jutro ___ do lekarza。", "zhHant": "填入 pojechać 的第一人稱單數未來形式：Jutro ___ do lekarza。"},
+      "answer": "pojadę",
+      "acceptedAnswers": ["pojadę"],
+      "explanation": {"pl": "Pojadę jest przyszłością czasownika dokonanego. Nie mówimy będę pojechać. Pojechać oznacza wyjazd, nie stanowi samo w sobie potwierdzenia dotarcia.", "zhHans": "pojadę 是完成体将来形式，不能说 będę pojechać。pojechać 表示乘车出发，本身不保证已到达目的地。", "zhHant": "pojadę 是完成體未來形式，不能說 będę pojechać。pojechać 表示搭車出發，本身不保證已到達目的地。"}
+    },
+    {
+      "id": "pl-a2-reflexive-after-preposition",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij zaimkiem zwrotnym: Opowiadam o ___, nie o koledze.", "zhHans": "用反身代词填空：Opowiadam o ___, nie o koledze。（我讲自己的情况，不是同事的。）", "zhHant": "用反身代詞填空：Opowiadam o ___, nie o koledze。（我講自己的情況，不是同事的。）"},
+      "answer": "sobie",
+      "acceptedAnswers": ["sobie"],
+      "explanation": {"pl": "O wymaga miejscownika: o sobie. Się nie jest uniwersalną formą po każdym czasowniku ani po przyimku.", "zhHans": "o 后用处所格，所以是 o sobie。się 不是适用于所有动词和介词的固定形式；中文“自己”也不能一律译成 się。", "zhHant": "o 後用前置格，所以是 o sobie。się 不是適用於所有動詞和介詞的固定形式；中文「自己」也不能一律譯成 się。"}
+    },
+    {
+      "id": "pl-a2-recipient-short-long-pronoun",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij zaimkiem on w celowniku: Wyślę ___ odpowiedź jutro. Dopuszczalna jest forma neutralna lub kontrastowo akcentowana.", "zhHans": "填入 on 的与格：Wyślę ___ odpowiedź jutro。接受普通短式或带对比重音的长式。", "zhHant": "填入 on 的與格：Wyślę ___ odpowiedź jutro。接受普通短式或帶對比重音的長式。"},
+      "answer": "mu",
+      "acceptedAnswers": ["mu", "jemu"],
+      "explanation": {"pl": "Neutralnie: Wyślę mu odpowiedź. Kontrast: Wyślę jemu odpowiedź, nie jej. Po przyimku używa się niemu, np. ku niemu, ale tutaj nie ma przyimka.", "zhHans": "普通说法是 Wyślę mu odpowiedź；强调“给他而不是她”可用 jemu。niemu 是介词后形式，如 ku niemu，此处没有介词。", "zhHant": "普通說法是 Wyślę mu odpowiedź；強調「給他而不是她」可用 jemu。niemu 是介詞後形式，如 ku niemu，此處沒有介詞。"}
+    },
+    {
+      "id": "pl-b1-document-needed-genitive",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Potrzebuję ___ (ważny dokument, lp.).", "zhHans": "填入正确格：Potrzebuję ___ (ważny dokument，单数，需要有效证件)。", "zhHant": "填入正確格：Potrzebuję ___ (ważny dokument，單數，需要有效證件)。"},
+      "answer": "ważnego dokumentu",
+      "acceptedAnswers": ["ważnego dokumentu"],
+      "explanation": {"pl": "Potrzebować wymaga dopełniacza także w zdaniu twierdzącym: ważnego dokumentu. Nie przenosimy biernika z konstrukcji mam ważny dokument.", "zhHans": "potrzebować 即使在肯定句也要求属格 ważnego dokumentu，不照搬 mam ważny dokument 的宾格。", "zhHant": "potrzebować 即使在肯定句也要求屬格 ważnego dokumentu，不照搬 mam ważny dokument 的賓格。"}
+    },
+    {
+      "id": "pl-b1-depend-on-response",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Zależy mi na ___ (szybka odpowiedź).", "zhHans": "填空：Zależy mi na ___ (szybka odpowiedź，我希望尽快得到答复)。", "zhHant": "填空：Zależy mi na ___ (szybka odpowiedź，我希望儘快得到答覆)。"},
+      "answer": "szybkiej odpowiedzi",
+      "acceptedAnswers": ["szybkiej odpowiedzi"],
+      "explanation": {"pl": "Zależy komuś na czymś: osoba w celowniku (mi), sprawa po na w miejscowniku. Na nie zawsze wymaga biernika.", "zhHans": "结构为 zależy komuś na czymś：人用与格 mi，所重视的事在 na 后用处所格；na 并非总接宾格。", "zhHant": "結構為 zależy komuś na czymś：人用與格 mi，所重視的事在 na 後用前置格；na 並非總接賓格。"}
+    },
+    {
+      "id": "pl-b1-refund-money",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Proszę o zwrot ___ (pieniądze).", "zhHans": "填空，表达退款请求：Proszę o zwrot ___ (pieniądze)。", "zhHant": "填空，表達退款請求：Proszę o zwrot ___ (pieniądze)。"},
+      "answer": "pieniędzy",
+      "acceptedAnswers": ["pieniędzy"],
+      "explanation": {"pl": "Proszę o co? O zwrot — biernik. Zwrot czego? Pieniędzy — dopełniacz liczby mnogiej zależny od rzeczownika zwrot, nie bezpośrednio od przyimka o.", "zhHans": "proszę o 后的 zwrot 为宾格；“退还什么”的 pieniędzy 为复数属格，受名词 zwrot 支配，而非直接受 o 支配。", "zhHant": "proszę o 後的 zwrot 為賓格；「退還什麼」的 pieniędzy 為複數屬格，受名詞 zwrot 支配，而非直接受 o 支配。"}
+    },
+    {
+      "id": "pl-b1-no-obligation-not-prohibition",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Wybierz: „Nie musisz przynosić kopii” oznacza brak obowiązku czy zakaz? Wpisz: brak obowiązku / zakaz.", "zhHans": "Nie musisz przynosić kopii 表示不必还是禁止？填 brak obowiązku 或 zakaz。", "zhHant": "Nie musisz przynosić kopii 表示不必還是禁止？填 brak obowiązku 或 zakaz。"},
+      "answer": "brak obowiązku",
+      "acceptedAnswers": ["brak obowiązku"],
+      "explanation": {"pl": "Nie musisz = nie ma takiego obowiązku. Zakaz wyraża nie wolno. Rozróżniaj chińskie 不必 i 不准; negacja musieć nie tworzy zakazu.", "zhHans": "nie musisz 对应“不必”，不是“不准”；禁止用 nie wolno。否定 musieć 只是取消义务。", "zhHant": "nie musisz 對應「不必」，不是「不准」；禁止用 nie wolno。否定 musieć 只是取消義務。"}
+    },
+    {
+      "id": "pl-b1-own-subject-passport",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij formą swój: Anna pokazuje ___ paszport, nie paszport koleżanki.", "zhHans": "用 swój 的形式填空：Anna pokazuje ___ paszport, nie paszport koleżanki。（安娜出示自己的护照。）", "zhHant": "用 swój 的形式填空：Anna pokazuje ___ paszport, nie paszport koleżanki。（安娜出示自己的護照。）"},
+      "answer": "swój",
+      "acceptedAnswers": ["swój"],
+      "explanation": {"pl": "Swój odsyła do podmiotu Anna, a rodzaj i przypadek uzgadnia z paszportem: biernik męski nieżywotny swój paszport. Nie uzgadniamy go z płcią właścicielki.", "zhHans": "swój 指向主语 Anna，但性和格随被拥有的 paszport：阳性非动物宾格 swój paszport，不随女主人的性别变化。", "zhHant": "swój 指向主語 Anna，但性和格隨被擁有的 paszport：陽性非動物賓格 swój paszport，不隨女主人的性別變化。"}
+    },
+    {
+      "id": "pl-b1-relative-recipient",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij formą który: To lekarka, ___ wysłałem wyniki.", "zhHans": "填入 który 的形式：To lekarka, ___ wysłałem wyniki。（这是我把结果发给的女医生。）", "zhHant": "填入 który 的形式：To lekarka, ___ wysłałem wyniki。（這是我把結果寄給的女醫生。）"},
+      "answer": "której",
+      "acceptedAnswers": ["której"],
+      "explanation": {"pl": "Lekarka daje rodzaj żeński i liczbę pojedynczą, lecz przypadek wynika z wysłałem komu?: której, celownik. Nie kopiujemy mianownika poprzednika.", "zhHans": "lekarka 决定阴性单数；格由从句“发给谁”决定，用与格 której，不能照抄先行词的主格。", "zhHant": "lekarka 決定陰性單數；格由子句「寄給誰」決定，用與格 której，不能照抄先行詞的主格。"}
+    },
+    {
+      "id": "pl-b1-relative-prepositional-topic",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij formą który: To dokument, o ___ rozmawialiśmy.", "zhHans": "填入 który 的形式：To dokument, o ___ rozmawialiśmy。（这是我们谈过的文件。）", "zhHant": "填入 który 的形式：To dokument, o ___ rozmawialiśmy。（這是我們談過的文件。）"},
+      "answer": "którym",
+      "acceptedAnswers": ["którym"],
+      "explanation": {"pl": "Rozmawiać o czymś wymaga miejscownika: o którym. Przyimek stoi przed zaimkiem względnym; nie zostawiamy go na końcu zdania.", "zhHans": "rozmawiać o czymś 要求处所格 o którym。介词位于关系代词前，不留在句末，也不照搬中文的“……的文件”语序。", "zhHant": "rozmawiać o czymś 要求前置格 o którym。介詞位於關係代詞前，不留在句末，也不照搬中文的「……的文件」語序。"}
+    },
+    {
+      "id": "pl-b1-reported-yes-no-question",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij relację z pytania „Czy dokument jest gotowy?”: Zapytała, ___ dokument jest gotowy. (czy / że)", "zhHans": "转述 Czy dokument jest gotowy?，选择 czy 或 że：Zapytała, ___ dokument jest gotowy。", "zhHant": "轉述 Czy dokument jest gotowy?，選擇 czy 或 że：Zapytała, ___ dokument jest gotowy。"},
+      "answer": "czy",
+      "acceptedAnswers": ["czy"],
+      "explanation": {"pl": "Pytanie tak/nie w mowie zależnej wprowadza czy, a stwierdzenie — że. Polski nie wymaga automatycznego cofnięcia jest do był tylko dlatego, że zapytała jest w przeszłości.", "zhHans": "间接是非问句用 czy，陈述用 że。主句 zapytała 是过去时，并不强制把从句 jest 后移为 był。", "zhHant": "間接是非問句用 czy，陳述用 że。主句 zapytała 是過去式，並不強制把子句 jest 後移為 był。"}
+    },
+    {
+      "id": "pl-b1-unsent-document-negation",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Nie wysłałam jeszcze ___ (ten dokument).", "zhHans": "填入正确格：Nie wysłałam jeszcze ___ (ten dokument)。（女性说还没有发出这份文件。）", "zhHant": "填入正確格：Nie wysłałam jeszcze ___ (ten dokument)。（女性說還沒有寄出這份文件。）"},
+      "answer": "tego dokumentu",
+      "acceptedAnswers": ["tego dokumentu"],
+      "explanation": {"pl": "Negacja zmienia biernik bezpośredniego dopełnienia w dopełniacz: wysłałam ten dokument → nie wysłałam tego dokumentu. Jeszcze nie z dokonanym wysłać oznacza brak osiągniętego rezultatu.", "zhHans": "否定直接宾语改用属格：ten dokument → tego dokumentu。jeszcze nie + 完成体 wysłać 表示发送结果尚未实现。", "zhHant": "否定直接賓語改用屬格：ten dokument → tego dokumentu。jeszcze nie + 完成體 wysłać 表示寄送結果尚未實現。"}
+    },
+    {
+      "id": "pl-b1-prohibition-imperfective-send",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Sformułuj ogólny zakaz, używając wysyłać w rozkazującym ty: Nie ___ danych bez zgody.", "zhHans": "用未完成体 wysyłać 的第二人称单数命令式表达一般禁令：Nie ___ danych bez zgody。", "zhHant": "用未完成體 wysyłać 的第二人稱單數命令式表達一般禁令：Nie ___ danych bez zgody。"},
+      "answer": "wysyłaj",
+      "acceptedAnswers": ["wysyłaj"],
+      "explanation": {"pl": "Ogólny zakaz naturalnie ma aspekt niedokonany: nie wysyłaj. Dokonane nie wyślij może ostrzegać przed przypadkowym wysłaniem; nie jest uniwersalnie błędne, ale zmienia sens.", "zhHans": "一般禁令自然用未完成体 nie wysyłaj。完成体 nie wyślij 可用于提醒“别不小心发出去”，并非一概错误，但意思不同。", "zhHant": "一般禁令自然用未完成體 nie wysyłaj。完成體 nie wyślij 可用於提醒「別不小心寄出去」，並非一概錯誤，但意思不同。"}
+    },
+    {
+      "id": "pl-b2-passive-completed-report",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Wpisz imiesłów bierny od zatwierdzić: Raport został ___ przez kierowniczkę.", "zhHans": "填入 zatwierdzić 的被动分词：Raport został ___ przez kierowniczkę。（报告已由女主管批准。）", "zhHant": "填入 zatwierdzić 的被動分詞：Raport został ___ przez kierowniczkę。（報告已由女主管核准。）"},
+      "answer": "zatwierdzony",
+      "acceptedAnswers": ["zatwierdzony"],
+      "explanation": {"pl": "Został zatwierdzony przedstawia dokonane zdarzenie. Imiesłów zgadza się z raportem, nie z kierowniczką: rodzaj męski, liczba pojedyncza.", "zhHans": "został zatwierdzony 表示已完成的事件。分词随 raport 为阳性单数，不随执行者 kierowniczka 的阴性。", "zhHant": "został zatwierdzony 表示已完成的事件。分詞隨 raport 為陽性單數，不隨執行者 kierowniczka 的陰性。"}
+    },
+    {
+      "id": "pl-b2-passive-review-process",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Podkreśl trwający proces, nie zakończenie: O dziesiątej raport był jeszcze ___. (sprawdzany / sprawdzony)", "zhHans": "强调十点时审核仍在进行，而非已完成，选择 sprawdzany 或 sprawdzony：O dziesiątej raport był jeszcze ___。", "zhHant": "強調十點時審核仍在進行，而非已完成，選擇 sprawdzany 或 sprawdzony：O dziesiątej raport był jeszcze ___。"},
+      "answer": "sprawdzany",
+      "acceptedAnswers": ["sprawdzany"],
+      "explanation": {"pl": "Sprawdzany pochodzi od niedokonanego sprawdzać i opisuje proces. Sprawdzony pochodzi od dokonanego sprawdzić i wskazuje rezultat; samo był nie rozstrzyga aspektu.", "zhHans": "sprawdzany 来自未完成体 sprawdzać，表达过程；sprawdzony 来自完成体 sprawdzić，表达结果。不能只根据 był 判断体。", "zhHant": "sprawdzany 來自未完成體 sprawdzać，表達過程；sprawdzony 來自完成體 sprawdzić，表達結果。不能只根據 był 判斷體。"}
+    },
+    {
+      "id": "pl-b2-impersonal-sent",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Użyj bezosobowej formy na -no od wysłać: Wczoraj ___ dokumenty do klienta.", "zhHans": "填入 wysłać 的 -no 无人称形式：Wczoraj ___ dokumenty do klienta。", "zhHant": "填入 wysłać 的 -no 無人稱形式：Wczoraj ___ dokumenty do klienta。"},
+      "answer": "wysłano",
+      "acceptedAnswers": ["wysłano"],
+      "explanation": {"pl": "Wysłano nie ujawnia wykonawcy i nie uzgadnia się z dokumentami. Dokumenty pozostają w bierniku; nie są podmiotem tak jak w zdaniu Dokumenty zostały wysłane.", "zhHans": "wysłano 不说明执行者，也不随 dokumenty 变数。dokumenty 是宾格宾语，不像 Dokumenty zostały wysłane 中那样是主语。", "zhHant": "wysłano 不說明執行者，也不隨 dokumenty 變數。dokumenty 是賓格賓語，不像 Dokumenty zostały wysłane 中那樣是主語。"}
+    },
+    {
+      "id": "pl-b2-participle-shared-agent",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Uzupełnij jako kobieta: Czytając raport, ___ błąd. (zauważyć, przeszłość, ja)", "zhHans": "女性叙述者用 zauważyć 的第一人称单数过去式填空：Czytając raport, ___ błąd。", "zhHant": "女性敘述者用 zauważyć 的第一人稱單數過去式填空：Czytając raport, ___ błąd。"},
+      "answer": "zauważyłam",
+      "acceptedAnswers": ["zauważyłam"],
+      "explanation": {"pl": "Ta sama osoba czyta i zauważa: ja. Konstrukcja Czytając raport, pojawił się błąd jest wadliwa, bo czyni błąd wykonawcą czytania.", "zhHans": "阅读和发现的主体都是“我”。Czytając raport, pojawił się błąd 不合规范，因为主句的“错误”不能充当阅读者。", "zhHant": "閱讀和發現的主體都是「我」。Czytając raport, pojawił się błąd 不合規範，因為主句的「錯誤」不能充當閱讀者。"}
+    },
+    {
+      "id": "pl-b2-anterior-participle",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Utwórz imiesłów przysłówkowy uprzedni od sprawdzić: ___ dane, analityczka wysłała raport.", "zhHans": "用 sprawdzić 构成表示先行动作的副动词：___ dane, analityczka wysłała raport。", "zhHant": "用 sprawdzić 構成表示先行動作的副動詞：___ dane, analityczka wysłała raport。"},
+      "answer": "sprawdziwszy",
+      "acceptedAnswers": ["sprawdziwszy"],
+      "explanation": {"pl": "Sprawdziwszy jest nieodmienne i sygnalizuje wcześniejsze zakończenie sprawdzania przez tę samą analityczkę. Forma jest książkowa; neutralnie: Po sprawdzeniu danych analityczka wysłała raport.", "zhHans": "sprawdziwszy 不随性数变化，表示同一位分析师先核对完数据。该形式偏书面；中性表达可用 Po sprawdzeniu danych analityczka wysłała raport。", "zhHant": "sprawdziwszy 不隨性數變化，表示同一位分析師先核對完資料。該形式偏書面；中性表達可用 Po sprawdzeniu danych analityczka wysłała raport。"}
+    },
+    {
+      "id": "pl-b2-two-doctors-nominative-agreement",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Uzupełnij czasownikiem przyjść w przeszłości: Dwaj lekarze ___ wcześniej.", "zhHans": "填入 przyjść 的过去形式：Dwaj lekarze ___ wcześniej。", "zhHant": "填入 przyjść 的過去形式：Dwaj lekarze ___ wcześniej。"},
+      "answer": "przyszli",
+      "acceptedAnswers": ["przyszli"],
+      "explanation": {"pl": "Dwaj lekarze wymaga męskoosobowej liczby mnogiej: przyszli. Nie stosujemy tu neutralnego przyszło właściwego konstrukcji dwóch lekarzy przyszło.", "zhHans": "dwaj lekarze 搭配阳性人称复数 przyszli；不要与另一结构 dwóch lekarzy przyszło 的中性单数混用。", "zhHant": "dwaj lekarze 搭配陽性人稱複數 przyszli；不要與另一結構 dwóch lekarzy przyszło 的中性單數混用。"}
+    },
+    {
+      "id": "pl-b2-two-doctors-oblique-agreement",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Uzupełnij czasownikiem przyjść w przeszłości: Dwóch lekarzy ___ wcześniej.", "zhHans": "填入 przyjść 的过去形式：Dwóch lekarzy ___ wcześniej。", "zhHant": "填入 przyjść 的過去形式：Dwóch lekarzy ___ wcześniej。"},
+      "answer": "przyszło",
+      "acceptedAnswers": ["przyszło"],
+      "explanation": {"pl": "Przy konstrukcji dwóch lekarzy orzeczenie w przeszłości ma rodzaj nijaki liczby pojedynczej: przyszło. Równie poprawna cała konstrukcja alternatywna to Dwaj lekarze przyszli.", "zhHans": "dwóch lekarzy 这一结构的过去谓语用中性单数 przyszło。整句也可另写为 Dwaj lekarze przyszli，但不能只交换谓语。", "zhHant": "dwóch lekarzy 這一結構的過去謂語用中性單數 przyszło。整句也可另寫為 Dwaj lekarze przyszli，但不能只交換謂語。"}
+    },
+    {
+      "id": "pl-b2-five-people-agreement",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Uzupełnij czasownikiem zostać w przeszłości: Pięć osób ___ na dyżurze.", "zhHans": "填入 zostać 的过去形式：Pięć osób ___ na dyżurze。", "zhHant": "填入 zostać 的過去形式：Pięć osób ___ na dyżurze。"},
+      "answer": "zostało",
+      "acceptedAnswers": ["zostało"],
+      "explanation": {"pl": "Podmiot pięć osób ma orzeczenie w liczbie pojedynczej rodzaju nijakiego: zostało. Nie uzgadniamy orzeczenia bezpośrednio z mnogim osób.", "zhHans": "pięć osób 作主语时，谓语用中性单数 zostało，而非直接根据复数名词 osób 用 zostały。", "zhHant": "pięć osób 作主語時，謂語用中性單數 zostało，而非直接根據複數名詞 osób 用 zostały。"}
+    },
+    {
+      "id": "pl-b2-collective-instrumental",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Odmień całą grupę: Opiekunka przyszła z ___ (dwoje dzieci).", "zhHans": "把整个短语变格：Opiekunka przyszła z ___ (dwoje dzieci)。（女看护带两个孩子来了。）", "zhHant": "把整個片語變格：Opiekunka przyszła z ___ (dwoje dzieci)。（女看護帶兩個孩子來了。）"},
+      "answer": "dwojgiem dzieci",
+      "acceptedAnswers": ["dwojgiem dzieci"],
+      "explanation": {"pl": "Po z w znaczeniu towarzyszenia stoi narzędnik: z dwojgiem dzieci. W tej konstrukcji zbiorowej dzieci pozostaje w dopełniaczu; inaczej niż z dwiema osobami.", "zhHans": "z 表陪同时用工具格 dwojgiem，但这一集合数词结构中的名词仍是属格 dzieci；与 z dwiema osobami 的变化不同。", "zhHant": "z 表陪同時用工具格 dwojgiem，但這一集合數詞結構中的名詞仍是屬格 dzieci；與 z dwiema osobami 的變化不同。"}
+    },
+    {
+      "id": "pl-b2-collective-plural-only-doors",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Wpisz liczebnik zbiorowy oznaczający 2: W sali jest ___ drzwi.", "zhHans": "填入表示 2 的集合数词：W sali jest ___ drzwi。（房间里有两扇门。）", "zhHant": "填入表示 2 的集合數詞：W sali jest ___ drzwi。（房間裡有兩扇門。）"},
+      "answer": "dwoje",
+      "acceptedAnswers": ["dwoje"],
+      "explanation": {"pl": "Drzwi nie mają liczby pojedynczej i łączą się z liczebnikiem zbiorowym: dwoje drzwi. Dwie pary drzwi to inna, również poprawna konstrukcja, lecz nie mieści się w tej luce.", "zhHans": "drzwi 只有复数形式，计数可用 dwoje drzwi。dwie pary drzwi 也是正确的另一种结构，但不能直接填入此空。", "zhHant": "drzwi 只有複數形式，計數可用 dwoje drzwi。dwie pary drzwi 也是正確的另一種結構，但不能直接填入此空。"}
+    },
+    {
+      "id": "pl-c1-concession-nominal",
+      "target": "polish",
+      "courseLevel": "C1",
+      "prompt": {"pl": "Uzupełnij: Mimo ___ wyniki są użyteczne. (niewielka próba)", "zhHans": "填入正确格：Mimo ___ wyniki są użyteczne。(niewielka próba，尽管样本小，结果仍有用。)", "zhHant": "填入正確格：Mimo ___ wyniki są użyteczne。(niewielka próba，儘管樣本小，結果仍有用。)"},
+      "answer": "niewielkiej próby",
+      "acceptedAnswers": ["niewielkiej próby"],
+      "explanation": {"pl": "Przyimek mimo wymaga dopełniacza: niewielkiej próby. Nie wystarczy zachować mianownik tak jak w zdaniu Mimo że próba jest niewielka.", "zhHans": "介词 mimo 要求属格 niewielkiej próby。不能照搬完整从句 Mimo że próba jest niewielka 中的主格。", "zhHant": "介詞 mimo 要求屬格 niewielkiej próby。不能照搬完整子句 Mimo że próba jest niewielka 中的主格。"}
+    },
+    {
+      "id": "pl-c1-concession-clause",
+      "target": "polish",
+      "courseLevel": "C1",
+      "prompt": {"pl": "Dodaj brakującą część spójnika: Mimo ___ próba jest niewielka, warto zbadać ten trend.", "zhHans": "补全连词：Mimo ___ próba jest niewielka, warto zbadać ten trend。", "zhHant": "補全連詞：Mimo ___ próba jest niewielka, warto zbadać ten trend。"},
+      "answer": "że",
+      "acceptedAnswers": ["że"],
+      "explanation": {"pl": "Mimo że wprowadza zdanie z orzeczeniem jest. Samo mimo jest przyimkiem przed grupą rzeczownikową, np. mimo niewielkiej próby.", "zhHans": "mimo że 引出包含谓语 jest 的让步从句；单独的 mimo 是介词，后接名词短语，如 mimo niewielkiej próby。", "zhHant": "mimo że 引出包含謂語 jest 的讓步子句；單獨的 mimo 是介詞，後接名詞片語，如 mimo niewielkiej próby。"}
+    },
+    {
+      "id": "pl-c1-thanks-to-dative",
+      "target": "polish",
+      "courseLevel": "C1",
+      "prompt": {"pl": "Uzupełnij: Dzięki ___ udało się ukończyć analizę. (doświadczony zespół)", "zhHans": "填入正确格：Dzięki ___ udało się ukończyć analizę。(doświadczony zespół，多亏经验丰富的团队。)", "zhHant": "填入正確格：Dzięki ___ udało się ukończyć analizę。(doświadczony zespół，多虧經驗豐富的團隊。)"},
+      "answer": "doświadczonemu zespołowi",
+      "acceptedAnswers": ["doświadczonemu zespołowi"],
+      "explanation": {"pl": "Dzięki wymaga celownika: doświadczonemu zespołowi. Wskutek wymaga dopełniacza; podobieństwo znaczenia przyczynowego nie oznacza tej samej rekcji.", "zhHans": "dzięki 要求与格 doświadczonemu zespołowi；同样表达原因的 wskutek 却要求属格，不能按中文含义相近就使用同一个格。", "zhHant": "dzięki 要求與格 doświadczonemu zespołowi；同樣表達原因的 wskutek 卻要求屬格，不能按中文含義相近就使用同一個格。"}
+    },
+    {
+      "id": "pl-c1-corrective-not-so-much",
+      "target": "polish",
+      "courseLevel": "C1",
+      "prompt": {"pl": "Uzupełnij stałą konstrukcję nie tyle X, ile Y: Problem dotyczy nie tyle ceny, ___ dostępności usługi.", "zhHans": "补全固定结构 nie tyle X, ile Y：Problem dotyczy nie tyle ceny, ___ dostępności usługi。（与其说价格，不如说服务可获得性。）", "zhHant": "補全固定結構 nie tyle X, ile Y：Problem dotyczy nie tyle ceny, ___ dostępności usługi。（與其說價格，不如說服務可取得性。）"},
+      "answer": "ile",
+      "acceptedAnswers": ["ile"],
+      "explanation": {"pl": "Nie tyle X, ile Y przesuwa akcent interpretacyjny na Y. Nie jest to pytanie o ilość ani całkowite wykluczenie znaczenia ceny.", "zhHans": "nie tyle X, ile Y 把解释重点转向 Y；这里 ile 不表示询问数量，也不彻底否认价格的影响。", "zhHant": "nie tyle X, ile Y 把解釋重點轉向 Y；這裡 ile 不表示詢問數量，也不徹底否認價格的影響。"}
+    },
+    {
+      "id": "pl-c2-partial-negation-scope",
+      "target": "polish",
+      "courseLevel": "C2",
+      "prompt": {"pl": "Zachowaj sens „Nie wszyscy zaakceptowali zmianę”. Wybierz: brak jednomyślności / brak jakiegokolwiek poparcia.", "zhHans": "准确理解 Nie wszyscy zaakceptowali zmianę（并非所有人都接受了改变），选择 brak jednomyślności 或 brak jakiegokolwiek poparcia。", "zhHant": "準確理解 Nie wszyscy zaakceptowali zmianę（並非所有人都接受了改變），選擇 brak jednomyślności 或 brak jakiegokolwiek poparcia。"},
+      "answer": "brak jednomyślności",
+      "acceptedAnswers": ["brak jednomyślności"],
+      "explanation": {"pl": "Nie wszyscy wyklucza zgodę wszystkich, ale nie określa liczby zwolenników. Nikt nie zaakceptował oznacza zerowe poparcie. Różnica odpowiada chińskiemu 不都 wobec 都不.", "zhHans": "nie wszyscy 排除全体赞同，但不确定支持人数；nikt nie zaakceptował 才表示无人赞同。注意“不都”和“都不”的否定范围差别。", "zhHant": "nie wszyscy 排除全體贊同，但不確定支持人數；nikt nie zaakceptował 才表示無人贊同。注意「不都」和「都不」的否定範圍差別。"}
+    },
+    {
+      "id": "pl-c2-modal-negation-scope",
+      "target": "polish",
+      "courseLevel": "C2",
+      "prompt": {"pl": "Wybierz parafrazę „Opóźnienie nie musi oznaczać odmowy”: niekoniecznie oznacza odmowę / na pewno nie oznacza odmowy.", "zhHans": "为 Opóźnienie nie musi oznaczać odmowy 选择准确释义：niekoniecznie oznacza odmowę（未必意味着拒绝）或 na pewno nie oznacza odmowy（肯定不意味着拒绝）。", "zhHant": "為 Opóźnienie nie musi oznaczać odmowy 選擇準確釋義：niekoniecznie oznacza odmowę（未必意味著拒絕）或 na pewno nie oznacza odmowy（肯定不意味著拒絕）。"},
+      "answer": "niekoniecznie oznacza odmowę",
+      "acceptedAnswers": ["niekoniecznie oznacza odmowę"],
+      "explanation": {"pl": "Nie musi oznaczać neguje konieczność wniosku, nie samą możliwość odmowy. Nie wolno wzmacniać ostrożnego twierdzenia do pewności, zwłaszcza w przekładzie lub mediacji.", "zhHans": "nie musi oznaczać 否定的是推论的必然性，不是否定拒绝的可能性。翻译或调解时不能把“未必”加强成“肯定不”。", "zhHant": "nie musi oznaczać 否定的是推論的必然性，不是否定拒絕的可能性。翻譯或調解時不能把「未必」加強成「肯定不」。"}
+    },
+    {
+      "id": "pl-b1-aspect-duration-result",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij jednym przyimkiem: Przeczytałam cały raport ___ godzinę. Chodzi o czas potrzebny na ukończenie, nie o termin w przyszłości.", "zhHans": "用一个介词填空：Przeczytałam cały raport ___ godzinę。表示读完整份报告所需的时间，不是未来的时间点。", "zhHant": "用一個介詞填空：Przeczytałam cały raport ___ godzinę。表示讀完整份報告所需的時間，不是未來的時間點。"},
+      "answer": "w",
+      "acceptedAnswers": ["w"],
+      "explanation": {"pl": "„W godzinę” określa czas potrzebny do uzyskania wyniku. „Za godzinę” oznacza godzinę od teraz.", "zhHans": "w godzinę 表示达成结果用了一小时；za godzinę 表示从现在起一小时后。", "zhHant": "w godzinę 表示達成結果用了一小時；za godzinę 表示從現在起一小時後。"}
+    },
+    {
+      "id": "pl-b1-aspect-duration-process",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij przyimkiem „przez” lub „za”: Czytałam raport ___ godzinę, ale go nie skończyłam.", "zhHans": "选 przez 或 za：Czytałam raport ___ godzinę, ale go nie skończyłam。（我读了一小时报告，但没读完。）", "zhHant": "選 przez 或 za：Czytałam raport ___ godzinę, ale go nie skończyłam。（我讀了一小時報告，但沒讀完。）"},
+      "answer": "przez",
+      "acceptedAnswers": ["przez"],
+      "explanation": {"pl": "„Przez godzinę” podaje odcinek trwania. Niedokonane „czytałam” nie gwarantuje ukończenia.", "zhHans": "przez godzinę 表示持续的一段时间，未完成体 czytałam 不保证动作完成。", "zhHant": "przez godzinę 表示持續的一段時間，未完成體 czytałam 不保證動作完成。"}
+    },
+    {
+      "id": "pl-b1-aspect-negated-result",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij formą „napisać”, przeszłość, ja, kobieta: Pisałam cały wieczór, ale nie ___ raportu.", "zhHans": "用 napisać 的过去时填空，第一人称女性：Pisałam cały wieczór, ale nie ___ raportu。（写了一整晚，但没写成报告。）", "zhHant": "用 napisać 的過去式填空，第一人稱女性：Pisałam cały wieczór, ale nie ___ raportu。（寫了一整晚，但沒寫成報告。）"},
+      "answer": "napisałam",
+      "acceptedAnswers": ["napisałam"],
+      "explanation": {"pl": "Zaprzeczamy rezultatowi, nie próbie: napisałam → nie napisałam. Po przeczeniu dopełnienie ma dopełniacz „raportu”.", "zhHans": "否定的是结果，不是否定尝试：nie napisałam。宾语在否定后用属格 raportu。", "zhHant": "否定的是結果，不是否定嘗試：nie napisałam。受詞在否定後用屬格 raportu。"}
+    },
+    {
+      "id": "pl-b1-condition-open-future",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij formą „wrócić”, ja, przyszłość: Jeśli skończę wcześniej, ___ do domu pieszo.", "zhHans": "用 wrócić 的第一人称将来时填空：Jeśli skończę wcześniej, ___ do domu pieszo。", "zhHant": "用 wrócić 的第一人稱未來式填空：Jeśli skończę wcześniej, ___ do domu pieszo。"},
+      "answer": "wrócę",
+      "acceptedAnswers": ["wrócę"],
+      "explanation": {"pl": "„Wrócić” jest dokonane, więc „wrócę” oznacza przyszłość. „Jeśli” dopuszcza czas przyszły w warunku i w zdaniu głównym.", "zhHans": "wrócić 是完成体，所以 wrócę 表示将来。jeśli 条件句及其主句都可以使用将来时。", "zhHant": "wrócić 是完成體，所以 wrócę 表示將來。jeśli 條件句及其主句都可以使用未來式。"}
+    },
+    {
+      "id": "pl-b2-condition-unreal-past",
+      "target": "polish",
+      "courseLevel": "B2",
+      "prompt": {"pl": "Uzupełnij „wyjść”, ja, kobieta: Gdybym wczoraj ___ wcześniej, zdążyłabym na pociąg.", "zhHans": "用 wyjść 填空，第一人称女性：Gdybym wczoraj ___ wcześniej, zdążyłabym na pociąg。（假设昨天早点出门。）", "zhHant": "用 wyjść 填空，第一人稱女性：Gdybym wczoraj ___ wcześniej, zdążyłabym na pociąg。（假設昨天早點出門。）"},
+      "answer": "wyszła",
+      "acceptedAnswers": ["wyszła"],
+      "explanation": {"pl": "Osoba jest już oznaczona w „gdybym”; po nim wystarczy „wyszła”, bez kolejnego -bym. „Wczoraj” wyznacza niezrealizowaną przeszłość.", "zhHans": "gdybym 已标明人称，后面只用 wyszła，不再加 -bym。wczoraj 把假设定位在未实现的过去。", "zhHant": "gdybym 已標明人稱，後面只用 wyszła，不再加 -bym。wczoraj 把假設定位在未實現的過去。"}
+    },
+    {
+      "id": "pl-b1-purpose-different-subject",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij „trafić”, mówiąc do kobiety: Wyślę ci adres, żebyś ___ bez problemu.", "zhHans": "对女性说，用 trafić 填空：Wyślę ci adres, żebyś ___ bez problemu。（我会发地址，好让你顺利找到地方。）", "zhHant": "對女性說，用 trafić 填空：Wyślę ci adres, żebyś ___ bez problemu。（我會傳地址，好讓你順利找到地方。）"},
+      "answer": "trafiła",
+      "acceptedAnswers": ["trafiła"],
+      "explanation": {"pl": "Po „żebyś” używamy formy na -ł- zgodnej z rodzajem adresatki: trafiła. Nie oznacza ona tutaj przeszłości.", "zhHans": "żebyś 后接与女性听话者一致的 -ł- 形式 trafiła，这里不表示过去。", "zhHant": "żebyś 後接與女性聽話者一致的 -ł- 形式 trafiła，這裡不表示過去。"}
+    },
+    {
+      "id": "pl-a2-motion-within-place",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij formą „park”: Codziennie biegam w ___. Chodzi o miejsce biegania, nie cel.", "zhHans": "用 park 的正确形式填空：Codziennie biegam w ___。指跑步发生的地点，不是目的地。", "zhHant": "用 park 的正確形式填空：Codziennie biegam w ___。指跑步發生的地點，不是目的地。"},
+      "answer": "parku",
+      "acceptedAnswers": ["parku"],
+      "explanation": {"pl": "Mimo ruchu używamy miejscownika: w parku. Przypadek zależy od znaczenia przyimka, nie od samego czasownika ruchu.", "zhHans": "虽然有移动，仍用处所格 w parku。格取决于介词的意义，而非只看是否有移动。", "zhHant": "雖然有移動，仍用前置格 w parku。格取決於介詞的意義，而非只看是否有移動。"}
+    },
+    {
+      "id": "pl-a2-source-post-office",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij formą „poczta”: Idę na pocztę, a potem wrócę z ___.", "zhHans": "用 poczta 填空：Idę na pocztę, a potem wrócę z ___。（去邮局，然后从邮局回来。）", "zhHant": "用 poczta 填空：Idę na pocztę, a potem wrócę z ___。（去郵局，然後從郵局回來。）"},
+      "answer": "poczty",
+      "acceptedAnswers": ["poczty"],
+      "explanation": {"pl": "Źródło po „z” wymaga dopełniacza: z poczty. Zestaw to: na poczcie – na pocztę – z poczty.", "zhHans": "表示来源的 z 要求属格：z poczty。成组记忆：na poczcie–na pocztę–z poczty。", "zhHant": "表示來源的 z 要求屬格：z poczty。成組記憶：na poczcie–na pocztę–z poczty。"}
+    },
+    {
+      "id": "pl-a2-accompaniment-source-contrast",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij formą „koleżanka”: Wracam z pracy z ___. (razem z nią)", "zhHans": "用 koleżanka 填空：Wracam z pracy z ___。表示与她一起回来。", "zhHant": "用 koleżanka 填空：Wracam z pracy z ___。表示與她一起回來。"},
+      "answer": "koleżanką",
+      "acceptedAnswers": ["koleżanką"],
+      "explanation": {"pl": "Towarzyszenie to „z + narzędnik”: z koleżanką. W tym samym zdaniu „z pracy” wyraża źródło i ma dopełniacz.", "zhHans": "陪同用 z + 工具格：z koleżanką。同句的 z pracy 表示来源，用属格。", "zhHant": "陪同用 z + 工具格：z koleżanką。同句的 z pracy 表示來源，用屬格。"}
+    },
+    {
+      "id": "pl-b1-half-feminine-measure",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Wpisz „półtora” lub „półtorej”: Czekałam ___ godziny.", "zhHans": "选 półtora 或 półtorej：Czekałam ___ godziny。（等了一个半小时。）", "zhHant": "選 półtora 或 półtorej：Czekałam ___ godziny。（等了一個半小時。）"},
+      "answer": "półtorej",
+      "acceptedAnswers": ["półtorej"],
+      "explanation": {"pl": "„Godzina” jest żeńska: półtorej godziny. Dla męskiego „rok” użyjemy „półtora roku”.", "zhHans": "godzina 是阴性，所以用 półtorej godziny；阳性 rok 则用 półtora roku。", "zhHant": "godzina 是陰性，所以用 półtorej godziny；陽性 rok 則用 półtora roku。"}
+    },
+    {
+      "id": "pl-b1-numeral-instrumental-variants",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij tylko liczebnik „dwa”: Rozmawiam z ___ koleżankami.", "zhHans": "只填数词 dwa 的正确形式：Rozmawiam z ___ koleżankami。", "zhHant": "只填數詞 dwa 的正確形式：Rozmawiam z ___ koleżankami。"},
+      "answer": "dwiema",
+      "acceptedAnswers": ["dwiema", "dwoma"],
+      "explanation": {"pl": "Po „z” w znaczeniu towarzyszenia jest narzędnik. Z rzeczownikiem żeńskim poprawne są oba warianty: dwiema i dwoma.", "zhHans": "表示陪同的 z 后用工具格。与阴性名词搭配时，dwiema 和 dwoma 都正确。", "zhHant": "表示陪同的 z 後用工具格。與陰性名詞搭配時，dwiema 和 dwoma 都正確。"}
+    },
+    {
+      "id": "pl-b1-numeral-dative-phrase",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Odmień całą grupę: Przyglądam się ___. (pięć starych zdjęć)", "zhHans": "将整个短语变格：Przyglądam się ___。（pięć starych zdjęć，五张旧照片）", "zhHant": "將整個片語變格：Przyglądam się ___。（pięć starych zdjęć，五張舊照片）"},
+      "answer": "pięciu starym zdjęciom",
+      "acceptedAnswers": ["pięciu starym zdjęciom"],
+      "explanation": {"pl": "„Przyglądać się” wymaga celownika: pięciu starym zdjęciom. Odmieniamy liczebnik, przymiotnik i rzeczownik.", "zhHans": "przyglądać się 要求与格：pięciu starym zdjęciom。数词、形容词和名词都要变格。", "zhHant": "przyglądać się 要求與格：pięciu starym zdjęciom。數詞、形容詞和名詞都要變格。"}
+    },
+    {
+      "id": "pl-b1-comparison-reference-genitive",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij formą „brat”: Anna jest o trzy lata starsza od ___.", "zhHans": "用 brat 填空：Anna jest o trzy lata starsza od ___。（安娜比她的兄弟大三岁。）", "zhHant": "用 brat 填空：Anna jest o trzy lata starsza od ___。（安娜比她的兄弟大三歲。）"},
+      "answer": "brata",
+      "acceptedAnswers": ["brata"],
+      "explanation": {"pl": "Punkt odniesienia po „od” ma dopełniacz: od brata. Różnicę podaje „o trzy lata”.", "zhHans": "od 后的比较对象用属格：od brata。o trzy lata 表示差值。", "zhHant": "od 後的比較對象用屬格：od brata。o trzy lata 表示差值。"}
+    },
+    {
+      "id": "pl-b1-comparison-difference-preposition",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij jednym przyimkiem: Ten bilet jest tańszy ___ dziesięć złotych niż tamten.", "zhHans": "用一个介词填空：Ten bilet jest tańszy ___ dziesięć złotych niż tamten。（这张票比那张便宜十兹罗提。）", "zhHant": "用一個介詞填空：Ten bilet jest tańszy ___ dziesięć złotych niż tamten。（這張票比那張便宜十茲羅提。）"},
+      "answer": "o",
+      "acceptedAnswers": ["o"],
+      "explanation": {"pl": "„O + biernik” wskazuje różnicę w porównaniu: o dziesięć złotych. „Niż tamten” wskazuje drugi porównywany bilet.", "zhHans": "o + 宾格表示比较差值：o dziesięć złotych。niż tamten 引出另一张被比较的票。", "zhHant": "o + 賓格表示比較差值：o dziesięć złotych。niż tamten 引出另一張被比較的票。"}
+    },
+    {
+      "id": "zh-hsk3-cause-result-connector",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wpisz łącznik skutku „więc”: 因为下雨，___我们不出门。", "zhHans": "填入表示结果的关联词：因为下雨，___我们不出门。", "zhHant": "填入表示結果的關聯詞：因為下雨，___我們不出門。"},
+      "answer": "所以",
+      "acceptedAnswers": ["所以"],
+      "explanation": {"pl": "所以 wprowadza skutek przyczyny podanej po 因为. W chińskim użycie obu łączników jest naturalne.", "zhHans": "所以引出因为所说明的原因产生的结果，汉语中两者可以搭配使用。", "zhHant": "所以引出因為所說明的原因產生的結果，漢語中兩者可以搭配使用。"}
+    },
+    {
+      "id": "zh-hsk3-concession-connector",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Uzupełnij „chociaż”: 她___很忙，但是每天都学中文。", "zhHans": "填入表示让步的关联词：她___很忙，但是每天都学中文。", "zhHant": "填入表示讓步的關聯詞：她___很忙，但是每天都學中文。"},
+      "answer": "虽然",
+      "acceptedAnswers": ["虽然", "雖然"],
+      "explanation": {"pl": "虽然……但是…… łączy fakt z nieoczekiwanym kontrastem: mimo zajęć uczy się codziennie. Podmiot 她 może stać przed 虽然.", "zhHans": "虽然……但是……表示让步转折：尽管忙，她仍每天学习。主语她可以放在虽然前。", "zhHant": "雖然……但是……表示讓步轉折：儘管忙，她仍每天學習。主語她可以放在雖然前。"}
+    },
+    {
+      "id": "zh-hsk3-condition-jiu",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wpisz element pary 如果……就……: 如果你明天有时间，我们___一起去博物馆。", "zhHans": "用如果……就……补全：如果你明天有时间，我们___一起去博物馆。", "zhHant": "用如果……就……補全：如果你明天有時間，我們___一起去博物館。"},
+      "answer": "就",
+      "acceptedAnswers": ["就"],
+      "explanation": {"pl": "就 stoi po podmiocie 我们 i przed orzeczeniem. Sygnalizuje skutek pod wskazanym warunkiem.", "zhHans": "就在主语我们之后、谓语之前，表示条件成立时的结果。", "zhHant": "就在主語我們之後、謂語之前，表示條件成立時的結果。"}
+    },
+    {
+      "id": "zh-hsk2-time-before",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Wpisz 以前 („przed”) lub 以后 („po”): 吃饭___要洗手。 — Przed jedzeniem trzeba umyć ręce.", "zhHans": "选以前或以后：吃饭___要洗手。（表示吃饭之前。）", "zhHant": "選以前或以後：吃飯___要洗手。（表示吃飯之前。）"},
+      "answer": "以前",
+      "acceptedAnswers": ["以前"],
+      "explanation": {"pl": "以前 stoi po nazwie zdarzenia: 吃饭以前 — przed jedzeniem. Cała fraza poprzedza 要洗手.", "zhHans": "以前放在事件吃饭后：吃饭以前。整个时间短语位于要洗手之前。", "zhHant": "以前放在事件吃飯後：吃飯以前。整個時間片語位於要洗手之前。"}
+    },
+    {
+      "id": "zh-hsk2-time-after",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Wpisz 以前 („przed”) lub 以后 („po”): 下课___，我去图书馆。 — Po zajęciach pójdę do biblioteki.", "zhHans": "选以前或以后：下课___，我去图书馆。（表示下课之后。）", "zhHant": "選以前或以後：下課___，我去圖書館。（表示下課之後。）"},
+      "answer": "以后",
+      "acceptedAnswers": ["以后", "以後"],
+      "explanation": {"pl": "以后 umieszczamy po 下课, bo czas określamy względem zakończenia zajęć. Chiński czasownik 去 nie odmienia się przez czasy.", "zhHans": "以后放在下课后，以课程结束为参照点。动词去本身没有时态变化。", "zhHant": "以後放在下課後，以課程結束為參照點。動詞去本身沒有時態變化。"}
+    },
+    {
+      "id": "zh-hsk2-sequence-zai",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Wpisz 再 lub 又: 先看问题，___写答案。 — Najpierw przeczytaj pytanie, potem napisz odpowiedź.", "zhHans": "选再或又：先看问题，___写答案。（安排接下来的步骤。）", "zhHant": "選再或又：先看問題，___寫答案。（安排接下來的步驟。）"},
+      "answer": "再",
+      "acceptedAnswers": ["再"],
+      "explanation": {"pl": "先……再…… porządkuje planowane kroki. 又 zwykle odnosi powtórzenie do zdarzenia, które już zaszło, i nie pasuje do tego polecenia.", "zhHans": "先……再……安排后续步骤。又通常表示已经发生的重复，不适合这里的指令。", "zhHant": "先……再……安排後續步驟。又通常表示已經發生的重複，不適合這裡的指令。"}
+    },
+    {
+      "id": "zh-hsk3-future-completion-le",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wpisz 了 lub 着, aby zaznaczyć zakończenie posiłku przed wyjściem jutro: 明天我们吃___饭以后再走。", "zhHans": "选了或着，表示明天先吃完饭再离开：明天我们吃___饭以后再走。", "zhHant": "選了或著，表示明天先吃完飯再離開：明天我們吃___飯以後再走。"},
+      "answer": "了",
+      "acceptedAnswers": ["了"],
+      "explanation": {"pl": "了 oznacza tu zakończenie pierwszej czynności przed następną. 明天 ustala przyszłość; 了 nie jest końcówką czasu przeszłego.", "zhHans": "了表示第一个动作先于第二个动作完成。明天确定将来时间，了不是过去时词尾。", "zhHant": "了表示第一個動作先於第二個動作完成。明天確定將來時間，了不是過去式詞尾。"}
+    },
+    {
+      "id": "zh-hsk3-negation-partial-scope",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wpisz 不都 lub 都不: 他们___会说中文。 — Nie wszyscy mówią po chińsku.", "zhHans": "选不都或都不：他们___会说中文。（并非所有人都会说。）", "zhHant": "選不都或都不：他們___會說中文。（並非所有人都會說。）"},
+      "answer": "不都",
+      "acceptedAnswers": ["不都"],
+      "explanation": {"pl": "不都 neguje powszechność: nie wszyscy. Nie wynika z tego, że nikt nie potrafi mówić.", "zhHans": "不都表示部分否定：并非所有人如此，并不等于没有人会说。", "zhHant": "不都表示部分否定：並非所有人如此，並不等於沒有人會說。"}
+    },
+    {
+      "id": "zh-hsk3-negation-total-scope",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wpisz 不都 lub 都不: 他们___会说中文。 — Żaden z nich nie mówi po chińsku.", "zhHans": "选不都或都不：他们___会说中文。（所有人都不会说。）", "zhHant": "選不都或都不：他們___會說中文。（所有人都不會說。）"},
+      "answer": "都不",
+      "acceptedAnswers": ["都不"],
+      "explanation": {"pl": "都 obejmuje całą grupę, a 不 neguje umiejętność każdego jej członka. Zmiana kolejności na 不都 zmieniłaby sens.", "zhHans": "“都”涵盖整个群体，“不”否定各成员的能力。改成不都就会改变意思。", "zhHant": "「都」涵蓋整個群體，「不」否定各成員的能力。改成不都就會改變意思。"}
+    },
+    {
+      "id": "zh-hsk2-sequence-full-sentence",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Ułóż zdanie wyłącznie z podanych elementów, dodając przecinek: 先 / 看问题 / 再 / 写答案。 Najpierw przeczytaj pytanie, potem napisz odpowiedź.", "zhHans": "只用这些成分组句，并加逗号：先 / 看问题 / 再 / 写答案。", "zhHant": "只用這些成分組句，並加逗號：先 / 看問題 / 再 / 寫答案。"},
+      "answer": "先看问题，再写答案。",
+      "acceptedAnswers": ["先看问题，再写答案。", "先看問題，再寫答案。", "先看问题,再写答案。", "先看問題,再寫答案。", "先看问题, 再写答案。", "先看問題, 再寫答案。", "先看问题， 再写答案。", "先看問題， 再寫答案。"],
+      "explanation": {"pl": "先 stoi przed pierwszą czynnością, 再 przed drugą. Akceptowane są oba systemy pisma i przecinek chiński lub łaciński; w tym ćwiczeniu nie dodawaj innych słów.", "zhHans": "先放在第一个动作前，再放在第二个动作前。接受简繁体及中文或英文逗号；本题不要添加其他词语。", "zhHant": "先放在第一個動作前，再放在第二個動作前。接受簡繁體及中文或英文逗號；本題不要添加其他詞語。"}
+    },
+    {
       "id": "pl-a1-accusative-ksiazka",
       "target": "polish",
       "courseLevel": "A1",
@@ -254,6 +794,852 @@
         "zhHans": "比引出比较对象：他比我高。",
         "zhHant": "比引出比較對象：他比我高。"
       }
+    },
+    {
+      "id": "pl-a1-accusative-animate-kot",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij biernik: Widzę ___ (kot).", "zhHans": "填入正确的宾格：Widzę ___（kot，猫）。", "zhHant": "填入正確的賓格：Widzę ___（kot，貓）。"},
+      "answer": "kota",
+      "acceptedAnswers": ["kota"],
+      "explanation": {"pl": "Kot jest rodzaju męskiego żywotnego, dlatego biernik liczby pojedynczej ma formę dopełniacza: kota.", "zhHans": "kot 是阳性有生名词，因此单数宾格与属格相同：kota。", "zhHant": "kot 是陽性有生名詞，因此單數賓格與屬格相同：kota。"}
+    },
+    {
+      "id": "pl-a1-accusative-inanimate-stol",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij biernik: Widzę ___ (stół).", "zhHans": "填入正确的宾格：Widzę ___（stół，桌子）。", "zhHant": "填入正確的賓格：Widzę ___（stół，桌子）。"},
+      "answer": "stół",
+      "acceptedAnswers": ["stół"],
+      "explanation": {"pl": "Biernik męskiego rzeczownika nieżywotnego jest równy mianownikowi: widzę stół.", "zhHans": "无生命阳性名词的宾格与主格相同：widzę stół。", "zhHant": "無生命陽性名詞的賓格與主格相同：widzę stół。"}
+    },
+    {
+      "id": "pl-a1-genitive-negation-pies",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Nie widzę ___ (pies).", "zhHans": "填空：Nie widzę ___（pies，狗）。", "zhHant": "填空：Nie widzę ___（pies，狗）。"},
+      "answer": "psa",
+      "acceptedAnswers": ["psa"],
+      "explanation": {"pl": "Przeczenie zwykle zmienia biernik dopełnienia na dopełniacz: pies → psa.", "zhHans": "否定句中直接宾语通常从宾格改为属格：pies → psa。", "zhHant": "否定句中直接賓語通常從賓格改為屬格：pies → psa。"}
+    },
+    {
+      "id": "pl-a1-genitive-plural-ksiazka",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: W torbie nie ma ___ (książka).", "zhHans": "填空：W torbie nie ma ___（książka，书）。", "zhHant": "填空：W torbie nie ma ___（książka，書）。"},
+      "answer": "książek",
+      "acceptedAnswers": ["książek"],
+      "explanation": {"pl": "„Nie ma” wymaga dopełniacza; liczba mnoga od „książka” to „książek”.", "zhHans": "nie ma（没有）后接属格；książka 的复数属格是 książek。", "zhHant": "nie ma（沒有）後接屬格；książka 的複數屬格是 książek。"}
+    },
+    {
+      "id": "pl-a1-numeral-two-ksiazki",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Mam dwie ___ (książka).", "zhHans": "填空：Mam dwie ___（książka，两本书）。", "zhHant": "填空：Mam dwie ___（książka，兩本書）。"},
+      "answer": "książki",
+      "acceptedAnswers": ["książki"],
+      "explanation": {"pl": "Po „dwie” rzeczownik żeński ma formę mianownika liczby mnogiej: dwie książki.", "zhHans": "阴性名词与 dwie 连用时用复数主格：dwie książki。", "zhHant": "陰性名詞與 dwie 連用時用複數主格：dwie książki。"}
+    },
+    {
+      "id": "pl-a1-numeral-five-ksiazek",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Mam pięć ___ (książka).", "zhHans": "填空：Mam pięć ___（książka，五本书）。", "zhHant": "填空：Mam pięć ___（książka，五本書）。"},
+      "answer": "książek",
+      "acceptedAnswers": ["książek"],
+      "explanation": {"pl": "Po liczebniku „pięć” używamy dopełniacza liczby mnogiej: pięć książek.", "zhHans": "数词 pięć 后用复数属格：pięć książek。", "zhHant": "數詞 pięć 後用複數屬格：pięć książek。"}
+    },
+    {
+      "id": "pl-a1-locative-film",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Rozmawiamy o ___ (film).", "zhHans": "填空：Rozmawiamy o ___（film，电影）。", "zhHant": "填空：Rozmawiamy o ___（film，電影）。"},
+      "answer": "filmie",
+      "acceptedAnswers": ["filmie"],
+      "explanation": {"pl": "Przyimek „o” w znaczeniu „na temat” wymaga miejscownika: o filmie.", "zhHans": "o 表示“关于”时要求处所格：o filmie。", "zhHant": "o 表示「關於」時要求前置格：o filmie。"}
+    },
+    {
+      "id": "pl-a1-dative-kolega",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Pomagam ___ (kolega).", "zhHans": "填空：Pomagam ___（kolega，男同学/同事）。", "zhHant": "填空：Pomagam ___（kolega，男同學／同事）。"},
+      "answer": "koledze",
+      "acceptedAnswers": ["koledze"],
+      "explanation": {"pl": "Czasownik „pomagać” łączy się z celownikiem; „kolega” ma formę „koledze”.", "zhHans": "动词 pomagać（帮助）后接与格；kolega 的与格是 koledze。", "zhHant": "動詞 pomagać（幫助）後接與格；kolega 的與格是 koledze。"}
+    },
+    {
+      "id": "pl-a1-instrumental-matka",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Idę na spacer z ___ (matka).", "zhHans": "填空：Idę na spacer z ___（matka，母亲）。", "zhHant": "填空：Idę na spacer z ___（matka，母親）。"},
+      "answer": "matką",
+      "acceptedAnswers": ["matką"],
+      "explanation": {"pl": "„Z” w znaczeniu „razem z” wymaga narzędnika: z matką.", "zhHans": "z 表示“和……一起”时要求工具格：z matką。", "zhHant": "z 表示「和……一起」時要求工具格：z matką。"}
+    },
+    {
+      "id": "pl-a1-instrumental-plural-student",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Nauczyciel rozmawia ze ___ (student, lm.).", "zhHans": "填空：Nauczyciel rozmawia ze ___（student，学生，复数）。", "zhHant": "填空：Nauczyciel rozmawia ze ___（student，學生，複數）。"},
+      "answer": "studentami",
+      "acceptedAnswers": ["studentami"],
+      "explanation": {"pl": "Przyimek „z” wymaga narzędnika; liczba mnoga od „student” to „studentami”.", "zhHans": "介词 z 后接工具格；student 的复数工具格是 studentami。", "zhHant": "介詞 z 後接工具格；student 的複數工具格是 studentami。"}
+    },
+    {
+      "id": "pl-a1-adjective-neuter",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzgodnij przymiotnik: To jest ___ okno. (nowy)", "zhHans": "让形容词与名词一致：To jest ___ okno。（nowy，新）", "zhHant": "讓形容詞與名詞一致：To jest ___ okno。（nowy，新）"},
+      "answer": "nowe",
+      "acceptedAnswers": ["nowe"],
+      "explanation": {"pl": "„Okno” ma rodzaj nijaki, dlatego mówimy „nowe okno”.", "zhHans": "okno 是中性名词，因此用 nowe okno。", "zhHant": "okno 是中性名詞，因此用 nowe okno。"}
+    },
+    {
+      "id": "pl-a1-verb-irregular-isc",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Wybierz formę: Codziennie ___ do pracy pieszo. (iść, ja)", "zhHans": "填入正确形式：我每天步行去上班。（iść，ja）", "zhHant": "填入正確形式：我每天步行去上班。（iść，ja）"},
+      "answer": "idę",
+      "acceptedAnswers": ["idę"],
+      "explanation": {"pl": "Czasownik „iść” odmienia się nieregularnie: ja idę, ty idziesz, oni idą.", "zhHans": "iść（步行去）是不规则动词：ja idę、ty idziesz、oni idą。", "zhHant": "iść（步行去）是不規則動詞：ja idę、ty idziesz、oni idą。"}
+    },
+    {
+      "id": "pl-a1-verb-eat",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: Dzieci ___ śniadanie o ósmej. (jeść)", "zhHans": "填空：孩子们八点吃早餐。（jeść）", "zhHant": "填空：孩子們八點吃早餐。（jeść）"},
+      "answer": "jedzą",
+      "acceptedAnswers": ["jedzą"],
+      "explanation": {"pl": "Trzecia osoba liczby mnogiej czasownika „jeść” to „jedzą”.", "zhHans": "jeść（吃）的第三人称复数是 jedzą。", "zhHant": "jeść（吃）的第三人稱複數是 jedzą。"}
+    },
+    {
+      "id": "pl-a1-comparison-irregular-good",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij porównanie: Ta kawa jest ___ niż tamta. (dobry)", "zhHans": "填入比较级：这杯咖啡比那杯好。（dobry）", "zhHant": "填入比較級：這杯咖啡比那杯好。（dobry）"},
+      "answer": "lepsza",
+      "acceptedAnswers": ["lepsza"],
+      "explanation": {"pl": "„Dobry” ma nieregularny stopień wyższy „lepszy”; w rodzaju żeńskim: „lepsza”.", "zhHans": "dobry（好）的不规则比较级是 lepszy；阴性形式为 lepsza。", "zhHant": "dobry（好）的不規則比較級是 lepszy；陰性形式為 lepsza。"}
+    },
+    {
+      "id": "pl-a1-numeral-twelve-studentow",
+      "target": "polish",
+      "courseLevel": "A1",
+      "prompt": {"pl": "Uzupełnij: W grupie jest dwunastu ___. (student)", "zhHans": "填空：小组里有十二名男学生。（student）", "zhHant": "填空：小組裡有十二名男學生。（student）"},
+      "answer": "studentów",
+      "acceptedAnswers": ["studentów"],
+      "explanation": {"pl": "Liczebnik męskoosobowy „dwunastu” łączy się z dopełniaczem liczby mnogiej: studentów.", "zhHans": "阳性人称数词 dwunastu 后接复数属格：studentów。", "zhHant": "陽性人稱數詞 dwunastu 後接複數屬格：studentów。"}
+    },
+    {
+      "id": "pl-a2-genitive-negation-film",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Zmień dopełnienie zgodnie z przeczeniem: Nie oglądam ___ (film).", "zhHans": "根据否定句选择宾语形式：Nie oglądam ___（film，电影）。", "zhHant": "根據否定句選擇賓語形式：Nie oglądam ___（film，電影）。"},
+      "answer": "filmu",
+      "acceptedAnswers": ["filmu"],
+      "explanation": {"pl": "Przeczenie „nie” zwykle wymaga dopełniacza zamiast biernika: nie oglądam filmu.", "zhHans": "否定词 nie 后的直接宾语通常用属格而非宾格：nie oglądam filmu。", "zhHant": "否定詞 nie 後的直接賓語通常用屬格而非賓格：nie oglądam filmu。"}
+    },
+    {
+      "id": "pl-a2-aspect-background",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Kiedy Anna ___ książkę, zadzwonił telefon. (czytać)", "zhHans": "填空：安娜正在读书时，电话响了。（czytać）", "zhHant": "填空：安娜正在讀書時，電話響了。（czytać）"},
+      "answer": "czytała",
+      "acceptedAnswers": ["czytała"],
+      "explanation": {"pl": "Niedokonane „czytała” przedstawia trwające tło; dokonane zdarzenie to „zadzwonił”.", "zhHans": "未完成体 czytała 描写持续的背景；zadzwonił 是发生的一次完成事件。", "zhHant": "未完成體 czytała 描寫持續的背景；zadzwonił 是發生的一次完成事件。"}
+    },
+    {
+      "id": "pl-a2-aspect-result",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: W końcu ___ raport i wysłałem go szefowi. (napisać, ja)", "zhHans": "填空：最后我写完报告并发给了主管。（napisać，ja）", "zhHant": "填空：最後我寫完報告並發給了主管。（napisać，ja）"},
+      "answer": "napisałem",
+      "acceptedAnswers": ["napisałem"],
+      "explanation": {"pl": "„W końcu” i wysłanie gotowego raportu podkreślają zakończony rezultat; forma męska to „napisałem”.", "zhHans": "w końcu（终于）和发出完成的报告突出结果；男性说 napisałem。", "zhHant": "w końcu（終於）和寄出完成的報告凸顯結果；男性說 napisałem。"}
+    },
+    {
+      "id": "pl-a2-perfective-future",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Jutro ___ list do babci. (napisać, ja)", "zhHans": "填空：明天我会给祖母写完一封信。（napisać，ja）", "zhHant": "填空：明天我會給祖母寫完一封信。（napisać，ja）"},
+      "answer": "napiszę",
+      "acceptedAnswers": ["napiszę"],
+      "explanation": {"pl": "„Napiszę” to dokonany czas przyszły; czasownik dokonany nie ma tu znaczenia teraźniejszego.", "zhHans": "napiszę 是完成体将来时；完成体动词在这里并不表示现在。", "zhHant": "napiszę 是完成體未來式；完成體動詞在這裡並不表示現在。"}
+    },
+    {
+      "id": "pl-a2-imperfective-future",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Jutro o tej porze będę ___ na egzamin. (uczyć się)", "zhHans": "填空：明天这个时候我会正在为考试学习。（uczyć się）", "zhHant": "填空：明天這個時候我會正在為考試學習。（uczyć się）"},
+      "answer": "uczyć się",
+      "acceptedAnswers": ["uczyć się"],
+      "explanation": {"pl": "Czynność trwająca w przyszłości: „będę” + bezokolicznik niedokonany „uczyć się”.", "zhHans": "表示将来持续的动作：będę 加未完成体不定式 uczyć się。", "zhHant": "表示未來持續的動作：będę 加未完成體不定詞 uczyć się。"}
+    },
+    {
+      "id": "pl-a2-imperfective-past-frequency",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: W dzieciństwie często ___ do babci. (jeździć, ja, mężczyzna)", "zhHans": "填空：小时候我（男性）常去祖母家。（jeździć）", "zhHant": "填空：小時候我（男性）常去祖母家。（jeździć）"},
+      "answer": "jeździłem",
+      "acceptedAnswers": ["jeździłem"],
+      "explanation": {"pl": "Powtarzalność („często”) opisuje aspekt niedokonany; mężczyzna mówi „jeździłem”.", "zhHans": "często（经常）表示重复习惯，使用未完成体；男性说 jeździłem。", "zhHant": "często（經常）表示重複習慣，使用未完成體；男性說 jeździłem。"}
+    },
+    {
+      "id": "pl-a2-imperfective-past-feminine",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Wczoraj Maria ___ obiad dla rodziny. (gotować)", "zhHans": "填空：昨天玛丽亚为家人做饭。（gotować）", "zhHant": "填空：昨天瑪麗亞為家人做飯。（gotować）"},
+      "answer": "gotowała",
+      "acceptedAnswers": ["gotowała"],
+      "explanation": {"pl": "Maria to podmiot rodzaju żeńskiego; niedokonane „gotowała” skupia się na trwającej czynności.", "zhHans": "Maria 是阴性主语；未完成体 gotowała 着重正在进行的过程。", "zhHant": "Maria 是陰性主詞；未完成體 gotowała 著重正在進行的過程。"}
+    },
+    {
+      "id": "pl-a2-numeral-twelve-exception",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: W bibliotece pracuje dwanaście ___. (kobieta)", "zhHans": "填空：图书馆有十二位女性员工。（kobieta）", "zhHant": "填空：圖書館有十二位女性員工。（kobieta）"},
+      "answer": "kobiet",
+      "acceptedAnswers": ["kobiet"],
+      "explanation": {"pl": "Liczebniki 11–19, także „dwanaście”, łączą się z dopełniaczem liczby mnogiej: kobiet.", "zhHans": "11–19 的数词（包括 dwanaście）后接复数属格：kobiet。", "zhHant": "11–19 的數詞（包括 dwanaście）後接複數屬格：kobiet。"}
+    },
+    {
+      "id": "pl-a2-numeral-compound-23",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: W sali są dwadzieścia trzy ___. (krzesło)", "zhHans": "填空：大厅里有二十三把椅子。（krzesło）", "zhHant": "填空：大廳裡有二十三把椅子。（krzesło）"},
+      "answer": "krzesła",
+      "acceptedAnswers": ["krzesła"],
+      "explanation": {"pl": "W liczbie 23 ostatni człon to „trzy”, więc rzeczownik ma formę mianownika liczby mnogiej: krzesła.", "zhHans": "23 的末位数词是 trzy，因此名词用复数主格：krzesła。", "zhHant": "23 的末位數詞是 trzy，因此名詞用複數主格：krzesła。"}
+    },
+    {
+      "id": "pl-a2-numeral-compound-21",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Na kurs zapisało się dwadzieścia jeden ___. (student, grupa męska)", "zhHans": "填空：有二十一名男学生报名了课程。（student）", "zhHant": "填空：有二十一名男學生報名了課程。（student）"},
+      "answer": "studentów",
+      "acceptedAnswers": ["studentów"],
+      "explanation": {"pl": "Przy liczbie 21 grupa męskoosobowa wymaga dopełniacza liczby mnogiej: dwadzieścia jeden studentów.", "zhHans": "21 名男性组成的群体用复数属格：dwadzieścia jeden studentów。", "zhHant": "21 名男性組成的群體用複數屬格：dwadzieścia jeden studentów。"}
+    },
+    {
+      "id": "pl-a2-dative-pronoun-health",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Boli ___ głowa. (ja)", "zhHans": "填空：我头疼。（ja）", "zhHant": "填空：我頭疼。（ja）"},
+      "answer": "mnie",
+      "acceptedAnswers": ["mnie"],
+      "explanation": {"pl": "W konstrukcji „kogo boli?” zaimek ma formę biernika: mnie boli głowa.", "zhHans": "在“谁疼？”的结构中，代词用宾格：mnie boli głowa。", "zhHant": "在「誰疼？」的結構中，代詞用賓格：mnie boli głowa。"}
+    },
+    {
+      "id": "pl-a2-genitive-direction",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Jedziemy do ___ (miasto).", "zhHans": "填空：我们要去城市。（miasto）", "zhHant": "填空：我們要去城市。（miasto）"},
+      "answer": "miasta",
+      "acceptedAnswers": ["miasta"],
+      "explanation": {"pl": "Przyimek „do” oznaczający kierunek wymaga dopełniacza: do miasta.", "zhHans": "表示方向的介词 do 后接属格：do miasta。", "zhHant": "表示方向的介詞 do 後接屬格：do miasta。"}
+    },
+    {
+      "id": "pl-a2-locative-place",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Mieszkamy w ___ (miasto).", "zhHans": "填空：我们住在城市里。（miasto）", "zhHant": "填空：我們住在城市裡。（miasto）"},
+      "answer": "mieście",
+      "acceptedAnswers": ["mieście"],
+      "explanation": {"pl": "„W” odpowiada na pytanie „gdzie?” i łączy się z miejscownikiem: w mieście.", "zhHans": "w 回答“在哪里”，后接处所格：w mieście。", "zhHant": "w 回答「在哪裡」，後接前置格：w mieście。"}
+    },
+    {
+      "id": "pl-a2-comparison-irregular-large",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Nasze nowe mieszkanie jest ___ od starego. (duży)", "zhHans": "填空：我们的新公寓比旧公寓大。（duży）", "zhHant": "填空：我們的新公寓比舊公寓大。（duży）"},
+      "answer": "większe",
+      "acceptedAnswers": ["większe"],
+      "explanation": {"pl": "„Duży” ma nieregularny stopień wyższy „większy”; „mieszkanie” jest rodzaju nijakiego: większe.", "zhHans": "duży（大）的不规则比较级是 większy；mieszkanie 是中性名词，因此用 większe。", "zhHant": "duży（大）的不規則比較級是 większy；mieszkanie 是中性名詞，因此用 większe。"}
+    },
+    {
+      "id": "pl-a2-instrumental-adjective",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Rozmawiam z ___ sąsiadami. (nowy)", "zhHans": "填空：我正在和新邻居交谈。（nowy）", "zhHant": "填空：我正在和新鄰居交談。（nowy）"},
+      "answer": "nowymi",
+      "acceptedAnswers": ["nowymi"],
+      "explanation": {"pl": "„Z” w znaczeniu towarzyszenia wymaga narzędnika; przymiotnik w liczbie mnogiej ma końcówkę -ymi.", "zhHans": "表示陪伴的 z 后接工具格；复数形容词的词尾为 -ymi。", "zhHant": "表示陪伴的 z 後接工具格；複數形容詞的詞尾為 -ymi。"}
+    },
+    {
+      "id": "pl-a2-comparison-regular",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Pociąg jest ___ od autobusu. (szybki)", "zhHans": "填空：火车比公交车快。（szybki）", "zhHant": "填空：火車比公車快。（szybki）"},
+      "answer": "szybszy",
+      "acceptedAnswers": ["szybszy"],
+      "explanation": {"pl": "„Szybki” ma stopień wyższy „szybszy”; po „od” używamy dopełniacza: autobusu.", "zhHans": "szybki（快）的比较级是 szybszy；od 后接属格：autobusu。", "zhHant": "szybki（快）的比較級是 szybszy；od 後接屬格：autobusu。"}
+    },
+    {
+      "id": "pl-a2-pronoun-preposition",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Widziałam Annę i rozmawiałam z ___. (ona)", "zhHans": "填空：我（女性）看见了安娜，并和她交谈。（ona）", "zhHant": "填空：我（女性）看見了安娜，並和她交談。（ona）"},
+      "answer": "nią",
+      "acceptedAnswers": ["nią"],
+      "explanation": {"pl": "Po przyimku „z” zaimek „ona” ma formę z n- i narzędnik: z nią.", "zhHans": "介词 z 后，ona 使用带 n- 的工具格形式：z nią。", "zhHant": "介詞 z 後，ona 使用帶 n- 的工具格形式：z nią。"}
+    },
+    {
+      "id": "pl-a2-comparison-superlative",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: To ___ restauracja w tej okolicy. (dobry)", "zhHans": "填空：这是这一带最好的餐厅。（dobry）", "zhHant": "填空：這是這一帶最好的餐廳。（dobry）"},
+      "answer": "najlepsza",
+      "acceptedAnswers": ["najlepsza"],
+      "explanation": {"pl": "Nieregularny stopień najwyższy to „najlepszy”; z żeńskim „restauracja” uzgadniamy „najlepsza”.", "zhHans": "dobry 的不规则最高级是 najlepszy；与阴性 restauracja 一致时用 najlepsza。", "zhHant": "dobry 的不規則最高級是 najlepszy；與陰性 restauracja 一致時用 najlepsza。"}
+    },
+    {
+      "id": "pl-a2-imperative-negative",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Ułóż zakaz do jednej osoby: Nie ___ tutaj! (parkować)", "zhHans": "对一个人发出禁止：不要在这里停车！（parkować）", "zhHant": "對一個人發出禁止：不要在這裡停車！（parkować）"},
+      "answer": "parkuj",
+      "acceptedAnswers": ["parkuj"],
+      "explanation": {"pl": "W typowym zakazie używamy „nie” i niedokonanego trybu rozkazującego: nie parkuj.", "zhHans": "常见的禁止句用 nie 加未完成体命令式：nie parkuj。", "zhHant": "常見的禁止句用 nie 加未完成體命令式：nie parkuj。"}
+    },
+    {
+      "id": "pl-a2-aspect-imperative",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Poproś o jednorazowy rezultat: ___ okno, proszę. (otworzyć, ty)", "zhHans": "请求对方完成一次动作：请把窗户打开。（otworzyć，ty）", "zhHant": "請求對方完成一次動作：請把窗戶打開。（otworzyć，ty）"},
+      "answer": "Otwórz",
+      "acceptedAnswers": ["Otwórz", "otwórz"],
+      "explanation": {"pl": "Jednorazową czynność z oczekiwanym wynikiem wyraża dokonany rozkaz „otwórz”.", "zhHans": "要表达一次性且期待结果的动作，使用完成体命令式 otwórz。", "zhHant": "要表達一次性且期待結果的動作，使用完成體命令式 otwórz。"}
+    },
+    {
+      "id": "pl-a2-conditional-polite",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uprzejma prośba do mężczyzny: Czy ___ mi pomóc? (móc, ty)", "zhHans": "礼貌地请求一位男性：您能帮我吗？（móc，ty）", "zhHant": "禮貌地請求一位男性：您能幫我嗎？（móc，ty）"},
+      "answer": "mógłbyś",
+      "acceptedAnswers": ["mógłbyś"],
+      "explanation": {"pl": "Tryb przypuszczający łagodzi prośbę; do mężczyzny mówimy „mógłbyś”.", "zhHans": "虚拟式可以让请求更委婉；对男性说 mógłbyś。", "zhHant": "假設語氣可以讓請求更委婉；對男性說 mógłbyś。"}
+    },
+    {
+      "id": "pl-a2-conditional-feminine",
+      "target": "polish",
+      "courseLevel": "A2",
+      "prompt": {"pl": "Uzupełnij: Anna chętnie ___ kawę, gdyby nie była zmęczona. (wypić)", "zhHans": "填空：如果安娜不累，她很愿意喝杯咖啡。（wypić）", "zhHant": "填空：如果安娜不累，她很願意喝杯咖啡。（wypić）"},
+      "answer": "wypiłaby",
+      "acceptedAnswers": ["wypiłaby"],
+      "explanation": {"pl": "Warunek hipotetyczny wymaga trybu przypuszczającego; rodzaj żeński: wypiłaby.", "zhHans": "假设条件句使用虚拟式；阴性形式为 wypiłaby。", "zhHant": "假設條件句使用假設語氣；陰性形式為 wypiłaby。"}
+    },
+    {
+      "id": "pl-b1-aspect-sequence",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij tło zdarzenia: Kiedy Anna ___, ktoś zapukał do drzwi. (czytać)", "zhHans": "补全背景动作：安娜正在读书时，有人敲了门。（czytać）", "zhHant": "補全背景動作：安娜正在讀書時，有人敲了門。（czytać）"},
+      "answer": "czytała",
+      "acceptedAnswers": ["czytała"],
+      "explanation": {"pl": "Niedokonany aspekt pokazuje czynność trwającą w chwili krótkiego zdarzenia „zapukał”.", "zhHans": "未完成体描写在短暂事件 zapukał（敲门）发生时正在持续的动作。", "zhHant": "未完成體描寫在短暫事件 zapukał（敲門）發生時正在持續的動作。"}
+    },
+    {
+      "id": "pl-b1-aspect-completion",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij rezultat: Przez dwie godziny pisałem, ale listu nie ___. (napisać)", "zhHans": "补全结果：我写了两个小时，但没有把信写完。（napisać）", "zhHant": "補全結果：我寫了兩個小時，但沒有把信寫完。（napisać）"},
+      "answer": "napisałem",
+      "acceptedAnswers": ["napisałem"],
+      "explanation": {"pl": "Przeczenie dotyczy dopełnienia „list”; dokonany czasownik w przeszłości wyraża niezrealizowany rezultat.", "zhHans": "否定作用于宾语 list；过去时完成体表示预期结果没有实现。", "zhHant": "否定作用於賓語 list；過去式完成體表示預期結果沒有實現。"}
+    },
+    {
+      "id": "pl-b1-aspect-repeated-action",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij czynność powtarzaną: W każdy piątek ___ z przyjaciółmi w szachy. (grać, my)", "zhHans": "补全重复的习惯：我们每周五和朋友下棋。（grać，my）", "zhHant": "補全重複的習慣：我們每週五和朋友下棋。（grać，my）"},
+      "answer": "gramy",
+      "acceptedAnswers": ["gramy"],
+      "explanation": {"pl": "„W każdy piątek” wskazuje na powtarzalność, więc używamy niedokonanego „gramy”.", "zhHans": "w każdy piątek（每周五）表示重复习惯，因此使用未完成体 gramy。", "zhHant": "w każdy piątek（每週五）表示重複習慣，因此使用未完成體 gramy。"}
+    },
+    {
+      "id": "pl-b1-multiple-negation",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Nikt ___ o tym nie wie. (nic)", "zhHans": "填空：没有人知道这件事。（nic）", "zhHant": "填空：沒有人知道這件事。（nic）"},
+      "answer": "nic",
+      "acceptedAnswers": ["nic"],
+      "explanation": {"pl": "Polski zachowuje „nie” przy czasowniku razem z zaimkiem przeczącym: nikt nic nie wie.", "zhHans": "波兰语中，否定代词与动词前的 nie 同时使用：nikt nic nie wie。", "zhHant": "波蘭語中，否定代詞與動詞前的 nie 同時使用：nikt nic nie wie。"}
+    },
+    {
+      "id": "pl-b1-negative-genitive-plural",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Nie kupiliśmy ___ (bilet, lm.).", "zhHans": "填空：我们没有买票。（bilet，复数）", "zhHant": "填空：我們沒有買票。（bilet，複數）"},
+      "answer": "biletów",
+      "acceptedAnswers": ["biletów"],
+      "explanation": {"pl": "Przeczenie wprowadza dopełniacz liczby mnogiej: nie kupiliśmy biletów.", "zhHans": "否定句使用复数属格：nie kupiliśmy biletów。", "zhHant": "否定句使用複數屬格：nie kupiliśmy biletów。"}
+    },
+    {
+      "id": "pl-b1-conditional-feminine",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Gdyby Marta miała więcej czasu, ___ w Polsce dłużej. (zostać)", "zhHans": "填空：如果玛尔塔有更多时间，她会在波兰多待一阵。（zostać）", "zhHant": "填空：如果瑪爾塔有更多時間，她會在波蘭多待一陣。（zostać）"},
+      "answer": "zostałaby",
+      "acceptedAnswers": ["zostałaby"],
+      "explanation": {"pl": "Obie części warunku hipotetycznego używają trybu przypuszczającego; podmiot żeński: zostałaby.", "zhHans": "假设条件句的两个部分都用虚拟式；阴性主语用 zostałaby。", "zhHant": "假設條件句的兩個部分都用假設語氣；陰性主詞用 zostałaby。"}
+    },
+    {
+      "id": "pl-b1-conditional-masculine",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Chętnie ___ z tobą, ale muszę pracować. (porozmawiać, ja, mężczyzna)", "zhHans": "填空：我（男性）很愿意和你聊聊，但我得工作。（porozmawiać）", "zhHant": "填空：我（男性）很願意和你聊聊，但我得工作。（porozmawiać）"},
+      "answer": "porozmawiałbym",
+      "acceptedAnswers": ["porozmawiałbym"],
+      "explanation": {"pl": "„Chętnie” często łączy się z trybem przypuszczającym; mówiący mężczyzna używa „porozmawiałbym”.", "zhHans": "chętnie（很愿意）常与虚拟式搭配；男性说 porozmawiałbym。", "zhHant": "chętnie（很願意）常與假設語氣搭配；男性說 porozmawiałbym。"}
+    },
+    {
+      "id": "pl-b1-conditional-polite-pan",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uprzejmie zwróć się do mężczyzny: Czy ___ pan powtórzyć pytanie? (móc)", "zhHans": "礼貌地对一位男性说：您能重复一下问题吗？（móc）", "zhHant": "禮貌地對一位男性說：您能重複一下問題嗎？（móc）"},
+      "answer": "mógłby",
+      "acceptedAnswers": ["mógłby"],
+      "explanation": {"pl": "Przy „pan” czasownik ma formę trzeciej osoby liczby pojedynczej rodzaju męskiego: mógłby pan.", "zhHans": "与 pan（先生/您）连用时，动词用第三人称阳性单数：mógłby pan。", "zhHant": "與 pan（先生／您）連用時，動詞用第三人稱陽性單數：mógłby pan。"}
+    },
+    {
+      "id": "pl-b1-imperative-group",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Zaproponuj wspólne działanie: ___ ten tekst razem. (przeczytać, my)", "zhHans": "提议一起行动：我们一起读完这篇文章吧。（przeczytać，my）", "zhHant": "提議一起行動：我們一起讀完這篇文章吧。（przeczytać，my）"},
+      "answer": "Przeczytajmy",
+      "acceptedAnswers": ["Przeczytajmy", "przeczytajmy"],
+      "explanation": {"pl": "Zachęta skierowana do „my” powstaje przez dodanie -my do trybu rozkazującego: przeczytajmy.", "zhHans": "面向“我们”的建议，可在命令式后加 -my：przeczytajmy。", "zhHant": "面向「我們」的建議，可在命令式後加 -my：przeczytajmy。"}
+    },
+    {
+      "id": "pl-b1-imperative-polite-infinitive",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij neutralną, uprzejmą instrukcję: Proszę ___ drzwi. (zamknąć)", "zhHans": "补全礼貌、中性的指示：请关门。（zamknąć）", "zhHant": "補全禮貌、中性的指示：請關門。（zamknąć）"},
+      "answer": "zamknąć",
+      "acceptedAnswers": ["zamknąć"],
+      "explanation": {"pl": "W uprzejmej instrukcji często używa się „proszę” + bezokolicznik: proszę zamknąć.", "zhHans": "礼貌指示常用 proszę 加不定式：proszę zamknąć。", "zhHant": "禮貌指示常用 proszę 加不定詞：proszę zamknąć。"}
+    },
+    {
+      "id": "pl-b1-numeral-masculine-personal",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Na spotkanie przyszło pięciu ___. (student)", "zhHans": "填空：有五名男学生来参加会议。（student）", "zhHant": "填空：有五名男學生來參加會議。（student）"},
+      "answer": "studentów",
+      "acceptedAnswers": ["studentów"],
+      "explanation": {"pl": "Przy liczebniku męskoosobowym „pięciu” rzeczownik ma dopełniacz liczby mnogiej.", "zhHans": "阳性人称数词 pięciu 后，名词用复数属格。", "zhHant": "陽性人稱數詞 pięciu 後，名詞用複數屬格。"}
+    },
+    {
+      "id": "pl-b1-collective-numeral",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Dwoje ___ bawiło się w ogrodzie. (dziecko)", "zhHans": "填空：两个孩子在花园里玩。（dziecko）", "zhHant": "填空：兩個孩子在花園裡玩。（dziecko）"},
+      "answer": "dzieci",
+      "acceptedAnswers": ["dzieci"],
+      "explanation": {"pl": "Po liczebniku zbiorowym „dwoje” stoi dopełniacz liczby mnogiej: dzieci.", "zhHans": "集合数词 dwoje 后接复数属格：dzieci。", "zhHant": "集合數詞 dwoje 後接複數屬格：dzieci。"}
+    },
+    {
+      "id": "pl-b1-numeral-14",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: W muzeum oglądaliśmy czternaście ___. (obraz)", "zhHans": "填空：我们在博物馆看了十四幅画。（obraz）", "zhHant": "填空：我們在博物館看了十四幅畫。（obraz）"},
+      "answer": "obrazów",
+      "acceptedAnswers": ["obrazów"],
+      "explanation": {"pl": "Liczebnik „czternaście” należy do grupy 11–19 i wymaga dopełniacza liczby mnogiej.", "zhHans": "czternaście 属于 11–19 这一组，后接复数属格。", "zhHant": "czternaście 屬於 11–19 這一組，後接複數屬格。"}
+    },
+    {
+      "id": "pl-b1-number-age",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij wiek: Mój brat ma dwadzieścia jeden ___. (rok)", "zhHans": "填入年龄：我哥哥/弟弟二十一岁。（rok）", "zhHant": "填入年齡：我哥哥／弟弟二十一歲。（rok）"},
+      "answer": "lat",
+      "acceptedAnswers": ["lat"],
+      "explanation": {"pl": "W wyrażeniu wieku po liczbie 21 używamy „lat”: ma dwadzieścia jeden lat.", "zhHans": "表达年龄时，21 后用 lat：ma dwadzieścia jeden lat。", "zhHant": "表達年齡時，21 後用 lat：ma dwadzieścia jeden lat。"}
+    },
+    {
+      "id": "pl-b1-superlative-adjective",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: To jedno z ___ rozwiązań. (dobry, stopień najwyższy)", "zhHans": "填空：这是最好的解决方案之一。（dobry，最高级）", "zhHant": "填空：這是最好的解決方案之一。（dobry，最高級）"},
+      "answer": "najlepszych",
+      "acceptedAnswers": ["najlepszych"],
+      "explanation": {"pl": "Po „jedno z” używamy dopełniacza liczby mnogiej; przymiotnik „najlepszy” ma formę „najlepszych”.", "zhHans": "jedno z 后接复数属格；najlepszy 的复数属格形式是 najlepszych。", "zhHant": "jedno z 後接複數屬格；najlepszy 的複數屬格形式是 najlepszych。"}
+    },
+    {
+      "id": "pl-b1-comparison-adverb-irregular",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Po dłuższym treningu biegam ___ niż wcześniej. (dobrze)", "zhHans": "填空：经过更长时间的训练，我跑得比以前更好。（dobrze）", "zhHant": "填空：經過更長時間的訓練，我跑得比以前更好。（dobrze）"},
+      "answer": "lepiej",
+      "acceptedAnswers": ["lepiej"],
+      "explanation": {"pl": "Przysłówek „dobrze” ma nieregularny stopień wyższy „lepiej”.", "zhHans": "副词 dobrze（好）的不规则比较级是 lepiej。", "zhHant": "副詞 dobrze（好）的不規則比較級是 lepiej。"}
+    },
+    {
+      "id": "pl-b1-dative-verb-government",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Lekarz zalecił ___ odpoczynek. (pacjent, m.)", "zhHans": "填空：医生建议这位男性患者休息。（pacjent）", "zhHant": "填空：醫生建議這位男性患者休息。（pacjent）"},
+      "answer": "pacjentowi",
+      "acceptedAnswers": ["pacjentowi"],
+      "explanation": {"pl": "Osoba, której coś zalecamy, występuje w celowniku: pacjentowi.", "zhHans": "接受建议的人用与格：pacjentowi。", "zhHant": "接受建議的人用與格：pacjentowi。"}
+    },
+    {
+      "id": "pl-b1-government-instrumental",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Od roku zajmuję się ___ (projektowanie).", "zhHans": "填空：我从事设计工作已经一年了。（projektowanie）", "zhHant": "填空：我從事設計工作已經一年了。（projektowanie）"},
+      "answer": "projektowaniem",
+      "acceptedAnswers": ["projektowaniem"],
+      "explanation": {"pl": "Zwrot „zajmować się” wymaga narzędnika, także przy rzeczowniku odczasownikowym: projektowaniem.", "zhHans": "zajmować się（从事）后接工具格，动名词也如此：projektowaniem。", "zhHant": "zajmować się（從事）後接工具格，動名詞也如此：projektowaniem。"}
+    },
+    {
+      "id": "pl-b1-adjective-accusative-personal",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Wczoraj poznałam ___ polskich studentów. (nowy)", "zhHans": "填空：昨天我（女性）认识了几位新来的波兰男学生。（nowy）", "zhHant": "填空：昨天我（女性）認識了幾位新來的波蘭男學生。（nowy）"},
+      "answer": "nowych",
+      "acceptedAnswers": ["nowych"],
+      "explanation": {"pl": "Biernik liczby mnogiej rzeczowników męskoosobowych jest równy dopełniaczowi; przymiotnik także ma formę „nowych”.", "zhHans": "阳性人称复数的宾格与属格相同；形容词也用 nowych。", "zhHant": "陽性人稱複數的賓格與屬格相同；形容詞也用 nowych。"}
+    },
+    {
+      "id": "pl-b1-conditional-bym-position",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij naturalny szyk: Ja ___ chętnie odwiedziła Kraków. (by)", "zhHans": "填入自然语序：我（女性）很愿意去克拉科夫看看。（by）", "zhHant": "填入自然語序：我（女性）很願意去克拉科夫看看。（by）"},
+      "answer": "bym",
+      "acceptedAnswers": ["bym"],
+      "explanation": {"pl": "Cząstka może stać po zaimku: „ja bym odwiedziła” lub łączyć się z formą: „odwiedziłabym”.", "zhHans": "虚拟词缀可以放在代词后：ja bym odwiedziła，也可与动词形式连写：odwiedziłabym。", "zhHant": "假設詞綴可以放在代詞後：ja bym odwiedziła，也可與動詞形式連寫：odwiedziłabym。"}
+    },
+    {
+      "id": "pl-b1-imperfective-after-begin",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Po kolacji zaczęliśmy ___ film. (oglądać)", "zhHans": "填空：晚饭后我们开始看电影。（oglądać）", "zhHant": "填空：晚餐後我們開始看電影。（oglądać）"},
+      "answer": "oglądać",
+      "acceptedAnswers": ["oglądać"],
+      "explanation": {"pl": "Po czasowniku fazowym „zaczynać” używamy zwykle bezokolicznika niedokonanego, który opisuje rozpoczęty proces.", "zhHans": "阶段动词 zaczynać（开始）后通常接未完成体不定式，描述开始的过程。", "zhHant": "階段動詞 zaczynać（開始）後通常接未完成體不定詞，描述開始的過程。"}
+    },
+    {
+      "id": "pl-b1-diminished-comparison",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij porównanie: Ten wariant jest ___ kosztowny niż poprzedni. (mniej / bardziej)", "zhHans": "填入比较词：这个方案没有上一个方案那么贵。（mniej / bardziej）", "zhHant": "填入比較詞：這個方案沒有上一個方案那麼貴。（mniej / bardziej）"},
+      "answer": "mniej",
+      "acceptedAnswers": ["mniej"],
+      "explanation": {"pl": "„Mniej + przymiotnik + niż” wyraża niższy stopień cechy: mniej kosztowny niż poprzedni.", "zhHans": "mniej + 形容词 + niż 表示程度较低：mniej kosztowny niż poprzedni。", "zhHant": "mniej + 形容詞 + niż 表示程度較低：mniej kosztowny niż poprzedni。"}
+    },
+    {
+      "id": "pl-b1-locative-after-about",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: W raporcie piszą o ___ (nowy projekt, m.).", "zhHans": "填空：报告中谈到了新项目。（nowy projekt，阳性）", "zhHant": "填空：報告中談到了新專案。（nowy projekt，陽性）"},
+      "answer": "nowym projekcie",
+      "acceptedAnswers": ["nowym projekcie"],
+      "explanation": {"pl": "Przyimek „o” wymaga miejscownika; przymiotnik i rzeczownik przyjmują formy „nowym projekcie”.", "zhHans": "介词 o 后接处所格，形容词和名词都变格：nowym projekcie。", "zhHant": "介詞 o 後接前置格，形容詞和名詞都變格：nowym projekcie。"}
+    },
+    {
+      "id": "pl-b1-prepositional-genitive",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Wróciliśmy z ___ (Kraków).", "zhHans": "填空：我们从克拉科夫回来了。（Kraków）", "zhHant": "填空：我們從克拉科夫回來了。（Kraków）"},
+      "answer": "Krakowa",
+      "acceptedAnswers": ["Krakowa"],
+      "explanation": {"pl": "„Z” w znaczeniu pochodzenia, a także „do”, wymagają dopełniacza: z Krakowa, do Krakowa.", "zhHans": "表示来源的 z 和表示方向的 do 都要求属格：z Krakowa、do Krakowa。", "zhHant": "表示來源的 z 和表示方向的 do 都要求屬格：z Krakowa、do Krakowa。"}
+    },
+    {
+      "id": "pl-b1-adjective-agreement-mixed",
+      "target": "polish",
+      "courseLevel": "B1",
+      "prompt": {"pl": "Uzupełnij: Anna i Marek są ___ po podróży. (zmęczony)", "zhHans": "填空：安娜和马雷克旅行后都累了。（zmęczony）", "zhHant": "填空：安娜和馬雷克旅行後都累了。（zmęczony）"},
+      "answer": "zmęczeni",
+      "acceptedAnswers": ["zmęczeni"],
+      "explanation": {"pl": "Grupa mieszana z co najmniej jednym mężczyzną ma formę męskoosobową: zmęczeni.", "zhHans": "混合群体中至少有一名男性时，用阳性人称复数：zmęczeni。", "zhHant": "混合群體中至少有一名男性時，用陽性人稱複數：zmęczeni。"}
+    },
+    {
+      "id": "zh-hsk1-ongoing-zai",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {"pl": "Wstaw znak oznaczający czynność właśnie trwającą: 我___学习中文。", "zhHans": "填入表示动作正在进行的词：我___学习中文。", "zhHant": "填入表示動作正在進行的詞：我___學習中文。"},
+      "answer": "在",
+      "acceptedAnswers": ["在"],
+      "explanation": {"pl": "在 przed czasownikiem może oznaczać, że czynność trwa teraz: 我在学习中文。", "zhHans": "在放在动词前可表示动作正在进行：我在学习中文。", "zhHant": "在放在動詞前可表示動作正在進行：我在學習中文。"}
+    },
+    {
+      "id": "zh-hsk1-yes-no-particle",
+      "target": "chinese",
+      "courseLevel": "HSK-1",
+      "prompt": {"pl": "Uzupełnij pytanie tak/nie: 你是学生___？", "zhHans": "填入是非问句句末助词：你是学生___？", "zhHant": "填入是非問句句末助詞：你是學生___？"},
+      "answer": "吗",
+      "acceptedAnswers": ["吗", "嗎"],
+      "explanation": {"pl": "吗 (tradycyjnie 嗎) na końcu zdania tworzy neutralne pytanie tak/nie: 你是学生吗？", "zhHans": "吗放在陈述句末尾，可构成一般是非问句；繁体写作嗎。", "zhHant": "嗎放在陳述句末尾，可構成一般是非問句。"}
+    },
+    {
+      "id": "zh-hsk2-comparison-bi",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Wstaw słowo wprowadzające porównanie: 今天___昨天冷。", "zhHans": "填入引出比较的词：今天___昨天冷。", "zhHant": "填入引出比較的詞：今天___昨天冷。"},
+      "answer": "比",
+      "acceptedAnswers": ["比"],
+      "explanation": {"pl": "W konstrukcji A 比 B + przymiotnik 比 łączy porównywane elementy: 今天比昨天冷。", "zhHans": "A 比 B + 形容词表示“A比B……”：今天比昨天冷。", "zhHant": "A 比 B + 形容詞表示「A比B……」：今天比昨天冷。"}
+    },
+    {
+      "id": "zh-hsk2-experience-guo",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Uzupełnij zdanie o doświadczeniu: 我去过北京，没去过上海。Wskaż partykułę doświadczenia.", "zhHans": "完成经历表达：我去___北京，没去过上海。", "zhHant": "完成經歷表達：我去___北京，沒去過上海。"},
+      "answer": "过",
+      "acceptedAnswers": ["过", "過"],
+      "explanation": {"pl": "过 po czasowniku oznacza wcześniejsze doświadczenie: 我去过北京。W tradycyjnym zapisie używa się 過。", "zhHans": "过放在动词后表示曾经有过某种经历；繁体写作過。", "zhHant": "過放在動詞後表示曾經有過某種經歷。"}
+    },
+    {
+      "id": "zh-hsk3-continuing-state-zhe",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wstaw partykułę opisującą utrzymujący się stan: 门开___，请进。", "zhHans": "填入表示状态持续的助词：门开___，请进。", "zhHant": "填入表示狀態持續的助詞：門開___，請進。"},
+      "answer": "着",
+      "acceptedAnswers": ["着", "著"],
+      "explanation": {"pl": "着 (tradycyjnie 著) po czasowniku może opisywać trwający stan: 门开着 oznacza, że drzwi są otwarte.", "zhHans": "着可放在动词后描述持续状态：门开着表示门处于开着的状态；繁体写作著。", "zhHant": "著可放在動詞後描述持續狀態；此處繁體寫作「著」。"}
+    },
+    {
+      "id": "zh-hsk3-change-of-state-le",
+      "target": "chinese",
+      "courseLevel": "HSK-3",
+      "prompt": {"pl": "Wstaw partykułę zmiany stanu: 天气暖和___。", "zhHans": "填入表示情况发生变化的助词：天气暖和___。", "zhHant": "填入表示情況發生變化的助詞：天氣暖和___。"},
+      "answer": "了",
+      "acceptedAnswers": ["了"],
+      "explanation": {"pl": "了 na końcu zdania może sygnalizować nową sytuację: zrobiło się ciepło. Nie jest to automatycznie odpowiednik polskiego czasu przeszłego.", "zhHans": "句末的了可表示新情况出现；它不等于简单的过去时标记。", "zhHant": "句末的了可表示新情況出現；它不等於簡單的過去時標記。"}
+    },
+    {
+      "id": "zh-hsk4-ba-result",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Użyj 把, aby podkreślić obiekt i skutek: 他___作业做完了。", "zhHans": "用“把”突出受事和结果：他___作业做完了。", "zhHant": "用「把」突出受事和結果：他___作業做完了。"},
+      "answer": "把",
+      "acceptedAnswers": ["把"],
+      "explanation": {"pl": "把 wprowadza dopełnienie przed czasownikiem, który opisuje działanie i jego rezultat: 他把作业做完了。", "zhHans": "把字句把受事提前到动词前，动词后通常说明处理结果。", "zhHant": "把字句把受事提前到動詞前，動詞後通常說明處理結果。"}
+    },
+    {
+      "id": "zh-hsk4-passive-bei",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Uzupełnij zdanie bierne: 我的自行车___人骑走了。", "zhHans": "完成被动句：我的自行车___人骑走了。", "zhHant": "完成被動句：我的自行車___人騎走了。"},
+      "answer": "被",
+      "acceptedAnswers": ["被"],
+      "explanation": {"pl": "被 wprowadza wykonawcę lub zdanie bierne: 我的自行车被人骑走了 — ktoś odjechał moim rowerem.", "zhHans": "被引出被动结构；这里表示自行车被别人骑走了。", "zhHant": "被引出被動結構；此處表示自行車被別人騎走了。"}
+    },
+    {
+      "id": "zh-hsk4-except-also-hai",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Dokończ zdanie: 除了咖啡以外，我___想喝一杯茶。", "zhHans": "完成句子：除了咖啡以外，我___想喝一杯茶。", "zhHant": "完成句子：除了咖啡以外，我___想喝一杯茶。"},
+      "answer": "还",
+      "acceptedAnswers": ["还", "還"],
+      "explanation": {"pl": "除了……以外……还…… dodaje kolejny element: oprócz kawy chcę też herbatę. W tradycyjnym zapisie 还 to 還。", "zhHans": "除了……以外……还……表示在所提内容之外再补充一项。", "zhHant": "除了……以外……還……表示在所提內容之外再補充一項。"}
+    },
+    {
+      "id": "zh-hsk4-not-only-erqie",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Uzupełnij parę 不但……而且……: 她不但会说中文，___会写汉字。", "zhHans": "补全“不但……而且……”结构：她不但会说中文，___会写汉字。", "zhHant": "補全「不但……而且……」結構：她不但會說中文，___會寫漢字。"},
+      "answer": "而且",
+      "acceptedAnswers": ["而且"],
+      "explanation": {"pl": "不但……而且…… łączy dwie dodatkowe cechy; 而且 wprowadza drugą: potrafi nie tylko mówić, lecz także pisać.", "zhHans": "不但……而且……连接递进信息；而且引出后一项。", "zhHant": "不但……而且……連接遞進資訊；而且引出後一項。"}
+    },
+    {
+      "id": "zh-hsk5-since-then-jiuran",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Uzupełnij zależność przyczyna–wniosek: 既然已经决定了，___不要再犹豫。", "zhHans": "补全“既然……就……”结构：既然已经决定了，___不要再犹豫。", "zhHant": "補全「既然……就……」結構：既然已經決定了，___不要再猶豫。"},
+      "answer": "就",
+      "acceptedAnswers": ["就"],
+      "explanation": {"pl": "既然 przedstawia przyjętą przesłankę, a 就 wprowadza wynikający z niej wniosek lub działanie.", "zhHans": "既然提出已接受的前提，就引出顺承的结论或行动。", "zhHant": "既然提出已接受的前提，就引出順承的結論或行動。"}
+    },
+    {
+      "id": "zh-hsk5-no-matter-dou",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Uzupełnij konstrukcję 无论……都……: 无论遇到什么困难，我们___要按计划完成。", "zhHans": "补全“无论……都……”结构：无论遇到什么困难，我们___要按计划完成。", "zhHant": "補全「無論……都……」結構：無論遇到什麼困難，我們___要按計畫完成。"},
+      "answer": "都",
+      "acceptedAnswers": ["都"],
+      "explanation": {"pl": "无论……都…… oznacza, że wynik pozostaje taki sam niezależnie od okoliczności; 都 odnosi się do wszystkich możliwości.", "zhHans": "无论……都……表示条件变化不影响结果；都概括所有可能情况。", "zhHant": "無論……都……表示條件變化不影響結果；都概括所有可能情況。"}
+    },
+    {
+      "id": "zh-hsk5-in-order-to-avoid-yimian",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Wyraź zapobieganie: 请把地址写下来，___忘记。", "zhHans": "表达“以防忘记”：请把地址写下来，___忘记。", "zhHant": "表達「以防忘記」：請把地址寫下來，___忘記。"},
+      "answer": "以免",
+      "acceptedAnswers": ["以免"],
+      "explanation": {"pl": "以免 wprowadza niepożądaną możliwość, której chcemy zapobiec: zapisz adres, żeby go nie zapomnieć.", "zhHans": "以免引出需要避免的结果；前句说明采取的预防措施。", "zhHant": "以免引出需要避免的結果；前句說明採取的預防措施。"}
+    },
+    {
+      "id": "zh-hsk5-despite-rengran",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Uzupełnij zdanie: 尽管下着大雨，比赛___照常举行。", "zhHans": "完成句子：尽管下着大雨，比赛___照常举行。", "zhHant": "完成句子：儘管下著大雨，比賽___照常舉行。"},
+      "answer": "仍然",
+      "acceptedAnswers": ["仍然"],
+      "explanation": {"pl": "尽管 przedstawia przeszkodę, a 仍然 podkreśla, że dalszy ciąg mimo niej pozostaje bez zmian.", "zhHans": "尽管引出让步背景，仍然强调结果没有因此改变。", "zhHant": "儘管引出讓步背景，仍然強調結果沒有因此改變。"}
+    },
+    {
+      "id": "zh-hsk6-rather-than-yuqi",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Uzupełnij wybór: 与其一直抱怨，___想办法解决。", "zhHans": "完成取舍表达：与其一直抱怨，___想办法解决。", "zhHant": "完成取捨表達：與其一直抱怨，___想辦法解決。"},
+      "answer": "不如",
+      "acceptedAnswers": ["不如"],
+      "explanation": {"pl": "与其……不如…… porównuje dwie możliwości i wskazuje tę uznaną za lepszą: zamiast narzekać, lepiej znaleźć rozwiązanie.", "zhHans": "与其……不如……比较两个选择，并提出更可取的做法。", "zhHant": "與其……不如……比較兩個選擇，並提出更可取的做法。"}
+    },
+    {
+      "id": "zh-hsk6-if-tangruo",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Zastąp formalnym spójnikiem „jeśli”: ___条件允许，我们下周就出发。", "zhHans": "用较正式的词填空，表示“如果”：___条件允许，我们下周就出发。", "zhHant": "用較正式的詞填空，表示「如果」：___條件允許，我們下週就出發。"},
+      "answer": "倘若",
+      "acceptedAnswers": ["倘若"],
+      "explanation": {"pl": "倘若 wprowadza warunek i jest bardziej formalne niż 如果. Zdanie zapowiada wyjazd pod warunkiem, że pozwolą na to okoliczności.", "zhHans": "倘若表示假设条件，语体较正式，意思接近如果。", "zhHant": "倘若表示假設條件，語體較正式，意思接近如果。"}
+    },
+    {
+      "id": "zh-hsk6-let-alone-hekuang",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Uzupełnij konstrukcję 更何况: 连专家都无法解释，更___我们这些初学者呢？", "zhHans": "补全“更何况”结构：连专家都无法解释，更___我们这些初学者呢？", "zhHant": "補全「更何況」結構：連專家都無法解釋，更___我們這些初學者呢？"},
+      "answer": "何况",
+      "acceptedAnswers": ["何况"],
+      "explanation": {"pl": "更何况 wprowadza argument jeszcze mocniejszy: skoro nie potrafią tego wyjaśnić eksperci, tym bardziej początkujący.", "zhHans": "更何况引出更有力的补充理由；此处强调初学者更难解释。", "zhHant": "更何況引出更有力的補充理由；此處強調初學者更難解釋。"}
+    },
+    {
+      "id": "zh-hsk6-consequence-yizhiyu",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Połącz przyczynę ze skutkiem: 他没有提前准备，___现场一度十分混乱。", "zhHans": "连接原因和后果：他没有提前准备，___现场一度十分混乱。", "zhHant": "連接原因和後果：他沒有提前準備，___現場一度十分混亂。"},
+      "answer": "以至于",
+      "acceptedAnswers": ["以至于", "以至於"],
+      "explanation": {"pl": "以至于 wprowadza skutek, często niekorzystny lub daleko idący. W tradycyjnym zapisie używa się 以至於。", "zhHans": "以至于引出前述情况造成的结果，常带有程度较深或偏负面的语气。", "zhHant": "以至於引出前述情況造成的結果，常帶有程度較深或偏負面的語氣。"}
+    },
+    {
+      "id": "zh-hsk2-superlative-zui",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Wstaw przysłówek tworzący stopień najwyższy: 这家店的面条___好吃。", "zhHans": "填入构成最高级的副词：这家店的面条___好吃。", "zhHant": "填入構成最高級的副詞：這家店的麵條___好吃。"},
+      "answer": "最",
+      "acceptedAnswers": ["最"],
+      "explanation": {"pl": "最 stawia się przed przymiotnikiem lub czasownikiem, aby wyrazić najwyższy stopień: 最好吃 — najsmaczniejszy.", "zhHans": "最放在形容词或动词前表示最高程度：最好吃。", "zhHant": "最放在形容詞或動詞前表示最高程度：最好吃。"}
+    },
+    {
+      "id": "zh-hsk2-choice-question-haishi",
+      "target": "chinese",
+      "courseLevel": "HSK-2",
+      "prompt": {"pl": "Wybierz spójnik do pytania z alternatywą: 你想喝茶___咖啡？", "zhHans": "填入选择问句中的连接词：你想喝茶___咖啡？", "zhHant": "填入選擇問句中的連接詞：你想喝茶___咖啡？"},
+      "answer": "还是",
+      "acceptedAnswers": ["还是", "還是"],
+      "explanation": {"pl": "还是 łączy możliwości w pytaniu wyboru. W zdaniu oznajmującym „albo” używa się zwykle 或者.", "zhHans": "还是用于选择问句；陈述句中表达“或者”通常用或者。繁体写作還是。", "zhHant": "還是用於選擇問句；陳述句中表達「或者」通常用或者。"}
+    },
+    {
+      "id": "zh-hsk4-condition-zhiyou",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Uzupełnij warunek: ___按时出发，我们就能赶上火车。", "zhHans": "完成“只要……就……”条件句：___按时出发，我们就能赶上火车。", "zhHant": "完成「只要……就……」條件句：___按時出發，我們就能趕上火車。"},
+      "answer": "只要",
+      "acceptedAnswers": ["只要"],
+      "explanation": {"pl": "只要……就…… oznacza, że spełnienie warunku wystarczy do uzyskania skutku: jeśli wyruszymy na czas, zdążymy na pociąg.", "zhHans": "只要……就……表示前项条件足以带来后项结果。", "zhHant": "只要……就……表示前項條件足以帶來後項結果。"}
+    },
+    {
+      "id": "zh-hsk4-immediate-sequence-yi",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Uzupełnij konstrukcję „gdy tylko… od razu…”: 他___到家就给我打电话。", "zhHans": "补全“一……就……”结构：他___到家就给我打电话。", "zhHant": "補全「一……就……」結構：他___到家就給我打電話。"},
+      "answer": "一",
+      "acceptedAnswers": ["一"],
+      "explanation": {"pl": "一……就…… łączy dwie następujące bezpośrednio po sobie czynności: gdy tylko dotrze do domu, od razu zadzwoni.", "zhHans": "一……就……表示前一动作一发生，后一动作马上发生。", "zhHant": "一……就……表示前一動作一發生，後一動作馬上發生。"}
+    },
+    {
+      "id": "zh-hsk4-concession-jishi",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Uzupełnij ustępstwo: ___天气不好，我们也会按计划出发。", "zhHans": "补全让步句：___天气不好，我们也会按计划出发。", "zhHant": "補全讓步句：___天氣不好，我們也會按計畫出發。"},
+      "answer": "即使",
+      "acceptedAnswers": ["即使"],
+      "explanation": {"pl": "即使……也…… oznacza, że wynik pozostaje taki sam nawet przy niekorzystnym warunku.", "zhHans": "即使……也……表示让步，即便条件不理想，结果仍然成立。", "zhHant": "即使……也……表示讓步，即便條件不理想，結果仍然成立。"}
+    },
+    {
+      "id": "zh-hsk4-topic-duiyu",
+      "target": "chinese",
+      "courseLevel": "HSK-4",
+      "prompt": {"pl": "Wprowadź temat, którego dotyczy wypowiedź: ___这个问题，我还需要一点时间考虑。", "zhHans": "填入引出讨论对象的词：___这个问题，我还需要一点时间考虑。", "zhHant": "填入引出討論對象的詞：___這個問題，我還需要一點時間考慮。"},
+      "answer": "对于",
+      "acceptedAnswers": ["对于", "對於"],
+      "explanation": {"pl": "对于 wprowadza temat lub punkt odniesienia: co do tej sprawy potrzebuję jeszcze trochę czasu.", "zhHans": "对于引出讨论或评价的对象；繁体写作對於。", "zhHant": "對於引出討論或評價的對象。"}
+    },
+    {
+      "id": "zh-hsk5-both-ji",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Uzupełnij konstrukcję „zarówno…, jak i…”: 这家餐厅的菜___新鲜又便宜。", "zhHans": "补全“既……又……”结构：这家餐厅的菜___新鲜又便宜。", "zhHant": "補全「既……又……」結構：這家餐廳的菜___新鮮又便宜。"},
+      "answer": "既",
+      "acceptedAnswers": ["既"],
+      "explanation": {"pl": "既……又…… łączy dwie współwystępujące cechy: jedzenie jest zarówno świeże, jak i niedrogie.", "zhHans": "既……又……连接同时成立的两个特点。", "zhHant": "既……又……連接同時成立的兩個特點。"}
+    },
+    {
+      "id": "zh-hsk5-otherwise-fouze",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Wprowadź negatywny skutek, który nastąpi w przeciwnym razie: 现在就出发，___会错过最后一班车。", "zhHans": "填入表示“否则”的词：现在就出发，___会错过最后一班车。", "zhHant": "填入表示「否則」的詞：現在就出發，___會錯過最後一班車。"},
+      "answer": "否则",
+      "acceptedAnswers": ["否则", "否則"],
+      "explanation": {"pl": "否则 wprowadza skutek niespełnienia poprzedniej wskazówki lub warunku: wyrusz teraz, bo inaczej spóźnisz się na ostatni autobus.", "zhHans": "否则引出不采取前述行动时可能出现的结果。", "zhHant": "否則引出不採取前述行動時可能出現的結果。"}
+    },
+    {
+      "id": "zh-hsk5-reported-source-jushuo",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Zaznacz informację przekazywaną jako zasłyszana: ___这座古城有两千多年的历史。", "zhHans": "填入表示传闻或听说的词：___这座古城有两千多年的历史。", "zhHant": "填入表示傳聞或聽說的詞：___這座古城有兩千多年的歷史。"},
+      "answer": "据说",
+      "acceptedAnswers": ["据说", "據說"],
+      "explanation": {"pl": "据说 sygnalizuje informację zasłyszaną lub podawaną jako przekaz: podobno to stare miasto ma ponad dwa tysiące lat.", "zhHans": "据说表示消息来自传闻或他人转述；繁体写作據說。", "zhHant": "據說表示消息來自傳聞或他人轉述。"}
+    },
+    {
+      "id": "zh-hsk5-no-matter-whichever-wulun",
+      "target": "chinese",
+      "courseLevel": "HSK-5",
+      "prompt": {"pl": "Uzupełnij konstrukcję 无论……都……: ___你选择哪条路线，我们都会陪你一起去。", "zhHans": "补全“无论……都……”结构：___你选择哪条路线，我们都会陪你一起去。", "zhHant": "補全「無論……都……」結構：___你選擇哪條路線，我們都會陪你一起去。"},
+      "answer": "无论",
+      "acceptedAnswers": ["无论", "無論"],
+      "explanation": {"pl": "无论 wprowadza różne możliwe warunki lub wybory, a 都 wskazuje, że wynik obejmuje je wszystkie.", "zhHans": "无论……都……表示无论条件或选择如何变化，后项都成立；繁体写作無論。", "zhHant": "無論……都……表示無論條件或選擇如何變化，後項都成立。"}
+    },
+    {
+      "id": "zh-hsk6-unless-chufei",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Uzupełnij konstrukcję „chyba że…, w przeciwnym razie…”: ___得到所有成员的同意，否则我们不会改变计划。", "zhHans": "补全“除非……否则……”结构：___得到所有成员的同意，否则我们不会改变计划。", "zhHant": "補全「除非……否則……」結構：___得到所有成員的同意，否則我們不會改變計畫。"},
+      "answer": "除非",
+      "acceptedAnswers": ["除非"],
+      "explanation": {"pl": "除非……否则…… ustanawia konieczny wyjątek: plan zmieni się tylko pod warunkiem uzyskania zgody wszystkich.", "zhHans": "除非……否则……表示只有满足前项条件，后项才会改变或发生。", "zhHant": "除非……否則……表示只有滿足前項條件，後項才會改變或發生。"}
+    },
+    {
+      "id": "zh-hsk6-in-view-of-jianyu",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Wprowadź formalnie brane pod uwagę okoliczności: ___目前的情况，我们决定暂缓发布。", "zhHans": "填入表示“考虑到”的正式用语：___目前的情况，我们决定暂缓发布。", "zhHant": "填入表示「考量到」的正式用語：___目前的情況，我們決定暫緩發布。"},
+      "answer": "鉴于",
+      "acceptedAnswers": ["鉴于", "鑒於"],
+      "explanation": {"pl": "鉴于 wprowadza powód lub okoliczność, którą bierze się pod uwagę przy podjęciu decyzji; zapis tradycyjny to 鑒於.", "zhHans": "鉴于引出作出决定时考虑的情况或理由；繁体写作鑒於。", "zhHant": "鑒於引出作出決定時考量的情況或理由。"}
+    },
+    {
+      "id": "zh-hsk6-paraphrase-huanyiju",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Uzupełnij zdanie: 他没有拒绝，只是需要更多时间；___，我们应该耐心等待。", "zhHans": "填入表示“换句话说”的连接语：他没有拒绝，只是需要更多时间；___，我们应该耐心等待。", "zhHant": "填入表示「換句話說」的連接語：他沒有拒絕，只是需要更多時間；___，我們應該耐心等待。"},
+      "answer": "换句话说",
+      "acceptedAnswers": ["换句话说", "換句話說"],
+      "explanation": {"pl": "换句话说 wprowadza parafrazę lub wniosek wyrażony innymi słowami; zapis tradycyjny to 換句話說.", "zhHans": "换句话说用于改用另一种说法解释前文；繁体写作換句話說。", "zhHant": "換句話說用於改用另一種說法解釋前文。"}
+    },
+    {
+      "id": "zh-hsk6-summary-zongeryanzhi",
+      "target": "chinese",
+      "courseLevel": "HSK-6",
+      "prompt": {"pl": "Wprowadź podsumowanie: ___，合作需要信任和持续沟通。", "zhHans": "填入表示总结的连接语：___，合作需要信任和持续沟通。", "zhHant": "填入表示總結的連接語：___，合作需要信任和持續溝通。"},
+      "answer": "总而言之",
+      "acceptedAnswers": ["总而言之", "總而言之"],
+      "explanation": {"pl": "总而言之 sygnalizuje podsumowanie wcześniejszej wypowiedzi; w tradycyjnym zapisie używa się 總而言之.", "zhHans": "总而言之用于概括前文并引出总结；繁体写作總而言之。", "zhHant": "總而言之用於概括前文並引出總結。"}
     }
   ]
 }

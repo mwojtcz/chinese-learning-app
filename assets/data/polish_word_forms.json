@@ -1,15 +1,349 @@
 {
   "entries": [
     {
+      "lemmas": ["urząd"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "urząd"},
+        {"label": "2. Dopełniacz (lp.)", "value": "urzędu"},
+        {"label": "3. Celownik (lp.)", "value": "urzędowi"},
+        {"label": "4. Biernik (lp.)", "value": "urząd"},
+        {"label": "5. Narzędnik (lp.)", "value": "urzędem"},
+        {"label": "6. Miejscownik (lp.)", "value": "urzędzie"},
+        {"label": "7. Wołacz (lp.)", "value": "urzędzie"},
+        {"label": "1. Mianownik (lm.)", "value": "urzędy"},
+        {"label": "2. Dopełniacz (lm.)", "value": "urzędów"},
+        {"label": "3. Celownik (lm.)", "value": "urzędom"},
+        {"label": "4. Biernik (lm.)", "value": "urzędy"},
+        {"label": "5. Narzędnik (lm.)", "value": "urzędami"},
+        {"label": "6. Miejscownik (lm.)", "value": "urzędach"},
+        {"label": "7. Wołacz (lm.)", "value": "urzędy"}
+      ],
+      "example": {"pl": "Idę do urzędu, bo w urzędzie muszę pokazać paszport.", "zhHans": "我要去办事处，因为必须在那里出示护照。", "zhHant": "我要去辦事處，因為必須在那裡出示護照。"}
+    },
+    {
+      "lemmas": ["lekarz"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "lekarz"},
+        {"label": "2. Dopełniacz (lp.)", "value": "lekarza"},
+        {"label": "3. Celownik (lp.)", "value": "lekarzowi"},
+        {"label": "4. Biernik (lp.)", "value": "lekarza"},
+        {"label": "5. Narzędnik (lp.)", "value": "lekarzem"},
+        {"label": "6. Miejscownik (lp.)", "value": "lekarzu"},
+        {"label": "7. Wołacz (lp.)", "value": "lekarzu"},
+        {"label": "1. Mianownik (lm.)", "value": "lekarze"},
+        {"label": "2. Dopełniacz (lm.)", "value": "lekarzy"},
+        {"label": "3. Celownik (lm.)", "value": "lekarzom"},
+        {"label": "4. Biernik (lm.)", "value": "lekarzy"},
+        {"label": "5. Narzędnik (lm.)", "value": "lekarzami"},
+        {"label": "6. Miejscownik (lm.)", "value": "lekarzach"},
+        {"label": "7. Wołacz (lm.)", "value": "lekarze"}
+      ],
+      "example": {"pl": "Dziękuję lekarzowi za pomoc i rozmawiam z lekarzami o leczeniu.", "zhHans": "我感谢这位男医生的帮助，并与医生们讨论治疗。", "zhHant": "我感謝這位男醫生的幫助，並與醫生們討論治療。"}
+    },
+    {
+      "lemmas": ["odpowiedź"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "odpowiedź"},
+        {"label": "2. Dopełniacz (lp.)", "value": "odpowiedzi"},
+        {"label": "3. Celownik (lp.)", "value": "odpowiedzi"},
+        {"label": "4. Biernik (lp.)", "value": "odpowiedź"},
+        {"label": "5. Narzędnik (lp.)", "value": "odpowiedzią"},
+        {"label": "6. Miejscownik (lp.)", "value": "odpowiedzi"},
+        {"label": "7. Wołacz (lp.)", "value": "odpowiedzi"},
+        {"label": "1. Mianownik (lm.)", "value": "odpowiedzi"},
+        {"label": "2. Dopełniacz (lm.)", "value": "odpowiedzi"},
+        {"label": "3. Celownik (lm.)", "value": "odpowiedziom"},
+        {"label": "4. Biernik (lm.)", "value": "odpowiedzi"},
+        {"label": "5. Narzędnik (lm.)", "value": "odpowiedziami"},
+        {"label": "6. Miejscownik (lm.)", "value": "odpowiedziach"},
+        {"label": "7. Wołacz (lm.)", "value": "odpowiedzi"}
+      ],
+      "example": {"pl": "Zależy mi na szybkiej odpowiedzi, ale nie zgadzam się z tą odpowiedzią.", "zhHans": "我希望尽快得到答复，但不同意这份答复。", "zhHant": "我希望儘快得到答覆，但不同意這份答覆。"}
+    },
+    {
+      "lemmas": ["pieniądze"],
+      "forms": [
+        {"label": "1. Mianownik (lm.)", "value": "pieniądze"},
+        {"label": "2. Dopełniacz (lm.)", "value": "pieniędzy"},
+        {"label": "3. Celownik (lm.)", "value": "pieniądzom"},
+        {"label": "4. Biernik (lm.)", "value": "pieniądze"},
+        {"label": "5. Narzędnik (lm.)", "value": "pieniędzmi"},
+        {"label": "6. Miejscownik (lm.)", "value": "pieniądzach"},
+        {"label": "7. Wołacz (lm.)", "value": "pieniądze"},
+        {"label": "Użycie liczby", "value": "W codziennym znaczeniu sumy środków używamy liczby mnogiej. Pieniądz w liczbie pojedynczej występuje np. w znaczeniu ekonomicznym: funkcja pieniądza."}
+      ],
+      "example": {"pl": "Proszę o zwrot pieniędzy. Te pieniądze są potrzebne na czynsz.", "zhHans": "请退款。这笔钱要用来付房租。", "zhHant": "請退款。這筆錢要用來付房租。"}
+    },
+    {
+      "lemmas": ["drzwi"],
+      "forms": [
+        {"label": "1. Mianownik (lm.)", "value": "drzwi"},
+        {"label": "2. Dopełniacz (lm.)", "value": "drzwi"},
+        {"label": "3. Celownik (lm.)", "value": "drzwiom"},
+        {"label": "4. Biernik (lm.)", "value": "drzwi"},
+        {"label": "5. Narzędnik (lm.)", "value": "drzwiami"},
+        {"label": "6. Miejscownik (lm.)", "value": "drzwiach"},
+        {"label": "7. Wołacz (lm.)", "value": "drzwi"},
+        {"label": "Liczebnik zbiorowy", "value": "dwoje drzwi; rzeczownik nie ma liczby pojedynczej"}
+      ],
+      "example": {"pl": "W sali jest dwoje drzwi. Czekam przed zamkniętymi drzwiami.", "zhHans": "房间里有两扇门。我在关着的门前等候。", "zhHant": "房間裡有兩扇門。我在關著的門前等候。"}
+    },
+    {
+      "lemmas": ["się"],
+      "forms": [
+        {"label": "Dopełniacz", "value": "siebie / się"},
+        {"label": "Celownik", "value": "sobie"},
+        {"label": "Biernik", "value": "się / siebie"},
+        {"label": "Narzędnik", "value": "sobą"},
+        {"label": "Miejscownik", "value": "sobie"},
+        {"label": "Po przyimku", "value": "do siebie, o sobie, ze sobą"},
+        {"label": "Użycie", "value": "Brak mianownika; forma zależy od rekcji. Się jest nieakcentowane, siebie może być akcentowane lub stać po przyimku: widzę siebie, patrzę na siebie."}
+      ],
+      "example": {"pl": "Opowiadam o sobie i biorę dokumenty ze sobą.", "zhHans": "我介绍自己的情况，并随身带上文件。", "zhHant": "我介紹自己的情況，並隨身帶上文件。"}
+    },
+    {
+      "lemmas": ["chodzić"],
+      "forms": [
+        {"label": "ja", "value": "chodzę"},
+        {"label": "ty", "value": "chodzisz"},
+        {"label": "on/ona/ono", "value": "chodzi"},
+        {"label": "my", "value": "chodzimy"},
+        {"label": "wy", "value": "chodzicie"},
+        {"label": "oni/one", "value": "chodzą"},
+        {"label": "Rozkazujący: ty", "value": "chodź"},
+        {"label": "Rozkazujący: my", "value": "chodźmy"},
+        {"label": "Rozkazujący: wy", "value": "chodźcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "chodziłem / chodziłam"},
+        {"label": "Przeszły: on/ona/ono", "value": "chodził / chodziła / chodziło"},
+        {"label": "Przeszły: oni/one", "value": "chodzili / chodziły"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę chodzić"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "chodziłbym / chodziłabym"},
+        {"label": "Aspekt", "value": "niedokonany; ruch pieszy powtarzany lub wielokierunkowy; iść też jest niedokonane, ale oznacza ruch jednokierunkowy; chodź jest też naturalnym zaproszeniem do pójścia razem"}
+      ],
+      "example": {"pl": "Codziennie chodzę do pracy pieszo, a dziś idę do urzędu.", "zhHans": "我每天步行上班，而今天正走去办事处。", "zhHant": "我每天步行上班，而今天正走去辦事處。"}
+    },
+    {
+      "lemmas": ["jechać"],
+      "forms": [
+        {"label": "ja", "value": "jadę"},
+        {"label": "ty", "value": "jedziesz"},
+        {"label": "on/ona/ono", "value": "jedzie"},
+        {"label": "my", "value": "jedziemy"},
+        {"label": "wy", "value": "jedziecie"},
+        {"label": "oni/one", "value": "jadą"},
+        {"label": "Rozkazujący: ty", "value": "jedź"},
+        {"label": "Rozkazujący: my", "value": "jedźmy"},
+        {"label": "Rozkazujący: wy", "value": "jedźcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "jechałem / jechałam"},
+        {"label": "Przeszły: on/ona/ono", "value": "jechał / jechała / jechało"},
+        {"label": "Przeszły: oni/one", "value": "jechali / jechały"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę jechać"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "jechałbym / jechałabym"},
+        {"label": "Aspekt", "value": "niedokonany; ruch jednokierunkowy środkiem transportu; jeździć też jest niedokonane; pojechać jest dokonane i oznacza wyjazd, niekoniecznie dotarcie do celu"}
+      ],
+      "example": {"pl": "Teraz jadę tramwajem do lekarza i czytam wiadomość.", "zhHans": "我现在正坐有轨电车去看医生，并在读消息。", "zhHant": "我現在正搭路面電車去看醫生，並在讀訊息。"}
+    },
+    {
+      "lemmas": ["jeździć"],
+      "forms": [
+        {"label": "ja", "value": "jeżdżę"},
+        {"label": "ty", "value": "jeździsz"},
+        {"label": "on/ona/ono", "value": "jeździ"},
+        {"label": "my", "value": "jeździmy"},
+        {"label": "wy", "value": "jeździcie"},
+        {"label": "oni/one", "value": "jeżdżą"},
+        {"label": "Rozkazujący: ty", "value": "jeździj"},
+        {"label": "Rozkazujący: my", "value": "jeździjmy"},
+        {"label": "Rozkazujący: wy", "value": "jeździjcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "jeździłem / jeździłam"},
+        {"label": "Przeszły: on/ona/ono", "value": "jeździł / jeździła / jeździło"},
+        {"label": "Przeszły: oni/one", "value": "jeździli / jeździły"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę jeździć"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "jeździłbym / jeździłabym"},
+        {"label": "Aspekt", "value": "niedokonany; ruch środkiem transportu powtarzany lub wielokierunkowy; jechać jest niedokonanym odpowiednikiem jednokierunkowym, nie parą dokonaną"}
+      ],
+      "example": {"pl": "Do pracy jeżdżę autobusem, a w weekendy jeżdżę po mieście rowerem.", "zhHans": "我平时坐公交车上班，周末在城里骑自行车。", "zhHant": "我平時搭公車上班，週末在城裡騎腳踏車。"}
+    },
+    {
+      "lemmas": ["pojechać"],
+      "forms": [
+        {"label": "ja", "value": "pojadę"},
+        {"label": "ty", "value": "pojedziesz"},
+        {"label": "on/ona/ono", "value": "pojedzie"},
+        {"label": "my", "value": "pojedziemy"},
+        {"label": "wy", "value": "pojedziecie"},
+        {"label": "oni/one", "value": "pojadą"},
+        {"label": "Rozkazujący: ty", "value": "pojedź"},
+        {"label": "Rozkazujący: my", "value": "pojedźmy"},
+        {"label": "Rozkazujący: wy", "value": "pojedźcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "pojechałem / pojechałam"},
+        {"label": "Przeszły: on/ona/ono", "value": "pojechał / pojechała / pojechało"},
+        {"label": "Przeszły: oni/one", "value": "pojechali / pojechały"},
+        {"label": "Przyszły (dokonany): ja", "value": "pojadę"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "pojechałbym / pojechałabym"},
+        {"label": "Aspekt", "value": "dokonany; wyjazd środkiem transportu, bez gwarancji dotarcia; pierwsze sześć form oznacza przyszłość; nie: będę pojechać"}
+      ],
+      "example": {"pl": "Jutro pojadę do urzędu, a potem wrócę do pracy.", "zhHans": "明天我会乘车去办事处，然后回去上班。", "zhHant": "明天我會搭車去辦事處，然後回去上班。"}
+    },
+    {
+      "lemmas": ["wysyłać"],
+      "forms": [
+        {"label": "ja", "value": "wysyłam"},
+        {"label": "ty", "value": "wysyłasz"},
+        {"label": "on/ona/ono", "value": "wysyła"},
+        {"label": "my", "value": "wysyłamy"},
+        {"label": "wy", "value": "wysyłacie"},
+        {"label": "oni/one", "value": "wysyłają"},
+        {"label": "Rozkazujący: ty", "value": "wysyłaj"},
+        {"label": "Rozkazujący: my", "value": "wysyłajmy"},
+        {"label": "Rozkazujący: wy", "value": "wysyłajcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "wysyłałem / wysyłałam"},
+        {"label": "Przeszły: on/ona/ono", "value": "wysyłał / wysyłała / wysyłało"},
+        {"label": "Przeszły: oni/one", "value": "wysyłali / wysyłały"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę wysyłać"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "wysyłałbym / wysyłałabym"},
+        {"label": "Aspekt", "value": "niedokonany; para: wysłać; wysyłać coś (biernik) komuś (celownik); nie wysyłać czegoś (dopełniacz)"}
+      ],
+      "example": {"pl": "Co tydzień wysyłam klientowi raport. Nie wysyłam mu danych bez zgody.", "zhHans": "我每周给客户发报告。未经同意，我不给他发送数据。", "zhHant": "我每週給客戶寄報告。未經同意，我不給他傳送資料。"}
+    },
+    {
+      "lemmas": ["wysłać"],
+      "forms": [
+        {"label": "ja", "value": "wyślę"},
+        {"label": "ty", "value": "wyślesz"},
+        {"label": "on/ona/ono", "value": "wyśle"},
+        {"label": "my", "value": "wyślemy"},
+        {"label": "wy", "value": "wyślecie"},
+        {"label": "oni/one", "value": "wyślą"},
+        {"label": "Rozkazujący: ty", "value": "wyślij"},
+        {"label": "Rozkazujący: my", "value": "wyślijmy"},
+        {"label": "Rozkazujący: wy", "value": "wyślijcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "wysłałem / wysłałam"},
+        {"label": "Przeszły: on/ona/ono", "value": "wysłał / wysłała / wysłało"},
+        {"label": "Przeszły: oni/one", "value": "wysłali / wysłały"},
+        {"label": "Przyszły (dokonany): ja", "value": "wyślę"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "wysłałbym / wysłałabym"},
+        {"label": "Aspekt", "value": "dokonany; para: wysyłać; pierwsze sześć form oznacza przyszłość; wysłać nie gwarantuje doręczenia"}
+      ],
+      "example": {"pl": "Wyślę pani odpowiedź jutro. Wczoraj wysłałam już potwierdzenie.", "zhHans": "我明天会给您发答复。昨天我已经发了确认信息。（女性说话者，对女士）", "zhHant": "我明天會給您寄答覆。昨天我已經寄了確認訊息。（女性說話者，對女士）"}
+    },
+    {
+      "lemmas": ["kupować"],
+      "forms": [
+        {"label": "ja", "value": "kupuję"},
+        {"label": "ty", "value": "kupujesz"},
+        {"label": "on/ona/ono", "value": "kupuje"},
+        {"label": "my", "value": "kupujemy"},
+        {"label": "wy", "value": "kupujecie"},
+        {"label": "oni/one", "value": "kupują"},
+        {"label": "Rozkazujący: ty", "value": "kupuj"},
+        {"label": "Rozkazujący: my", "value": "kupujmy"},
+        {"label": "Rozkazujący: wy", "value": "kupujcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "kupowałem / kupowałam"},
+        {"label": "Przeszły: on/ona/ono", "value": "kupował / kupowała / kupowało"},
+        {"label": "Przeszły: oni/one", "value": "kupowali / kupowały"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę kupować"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "kupowałbym / kupowałabym"},
+        {"label": "Aspekt", "value": "niedokonany; para: kupić"}
+      ],
+      "example": {
+        "pl": "Zwykle kupuję chleb rano, ale jutro kupię go wieczorem.",
+        "zhHans": "我通常早上买面包，但明天会在晚上买。",
+        "zhHant": "我通常早上買麵包，但明天會在晚上買。"
+      }
+    },
+    {
+      "lemmas": ["kupić"],
+      "forms": [
+        {"label": "ja", "value": "kupię"},
+        {"label": "ty", "value": "kupisz"},
+        {"label": "on/ona/ono", "value": "kupi"},
+        {"label": "my", "value": "kupimy"},
+        {"label": "wy", "value": "kupicie"},
+        {"label": "oni/one", "value": "kupią"},
+        {"label": "Rozkazujący: ty", "value": "kup"},
+        {"label": "Rozkazujący: my", "value": "kupmy"},
+        {"label": "Rozkazujący: wy", "value": "kupcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "kupiłem / kupiłam"},
+        {"label": "Przeszły: on/ona/ono", "value": "kupił / kupiła / kupiło"},
+        {"label": "Przeszły: oni/one", "value": "kupili / kupiły"},
+        {"label": "Przyszły (dokonany): ja", "value": "kupię"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "kupiłbym / kupiłabym"},
+        {"label": "Aspekt", "value": "dokonany; para: kupować; pierwsze sześć form oznacza przyszłość"}
+      ],
+      "example": {
+        "pl": "Kupiłam bilety przez internet. Gdybym kupiła je wcześniej, zapłaciłabym mniej.",
+        "zhHans": "我在网上买了票。如果早点买，就会少花些钱。（女性说话者）",
+        "zhHant": "我在網路上買了票。如果早點買，就會少花些錢。（女性說話者）"
+      }
+    },
+    {
+      "lemmas": ["wracać"],
+      "forms": [
+        {"label": "ja", "value": "wracam"},
+        {"label": "ty", "value": "wracasz"},
+        {"label": "on/ona/ono", "value": "wraca"},
+        {"label": "my", "value": "wracamy"},
+        {"label": "wy", "value": "wracacie"},
+        {"label": "oni/one", "value": "wracają"},
+        {"label": "Rozkazujący: ty", "value": "wracaj"},
+        {"label": "Rozkazujący: my", "value": "wracajmy"},
+        {"label": "Rozkazujący: wy", "value": "wracajcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "wracałem / wracałam"},
+        {"label": "Przeszły: on/ona/ono", "value": "wracał / wracała / wracało"},
+        {"label": "Przeszły: oni/one", "value": "wracali / wracały"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę wracać"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "wracałbym / wracałabym"},
+        {"label": "Aspekt", "value": "niedokonany; para: wrócić"}
+      ],
+      "example": {
+        "pl": "Kiedy wracałam z pracy, zadzwoniła siostra.",
+        "zhHans": "我下班回家的路上，姐姐打来了电话。（女性说话者）",
+        "zhHant": "我下班回家的路上，姊姊打來了電話。（女性說話者）"
+      }
+    },
+    {
+      "lemmas": ["wrócić"],
+      "forms": [
+        {"label": "ja", "value": "wrócę"},
+        {"label": "ty", "value": "wrócisz"},
+        {"label": "on/ona/ono", "value": "wróci"},
+        {"label": "my", "value": "wrócimy"},
+        {"label": "wy", "value": "wrócicie"},
+        {"label": "oni/one", "value": "wrócą"},
+        {"label": "Rozkazujący: ty", "value": "wróć"},
+        {"label": "Rozkazujący: my", "value": "wróćmy"},
+        {"label": "Rozkazujący: wy", "value": "wróćcie"},
+        {"label": "Przeszły: ja (m./ż.)", "value": "wróciłem / wróciłam"},
+        {"label": "Przeszły: on/ona/ono", "value": "wrócił / wróciła / wróciło"},
+        {"label": "Przeszły: oni/one", "value": "wrócili / wróciły"},
+        {"label": "Przyszły (dokonany): ja", "value": "wrócę"},
+        {"label": "Przypuszczający: ja (m./ż.)", "value": "wróciłbym / wróciłabym"},
+        {"label": "Aspekt", "value": "dokonany; para: wracać; pierwsze sześć form oznacza przyszłość"}
+      ],
+      "example": {
+        "pl": "Jeśli wrócę przed szóstą, przygotuję kolację.",
+        "zhHans": "如果我六点前回来，就准备晚饭。",
+        "zhHant": "如果我六點前回來，就準備晚餐。"
+      }
+    },
+    {
       "lemmas": ["student"],
       "forms": [
-        {"label": "Mianownik", "value": "student"},
-        {"label": "Dopełniacz", "value": "studenta"},
-        {"label": "Celownik", "value": "studentowi"},
-        {"label": "Biernik", "value": "studenta"},
-        {"label": "Narzędnik", "value": "studentem"},
-        {"label": "Miejscownik", "value": "studencie"},
-        {"label": "Wołacz", "value": "studencie!"}
+        {"label": "1. Mianownik (lp.)", "value": "student"},
+        {"label": "2. Dopełniacz (lp.)", "value": "studenta"},
+        {"label": "3. Celownik (lp.)", "value": "studentowi"},
+        {"label": "4. Biernik (lp.)", "value": "studenta"},
+        {"label": "5. Narzędnik (lp.)", "value": "studentem"},
+        {"label": "6. Miejscownik (lp.)", "value": "studencie"},
+        {"label": "7. Wołacz (lp.)", "value": "studencie!"},
+        {"label": "1. Mianownik (lm.)", "value": "studenci"},
+        {"label": "2. Dopełniacz (lm.)", "value": "studentów"},
+        {"label": "3. Celownik (lm.)", "value": "studentom"},
+        {"label": "4. Biernik (lm.)", "value": "studentów"},
+        {"label": "5. Narzędnik (lm.)", "value": "studentami"},
+        {"label": "6. Miejscownik (lm.)", "value": "studentach"},
+        {"label": "7. Wołacz (lm.)", "value": "studenci!"}
       ],
       "example": {
         "pl": "Student rozmawia z nauczycielem.",
@@ -20,14 +354,20 @@
     {
       "lemmas": ["książka", "ksiazka"],
       "forms": [
-        {"label": "Mianownik", "value": "książka"},
-        {"label": "Dopełniacz", "value": "książki"},
-        {"label": "Celownik", "value": "książce"},
-        {"label": "Biernik", "value": "książkę"},
-        {"label": "Narzędnik", "value": "książką"},
-        {"label": "Miejscownik", "value": "książce"},
-        {"label": "Wołacz", "value": "książko!"},
-        {"label": "Liczba mnoga", "value": "książki"}
+        {"label": "1. Mianownik (lp.)", "value": "książka"},
+        {"label": "2. Dopełniacz (lp.)", "value": "książki"},
+        {"label": "3. Celownik (lp.)", "value": "książce"},
+        {"label": "4. Biernik (lp.)", "value": "książkę"},
+        {"label": "5. Narzędnik (lp.)", "value": "książką"},
+        {"label": "6. Miejscownik (lp.)", "value": "książce"},
+        {"label": "7. Wołacz (lp.)", "value": "książko!"},
+        {"label": "1. Mianownik (lm.)", "value": "książki"},
+        {"label": "2. Dopełniacz (lm.)", "value": "książek"},
+        {"label": "3. Celownik (lm.)", "value": "książkom"},
+        {"label": "4. Biernik (lm.)", "value": "książki"},
+        {"label": "5. Narzędnik (lm.)", "value": "książkami"},
+        {"label": "6. Miejscownik (lm.)", "value": "książkach"},
+        {"label": "7. Wołacz (lm.)", "value": "książki!"}
       ],
       "example": {
         "pl": "Czytam książkę o Polsce.",
@@ -38,13 +378,20 @@
     {
       "lemmas": ["dziecko"],
       "forms": [
-        {"label": "Mianownik", "value": "dziecko"},
-        {"label": "Dopełniacz", "value": "dziecka"},
-        {"label": "Celownik", "value": "dziecku"},
-        {"label": "Biernik", "value": "dziecko"},
-        {"label": "Narzędnik", "value": "dzieckiem"},
-        {"label": "Miejscownik", "value": "dziecku"},
-        {"label": "Liczba mnoga", "value": "dzieci"}
+        {"label": "1. Mianownik (lp.)", "value": "dziecko"},
+        {"label": "2. Dopełniacz (lp.)", "value": "dziecka"},
+        {"label": "3. Celownik (lp.)", "value": "dziecku"},
+        {"label": "4. Biernik (lp.)", "value": "dziecko"},
+        {"label": "5. Narzędnik (lp.)", "value": "dzieckiem"},
+        {"label": "6. Miejscownik (lp.)", "value": "dziecku"},
+        {"label": "7. Wołacz (lp.)", "value": "dziecko!"},
+        {"label": "1. Mianownik (lm.)", "value": "dzieci"},
+        {"label": "2. Dopełniacz (lm.)", "value": "dzieci"},
+        {"label": "3. Celownik (lm.)", "value": "dzieciom"},
+        {"label": "4. Biernik (lm.)", "value": "dzieci"},
+        {"label": "5. Narzędnik (lm.)", "value": "dziećmi"},
+        {"label": "6. Miejscownik (lm.)", "value": "dzieciach"},
+        {"label": "7. Wołacz (lm.)", "value": "dzieci!"}
       ],
       "example": {
         "pl": "Dziecko pije wodę.",
@@ -55,13 +402,20 @@
     {
       "lemmas": ["człowiek"],
       "forms": [
-        {"label": "Mianownik", "value": "człowiek"},
-        {"label": "Dopełniacz", "value": "człowieka"},
-        {"label": "Celownik", "value": "człowiekowi"},
-        {"label": "Biernik", "value": "człowieka"},
-        {"label": "Narzędnik", "value": "człowiekiem"},
-        {"label": "Miejscownik", "value": "człowieku"},
-        {"label": "Liczba mnoga", "value": "ludzie"}
+        {"label": "1. Mianownik (lp.)", "value": "człowiek"},
+        {"label": "2. Dopełniacz (lp.)", "value": "człowieka"},
+        {"label": "3. Celownik (lp.)", "value": "człowiekowi"},
+        {"label": "4. Biernik (lp.)", "value": "człowieka"},
+        {"label": "5. Narzędnik (lp.)", "value": "człowiekiem"},
+        {"label": "6. Miejscownik (lp.)", "value": "człowieku"},
+        {"label": "7. Wołacz (lp.)", "value": "człowieku!"},
+        {"label": "1. Mianownik (lm.)", "value": "ludzie"},
+        {"label": "2. Dopełniacz (lm.)", "value": "ludzi"},
+        {"label": "3. Celownik (lm.)", "value": "ludziom"},
+        {"label": "4. Biernik (lm.)", "value": "ludzi"},
+        {"label": "5. Narzędnik (lm.)", "value": "ludźmi"},
+        {"label": "6. Miejscownik (lm.)", "value": "ludziach"},
+        {"label": "7. Wołacz (lm.)", "value": "ludzie!"}
       ],
       "example": {
         "pl": "Człowiek uczy się przez całe życie.",
@@ -72,13 +426,20 @@
     {
       "lemmas": ["kobieta"],
       "forms": [
-        {"label": "Mianownik", "value": "kobieta"},
-        {"label": "Dopełniacz", "value": "kobiety"},
-        {"label": "Celownik", "value": "kobiecie"},
-        {"label": "Biernik", "value": "kobietę"},
-        {"label": "Narzędnik", "value": "kobietą"},
-        {"label": "Miejscownik", "value": "kobiecie"},
-        {"label": "Liczba mnoga", "value": "kobiety"}
+        {"label": "1. Mianownik (lp.)", "value": "kobieta"},
+        {"label": "2. Dopełniacz (lp.)", "value": "kobiety"},
+        {"label": "3. Celownik (lp.)", "value": "kobiecie"},
+        {"label": "4. Biernik (lp.)", "value": "kobietę"},
+        {"label": "5. Narzędnik (lp.)", "value": "kobietą"},
+        {"label": "6. Miejscownik (lp.)", "value": "kobiecie"},
+        {"label": "7. Wołacz (lp.)", "value": "kobieto!"},
+        {"label": "1. Mianownik (lm.)", "value": "kobiety"},
+        {"label": "2. Dopełniacz (lm.)", "value": "kobiet"},
+        {"label": "3. Celownik (lm.)", "value": "kobietom"},
+        {"label": "4. Biernik (lm.)", "value": "kobiety"},
+        {"label": "5. Narzędnik (lm.)", "value": "kobietami"},
+        {"label": "6. Miejscownik (lm.)", "value": "kobietach"},
+        {"label": "7. Wołacz (lm.)", "value": "kobiety!"}
       ],
       "example": {
         "pl": "Rozmawiam z kobietą.",
@@ -89,14 +450,20 @@
     {
       "lemmas": ["brat"],
       "forms": [
-        {"label": "Mianownik", "value": "brat"},
-        {"label": "Dopełniacz", "value": "brata"},
-        {"label": "Celownik", "value": "bratu"},
-        {"label": "Biernik", "value": "brata"},
-        {"label": "Narzędnik", "value": "bratem"},
-        {"label": "Miejscownik", "value": "bracie"},
-        {"label": "Wołacz", "value": "bracie!"},
-        {"label": "Liczba mnoga", "value": "bracia"}
+        {"label": "1. Mianownik (lp.)", "value": "brat"},
+        {"label": "2. Dopełniacz (lp.)", "value": "brata"},
+        {"label": "3. Celownik (lp.)", "value": "bratu"},
+        {"label": "4. Biernik (lp.)", "value": "brata"},
+        {"label": "5. Narzędnik (lp.)", "value": "bratem"},
+        {"label": "6. Miejscownik (lp.)", "value": "bracie"},
+        {"label": "7. Wołacz (lp.)", "value": "bracie!"},
+        {"label": "1. Mianownik (lm.)", "value": "bracia"},
+        {"label": "2. Dopełniacz (lm.)", "value": "braci"},
+        {"label": "3. Celownik (lm.)", "value": "braciom"},
+        {"label": "4. Biernik (lm.)", "value": "braci"},
+        {"label": "5. Narzędnik (lm.)", "value": "braćmi"},
+        {"label": "6. Miejscownik (lm.)", "value": "braciach"},
+        {"label": "7. Wołacz (lm.)", "value": "bracia!"}
       ],
       "example": {
         "pl": "Idę z bratem do domu.",
@@ -107,14 +474,20 @@
     {
       "lemmas": ["czas"],
       "forms": [
-        {"label": "Mianownik", "value": "czas"},
-        {"label": "Dopełniacz", "value": "czasu"},
-        {"label": "Celownik", "value": "czasowi"},
-        {"label": "Biernik", "value": "czas"},
-        {"label": "Narzędnik", "value": "czasem"},
-        {"label": "Miejscownik", "value": "czasie"},
-        {"label": "Wołacz", "value": "czasie!"},
-        {"label": "Liczba mnoga", "value": "czasy"}
+        {"label": "1. Mianownik (lp.)", "value": "czas"},
+        {"label": "2. Dopełniacz (lp.)", "value": "czasu"},
+        {"label": "3. Celownik (lp.)", "value": "czasowi"},
+        {"label": "4. Biernik (lp.)", "value": "czas"},
+        {"label": "5. Narzędnik (lp.)", "value": "czasem"},
+        {"label": "6. Miejscownik (lp.)", "value": "czasie"},
+        {"label": "7. Wołacz (lp.)", "value": "czasie!"},
+        {"label": "1. Mianownik (lm.)", "value": "czasy"},
+        {"label": "2. Dopełniacz (lm.)", "value": "czasów"},
+        {"label": "3. Celownik (lm.)", "value": "czasom"},
+        {"label": "4. Biernik (lm.)", "value": "czasy"},
+        {"label": "5. Narzędnik (lm.)", "value": "czasami"},
+        {"label": "6. Miejscownik (lm.)", "value": "czasach"},
+        {"label": "7. Wołacz (lm.)", "value": "czasy!"}
       ],
       "example": {
         "pl": "Nie mam teraz czasu.",
@@ -125,13 +498,20 @@
     {
       "lemmas": ["dom"],
       "forms": [
-        {"label": "Mianownik", "value": "dom"},
-        {"label": "Dopełniacz", "value": "domu"},
-        {"label": "Celownik", "value": "domowi"},
-        {"label": "Biernik", "value": "dom"},
-        {"label": "Narzędnik", "value": "domem"},
-        {"label": "Miejscownik", "value": "domu"},
-        {"label": "Liczba mnoga", "value": "domy"}
+        {"label": "1. Mianownik (lp.)", "value": "dom"},
+        {"label": "2. Dopełniacz (lp.)", "value": "domu"},
+        {"label": "3. Celownik (lp.)", "value": "domowi"},
+        {"label": "4. Biernik (lp.)", "value": "dom"},
+        {"label": "5. Narzędnik (lp.)", "value": "domem"},
+        {"label": "6. Miejscownik (lp.)", "value": "domu"},
+        {"label": "7. Wołacz (lp.)", "value": "domu!"},
+        {"label": "1. Mianownik (lm.)", "value": "domy"},
+        {"label": "2. Dopełniacz (lm.)", "value": "domów"},
+        {"label": "3. Celownik (lm.)", "value": "domom"},
+        {"label": "4. Biernik (lm.)", "value": "domy"},
+        {"label": "5. Narzędnik (lm.)", "value": "domami"},
+        {"label": "6. Miejscownik (lm.)", "value": "domach"},
+        {"label": "7. Wołacz (lm.)", "value": "domy!"}
       ],
       "example": {
         "pl": "Wracam do domu.",
@@ -142,18 +522,385 @@
     {
       "lemmas": ["woda"],
       "forms": [
-        {"label": "Mianownik", "value": "woda"},
-        {"label": "Dopełniacz", "value": "wody"},
-        {"label": "Celownik", "value": "wodzie"},
-        {"label": "Biernik", "value": "wodę"},
-        {"label": "Narzędnik", "value": "wodą"},
-        {"label": "Miejscownik", "value": "wodzie"},
-        {"label": "Liczba mnoga", "value": "wody"}
+        {"label": "1. Mianownik (lp.)", "value": "woda"},
+        {"label": "2. Dopełniacz (lp.)", "value": "wody"},
+        {"label": "3. Celownik (lp.)", "value": "wodzie"},
+        {"label": "4. Biernik (lp.)", "value": "wodę"},
+        {"label": "5. Narzędnik (lp.)", "value": "wodą"},
+        {"label": "6. Miejscownik (lp.)", "value": "wodzie"},
+        {"label": "7. Wołacz (lp.)", "value": "wodo!"},
+        {"label": "1. Mianownik (lm.)", "value": "wody"},
+        {"label": "2. Dopełniacz (lm.)", "value": "wód"},
+        {"label": "3. Celownik (lm.)", "value": "wodom"},
+        {"label": "4. Biernik (lm.)", "value": "wody"},
+        {"label": "5. Narzędnik (lm.)", "value": "wodami"},
+        {"label": "6. Miejscownik (lm.)", "value": "wodach"},
+        {"label": "7. Wołacz (lm.)", "value": "wody!"}
       ],
       "example": {
         "pl": "Poproszę szklankę wody.",
         "zhHans": "请给我一杯水。",
         "zhHant": "請給我一杯水。"
+      }
+    },
+    {
+      "lemmas": ["kot"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "kot"},
+        {"label": "2. Dopełniacz (lp.)", "value": "kota"},
+        {"label": "3. Celownik (lp.)", "value": "kotu"},
+        {"label": "4. Biernik (lp.)", "value": "kota"},
+        {"label": "5. Narzędnik (lp.)", "value": "kotem"},
+        {"label": "6. Miejscownik (lp.)", "value": "kocie"},
+        {"label": "7. Wołacz (lp.)", "value": "kocie!"},
+        {"label": "1. Mianownik (lm.)", "value": "koty"},
+        {"label": "2. Dopełniacz (lm.)", "value": "kotów"},
+        {"label": "3. Celownik (lm.)", "value": "kotom"},
+        {"label": "4. Biernik (lm.)", "value": "koty"},
+        {"label": "5. Narzędnik (lm.)", "value": "kotami"},
+        {"label": "6. Miejscownik (lm.)", "value": "kotach"},
+        {"label": "7. Wołacz (lm.)", "value": "koty!"}
+      ],
+      "example": {
+        "pl": "Nie widzę kota, ale słyszę koty za drzwiami.",
+        "zhHans": "我没看见那只猫，却听见门后有猫。",
+        "zhHant": "我沒看見那隻貓，卻聽見門後有貓。"
+      }
+    },
+    {
+      "lemmas": ["pies"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "pies"},
+        {"label": "2. Dopełniacz (lp.)", "value": "psa"},
+        {"label": "3. Celownik (lp.)", "value": "psu"},
+        {"label": "4. Biernik (lp.)", "value": "psa"},
+        {"label": "5. Narzędnik (lp.)", "value": "psem"},
+        {"label": "6. Miejscownik (lp.)", "value": "psie"},
+        {"label": "7. Wołacz (lp.)", "value": "psie!"},
+        {"label": "1. Mianownik (lm.)", "value": "psy"},
+        {"label": "2. Dopełniacz (lm.)", "value": "psów"},
+        {"label": "3. Celownik (lm.)", "value": "psom"},
+        {"label": "4. Biernik (lm.)", "value": "psy"},
+        {"label": "5. Narzędnik (lm.)", "value": "psami"},
+        {"label": "6. Miejscownik (lm.)", "value": "psach"},
+        {"label": "7. Wołacz (lm.)", "value": "psy!"}
+      ],
+      "example": {
+        "pl": "Idę z psem na spacer; w parku bawią się psy.",
+        "zhHans": "我带狗去散步；公园里有几只狗在玩。",
+        "zhHant": "我帶狗去散步；公園裡有幾隻狗在玩。"
+      }
+    },
+    {
+      "lemmas": ["stół"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "stół"},
+        {"label": "2. Dopełniacz (lp.)", "value": "stołu"},
+        {"label": "3. Celownik (lp.)", "value": "stołowi"},
+        {"label": "4. Biernik (lp.)", "value": "stół"},
+        {"label": "5. Narzędnik (lp.)", "value": "stołem"},
+        {"label": "6. Miejscownik (lp.)", "value": "stole"},
+        {"label": "7. Wołacz (lp.)", "value": "stole!"},
+        {"label": "1. Mianownik (lm.)", "value": "stoły"},
+        {"label": "2. Dopełniacz (lm.)", "value": "stołów"},
+        {"label": "3. Celownik (lm.)", "value": "stołom"},
+        {"label": "4. Biernik (lm.)", "value": "stoły"},
+        {"label": "5. Narzędnik (lm.)", "value": "stołami"},
+        {"label": "6. Miejscownik (lm.)", "value": "stołach"},
+        {"label": "7. Wołacz (lm.)", "value": "stoły!"}
+      ],
+      "example": {
+        "pl": "Na stole stoją trzy filiżanki.",
+        "zhHans": "桌上放着三个杯子。",
+        "zhHant": "桌上放著三個杯子。"
+      }
+    },
+    {
+      "lemmas": ["samochód"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "samochód"},
+        {"label": "2. Dopełniacz (lp.)", "value": "samochodu"},
+        {"label": "3. Celownik (lp.)", "value": "samochodowi"},
+        {"label": "4. Biernik (lp.)", "value": "samochód"},
+        {"label": "5. Narzędnik (lp.)", "value": "samochodem"},
+        {"label": "6. Miejscownik (lp.)", "value": "samochodzie"},
+        {"label": "7. Wołacz (lp.)", "value": "samochodzie!"},
+        {"label": "1. Mianownik (lm.)", "value": "samochody"},
+        {"label": "2. Dopełniacz (lm.)", "value": "samochodów"},
+        {"label": "3. Celownik (lm.)", "value": "samochodom"},
+        {"label": "4. Biernik (lm.)", "value": "samochody"},
+        {"label": "5. Narzędnik (lm.)", "value": "samochodami"},
+        {"label": "6. Miejscownik (lm.)", "value": "samochodach"},
+        {"label": "7. Wołacz (lm.)", "value": "samochody!"}
+      ],
+      "example": {
+        "pl": "Nie mam samochodu, więc jadę autobusem.",
+        "zhHans": "我没有汽车，所以坐公交车去。",
+        "zhHant": "我沒有汽車，所以搭公車去。"
+      }
+    },
+    {
+      "lemmas": ["język"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "język"},
+        {"label": "2. Dopełniacz (lp.)", "value": "języka"},
+        {"label": "3. Celownik (lp.)", "value": "językowi"},
+        {"label": "4. Biernik (lp.)", "value": "język"},
+        {"label": "5. Narzędnik (lp.)", "value": "językiem"},
+        {"label": "6. Miejscownik (lp.)", "value": "języku"},
+        {"label": "7. Wołacz (lp.)", "value": "języku!"},
+        {"label": "1. Mianownik (lm.)", "value": "języki"},
+        {"label": "2. Dopełniacz (lm.)", "value": "języków"},
+        {"label": "3. Celownik (lm.)", "value": "językom"},
+        {"label": "4. Biernik (lm.)", "value": "języki"},
+        {"label": "5. Narzędnik (lm.)", "value": "językami"},
+        {"label": "6. Miejscownik (lm.)", "value": "językach"},
+        {"label": "7. Wołacz (lm.)", "value": "języki!"}
+      ],
+      "example": {
+        "pl": "Uczę się języka polskiego i dwóch innych języków.",
+        "zhHans": "我在学习波兰语和另外两种语言。",
+        "zhHant": "我在學習波蘭語和另外兩種語言。"
+      }
+    },
+    {
+      "lemmas": ["szkoła"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "szkoła"},
+        {"label": "2. Dopełniacz (lp.)", "value": "szkoły"},
+        {"label": "3. Celownik (lp.)", "value": "szkole"},
+        {"label": "4. Biernik (lp.)", "value": "szkołę"},
+        {"label": "5. Narzędnik (lp.)", "value": "szkołą"},
+        {"label": "6. Miejscownik (lp.)", "value": "szkole"},
+        {"label": "7. Wołacz (lp.)", "value": "szkoło!"},
+        {"label": "1. Mianownik (lm.)", "value": "szkoły"},
+        {"label": "2. Dopełniacz (lm.)", "value": "szkół"},
+        {"label": "3. Celownik (lm.)", "value": "szkołom"},
+        {"label": "4. Biernik (lm.)", "value": "szkoły"},
+        {"label": "5. Narzędnik (lm.)", "value": "szkołami"},
+        {"label": "6. Miejscownik (lm.)", "value": "szkołach"},
+        {"label": "7. Wołacz (lm.)", "value": "szkoły!"}
+      ],
+      "example": {
+        "pl": "Dzieci idą do szkoły, a rodzice czekają przed szkołą.",
+        "zhHans": "孩子们去学校，家长在学校前等候。",
+        "zhHant": "孩子們去學校，家長在學校前等候。"
+      }
+    },
+    {
+      "lemmas": ["miasto"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "miasto"},
+        {"label": "2. Dopełniacz (lp.)", "value": "miasta"},
+        {"label": "3. Celownik (lp.)", "value": "miastu"},
+        {"label": "4. Biernik (lp.)", "value": "miasto"},
+        {"label": "5. Narzędnik (lp.)", "value": "miastem"},
+        {"label": "6. Miejscownik (lp.)", "value": "mieście"},
+        {"label": "7. Wołacz (lp.)", "value": "miasto!"},
+        {"label": "1. Mianownik (lm.)", "value": "miasta"},
+        {"label": "2. Dopełniacz (lm.)", "value": "miast"},
+        {"label": "3. Celownik (lm.)", "value": "miastom"},
+        {"label": "4. Biernik (lm.)", "value": "miasta"},
+        {"label": "5. Narzędnik (lm.)", "value": "miastami"},
+        {"label": "6. Miejscownik (lm.)", "value": "miastach"},
+        {"label": "7. Wołacz (lm.)", "value": "miasta!"}
+      ],
+      "example": {
+        "pl": "W tym mieście mieszka wielu studentów.",
+        "zhHans": "这座城市住着很多学生。",
+        "zhHant": "這座城市住著很多學生。"
+      }
+    },
+    {
+      "lemmas": ["okno"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "okno"},
+        {"label": "2. Dopełniacz (lp.)", "value": "okna"},
+        {"label": "3. Celownik (lp.)", "value": "oknu"},
+        {"label": "4. Biernik (lp.)", "value": "okno"},
+        {"label": "5. Narzędnik (lp.)", "value": "oknem"},
+        {"label": "6. Miejscownik (lp.)", "value": "oknie"},
+        {"label": "7. Wołacz (lp.)", "value": "okno!"},
+        {"label": "1. Mianownik (lm.)", "value": "okna"},
+        {"label": "2. Dopełniacz (lm.)", "value": "okien"},
+        {"label": "3. Celownik (lm.)", "value": "oknom"},
+        {"label": "4. Biernik (lm.)", "value": "okna"},
+        {"label": "5. Narzędnik (lm.)", "value": "oknami"},
+        {"label": "6. Miejscownik (lm.)", "value": "oknach"},
+        {"label": "7. Wołacz (lm.)", "value": "okna!"}
+      ],
+      "example": {
+        "pl": "Otwieram okno i myję okna w sobotę.",
+        "zhHans": "我打开窗户，星期六洗窗户。",
+        "zhHant": "我打開窗戶，星期六洗窗戶。"
+      }
+    },
+    {
+      "lemmas": ["matka"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "matka"},
+        {"label": "2. Dopełniacz (lp.)", "value": "matki"},
+        {"label": "3. Celownik (lp.)", "value": "matce"},
+        {"label": "4. Biernik (lp.)", "value": "matkę"},
+        {"label": "5. Narzędnik (lp.)", "value": "matką"},
+        {"label": "6. Miejscownik (lp.)", "value": "matce"},
+        {"label": "7. Wołacz (lp.)", "value": "matko!"},
+        {"label": "1. Mianownik (lm.)", "value": "matki"},
+        {"label": "2. Dopełniacz (lm.)", "value": "matek"},
+        {"label": "3. Celownik (lm.)", "value": "matkom"},
+        {"label": "4. Biernik (lm.)", "value": "matki"},
+        {"label": "5. Narzędnik (lm.)", "value": "matkami"},
+        {"label": "6. Miejscownik (lm.)", "value": "matkach"},
+        {"label": "7. Wołacz (lm.)", "value": "matki!"}
+      ],
+      "example": {
+        "pl": "Pomagam matce i często rozmawiam z matkami moich przyjaciół.",
+        "zhHans": "我帮助母亲，也常和朋友们的母亲交谈。",
+        "zhHant": "我幫助母親，也常和朋友們的母親交談。"
+      }
+    },
+    {
+      "lemmas": ["ojciec"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "ojciec"},
+        {"label": "2. Dopełniacz (lp.)", "value": "ojca"},
+        {"label": "3. Celownik (lp.)", "value": "ojcu"},
+        {"label": "4. Biernik (lp.)", "value": "ojca"},
+        {"label": "5. Narzędnik (lp.)", "value": "ojcem"},
+        {"label": "6. Miejscownik (lp.)", "value": "ojcu"},
+        {"label": "7. Wołacz (lp.)", "value": "ojcze!"},
+        {"label": "1. Mianownik (lm.)", "value": "ojcowie"},
+        {"label": "2. Dopełniacz (lm.)", "value": "ojców"},
+        {"label": "3. Celownik (lm.)", "value": "ojcom"},
+        {"label": "4. Biernik (lm.)", "value": "ojców"},
+        {"label": "5. Narzędnik (lm.)", "value": "ojcami"},
+        {"label": "6. Miejscownik (lm.)", "value": "ojcach"},
+        {"label": "7. Wołacz (lm.)", "value": "ojcowie!"}
+      ],
+      "example": {
+        "pl": "Piszę do ojca, a w niedzielę spotykam się z ojcami.",
+        "zhHans": "我给父亲写信，星期日和几位父亲见面。",
+        "zhHant": "我給父親寫信，星期日和幾位父親見面。"
+      }
+    },
+    {
+      "lemmas": ["kolega"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "kolega"},
+        {"label": "2. Dopełniacz (lp.)", "value": "kolegi"},
+        {"label": "3. Celownik (lp.)", "value": "koledze"},
+        {"label": "4. Biernik (lp.)", "value": "kolegę"},
+        {"label": "5. Narzędnik (lp.)", "value": "kolegą"},
+        {"label": "6. Miejscownik (lp.)", "value": "koledze"},
+        {"label": "7. Wołacz (lp.)", "value": "kolego!"},
+        {"label": "1. Mianownik (lm.)", "value": "koledzy"},
+        {"label": "2. Dopełniacz (lm.)", "value": "kolegów"},
+        {"label": "3. Celownik (lm.)", "value": "kolegom"},
+        {"label": "4. Biernik (lm.)", "value": "kolegów"},
+        {"label": "5. Narzędnik (lm.)", "value": "kolegami"},
+        {"label": "6. Miejscownik (lm.)", "value": "kolegach"},
+        {"label": "7. Wołacz (lm.)", "value": "koledzy!"}
+      ],
+      "example": {
+        "pl": "Rozmawiam z kolegą i pomagam kolegom z pracy.",
+        "zhHans": "我和一位男同事交谈，也帮助同事们。",
+        "zhHant": "我和一位男同事交談，也幫助同事們。"
+      }
+    },
+    {
+      "lemmas": ["kawa"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "kawa"},
+        {"label": "2. Dopełniacz (lp.)", "value": "kawy"},
+        {"label": "3. Celownik (lp.)", "value": "kawie"},
+        {"label": "4. Biernik (lp.)", "value": "kawę"},
+        {"label": "5. Narzędnik (lp.)", "value": "kawą"},
+        {"label": "6. Miejscownik (lp.)", "value": "kawie"},
+        {"label": "7. Wołacz (lp.)", "value": "kawo!"},
+        {"label": "1. Mianownik (lm.)", "value": "kawy"},
+        {"label": "2. Dopełniacz (lm.)", "value": "kaw"},
+        {"label": "3. Celownik (lm.)", "value": "kawom"},
+        {"label": "4. Biernik (lm.)", "value": "kawy"},
+        {"label": "5. Narzędnik (lm.)", "value": "kawami"},
+        {"label": "6. Miejscownik (lm.)", "value": "kawach"},
+        {"label": "7. Wołacz (lm.)", "value": "kawy!"}
+      ],
+      "example": {
+        "pl": "Nie piję kawy wieczorem; rano wybieram kawy z różnych krajów.",
+        "zhHans": "我晚上不喝咖啡；早上会选择不同国家的咖啡。",
+        "zhHant": "我晚上不喝咖啡；早上會選擇不同國家的咖啡。"
+      }
+    },
+    {
+      "lemmas": ["herbata"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "herbata"},
+        {"label": "2. Dopełniacz (lp.)", "value": "herbaty"},
+        {"label": "3. Celownik (lp.)", "value": "herbacie"},
+        {"label": "4. Biernik (lp.)", "value": "herbatę"},
+        {"label": "5. Narzędnik (lp.)", "value": "herbatą"},
+        {"label": "6. Miejscownik (lp.)", "value": "herbacie"},
+        {"label": "7. Wołacz (lp.)", "value": "herbato!"},
+        {"label": "1. Mianownik (lm.)", "value": "herbaty"},
+        {"label": "2. Dopełniacz (lm.)", "value": "herbat"},
+        {"label": "3. Celownik (lm.)", "value": "herbatom"},
+        {"label": "4. Biernik (lm.)", "value": "herbaty"},
+        {"label": "5. Narzędnik (lm.)", "value": "herbatami"},
+        {"label": "6. Miejscownik (lm.)", "value": "herbatach"},
+        {"label": "7. Wołacz (lm.)", "value": "herbaty!"}
+      ],
+      "example": {
+        "pl": "Poproszę herbatę bez cukru; w sklepie są herbaty ziołowe.",
+        "zhHans": "请给我一杯不加糖的茶；商店里有草本茶。",
+        "zhHant": "請給我一杯不加糖的茶；商店裡有草本茶。"
+      }
+    },
+    {
+      "lemmas": ["noc"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "noc"},
+        {"label": "2. Dopełniacz (lp.)", "value": "nocy"},
+        {"label": "3. Celownik (lp.)", "value": "nocy"},
+        {"label": "4. Biernik (lp.)", "value": "noc"},
+        {"label": "5. Narzędnik (lp.)", "value": "nocą"},
+        {"label": "6. Miejscownik (lp.)", "value": "nocy"},
+        {"label": "7. Wołacz (lp.)", "value": "nocy!"},
+        {"label": "1. Mianownik (lm.)", "value": "noce"},
+        {"label": "2. Dopełniacz (lm.)", "value": "nocy"},
+        {"label": "3. Celownik (lm.)", "value": "nocom"},
+        {"label": "4. Biernik (lm.)", "value": "noce"},
+        {"label": "5. Narzędnik (lm.)", "value": "nocami"},
+        {"label": "6. Miejscownik (lm.)", "value": "nocach"},
+        {"label": "7. Wołacz (lm.)", "value": "noce!"}
+      ],
+      "example": {
+        "pl": "W nocy padał śnieg, a w długie noce czytam.",
+        "zhHans": "夜里下了雪；漫长的夜晚我会读书。",
+        "zhHant": "夜裡下了雪；漫長的夜晚我會讀書。"
+      }
+    },
+    {
+      "lemmas": ["ręka"],
+      "forms": [
+        {"label": "1. Mianownik (lp.)", "value": "ręka"},
+        {"label": "2. Dopełniacz (lp.)", "value": "ręki"},
+        {"label": "3. Celownik (lp.)", "value": "ręce"},
+        {"label": "4. Biernik (lp.)", "value": "rękę"},
+        {"label": "5. Narzędnik (lp.)", "value": "ręką"},
+        {"label": "6. Miejscownik (lp.)", "value": "ręce"},
+        {"label": "7. Wołacz (lp.)", "value": "ręko!"},
+        {"label": "1. Mianownik (lm.)", "value": "ręce"},
+        {"label": "2. Dopełniacz (lm.)", "value": "rąk"},
+        {"label": "3. Celownik (lm.)", "value": "rękom"},
+        {"label": "4. Biernik (lm.)", "value": "ręce"},
+        {"label": "5. Narzędnik (lm.)", "value": "rękami"},
+        {"label": "6. Miejscownik (lm.)", "value": "rękach"},
+        {"label": "7. Wołacz (lm.)", "value": "ręce!"}
+      ],
+      "example": {
+        "pl": "Myję ręce i wycieram je ręcznikiem.",
+        "zhHans": "我洗手，然后用毛巾擦干。",
+        "zhHant": "我洗手，然後用毛巾擦乾。"
       }
     },
     {
@@ -254,6 +1001,250 @@
         "pl": "Jemy razem kolację.",
         "zhHans": "我们一起吃晚饭。",
         "zhHant": "我們一起吃晚餐。"
+      }
+    },
+    {
+      "lemmas": ["czytać"],
+      "forms": [
+        {"label": "ja", "value": "czytam"},
+        {"label": "ty", "value": "czytasz"},
+        {"label": "on/ona/ono", "value": "czyta"},
+        {"label": "my", "value": "czytamy"},
+        {"label": "wy", "value": "czytacie"},
+        {"label": "oni/one", "value": "czytają"},
+        {"label": "Rozkazujący: ty", "value": "czytaj"},
+        {"label": "Przeszły: on/ona/ono", "value": "czytał / czytała / czytało"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę czytać"}
+      ],
+      "example": {
+        "pl": "Czytam teraz artykuł, a wieczorem będę czytać książkę.",
+        "zhHans": "我现在在读一篇文章，晚上会读一本书。",
+        "zhHant": "我現在在讀一篇文章，晚上會讀一本書。"
+      }
+    },
+    {
+      "lemmas": ["pisać"],
+      "forms": [
+        {"label": "ja", "value": "piszę"},
+        {"label": "ty", "value": "piszesz"},
+        {"label": "on/ona/ono", "value": "pisze"},
+        {"label": "my", "value": "piszemy"},
+        {"label": "wy", "value": "piszecie"},
+        {"label": "oni/one", "value": "piszą"},
+        {"label": "Rozkazujący: ty", "value": "pisz"},
+        {"label": "Przeszły: on/ona/ono", "value": "pisał / pisała / pisało"},
+        {"label": "Para aspektowa", "value": "pisać (niedokonany) — napisać (dokonany)"}
+      ],
+      "example": {
+        "pl": "Piszę wiadomość; napiszę ją po spotkaniu.",
+        "zhHans": "我正在写消息；会议结束后会把它写完。",
+        "zhHant": "我正在寫訊息；會議結束後會把它寫完。"
+      }
+    },
+    {
+      "lemmas": ["robić"],
+      "forms": [
+        {"label": "ja", "value": "robię"},
+        {"label": "ty", "value": "robisz"},
+        {"label": "on/ona/ono", "value": "robi"},
+        {"label": "my", "value": "robimy"},
+        {"label": "wy", "value": "robicie"},
+        {"label": "oni/one", "value": "robią"},
+        {"label": "Rozkazujący: ty", "value": "rób"},
+        {"label": "Przeszły: on/ona/ono", "value": "robił / robiła / robiło"},
+        {"label": "Przyszły (niedokonany): ja", "value": "będę robić"}
+      ],
+      "example": {
+        "pl": "Co robisz? — Robię kolację.",
+        "zhHans": "你在做什么？——我在做晚饭。",
+        "zhHant": "你在做什麼？——我在做晚餐。"
+      }
+    },
+    {
+      "lemmas": ["iść"],
+      "forms": [
+        {"label": "ja", "value": "idę"},
+        {"label": "ty", "value": "idziesz"},
+        {"label": "on/ona/ono", "value": "idzie"},
+        {"label": "my", "value": "idziemy"},
+        {"label": "wy", "value": "idziecie"},
+        {"label": "oni/one", "value": "idą"},
+        {"label": "Rozkazujący: ty", "value": "idź"},
+        {"label": "Przeszły: on/ona/ono", "value": "szedł / szła / szło"},
+        {"label": "Przyszły: ja", "value": "będę iść"}
+      ],
+      "example": {
+        "pl": "Idę pieszo do pracy, ale jutro pojadę autobusem.",
+        "zhHans": "我步行去上班，但明天会坐公交车去。",
+        "zhHant": "我步行去上班，但明天會搭公車去。"
+      }
+    },
+    {
+      "lemmas": ["chcieć"],
+      "forms": [
+        {"label": "ja", "value": "chcę"},
+        {"label": "ty", "value": "chcesz"},
+        {"label": "on/ona/ono", "value": "chce"},
+        {"label": "my", "value": "chcemy"},
+        {"label": "wy", "value": "chcecie"},
+        {"label": "oni/one", "value": "chcą"},
+        {"label": "Przeszły: on/ona/ono", "value": "chciał / chciała / chciało"},
+        {"label": "Tryb przypuszczający: ja", "value": "chciałbym (m) / chciałabym (ż)"}
+      ],
+      "example": {
+        "pl": "Chciałabym zamówić herbatę. (Mężczyzna: Chciałbym.)",
+        "zhHans": "我想点一杯茶。（女性说法；男性说 chciałbym。）",
+        "zhHant": "我想點一杯茶。（女性說法；男性說 chciałbym。）"
+      }
+    },
+    {
+      "lemmas": ["móc"],
+      "forms": [
+        {"label": "ja", "value": "mogę"},
+        {"label": "ty", "value": "możesz"},
+        {"label": "on/ona/ono", "value": "może"},
+        {"label": "my", "value": "możemy"},
+        {"label": "wy", "value": "możecie"},
+        {"label": "oni/one", "value": "mogą"},
+        {"label": "Przeszły: on/ona/ono", "value": "mógł / mogła / mogło"},
+        {"label": "Tryb przypuszczający: ty", "value": "mógłbyś (m) / mogłabyś (ż)"}
+      ],
+      "example": {
+        "pl": "Czy możesz mi pomóc? Wczoraj nie mogłam przyjść.",
+        "zhHans": "你能帮我吗？我昨天（女性）没能来。",
+        "zhHant": "你能幫我嗎？我昨天（女性）沒能來。"
+      }
+    },
+    {
+      "lemmas": ["napisać"],
+      "forms": [
+        {"label": "ja", "value": "napiszę"},
+        {"label": "ty", "value": "napiszesz"},
+        {"label": "on/ona/ono", "value": "napisze"},
+        {"label": "my", "value": "napiszemy"},
+        {"label": "wy", "value": "napiszecie"},
+        {"label": "oni/one", "value": "napiszą"},
+        {"label": "Rozkazujący: ty", "value": "napisz"},
+        {"label": "Przeszły: on/ona/ono", "value": "napisał / napisała / napisało"},
+        {"label": "Aspekt", "value": "dokonany; forma podobna do teraźniejszej oznacza przyszłość"}
+      ],
+      "example": {
+        "pl": "Jutro napiszę list i wyślę go.",
+        "zhHans": "明天我会写完一封信并寄出去。",
+        "zhHant": "明天我會寫完一封信並寄出去。"
+      }
+    },
+    {
+      "lemmas": ["powiedzieć"],
+      "forms": [
+        {"label": "ja", "value": "powiem"},
+        {"label": "ty", "value": "powiesz"},
+        {"label": "on/ona/ono", "value": "powie"},
+        {"label": "my", "value": "powiemy"},
+        {"label": "wy", "value": "powiecie"},
+        {"label": "oni/one", "value": "powiedzą"},
+        {"label": "Rozkazujący: ty", "value": "powiedz"},
+        {"label": "Przeszły: on/ona/ono", "value": "powiedział / powiedziała / powiedziało"},
+        {"label": "Para aspektowa", "value": "mówić (niedokonany) — powiedzieć (dokonany)"}
+      ],
+      "example": {
+        "pl": "Powiedz mi, co myślisz; później powiem ci, co zdecydowałem.",
+        "zhHans": "告诉我你的想法；之后我会告诉你我的决定。",
+        "zhHant": "告訴我你的想法；之後我會告訴你我的決定。"
+      }
+    },
+    {
+      "lemmas": ["nowy"],
+      "forms": [
+        {"label": "Mianownik (lp.)", "value": "nowy / nowa / nowe"},
+        {"label": "Biernik (lp.)", "value": "nowy / nowego (m) / nową / nowe"},
+        {"label": "Narzędnik (lp.)", "value": "nowym / nową / nowym"},
+        {"label": "Mianownik (lm.)", "value": "nowi (męskoosobowy) / nowe"},
+        {"label": "Dopełniacz (lm.)", "value": "nowych"},
+        {"label": "Narzędnik (lm.)", "value": "nowymi"}
+      ],
+      "example": {
+        "pl": "Mam nową książkę i rozmawiam z nowymi studentami.",
+        "zhHans": "我有一本新书，正在和新学生交谈。",
+        "zhHant": "我有一本新書，正在和新學生交談。"
+      }
+    },
+    {
+      "lemmas": ["szybki"],
+      "forms": [
+        {"label": "Mianownik (lp.)", "value": "szybki / szybka / szybkie"},
+        {"label": "Stopień wyższy", "value": "szybszy / szybsza / szybsze"},
+        {"label": "Stopień najwyższy", "value": "najszybszy / najszybsza / najszybsze"},
+        {"label": "Mianownik (lm.)", "value": "szybcy (męskoosobowy) / szybkie"}
+      ],
+      "example": {
+        "pl": "Pociąg jest szybszy od autobusu.",
+        "zhHans": "火车比公交车快。",
+        "zhHant": "火車比公車快。"
+      }
+    },
+    {
+      "lemmas": ["zły"],
+      "forms": [
+        {"label": "Mianownik (lp.)", "value": "zły / zła / złe"},
+        {"label": "Stopień wyższy", "value": "gorszy / gorsza / gorsze"},
+        {"label": "Stopień najwyższy", "value": "najgorszy / najgorsza / najgorsze"}
+      ],
+      "example": {
+        "pl": "Pogoda jest dziś gorsza niż wczoraj.",
+        "zhHans": "今天天气比昨天更糟。",
+        "zhHant": "今天天氣比昨天更糟。"
+      }
+    },
+    {
+      "lemmas": ["ja"],
+      "forms": [
+        {"label": "1. Mianownik", "value": "ja"},
+        {"label": "2. Dopełniacz", "value": "mnie"},
+        {"label": "3. Celownik", "value": "mi / mnie"},
+        {"label": "4. Biernik", "value": "mnie"},
+        {"label": "5. Narzędnik", "value": "mną"},
+        {"label": "6. Miejscownik", "value": "mnie"},
+        {"label": "Po przyimku", "value": "do mnie, ze mną, o mnie"}
+      ],
+      "example": {
+        "pl": "Daj mi książkę i porozmawiaj ze mną.",
+        "zhHans": "把书给我，并和我谈谈。",
+        "zhHant": "把書給我，並和我談談。"
+      }
+    },
+    {
+      "lemmas": ["ty"],
+      "forms": [
+        {"label": "1. Mianownik", "value": "ty"},
+        {"label": "2. Dopełniacz", "value": "ciebie / cię"},
+        {"label": "3. Celownik", "value": "tobie / ci"},
+        {"label": "4. Biernik", "value": "ciebie / cię"},
+        {"label": "5. Narzędnik", "value": "tobą"},
+        {"label": "6. Miejscownik", "value": "tobie"},
+        {"label": "Po przyimku", "value": "do ciebie, z tobą, o tobie"}
+      ],
+      "example": {
+        "pl": "Czy mogę z tobą porozmawiać? Chcę ci coś powiedzieć.",
+        "zhHans": "我能和你谈谈吗？我想告诉你一件事。",
+        "zhHant": "我能和你談談嗎？我想告訴你一件事。"
+      }
+    },
+    {
+      "lemmas": ["ona"],
+      "forms": [
+        {"label": "1. Mianownik", "value": "ona"},
+        {"label": "2. Dopełniacz", "value": "jej"},
+        {"label": "3. Celownik", "value": "jej"},
+        {"label": "4. Biernik", "value": "ją"},
+        {"label": "5. Narzędnik", "value": "nią"},
+        {"label": "6. Miejscownik", "value": "niej"},
+        {"label": "Po przyimku", "value": "do niej, z nią, o niej"}
+      ],
+      "example": {
+        "pl": "Widzę ją w szkole i idę z nią do domu.",
+        "zhHans": "我在学校看见她，并和她一起回家。",
+        "zhHant": "我在學校看見她，並和她一起回家。"
       }
     }
   ]

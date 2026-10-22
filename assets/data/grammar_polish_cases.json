@@ -1,6 +1,40 @@
 {
   "lessons": [
     {
+      "id": "pl-cases-spatial-prepositions",
+      "title": {"pl": "Miejsce, cel i źródło: przyimki w kontekście", "zhHans": "地点、目的地与来源：语境中的介词", "zhHant": "地點、目的地與來源：語境中的介詞"},
+      "summary": {"pl": "Łącz przyimek ze znaczeniem i przypadkiem; sam czasownik ruchu nie wystarcza do wyboru formy.", "zhHans": "把介词、意义和格一起学习；仅凭动词表示移动，不能决定格。", "zhHant": "把介詞、意義和格一起學習；僅憑動詞表示移動，不能決定格。"},
+      "sections": [
+        {
+          "heading": {"pl": "Gdzie, dokąd, skąd?", "zhHans": "在哪里、到哪里、从哪里？", "zhHant": "在哪裡、到哪裡、從哪裡？"},
+          "explanation": {"pl": "Ucz się całych zestawów: w szkole – do szkoły – ze szkoły; na poczcie – na pocztę – z poczty; u lekarza – do lekarza – od lekarza. „Do”, „z” w znaczeniu źródła i „od” wymagają dopełniacza; „u” też łączy się z dopełniaczem.", "zhHans": "成组学习：w szkole–do szkoły–ze szkoły（在学校／去学校／从学校出来）；na poczcie–na pocztę–z poczty（在邮局／去邮局／从邮局出来）；u lekarza–do lekarza–od lekarza（在医生那里／去看医生／从医生那里回来）。do、表示来源的 z、od 以及 u 都接属格。", "zhHant": "成組學習：w szkole–do szkoły–ze szkoły（在學校／去學校／從學校出來）；na poczcie–na pocztę–z poczty（在郵局／去郵局／從郵局出來）；u lekarza–do lekarza–od lekarza（在醫生那裡／去看醫生／從醫生那裡回來）。do、表示來源的 z、od 以及 u 都接屬格。"},
+          "examples": [
+            {"pl": "Rano idę na pocztę, a z poczty wracam do domu.", "zhHans": "早上我去邮局，然后从邮局回家。", "zhHant": "早上我去郵局，然後從郵局回家。"},
+            {"pl": "Jestem u lekarza. Po południu wrócę od lekarza.", "zhHans": "我现在在医生这里。下午看完医生后回来。", "zhHant": "我現在在醫生這裡。下午看完醫生後回來。"}
+          ],
+          "note": {"pl": "Dobór „w / na” zależy również od zwyczaju językowego, nie tylko od tego, czy miejsce jest zamknięte.", "zhHans": "w / na 的选择也取决于语言习惯，并非只看地点是否封闭。", "zhHant": "w / na 的選擇也取決於語言習慣，並非只看地點是否封閉。"}
+        },
+        {
+          "heading": {"pl": "Ruch w miejscu a ruch do celu", "zhHans": "在某处活动与向目的地移动", "zhHant": "在某處活動與向目的地移動"},
+          "explanation": {"pl": "„W / na + miejscownik” wskazuje miejsce także przy ruchu: biegam w parku. „Na + biernik” może wskazywać cel: biegnę na stadion. Przy „pod, nad, przed, za, między” narzędnik zwykle wskazuje położenie, a biernik zmianę położenia.", "zhHans": "w / na + 处所格也可与移动动词连用，表示活动发生的地点：biegam w parku（我在公园跑步）。na + 宾格可表示目的地：biegnę na stadion（我跑向体育场）。pod、nad、przed、za、między 后的工具格通常表示位置，宾格表示位置的改变。", "zhHant": "w / na + 前置格也可與移動動詞連用，表示活動發生的地點：biegam w parku（我在公園跑步）。na + 賓格可表示目的地：biegnę na stadion（我跑向體育場）。pod、nad、przed、za、między 後的工具格通常表示位置，賓格表示位置的改變。"},
+          "examples": [
+            {"pl": "Kot biega pod stołem, a potem wchodzi pod łóżko.", "zhHans": "猫在桌子下面跑来跑去，然后钻到床底下。", "zhHant": "貓在桌子下面跑來跑去，然後鑽到床底下。"},
+            {"pl": "Kot wskakuje na krzesło, a potem siedzi na krześle.", "zhHans": "猫跳上椅子，然后坐在椅子上。", "zhHant": "貓跳上椅子，然後坐在椅子上。"}
+          ],
+          "note": {"pl": "„Biegam w parku” odpowiada na „gdzie?”, choć opisuje ruch. „Wskakuje na krzesło” odpowiada na „dokąd?”. Unikaj reguły „każdy ruch = biernik”.", "zhHans": "Biegam w parku 虽然描述移动，回答的仍是“在哪里”；wskakuje na krzesło 回答的是“到哪里”。不要套用“有移动就用宾格”的规则。", "zhHant": "Biegam w parku 雖然描述移動，回答的仍是「在哪裡」；wskakuje na krzesło 回答的是「到哪裡」。不要套用「有移動就用賓格」的規則。"}
+        },
+        {
+          "heading": {"pl": "Dwa znaczenia „z”", "zhHans": "z 的两种意义", "zhHant": "z 的兩種意義"},
+          "explanation": {"pl": "„Z + dopełniacz” wskazuje źródło lub pochodzenie, a „z + narzędnik” towarzyszenie. Wariant „ze” ułatwia wymowę w niektórych połączeniach, ale nie zmienia wymaganego przypadku: ze szkoły, ze studentem, ze mną.", "zhHans": "z + 属格表示来源，z + 工具格表示陪同。部分组合用 ze 便于发音，但不改变所需的格：ze szkoły（从学校）、ze studentem（和学生一起）、ze mną（和我一起）。", "zhHant": "z + 屬格表示來源，z + 工具格表示陪同。部分組合用 ze 便於發音，但不改變所需的格：ze szkoły（從學校）、ze studentem（和學生一起）、ze mną（和我一起）。"},
+          "examples": [
+            {"pl": "Wracam z pracy z koleżanką.", "zhHans": "我和女同事一起下班回来。", "zhHant": "我和女同事一起下班回來。"},
+            {"pl": "Rozmawiam ze studentem z Chin.", "zhHans": "我在和一位来自中国的学生交谈。", "zhHant": "我在和一位來自中國的學生交談。"}
+          ],
+          "note": {"pl": "W „z Chin” jest dopełniacz liczby mnogiej, bo nazwa „Chiny” ma w polskim liczbę mnogą.", "zhHans": "z Chin 中的 Chin 是复数属格，因为波兰语国名 Chiny 是复数形式。", "zhHant": "z Chin 中的 Chin 是複數屬格，因為波蘭語國名 Chiny 是複數形式。"}
+        }
+      ]
+    },
+    {
       "id": "pl-cases-seven-cases",
       "title": {
         "pl": "Siedem przypadków w praktyce",
@@ -466,10 +500,64 @@
             { "pl": "pan – panowie; ojciec – ojcowie", "zhHans": "先生们；父亲们", "zhHant": "先生們；父親們" },
             { "pl": "brat – bracia; człowiek – ludzie; dziecko – dzieci; oko – oczy; ucho – uszy; rok – lata", "zhHans": "兄弟们；人们；孩子们；眼睛；耳朵；年（不规则复数）", "zhHant": "兄弟們；人們；孩子們；眼睛；耳朵；年（不規則複數）" }
           ],
+          "tables": [
+            {
+              "headers": [
+                { "pl": "Kolejność i przypadek", "zhHans": "顺序与格", "zhHant": "順序與格" },
+                { "pl": "męskoosobowy: student", "zhHans": "阳性人称：student（学生）", "zhHant": "陽性人稱：student（學生）" },
+                { "pl": "żeński: kobieta", "zhHans": "阴性：kobieta（女人）", "zhHant": "陰性：kobieta（女人）" },
+                { "pl": "nijaki: dziecko", "zhHans": "中性：dziecko（孩子）", "zhHant": "中性：dziecko（孩子）" }
+              ],
+              "rows": [
+                [
+                  { "pl": "1. Mianownik", "zhHans": "1. 主格", "zhHant": "1. 主格" },
+                  { "pl": "studenci", "zhHans": "studenci", "zhHant": "studenci" },
+                  { "pl": "kobiety", "zhHans": "kobiety", "zhHant": "kobiety" },
+                  { "pl": "dzieci", "zhHans": "dzieci", "zhHant": "dzieci" }
+                ],
+                [
+                  { "pl": "2. Dopełniacz", "zhHans": "2. 属格", "zhHant": "2. 屬格" },
+                  { "pl": "studentów", "zhHans": "studentów", "zhHant": "studentów" },
+                  { "pl": "kobiet", "zhHans": "kobiet", "zhHant": "kobiet" },
+                  { "pl": "dzieci", "zhHans": "dzieci", "zhHant": "dzieci" }
+                ],
+                [
+                  { "pl": "3. Celownik", "zhHans": "3. 与格", "zhHant": "3. 與格" },
+                  { "pl": "studentom", "zhHans": "studentom", "zhHant": "studentom" },
+                  { "pl": "kobietom", "zhHans": "kobietom", "zhHant": "kobietom" },
+                  { "pl": "dzieciom", "zhHans": "dzieciom", "zhHant": "dzieciom" }
+                ],
+                [
+                  { "pl": "4. Biernik", "zhHans": "4. 宾格", "zhHant": "4. 賓格" },
+                  { "pl": "studentów", "zhHans": "studentów", "zhHant": "studentów" },
+                  { "pl": "kobiety", "zhHans": "kobiety", "zhHant": "kobiety" },
+                  { "pl": "dzieci", "zhHans": "dzieci", "zhHant": "dzieci" }
+                ],
+                [
+                  { "pl": "5. Narzędnik", "zhHans": "5. 工具格", "zhHant": "5. 工具格" },
+                  { "pl": "studentami", "zhHans": "studentami", "zhHant": "studentami" },
+                  { "pl": "kobietami", "zhHans": "kobietami", "zhHant": "kobietami" },
+                  { "pl": "dziećmi", "zhHans": "dziećmi", "zhHant": "dziećmi" }
+                ],
+                [
+                  { "pl": "6. Miejscownik", "zhHans": "6. 前置格", "zhHant": "6. 前置格" },
+                  { "pl": "studentach", "zhHans": "studentach", "zhHant": "studentach" },
+                  { "pl": "kobietach", "zhHans": "kobietach", "zhHant": "kobietach" },
+                  { "pl": "dzieciach", "zhHans": "dzieciach", "zhHant": "dzieciach" }
+                ],
+                [
+                  { "pl": "7. Wołacz", "zhHans": "7. 呼格", "zhHant": "7. 呼格" },
+                  { "pl": "studenci!", "zhHans": "studenci!", "zhHant": "studenci!" },
+                  { "pl": "kobiety!", "zhHans": "kobiety!", "zhHant": "kobiety!" },
+                  { "pl": "dzieci!", "zhHans": "dzieci!", "zhHant": "dzieci!" }
+                ]
+              ]
+            }
+          ],
           "note": {
-            "pl": "Rzeczowniki nieregularne (ludzie, dzieci, oczy, uszy, lata) trzeba po prostu zapamiętać.",
-            "zhHans": "不规则的复数（ludzie, dzieci, oczy, uszy, lata）只能一个个记。",
-            "zhHant": "不規則的複數（ludzie, dzieci, oczy, uszy, lata）只能一個個記。"
+            "pl": "Tabela pokazuje siedem przypadków liczby mnogiej w stałej kolejności 1–7; wołacz liczby mnogiej jest równy mianownikowi. Rzeczowniki nieregularne (ludzie, dzieci, oczy, uszy, lata) trzeba zapamiętać.",
+            "zhHans": "表格按固定的 1–7 顺序展示复数的七个格；复数呼格与主格相同。不规则复数（ludzie、dzieci、oczy、uszy、lata）需要单独记忆。",
+            "zhHant": "表格按固定的 1–7 順序展示複數的七個格；複數呼格與主格相同。不規則複數（ludzie、dzieci、oczy、uszy、lata）需要單獨記憶。"
           }
         },
         {

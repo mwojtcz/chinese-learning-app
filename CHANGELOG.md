@@ -6,6 +6,18 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+- Local learner and teacher profiles with isolated learning progress and backup export/import.
+- An A4 teacher notebook with page thumbnails, direct click-to-write lines, draggable/resizable pictures, blank/lined/grid paper, contextual range formatting, annotated reading/board views, and portable lesson packages.
+- Twenty illustrated offline chengyu with usage cautions and examples.
+- Typed Polish declension and conjugation practice using 29 noun case tables and 18 verb paradigms; random form-by-form questions include case, person, tense, imperative, and conditional forms.
+- 32 new localized Chinese grammar exercises, bringing the practice bank to 169 items (120 Polish, 49 Chinese) and extending typed HSK grammar practice through HSK 6 with simplified/traditional answer variants.
+- A 30-module Polish course plan; expanded aspect, conditions, purpose, spatial cases, measures, comparison, and Chinese connectors and negation guidance.
+- Paper, jade, and midnight themes with adjustable reading size.
+
+### Changed
+- Display branding is now Polski · 中文. Platform and storage identifiers remain stable for data continuity.
+
 ### Fixed
 - Windows update checks download the public release manifest directly instead of using the rate-limited GitHub API.
 
@@ -70,7 +82,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Initial Windows portable app and GitHub Pages web build.
 - HSK 3.0 vocabulary browser, practice modes, saved words, and traditional Chinese display.
 
-[Unreleased]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/mwojtcz/chinese-learning-app/releases/tag/v1.5.0
 [1.4.0]: https://github.com/mwojtcz/chinese-learning-app/releases/tag/v1.4.0
 [1.3.0]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/mwojtcz/chinese-learning-app/compare/v1.1.0...v1.2.0

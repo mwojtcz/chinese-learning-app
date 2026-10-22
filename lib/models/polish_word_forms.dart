@@ -58,6 +58,36 @@ class PolishFormsCatalog {
   final List<PolishWordForms> entries;
   late final Map<String, PolishWordForms> _byLemma;
 
+  List<PolishWordForms> get declensionParadigms => entries
+      .where((entry) => declensionFormsFor(entry).length >= 7)
+      .toList(growable: false);
+
+  List<PolishWordForms> get conjugationParadigms => entries
+      .where((entry) => conjugationFormsFor(entry).length >= 8)
+      .toList(growable: false);
+
+  static List<PolishForm> declensionFormsFor(PolishWordForms entry) =>
+      entry.forms
+          .where((form) => RegExp(r'^[1-7]\. ').hasMatch(form.label))
+          .toList(growable: false);
+
+  static List<PolishForm> conjugationFormsFor(PolishWordForms entry) =>
+      entry.forms.where((form) {
+        const persons = {'ja', 'ty', 'on/ona/ono', 'my', 'wy', 'oni/one'};
+        return persons.contains(form.label) ||
+            form.label.startsWith('Rozkazujący:') ||
+            form.label.startsWith('Przeszły:') ||
+            form.label.startsWith('Przyszły') ||
+            form.label.startsWith('Przypuszczający:') ||
+            form.label.startsWith('Tryb przypuszczający:');
+      }).toList(growable: false);
+
+  static List<String> answerVariantsFor(PolishForm form) => form.value
+      .split('/')
+      .map((value) => value.trim())
+      .where((value) => value.isNotEmpty)
+      .toList(growable: false);
+
   PolishWordForms? lookup(String polishGloss) {
     final firstGloss = polishGloss.split(';').first.trim();
     return _byLemma[_normalizeLemma(firstGloss)];
@@ -69,9 +99,7 @@ class PolishFormsCatalog {
       throw const FormatException('Polish forms asset must contain entries.');
     }
     return PolishFormsCatalog(
-      (decoded['entries'] as List)
-          .map(_parseEntry)
-          .toList(growable: false),
+      (decoded['entries'] as List).map(_parseEntry).toList(growable: false),
     );
   }
 }
@@ -116,7 +144,8 @@ PolishWordForms _parseEntry(Object? value) {
 String _required(Map<String, dynamic> value, String key) {
   final field = value[key];
   if (field is! String || field.trim().isEmpty) {
-    throw FormatException('Polish forms field "$key" must be a non-empty string.');
+    throw FormatException(
+        'Polish forms field "$key" must be a non-empty string.');
   }
   return field.trim();
 }

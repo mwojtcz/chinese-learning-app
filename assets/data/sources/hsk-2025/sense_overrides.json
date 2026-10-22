@@ -1,0 +1,512 @@
+{
+  "HSK-4|15": {"sourceWord": "关系", "polish": "relacja; związek; dotyczyć; mieć związek z; kontakty/znajomości (guanxi)"},
+  "HSK-4|31": {"sourceWord": "办理", "polish": "załatwiać; prowadzić; przeprowadzać (sprawę); dokonywać formalności lub transakcji"},
+  "HSK-4|36": {"sourceWord": "报名", "polish": "zapisywać się; zgłaszać się; rejestrować się; zgłoszenie; rejestracja"},
+  "HSK-4|38": {"sourceWord": "保证", "polish": "gwarancja; gwarantować; zapewniać; ręczyć; zobowiązać się"},
+  "HSK-4|48": {"sourceWord": "表格", "polish": "formularz; tabela; zestawienie tabelaryczne"},
+  "HSK-4|53": {"sourceWord": "并", "polish": "i; oraz; także; ponadto; jednocześnie; łączyć; połączyć"},
+  "HSK-4|68": {"sourceWord": "部分", "polish": "część; udział; odcinek; częściowy"},
+  "HSK-4|70": {"sourceWord": "不管", "polish": "bez względu na; niezależnie od tego, co, jak lub kto"},
+  "HSK-4|75": {"sourceWord": "不满", "polish": "niezadowolony; nieusatysfakcjonowany; niezadowolenie; mieć zastrzeżenia"},
+  "HSK-4|76": {"sourceWord": "部门", "polish": "dział; departament; wydział; sekcja"},
+  "HSK-4|84": {"sourceWord": "操场", "polish": "boisko; plac sportowy; teren ćwiczeń"},
+  "HSK-4|88": {"sourceWord": "场", "polish": "miejsce lub przestrzeń do określonego celu; scena; raz (klasyfikator wydarzeń, meczów i egzaminów)"},
+  "HSK-4|92": {"sourceWord": "差（一）点儿", "pinyin": "chà (yì) diǎnr"},
+  "HSK-4|94": {"sourceWord": "城", "polish": "miasto; mury miejskie"},
+  "HSK-4|117": {"sourceWord": "此", "polish": "ten; ta; to; ci; te (formalnie: niniejszy)"},
+  "HSK-4|124": {"sourceWord": "粗", "polish": "gruby; zgrubny; szorstki; prymitywny; ordynarny"},
+  "HSK-4|126": {"sourceWord": "村", "polish": "wieś; wioska"},
+  "HSK-4|130": {"sourceWord": "答", "polish": "odpowiadać; odpowiedź; odpowiedzieć"},
+  "HSK-4|137": {"sourceWord": "打工", "polish": "pracować dorywczo; wykonywać pracę tymczasową"},
+  "HSK-4|140": {"sourceWord": "大夫", "polish": "dà fū: wyższy urzędnik w dawnych Chinach; dài fu: lekarz"},
+  "HSK-4|144": {"sourceWord": "当时", "polish": "wtedy; w tamtym czasie; wówczas"},
+  "HSK-4|162": {"sourceWord": "打针", "polish": "robić zastrzyk; podawać zastrzyk; otrzymać zastrzyk"},
+  "HSK-4|173": {"sourceWord": "点头", "polish": "skinąć głową; kiwać głową; przytaknąć"},
+  "HSK-4|177": {"sourceWord": "订", "polish": "ustalać; uzgadniać; sporządzać; zamawiać; prenumerować"},
+  "HSK-4|178": {"sourceWord": "定", "polish": "ustalać; określać; decydować; zamawiać; ustalony; stabilny"},
+  "HSK-4|190": {"sourceWord": "对方", "polish": "druga strona; rozmówca; druga osoba uczestnicząca w sprawie; strona przeciwna"},
+  "HSK-4|200": {"sourceWord": "读者", "polish": "czytelnik; odbiorca tekstu"},
+  "HSK-4|240": {"sourceWord": "敢", "polish": "odważyć się; mieć odwagę; śmieć; (uprzejmie) pozwolić sobie"},
+  "HSK-4|284": {"sourceWord": "逛", "polish": "spacerować; przechadzać się; zwiedzać (np. sklepy)"},
+  "HSK-4|289": {"sourceWord": "观看", "polish": "oglądać; obserwować; przyglądać się; oglądanie"},
+  "HSK-4|297": {"sourceWord": "过程", "polish": "proces; przebieg; tok zdarzeń"},
+  "HSK-4|301": {"sourceWord": "故意", "polish": "celowo; umyślnie; z rozmysłem"},
+  "HSK-4|317": {"sourceWord": "坏处", "polish": "wada; niekorzyść; szkodliwy aspekt; ujemny skutek"},
+  "HSK-4|318": {"sourceWord": "怀疑", "polish": "wątpić; podejrzewać; mieć wątpliwości; podejrzenie"},
+  "HSK-4|322": {"sourceWord": "回复", "polish": "odpowiadać; odpowiedź; przywracać poprzedni stan; wracać do poprzedniego stanu"},
+  "HSK-4|340": {"sourceWord": "假", "polish": "fałszywy; sztuczny; pożyczać; jeśli; przypuśćmy"},
+  "HSK-4|363": {"sourceWord": "交", "polish": "przekazywać; wręczać; płacić; zawierać znajomości; przecinać się"},
+  "HSK-4|388": {"sourceWord": "激动", "polish": "poruszyć (emocjonalnie); wzburzyć; ekscytować; być podekscytowanym"},
+  "HSK-4|396": {"sourceWord": "接着", "polish": "następnie; potem; kontynuować; podjąć dalej"},
+  "HSK-4|400": {"sourceWord": "仅", "polish": "tylko; jedynie; zaledwie; ledwie"},
+  "HSK-4|415": {"sourceWord": "仅仅", "polish": "tylko; jedynie; zaledwie; ledwie"},
+  "HSK-4|430": {"sourceWord": "举办", "polish": "organizować; urządzać; przeprowadzać; prowadzić (wydarzenie)"},
+  "HSK-4|442": {"sourceWord": "考生", "polish": "zdający; kandydat przystępujący do egzaminu"},
+  "HSK-4|445": {"sourceWord": "棵", "polish": "klasyfikator drzew i roślin (jedna sztuka)"},
+  "HSK-4|446": {"sourceWord": "课程", "polish": "kurs; przedmiot; program nauczania; tok studiów"},
+  "HSK-4|447": {"sourceWord": "科技", "polish": "nauka i technologia; nauki techniczne"},
+  "HSK-4|451": {"sourceWord": "课堂", "polish": "lekcja; zajęcia; sala lekcyjna"},
+  "HSK-4|455": {"sourceWord": "空", "polish": "pusty; powietrze; niebo; na próżno"},
+  "HSK-4|456": {"sourceWord": "空", "polish": "opróżniać; wolny; nieobsadzony; wolne miejsce; wolny czas"},
+  "HSK-4|472": {"sourceWord": "浪费", "polish": "marnować; trwonić; marnotrawstwo"},
+  "HSK-4|475": {"sourceWord": "老家", "polish": "rodzinne strony; rodzinny dom; miejsce pochodzenia"},
+  "HSK-4|476": {"sourceWord": "老年", "polish": "starość; podeszły wiek; osoby starsze"},
+  "HSK-4|478": {"sourceWord": "冷静", "polish": "spokojny; opanowany; zachować spokój"},
+  "HSK-4|482": {"sourceWord": "量", "polish": "mierzyć; dokonywać pomiaru"},
+  "HSK-4|515": {"sourceWord": "馒头", "polish": "mantou; bułeczka pszenna gotowana na parze"},
+  "HSK-4|523": {"sourceWord": "美食", "polish": "przysmak; wykwintne jedzenie; dobre jedzenie"},
+  "HSK-4|528": {"sourceWord": "面试", "polish": "rozmowa kwalifikacyjna; przystępować do rozmowy kwalifikacyjnej; przeprowadzać rozmowę kwalifikacyjną"},
+  "HSK-4|531": {"sourceWord": "民族", "polish": "grupa etniczna; narodowość (etniczna); lud"},
+  "HSK-4|549": {"sourceWord": "内心", "polish": "serce; najgłębsze uczucia i myśli; świat wewnętrzny; (geom.) środek okręgu wpisanego"},
+  "HSK-4|556": {"sourceWord": "弄", "polish": "robić; załatwiać; obchodzić się z; majstrować przy; bawić się czymś"},
+  "HSK-4|562": {"sourceWord": "牌", "polish": "kafelek do madżonga; karta do gry; szyld; tabliczka; medal; marka"},
+  "HSK-4|563": {"sourceWord": "拍", "polish": "klepać; klaskać; uderzać; robić zdjęcia; kręcić film; takt; rakieta sportowa"},
+  "HSK-4|592": {"sourceWord": "巧", "polish": "zręczny; sprytny; umiejętny; w samą porę; zbiegiem okoliczności"},
+  "HSK-4|595": {"sourceWord": "其次", "polish": "następnie; po drugie; kolejny"},
+  "HSK-4|597": {"sourceWord": "气候", "polish": "klimat; atmosfera; sytuacja (w szerszym sensie)"},
+  "HSK-4|604": {"sourceWord": "庆祝", "polish": "świętować; obchodzić; uczcić"},
+  "HSK-4|611": {"sourceWord": "期中", "polish": "w połowie semestru; śródsemestralny"},
+  "HSK-4|614": {"sourceWord": "全", "polish": "cały; całkowity; wszystko; wszystkie; w całości"},
+  "HSK-4|629": {"sourceWord": "仍", "polish": "nadal; wciąż; pozostawać"},
+  "HSK-4|633": {"sourceWord": "人生", "polish": "życie (ludzkie); bieg życia; los życiowy"},
+  "HSK-4|636": {"sourceWord": "人员", "polish": "personel; pracownicy; załoga"},
+  "HSK-4|642": {"sourceWord": "入口", "polish": "wejście; importować; trafiać do ust (o jedzeniu lub piciu)"},
+  "HSK-4|658": {"sourceWord": "社会", "polish": "społeczeństwo; społeczność (wspólnota)"},
+  "HSK-4|660": {"sourceWord": "深", "polish": "głęboki; głębia; głęboko; ciemny (o barwie)"},
+  "HSK-4|669": {"sourceWord": "甚至", "polish": "nawet; do tego stopnia, że"},
+  "HSK-4|672": {"sourceWord": "失败", "polish": "ponieść porażkę; nie udać się; porażka; klęska"},
+  "HSK-4|679": {"sourceWord": "实际", "polish": "rzeczywisty; faktyczny; praktyczny; w praktyce"},
+  "HSK-4|691": {"sourceWord": "食物", "polish": "żywność; jedzenie; pokarm"},
+  "HSK-4|704": {"sourceWord": "收听", "polish": "słuchać (audycji lub radia); odbierać program radiowy"},
+  "HSK-4|711": {"sourceWord": "数量", "polish": "ilość; wielkość; liczba; ilościowy"},
+  "HSK-4|714": {"sourceWord": "顺利", "polish": "pomyślnie; sprawnie; bez przeszkód; przebiegać pomyślnie"},
+  "HSK-4|723": {"sourceWord": "算", "polish": "liczyć; obliczać; uznawać za; brać pod uwagę"},
+  "HSK-4|724": {"sourceWord": "酸", "polish": "kwaśny; kwas; obolały; przygnębiony"},
+  "HSK-4|727": {"sourceWord": "随便", "polish": "wedle uznania; dowolnie; jak się chce; niedbale; swobodny"},
+  "HSK-4|738": {"sourceWord": "谈", "polish": "mówić; rozmawiać; dyskutować; rozmowa"},
+  "HSK-4|745": {"sourceWord": "提", "polish": "podnosić; nieść; przedstawić; zgłaszać; wspomnieć; poruszyć (kwestię)"},
+  "HSK-4|749": {"sourceWord": "提到", "polish": "wspominać; napomknąć; poruszyć temat"},
+  "HSK-4|752": {"sourceWord": "停", "polish": "zatrzymać się; zatrzymać; postawić (pojazd)"},
+  "HSK-4|757": {"sourceWord": "听众", "polish": "słuchacze; audytorium; publiczność (np. radiowa)"},
+  "HSK-4|760": {"sourceWord": "提醒", "polish": "przypominać; zwrócić uwagę; ostrzec"},
+  "HSK-4|765": {"sourceWord": "通过", "polish": "za pomocą; przez; przejść; zdać; przyjąć (ustawę); zatwierdzić"},
+  "HSK-4|783": {"sourceWord": "往往", "polish": "często; nierzadko; zwykle"},
+  "HSK-4|791": {"sourceWord": "味道", "polish": "smak; zapach; woń; nuta; posmak"},
+  "HSK-4|802": {"sourceWord": "误会", "polish": "nieporozumienie; źle zrozumieć; pomylić się co do"},
+  "HSK-4|804": {"sourceWord": "无论", "polish": "bez względu na; niezależnie od tego, czy"},
+  "HSK-4|806": {"sourceWord": "细", "polish": "cienki; drobny; delikatny; szczegółowy; błahy; oszczędny"},
+  "HSK-4|813": {"sourceWord": "香", "polish": "pachnący; wonny; aromatyczny; smaczny; smakowity; zapach; kadzidło"},
+  "HSK-4|814": {"sourceWord": "相比", "polish": "porównywać; w porównaniu z"},
+  "HSK-4|817": {"sourceWord": "相互", "polish": "wzajemny; nawzajem; wzajemnie"},
+  "HSK-4|818": {"sourceWord": "相同", "polish": "taki sam; identyczny; być takim samym jak"},
+  "HSK-4|827": {"sourceWord": "效果", "polish": "skutek; efekt; wynik; rezultat; jakość"},
+  "HSK-4|829": {"sourceWord": "小伙子", "polish": "młody mężczyzna; chłopak; młodzieniec"},
+  "HSK-4|839": {"sourceWord": "性别", "polish": "płeć; rozróżnienie płci"},
+  "HSK-4|852": {"sourceWord": "修理", "polish": "naprawiać; reperować; przycinać; strzyc; rozprawić się z kimś (pot.)"},
+  "HSK-4|865": {"sourceWord": "演出", "polish": "występować; wystawić; dać przedstawienie; występ; koncert"},
+  "HSK-4|872": {"sourceWord": "研究生", "polish": "student studiów magisterskich lub doktoranckich; doktorant"},
+  "HSK-4|892": {"sourceWord": "印象", "polish": "wrażenie; obraz w pamięci"},
+  "HSK-4|895": {"sourceWord": "艺术", "polish": "sztuka; działalność artystyczna; kunszt; umiejętność"},
+  "HSK-4|900": {"sourceWord": "由", "polish": "od; z; przez; z powodu; dzięki; pozostawić komuś (decyzję); przez (strona bierna)"},
+  "HSK-4|903": {"sourceWord": "友好", "polish": "przyjazny; życzliwy; przyjaźń"},
+  "HSK-4|909": {"sourceWord": "有效", "polish": "skuteczny; efektywny; ważny (obowiązujący); działać"},
+  "HSK-4|912": {"sourceWord": "由于", "polish": "z powodu; wskutek; z uwagi na; ponieważ; dzięki"},
+  "HSK-4|919": {"sourceWord": "院长", "polish": "kierownik instytucji; dziekan lub rektor (zależnie od kontekstu); przewodniczący rady"},
+  "HSK-4|923": {"sourceWord": "阅读", "polish": "czytać; czytanie"},
+  "HSK-4|931": {"sourceWord": "预习", "polish": "przygotowywać się do lekcji; zapoznać się z materiałem przed zajęciami"},
+  "HSK-4|940": {"sourceWord": "增长", "polish": "rosnąć; zwiększać się; wzrost; przyrost"},
+  "HSK-4|943": {"sourceWord": "着火", "polish": "zapalić się; stanąć w ogniu; palić się"},
+  "HSK-4|950": {"sourceWord": "正好", "polish": "akurat; w samą porę; dokładnie; przypadkiem; zdarzyć się, że"},
+  "HSK-4|956": {"sourceWord": "真正", "polish": "prawdziwy; autentyczny; rzeczywiście; naprawdę"},
+  "HSK-4|964": {"sourceWord": "只好", "polish": "pozostaje tylko; musieć; być zmuszonym (z braku lepszej możliwości)"},
+  "HSK-4|972": {"sourceWord": "知识", "polish": "wiedza; wiadomości; znajomość"},
+  "HSK-4|977": {"sourceWord": "重", "polish": "ciężki; poważny; istotny; przywiązywać wagę do; cenić"},
+  "HSK-4|1012": {"sourceWord": "做梦", "polish": "śnić; mieć sen; (przen.) marzyć; złudzenie; mrzonka"},
+  "HSK-4|1019": {"sourceWord": "作者", "polish": "autor; pisarz; twórca"},
+  "HSK-3|3": {"sourceWord": "回", "polish": "wracać; odpowiadać; wrócić; odpowiedzieć"},
+  "HSK-3|8": {"sourceWord": "矮", "polish": "niski (wzrostem); niskiego wzrostu"},
+  "HSK-3|20": {"sourceWord": "搬家", "polish": "przeprowadzać się; zmieniać miejsce zamieszkania; przeprowadzka"},
+  "HSK-3|27": {"sourceWord": "变", "polish": "zmieniać; zmieniać się; przemieniać się; stawać się"},
+  "HSK-3|35": {"sourceWord": "比较", "polish": "porównywać; porównanie; stosunkowo; względnie"},
+  "HSK-3|51": {"sourceWord": "才1", "polish": "talent; zdolności; dopiero; tylko (w konstrukcji 才)"},
+  "HSK-3|59": {"sourceWord": "差不多", "polish": "prawie; niemal; mniej więcej; około; podobny; wystarczająco dobry; nie najgorszy"},
+  "HSK-3|68": {"sourceWord": "迟到", "polish": "spóźniać się; przyjść za późno; spóźniony"},
+  "HSK-3|75": {"sourceWord": "初中", "polish": "szkoła średnia I stopnia (w Chinach; etap przed wyższą szkołą średnią)"},
+  "HSK-3|87": {"sourceWord": "大小", "polish": "wielkość; rozmiar; wymiary"},
+  "HSK-3|92": {"sourceWord": "得分", "polish": "zdobyć punkt(y); zdobyć punkty; uzyskać wynik lub punktację"},
+  "HSK-3|115": {"sourceWord": "锻炼", "polish": "ćwiczyć; trenować; trening; ćwiczenia fizyczne"},
+  "HSK-3|150": {"sourceWord": "感冒", "polish": "przeziębić się; przeziębienie"},
+  "HSK-3|186": {"sourceWord": "欢迎", "polish": "witać; powitać; serdecznie przyjmować; mile widziany"},
+  "HSK-3|195": {"sourceWord": "急", "polish": "pilny; naglący; pospieszny; niecierpliwić się; martwić się"},
+  "HSK-3|203": {"sourceWord": "讲", "polish": "mówić; opowiadać; wyjaśniać; omawiać; wykładać"},
+  "HSK-3|204": {"sourceWord": "健康", "polish": "zdrowie; zdrowy"},
+  "HSK-3|208": {"sourceWord": "脚", "polish": "stopa; noga (zwierzęcia lub przedmiotu); podstawa"},
+  "HSK-3|212": {"sourceWord": "接", "polish": "odbierać; przyjmować; spotkać lub powitać; łączyć; przejąć"},
+  "HSK-3|218": {"sourceWord": "节日", "polish": "święto; dzień świąteczny; festiwal"},
+  "HSK-3|230": {"sourceWord": "决定", "polish": "decydować; postanawiać; decyzja; postanowienie"},
+  "HSK-3|232": {"sourceWord": "卡", "polish": "karta; zacinać się; blokować; zatrzymać"},
+  "HSK-3|241": {"sourceWord": "可爱", "polish": "uroczy; słodki; kochany"},
+  "HSK-3|254": {"sourceWord": "练", "polish": "ćwiczyć; trenować; doskonalić (umiejętność); ćwiczenie"},
+  "HSK-3|258": {"sourceWord": "练习", "polish": "ćwiczyć; ćwiczenie; trening; zadanie do ćwiczeń"},
+  "HSK-3|262": {"sourceWord": "离开", "polish": "opuszczać; odchodzić; wyjeżdżać"},
+  "HSK-3|269": {"sourceWord": "路边", "polish": "pobocze; przydroże; skraj drogi"},
+  "HSK-3|273": {"sourceWord": "满意", "polish": "być zadowolonym (z); zadowolony; usatysfakcjonowany"},
+  "HSK-3|276": {"sourceWord": "米", "polish": "ryż; metr (jednostka długości)"},
+  "HSK-3|284": {"sourceWord": "难过", "polish": "smutny; źle się czuć; trudny (o życiu)"},
+  "HSK-3|288": {"sourceWord": "难题", "polish": "trudny problem; trudność"},
+  "HSK-3|290": {"sourceWord": "年级", "polish": "klasa (szkolna); rok nauki (w szkole)"},
+  "HSK-3|293": {"sourceWord": "努力", "polish": "starać się; dokładać starań; wysiłek"},
+  "HSK-3|297": {"sourceWord": "怕", "polish": "bać się; obawiać się; lękać się; nie móc znieść"},
+  "HSK-3|314": {"sourceWord": "请客", "polish": "zaprosić (kogoś) na posiłek; postawić komuś posiłek; gościć"},
+  "HSK-3|328": {"sourceWord": "扫", "polish": "zamiatać; zamieść"},
+  "HSK-3|358": {"sourceWord": "特别", "polish": "szczególnie; wyjątkowy; specjalny; niezwykły"},
+  "HSK-3|381": {"sourceWord": "晚会", "polish": "wieczorne przyjęcie; wieczorna impreza lub uroczystość"},
+  "HSK-3|408": {"sourceWord": "行", "polish": "iść; podróżować; działać; wykonywać; być skutecznym; w porządku; zachowanie (w odczycie xìng)"},
+  "HSK-3|409": {"sourceWord": "行李", "polish": "bagaż; rzeczy podróżne"},
+  "HSK-3|420": {"sourceWord": "选择", "polish": "wybierać; wybór; opcja; alternatywa"},
+  "HSK-3|425": {"sourceWord": "养", "polish": "hodować; wychowywać; pielęgnować; utrzymywać (np. rodzinę)"},
+  "HSK-3|426": {"sourceWord": "要求", "polish": "wymagać; żądać; prosić o; wymóg; żądanie"},
+  "HSK-3|432": {"sourceWord": "一共", "polish": "łącznie; w sumie; razem (ogółem)"},
+  "HSK-3|444": {"sourceWord": "以为", "polish": "sądzić; uważać; myśleć (często błędnie)"},
+  "HSK-3|460": {"sourceWord": "遇到", "polish": "spotkać; natknąć się na; napotkać"},
+  "HSK-3|461": {"sourceWord": "越", "polish": "przekraczać; przewyższać; im więcej ..., tym więcej ..."},
+  "HSK-3|465": {"sourceWord": "运动会", "polish": "zawody sportowe; mityng sportowy"},
+  "HSK-3|467": {"sourceWord": "语言", "polish": "język; mowa; język (system komunikacji)"},
+  "HSK-3|478": {"sourceWord": "着急", "polish": "martwić się; niepokoić się; być zaniepokojonym"},
+  "HSK-3|485": {"sourceWord": "只是", "polish": "tylko; jedynie; po prostu; ale; jednak"},
+  "HSK-3|486": {"sourceWord": "只要", "polish": "o ile; pod warunkiem że; jeśli tylko; wystarczy, że"},
+  "HSK-3|487": {"sourceWord": "只有", "polish": "tylko; jedynie; mieć tylko; istnieć tylko"},
+  "HSK-2|24": {"sourceWord": "出门", "polish": "wyjść z domu; wychodzić z domu"},
+  "HSK-2|36": {"sourceWord": "得", "polish": "partykuła łącząca czasownik z określeniem rezultatu, stopnia lub możliwości"},
+  "HSK-2|52": {"sourceWord": "过", "polish": "partykuła doświadczenia: wskazuje, że dana czynność miała miejsce wcześniej"},
+  "HSK-2|74": {"sourceWord": "近", "polish": "bliski; niedaleko; w pobliżu; około"},
+  "HSK-2|83": {"sourceWord": "开学", "polish": "rozpocząć rok szkolny; rozpoczęcie zajęć po przerwie"},
+  "HSK-2|92": {"sourceWord": "累", "polish": "zmęczony; męczyć się; przemęczać"},
+  "HSK-2|93": {"sourceWord": "离", "polish": "opuszczać; oddalać się; od (w określaniu odległości)"},
+  "HSK-2|94": {"sourceWord": "里面", "polish": "wewnątrz; w środku; wnętrze"},
+  "HSK-2|119": {"sourceWord": "跑步", "polish": "biegać; truchtać; (wojskowo) maszerować biegiem"},
+  "HSK-2|123": {"sourceWord": "晴", "polish": "pogodny; bezchmurny (o pogodzie)"},
+  "HSK-2|126": {"sourceWord": "让", "polish": "pozwalać; pozwolić; kazać lub sprawić, że"},
+  "HSK-2|151": {"sourceWord": "外面", "polish": "na zewnątrz; zewnętrzna strona; poza (czymś)"},
+  "HSK-2|155": {"sourceWord": "往", "polish": "w kierunku; ku; do (miejsca)"},
+  "HSK-2|157": {"sourceWord": "位", "polish": "miejsce; pozycja; osoba (uprzejmy klasyfikator)"},
+  "HSK-2|168": {"sourceWord": "洗手间", "polish": "toaleta; ubikacja; toaleta publiczna"},
+  "HSK-2|175": {"sourceWord": "一会儿", "polish": "chwila; przez chwilę; za chwilę"},
+  "HSK-2|192": {"sourceWord": "着", "polish": "partykuła aspektowa wskazująca trwanie czynności lub stanu"},
+  "HSK-2|193": {"sourceWord": "这么", "polish": "tak; w ten sposób; taki; tak dużo"},
+  "HSK-2|194": {"sourceWord": "正", "polish": "prosty; właściwy; właśnie; dokładnie; akurat"},
+  "HSK-2|196": {"sourceWord": "周", "english": "week; to make a circuit; to circle; circle; circumference; lap; cycle; complete; all; all over; thorough; to help financially"},
+  "HSK-1|8": {"sourceWord": "包子", "polish": "bułeczka na parze z nadzieniem"},
+  "HSK-1|10": {"sourceWord": "本1", "polish": "klasyfikator książek i zeszytów"},
+  "HSK-1|11": {"sourceWord": "边", "polish": "strona; brzeg; krawędź; granica"},
+  "HSK-1|14": {"sourceWord": "不客气", "polish": "nie ma za co; nieuprzejmy"},
+  "HSK-1|30": {"sourceWord": "的", "polish": "partykuła łącząca określenie z rzeczownikiem, m.in. wyrażająca przynależność"},
+  "HSK-1|33": {"sourceWord": "点1", "polish": "godzina (np. 三点: trzecia); punkt; kropka"},
+  "HSK-1|36": {"sourceWord": "电视", "polish": "telewizja; telewizor"},
+  "HSK-1|58": {"sourceWord": "个", "polish": "ogólny klasyfikator osób i przedmiotów"},
+  "HSK-1|67": {"sourceWord": "还", "polish": "jeszcze; nadal; także"},
+  "HSK-1|77": {"sourceWord": "和1", "polish": "i; z (razem z)"},
+  "HSK-1|88": {"sourceWord": "叫", "polish": "nazywać się; wołać; prosić lub kazać (komuś coś zrobić)"},
+  "HSK-1|97": {"sourceWord": "开", "polish": "otwierać; włączać; rozpoczynać; prowadzić (pojazd)"},
+  "HSK-1|103": {"sourceWord": "可以", "polish": "móc; mieć pozwolenie; można"},
+  "HSK-1|111": {"sourceWord": "两1", "polish": "dwa; obydwa (przed klasyfikatorem)"},
+  "HSK-1|126": {"sourceWord": "面条儿", "english": "noodles (erhua form)"},
+  "HSK-1|144": {"sourceWord": "呢", "polish": "partykuła: a co z...?; gdzie...?; także podkreśla trwanie czynności"},
+  "HSK-1|155": {"sourceWord": "女士", "polish": "pani; dama; zwrot grzecznościowy do kobiety"},
+  "HSK-1|157": {"sourceWord": "便宜", "pinyin": "pián yi", "english": "cheap; inexpensive; a bargain"},
+  "HSK-1|165": {"sourceWord": "请", "polish": "proszę; zapraszać; prosić"},
+  "HSK-1|174": {"sourceWord": "上", "polish": "na; nad; górny; poprzedni; wchodzić; uczęszczać (np. na zajęcia)"},
+  "HSK-1|192": {"sourceWord": "睡", "polish": "spać; kłaść się spać"},
+  "HSK-1|218": {"sourceWord": "喂1", "polish": "halo (przy odbieraniu telefonu)"},
+  "HSK-1|225": {"sourceWord": "下", "polish": "pod; poniżej; dolny; następny; schodzić"},
+  "HSK-1|230": {"sourceWord": "先生", "english": "Mr.; sir; gentleman; husband"},
+  "HSK-1|256": {"sourceWord": "一点儿", "english": "a little; a bit; a small amount (erhua form)"},
+  "HSK-1|268": {"sourceWord": "元", "polish": "juan (jednostka waluty); podstawowy; pierwotny"},
+  "HSK-1|271": {"sourceWord": "在", "polish": "być w lub na (miejscu); właśnie coś robić"},
+  "HSK-1|296": {"sourceWord": "字", "polish": "znak pisma; litera"},
+  "HSK-2|113": {"sourceWord": "男孩儿", "english": "boy (erhua form)"},
+  "HSK-2|116": {"sourceWord": "女孩儿", "english": "girl (erhua form)"},
+  "HSK-2|163": {"sourceWord": "小孩儿", "english": "child; kid (erhua form)"},
+  "HSK-3|261": {"sourceWord": "聊天儿", "english": "to chat; to have an informal conversation (erhua form)"},
+  "HSK-3|434": {"sourceWord": "一块儿", "english": "together; in the same place; one piece (erhua form)"},
+  "HSK-6|258": {"sourceWord": "大伙儿", "english": "everyone; everybody; all of us or you (colloquial)", "polish": "wszyscy; my wszyscy; wy wszyscy (potocznie)"},
+  "HSK-7-9|743": {"sourceWord": "打盹儿", "english": "to doze; to nod off; to take a short nap (erhua form)"},
+  "HSK-7-9|2509": {"sourceWord": "老伴儿", "english": "one's husband or wife in old age; elderly spouse", "polish": "mąż lub żona w starszym wieku; współmałżonek na starość"},
+  "HSK-7-9|2933": {"sourceWord": "纳闷儿", "english": "to be puzzled; to wonder why; to be unable to understand (erhua form)"},
+  "HSK-7-9|3443": {"sourceWord": "人缘儿", "english": "popularity; rapport with other people; social appeal (erhua form)", "polish": "sympatia otoczenia; popularność wśród ludzi; dobre stosunki z ludźmi"},
+  "HSK-7-9|4240": {"sourceWord": "玩意儿", "english": "thing; object; toy; gadget; trick or act in a performance (colloquial)"},
+  "HSK-4|105": {
+    "sourceWord": "重",
+    "polish": "ponownie; powtarzać; warstwa"
+  },
+  "HSK-5|209": {
+    "sourceWord": "处",
+    "polish": "miejsce; placówka; biuro; dział"
+  },
+  "HSK-5|104": {
+    "sourceWord": "必然",
+    "polish": "nieuchronnie; na pewno; z pewnością"
+  },
+  "HSK-5|155": {
+    "sourceWord": "吵",
+    "polish": "hałaśliwy; hałasować; kłócić się; sprzeczać się"
+  },
+  "HSK-5|175": {
+    "sourceWord": "成立",
+    "polish": "zakładać; ustanawiać; być zasadnym; być słusznym"
+  },
+  "HSK-5|194": {
+    "sourceWord": "持续",
+    "english": "to continue; to persist; to last; continuous; lasting"
+  },
+  "HSK-5|197": {
+    "sourceWord": "充电",
+    "polish": "ładować; ładować baterię lub akumulator; doładowywać"
+  },
+  "HSK-5|198": {
+    "sourceWord": "充分",
+    "polish": "wystarczający; obfity; pełny; w pełni; dokładnie"
+  },
+  "HSK-5|248": {
+    "sourceWord": "促使",
+    "polish": "skłaniać; nakłaniać; pobudzać; powodować; doprowadzać do"
+  },
+  "HSK-5|265": {
+    "sourceWord": "淡",
+    "english": "bland; tasteless; diluted; thin; weak; pale; light in color; indifferent; cold; slack; dull; trivial"
+  },
+  "HSK-5|309": {
+    "sourceWord": "电视台",
+    "polish": "stacja telewizyjna; nadawca telewizyjny"
+  },
+  "HSK-5|319": {
+    "sourceWord": "的确",
+    "polish": "naprawdę; rzeczywiście; istotnie; faktycznie"
+  },
+  "HSK-5|370": {
+    "sourceWord": "房屋",
+    "polish": "dom; budynek; zabudowa mieszkaniowa"
+  },
+  "HSK-5|407": {
+    "sourceWord": "付出",
+    "polish": "płacić; ponosić koszty; wkładać wysiłek lub czas; poświęcać"
+  },
+  "HSK-5|444": {
+    "sourceWord": "各自",
+    "polish": "każdy z osobna; indywidualnie; odpowiednio; we własnym zakresie"
+  },
+  "HSK-5|461": {
+    "sourceWord": "鼓",
+    "polish": "bęben; bębnić; uderzać w bęben; pobudzać; nadymać; pęcznieć"
+  },
+  "HSK-5|472": {
+    "sourceWord": "光明",
+    "polish": "światło; jasność; jasny; obiecujący; otwarty; szczery"
+  },
+  "HSK-5|516": {
+    "sourceWord": "合理",
+    "polish": "racjonalny; rozsądny; uzasadniony; słuszny; sprawiedliwy; odpowiedni"
+  },
+  "HSK-5|574": {
+    "sourceWord": "讲话",
+    "polish": "mówić; przemawiać; wypowiadać się; przemówienie; wypowiedź"
+  },
+  "HSK-5|583": {
+    "sourceWord": "建立",
+    "polish": "ustanawiać; zakładać; tworzyć; nawiązywać"
+  },
+  "HSK-5|597": {
+    "sourceWord": "交往",
+    "polish": "utrzymywać kontakty; nawiązywać relacje; spotykać się"
+  },
+  "HSK-5|679": {
+    "sourceWord": "决心",
+    "polish": "determinacja; postanowienie; zdecydowanie; postanowić"
+  },
+  "HSK-5|688": {
+    "sourceWord": "开放",
+    "polish": "otwierać; udostępniać; być otwartym; otwartość; liberalizować"
+  },
+  "HSK-5|721": {
+    "sourceWord": "老百姓",
+    "polish": "zwykli ludzie; ludność; ogół społeczeństwa"
+  },
+  "HSK-5|774": {
+    "sourceWord": "龙",
+    "polish": "smok; (przen.) cesarz; władca"
+  },
+  "HSK-5|819": {
+    "sourceWord": "摸",
+    "polish": "dotykać; macać; obmacywać; szukać po omacku; kraść (potocznie)"
+  },
+  "HSK-5|843": {
+    "sourceWord": "农业",
+    "polish": "rolnictwo; uprawa roli; gospodarka rolna"
+  },
+  "HSK-5|1055": {
+    "sourceWord": "实力",
+    "polish": "siła; rzeczywista siła; potencjał; możliwości; zdolności"
+  },
+  "HSK-5|1063": {
+    "sourceWord": "石头",
+    "polish": "kamień; skała; kamienny"
+  },
+  "HSK-5|1079": {
+    "sourceWord": "适用",
+    "polish": "mieć zastosowanie; nadawać się; być odpowiednim; pasować"
+  },
+  "HSK-5|1210": {
+    "sourceWord": "弯",
+    "polish": "zginać; zakrzywiać; zakrzywiony; krzywy; zakręt"
+  },
+  "HSK-5|1289": {
+    "sourceWord": "现象",
+    "polish": "zjawisko; fenomen; wygląd"
+  },
+  "HSK-5|1317": {
+    "sourceWord": "形式",
+    "polish": "forma; kształt; postać; rodzaj; sposób; forma w odróżnieniu od treści"
+  },
+  "HSK-5|1324": {
+    "sourceWord": "形状",
+    "polish": "kształt; forma; wygląd; kontur"
+  },
+  "HSK-5|1343": {
+    "sourceWord": "宣传",
+    "polish": "propagować; nagłaśniać; rozpowszechniać; reklamować; propaganda; promocja"
+  },
+  "HSK-5|1356": {
+    "sourceWord": "需求",
+    "polish": "potrzeba; zapotrzebowanie; popyt; wymóg; żądanie"
+  },
+  "HSK-5|1363": {
+    "sourceWord": "延长",
+    "english": "to lengthen; to extend; to prolong; long (literary, of time)",
+    "polish": "przedłużać; wydłużać; przedłużenie"
+  },
+  "HSK-5|1460": {
+    "sourceWord": "愿望",
+    "polish": "życzenie; pragnienie; marzenie; aspiracja; ambicja; nadzieja"
+  },
+  "HSK-5|1464": {
+    "sourceWord": "预订",
+    "polish": "rezerwować; zamawiać z wyprzedzeniem; rezerwacja"
+  },
+  "HSK-5|1508": {
+    "sourceWord": "掌握",
+    "polish": "opanować; kontrolować; mieć w ręku; dobrze znać; rozumieć"
+  },
+  "HSK-5|1521": {
+    "sourceWord": "针对",
+    "polish": "skierowany na; wymierzony w; dotyczący; w odniesieniu do"
+  },
+  "HSK-5|1545": {
+    "sourceWord": "制订",
+    "polish": "opracowywać; ustalać; formułować; sporządzać"
+  },
+  "HSK-5|1547": {
+    "sourceWord": "制度",
+    "polish": "system; ustrój; instytucja; przepisy; regulacje"
+  },
+  "HSK-5|1556": {
+    "sourceWord": "制造",
+    "polish": "wytwarzać; produkować; tworzyć; fabrykować"
+  },
+  "HSK-5|1597": {
+    "sourceWord": "主任",
+    "polish": "dyrektor; kierownik; przewodniczący; szef"
+  },
+  "HSK-5|1627": {
+    "sourceWord": "足够",
+    "polish": "wystarczający; wystarczająco; dość; dostateczny"
+  },
+  "HSK-6|64": {
+    "sourceWord": "避",
+    "polish": "unikać; omijać; wymykać się; zapobiegać; trzymać z dala"
+  },
+  "HSK-6|184": {
+    "sourceWord": "尺",
+    "polish": "chi (chińska jednostka długości; na kontynencie ok. 1/3 m); linijka; miarka"
+  },
+  "HSK-6|303": {
+    "sourceWord": "电饭锅",
+    "polish": "elektryczny garnek do ryżu; ryżowar"
+  },
+  "HSK-6|332": {
+    "sourceWord": "动机",
+    "english": "motive; motivation; intention",
+    "polish": "motyw; motywacja; zamiar; pobudka"
+  },
+  "HSK-6|455": {
+    "sourceWord": "稿子",
+    "english": "draft; script; manuscript; article; plan",
+    "polish": "szkic; projekt; scenariusz; rękopis; tekst; plan"
+  },
+  "HSK-6|487": {
+    "sourceWord": "顾",
+    "polish": "oglądać się wstecz; odwiedzać; troszczyć się; brać pod uwagę; opiekować się; Gu (nazwisko)"
+  },
+  "HSK-6|494": {
+    "sourceWord": "官方",
+    "polish": "oficjalny; urzędowy; rządowy; oficjalnie zatwierdzony lub wydany przez władze"
+  },
+  "HSK-6|584": {
+    "sourceWord": "欢乐",
+    "polish": "radosny; wesoły; pogodny; radość; wesołość"
+  },
+  "HSK-6|673": {
+    "sourceWord": "基地",
+    "english": "base; base of operations; industrial or military base"
+  },
+  "HSK-6|1174": {
+    "sourceWord": "神",
+    "polish": "bóg; bóstwo; duch; dusza; umysł; wyraz twarzy; wygląd; nadprzyrodzony; magiczny; niezwykły; zdumiewający; świetny (potocznie)"
+  },
+  "HSK-6|1279": {
+    "sourceWord": "谈判",
+    "polish": "negocjować; prowadzić pertraktacje; rozmowy negocjacyjne; negocjacje"
+  },
+  "HSK-6|1331": {
+    "sourceWord": "透",
+    "polish": "przenikać; przechodzić przez; pokazywać; ujawniać; gruntownie; całkowicie; przezroczysty (kantoński)"
+  },
+  "HSK-6|1344": {
+    "sourceWord": "团结",
+    "polish": "jednoczyć; jednoczyć się; jedność; solidarność; zjednoczony"
+  },
+  "HSK-6|1366": {
+    "sourceWord": "外交",
+    "polish": "dyplomacja; dyplomatyczny; sprawy zagraniczne"
+  },
+  "HSK-6|1379": {
+    "sourceWord": "万物",
+    "english": "all things; everything that exists; all phenomena",
+    "polish": "wszystko; wszystkie rzeczy; wszelkie byty"
+  },
+  "HSK-6|1414": {
+    "sourceWord": "无所谓",
+    "polish": "wszystko jedno; obojętne; nie mieć znaczenia"
+  },
+  "HSK-6|1478": {
+    "sourceWord": "心灵",
+    "english": "psyche; mind; spirit; soul",
+    "polish": "psychika; umysł; duch; dusza"
+  },
+  "HSK-6|1577": {
+    "sourceWord": "引导",
+    "polish": "prowadzić; kierować; naprowadzać; przewodzić"
+  },
+  "HSK-6|1579": {
+    "sourceWord": "婴儿",
+    "english": "infant; baby; CL:個|个[ge4]; lead (Pb) (rare, Taoism)"
+  },
+  "HSK-6|1735": {
+    "sourceWord": "中",
+    "polish": "środek; centrum; wewnątrz; w; wśród; podczas"
+  },
+  "HSK-6|1769": {
+    "sourceWord": "转移",
+    "english": "to transfer; to move; to shift or divert (e.g. attention); to change; to metastasize (medicine); metastasis; to evacuate (people)",
+    "polish": "przenosić; przesuwać; przekierowywać lub odwracać (uwagę); zmieniać; ewakuować; dawać przerzuty; przerzut (medyczny)"
+  }
+}

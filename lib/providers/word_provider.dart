@@ -1,13 +1,18 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../models/learner_profile.dart';
 import '../models/word.dart';
 import '../database/database_helper.dart';
 
 enum StudyDecision { saved, known, skipped }
 
 class WordProvider with ChangeNotifier {
+  WordProvider({ProfileStore? store}) : _store = store ?? ProfileStore.instance;
+
+  final ProfileStore _store;
+  String? _profileId;
+  int _profileGeneration = 0;
+  List<PracticeRecord> _practiceHistory = const [];
+
   List<Word> _allWords = [];
   List<Word> _myWords = [];
   final Map<String, StudyDecision> _studyDecisions = {};
@@ -15,17 +20,17 @@ class WordProvider with ChangeNotifier {
   String _searchQuery = '';
   String _selectedTag = 'Wszystkie';
   String _selectedPartOfSpeech = 'Wszystkie';
-  
+
   final DatabaseHelper _dbHelper = DatabaseHelper.instance;
-  
+
   // Loading state
   bool _isLoading = true;
   double _loadingProgress = 0.0;
-  
+
   // Cache dla filteredWords
   List<Word>? _cachedFilteredWords;
   String _lastFilterState = '';
-  
+
   // Liczniki słów per poziom
   Map<String, int> _levelCounts = {};
 
@@ -56,7 +61,7 @@ class WordProvider with ChangeNotifier {
     });
     return ['Wszystkie', ...levels];
   }
-  
+
   // Get word count for specific level
   int getLevelWordCount(String level) {
     if (level == 'Wszystkie') return _allWords.length;
@@ -88,11 +93,12 @@ class WordProvider with ChangeNotifier {
   // Get filtered words for dictionary view
   List<Word> get filteredWords {
     // Check if cache is valid
-    final currentState = '$_selectedLevel|$_selectedTag|$_selectedPartOfSpeech|$_searchQuery';
+    final currentState =
+        '$_selectedLevel|$_selectedTag|$_selectedPartOfSpeech|$_searchQuery';
     if (_cachedFilteredWords != null && _lastFilterState == currentState) {
       return _cachedFilteredWords!;
     }
-    
+
     var words = _allWords;
 
     // Filter by level
@@ -107,28 +113,29 @@ class WordProvider with ChangeNotifier {
 
     // Filter by part of speech
     if (_selectedPartOfSpeech != 'Wszystkie') {
-      words = words.where((w) => w.partOfSpeech == _selectedPartOfSpeech).toList();
+      words =
+          words.where((w) => w.partOfSpeech == _selectedPartOfSpeech).toList();
     }
 
     // Filter by search query
     if (_searchQuery.isNotEmpty) {
       final query = _searchQuery.toLowerCase();
       final normalizedQuery = Word.normalizePinyin(query);
-      
+
       words = words.where((w) {
         return w.displayHanzi.toLowerCase().contains(query) ||
-               w.hanzi.toLowerCase().contains(query) ||
-               w.pinyin.toLowerCase().contains(query) ||
-               Word.normalizePinyin(w.pinyin).contains(normalizedQuery) ||
-               w.englishTranslation.toLowerCase().contains(query) ||
-               w.polishTranslation.toLowerCase().contains(query);
+            w.hanzi.toLowerCase().contains(query) ||
+            w.pinyin.toLowerCase().contains(query) ||
+            Word.normalizePinyin(w.pinyin).contains(normalizedQuery) ||
+            w.englishTranslation.toLowerCase().contains(query) ||
+            w.polishTranslation.toLowerCase().contains(query);
       }).toList();
     }
 
     // Update cache
     _cachedFilteredWords = words;
     _lastFilterState = currentState;
-    
+
     return words;
   }
 
@@ -149,52 +156,90 @@ class WordProvider with ChangeNotifier {
       return {
         'learned': _myWords.length,
         'total': _allWords.length,
-        'percentage': _allWords.isEmpty 
-            ? 0.0 
+        'percentage': _allWords.isEmpty
+            ? 0.0
             : (_myWords.length / _allWords.length * 100),
       };
     } else {
-      final totalInLevel = _allWords.where((w) => w.level == _selectedLevel).length;
-      final learnedInLevel = _myWords.where((w) => w.level == _selectedLevel).length;
-      
+      final totalInLevel =
+          _allWords.where((w) => w.level == _selectedLevel).length;
+      final learnedInLevel =
+          _myWords.where((w) => w.level == _selectedLevel).length;
+
       return {
         'learned': learnedInLevel,
         'total': totalInLevel,
-        'percentage': totalInLevel == 0 
-            ? 0.0 
-            : (learnedInLevel / totalInLevel * 100),
+        'percentage':
+            totalInLevel == 0 ? 0.0 : (learnedInLevel / totalInLevel * 100),
       };
     }
   }
+
+  /// Id of the profile whose words/decisions/history are loaded.
+  String? get profileId => _profileId;
+
+  /// Practice results of the active profile, oldest first.
+  List<PracticeRecord> get practiceHistory => _practiceHistory;
+
+  /// Switches to [profileId], reloading only per-profile state (saved words,
+  /// study decisions, practice history). The global dictionary is kept.
+  /// If another switch starts before this one finishes, this result is
+  /// discarded. Always re-reads storage, also when [profileId] is unchanged.
+  /// Throws [ArgumentError] for an unknown profile.
+  Future<void> setProfile(String profileId) async {
+    final generation = ++_profileGeneration;
+    final state = await _store.loadProfileState(profileId);
+    if (generation != _profileGeneration) return;
+    _profileId = profileId;
+    _store.boundProfileId = profileId;
+    _applyState(state);
+    notifyListeners();
+  }
+
+  /// Waits until all queued progress writes are persisted.
+  Future<void> flush() => _store.flush();
+
+  /// Re-reads the current profile from storage (e.g. after a backup import
+  /// or restore). Equivalent to `setProfile(profileId!)`; it is never a no-op.
+  Future<void> reloadProfile() => setProfile(_requireProfileId());
 
   // Initialize data
   Future<void> loadData() async {
     _isLoading = true;
     _loadingProgress = 0.0;
     notifyListeners();
-    
-    // Load main vocabulary first (most important)
-    await _loadAllWords();
-    _loadingProgress = 0.5;
-    notifyListeners();
-    
-    // Load "my words" (completes loading)
-    await _loadMyWords();
-    await _loadStudyDecisions();
-    _loadingProgress = 1.0;
-    _isLoading = false;
-    notifyListeners();
+
+    try {
+      // Load main vocabulary first (most important); it is profile-independent.
+      if (_allWords.isEmpty) await _loadAllWords();
+      _loadingProgress = 0.5;
+      notifyListeners();
+
+      await _reloadProfileState();
+    } finally {
+      _loadingProgress = 1.0;
+      _isLoading = false;
+      notifyListeners();
+    }
   }
 
-  Future<void> _loadStudyDecisions() async {
-    final preferences = await SharedPreferences.getInstance();
-    final stored = preferences.getString('study_decisions');
-    if (stored == null) return;
+  Future<void> _reloadProfileState() async {
+    final profileId = _profileId;
+    if (profileId == null) {
+      final registry = await _store.loadRegistry();
+      if (_profileId == null) await setProfile(registry.activeId);
+      return;
+    }
+    final generation = _profileGeneration;
+    final state = await _store.loadProfileState(profileId);
+    if (generation != _profileGeneration || _profileId != profileId) return;
+    _applyState(state);
+  }
 
-    final decoded = json.decode(stored) as Map<String, dynamic>;
+  void _applyState(ProfileState state) {
+    _myWords = List.of(state.words);
     _studyDecisions.clear();
-    for (final entry in decoded.entries) {
-      if (entry.value is! String) continue;
+    for (final entry in state.decisions.entries) {
       for (final decision in StudyDecision.values) {
         if (decision.name == entry.value) {
           _studyDecisions[entry.key] = decision;
@@ -202,19 +247,40 @@ class WordProvider with ChangeNotifier {
         }
       }
     }
+    _practiceHistory = state.practiceHistory;
+  }
+
+  String _requireProfileId() {
+    final profileId = _profileId;
+    if (profileId == null) {
+      throw StateError(
+          'No learner profile selected; call setProfile() or loadData() first');
+    }
+    return profileId;
+  }
+
+  /// Runs a store update for the profile active at call time. The result is
+  /// applied only if that profile is still active when the write completes.
+  Future<void> _mutate(
+      Future<ProfileState> Function(String profileId) update) async {
+    final profileId = _requireProfileId();
+    final state = await update(profileId);
+    if (_profileId != profileId) return;
+    _applyState(state);
+    notifyListeners();
   }
 
   // Load all words from JSON
   Future<void> _loadAllWords() async {
     try {
       _allWords = await _dbHelper.loadAllWords();
-      
+
       // Oblicz liczniki per poziom
       _levelCounts.clear();
       for (var word in _allWords) {
         _levelCounts[word.level] = (_levelCounts[word.level] ?? 0) + 1;
       }
-      
+
       _cachedFilteredWords = null;
     } catch (e) {
       debugPrint('Error loading words: $e');
@@ -222,40 +288,13 @@ class WordProvider with ChangeNotifier {
     }
   }
 
-  // Load "my words" from database
-  Future<void> _loadMyWords() async {
-    try {
-      _myWords = await _dbHelper.getMyWords().timeout(
-        const Duration(seconds: 5),
-        onTimeout: () {
-          debugPrint('Warning: getMyWords() timeout, returning empty list');
-          return [];
-        },
-      );
-    } catch (e) {
-      debugPrint('Error loading my words: $e');
-      _myWords = [];
-    }
-  }
-
   // Add word to "my words"
-  Future<void> addToMyWords(Word word) async {
-    await _dbHelper.addWord(word);
-    await _loadMyWords();
-    notifyListeners();
-  }
+  Future<void> addToMyWords(Word word) =>
+      _mutate((profileId) => _store.saveWord(profileId, word));
 
   // Remove word from "my words"
-  Future<void> removeFromMyWords(String hanzi) async {
-    await _dbHelper.removeWord(hanzi);
-    final decision = _studyDecisions[hanzi];
-    if (decision == StudyDecision.saved || decision == StudyDecision.known) {
-      _studyDecisions.remove(hanzi);
-      await _persistStudyDecisions();
-    }
-    await _loadMyWords();
-    notifyListeners();
-  }
+  Future<void> removeFromMyWords(String hanzi) =>
+      _mutate((profileId) => _store.removeWord(profileId, hanzi));
 
   // Check if word is learned
   bool isWordLearned(String hanzi) {
@@ -264,48 +303,48 @@ class WordProvider with ChangeNotifier {
 
   StudyDecision? studyDecisionFor(String hanzi) => _studyDecisions[hanzi];
 
-  Future<void> recordStudyDecision(Word word, StudyDecision decision) async {
-    _studyDecisions[word.hanzi] = decision;
-    final preferences = await SharedPreferences.getInstance();
-    await preferences.setString(
-      'study_decisions',
-      json.encode(_studyDecisions.map((key, value) => MapEntry(key, value.name))),
-    );
+  Future<void> recordStudyDecision(Word word, StudyDecision decision) =>
+      _mutate((profileId) => decision == StudyDecision.skipped
+          ? _store.setDecision(profileId, word.hanzi, decision.name)
+          : _store.saveWord(profileId, word, decision: decision.name));
 
-    if (decision != StudyDecision.skipped) {
-      await _dbHelper.addWord(word);
-      await _loadMyWords();
-    }
-    notifyListeners();
-  }
-
-  Future<void> revisitSkippedWords({String? level}) async {
+  Future<void> revisitSkippedWords({String? level}) {
     final levelWords = level == null
         ? null
         : _allWords
             .where((word) => word.level == level)
             .map((word) => word.hanzi)
             .toSet();
-    _studyDecisions.removeWhere((hanzi, decision) =>
-        decision == StudyDecision.skipped &&
-        (levelWords == null || levelWords.contains(hanzi)));
-    await _persistStudyDecisions();
-    notifyListeners();
+    return _mutate((profileId) => _store.removeDecisionsWhere(
+          profileId,
+          (hanzi, decision) =>
+              decision == StudyDecision.skipped.name &&
+              (levelWords == null || levelWords.contains(hanzi)),
+        ));
   }
 
-  Future<void> clearStudyDecision(String hanzi) async {
-    _studyDecisions.remove(hanzi);
-    await _persistStudyDecisions();
-    notifyListeners();
-  }
+  Future<void> clearStudyDecision(String hanzi) =>
+      _mutate((profileId) => _store.setDecision(profileId, hanzi, null));
 
-  Future<void> _persistStudyDecisions() async {
-    final preferences = await SharedPreferences.getInstance();
-    await preferences.setString(
-      'study_decisions',
-      json.encode(_studyDecisions.map((key, value) => MapEntry(key, value.name))),
-    );
-  }
+  /// Records one answered exercise for the active profile. [kind] is a
+  /// generic exercise type (e.g. `cloze`, `polish_case`, `hsk_test`);
+  /// [details] must be JSON-encodable.
+  Future<void> recordPracticeResult({
+    required String exerciseId,
+    required String kind,
+    required bool correct,
+    String? answer,
+    Map<String, Object?>? details,
+  }) =>
+      _mutate((profileId) => _store.recordPracticeResults(profileId, [
+            PracticeRecord(
+              exerciseId: exerciseId,
+              kind: kind,
+              correct: correct,
+              answer: answer,
+              details: details,
+            ),
+          ]));
 
   // Set selected level filter
   void setSelectedLevel(String level) {
@@ -340,14 +379,19 @@ class WordProvider with ChangeNotifier {
     if (query.isEmpty) return [];
 
     final normalizedQuery = Word.normalizePinyin(query.toLowerCase());
-    
-    return _allWords.where((w) {
-      return w.displayHanzi.toLowerCase().contains(query.toLowerCase()) ||
-             w.hanzi.toLowerCase().contains(query.toLowerCase()) ||
-             w.pinyin.toLowerCase().contains(query.toLowerCase()) ||
-             Word.normalizePinyin(w.pinyin).contains(normalizedQuery) ||
-             w.englishTranslation.toLowerCase().contains(query.toLowerCase()) ||
-             w.polishTranslation.toLowerCase().contains(query.toLowerCase());
-    }).take(10).toList();
+
+    return _allWords
+        .where((w) {
+          return w.displayHanzi.toLowerCase().contains(query.toLowerCase()) ||
+              w.hanzi.toLowerCase().contains(query.toLowerCase()) ||
+              w.pinyin.toLowerCase().contains(query.toLowerCase()) ||
+              Word.normalizePinyin(w.pinyin).contains(normalizedQuery) ||
+              w.englishTranslation
+                  .toLowerCase()
+                  .contains(query.toLowerCase()) ||
+              w.polishTranslation.toLowerCase().contains(query.toLowerCase());
+        })
+        .take(10)
+        .toList();
   }
 }
