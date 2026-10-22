@@ -1,7 +1,10 @@
+import 'package:flutter/foundation.dart'
+    show defaultTargetPlatform, kIsWeb, kReleaseMode, TargetPlatform;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/app_language.dart';
 import '../models/learning_target.dart';
+import '../services/windows_updater.dart';
 import 'learning_tabs.dart';
 import 'practice_tab.dart';
 
@@ -35,6 +38,68 @@ class HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _loadLanguagePreference();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _checkForWindowsUpdate();
+    });
+  }
+
+  Future<void> _checkForWindowsUpdate() async {
+    if (kIsWeb ||
+        defaultTargetPlatform != TargetPlatform.windows ||
+        !kReleaseMode ||
+        !mounted) {
+      return;
+    }
+    try {
+      final update = await WindowsUpdater.checkForUpdate();
+      if (update == null || !mounted) return;
+      final preferences = await SharedPreferences.getInstance();
+      if (preferences.getInt('dismissed_windows_update') == update.buildNumber) {
+        return;
+      }
+      final install = await showDialog<bool>(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: Text(_language.text('Dostępna aktualizacja', '发现新版本', '發現新版本')),
+          content: Text(
+            _language.text(
+              'Wersja ${update.version} (kompilacja ${update.buildNumber}) '
+              'jest gotowa. Aplikacja pobierze ją i uruchomi ponownie.',
+              '版本 ${update.version}（构建 ${update.buildNumber}）已准备就绪。应用将下载更新并重新启动。',
+              '版本 ${update.version}（建置 ${update.buildNumber}）已準備就緒。應用程式將下載更新並重新啟動。',
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context, false),
+              child: Text(_language.text('Później', '稍后', '稍後')),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.pop(context, true),
+              child: Text(_language.text('Aktualizuj i uruchom ponownie', '更新并重启', '更新並重新啟動')),
+            ),
+          ],
+        ),
+      );
+      if (install != true) {
+        await preferences.setInt('dismissed_windows_update', update.buildNumber);
+        return;
+      }
+      await WindowsUpdater.downloadAndInstall(update);
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            _language.text(
+              'Nie udało się sprawdzić lub zainstalować aktualizacji: $error',
+              '检查或安装更新失败：$error',
+              '檢查或安裝更新失敗：$error',
+            ),
+          ),
+        ),
+      );
+    }
   }
 
   Future<void> _loadLanguagePreference() async {
@@ -494,6 +559,10 @@ class _SettingsPage extends StatelessWidget {
               '收藏詞語和學習記錄保存在本機。無需帳戶，也不連接伺服器。',
             ),
           ),
+          if (!kIsWeb && defaultTargetPlatform == TargetPlatform.windows) ...[
+            const SizedBox(height: 12),
+            _WindowsUpdatesCard(language: language),
+          ],
           const SizedBox(height: 12),
           _SettingsCard(
             title: 'CÍKǍ',
@@ -505,6 +574,131 @@ class _SettingsPage extends StatelessWidget {
           ),
         ],
       );
+}
+
+class _WindowsUpdatesCard extends StatefulWidget {
+  const _WindowsUpdatesCard({required this.language});
+
+  final AppLanguage language;
+
+  @override
+  State<_WindowsUpdatesCard> createState() => _WindowsUpdatesCardState();
+}
+
+class _WindowsUpdatesCardState extends State<_WindowsUpdatesCard> {
+  WindowsUpdate? _update;
+  bool _checking = false;
+  bool _installing = false;
+  bool _checked = false;
+  double? _progress;
+  String? _error;
+
+  Future<void> _check() async {
+    setState(() {
+      _checking = true;
+      _checked = false;
+      _error = null;
+      _update = null;
+    });
+    try {
+      _update = await WindowsUpdater.checkForUpdate();
+      _checked = true;
+    } catch (error) {
+      _error = error.toString();
+    } finally {
+      if (mounted) setState(() => _checking = false);
+    }
+  }
+
+  Future<void> _install() async {
+    final update = _update;
+    if (update == null) return;
+    setState(() {
+      _installing = true;
+      _progress = null;
+      _error = null;
+    });
+    try {
+      await WindowsUpdater.downloadAndInstall(
+        update,
+        onProgress: (progress) {
+          if (mounted) setState(() => _progress = progress);
+        },
+      );
+    } catch (error) {
+      if (mounted) {
+        setState(() {
+          _installing = false;
+          _error = error.toString();
+        });
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final language = widget.language;
+    final status = _installing
+        ? language.text(
+            _progress == null
+                ? 'Pobieranie aktualizacji…'
+                : 'Pobieranie: ${(_progress! * 100).round()}%',
+            _progress == null ? '正在下载更新…' : '下载进度：${(_progress! * 100).round()}%',
+            _progress == null ? '正在下載更新…' : '下載進度：${(_progress! * 100).round()}%',
+          )
+        : _checking
+            ? language.text('Sprawdzanie…', '正在检查…', '正在檢查…')
+            : _error != null
+                ? _error!
+                : _update != null
+                    ? language.text(
+                        'Dostępna wersja ${_update!.version} (kompilacja ${_update!.buildNumber}).',
+                        '发现新版本 ${_update!.version}（构建 ${_update!.buildNumber}）。',
+                        '發現新版本 ${_update!.version}（建置 ${_update!.buildNumber}）。',
+                      )
+                    : _checked
+                        ? language.text(
+                            'Masz aktualną wersję ($appVersion).',
+                            '当前已是最新版本（$appVersion）。',
+                            '目前已是最新版本（$appVersion）。',
+                          )
+                        : language.text(
+                            'Bieżąca wersja: $appVersion. '
+                                'Aktualizacje są pobierane z GitHub Actions.',
+                            '当前版本：$appVersion。更新由 GitHub Actions 构建。',
+                            '目前版本：$appVersion。更新由 GitHub Actions 建置。',
+                          );
+    return _SettingsCard(
+      title: language.text('Aktualizacje aplikacji', '应用更新', '應用程式更新'),
+      description: status,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (_installing) ...[
+            LinearProgressIndicator(value: _progress),
+            const SizedBox(height: 12),
+          ],
+          Wrap(
+            spacing: 10,
+            runSpacing: 8,
+            children: [
+              OutlinedButton.icon(
+                onPressed: _checking || _installing ? null : _check,
+                icon: const Icon(Icons.refresh),
+                label: Text(language.text('Sprawdź aktualizacje', '检查更新', '檢查更新')),
+              ),
+              if (_update != null)
+                FilledButton.icon(
+                  onPressed: _checking || _installing ? null : _install,
+                  icon: const Icon(Icons.download),
+                  label: Text(language.text('Pobierz i uruchom ponownie', '下载并重启', '下載並重新啟動')),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 class _SettingsCard extends StatelessWidget {

@@ -45,3 +45,4 @@ app.*.map.json
 # Copilot helper files (temporary only)
 DEPLOYMENT.md
 COMMIT_MESSAGE.txt
+.copilot-notes.md
