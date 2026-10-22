@@ -52,7 +52,6 @@ class WindowsUpdate {
 class WindowsUpdater {
   static const _repository = 'mwojtcz/chinese-learning-app';
   static const _releaseTag = 'windows-latest';
-  static const _archiveName = 'ChineseLearningApp-Windows.zip';
   static const _manifestName = 'windows-update.json';
   static const _executableName = 'chinese_learning_app.exe';
 
@@ -61,52 +60,34 @@ class WindowsUpdater {
 
     final client = _newClient();
     try {
-      final releaseResponse = await _get(
-        client,
-        Uri.https(
-          'api.github.com',
-          '/repos/$_repository/releases/tags/$_releaseTag',
-        ),
-        accept: 'application/vnd.github+json',
-      );
-      final release = jsonDecode(await utf8.decoder
-          .bind(releaseResponse)
-          .join()
-          .timeout(const Duration(seconds: 30)));
-      if (release is! Map<String, dynamic> || release['assets'] is! List) {
-        throw const FormatException('Invalid Windows update release metadata.');
-      }
-
-      final assets = release['assets'] as List;
-      final manifestAsset = assets.whereType<Map<String, dynamic>>().where(
-            (asset) => asset['name'] == _manifestName,
-          );
-      if (manifestAsset.isEmpty) {
-        throw const FormatException('The Windows update manifest is missing.');
-      }
-      final manifestUrl = Uri.tryParse(
-        manifestAsset.first['browser_download_url'] as String? ?? '',
-      );
-      if (manifestUrl == null ||
-          manifestUrl.scheme != 'https' ||
-          manifestUrl.host != 'github.com') {
-        throw const FormatException('Invalid Windows update manifest URL.');
-      }
-
-      final manifestResponse = await _get(client, manifestUrl);
-      final manifest = jsonDecode(await utf8.decoder
-          .bind(manifestResponse)
-          .join()
-          .timeout(const Duration(seconds: 30)));
-      if (manifest is! Map<String, dynamic>) {
-        throw const FormatException('Invalid Windows update manifest.');
-      }
-      final update = WindowsUpdate.fromManifest(manifest);
-      if (update.buildNumber <= appBuildNumber) return null;
-      return update;
+      return await fetchUpdate(client);
     } finally {
       client.close(force: true);
     }
+  }
+
+  static Future<WindowsUpdate?> fetchUpdate(
+    HttpClient client, {
+    int currentBuildNumber = appBuildNumber,
+  }) async {
+    // Release assets do not consume the unauthenticated GitHub API quota.
+    final response = await _get(
+      client,
+      Uri.https(
+        'github.com',
+        '/$_repository/releases/download/$_releaseTag/$_manifestName',
+      ),
+    );
+    final manifest = jsonDecode(await utf8.decoder
+        .bind(response)
+        .join()
+        .timeout(const Duration(seconds: 30)));
+    if (manifest is! Map<String, dynamic>) {
+      throw const FormatException('Invalid Windows update manifest.');
+    }
+    final update = WindowsUpdate.fromManifest(manifest);
+    if (update.buildNumber <= currentBuildNumber) return null;
+    return update;
   }
 
   static Future<void> downloadAndInstall(
@@ -204,12 +185,10 @@ class WindowsUpdater {
 
   static Future<HttpClientResponse> _get(
     HttpClient client,
-    Uri uri, {
-    String? accept,
-  }) async {
+    Uri uri,
+  ) async {
     final request = await client.getUrl(uri).timeout(const Duration(seconds: 30));
     request.followRedirects = true;
-    if (accept != null) request.headers.set(HttpHeaders.acceptHeader, accept);
     final response = await request.close().timeout(const Duration(minutes: 2));
     if (response.statusCode != HttpStatus.ok) {
       await response.drain<void>();
