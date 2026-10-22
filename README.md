@@ -4,7 +4,7 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.24.5-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.5.4-blue)
-![Version](https://img.shields.io/badge/version-1.4.0-brightgreen)
+![Version](https://img.shields.io/badge/version-1.5.0-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🌐 Live Demo

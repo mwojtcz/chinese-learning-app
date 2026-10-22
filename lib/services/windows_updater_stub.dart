@@ -1,6 +1,6 @@
 const appVersion = String.fromEnvironment(
   'APP_VERSION',
-  defaultValue: '1.4.0+5',
+  defaultValue: '1.5.0+6',
 );
 const appBuildNumber = int.fromEnvironment('APP_BUILD_NUMBER', defaultValue: 0);
 

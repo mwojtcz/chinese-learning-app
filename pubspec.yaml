@@ -2,7 +2,7 @@ name: chinese_flow
 description: "Cíkǎ - Chinese and Polish flashcards with HSK vocabulary and grammar guides"
 publish_to: 'none'
 
-version: 1.4.0+5
+version: 1.5.0+6
 
 environment:
   sdk: ^3.5.4
