@@ -1,0 +1,1166 @@
+{
+  "lessons": [
+    {
+      "id": "pl-numbers-cardinal-ordinal",
+      "title": {
+        "pl": "Liczebniki główne i porządkowe",
+        "zhHans": "基数词与序数词",
+        "zhHant": "基數詞與序數詞"
+      },
+      "summary": {
+        "pl": "Liczebniki główne odpowiadają na pytanie ile?, a porządkowe na które? Porządkowe odmieniają się jak przymiotniki.",
+        "zhHans": "基数词回答「多少？」，序数词回答「第几？」。序数词像形容词一样变格。",
+        "zhHant": "基數詞回答「多少？」，序數詞回答「第幾？」。序數詞像形容詞一樣變格。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Liczebniki główne 0–19",
+            "zhHans": "基数词 0–19",
+            "zhHant": "基數詞 0–19"
+          },
+          "explanation": {
+            "pl": "0 zero, 1 jeden, 2 dwa, 3 trzy, 4 cztery, 5 pięć, 6 sześć, 7 siedem, 8 osiem, 9 dziewięć, 10 dziesięć. Liczby 11–19 mają końcówkę -naście: jedenaście, dwanaście, trzynaście, czternaście, piętnaście, szesnaście, siedemnaście, osiemnaście, dziewiętnaście.",
+            "zhHans": "0 zero，1 jeden，2 dwa，3 trzy，4 cztery，5 pięć，6 sześć，7 siedem，8 osiem，9 dziewięć，10 dziesięć。11–19 以 -naście 结尾：jedenaście、dwanaście、trzynaście、czternaście、piętnaście、szesnaście、siedemnaście、osiemnaście、dziewiętnaście。",
+            "zhHant": "0 zero，1 jeden，2 dwa，3 trzy，4 cztery，5 pięć，6 sześć，7 siedem，8 osiem，9 dziewięć，10 dziesięć。11–19 以 -naście 結尾：jedenaście、dwanaście、trzynaście、czternaście、piętnaście、szesnaście、siedemnaście、osiemnaście、dziewiętnaście。"
+          },
+          "examples": [
+            {
+              "pl": "Mam trzy siostry.",
+              "zhHans": "我有三个姐妹。",
+              "zhHant": "我有三個姐妹。"
+            },
+            {
+              "pl": "W grupie jest dwanaście osób.",
+              "zhHans": "小组里有十二个人。",
+              "zhHant": "小組裡有十二個人。"
+            },
+            {
+              "pl": "Mój brat ma piętnaście lat.",
+              "zhHans": "我弟弟（哥哥）十五岁。",
+              "zhHant": "我弟弟（哥哥）十五歲。"
+            }
+          ],
+          "note": {
+            "pl": "Część form zmienia się w zależności od rodzaju i przypadku, zwłaszcza jeden, dwa/dwie oraz formy męskoosobowe (np. pięciu). Zob. kolejne lekcje.",
+            "zhHans": "有些形式会随性和格变化，尤其是 jeden、dwa/dwie 以及阳性人称形式（如 pięciu），详见后面的课程。",
+            "zhHant": "有些形式會隨性和格變化，尤其是 jeden、dwa/dwie 以及陽性人稱形式（如 pięciu），詳見後面的課程。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Dziesiątki, setki, tysiące",
+            "zhHans": "十位、百位与千位",
+            "zhHant": "十位、百位與千位"
+          },
+          "explanation": {
+            "pl": "Dziesiątki: dwadzieścia, trzydzieści, czterdzieści, pięćdziesiąt, sześćdziesiąt, siedemdziesiąt, osiemdziesiąt, dziewięćdziesiąt. Setki: sto, dwieście, trzysta, czterysta, pięćset, sześćset, siedemset, osiemset, dziewięćset. Liczby złożone buduje się od największej jednostki do najmniejszej, bez spójnika „i”.",
+            "zhHans": "整十：dwadzieścia、trzydzieści、czterdzieści、pięćdziesiąt、sześćdziesiąt、siedemdziesiąt、osiemdziesiąt、dziewięćdziesiąt。整百：sto、dwieście、trzysta、czterysta、pięćset、sześćset、siedemset、osiemset、dziewięćset。复合数从最大的单位读到最小的单位，中间不加连词 i。",
+            "zhHant": "整十：dwadzieścia、trzydzieści、czterdzieści、pięćdziesiąt、sześćdziesiąt、siedemdziesiąt、osiemdziesiąt、dziewięćdziesiąt。整百：sto、dwieście、trzysta、czterysta、pięćset、sześćset、siedemset、osiemset、dziewięćset。複合數從最大的單位讀到最小的單位，中間不加連詞 i。"
+          },
+          "examples": [
+            {
+              "pl": "21 — dwadzieścia jeden",
+              "zhHans": "21——dwadzieścia jeden（二十一）",
+              "zhHant": "21——dwadzieścia jeden（二十一）"
+            },
+            {
+              "pl": "345 — trzysta czterdzieści pięć",
+              "zhHans": "345——trzysta czterdzieści pięć（三百四十五）",
+              "zhHant": "345——trzysta czterdzieści pięć（三百四十五）"
+            },
+            {
+              "pl": "2025 — dwa tysiące dwadzieścia pięć",
+              "zhHans": "2025——dwa tysiące dwadzieścia pięć（两千零二十五）",
+              "zhHant": "2025——dwa tysiące dwadzieścia pięć（兩千零二十五）"
+            },
+            {
+              "pl": "1 000 000 — milion",
+              "zhHans": "1 000 000——milion（一百万）",
+              "zhHant": "1 000 000——milion（一百萬）"
+            }
+          ],
+          "note": {
+            "pl": "Tysiąc i milion są rzeczownikami: mówi się tysiąc (zwykle bez „jeden”), dwa tysiące, pięć tysięcy; milion, dwa miliony, pięć milionów. Po nich rzeczownik stoi w dopełniaczu liczby mnogiej: milion ludzi.",
+            "zhHans": "tysiąc（千）和 milion（百万）是名词：说 tysiąc（通常不加 jeden）、dwa tysiące、pięć tysięcy；milion、dwa miliony、pięć milionów。其后的名词用复数属格：milion ludzi（一百万人）。",
+            "zhHant": "tysiąc（千）和 milion（百萬）是名詞：說 tysiąc（通常不加 jeden）、dwa tysiące、pięć tysięcy；milion、dwa miliony、pięć milionów。其後的名詞用複數屬格：milion ludzi（一百萬人）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Liczebniki porządkowe",
+            "zhHans": "序数词",
+            "zhHant": "序數詞"
+          },
+          "explanation": {
+            "pl": "pierwszy, drugi, trzeci, czwarty, piąty, szósty, siódmy, ósmy, dziewiąty, dziesiąty; jedenasty, dwunasty, trzynasty … dziewiętnasty; dwudziesty, trzydziesty, czterdziesty, pięćdziesiąty … setny. Mają rodzaje (-y, -a, -e) i odmieniają się jak przymiotniki.",
+            "zhHans": "pierwszy、drugi、trzeci、czwarty、piąty、szósty、siódmy、ósmy、dziewiąty、dziesiąty；jedenasty、dwunasty、trzynasty……dziewiętnasty；dwudziesty、trzydziesty、czterdziesty、pięćdziesiąty……setny。序数词有性的变化（-y、-a、-e），变格方式与形容词相同。",
+            "zhHant": "pierwszy、drugi、trzeci、czwarty、piąty、szósty、siódmy、ósmy、dziewiąty、dziesiąty；jedenasty、dwunasty、trzynasty……dziewiętnasty；dwudziesty、trzydziesty、czterdziesty、pięćdziesiąty……setny。序數詞有性的變化（-y、-a、-e），變格方式與形容詞相同。"
+          },
+          "examples": [
+            {
+              "pl": "pierwszy dzień, pierwsza lekcja, pierwsze piętro",
+              "zhHans": "第一天、第一节课、第一层楼（pierwsze piętro 指地面层之上的第一层）",
+              "zhHant": "第一天、第一節課、第一層樓（pierwsze piętro 指地面層之上的第一層）"
+            },
+            {
+              "pl": "To moja druga lekcja polskiego.",
+              "zhHans": "这是我的第二节波兰语课。",
+              "zhHant": "這是我的第二節波蘭語課。"
+            },
+            {
+              "pl": "Rozmawiam z trzecim studentem.",
+              "zhHans": "我在和第三位学生交谈。",
+              "zhHant": "我在和第三位學生交談。"
+            }
+          ],
+          "note": {
+            "pl": "Trzeci odmienia się miękko: trzeci, trzecia, trzecie; trzeciego, trzeciej. W zapisie cyfrowym po liczbie stawia się kropkę (5.).",
+            "zhHans": "trzeci 属软变化：trzeci、trzecia、trzecie；trzeciego、trzeciej。用阿拉伯数字书写序数时，数字后加句点（5.）。",
+            "zhHant": "trzeci 屬軟變化：trzeci、trzecia、trzecie；trzeciego、trzeciej。用阿拉伯數字書寫序數時，數字後加句點（5.）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Złożone liczebniki porządkowe",
+            "zhHans": "复合序数词",
+            "zhHant": "複合序數詞"
+          },
+          "explanation": {
+            "pl": "W liczbie złożonej tylko ostatni element ma formę porządkową, wcześniejsze są liczebnikami głównymi: sto dwudziesty trzeci (123.), dwa tysiące dwudziesty piąty (2025.). Okrągłe liczby mają jedno słowo: dwudziesty, setny, dwusetny, tysięczny, dwutysięczny.",
+            "zhHans": "复合序数中只有最后一部分用序数形式，前面的部分仍是基数词：sto dwudziesty trzeci（第123）、dwa tysiące dwudziesty piąty（第2025）。整数序数是一个词：dwudziesty、setny、dwusetny、tysięczny、dwutysięczny。",
+            "zhHant": "複合序數中只有最後一部分用序數形式，前面的部分仍是基數詞：sto dwudziesty trzeci（第123）、dwa tysiące dwudziesty piąty（第2025）。整數序數是一個詞：dwudziesty、setny、dwusetny、tysięczny、dwutysięczny。"
+          },
+          "examples": [
+            {
+              "pl": "dwudziesty pierwszy wiek",
+              "zhHans": "第二十一世纪",
+              "zhHant": "第二十一世紀"
+            },
+            {
+              "pl": "sto dwudziesty trzeci uczestnik",
+              "zhHans": "第一百二十三位参加者",
+              "zhHant": "第一百二十三位參加者"
+            },
+            {
+              "pl": "setna rocznica",
+              "zhHans": "一百周年",
+              "zhHant": "一百週年"
+            }
+          ],
+          "note": {
+            "pl": "Przy liczbach większych niż 100 nie łączy się wszystkiego w jedno słowo: pisze się osobno sto, dwa tysiące itd.",
+            "zhHans": "超过一百的数字不会合成一个词，sto、dwa tysiące 等要分开写。",
+            "zhHant": "超過一百的數字不會合成一個詞，sto、dwa tysiące 等要分開寫。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-numbers-one-two-gender",
+      "title": {
+        "pl": "Jeden, dwa i rodzaj gramatyczny",
+        "zhHans": "一、二与语法性",
+        "zhHant": "一、二與語法性"
+      },
+      "summary": {
+        "pl": "Tylko niektóre liczebniki mają formy rodzajowe. Jeden zachowuje się jak przymiotnik, a dwa ma osobną formę żeńską.",
+        "zhHans": "只有部分数词有性的区别。jeden 的变化像形容词，dwa 有专门的阴性形式。",
+        "zhHant": "只有部分數詞有性的區別。jeden 的變化像形容詞，dwa 有專門的陰性形式。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Jeden, jedna, jedno",
+            "zhHans": "jeden、jedna、jedno（一）",
+            "zhHant": "jeden、jedna、jedno（一）"
+          },
+          "explanation": {
+            "pl": "Liczebnik jeden uzgadnia się z rzeczownikiem w rodzaju i przypadku: jeden stół (m), jedna książka (ż), jedno okno (n). Biernik: jedną książkę, jedno okno, jeden stół (rzecz nieożywiona), ale jednego kota i jednego studenta (rodzaj męski ożywiony).",
+            "zhHans": "jeden 在性和格上与名词一致：jeden stół（阳性）、jedna książka（阴性）、jedno okno（中性）。宾格：jedną książkę、jedno okno、jeden stół（无生命名词），而有生命的阳性名词用 jednego kota、jednego studenta。",
+            "zhHant": "jeden 在性和格上與名詞一致：jeden stół（陽性）、jedna książka（陰性）、jedno okno（中性）。賓格：jedną książkę、jedno okno、jeden stół（無生命名詞），而有生命的陽性名詞用 jednego kota、jednego studenta。"
+          },
+          "examples": [
+            {
+              "pl": "Mam jednego brata i jedną siostrę.",
+              "zhHans": "我有一个哥哥（弟弟）和一个姐姐（妹妹）。",
+              "zhHant": "我有一個哥哥（弟弟）和一個姐姐（妹妹）。"
+            },
+            {
+              "pl": "Kupuję jeden bilet.",
+              "zhHans": "我买一张票。",
+              "zhHant": "我買一張票。"
+            },
+            {
+              "pl": "To jest jedno z moich ulubionych miast.",
+              "zhHans": "这是我最喜欢的城市之一。",
+              "zhHant": "這是我最喜歡的城市之一。"
+            }
+          ],
+          "note": {
+            "pl": "Jeden bywa też słowem „pewien” albo „sam”; ma wtedy liczbę mnogą: jedni ludzie, drudzy. Z rzeczownikami tylko w liczbie mnogiej używa się jedne: jedne drzwi.",
+            "zhHans": "jeden 也可表示「某个」「同一个」，此时可用复数：jedni ludzie…… drudzy（有些人……另一些人）。与只有复数形式的名词连用时用 jedne：jedne drzwi（一扇门）。",
+            "zhHant": "jeden 也可表示「某個」「同一個」，此時可用複數：jedni ludzie…… drudzy（有些人……另一些人）。與只有複數形式的名詞連用時用 jedne：jedne drzwi（一扇門）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Dwa i dwie; trzy, cztery",
+            "zhHans": "dwa 与 dwie；trzy、cztery",
+            "zhHant": "dwa 與 dwie；trzy、cztery"
+          },
+          "explanation": {
+            "pl": "W mianowniku i bierniku: dwa (rodzaj męski i nijaki), dwie (rodzaj żeński). Trzy i cztery mają jedną formę dla wszystkich rodzajów. Dopełniacz: dwóch, trzech, czterech; celownik: dwóm, trzem, czterem; narzędnik: dwoma (dwiema przy rodzaju żeńskim), trzema, czterema; miejscownik: dwóch, trzech, czterech.",
+            "zhHans": "主格和宾格：dwa（阳性、中性），dwie（阴性）。trzy 和 cztery 各性通用同一形式。属格：dwóch、trzech、czterech；与格：dwóm、trzem、czterem；工具格：dwoma（阴性用 dwiema）、trzema、czterema；处所格：dwóch、trzech、czterech。",
+            "zhHant": "主格和賓格：dwa（陽性、中性），dwie（陰性）。trzy 和 cztery 各性通用同一形式。屬格：dwóch、trzech、czterech；與格：dwóm、trzem、czterem；工具格：dwoma（陰性用 dwiema）、trzema、czterema；處所格：dwóch、trzech、czterech。"
+          },
+          "examples": [
+            {
+              "pl": "dwa stoły, dwa okna, dwie książki",
+              "zhHans": "两张桌子、两扇窗、两本书",
+              "zhHant": "兩張桌子、兩扇窗、兩本書"
+            },
+            {
+              "pl": "trzy siostry, cztery koty",
+              "zhHans": "三个姐妹、四只猫",
+              "zhHant": "三個姐妹、四隻貓"
+            },
+            {
+              "pl": "Idę do kina z dwiema koleżankami.",
+              "zhHans": "我和两位女同学去看电影。",
+              "zhHant": "我和兩位女同學去看電影。"
+            },
+            {
+              "pl": "Rozmawiamy o trzech filmach.",
+              "zhHans": "我们在谈论三部电影。",
+              "zhHant": "我們在談論三部電影。"
+            }
+          ],
+          "note": {
+            "pl": "Dwie łączy się tylko z rzeczownikami rodzaju żeńskiego (także osobowymi: dwie panie). Przy rzeczownikach męskoosobowych w mianowniku używa się dwóch/trzech/czterech: dwóch studentów (zob. lekcję o rzeczownikach).",
+            "zhHans": "dwie 只与阴性名词连用。阳性人称名词在主格中用 dwóch/trzech/czterech：dwóch studentów（两名学生），详见名词搭配一课。",
+            "zhHant": "dwie 只與陰性名詞連用。陽性人稱名詞在主格中用 dwóch/trzech/czterech：dwóch studentów（兩名學生），詳見名詞搭配一課。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Oba/obie i liczebniki zbiorowe",
+            "zhHans": "oba/obie 与集合数词",
+            "zhHant": "oba/obie 與集合數詞"
+          },
+          "explanation": {
+            "pl": "Oba (m, n) i obie (ż) znaczą „obaj, obydwa”. Liczebniki zbiorowe dwoje, troje, czworo, pięcioro… (dopełniacz: dwojga, trojga…) dotyczą grup mieszanych, dzieci i młodych zwierząt; rzeczownik stoi w dopełniaczu liczby mnogiej.",
+            "zhHans": "oba（阳、中）与 obie（阴）表示「两个都」。集合数词 dwoje、troje、czworo、pięcioro……（属格：dwojga、trojga……）用于男女混合的群体、儿童和幼崽；名词用复数属格。",
+            "zhHant": "oba（陽、中）與 obie（陰）表示「兩個都」。集合數詞 dwoje、troje、czworo、pięcioro……（屬格：dwojga、trojga……）用於男女混合的群體、兒童和幼崽；名詞用複數屬格。"
+          },
+          "examples": [
+            {
+              "pl": "Dwoje dzieci bawi się w ogrodzie.",
+              "zhHans": "两个孩子在花园里玩。",
+              "zhHant": "兩個孩子在花園裡玩。"
+            },
+            {
+              "pl": "Mam dwoje rodzeństwa.",
+              "zhHans": "我有两个兄弟姐妹。",
+              "zhHant": "我有兩個兄弟姊妹。"
+            },
+            {
+              "pl": "Oba samochody są stare.",
+              "zhHans": "两辆车都很旧。",
+              "zhHant": "兩輛車都很舊。"
+            },
+            {
+              "pl": "Obie siostry mieszkają w Krakowie.",
+              "zhHans": "两个姐妹都住在克拉科夫。",
+              "zhHant": "兩個姊妹都住在克拉科夫。"
+            }
+          ],
+          "note": {
+            "pl": "Liczebniki zbiorowe nie są obowiązkowe: dwoje dzieci i dwójka dzieci są poprawne, a czasownik po nich ma zwykle formę nijaką (bawiło się) lub mnogą. Przy rzeczownikach męskich ożywionych niebędących osobami (np. koty) zwykle używa się zwykłych liczebników: dwa koty.",
+            "zhHans": "集合数词并非必须使用：dwoje dzieci 与 dwójka dzieci 都正确。其后动词常用中性单数形式（bawiło się）或复数形式。对不是人的阳性有生名词（如 koty）通常用普通数词：dwa koty。",
+            "zhHant": "集合數詞並非必須使用：dwoje dzieci 與 dwójka dzieci 都正確。其後動詞常用中性單數形式（bawiło się）或複數形式。對不是人的陽性有生名詞（如 koty）通常用普通數詞：dwa koty。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-numbers-noun-agreement",
+      "title": {
+        "pl": "Liczebnik + rzeczownik: przypadek i liczba",
+        "zhHans": "数词 + 名词：格与数",
+        "zhHant": "數詞 + 名詞：格與數"
+      },
+      "summary": {
+        "pl": "Forma rzeczownika zależy od liczebnika i od przypadku. W mianowniku i bierniku obowiązują trzy wzorce: 1, 2–4 oraz 5 i więcej; ostatnia liczba złożona decyduje, który wzorzec zastosować.",
+        "zhHans": "名词的形式取决于数词和格。在主格和宾格中有三种模式：1、2–4、5 及以上；复合数由末位数字决定适用哪种模式。",
+        "zhHant": "名詞的形式取決於數詞和格。在主格和賓格中有三種模式：1、2–4、5 及以上；複合數由末位數字決定適用哪種模式。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Podstawowy wzorzec: 1, 2–4, 5+",
+            "zhHans": "基本模式：1、2–4、5+",
+            "zhHant": "基本模式：1、2–4、5+"
+          },
+          "explanation": {
+            "pl": "1: rzeczownik w liczbie pojedynczej (jeden kot). 2, 3, 4: mianownik liczby mnogiej (dwa koty, trzy książki). 5 i więcej: dopełniacz liczby mnogiej (pięć kotów, sześć książek). Dotyczy to mianownika oraz biernika rzeczy, zwierząt i kobiet.",
+            "zhHans": "1：名词用单数（jeden kot）。2、3、4：名词用复数主格（dwa koty、trzy książki）。5 及以上：名词用复数属格（pięć kotów、sześć książek）。这适用于事物、动物和女性名词的主格与宾格。",
+            "zhHant": "1：名詞用單數（jeden kot）。2、3、4：名詞用複數主格（dwa koty、trzy książki）。5 及以上：名詞用複數屬格（pięć kotów、sześć książek）。這適用於事物、動物和女性名詞的主格與賓格。"
+          },
+          "examples": [
+            {
+              "pl": "jeden kot, dwa koty, pięć kotów",
+              "zhHans": "一只猫、两只猫、五只猫",
+              "zhHant": "一隻貓、兩隻貓、五隻貓"
+            },
+            {
+              "pl": "jedna książka, dwie książki, pięć książek",
+              "zhHans": "一本书、两本书、五本书",
+              "zhHant": "一本書、兩本書、五本書"
+            },
+            {
+              "pl": "jedno okno, trzy okna, sześć okien",
+              "zhHans": "一扇窗、三扇窗、六扇窗",
+              "zhHant": "一扇窗、三扇窗、六扇窗"
+            },
+            {
+              "pl": "Kupuję cztery bilety i pięć kawałków ciasta.",
+              "zhHans": "我买四张票和五块蛋糕。",
+              "zhHant": "我買四張票和五塊蛋糕。"
+            }
+          ],
+          "note": {
+            "pl": "Dopełniacz liczby mnogiej ma różne końcówki: -ów (kotów), -y/-i (np. rzecz → rzeczy, noc → nocy) lub zerową (książek, okien, kobiet). Trzeba się go uczyć razem z rzeczownikiem. Przymiotnik po 2–4 stoi w mianowniku liczby mnogiej: dwa nowe koty, ale po 5+ w dopełniaczu: pięć nowych kotów.",
+            "zhHans": "复数属格的词尾不一：-ów（kotów）、-y/-i（如 rzecz → rzeczy），或零词尾（książek、okien、kobiet）。要和名词一起记。2–4 之后的形容词用复数主格：dwa nowe koty；5 以上则用属格：pięć nowych kotów。",
+            "zhHant": "複數屬格的詞尾不一：-ów（kotów）、-y/-i（如 rzecz → rzeczy），或零詞尾（książek、okien、kobiet）。要和名詞一起記。2–4 之後的形容詞用複數主格：dwa nowe koty；5 以上則用屬格：pięć nowych kotów。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Wyjątek 12–14 i liczby 11–19",
+            "zhHans": "例外：12–14 与 11–19",
+            "zhHant": "例外：12–14 與 11–19"
+          },
+          "explanation": {
+            "pl": "Liczby 11–19 wymagają dopełniacza liczby mnogiej, także 12, 13 i 14, mimo że kończą się na 2, 3, 4. Nie stosuje się do nich wzorca „2–4”.",
+            "zhHans": "11–19 之后的名词都要用复数属格，12、13、14 也不例外，尽管它们的个位是 2、3、4。它们不适用「2–4」的模式。",
+            "zhHant": "11–19 之後的名詞都要用複數屬格，12、13、14 也不例外，儘管它們的個位是 2、3、4。它們不適用「2–4」的模式。"
+          },
+          "examples": [
+            {
+              "pl": "dwanaście kotów (nie: dwanaście koty)",
+              "zhHans": "十二只猫",
+              "zhHant": "十二隻貓"
+            },
+            {
+              "pl": "trzynaście książek",
+              "zhHans": "十三本书",
+              "zhHant": "十三本書"
+            },
+            {
+              "pl": "czternaście okien",
+              "zhHans": "十四扇窗",
+              "zhHant": "十四扇窗"
+            },
+            {
+              "pl": "Mam jedenaście lekcji w tygodniu.",
+              "zhHans": "我每周有十一节课。",
+              "zhHant": "我每週有十一節課。"
+            }
+          ],
+          "note": {
+            "pl": "Ta sama zasada obejmuje 112–114, 212–214 itd.: sto dwanaście kotów.",
+            "zhHans": "同一规则也适用于 112–114、212–214 等：sto dwanaście kotów（一百一十二只猫）。",
+            "zhHant": "同一規則也適用於 112–114、212–214 等：sto dwanaście kotów（一百一十二隻貓）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Liczby złożone: decyduje ostatni człon",
+            "zhHans": "复合数：看末位",
+            "zhHant": "複合數：看末位"
+          },
+          "explanation": {
+            "pl": "Przy liczbach złożonych (20 i więcej) o formie rzeczownika decyduje ostatni człon, o ile nie jest on częścią 11–19. Kończące się na 2, 3, 4 (22, 23, 24, 32…, 102…) dają mianownik liczby mnogiej; pozostałe — w tym 21, 31, 101 kończące się na 1 — dają dopełniacz liczby mnogiej.",
+            "zhHans": "对于 20 以上的复合数，名词形式由末位部分决定，前提是末两位不是 11–19。以 2、3、4 结尾（22、23、24、32……102……）用复数主格；其余情况——包括以 1 结尾的 21、31、101——都用复数属格。",
+            "zhHant": "對於 20 以上的複合數，名詞形式由末位部分決定，前提是末兩位不是 11–19。以 2、3、4 結尾（22、23、24、32……102……）用複數主格；其餘情況——包括以 1 結尾的 21、31、101——都用複數屬格。"
+          },
+          "examples": [
+            {
+              "pl": "dwadzieścia dwa koty, dwadzieścia dwie książki",
+              "zhHans": "二十二只猫、二十二本书",
+              "zhHant": "二十二隻貓、二十二本書"
+            },
+            {
+              "pl": "dwadzieścia jeden kotów (nie: dwadzieścia jeden kot)",
+              "zhHans": "二十一只猫",
+              "zhHant": "二十一隻貓"
+            },
+            {
+              "pl": "sto dwa domy, sto pięć domów",
+              "zhHans": "一百零二座房子、一百零五座房子",
+              "zhHant": "一百零二座房子、一百零五座房子"
+            },
+            {
+              "pl": "sto dwanaście domów",
+              "zhHans": "一百一十二座房子",
+              "zhHant": "一百一十二座房子"
+            },
+            {
+              "pl": "dwa tysiące kotów, pięć tysięcy kotów",
+              "zhHans": "两千只猫、五千只猫",
+              "zhHant": "兩千隻貓、五千隻貓"
+            }
+          ],
+          "note": {
+            "pl": "Tysiąc, milion i miliard są rzeczownikami rządzącymi dopełniaczem liczby mnogiej (tysiąc kotów, milion ludzi). Same zmieniają się według wzorca 2–4 / 5+ (dwa tysiące, pięć tysięcy, dwa miliony, pięć milionów), ale rzeczownik po nich zawsze stoi w dopełniaczu liczby mnogiej: dwa tysiące kotów.",
+            "zhHans": "tysiąc、milion、miliard 是支配复数属格的名词（tysiąc kotów、milion ludzi）。它们自身按 2–4 / 5+ 的模式变化（dwa tysiące、pięć tysięcy、dwa miliony、pięć milionów），但其后的名词始终用复数属格：dwa tysiące kotów（两千只猫）。",
+            "zhHant": "tysiąc、milion、miliard 是支配複數屬格的名詞（tysiąc kotów、milion ludzi）。它們自身按 2–4 / 5+ 的模式變化（dwa tysiące、pięć tysięcy、dwa miliony、pięć milionów），但其後的名詞始終用複數屬格：dwa tysiące kotów（兩千隻貓）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Rodzaj męskoosobowy",
+            "zhHans": "阳性人称",
+            "zhHant": "陽性人稱"
+          },
+          "explanation": {
+            "pl": "Gdy liczymy mężczyzn albo grupę, w której jest przynajmniej jeden mężczyzna, w mianowniku i bierniku używa się osobnych form męskoosobowych liczebnika i rzeczownika w dopełniaczu: dwóch/trzech/czterech/pięciu/sześciu studentów. Dla 2–4 istnieje też forma dwaj/trzej/czterej studenci (mianownik).",
+            "zhHans": "数男性或含至少一名男性的群体时，主格和宾格要使用阳性人称的数词形式，名词用复数属格：dwóch/trzech/czterech/pięciu/sześciu studentów。2–4 在主格中也可用 dwaj/trzej/czterej studenci。",
+            "zhHant": "數男性或含至少一名男性的群體時，主格和賓格要使用陽性人稱的數詞形式，名詞用複數屬格：dwóch/trzech/czterech/pięciu/sześciu studentów。2–4 在主格中也可用 dwaj/trzej/czterej studenci。"
+          },
+          "examples": [
+            {
+              "pl": "Przyszło pięciu studentów.",
+              "zhHans": "来了五名学生。",
+              "zhHant": "來了五名學生。"
+            },
+            {
+              "pl": "Widzę dwóch mężczyzn i trzy kobiety.",
+              "zhHans": "我看到两个男人和三个女人。",
+              "zhHant": "我看到兩個男人和三個女人。"
+            },
+            {
+              "pl": "W klasie jest dwudziestu dwóch uczniów.",
+              "zhHans": "班里有二十二名学生。",
+              "zhHant": "班裡有二十二名學生。"
+            },
+            {
+              "pl": "Ilu masz kolegów?",
+              "zhHans": "你有多少个男同事（同学）？",
+              "zhHant": "你有多少個男同事（同學）？"
+            }
+          ],
+          "note": {
+            "pl": "To dotyczy ludzi płci męskiej, nie zwierząt czy przedmiotów (dwa koty, pięć stołów) ani kobiet (pięć kobiet). W bierniku liczebnik męskoosobowy ma formę dopełniacza: widzę pięciu studentów. Pytanie: ile? — ilu? (o mężczyznach i grupach mieszanych).",
+            "zhHans": "这只适用于男性，不适用于动物或物品（dwa koty、pięć stołów），也不适用于女性（pięć kobiet）。宾格中的阳性人称数词采用属格形式：widzę pięciu studentów。疑问词：ile?——ilu?（问男性及混合群体）。",
+            "zhHant": "這只適用於男性，不適用於動物或物品（dwa koty、pięć stołów），也不適用於女性（pięć kobiet）。賓格中的陽性人稱數詞採用屬格形式：widzę pięciu studentów。疑問詞：ile?——ilu?（問男性及混合群體）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Przypadki zależne",
+            "zhHans": "其他格",
+            "zhHant": "其他格"
+          },
+          "explanation": {
+            "pl": "W dopełniaczu, celowniku, narzędniku i miejscowniku liczebnik (od 2) zgadza się z rzeczownikiem w przypadku, a rzeczownik stoi w liczbie mnogiej tego przypadku. Liczebnik od 5 ma te same formy dla wszystkich rodzajów, np. pięciu, pięciu, pięcioma, pięciu.",
+            "zhHans": "在属格、与格、工具格和处所格中，数词（2 以上）与名词的格一致，名词用该格的复数形式。5 以上的数词各性形式相同，例如 pięciu（属）、pięciu（与）、pięcioma（工具）、pięciu（处所）。",
+            "zhHant": "在屬格、與格、工具格和處所格中，數詞（2 以上）與名詞的格一致，名詞用該格的複數形式。5 以上的數詞各性形式相同，例如 pięciu（屬）、pięciu（與）、pięcioma（工具）、pięciu（處所）。"
+          },
+          "examples": [
+            {
+              "pl": "Nie mam pięciu książek.",
+              "zhHans": "我没有五本书。",
+              "zhHant": "我沒有五本書。"
+            },
+            {
+              "pl": "Dzwonię do dwóch przyjaciół.",
+              "zhHans": "我给两个朋友打电话。",
+              "zhHant": "我給兩個朋友打電話。"
+            },
+            {
+              "pl": "Jadę z trzema kolegami.",
+              "zhHans": "我和三个男同事（同学）一起去。",
+              "zhHant": "我和三個男同事（同學）一起去。"
+            },
+            {
+              "pl": "Mówimy o pięciu nowych filmach.",
+              "zhHans": "我们在谈论五部新电影。",
+              "zhHant": "我們在談論五部新電影。"
+            },
+            {
+              "pl": "Nie mam dwudziestu pięciu biletów.",
+              "zhHans": "我没有二十五张票。",
+              "zhHant": "我沒有二十五張票。"
+            }
+          ],
+          "note": {
+            "pl": "W formach złożonych odmienia się każdy człon: z dwudziestoma pięcioma kotami. W praktyce takie konstrukcje są rzadkie i często zastępuje się je zapisem cyfrowym lub opisem. Jeden zawsze zgadza się jak przymiotnik: o jednej książce.",
+            "zhHans": "复合数的每一部分都要变格：z dwudziestoma pięcioma kotami（和二十五只猫）。实际口语中这类结构较少，常用数字书写或换说法回避。jeden 始终像形容词一样变格：o jednej książce。",
+            "zhHant": "複合數的每一部分都要變格：z dwudziestoma pięcioma kotami（和二十五隻貓）。實際口語中這類結構較少，常用數字書寫或換說法迴避。jeden 始終像形容詞一樣變格：o jednej książce。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Zgoda orzeczenia z podmiotem liczbowym",
+            "zhHans": "谓语与数量主语的一致",
+            "zhHant": "謂語與數量主語的一致"
+          },
+          "explanation": {
+            "pl": "Po 2–4 czasownik zwykle jest w liczbie mnogiej i zgadza się z rodzajem: dwie kobiety przyszły, trzy koty śpią. Po 5 i więcej oraz po liczbach 12–14 zwykle występuje forma rodzaju nijakiego w liczbie pojedynczej (pięć kobiet przyszło, pięć kotów śpi); liczba mnoga też bywa używana, zwłaszcza przy osobach.",
+            "zhHans": "2–4 之后动词通常用复数并与性一致：dwie kobiety przyszły、trzy koty śpią。5 以上及 12–14 之后通常用中性单数：pięć kobiet przyszło、pięć kotów śpi；复数形式也可见，尤其用于指人时。",
+            "zhHant": "2–4 之後動詞通常用複數並與性一致：dwie kobiety przyszły、trzy koty śpią。5 以上及 12–14 之後通常用中性單數：pięć kobiet przyszło、pięć kotów śpi；複數形式也可見，尤其用於指人時。"
+          },
+          "examples": [
+            {
+              "pl": "Dwie kobiety przyszły wcześniej.",
+              "zhHans": "两位女士来得早一些。",
+              "zhHant": "兩位女士來得早一些。"
+            },
+            {
+              "pl": "Pięć kobiet przyszło wcześniej.",
+              "zhHans": "五位女士来得早一些。",
+              "zhHant": "五位女士來得早一些。"
+            },
+            {
+              "pl": "Trzech studentów jeszcze nie zdało egzaminu.",
+              "zhHans": "三名学生还没有通过考试。",
+              "zhHant": "三名學生還沒有通過考試。"
+            }
+          ],
+          "note": {
+            "pl": "To tendencje, nie sztywne reguły. Przy liczebnikach męskoosobowych spotyka się obie możliwości: Pięciu studentów przyszło / Pięciu studentów przyszli; wybór zależy od stylu i kontekstu.",
+            "zhHans": "这些是倾向而不是死规则。阳性人称数词之后两种形式都可能出现：Pięciu studentów przyszło / Pięciu studentów przyszli；选择取决于文体和语境。",
+            "zhHant": "這些是傾向而不是死規則。陽性人稱數詞之後兩種形式都可能出現：Pięciu studentów przyszło / Pięciu studentów przyszli；選擇取決於文體和語境。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-numbers-dates-time-age",
+      "title": {
+        "pl": "Daty, godziny, wiek i ilości",
+        "zhHans": "日期、时间、年龄与数量",
+        "zhHant": "日期、時間、年齡與數量"
+      },
+      "summary": {
+        "pl": "W codziennych wypowiedziach liczebniki głównie łączą się z przypadkami: daty używają liczebników porządkowych i dopełniacza, godziny — porządkowych w rodzaju żeńskim, a wiek i ilości — wzorców 1, 2–4 i 5+.",
+        "zhHans": "日常表达里数词与格紧密相关：日期用序数词和属格，钟点用阴性序数词，年龄和数量则遵循 1、2–4、5+ 的模式。",
+        "zhHant": "日常表達裡數詞與格緊密相關：日期用序數詞和屬格，鐘點用陰性序數詞，年齡和數量則遵循 1、2–4、5+ 的模式。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Data: dzień i miesiąc",
+            "zhHans": "日期：日与月",
+            "zhHant": "日期：日與月"
+          },
+          "explanation": {
+            "pl": "Dzień to liczebnik porządkowy (rodzaj męski), miesiąc stoi w dopełniaczu: piąty maja. Gdy mówimy, kiedy coś się dzieje, porządkowy też idzie do dopełniacza: piątego maja. Miesiące w dopełniaczu: stycznia, lutego, marca, kwietnia, maja, czerwca, lipca, sierpnia, września, października, listopada, grudnia.",
+            "zhHans": "日用男性序数词，月份用属格：piąty maja（五月五日）。表示某事发生在哪天时，序数词也要用属格：piątego maja。月份属格：stycznia、lutego、marca、kwietnia、maja、czerwca、lipca、sierpnia、września、października、listopada、grudnia。",
+            "zhHant": "日用陽性序數詞，月份用屬格：piąty maja（五月五日）。表示某事發生在哪天時，序數詞也要用屬格：piątego maja。月份屬格：stycznia、lutego、marca、kwietnia、maja、czerwca、lipca、sierpnia、września、października、listopada、grudnia。"
+          },
+          "examples": [
+            {
+              "pl": "Który dziś jest? — Dziś jest piąty maja.",
+              "zhHans": "今天几号？——今天是五月五日。",
+              "zhHant": "今天幾號？——今天是五月五日。"
+            },
+            {
+              "pl": "Którego dziś mamy? — Mamy dwudziestego trzeciego marca.",
+              "zhHans": "今天几号？——今天是三月二十三日。",
+              "zhHant": "今天幾號？——今天是三月二十三日。"
+            },
+            {
+              "pl": "Urodziłem się trzydziestego pierwszego grudnia.",
+              "zhHans": "我出生在十二月三十一日。",
+              "zhHant": "我出生在十二月三十一日。"
+            },
+            {
+              "pl": "Spotkanie jest w piątek, jedenastego lipca.",
+              "zhHans": "会议在七月十一日，星期五。",
+              "zhHant": "會議在七月十一日，星期五。"
+            }
+          ],
+          "note": {
+            "pl": "Dzień tygodnia wyrażamy przyimkiem w (we wtorek, w środę, w czwartek, w piątek, w sobotę, w niedzielę, w poniedziałek). Miesiąc w znaczeniu „w czasie” stoi w miejscowniku: w maju, we wrześniu, w październiku.",
+            "zhHans": "星期用前置词 w 表示：w poniedziałek、we wtorek、w środę、w czwartek、w piątek、w sobotę、w niedzielę。表示「在某月」时，月份用处所格：w maju、we wrześniu、w październiku。",
+            "zhHant": "星期用前置詞 w 表示：w poniedziałek、we wtorek、w środę、w czwartek、w piątek、w sobotę、w niedzielę。表示「在某月」時，月份用處所格：w maju、we wrześniu、w październiku。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Rok",
+            "zhHans": "年份",
+            "zhHant": "年份"
+          },
+          "explanation": {
+            "pl": "Rok czytamy liczebnikiem porządkowym: tylko ostatni człon jest porządkowy, a po nim stoi słowo rok. Na pytanie „kiedy?” używa się miejscownika: w dwa tysiące dwudziestym piątym roku. W dacie pełnej rok jest w dopełniaczu: piątego maja dwa tysiące dwudziestego piątego roku.",
+            "zhHans": "年份用序数词读出：只有最后一部分是序数，后面再加 rok。回答「什么时候」时用处所格：w dwa tysiące dwudziestym piątym roku（在2025年）。完整日期中年份用属格：piątego maja dwa tysiące dwudziestego piątego roku（2025年5月5日）。",
+            "zhHant": "年份用序數詞讀出：只有最後一部分是序數，後面再加 rok。回答「什麼時候」時用處所格：w dwa tysiące dwudziestym piątym roku（在2025年）。完整日期中年份用屬格：piątego maja dwa tysiące dwudziestego piątego roku（2025年5月5日）。"
+          },
+          "examples": [
+            {
+              "pl": "w 1999 roku — w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku",
+              "zhHans": "在1999年",
+              "zhHant": "在1999年"
+            },
+            {
+              "pl": "w 2000 roku — w dwutysięcznym roku",
+              "zhHans": "在2000年",
+              "zhHant": "在2000年"
+            },
+            {
+              "pl": "Zaczęłam pracować w 2021 roku.",
+              "zhHans": "我从2021年开始工作。",
+              "zhHant": "我從2021年開始工作。"
+            }
+          ],
+          "note": {
+            "pl": "W piśmie wystarczy 2025 r. lub w 2025 roku. Rok 2000 to dwutysięczny, a kolejne lata: dwa tysiące pierwszy, dwa tysiące dwudziesty piąty itd.; lata 1900–1999 zaczynają się od tysiąc dziewięćset…",
+            "zhHans": "书写时用 2025 r. 或 w 2025 roku 即可。2000 年读作 dwutysięczny，之后依次为 dwa tysiące pierwszy、dwa tysiące dwudziesty piąty 等；1900–1999 年以 tysiąc dziewięćset…… 开头。",
+            "zhHant": "書寫時用 2025 r. 或 w 2025 roku 即可。2000 年讀作 dwutysięczny，之後依次為 dwa tysiące pierwszy、dwa tysiące dwudziesty piąty 等；1900–1999 年以 tysiąc dziewięćset…… 開頭。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Godziny",
+            "zhHans": "钟点",
+            "zhHant": "鐘點"
+          },
+          "explanation": {
+            "pl": "Pytanie: Która jest godzina? Odpowiedź: Jest piąta. Używa się liczebnika porządkowego w rodzaju żeńskim (bo „godzina”). „O której?” → miejscownik: o piątej. Po pełnej godzinie: po + miejscownik (dziesięć po piątej); przed pełną godziną: za + mianownik (za dziesięć szósta). 5:30: wpół do szóstej (dopełniacz); oficjalnie 17:30: siedemnasta trzydzieści.",
+            "zhHans": "问：Która jest godzina?（几点了？）答：Jest piąta.（五点。）用阴性序数词（因为隐含 godzina）。「几点？」用处所格：o piątej。整点之后用 po + 处所格（dziesięć po piątej，五点十分）；整点之前用 za + 主格（za dziesięć szósta，差十分六点）。五点半：wpół do szóstej（属格）；正式说法 siedemnasta trzydzieści（十七点三十分）。",
+            "zhHant": "問：Która jest godzina?（幾點了？）答：Jest piąta.（五點。）用陰性序數詞（因為隱含 godzina）。「幾點？」用處所格：o piątej。整點之後用 po + 處所格（dziesięć po piątej，五點十分）；整點之前用 za + 主格（za dziesięć szósta，差十分六點）。五點半：wpół do szóstej（屬格）；正式說法 siedemnasta trzydzieści（十七點三十分）。"
+          },
+          "examples": [
+            {
+              "pl": "Jest ósma piętnaście.",
+              "zhHans": "现在八点十五分。",
+              "zhHant": "現在八點十五分。"
+            },
+            {
+              "pl": "Zaczynam pracę o dziewiątej.",
+              "zhHans": "我九点开始工作。",
+              "zhHant": "我九點開始工作。"
+            },
+            {
+              "pl": "Pociąg odjeżdża za dwadzieścia minut.",
+              "zhHans": "火车二十分钟后出发。",
+              "zhHant": "火車二十分鐘後出發。"
+            },
+            {
+              "pl": "Spotkajmy się wpół do trzeciej.",
+              "zhHans": "我们两点半见面吧。",
+              "zhHant": "我們兩點半見面吧。"
+            }
+          ],
+          "note": {
+            "pl": "Wpół do szóstej oznacza 5:30, nie 6:30 (pół godziny do szóstej). Kwadrans: kwadrans po piątej (5:15), za kwadrans szósta (5:45). W rozkładach jazdy zwykle używa się systemu 24-godzinnego.",
+            "zhHans": "wpół do szóstej 是 5:30（不是 6:30），意为「离六点还有半小时」。一刻钟：kwadrans po piątej（5:15）、za kwadrans szósta（5:45）。时刻表通常使用 24 小时制。",
+            "zhHant": "wpół do szóstej 是 5:30（不是 6:30），意為「離六點還有半小時」。一刻鐘：kwadrans po piątej（5:15）、za kwadrans szósta（5:45）。時刻表通常使用 24 小時制。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Wiek: rok, lata, lat",
+            "zhHans": "年龄：rok、lata、lat",
+            "zhHant": "年齡：rok、lata、lat"
+          },
+          "explanation": {
+            "pl": "Wiek podaje się z czasownikiem mieć i wzorcem 1, 2–4, 5+: 1 rok, 2–4 lata, 5–21 lat, 22–24 lata, 25–31 lat. Pytanie: Ile masz lat?",
+            "zhHans": "年龄用动词 mieć 加数量模式表达：1 岁 rok，2–4 岁 lata，5–21 岁 lat，22–24 岁 lata，25–31 岁 lat。问句：Ile masz lat?（你几岁？）",
+            "zhHant": "年齡用動詞 mieć 加數量模式表達：1 歲 rok，2–4 歲 lata，5–21 歲 lat，22–24 歲 lata，25–31 歲 lat。問句：Ile masz lat?（你幾歲？）"
+          },
+          "examples": [
+            {
+              "pl": "Mam dwadzieścia lat.",
+              "zhHans": "我二十岁。",
+              "zhHant": "我二十歲。"
+            },
+            {
+              "pl": "Moja córka ma dwa lata, a syn jedenaście lat.",
+              "zhHans": "我女儿两岁，儿子十一岁。",
+              "zhHant": "我女兒兩歲，兒子十一歲。"
+            },
+            {
+              "pl": "Babcia ma osiemdziesiąt trzy lata.",
+              "zhHans": "奶奶八十三岁。",
+              "zhHant": "奶奶八十三歲。"
+            },
+            {
+              "pl": "On ma dwadzieścia jeden lat, a ona dwadzieścia dwa lata.",
+              "zhHans": "他二十一岁，她二十二岁。",
+              "zhHant": "他二十一歲，她二十二歲。"
+            }
+          ],
+          "note": {
+            "pl": "Dla niemowląt podaje się miesiące: dziecko ma jeden miesiąc, trzy miesiące, sześć miesięcy.           Przy 12–14 zawsze lat: czternaście lat. Rzeczownik rok ma nieregularną liczbę mnogą: lata (mianownik) i lat (dopełniacz); nie mówi się pięć lata ani dwa lat.",
+            "zhHans": "婴儿用月龄：jeden miesiąc、trzy miesiące、sześć miesięcy。12–14 岁总是 lat：czternaście lat。名词 rok 的复数不规则：lata（主格）和 lat（属格）；不说 pięć lata，也不说 dwa lat。",
+            "zhHant": "嬰兒用月齡：jeden miesiąc、trzy miesiące、sześć miesięcy。12–14 歲總是 lat：czternaście lat。名詞 rok 的複數不規則：lata（主格）和 lat（屬格）；不說 pięć lata，也不說 dwa lat。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Ilości, ceny i miary",
+            "zhHans": "数量、价格与计量",
+            "zhHant": "數量、價格與計量"
+          },
+          "explanation": {
+            "pl": "Z kilka, kilkanaście, kilkadziesiąt, wiele, dużo, mało, trochę, parę używa się dopełniacza (kilka książek, dużo wody, wiele osób, trochę czasu). W cenach działa wzorzec liczebnika: jeden złoty, dwa złote, pięć złotych; jeden grosz, dwa grosze, pięć groszy. Miary: dwa kilogramy jabłek, pół kilograma sera, sto gramów szynki.",
+            "zhHans": "kilka、kilkanaście、kilkadziesiąt、wiele、dużo、mało、trochę、parę 之后用属格：kilka książek、dużo wody、wiele osób、trochę czasu。价格遵循数词模式：jeden złoty、dwa złote、pięć złotych；jeden grosz、dwa grosze、pięć groszy。计量：dwa kilogramy jabłek、pół kilograma sera、sto gramów szynki。",
+            "zhHant": "kilka、kilkanaście、kilkadziesiąt、wiele、dużo、mało、trochę、parę 之後用屬格：kilka książek、dużo wody、wiele osób、trochę czasu。價格遵循數詞模式：jeden złoty、dwa złote、pięć złotych；jeden grosz、dwa grosze、pięć groszy。計量：dwa kilogramy jabłek、pół kilograma sera、sto gramów szynki。"
+          },
+          "examples": [
+            {
+              "pl": "Ile to kosztuje? — Dwadzieścia dwa złote.",
+              "zhHans": "这个多少钱？——二十二兹罗提。",
+              "zhHant": "這個多少錢？——二十二茲羅提。"
+            },
+            {
+              "pl": "Poproszę kilogram jabłek i pół litra mleka.",
+              "zhHans": "请给我一公斤苹果和半升牛奶。",
+              "zhHant": "請給我一公斤蘋果和半升牛奶。"
+            },
+            {
+              "pl": "Ile razy byłeś w Warszawie? — Trzy razy.",
+              "zhHans": "你去过几次华沙？——三次。",
+              "zhHant": "你去過幾次華沙？——三次。"
+            },
+            {
+              "pl": "Mam półtora kilograma mąki i półtorej szklanki cukru.",
+              "zhHans": "我有一公斤半面粉和一杯半糖。",
+              "zhHant": "我有一公斤半麵粉和一杯半糖。"
+            }
+          ],
+          "note": {
+            "pl": "Półtora (m, n) i półtorej (ż) wymagają rzeczownika w dopełniaczu liczby pojedynczej (półtora roku, półtorej godziny). Ile i ilu z rzeczownikami niepoliczalnymi: Ile wody? Po kilka, wiele, dużo orzeczenie zwykle ma formę nijaką: Kilka osób przyszło.",
+            "zhHans": "półtora（阳、中）与 półtorej（阴）之后的名词用单数属格：półtora roku、półtorej godziny。ile 与不可数名词连用：Ile wody?（多少水？）。kilka、wiele、dużo 作主语时，谓语通常用中性单数：Kilka osób przyszło.（来了几个人。）",
+            "zhHant": "półtora（陽、中）與 półtorej（陰）之後的名詞用單數屬格：półtora roku、półtorej godziny。ile 與不可數名詞連用：Ile wody?（多少水？）。kilka、wiele、dużo 作主語時，謂語通常用中性單數：Kilka osób przyszło.（來了幾個人。）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-numbers-adjective-declension",
+      "title": {
+        "pl": "Odmiana przymiotników: rodzaj, liczba, przypadek",
+        "zhHans": "形容词变格：性、数、格",
+        "zhHant": "形容詞變格：性、數、格"
+      },
+      "summary": {
+        "pl": "Przymiotnik zgadza się z rzeczownikiem w rodzaju, liczbie i przypadku. Wzorce poniżej opisują typowe przymiotniki twardotematowe (nowy), miękkie (tani) i zakończone na -ki/-gi (polski, drogi).",
+        "zhHans": "形容词在性、数、格上与名词一致。下面的模式涵盖典型的硬变化形容词（nowy）、软变化形容词（tani）以及 -ki/-gi 结尾的形容词（polski、drogi）。",
+        "zhHant": "形容詞在性、數、格上與名詞一致。下面的模式涵蓋典型的硬變化形容詞（nowy）、軟變化形容詞（tani）以及 -ki/-gi 結尾的形容詞（polski、drogi）。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Rodzaj i liczba w mianowniku",
+            "zhHans": "主格中的性与数",
+            "zhHant": "主格中的性與數"
+          },
+          "explanation": {
+            "pl": "Liczba pojedyncza: nowy (m), nowa (ż), nowe (n). Liczba mnoga ma dwie formy: męskoosobową nowi (dla grup z co najmniej jednym mężczyzną) i niemęskoosobową nowe (dla kobiet, rzeczy, zwierząt i dzieci jako grupy). Przymiotnik stoi zwykle przed rzeczownikiem, ale przy nazwach rodzajów lub kategorii często po nim: język polski, kuchnia włoska.",
+            "zhHans": "单数：nowy（阳）、nowa（阴）、nowe（中）。复数有两种形式：阳性人称 nowi（指至少含一名男性的人群）与非阳性人称 nowe（指女性、事物、动物等）。形容词通常放在名词之前，但表示类别或种类时常放在名词后：język polski（波兰语）、kuchnia włoska（意大利菜）。",
+            "zhHant": "單數：nowy（陽）、nowa（陰）、nowe（中）。複數有兩種形式：陽性人稱 nowi（指至少含一名男性的人群）與非陽性人稱 nowe（指女性、事物、動物等）。形容詞通常放在名詞之前，但表示類別或種類時常放在名詞後：język polski（波蘭語）、kuchnia włoska（義大利菜）。"
+          },
+          "examples": [
+            {
+              "pl": "nowy samochód, nowa książka, nowe okno",
+              "zhHans": "新车、新书、新窗户",
+              "zhHant": "新車、新書、新窗戶"
+            },
+            {
+              "pl": "nowe książki, nowe samochody, nowe okna",
+              "zhHans": "新书（复数）、新车（复数）、新窗户（复数）",
+              "zhHant": "新書（複數）、新車（複數）、新窗戶（複數）"
+            },
+            {
+              "pl": "Nowi studenci przyszli na zajęcia.",
+              "zhHans": "新同学来上课了。",
+              "zhHant": "新同學來上課了。"
+            },
+            {
+              "pl": "Znam dobrą restaurację włoską.",
+              "zhHans": "我知道一家不错的意大利餐厅。",
+              "zhHant": "我知道一家不錯的義大利餐廳。"
+            }
+          ],
+          "note": {
+            "pl": "W liczbie mnogiej grupy z co najmniej jednym mężczyzną mają formę męskoosobową (dobrzy lekarze, nowi studenci), a kobiety, zwierzęta, rzeczy i dzieci — niemęskoosobową (dobre lekarki, nowe koty, dobre dzieci).",
+            "zhHans": "复数中，含至少一名男性的人群用阳性人称形式（dobrzy lekarze、nowi studenci），而女性、动物、事物和儿童用非阳性人称形式（dobre lekarki、nowe koty、dobre dzieci）。",
+            "zhHant": "複數中，含至少一名男性的人群用陽性人稱形式（dobrzy lekarze、nowi studenci），而女性、動物、事物和兒童用非陽性人稱形式（dobre lekarki、nowe koty、dobre dzieci）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Liczba pojedyncza: wszystkie przypadki",
+            "zhHans": "单数各格",
+            "zhHant": "單數各格"
+          },
+          "explanation": {
+            "pl": "Wzór nowy / nowa / nowe. Mianownik: nowy / nowa / nowe. Dopełniacz: nowego / nowej / nowego. Celownik: nowemu / nowej / nowemu. Biernik: nowy (m nieoż.) lub nowego (m oż.) / nową / nowe. Narzędnik: nowym / nową / nowym. Miejscownik: nowym / nowej / nowym. Wołacz ma formę mianownika: drogi przyjacielu, droga Anno.",
+            "zhHans": "以 nowy / nowa / nowe 为例。主格：nowy / nowa / nowe。属格：nowego / nowej / nowego。与格：nowemu / nowej / nowemu。宾格：nowy（阳性无生命）或 nowego（阳性有生命）/ nową / nowe。工具格：nowym / nową / nowym。处所格：nowym / nowej / nowym。呼格与主格相同。",
+            "zhHant": "以 nowy / nowa / nowe 為例。主格：nowy / nowa / nowe。屬格：nowego / nowej / nowego。與格：nowemu / nowej / nowemu。賓格：nowy（陽性無生命）或 nowego（陽性有生命）/ nową / nowe。工具格：nowym / nową / nowym。處所格：nowym / nowej / nowym。呼格與主格相同。"
+          },
+          "examples": [
+            {
+              "pl": "Mam nowy telefon i nową torbę.",
+              "zhHans": "我有一部新手机和一个新包。",
+              "zhHant": "我有一部新手機和一個新包。"
+            },
+            {
+              "pl": "Widzę starego psa.",
+              "zhHans": "我看到一只老狗。",
+              "zhHant": "我看到一隻老狗。"
+            },
+            {
+              "pl": "Dzwonię do starej przyjaciółki.",
+              "zhHans": "我给一位老朋友（女）打电话。",
+              "zhHant": "我給一位老朋友（女）打電話。"
+            },
+            {
+              "pl": "Daję prezent młodemu bratu.",
+              "zhHans": "我给年轻的弟弟（哥哥）一份礼物。",
+              "zhHant": "我給年輕的弟弟（哥哥）一份禮物。"
+            },
+            {
+              "pl": "Mieszkam w dużym mieście.",
+              "zhHans": "我住在一座大城市里。",
+              "zhHant": "我住在一座大城市裡。"
+            }
+          ],
+          "note": {
+            "pl": "Dopełniacz i miejscownik żeński mają tę samą formę: nowej. Przy czasownikach z przeczeniem biernik zmienia się w dopełniacz: Nie mam nowego telefonu. W przypadku rzeczowników męskich nieożywionych biernik = mianownik (nowy stół), a ożywionych biernik = dopełniacz (nowego kota).",
+            "zhHans": "阴性属格与处所格形式相同：nowej。否定句中宾格常变为属格：Nie mam nowego telefonu.（我没有新手机。）阳性无生命名词的宾格等于主格（nowy stół），有生命的等于属格（nowego kota）。",
+            "zhHant": "陰性屬格與處所格形式相同：nowej。否定句中賓格常變為屬格：Nie mam nowego telefonu.（我沒有新手機。）陽性無生命名詞的賓格等於主格（nowy stół），有生命的等於屬格（nowego kota）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Liczba mnoga: wszystkie przypadki",
+            "zhHans": "复数各格",
+            "zhHant": "複數各格"
+          },
+          "explanation": {
+            "pl": "Mianownik: nowi (męskoosobowy) / nowe (pozostałe). Dopełniacz: nowych. Celownik: nowym. Biernik: nowych (męskoosobowy) / nowe (pozostałe). Narzędnik: nowymi. Miejscownik: nowych. W dopełniaczu, celowniku, narzędniku i miejscowniku nie ma różnicy rodzajowej.",
+            "zhHans": "主格：nowi（阳性人称）/ nowe（其他）。属格：nowych。与格：nowym。宾格：nowych（阳性人称）/ nowe（其他）。工具格：nowymi。处所格：nowych。属格、与格、工具格和处所格没有性的差别。",
+            "zhHant": "主格：nowi（陽性人稱）/ nowe（其他）。屬格：nowych。與格：nowym。賓格：nowych（陽性人稱）/ nowe（其他）。工具格：nowymi。處所格：nowych。屬格、與格、工具格和處所格沒有性的差別。"
+          },
+          "examples": [
+            {
+              "pl": "Lubię nowe filmy.",
+              "zhHans": "我喜欢新电影。",
+              "zhHant": "我喜歡新電影。"
+            },
+            {
+              "pl": "Znam nowych studentów.",
+              "zhHans": "我认识新同学们。",
+              "zhHant": "我認識新同學們。"
+            },
+            {
+              "pl": "Rozmawiamy z młodymi lekarzami.",
+              "zhHans": "我们在和年轻医生们交谈。",
+              "zhHant": "我們在和年輕醫生們交談。"
+            },
+            {
+              "pl": "Rozmawiamy o ciekawych książkach.",
+              "zhHans": "我们在谈论有趣的书。",
+              "zhHant": "我們在談論有趣的書。"
+            }
+          ],
+          "note": {
+            "pl": "Biernik męskoosobowy równa się dopełniaczowi: widzę nowych studentów, ale widzę nowe koty i nowe książki. Zwierzęta w liczbie mnogiej nie należą do rodzaju męskoosobowego.",
+            "zhHans": "阳性人称的宾格等于属格：widzę nowych studentów（我看到新同学们），而 widzę nowe koty、nowe książki。动物的复数不属于阳性人称。",
+            "zhHant": "陽性人稱的賓格等於屬格：widzę nowych studentów（我看到新同學們），而 widzę nowe koty、nowe książki。動物的複數不屬於陽性人稱。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Przymiotniki miękkie i zakończone na -ki, -gi",
+            "zhHans": "软变化及 -ki、-gi 结尾的形容词",
+            "zhHant": "軟變化及 -ki、-gi 結尾的形容詞"
+          },
+          "explanation": {
+            "pl": "Przymiotniki na -i (tani, tania, tanie) mają w liczbie pojedynczej: taniego, taniemu, tanim, tanią, taniej; w liczbie mnogiej: tani (męskoosobowy), tanie, tanich, tanim, tanimi. Przymiotniki na -ki/-gi (polski, drogi) po k, g mają zamiast -y: -iego, -iemu, -im, -imi, -ich: polskiego, drogim, drogich.",
+            "zhHans": "以 -i 结尾的形容词（tani、tania、tanie）单数：taniego、taniemu、tanim、tanią、taniej；复数：tani（阳性人称）、tanie、tanich、tanim、tanimi。以 -ki/-gi 结尾的形容词（polski、drogi）在 k、g 之后用 -i 取代 -y：-iego、-iemu、-im、-imi、-ich：polskiego、drogim、drogich。",
+            "zhHant": "以 -i 結尾的形容詞（tani、tania、tanie）單數：taniego、taniemu、tanim、tanią、taniej；複數：tani（陽性人稱）、tanie、tanich、tanim、tanimi。以 -ki/-gi 結尾的形容詞（polski、drogi）在 k、g 之後用 -i 取代 -y：-iego、-iemu、-im、-imi、-ich：polskiego、drogim、drogich。"
+          },
+          "examples": [
+            {
+              "pl": "To jest tani hotel, a tamten drogi.",
+              "zhHans": "这是家便宜的旅馆，那家贵。",
+              "zhHant": "這是家便宜的旅館，那家貴。"
+            },
+            {
+              "pl": "Mieszkam w polskim mieście.",
+              "zhHans": "我住在波兰的城市里。",
+              "zhHant": "我住在波蘭的城市裡。"
+            },
+            {
+              "pl": "Polscy studenci i polskie studentki",
+              "zhHans": "波兰男学生和波兰女学生",
+              "zhHant": "波蘭男學生和波蘭女學生"
+            },
+            {
+              "pl": "Rozmawiam z polskimi lekarzami.",
+              "zhHans": "我在和波兰医生们交谈。",
+              "zhHant": "我在和波蘭醫生們交談。"
+            }
+          ],
+          "note": {
+            "pl": "Męskoosobowa forma mianownika liczby mnogiej zmienia spółgłoskę tematu: polski → polscy, drogi → drodzy, dobry → dobrzy, nowy → nowi, duży → duzi, mały → mali, młody → młodzi, ładny → ładni, bogaty → bogaci. Zmiana jest regularna dla danego zakończenia (-ki → -cy, -gi → -dzy, -ry → -rzy, -ły → -li, -ny → -ni), więc warto uczyć się zakończeń.",
+            "zhHans": "阳性人称复数主格会改变词干末尾的辅音：polski → polscy、drogi → drodzy、dobry → dobrzy、nowy → nowi、duży → duzi、mały → mali、młody → młodzi、ładny → ładni、bogaty → bogaci。同一词尾的变化是有规律的（-ki → -cy、-gi → -dzy、-ry → -rzy、-ły → -li、-ny → -ni），所以建议按词尾来记。",
+            "zhHant": "陽性人稱複數主格會改變詞幹末尾的輔音：polski → polscy、drogi → drodzy、dobry → dobrzy、nowy → nowi、duży → duzi、mały → mali、młody → młodzi、ładny → ładni、bogaty → bogaci。同一詞尾的變化是有規律的（-ki → -cy、-gi → -dzy、-ry → -rzy、-ły → -li、-ny → -ni），所以建議按詞尾來記。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Przymiotnik po liczebniku i wyjątki",
+            "zhHans": "数词之后的形容词与例外",
+            "zhHant": "數詞之後的形容詞與例外"
+          },
+          "explanation": {
+            "pl": "Po liczebniku 2–4 przymiotnik stoi w mianowniku liczby mnogiej: dwa nowe koty, trzy ładne dziewczyny. Po 5+ stoi w dopełniaczu: pięć nowych kotów. Przy rzeczownikach męskoosobowych: dwaj nowi studenci albo dwóch nowych studentów; pięciu nowych studentów.",
+            "zhHans": "2–4 之后形容词用复数主格：dwa nowe koty、trzy ładne dziewczyny。5 以上用属格：pięć nowych kotów。阳性人称名词：dwaj nowi studenci 或 dwóch nowych studentów；pięciu nowych studentów。",
+            "zhHant": "2–4 之後形容詞用複數主格：dwa nowe koty、trzy ładne dziewczyny。5 以上用屬格：pięć nowych kotów。陽性人稱名詞：dwaj nowi studenci 或 dwóch nowych studentów；pięciu nowych studentów。"
+          },
+          "examples": [
+            {
+              "pl": "Mam dwa nowe samochody i pięć starych książek.",
+              "zhHans": "我有两辆新车和五本旧书。",
+              "zhHant": "我有兩輛新車和五本舊書。"
+            },
+            {
+              "pl": "Widzę trzy ładne domy i trzech wysokich mężczyzn.",
+              "zhHans": "我看到三座漂亮的房子和三个高个子男人。",
+              "zhHant": "我看到三座漂亮的房子和三個高個子男人。"
+            },
+            {
+              "pl": "Pracuję z dwiema młodymi lekarkami.",
+              "zhHans": "我和两位年轻的女医生一起工作。",
+              "zhHant": "我和兩位年輕的女醫生一起工作。"
+            }
+          ],
+          "note": {
+            "pl": "Zaimki dzierżawcze i wskazujące odmieniają się podobnie, ale nie identycznie: mój / moja / moje; mojego, mojej, mojemu; ten / ta / to; tego, tej, temu. Kilka przymiotników nie odmienia się: bordo, khaki, mini, extra, np. sukienka bordo.",
+            "zhHans": "物主代词和指示代词的变化与形容词相似但并不完全相同：mój / moja / moje；mojego、mojej、mojemu；ten / ta / to；tego、tej、temu。少数形容词不变化：bordo、khaki、mini、extra，例如 sukienka bordo（酒红色连衣裙）。",
+            "zhHant": "物主代詞和指示代詞的變化與形容詞相似但並不完全相同：mój / moja / moje；mojego、mojej、mojemu；ten / ta / to；tego、tej、temu。少數形容詞不變化：bordo、khaki、mini、extra，例如 sukienka bordo（酒紅色連衣裙）。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pl-numbers-comparison",
+      "title": {
+        "pl": "Stopniowanie przymiotników i przysłówków",
+        "zhHans": "形容词与副词的比较级和最高级",
+        "zhHant": "形容詞與副詞的比較級和最高級"
+      },
+      "summary": {
+        "pl": "Stopień wyższy tworzy się końcówką -szy / -ejszy albo opisowo przez bardziej. Najwyższy to naj- + stopień wyższy. Kilka form jest nieregularnych i trzeba je znać.",
+        "zhHans": "比较级用词尾 -szy / -ejszy 构成，或用 bardziej 作分析式表达。最高级是 naj- + 比较级。有些形式不规则，需要熟记。",
+        "zhHant": "比較級用詞尾 -szy / -ejszy 構成，或用 bardziej 作分析式表達。最高級是 naj- + 比較級。有些形式不規則，需要熟記。"
+      },
+      "sections": [
+        {
+          "heading": {
+            "pl": "Regularny stopień wyższy",
+            "zhHans": "规则的比较级",
+            "zhHant": "規則的比較級"
+          },
+          "explanation": {
+            "pl": "Od tematu przymiotnika odrzuca się końcówkę -y/-i i dodaje -szy lub -iejszy/-ejszy: nowy → nowszy, ciekawy → ciekawszy, stary → starszy, ładny → ładniejszy, mądry → mądrzejszy, szybki → szybszy. Stopień wyższy odmienia się jak przymiotnik: nowszy, nowsza, nowsze; męskoosobowy nowsi; nowszego, nowszej…",
+            "zhHans": "去掉形容词词干的 -y/-i，再加 -szy 或 -iejszy/-ejszy：nowy → nowszy、ciekawy → ciekawszy、stary → starszy、ładny → ładniejszy、mądry → mądrzejszy、szybki → szybszy。比较级像形容词一样变格：nowszy、nowsza、nowsze；阳性人称 nowsi；nowszego、nowszej……",
+            "zhHant": "去掉形容詞詞幹的 -y/-i，再加 -szy 或 -iejszy/-ejszy：nowy → nowszy、ciekawy → ciekawszy、stary → starszy、ładny → ładniejszy、mądry → mądrzejszy、szybki → szybszy。比較級像形容詞一樣變格：nowszy、nowsza、nowsze；陽性人稱 nowsi；nowszego、nowszej……"
+          },
+          "examples": [
+            {
+              "pl": "Ta książka jest ciekawsza niż tamta.",
+              "zhHans": "这本书比那本有趣。",
+              "zhHant": "這本書比那本有趣。"
+            },
+            {
+              "pl": "Ten dom jest ładniejszy od starego.",
+              "zhHans": "这座房子比旧房子漂亮。",
+              "zhHant": "這座房子比舊房子漂亮。"
+            },
+            {
+              "pl": "Mój brat jest starszy ode mnie o dwa lata.",
+              "zhHans": "我哥哥比我大两岁。",
+              "zhHant": "我哥哥比我大兩歲。"
+            },
+            {
+              "pl": "Mieszkam w nowszym domu niż ty.",
+              "zhHans": "我住的房子比你的新。",
+              "zhHant": "我住的房子比你的新。"
+            }
+          ],
+          "note": {
+            "pl": "Wybór między -szy a -iejszy zależy od zakończenia tematu i nie ma jednej prostej reguły. Często -ejszy/-iejszy występuje po zbitkach spółgłoskowych (ładny → ładniejszy, trudny → trudniejszy), ale są wyjątki, więc formy trzeba uczyć się razem z przymiotnikiem.",
+            "zhHans": "选择 -szy 还是 -iejszy 取决于词干的结尾，没有简单的统一规则。-ejszy/-iejszy 常出现在辅音连缀之后（ładny → ładniejszy、trudny → trudniejszy），但也有例外，所以最好随形容词一起记忆。",
+            "zhHant": "選擇 -szy 還是 -iejszy 取決於詞幹的結尾，沒有簡單的統一規則。-ejszy/-iejszy 常出現在輔音連綴之後（ładny → ładniejszy、trudny → trudniejszy），但也有例外，所以最好隨形容詞一起記憶。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Stopień najwyższy",
+            "zhHans": "最高级",
+            "zhHant": "最高級"
+          },
+          "explanation": {
+            "pl": "Stopień najwyższy tworzy się przez dodanie przedrostka naj- do stopnia wyższego: nowszy → najnowszy, ciekawszy → najciekawszy, lepszy → najlepszy. Odmienia się tak samo jak stopień wyższy. Po nim: z + dopełniacz (z nich) lub w + miejscownik (w klasie).",
+            "zhHans": "在比较级前加前缀 naj- 构成最高级：nowszy → najnowszy、ciekawszy → najciekawszy、lepszy → najlepszy。变格方式与比较级相同。其后可接 z + 属格（z nich）或 w + 处所格（w klasie）。",
+            "zhHant": "在比較級前加前綴 naj- 構成最高級：nowszy → najnowszy、ciekawszy → najciekawszy、lepszy → najlepszy。變格方式與比較級相同。其後可接 z + 屬格（z nich）或 w + 處所格（w klasie）。"
+          },
+          "examples": [
+            {
+              "pl": "To najciekawsza książka, jaką czytałem.",
+              "zhHans": "这是我读过的最有趣的书。",
+              "zhHant": "這是我讀過的最有趣的書。"
+            },
+            {
+              "pl": "Anna jest najmłodsza w grupie.",
+              "zhHans": "安娜是组里最年轻的。",
+              "zhHant": "安娜是組裡最年輕的。"
+            },
+            {
+              "pl": "Warszawa to największe miasto w Polsce.",
+              "zhHans": "华沙是波兰最大的城市。",
+              "zhHant": "華沙是波蘭最大的城市。"
+            },
+            {
+              "pl": "Odpowiem jak najszybciej.",
+              "zhHans": "我会尽快回复。",
+              "zhHant": "我會盡快回覆。"
+            }
+          ],
+          "note": {
+            "pl": "Wyrażenie jak + przysłówek w stopniu najwyższym oznacza „możliwie”: jak najszybciej (możliwie najszybciej), jak najwięcej.",
+            "zhHans": "jak + 副词最高级表示「尽可能」：jak najszybciej（尽快）、jak najwięcej（尽可能多）。",
+            "zhHant": "jak + 副詞最高級表示「盡可能」：jak najszybciej（盡快）、jak najwięcej（盡可能多）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Formy nieregularne",
+            "zhHans": "不规则形式",
+            "zhHant": "不規則形式"
+          },
+          "explanation": {
+            "pl": "Nieregularne: dobry → lepszy → najlepszy; zły → gorszy → najgorszy; duży i wielki → większy → największy; mały → mniejszy → najmniejszy. Z oboczności spółgłoskowych: wysoki → wyższy; niski → niższy; krótki → krótszy; długi → dłuższy; daleki → dalszy; bliski → bliższy; lekki → lżejszy; ciężki → cięższy; drogi → droższy; tani → tańszy; szeroki → szerszy; wąski → węższy.",
+            "zhHans": "不规则：dobry → lepszy → najlepszy；zły → gorszy → najgorszy；duży 与 wielki → większy → największy；mały → mniejszy → najmniejszy。带辅音交替：wysoki → wyższy；niski → niższy；krótki → krótszy；długi → dłuższy；daleki → dalszy；bliski → bliższy；lekki → lżejszy；ciężki → cięższy；drogi → droższy；tani → tańszy；szeroki → szerszy；wąski → węższy。",
+            "zhHant": "不規則：dobry → lepszy → najlepszy；zły → gorszy → najgorszy；duży 與 wielki → większy → największy；mały → mniejszy → najmniejszy。帶輔音交替：wysoki → wyższy；niski → niższy；krótki → krótszy；długi → dłuższy；daleki → dalszy；bliski → bliższy；lekki → lżejszy；ciężki → cięższy；drogi → droższy；tani → tańszy；szeroki → szerszy；wąski → węższy。"
+          },
+          "examples": [
+            {
+              "pl": "Ten telefon jest lepszy, ale droższy.",
+              "zhHans": "这部手机更好，但更贵。",
+              "zhHant": "這部手機更好，但更貴。"
+            },
+            {
+              "pl": "Ta walizka jest większa, ale lżejsza.",
+              "zhHans": "这个行李箱更大，但更轻。",
+              "zhHant": "這個行李箱更大，但更輕。"
+            },
+            {
+              "pl": "Moja siostra jest wyższa, a brat niższy.",
+              "zhHans": "我姐姐（妹妹）更高，弟弟（哥哥）更矮。",
+              "zhHant": "我姐姐（妹妹）更高，弟弟（哥哥）更矮。"
+            },
+            {
+              "pl": "To najgorszy dzień w tygodniu.",
+              "zhHans": "这是一周里最糟糕的一天。",
+              "zhHant": "這是一週裡最糟糕的一天。"
+            }
+          ],
+          "note": {
+            "pl": "Większy jest stopniem wyższym zarówno od duży, jak i od wielki. W mowie potocznej zdarza się błędne „bardziej lepszy” — poprawnie tylko lepszy. Starszy i młodszy służą też do określania rodzeństwa: starszy brat, młodsza siostra.",
+            "zhHans": "większy 既是 duży 也是 wielki 的比较级。口语里偶尔出现错误的「bardziej lepszy」，正确说法只有 lepszy。starszy 与 młodszy 也用来区分兄弟姐妹的长幼：starszy brat（哥哥）、młodsza siostra（妹妹）。",
+            "zhHant": "większy 既是 duży 也是 wielki 的比較級。口語裡偶爾出現錯誤的「bardziej lepszy」，正確說法只有 lepszy。starszy 與 młodszy 也用來區分兄弟姊妹的長幼：starszy brat（哥哥）、młodsza siostra（妹妹）。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Stopniowanie opisowe: bardziej, najbardziej, mniej",
+            "zhHans": "分析式比较：bardziej、najbardziej、mniej",
+            "zhHant": "分析式比較：bardziej、najbardziej、mniej"
+          },
+          "explanation": {
+            "pl": "Przymiotniki, które nie tworzą stopnia wyższego na -szy, stopniuje się opisowo: bardziej / najbardziej + przymiotnik w stopniu równym: bardziej zmęczony, najbardziej popularny. Dotyczy to wielu przymiotników odczasownikowych (zmęczony, zainteresowany), obcego pochodzenia i bardzo długich. Stopień niższy: mniej / najmniej: mniej ciekawy, najmniej drogi.",
+            "zhHans": "不能加 -szy 的形容词用分析式：bardziej / najbardziej + 原级形容词：bardziej zmęczony（更累）、najbardziej popularny（最受欢迎）。这适用于许多由动词派生的形容词（zmęczony、zainteresowany）、外来词和很长的形容词。较低程度：mniej / najmniej：mniej ciekawy（不那么有趣）、najmniej drogi（最不贵）。",
+            "zhHant": "不能加 -szy 的形容詞用分析式：bardziej / najbardziej + 原級形容詞：bardziej zmęczony（更累）、najbardziej popularny（最受歡迎）。這適用於許多由動詞派生的形容詞（zmęczony、zainteresowany）、外來詞和很長的形容詞。較低程度：mniej / najmniej：mniej ciekawy（不那麼有趣）、najmniej drogi（最不貴）。"
+          },
+          "examples": [
+            {
+              "pl": "Jestem bardziej zmęczona niż wczoraj.",
+              "zhHans": "我比昨天更累。",
+              "zhHant": "我比昨天更累。"
+            },
+            {
+              "pl": "To najbardziej popularny film roku.",
+              "zhHans": "这是今年最受欢迎的电影。",
+              "zhHant": "這是今年最受歡迎的電影。"
+            },
+            {
+              "pl": "Ta lekcja jest mniej trudna.",
+              "zhHans": "这节课没那么难。",
+              "zhHant": "這節課沒那麼難。"
+            }
+          ],
+          "note": {
+            "pl": "Niektóre przymiotniki mają obie formy: popularniejszy i bardziej popularny. Przymiotniki określające cechy niestopniowalne (np. drewniany, polski, martwy) zwykle nie tworzą stopni.",
+            "zhHans": "有些形容词两种形式都可以：popularniejszy 和 bardziej popularny。表示不可分级特征的形容词（如 drewniany、polski、martwy）通常没有比较级。",
+            "zhHant": "有些形容詞兩種形式都可以：popularniejszy 和 bardziej popularny。表示不可分級特徵的形容詞（如 drewniany、polski、martwy）通常沒有比較級。"
+          }
+        },
+        {
+          "heading": {
+            "pl": "Przysłówki i konstrukcje porównawcze",
+            "zhHans": "副词与比较结构",
+            "zhHant": "副詞與比較結構"
+          },
+          "explanation": {
+            "pl": "Przysłówek w stopniu wyższym kończy się zwykle na -iej lub -ej: szybko → szybciej, wolno → wolniej, ładnie → ładniej, często → częściej. Nieregularne: dobrze → lepiej, źle → gorzej, dużo → więcej, mało → mniej, wysoko → wyżej, nisko → niżej, daleko → dalej, blisko → bliżej, długo → dłużej. Stopień najwyższy: naj- + stopień wyższy: najlepiej, najwięcej. Porównujemy za pomocą od + dopełniacz albo niż + ten sam przypadek: wyższy od Piotra, wyższy niż Piotr; o ile: o dwa lata starszy.",
+            "zhHans": "副词比较级通常以 -iej 或 -ej 结尾：szybko → szybciej、wolno → wolniej、ładnie → ładniej、często → częściej。不规则：dobrze → lepiej、źle → gorzej、dużo → więcej、mało → mniej、wysoko → wyżej、nisko → niżej、daleko → dalej、blisko → bliżej、długo → dłużej。最高级：naj- + 比较级：najlepiej、najwięcej。比较结构：od + 属格，或 niż + 同一格：wyższy od Piotra、wyższy niż Piotr；相差多少用 o + 宾格：o dwa lata starszy（大两岁）。",
+            "zhHant": "副詞比較級通常以 -iej 或 -ej 結尾：szybko → szybciej、wolno → wolniej、ładnie → ładniej、często → częściej。不規則：dobrze → lepiej、źle → gorzej、dużo → więcej、mało → mniej、wysoko → wyżej、nisko → niżej、daleko → dalej、blisko → bliżej、długo → dłużej。最高級：naj- + 比較級：najlepiej、najwięcej。比較結構：od + 屬格，或 niż + 同一格：wyższy od Piotra、wyższy niż Piotr；相差多少用 o + 賓格：o dwa lata starszy（大兩歲）。"
+          },
+          "examples": [
+            {
+              "pl": "On biega szybciej niż ja.",
+              "zhHans": "他跑得比我快。",
+              "zhHant": "他跑得比我快。"
+            },
+            {
+              "pl": "Dziś pracuję dłużej niż zwykle.",
+              "zhHans": "今天我工作得比平时久。",
+              "zhHant": "今天我工作得比平時久。"
+            },
+            {
+              "pl": "Lubię kawę bardziej niż herbatę.",
+              "zhHans": "我喜欢咖啡胜过茶。",
+              "zhHant": "我喜歡咖啡勝過茶。"
+            },
+            {
+              "pl": "Ona śpiewa najlepiej w klasie.",
+              "zhHans": "她在班里唱得最好。",
+              "zhHant": "她在班裡唱得最好。"
+            },
+            {
+              "pl": "Jest coraz zimniej.",
+              "zhHans": "天气越来越冷。",
+              "zhHant": "天氣越來越冷。"
+            }
+          ],
+          "note": {
+            "pl": "Nie myl przymiotnika z przysłówkiem: lepszy (przymiotnik) — To lepszy pomysł; lepiej (przysłówek) — Gra lepiej. Zamiast „lubię bardziej” często używa się czasownika wolę: Wolę kawę niż herbatę.",
+            "zhHans": "不要混淆形容词与副词：lepszy（形容词）和 lepiej（副词）：To lepszy pomysł.（这是更好的主意。）Gra lepiej.（他/她演奏得更好。）也常用动词 wolę（更喜欢）代替「lubię bardziej」：Wolę kawę niż herbatę.（比起茶我更喜欢咖啡。）",
+            "zhHant": "不要混淆形容詞與副詞：lepszy（形容詞）和 lepiej（副詞）：To lepszy pomysł.（這是更好的主意。）Gra lepiej.（他/她演奏得更好。）也常用動詞 wolę（更喜歡）代替「lubię bardziej」：Wolę kawę niż herbatę.（比起茶我更喜歡咖啡。）"
+          }
+        }
+      ]
+    }
+  ]
+}

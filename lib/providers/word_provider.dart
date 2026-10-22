@@ -1,12 +1,16 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../models/word.dart';
 import '../database/database_helper.dart';
+
+enum StudyDecision { saved, known, skipped }
 
 class WordProvider with ChangeNotifier {
   List<Word> _allWords = [];
   List<Word> _myWords = [];
+  final Map<String, StudyDecision> _studyDecisions = {};
   String _selectedLevel = 'Wszystkie';
   String _searchQuery = '';
   String _selectedTag = 'Wszystkie';
@@ -27,6 +31,12 @@ class WordProvider with ChangeNotifier {
 
   List<Word> get allWords => _allWords;
   List<Word> get myWords => _myWords;
+  int get learnedWordsCount => _studyDecisions.values
+      .where((decision) => decision == StudyDecision.known)
+      .length;
+  int get savedForStudyCount => _studyDecisions.values
+      .where((decision) => decision == StudyDecision.saved)
+      .length;
   String get selectedLevel => _selectedLevel;
   String get searchQuery => _searchQuery;
   String get selectedTag => _selectedTag;
@@ -37,7 +47,13 @@ class WordProvider with ChangeNotifier {
   // Get available HSK levels
   List<String> get availableLevels {
     final levels = _allWords.map((w) => w.level).toSet().toList();
-    levels.sort();
+    levels.sort((a, b) {
+      int rank(String level) => switch (level) {
+            'HSK-7-9' => 7,
+            _ => int.tryParse(level.replaceFirst('HSK-', '')) ?? 99,
+          };
+      return rank(a).compareTo(rank(b));
+    });
     return ['Wszystkie', ...levels];
   }
   
@@ -100,7 +116,8 @@ class WordProvider with ChangeNotifier {
       final normalizedQuery = Word.normalizePinyin(query);
       
       words = words.where((w) {
-        return w.hanzi.toLowerCase().contains(query) ||
+        return w.displayHanzi.toLowerCase().contains(query) ||
+               w.hanzi.toLowerCase().contains(query) ||
                w.pinyin.toLowerCase().contains(query) ||
                Word.normalizePinyin(w.pinyin).contains(normalizedQuery) ||
                w.englishTranslation.toLowerCase().contains(query) ||
@@ -163,9 +180,28 @@ class WordProvider with ChangeNotifier {
     
     // Load "my words" (completes loading)
     await _loadMyWords();
+    await _loadStudyDecisions();
     _loadingProgress = 1.0;
     _isLoading = false;
     notifyListeners();
+  }
+
+  Future<void> _loadStudyDecisions() async {
+    final preferences = await SharedPreferences.getInstance();
+    final stored = preferences.getString('study_decisions');
+    if (stored == null) return;
+
+    final decoded = json.decode(stored) as Map<String, dynamic>;
+    _studyDecisions.clear();
+    for (final entry in decoded.entries) {
+      if (entry.value is! String) continue;
+      for (final decision in StudyDecision.values) {
+        if (decision.name == entry.value) {
+          _studyDecisions[entry.key] = decision;
+          break;
+        }
+      }
+    }
   }
 
   // Load all words from JSON
@@ -212,6 +248,11 @@ class WordProvider with ChangeNotifier {
   // Remove word from "my words"
   Future<void> removeFromMyWords(String hanzi) async {
     await _dbHelper.removeWord(hanzi);
+    final decision = _studyDecisions[hanzi];
+    if (decision == StudyDecision.saved || decision == StudyDecision.known) {
+      _studyDecisions.remove(hanzi);
+      await _persistStudyDecisions();
+    }
     await _loadMyWords();
     notifyListeners();
   }
@@ -219,6 +260,51 @@ class WordProvider with ChangeNotifier {
   // Check if word is learned
   bool isWordLearned(String hanzi) {
     return _myWords.any((w) => w.hanzi == hanzi);
+  }
+
+  StudyDecision? studyDecisionFor(String hanzi) => _studyDecisions[hanzi];
+
+  Future<void> recordStudyDecision(Word word, StudyDecision decision) async {
+    _studyDecisions[word.hanzi] = decision;
+    final preferences = await SharedPreferences.getInstance();
+    await preferences.setString(
+      'study_decisions',
+      json.encode(_studyDecisions.map((key, value) => MapEntry(key, value.name))),
+    );
+
+    if (decision != StudyDecision.skipped) {
+      await _dbHelper.addWord(word);
+      await _loadMyWords();
+    }
+    notifyListeners();
+  }
+
+  Future<void> revisitSkippedWords({String? level}) async {
+    final levelWords = level == null
+        ? null
+        : _allWords
+            .where((word) => word.level == level)
+            .map((word) => word.hanzi)
+            .toSet();
+    _studyDecisions.removeWhere((hanzi, decision) =>
+        decision == StudyDecision.skipped &&
+        (levelWords == null || levelWords.contains(hanzi)));
+    await _persistStudyDecisions();
+    notifyListeners();
+  }
+
+  Future<void> clearStudyDecision(String hanzi) async {
+    _studyDecisions.remove(hanzi);
+    await _persistStudyDecisions();
+    notifyListeners();
+  }
+
+  Future<void> _persistStudyDecisions() async {
+    final preferences = await SharedPreferences.getInstance();
+    await preferences.setString(
+      'study_decisions',
+      json.encode(_studyDecisions.map((key, value) => MapEntry(key, value.name))),
+    );
   }
 
   // Set selected level filter
@@ -256,7 +342,8 @@ class WordProvider with ChangeNotifier {
     final normalizedQuery = Word.normalizePinyin(query.toLowerCase());
     
     return _allWords.where((w) {
-      return w.hanzi.toLowerCase().contains(query.toLowerCase()) ||
+      return w.displayHanzi.toLowerCase().contains(query.toLowerCase()) ||
+             w.hanzi.toLowerCase().contains(query.toLowerCase()) ||
              w.pinyin.toLowerCase().contains(query.toLowerCase()) ||
              Word.normalizePinyin(w.pinyin).contains(normalizedQuery) ||
              w.englishTranslation.toLowerCase().contains(query.toLowerCase()) ||

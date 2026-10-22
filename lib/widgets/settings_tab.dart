@@ -75,7 +75,7 @@ class _SettingsTabState extends State<SettingsTab> {
                 const SizedBox(height: 4),
                 const Text('Master Chinese with flow'),
                 const SizedBox(height: 4),
-                const Text('基于HSK 3.0标准的现代中文学习应用'),
+                const Text('基于HSK 2025词表的中波学习应用'),
               ],
             ),
           ),

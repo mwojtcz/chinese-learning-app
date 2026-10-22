@@ -1,0 +1,4775 @@
+[
+  {
+    "hanzi": "爱",
+    "traditional": "愛",
+    "pinyin": "ài",
+    "english": "to love; to be fond of; to like; affection; to be inclined (to do sth); to tend to (happen)",
+    "polish": "kochać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 1,
+    "sourceWord": "爱",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "吧",
+    "traditional": "吧",
+    "pinyin": "bā",
+    "english": "bar (loanword) (serving drinks, or providing Internet access etc); to puff (on a pipe etc); (onom.) bang; abbr. for 貼吧|贴吧[tie1 ba1]",
+    "polish": "partykuła sugestii lub prośby; bar (lokal)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 2,
+    "sourceWord": "吧",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "八",
+    "traditional": "八",
+    "pinyin": "bā",
+    "english": "eight; 8",
+    "polish": "osiem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 3,
+    "sourceWord": "八",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "爸爸",
+    "traditional": "爸爸",
+    "pinyin": "bà ba",
+    "english": "(informal) father; CL:個|个[ge4],位[wei4]",
+    "polish": "tata, ojciec",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 4,
+    "sourceWord": "爸爸",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "百",
+    "traditional": "百",
+    "pinyin": "bǎi",
+    "english": "surname Bai",
+    "polish": "sto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 5,
+    "sourceWord": "百",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "白天",
+    "traditional": "白天",
+    "pinyin": "bái tiān",
+    "english": "daytime; during the day; day; CL:個|个[ge4]",
+    "polish": "dzień (pora); w ciągu dnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 6,
+    "sourceWord": "白天",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "半",
+    "traditional": "半",
+    "pinyin": "bàn",
+    "english": "half; semi-; incomplete; (after a number) and a half",
+    "polish": "pół; połowa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 7,
+    "sourceWord": "半",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "包子",
+    "traditional": "包子",
+    "pinyin": "bāo zi",
+    "english": "steamed stuffed bun; CL:個|个[ge4]",
+    "polish": "parowana bułeczka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 8,
+    "sourceWord": "包子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "杯子",
+    "traditional": "杯子",
+    "pinyin": "bēi zi",
+    "english": "cup; glass; CL:個|个[ge4],支[zhi1],枝[zhi1]",
+    "polish": "kubek, szklanka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 9,
+    "sourceWord": "杯子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "本1",
+    "traditional": "本",
+    "pinyin": "běn",
+    "english": "root; stem; origin; source; this; the current; original; inherent; originally; classifier for books, periodicals, files etc",
+    "polish": "liczebnik dla książek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 10,
+    "sourceWord": "本1",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "边",
+    "traditional": "邊",
+    "pinyin": "biān",
+    "english": "side; edge; margin; border; boundary; CL:個|个[ge4]; simultaneously",
+    "polish": "granica",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "",
+    "frequency": 11,
+    "sourceWord": "边",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "病",
+    "traditional": "病",
+    "pinyin": "bìng",
+    "english": "illness; CL:場|场[chang2]; disease; to fall ill; defect",
+    "polish": "choroba; chorować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 12,
+    "sourceWord": "病",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "不",
+    "traditional": "不",
+    "pinyin": "bù",
+    "english": "(negative prefix); not; no",
+    "polish": "nie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "negation",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 13,
+    "sourceWord": "不",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "不客气",
+    "traditional": "不客氣",
+    "pinyin": "bù kè qi",
+    "english": "you're welcome; don't mention it; impolite; rude; blunt",
+    "polish": "proszę bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 14,
+    "sourceWord": "不客气",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "不要",
+    "traditional": "不要",
+    "pinyin": "bù yào",
+    "english": "don't!; must not",
+    "polish": "nigdy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Time",
+      "Actions"
+    ],
+    "partOfSpeech": "",
+    "frequency": 15,
+    "sourceWord": "不要",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "菜",
+    "traditional": "菜",
+    "pinyin": "cài",
+    "english": "dish (type of food); vegetable; cuisine; CL:盤|盘[pan2],道[dao4]; (coll.) (one's) type",
+    "polish": "danie, warzywo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 16,
+    "sourceWord": "菜",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "茶",
+    "traditional": "茶",
+    "pinyin": "chá",
+    "english": "tea; tea plant; CL:杯[bei1],壺|壶[hu2]",
+    "polish": "herbata",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 17,
+    "sourceWord": "茶",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "唱",
+    "traditional": "唱",
+    "pinyin": "chàng",
+    "english": "to sing; to call loudly; to chant",
+    "polish": "śpiewać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "entertainment"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 18,
+    "sourceWord": "唱",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "超市",
+    "traditional": "超市",
+    "pinyin": "chāo shì",
+    "english": "supermarket; abbr. for 超級市場|超级市场; CL:家[jia1]",
+    "polish": "supermarket",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "shopping"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 19,
+    "sourceWord": "超市",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "车",
+    "traditional": "車",
+    "pinyin": "chē",
+    "english": "surname Che",
+    "polish": "samochód; pojazd",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 20,
+    "sourceWord": "车",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "吃",
+    "traditional": "吃",
+    "pinyin": "chī",
+    "english": "to eat; to consume; to eat at (a cafeteria etc); to eradicate; to destroy; to absorb; to suffer; to stammer (Taiwan pr. for this sense is [ji2])",
+    "polish": "jeść",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "food",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 21,
+    "sourceWord": "吃",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "穿",
+    "traditional": "穿",
+    "pinyin": "chuān",
+    "english": "to wear; to put on; to dress; to bore through; to pierce; to perforate; to penetrate; to pass through; to thread",
+    "polish": "nosić (ubranie); ubierać się; przebijać; przechodzić przez",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 22,
+    "sourceWord": "穿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "出租车",
+    "traditional": "出租車",
+    "pinyin": "chū zū chē",
+    "english": "taxi; (Taiwan) rental car",
+    "polish": "taksówka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 23,
+    "sourceWord": "出租车",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "大",
+    "traditional": "大",
+    "pinyin": "dà",
+    "english": "big; huge; large; major; great; wide; deep; older (than); oldest; eldest; greatly; very much; (dialect) father; father's elder or younger brother",
+    "polish": "duży",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 24,
+    "sourceWord": "大",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "打电话",
+    "traditional": "打電話",
+    "pinyin": "dǎ diàn huà",
+    "english": "to make a telephone call",
+    "polish": "dzwonić (telefonicznie)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "communication"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 25,
+    "sourceWord": "打电话",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "大家",
+    "traditional": "大家",
+    "pinyin": "dà jiā",
+    "english": "everyone; influential family; great expert",
+    "polish": "rozmaity",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Family",
+      "Food",
+      "Weather"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 26,
+    "sourceWord": "大家",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "到",
+    "traditional": "到",
+    "pinyin": "dào",
+    "english": "to (a place); until (a time); up to; to go; to arrive; (verb complement denoting completion or result of an action)",
+    "polish": "do; dotrzeć; przybyć; (dopełnienie wyniku czynności)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 27,
+    "sourceWord": "到",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "大学",
+    "traditional": "大學",
+    "pinyin": "dà xué",
+    "english": "the Great Learning, one of the Four Books 四書|四书[Si4 shu1] in Confucianism",
+    "polish": "uniwersytet; wyższa uczelnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 28,
+    "sourceWord": "大学",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "大学生",
+    "traditional": "大學生",
+    "pinyin": "dà xué shēng",
+    "english": "university student; college student",
+    "polish": "student uniwersytetu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 29,
+    "sourceWord": "大学生",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "的",
+    "traditional": "的",
+    "pinyin": "de",
+    "english": "of; ~'s (possessive particle); (used after an attribute); (used to form a nominal expression); (used at the end of a declarative sentence for emphasis)",
+    "polish": "partykuła dzierżawcza",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "essential",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 30,
+    "sourceWord": "的",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "第",
+    "traditional": "第",
+    "pinyin": "dì",
+    "english": "(prefix indicating ordinal number, e.g. first, number two etc); order; (old) rank in the imperial examinations; mansion; (literary) but; just",
+    "polish": "przedrostek liczebnika porządkowego; kolejność",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 31,
+    "sourceWord": "第",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "店",
+    "traditional": "店",
+    "pinyin": "diàn",
+    "english": "inn; shop; store; CL:家[jia1]",
+    "polish": "sklep",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Places"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 32,
+    "sourceWord": "店",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "点1",
+    "traditional": "點",
+    "pinyin": "diǎn",
+    "english": "point; dot; drop; speck; o'clock; point (in space or time); to draw a dot; to check on a list; to choose; to order (food in a restaurant); to touch briefly; to hint; to light; to ignite; to pour a liquid drop by drop; (old) one fifth of a two-hour watch 更[geng1]; dot stroke in Chinese characters; classifier for items",
+    "polish": "godzina, punkt",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time",
+      "classifier"
+    ],
+    "partOfSpeech": "noun/measure word",
+    "frequency": 33,
+    "sourceWord": "点1",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "电话",
+    "traditional": "電話",
+    "pinyin": "diàn huà",
+    "english": "telephone; CL:部[bu4]; phone call; CL:通[tong1]; phone number",
+    "polish": "telefon; rozmowa telefoniczna; numer telefonu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 34,
+    "sourceWord": "电话",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "电脑",
+    "traditional": "電腦",
+    "pinyin": "diàn nǎo",
+    "english": "computer; CL:臺|台[tai2]",
+    "polish": "komputer",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "technology"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 35,
+    "sourceWord": "电脑",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "电视",
+    "traditional": "電視",
+    "pinyin": "diàn shì",
+    "english": "television; TV; CL:臺|台[tai2],個|个[ge4]",
+    "polish": "telewizja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object",
+      "media"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 36,
+    "sourceWord": "电视",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "电影",
+    "traditional": "電影",
+    "pinyin": "diàn yǐng",
+    "english": "movie; film; CL:部[bu4],片[pian4],幕[mu4],場|场[chang3]",
+    "polish": "film",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "media",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 37,
+    "sourceWord": "电影",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "电影院",
+    "traditional": "電影院",
+    "pinyin": "diàn yǐng yuàn",
+    "english": "cinema; movie theater; CL:家[jia1],座[zuo4]",
+    "polish": "kino",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 38,
+    "sourceWord": "电影院",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "弟弟",
+    "traditional": "弟弟",
+    "pinyin": "dì di",
+    "english": "younger brother; CL:個|个[ge4],位[wei4]",
+    "polish": "młodszy brat",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 39,
+    "sourceWord": "弟弟",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "东西",
+    "traditional": "東西",
+    "pinyin": "dōng xī",
+    "english": "east and west",
+    "polish": "rzecz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 40,
+    "sourceWord": "东西",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "都",
+    "traditional": "都",
+    "pinyin": "dōu",
+    "english": "all; both; entirely; (used for emphasis) even; already; (not) at all",
+    "polish": "wszyscy, wszystko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "scope"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 41,
+    "sourceWord": "都",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "读",
+    "traditional": "讀",
+    "pinyin": "dú",
+    "english": "to read; to study; reading of word (i.e. pronunciation), similar to 拼音[pin1 yin1]",
+    "polish": "czytać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 42,
+    "sourceWord": "读",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "对",
+    "traditional": "對",
+    "pinyin": "duì",
+    "english": "right; correct; couple; pair; towards; at; for; to face; opposite; to treat (sb a certain way); to match together; to adjust; to fit; to suit; to answer; to reply; classifier: couple",
+    "polish": "prawidłowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "",
+    "frequency": 43,
+    "sourceWord": "对",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "对不起",
+    "traditional": "對不起",
+    "pinyin": "duì bu qǐ",
+    "english": "unworthy; to let down; I'm sorry; excuse me; pardon me; if you please; sorry? (please repeat)",
+    "polish": "przepraszam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 44,
+    "sourceWord": "对不起",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "多",
+    "traditional": "多",
+    "pinyin": "duō",
+    "english": "many; much; often; a lot of; numerous; more; in excess; how (to what extent); multi-; Taiwan pr. [duo2] when it means \"how\"",
+    "polish": "dużo, wiele",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "quantity"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 45,
+    "sourceWord": "多",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "多少",
+    "traditional": "多少",
+    "pinyin": "duō shǎo",
+    "english": "number; amount; somewhat",
+    "polish": "ile",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question",
+      "quantity"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 46,
+    "sourceWord": "多少",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "读书",
+    "traditional": "讀書",
+    "pinyin": "dú shū",
+    "english": "to read a book; to study; to attend school",
+    "polish": "czytać książki; uczyć się; chodzić do szkoły",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 47,
+    "sourceWord": "读书",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "二",
+    "traditional": "二",
+    "pinyin": "èr",
+    "english": "two; 2; (Beijing dialect) stupid",
+    "polish": "dwa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 48,
+    "sourceWord": "二",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "儿子",
+    "traditional": "兒子",
+    "pinyin": "ér zi",
+    "english": "son",
+    "polish": "syn",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 49,
+    "sourceWord": "儿子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "饭",
+    "traditional": "飯",
+    "pinyin": "fàn",
+    "english": "food; cuisine; cooked rice; meal; CL:碗[wan3],頓|顿[dun4]",
+    "polish": "jedzenie; ugotowany ryż; posiłek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 50,
+    "sourceWord": "饭",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "饭店",
+    "traditional": "飯店",
+    "pinyin": "fàn diàn",
+    "english": "restaurant; hotel; CL:家[jia1],個|个[ge4]",
+    "polish": "restauracja, hotel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 51,
+    "sourceWord": "饭店",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "房间",
+    "traditional": "房間",
+    "pinyin": "fáng jiān",
+    "english": "room; CL:間|间[jian1],個|个[ge4]",
+    "polish": "pokój",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 52,
+    "sourceWord": "房间",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "非常",
+    "traditional": "非常",
+    "pinyin": "fēi cháng",
+    "english": "very; very much; unusual; extraordinary",
+    "polish": "bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 53,
+    "sourceWord": "非常",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "飞机",
+    "traditional": "飛機",
+    "pinyin": "fēi jī",
+    "english": "airplane; CL:架[jia4]",
+    "polish": "samolot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 54,
+    "sourceWord": "飞机",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "分",
+    "traditional": "分",
+    "pinyin": "fēn",
+    "english": "to divide; to separate; to distribute; to allocate; to distinguish (good and bad); part or subdivision; fraction; one tenth (of certain units); unit of length equivalent to 0.33 cm; minute; a point (in sports or games); 0.01 yuan (unit of money)",
+    "polish": "m.[ogólnie]",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "",
+    "frequency": 55,
+    "sourceWord": "分",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "分钟",
+    "traditional": "分鐘",
+    "pinyin": "fēn zhōng",
+    "english": "minute",
+    "polish": "minuta",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 56,
+    "sourceWord": "分钟",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "高兴",
+    "traditional": "高興",
+    "pinyin": "gāo xìng",
+    "english": "happy; glad; willing (to do sth); in a cheerful mood",
+    "polish": "szczęśliwy, zadowolony",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 57,
+    "sourceWord": "高兴",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "个",
+    "traditional": "個",
+    "pinyin": "gè",
+    "english": "individual; this; that; size; classifier for people or objects in general",
+    "polish": "liczebnik ogólny",
+    "level": "HSK-1",
+    "notes": "Most common measure word",
+    "tags": [
+      "classifier",
+      "essential"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 58,
+    "sourceWord": "个",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "歌",
+    "traditional": "歌",
+    "pinyin": "gē",
+    "english": "song; CL:支[zhi1],首[shou3]; to sing",
+    "polish": "piosenka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "entertainment"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 59,
+    "sourceWord": "歌",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "哥哥",
+    "traditional": "哥哥",
+    "pinyin": "gē ge",
+    "english": "older brother; CL:個|个[ge4],位[wei4]",
+    "polish": "starszy brat",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 60,
+    "sourceWord": "哥哥",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "给",
+    "traditional": "給",
+    "pinyin": "gěi",
+    "english": "to; for; for the benefit of; to give; to allow; to do sth (for sb); (grammatical equivalent of 被); (grammatical equivalent of 把); (sentence intensifier)",
+    "polish": "dawać; dla; pozwalać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 61,
+    "sourceWord": "给",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "公司",
+    "traditional": "公司",
+    "pinyin": "gōng sī",
+    "english": "(business) company; company; firm; corporation; incorporated; CL:家[jia1]",
+    "polish": "miejsce prowadzenia działalności",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Transportation",
+      "Places",
+      "Work"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 62,
+    "sourceWord": "公司",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "工作",
+    "traditional": "工作",
+    "pinyin": "gōng zuò",
+    "english": "to work; (of a machine) to operate; job; work; task; CL:個|个[ge4],份[fen4],項|项[xiang4]",
+    "polish": "pracować, praca",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "noun",
+      "work"
+    ],
+    "partOfSpeech": "verb/noun",
+    "frequency": 63,
+    "sourceWord": "工作",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "狗",
+    "traditional": "狗",
+    "pinyin": "gǒu",
+    "english": "dog; CL:隻|只[zhi1],條|条[tiao2]",
+    "polish": "pies",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 64,
+    "sourceWord": "狗",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "贵",
+    "traditional": "貴",
+    "pinyin": "guì",
+    "english": "expensive; noble; precious; (honorific) your",
+    "polish": "drogi; szlachetny; cenny; (honoryfikatyw) Pański",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 65,
+    "sourceWord": "贵",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "国",
+    "traditional": "國",
+    "pinyin": "guó",
+    "english": "surname Guo",
+    "polish": "kraj; państwo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 66,
+    "sourceWord": "国",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "还",
+    "traditional": "還",
+    "pinyin": "hái",
+    "english": "still; still in progress; still more; yet; even more; in addition; fairly; passably (good); as early as; even; also; else",
+    "polish": "jeszcze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "essential"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 67,
+    "sourceWord": "还",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "孩子",
+    "traditional": "孩子",
+    "pinyin": "hái zi",
+    "english": "child",
+    "polish": "dziecko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 68,
+    "sourceWord": "孩子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "汉语",
+    "traditional": "漢語",
+    "pinyin": "hàn yǔ",
+    "english": "Chinese language; CL:門|门[men2]",
+    "polish": "język chiński",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "language",
+      "study"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 69,
+    "sourceWord": "汉语",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "汉字",
+    "traditional": "漢字",
+    "pinyin": "hàn zì",
+    "english": "Chinese character; CL:個|个[ge4]; Japanese: kanji; Korean: hanja; Vietnamese: hán tự",
+    "polish": "znak chiński",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 70,
+    "sourceWord": "汉字",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "号",
+    "traditional": "號",
+    "pinyin": "háo",
+    "english": "roar; cry; CL:個|个[ge4]",
+    "polish": "numer, data",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time",
+      "number"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 71,
+    "sourceWord": "号",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "好",
+    "traditional": "好",
+    "pinyin": "hǎo",
+    "english": "good; well; proper; good to; easy to; very; so; (suffix indicating completion or readiness); (of two people) close; on intimate terms",
+    "polish": "dobry, dobrze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 72,
+    "sourceWord": "好",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "好吃",
+    "traditional": "好吃",
+    "pinyin": "hǎo chī",
+    "english": "tasty; delicious",
+    "polish": "smaczny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 73,
+    "sourceWord": "好吃",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "好看",
+    "traditional": "好看",
+    "pinyin": "hǎo kàn",
+    "english": "good-looking; nice-looking; good (of a movie, book, TV show etc); embarrassed; humiliated",
+    "polish": "ładny; atrakcyjny; ciekawy (o filmie, książce)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 74,
+    "sourceWord": "好看",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "好听",
+    "traditional": "好聽",
+    "pinyin": "hǎo tīng",
+    "english": "pleasant to hear",
+    "polish": "przyjemny dla ucha; ładnie brzmiący",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 75,
+    "sourceWord": "好听",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "好玩儿",
+    "traditional": "好玩兒",
+    "pinyin": "hǎo wán r",
+    "english": "interesting; delightful; amusing",
+    "polish": "zabawny; ciekawy; fajny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 76,
+    "sourceWord": "好玩儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "和1",
+    "traditional": "咊",
+    "pinyin": "hé",
+    "english": "old variant of 和[he2]",
+    "polish": "i",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "conjunction",
+      "essential"
+    ],
+    "partOfSpeech": "conjunction",
+    "frequency": 77,
+    "sourceWord": "和1",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "喝",
+    "traditional": "喝",
+    "pinyin": "hē",
+    "english": "to drink; My goodness!",
+    "polish": "pić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "drink",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 78,
+    "sourceWord": "喝",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "很",
+    "traditional": "很",
+    "pinyin": "hěn",
+    "english": "(adverb of degree); quite; very; awfully",
+    "polish": "bardzo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 79,
+    "sourceWord": "很",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "后",
+    "traditional": "后",
+    "pinyin": "hòu",
+    "english": "surname Hou",
+    "polish": "tył; za; po; później",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 80,
+    "sourceWord": "后",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "回",
+    "traditional": "回",
+    "pinyin": "huí",
+    "english": "to circle; to go back; to turn around; to answer; to return; to revolve; Hui ethnic group (Chinese Muslims); time; classifier for acts of a play; section or chapter (of a classic book)",
+    "polish": "wracać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 81,
+    "sourceWord": "回",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "会1",
+    "traditional": "會",
+    "pinyin": "huì",
+    "english": "can; to be possible; to be able to; will; to be likely to; to be sure to; to assemble; to meet; to gather; to see; union; group; association; CL:個|个[ge4]; a moment (Taiwan pr. for this sense is [hui3])",
+    "polish": "umieć, potrafić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "auxiliary"
+    ],
+    "partOfSpeech": "auxiliary verb",
+    "frequency": 82,
+    "sourceWord": "会1",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "火车",
+    "traditional": "火車",
+    "pinyin": "huǒ chē",
+    "english": "train; CL:列[lie4],節|节[jie2],班[ban1],趟[tang4]",
+    "polish": "pociąg",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "transport"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 83,
+    "sourceWord": "火车",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "几",
+    "traditional": "几",
+    "pinyin": "jī",
+    "english": "small table",
+    "polish": "ile, kilka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question",
+      "quantity",
+      "number"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 84,
+    "sourceWord": "几",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "家",
+    "traditional": "傢",
+    "pinyin": "jiā",
+    "english": "see 傢伙|家伙[jia1 huo5]",
+    "polish": "dom, rodzina",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "housing",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 85,
+    "sourceWord": "家",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "见",
+    "traditional": "見",
+    "pinyin": "jiàn",
+    "english": "to see; to meet; to appear (to be sth); to interview",
+    "polish": "widzieć; spotykać się; pojawiać się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 86,
+    "sourceWord": "见",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "件",
+    "traditional": "件",
+    "pinyin": "jiàn",
+    "english": "item; component; classifier for events, things, clothes etc",
+    "polish": "korespondencja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Actions"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 87,
+    "sourceWord": "件",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "叫",
+    "traditional": "叫",
+    "pinyin": "jiào",
+    "english": "to shout; to call; to order; to ask; to be called; by (indicates agent in the passive mood)",
+    "polish": "nazywać się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "identity"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 88,
+    "sourceWord": "叫",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "饺子",
+    "traditional": "餃子",
+    "pinyin": "jiǎo zi",
+    "english": "dumpling; pot-sticker; CL:個|个[ge4],隻|只[zhi1]",
+    "polish": "pierożki",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 89,
+    "sourceWord": "饺子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "家人",
+    "traditional": "家人",
+    "pinyin": "jiā rén",
+    "english": "household; (one's) family",
+    "polish": "rodzina; członkowie rodziny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 90,
+    "sourceWord": "家人",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "鸡蛋",
+    "traditional": "雞蛋",
+    "pinyin": "jī dàn",
+    "english": "(chicken) egg; hen's egg; CL:個|个[ge4],打[da2]",
+    "polish": "jajko (kurze)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 91,
+    "sourceWord": "鸡蛋",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "姐姐",
+    "traditional": "姐姐",
+    "pinyin": "jiě jie",
+    "english": "older sister; CL:個|个[ge4]",
+    "polish": "starsza siostra",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 92,
+    "sourceWord": "姐姐",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "今年",
+    "traditional": "今年",
+    "pinyin": "jīn nián",
+    "english": "this year",
+    "polish": "w tym roku",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 93,
+    "sourceWord": "今年",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "今天",
+    "traditional": "今天",
+    "pinyin": "jīn tiān",
+    "english": "today; at the present; now",
+    "polish": "dzisiaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 94,
+    "sourceWord": "今天",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "九",
+    "traditional": "九",
+    "pinyin": "jiǔ",
+    "english": "nine; 9",
+    "polish": "dziewięć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 95,
+    "sourceWord": "九",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "觉得",
+    "traditional": "覺得",
+    "pinyin": "jué de",
+    "english": "to think; to feel",
+    "polish": "uważać; sądzić; czuć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 96,
+    "sourceWord": "觉得",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "开",
+    "traditional": "開",
+    "pinyin": "kāi",
+    "english": "to open; to start; to turn on; to boil; to write out (a prescription, check, invoice etc); to operate (a vehicle); carat (gold); abbr. for Kelvin, 開爾文|开尔文[Kai1 er3 wen2]; abbr. for 開本|开本[kai1 ben3], book format",
+    "polish": "otwierać, prowadzić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 97,
+    "sourceWord": "开",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "开车",
+    "traditional": "開車",
+    "pinyin": "kāi chē",
+    "english": "to drive a car",
+    "polish": "prowadzić samochód",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "transport"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 98,
+    "sourceWord": "开车",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "看",
+    "traditional": "看",
+    "pinyin": "kān",
+    "english": "to look after; to take care of; to watch; to guard",
+    "polish": "patrzeć, oglądać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 99,
+    "sourceWord": "看",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "看病",
+    "traditional": "看病",
+    "pinyin": "kàn bìng",
+    "english": "to visit a doctor; to see a patient",
+    "polish": "iść do lekarza; leczyć się; badać pacjenta",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 100,
+    "sourceWord": "看病",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "看见",
+    "traditional": "看見",
+    "pinyin": "kàn jiàn",
+    "english": "to see; to catch sight of",
+    "polish": "widzieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 101,
+    "sourceWord": "看见",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "课",
+    "traditional": "課",
+    "pinyin": "kè",
+    "english": "subject; course; CL:門|门[men2]; class; lesson; CL:堂[tang2],節|节[jie2]; to levy; tax; form of divination",
+    "polish": "lekcja; zajęcia; przedmiot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 102,
+    "sourceWord": "课",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "可以",
+    "traditional": "可以",
+    "pinyin": "kě yǐ",
+    "english": "can; may; possible; able to; not bad; pretty good",
+    "polish": "Móc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "",
+    "frequency": 103,
+    "sourceWord": "可以",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "口",
+    "traditional": "口",
+    "pinyin": "kǒu",
+    "english": "mouth; classifier for things with mouths (people, domestic animals, cannons, wells etc); classifier for bites or mouthfuls",
+    "polish": "usta; klasyfikator członków rodziny, studni itp.",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 104,
+    "sourceWord": "口",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "块",
+    "traditional": "塊",
+    "pinyin": "kuài",
+    "english": "lump (of earth); chunk; piece; classifier for pieces of cloth, cake, soap etc; (coll.) classifier for money and currency units",
+    "polish": "juan (waluta), kawałek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "money"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 105,
+    "sourceWord": "块",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "来",
+    "traditional": "來",
+    "pinyin": "lái",
+    "english": "to come; to arrive; to come round; ever since; next",
+    "polish": "przychodzić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 106,
+    "sourceWord": "来",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "老师",
+    "traditional": "老師",
+    "pinyin": "lǎo shī",
+    "english": "teacher; CL:個|个[ge4],位[wei4]",
+    "polish": "nauczyciel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "occupation"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 107,
+    "sourceWord": "老师",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "了",
+    "traditional": "了",
+    "pinyin": "le",
+    "english": "(modal particle intensifying preceding clause); (completed action marker)",
+    "polish": "partykuła (czas przeszły)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "essential",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 108,
+    "sourceWord": "了",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "冷",
+    "traditional": "冷",
+    "pinyin": "lěng",
+    "english": "surname Leng",
+    "polish": "zimny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "temperature",
+      "weather"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 109,
+    "sourceWord": "冷",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "里",
+    "traditional": "裏",
+    "pinyin": "lǐ",
+    "english": "variant of 裡|里[li3]",
+    "polish": "w środku, w",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location"
+    ],
+    "partOfSpeech": "noun/preposition",
+    "frequency": 110,
+    "sourceWord": "里",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "两1",
+    "traditional": "兩",
+    "pinyin": "liǎng",
+    "english": "two; both; some; a few; tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤[jin1] (old)",
+    "polish": "det.: dwa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Numbers"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 111,
+    "sourceWord": "两1",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "零",
+    "traditional": "零",
+    "pinyin": "líng",
+    "english": "zero; nought; zero sign; fractional; fragmentary; odd (of numbers); (placed between two numbers to indicate a smaller quantity followed by a larger one); fraction; (in mathematics) remainder (after division); extra; to wither and fall; to wither",
+    "polish": "zero",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 112,
+    "sourceWord": "零",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "六",
+    "traditional": "六",
+    "pinyin": "liù",
+    "english": "six; 6",
+    "polish": "sześć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 113,
+    "sourceWord": "六",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "吗",
+    "traditional": "嗎",
+    "pinyin": "mǎ",
+    "english": "see 嗎啡|吗啡, morphine",
+    "polish": "partykuła pytająca",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "question",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 114,
+    "sourceWord": "吗",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "卖",
+    "traditional": "賣",
+    "pinyin": "mài",
+    "english": "to sell; to betray; to spare no effort; to show off or flaunt",
+    "polish": "przynieść",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Actions"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 115,
+    "sourceWord": "卖",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "买",
+    "traditional": "買",
+    "pinyin": "mǎi",
+    "english": "to buy; to purchase",
+    "polish": "kupować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "shopping"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 116,
+    "sourceWord": "买",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "妈妈",
+    "traditional": "媽媽",
+    "pinyin": "mā ma",
+    "english": "mama; mommy; mother; CL:個|个[ge4],位[wei4]",
+    "polish": "mama",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 117,
+    "sourceWord": "妈妈",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "忙",
+    "traditional": "忙",
+    "pinyin": "máng",
+    "english": "busy; hurriedly; to hurry; to rush",
+    "polish": "zajęty; spieszyć się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 118,
+    "sourceWord": "忙",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "猫",
+    "traditional": "貓",
+    "pinyin": "māo",
+    "english": "cat; CL:隻|只[zhi1]; (dialect) to hide oneself; (coll.) modem",
+    "polish": "kot",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "animal"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 119,
+    "sourceWord": "猫",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "没关系",
+    "traditional": "沒關係",
+    "pinyin": "méi guān xi",
+    "english": "it doesn't matter",
+    "polish": "nie szkodzi",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 120,
+    "sourceWord": "没关系",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "妹妹",
+    "traditional": "妹妹",
+    "pinyin": "mèi mei",
+    "english": "younger sister; young woman; CL:個|个[ge4]",
+    "polish": "młodsza siostra",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 121,
+    "sourceWord": "妹妹",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "没事",
+    "traditional": "沒事",
+    "pinyin": "méi shì",
+    "english": "it's not important; it's nothing; never mind; to have nothing to do; to be free; to be all right (out of danger or trouble)",
+    "polish": "nic się nie stało; nie ma sprawy; nie mieć nic do roboty; być wolnym",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 122,
+    "sourceWord": "没事",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "没（有）",
+    "traditional": "没（有）",
+    "pinyin": "méi(yǒu)",
+    "english": "not to have; there is not",
+    "polish": "nie mieć; nie być; nie ma",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 123,
+    "sourceWord": "没（有）",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "们",
+    "traditional": "們",
+    "pinyin": "men",
+    "english": "plural marker for pronouns, and nouns referring to individuals",
+    "polish": "przyrostek liczby mnogiej (dla osób)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 124,
+    "sourceWord": "们",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "面包",
+    "traditional": "麵包",
+    "pinyin": "miàn bāo",
+    "english": "bread; CL:片[pian4],袋[dai4],塊|块[kuai4]",
+    "polish": "chleb",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 125,
+    "sourceWord": "面包",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "面条儿",
+    "traditional": "麵條兒",
+    "pinyin": "miàn tiáo r",
+    "english": "erhua variant of 麵條|面条[mian4 tiao2]",
+    "polish": "makaron",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 126,
+    "sourceWord": "面条儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "米饭",
+    "traditional": "米飯",
+    "pinyin": "mǐ fàn",
+    "english": "(cooked) rice",
+    "polish": "gotowany ryż",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 127,
+    "sourceWord": "米饭",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "明年",
+    "traditional": "明年",
+    "pinyin": "míng nián",
+    "english": "next year",
+    "polish": "w przyszłym roku",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 128,
+    "sourceWord": "明年",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "明天",
+    "traditional": "明天",
+    "pinyin": "míng tiān",
+    "english": "tomorrow",
+    "polish": "jutro",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 129,
+    "sourceWord": "明天",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "名字",
+    "traditional": "名字",
+    "pinyin": "míng zi",
+    "english": "name (of a person or thing); CL:個|个[ge4]",
+    "polish": "imię, nazwa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "identity"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 130,
+    "sourceWord": "名字",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "那",
+    "traditional": "那",
+    "pinyin": "nā",
+    "english": "surname Na",
+    "polish": "tamto, tamten",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 131,
+    "sourceWord": "那",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "哪",
+    "traditional": "哪",
+    "pinyin": "nǎ",
+    "english": "how; which",
+    "polish": "który",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 132,
+    "sourceWord": "哪",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "那边",
+    "traditional": "那邊",
+    "pinyin": "nà bian",
+    "english": "over there; yonder",
+    "polish": "tam; po tamtej stronie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 133,
+    "sourceWord": "那边",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "那个",
+    "traditional": "那個",
+    "pinyin": "nà ge",
+    "english": "that one; also pr. [nei4 ge5]",
+    "polish": "tamten; tamto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 134,
+    "sourceWord": "那个",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "哪个",
+    "traditional": "哪個",
+    "pinyin": "nǎ ge",
+    "english": "which; who",
+    "polish": "który; kto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 135,
+    "sourceWord": "哪个",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "那里",
+    "traditional": "那裏",
+    "pinyin": "nà li",
+    "english": "there; that place; also written 那裡|那里",
+    "polish": "tam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 136,
+    "sourceWord": "那里",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "哪里",
+    "traditional": "哪裏",
+    "pinyin": "nǎ lǐ",
+    "english": "where?; somewhere; anywhere; wherever; nowhere (negative answer to question); humble expression denying compliment; also written 哪裡|哪里",
+    "polish": "gdzie; gdziekolwiek; nigdzie; wcale nie (skromna odpowiedź na komplement)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 137,
+    "sourceWord": "哪里",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "男",
+    "traditional": "男",
+    "pinyin": "nán",
+    "english": "male; Baron, lowest of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]; CL:個|个[ge4]",
+    "polish": "mężczyzna; męski",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 138,
+    "sourceWord": "男",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "男朋友",
+    "traditional": "男朋友",
+    "pinyin": "nán péng you",
+    "english": "boyfriend",
+    "polish": "chłopak (partner)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 139,
+    "sourceWord": "男朋友",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "那儿",
+    "traditional": "那兒",
+    "pinyin": "nà r",
+    "english": "there",
+    "polish": "tam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 140,
+    "sourceWord": "那儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "哪儿",
+    "traditional": "哪兒",
+    "pinyin": "nǎ r",
+    "english": "where?; wherever; anywhere",
+    "polish": "gdzie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 141,
+    "sourceWord": "哪儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "那些",
+    "traditional": "那些",
+    "pinyin": "nà xiē",
+    "english": "those",
+    "polish": "tamte",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 142,
+    "sourceWord": "那些",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "哪些",
+    "traditional": "哪些",
+    "pinyin": "nǎ xiē",
+    "english": "which ones?; who?; what?",
+    "polish": "które; jacy; co",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 143,
+    "sourceWord": "哪些",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "呢",
+    "traditional": "呢",
+    "pinyin": "ne",
+    "english": "particle indicating that a previously asked question is to be applied to the preceding word (\"What about ...?\", \"And ...?\"); particle for inquiring about location (\"Where is ...?\"); particle signaling a pause, to emphasize the preceding words and allow the listener time to take them on board (\"ok?\", \"are you with me?\"); (at the end of a declarative sentence) particle indicating continuation of a state or action; particle indicating strong affirmation",
+    "polish": "partykuła pytająca",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "particle",
+      "question",
+      "grammar"
+    ],
+    "partOfSpeech": "particle",
+    "frequency": 144,
+    "sourceWord": "呢",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "能",
+    "traditional": "能",
+    "pinyin": "néng",
+    "english": "surname Neng",
+    "polish": "móc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "auxiliary"
+    ],
+    "partOfSpeech": "auxiliary verb",
+    "frequency": 145,
+    "sourceWord": "能",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "你",
+    "traditional": "你",
+    "pinyin": "nǐ",
+    "english": "you (informal, as opposed to courteous 您[nin2])",
+    "polish": "ty",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 146,
+    "sourceWord": "你",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "你好",
+    "traditional": "你好",
+    "pinyin": "nǐ hǎo",
+    "english": "Hello!; Hi!; How are you?",
+    "polish": "cześć; dzień dobry",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 147,
+    "sourceWord": "你好",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "年",
+    "traditional": "年",
+    "pinyin": "nián",
+    "english": "surname Nian",
+    "polish": "rok",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 148,
+    "sourceWord": "年",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "你们",
+    "traditional": "你們",
+    "pinyin": "nǐ men",
+    "english": "you (plural)",
+    "polish": "wy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 149,
+    "sourceWord": "你们",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "您",
+    "traditional": "您",
+    "pinyin": "nín",
+    "english": "you (courteous, as opposed to informal 你[ni3])",
+    "polish": "Pan; Pani (uprzejma forma „ty”)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 150,
+    "sourceWord": "您",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "牛奶",
+    "traditional": "牛奶",
+    "pinyin": "niú nǎi",
+    "english": "cow's milk; CL:瓶[ping2],杯[bei1]",
+    "polish": "mleko krowie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 151,
+    "sourceWord": "牛奶",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "女",
+    "traditional": "女",
+    "pinyin": "nǚ",
+    "english": "female; woman; daughter",
+    "polish": "kobieta; żeński; córka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 152,
+    "sourceWord": "女",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "女儿",
+    "traditional": "女兒",
+    "pinyin": "nǚ ér",
+    "english": "daughter",
+    "polish": "córka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "family"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 153,
+    "sourceWord": "女儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "女朋友",
+    "traditional": "女朋友",
+    "pinyin": "nǚ péng you",
+    "english": "girlfriend",
+    "polish": "dziewczyna (partnerka)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 154,
+    "sourceWord": "女朋友",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "女士",
+    "traditional": "女士",
+    "pinyin": "nǚ shì",
+    "english": "lady; madam; CL:個|个[ge4],位[wei4]; Miss; Ms",
+    "polish": "Proszę pani",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 155,
+    "sourceWord": "女士",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "朋友",
+    "traditional": "朋友",
+    "pinyin": "péng you",
+    "english": "friend; CL:個|个[ge4],位[wei4]",
+    "polish": "przyjaciel",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "social"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 156,
+    "sourceWord": "朋友",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "便宜",
+    "traditional": "便宜",
+    "pinyin": "biàn yí",
+    "english": "convenient",
+    "polish": "tani",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 157,
+    "sourceWord": "便宜",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "漂亮",
+    "traditional": "漂亮",
+    "pinyin": "piào liang",
+    "english": "pretty; beautiful",
+    "polish": "piękny, ładny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "appearance"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 158,
+    "sourceWord": "漂亮",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "苹果",
+    "traditional": "蘋果",
+    "pinyin": "píng guǒ",
+    "english": "apple; CL:個|个[ge4],顆|颗[ke1]",
+    "polish": "jabłko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food",
+      "fruit"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 159,
+    "sourceWord": "苹果",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "七",
+    "traditional": "七",
+    "pinyin": "qī",
+    "english": "seven; 7",
+    "polish": "siedem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 160,
+    "sourceWord": "七",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "前",
+    "traditional": "前",
+    "pinyin": "qián",
+    "english": "front; forward; ahead; first; top (followed by a number); future; ago; before; BC (e.g. 前293年); former; formerly",
+    "polish": "przód; przed; wcześniej; poprzedni; dawny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 161,
+    "sourceWord": "前",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "钱",
+    "traditional": "錢",
+    "pinyin": "qián",
+    "english": "surname Qian",
+    "polish": "pieniądze",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "money"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 162,
+    "sourceWord": "钱",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "千",
+    "traditional": "千",
+    "pinyin": "qiān",
+    "english": "thousand",
+    "polish": "det.: tys",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "",
+    "frequency": 163,
+    "sourceWord": "千",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "起床",
+    "traditional": "起床",
+    "pinyin": "qǐ chuáng",
+    "english": "to get out of bed; to get up",
+    "polish": "wstawać z łóżka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 164,
+    "sourceWord": "起床",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "请",
+    "traditional": "請",
+    "pinyin": "qǐng",
+    "english": "to ask; to invite; please (do sth); to treat (to a meal etc); to request",
+    "polish": "proszę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "polite"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 165,
+    "sourceWord": "请",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "请问",
+    "traditional": "請問",
+    "pinyin": "qǐng wèn",
+    "english": "Excuse me, may I ask...?",
+    "polish": "przepraszam, czy mogę zapytać...",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 166,
+    "sourceWord": "请问",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "去",
+    "traditional": "去",
+    "pinyin": "qù",
+    "english": "to go; to go to (a place); (of a time etc) last; just passed; to send; to remove; to get rid of; to reduce; to be apart from in space or time; to die (euphemism); to play (a part); (when used either before or after a verb) to go in order to do sth; (after a verb of motion indicates movement away from the speaker); (used after certain verbs to indicate detachment or separation)",
+    "polish": "iść, jechać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "motion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 167,
+    "sourceWord": "去",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "去年",
+    "traditional": "去年",
+    "pinyin": "qù nián",
+    "english": "last year",
+    "polish": "w zeszłym roku",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 168,
+    "sourceWord": "去年",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "热",
+    "traditional": "熱",
+    "pinyin": "rè",
+    "english": "to warm up; to heat up; hot (of weather); heat; fervent",
+    "polish": "gorący",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "temperature",
+      "weather"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 169,
+    "sourceWord": "热",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "人",
+    "traditional": "人",
+    "pinyin": "rén",
+    "english": "man; person; people; CL:個|个[ge4],位[wei4]",
+    "polish": "osoba, ludzie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "people"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 170,
+    "sourceWord": "人",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "认识",
+    "traditional": "認識",
+    "pinyin": "rèn shi",
+    "english": "to know; to recognize; to be familiar with; to get acquainted with sb; knowledge; understanding; awareness; cognition",
+    "polish": "znać, rozpoznawać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "social"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 171,
+    "sourceWord": "认识",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "日",
+    "traditional": "日",
+    "pinyin": "rì",
+    "english": "abbr. for 日本[Ri4 ben3], Japan",
+    "polish": "dzień, słońce",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 172,
+    "sourceWord": "日",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "三",
+    "traditional": "三",
+    "pinyin": "sān",
+    "english": "surname San",
+    "polish": "trzy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 173,
+    "sourceWord": "三",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "上",
+    "traditional": "上",
+    "pinyin": "shǎng",
+    "english": "see 上聲|上声[shang3 sheng1]",
+    "polish": "góra, na",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location",
+      "direction"
+    ],
+    "partOfSpeech": "noun/preposition",
+    "frequency": 174,
+    "sourceWord": "上",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "上班",
+    "traditional": "上班",
+    "pinyin": "shàng bān",
+    "english": "to go to work; to be on duty; to start work; to go to the office",
+    "polish": "iść do pracy; być w pracy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 175,
+    "sourceWord": "上班",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "商店",
+    "traditional": "商店",
+    "pinyin": "shāng diàn",
+    "english": "store; shop; CL:家[jia1],個|个[ge4]",
+    "polish": "sklep",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "shopping"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 176,
+    "sourceWord": "商店",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "上课",
+    "traditional": "上課",
+    "pinyin": "shàng kè",
+    "english": "to go to class; to attend class; to go to teach a class",
+    "polish": "iść na lekcje; mieć zajęcia; prowadzić lekcję",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 177,
+    "sourceWord": "上课",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "上午",
+    "traditional": "上午",
+    "pinyin": "shàng wǔ",
+    "english": "morning; CL:個|个[ge4]",
+    "polish": "przedpołudnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 178,
+    "sourceWord": "上午",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "上学",
+    "traditional": "上學",
+    "pinyin": "shàng xué",
+    "english": "to go to school; to attend school",
+    "polish": "chodzić do szkoły; iść do szkoły",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 179,
+    "sourceWord": "上学",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "少",
+    "traditional": "少",
+    "pinyin": "shǎo",
+    "english": "few; less; to lack; to be missing; to stop (doing sth); seldom",
+    "polish": "mało",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "quantity"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 180,
+    "sourceWord": "少",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "谁",
+    "traditional": "誰",
+    "pinyin": "shéi",
+    "english": "who; also pr. [shui2]",
+    "polish": "kto",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 181,
+    "sourceWord": "谁",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "生病",
+    "traditional": "生病",
+    "pinyin": "shēng bìng",
+    "english": "to fall ill",
+    "polish": "zachorować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 182,
+    "sourceWord": "生病",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "什么",
+    "traditional": "什麼",
+    "pinyin": "shén me",
+    "english": "what?; who?; something; anything",
+    "polish": "co",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 183,
+    "sourceWord": "什么",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "十",
+    "traditional": "十",
+    "pinyin": "shí",
+    "english": "ten; 10",
+    "polish": "dziesięć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 184,
+    "sourceWord": "十",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "事",
+    "traditional": "事",
+    "pinyin": "shì",
+    "english": "matter; thing; item; work; affair; CL:件[jian4],樁|桩[zhuang1],回[hui2]",
+    "polish": "sprawa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "essential"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 185,
+    "sourceWord": "事",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "是",
+    "traditional": "是",
+    "pinyin": "shì",
+    "english": "is; are; am; yes; to be",
+    "polish": "być",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 186,
+    "sourceWord": "是",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "时候",
+    "traditional": "時候",
+    "pinyin": "shí hou",
+    "english": "time; length of time; moment; period",
+    "polish": "czas, moment",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 187,
+    "sourceWord": "时候",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "时间",
+    "traditional": "時間",
+    "pinyin": "shí jiān",
+    "english": "time; period; CL:段[duan4]",
+    "polish": "czas; okres",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 188,
+    "sourceWord": "时间",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "手机",
+    "traditional": "手機",
+    "pinyin": "shǒu jī",
+    "english": "cell phone; mobile phone; CL:部[bu4],支[zhi1]",
+    "polish": "telefon komórkowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 189,
+    "sourceWord": "手机",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "书",
+    "traditional": "書",
+    "pinyin": "shū",
+    "english": "abbr. for 書經|书经[Shu1 jing1]",
+    "polish": "książka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "study",
+      "object"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 190,
+    "sourceWord": "书",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "书店",
+    "traditional": "書店",
+    "pinyin": "shū diàn",
+    "english": "bookstore; CL:家[jia1]",
+    "polish": "księgarnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 191,
+    "sourceWord": "书店",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "睡",
+    "traditional": "睡",
+    "pinyin": "shuì",
+    "english": "to sleep; to lie down",
+    "polish": "spać; leżeć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 192,
+    "sourceWord": "睡",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "水",
+    "traditional": "水",
+    "pinyin": "shuǐ",
+    "english": "surname Shui",
+    "polish": "woda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "drink"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 193,
+    "sourceWord": "水",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "水果",
+    "traditional": "水果",
+    "pinyin": "shuǐ guǒ",
+    "english": "fruit; CL:個|个[ge4]",
+    "polish": "owoc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "food"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 194,
+    "sourceWord": "水果",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "睡觉",
+    "traditional": "睡覺",
+    "pinyin": "shuì jiào",
+    "english": "to go to bed; to sleep",
+    "polish": "spać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 195,
+    "sourceWord": "睡觉",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "说",
+    "traditional": "說",
+    "pinyin": "shuō",
+    "english": "to speak; to say; to explain; to scold; to tell off; a theory (usually in compounds such as 日心说 heliocentric theory)",
+    "polish": "mówić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "communication"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 196,
+    "sourceWord": "说",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "说话",
+    "traditional": "說話",
+    "pinyin": "shuō huà",
+    "english": "to speak; to say; to talk; to gossip; to tell stories; talk; word",
+    "polish": "mówić; rozmawiać; plotkować",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 197,
+    "sourceWord": "说话",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "四",
+    "traditional": "四",
+    "pinyin": "sì",
+    "english": "four; 4",
+    "polish": "cztery",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 198,
+    "sourceWord": "四",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "岁",
+    "traditional": "嵗",
+    "pinyin": "suì",
+    "english": "variant of 歲|岁[sui4], year; years old",
+    "polish": "lat (wiek)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "age",
+      "time"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 199,
+    "sourceWord": "岁",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "他",
+    "traditional": "他",
+    "pinyin": "tā",
+    "english": "he or him; (used for either sex when the sex is unknown or unimportant); (used before sb's name for emphasis); (used as a meaningless mock object); other; another",
+    "polish": "on",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 200,
+    "sourceWord": "他",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "它",
+    "traditional": "它",
+    "pinyin": "tā",
+    "english": "it",
+    "polish": "oni (neologizm dla {1ta1}[3] [4])",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Clothing"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 201,
+    "sourceWord": "它",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "她",
+    "traditional": "她",
+    "pinyin": "tā",
+    "english": "she",
+    "polish": "ona",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 202,
+    "sourceWord": "她",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "太",
+    "traditional": "太",
+    "pinyin": "tài",
+    "english": "highest; greatest; too (much); very; extremely",
+    "polish": "za bardzo, zbyt",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 203,
+    "sourceWord": "太",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "他们",
+    "traditional": "他們",
+    "pinyin": "tā men",
+    "english": "they",
+    "polish": "oni",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 204,
+    "sourceWord": "他们",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "它们",
+    "traditional": "它們",
+    "pinyin": "tā men",
+    "english": "they (for inanimate objects)",
+    "polish": "Oni",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 205,
+    "sourceWord": "它们",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "她们",
+    "traditional": "她們",
+    "pinyin": "tā men",
+    "english": "they; them (for females)",
+    "polish": "one (kobiety)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 206,
+    "sourceWord": "她们",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "天",
+    "traditional": "天",
+    "pinyin": "tiān",
+    "english": "day; sky; heaven",
+    "polish": "dzień; niebo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 207,
+    "sourceWord": "天",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "天气",
+    "traditional": "天氣",
+    "pinyin": "tiān qì",
+    "english": "weather",
+    "polish": "pogoda",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "weather"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 208,
+    "sourceWord": "天气",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "听",
+    "traditional": "聽",
+    "pinyin": "tīng",
+    "english": "to listen; to hear; to obey; a can (loanword from English \"tin\"); classifier for canned beverages",
+    "polish": "słuchać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 209,
+    "sourceWord": "听",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "听见",
+    "traditional": "聽見",
+    "pinyin": "tīng jiàn",
+    "english": "to hear",
+    "polish": "usłyszeć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 210,
+    "sourceWord": "听见",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "同学",
+    "traditional": "同學",
+    "pinyin": "tóng xué",
+    "english": "to study at the same school; fellow student; classmate; CL:位[wei4],個|个[ge4]",
+    "polish": "kolega z klasy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "social"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 211,
+    "sourceWord": "同学",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "外",
+    "traditional": "外",
+    "pinyin": "wài",
+    "english": "outside; in addition; foreign; external",
+    "polish": "na zewnątrz; poza; zagraniczny; zewnętrzny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 212,
+    "sourceWord": "外",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "外边",
+    "traditional": "外邊",
+    "pinyin": "wài bian",
+    "english": "outside; outer surface; abroad; place other than one's home",
+    "polish": "na zewnątrz; zewnętrzna strona; za granicą",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 213,
+    "sourceWord": "外边",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "玩",
+    "traditional": "玩",
+    "pinyin": "wán",
+    "english": "to play; to have fun; to trifle with; toy; sth used for amusement; curio or antique (Taiwan pr. [wan4]); to keep sth for entertainment",
+    "polish": "bawić się; grać; spędzać czas",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 214,
+    "sourceWord": "玩",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "晚",
+    "traditional": "晚",
+    "pinyin": "wǎn",
+    "english": "evening; night; late",
+    "polish": "wieczór; noc; późno",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 215,
+    "sourceWord": "晚",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "晚饭",
+    "traditional": "晚飯",
+    "pinyin": "wǎn fàn",
+    "english": "evening meal; dinner; supper; CL:份[fen4],頓|顿[dun4],次[ci4],餐[can1]",
+    "polish": "kolacja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 216,
+    "sourceWord": "晚饭",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "晚上",
+    "traditional": "晚上",
+    "pinyin": "wǎn shang",
+    "english": "evening; night; CL:個|个[ge4]; in the evening",
+    "polish": "wieczór; wieczorem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 217,
+    "sourceWord": "晚上",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "喂1",
+    "traditional": "喂",
+    "pinyin": "wéi",
+    "english": "hello (when answering the phone)",
+    "polish": "Witam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 218,
+    "sourceWord": "喂1",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "问",
+    "traditional": "問",
+    "pinyin": "wèn",
+    "english": "to ask",
+    "polish": "pytać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 219,
+    "sourceWord": "问",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "问题",
+    "traditional": "問題",
+    "pinyin": "wèn tí",
+    "english": "question; problem; issue; topic; CL:個|个[ge4]",
+    "polish": "pytanie, problem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "essential"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 220,
+    "sourceWord": "问题",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "我",
+    "traditional": "我",
+    "pinyin": "wǒ",
+    "english": "I; me; my",
+    "polish": "ja",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 221,
+    "sourceWord": "我",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "我们",
+    "traditional": "我們",
+    "pinyin": "wǒ men",
+    "english": "we; us; ourselves; our",
+    "polish": "my",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 222,
+    "sourceWord": "我们",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "五",
+    "traditional": "五",
+    "pinyin": "wǔ",
+    "english": "five; 5",
+    "polish": "pięć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 223,
+    "sourceWord": "五",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "午饭",
+    "traditional": "午飯",
+    "pinyin": "wǔ fàn",
+    "english": "lunch; CL:份[fen4],頓|顿[dun4],次[ci4],餐[can1]",
+    "polish": "obiad; lunch",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 224,
+    "sourceWord": "午饭",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "下",
+    "traditional": "下",
+    "pinyin": "xià",
+    "english": "down; downwards; below; lower; later; next (week etc); second (of two parts); to decline; to go down; to arrive at (a decision, conclusion etc); measure word to show the frequency of an action",
+    "polish": "dół, pod",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "location",
+      "direction"
+    ],
+    "partOfSpeech": "noun/preposition",
+    "frequency": 225,
+    "sourceWord": "下",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "下雨",
+    "traditional": "下雨",
+    "pinyin": "xià yǔ",
+    "english": "to rain",
+    "polish": "padać (deszcz)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "weather"
+    ],
+    "partOfSpeech": "verb phrase",
+    "frequency": 226,
+    "sourceWord": "下雨",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "下班",
+    "traditional": "下班",
+    "pinyin": "xià bān",
+    "english": "to finish work; to get off work",
+    "polish": "kończyć pracę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 227,
+    "sourceWord": "下班",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "下课",
+    "traditional": "下課",
+    "pinyin": "xià kè",
+    "english": "to finish class; to get out of class",
+    "polish": "kończyć lekcje; kończyć zajęcia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 228,
+    "sourceWord": "下课",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "想",
+    "traditional": "想",
+    "pinyin": "xiǎng",
+    "english": "to think; to believe; to suppose; to wish; to want; to miss (feel wistful about the absence of sb or sth)",
+    "polish": "myśleć, chcieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "thinking"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 229,
+    "sourceWord": "想",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "先生",
+    "traditional": "先生",
+    "pinyin": "xiān sheng",
+    "english": "Mister (Mr.)",
+    "polish": "pan",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "title"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 230,
+    "sourceWord": "先生",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "现在",
+    "traditional": "現在",
+    "pinyin": "xiàn zài",
+    "english": "now; at present; at the moment; modern; current; nowadays",
+    "polish": "teraz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 231,
+    "sourceWord": "现在",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "小",
+    "traditional": "小",
+    "pinyin": "xiǎo",
+    "english": "small; tiny; few; young",
+    "polish": "mały",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "size"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 232,
+    "sourceWord": "小",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "小朋友",
+    "traditional": "小朋友",
+    "pinyin": "xiǎo péng yǒu",
+    "english": "child; CL:個|个[ge4]",
+    "polish": "dziecko; dzieciak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 233,
+    "sourceWord": "小朋友",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "小时",
+    "traditional": "小時",
+    "pinyin": "xiǎo shí",
+    "english": "hour; CL:個|个[ge4]",
+    "polish": "godzina",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 234,
+    "sourceWord": "小时",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "小学",
+    "traditional": "小學",
+    "pinyin": "xiǎo xué",
+    "english": "elementary school; primary school; CL:個|个[ge4]",
+    "polish": "szkoła podstawowa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 235,
+    "sourceWord": "小学",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "小学生",
+    "traditional": "小學生",
+    "pinyin": "xiǎo xué shēng",
+    "english": "primary school student; schoolchild; CL:個|个[ge4],名[ming2]",
+    "polish": "uczeń szkoły podstawowej",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 236,
+    "sourceWord": "小学生",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "下午",
+    "traditional": "下午",
+    "pinyin": "xià wǔ",
+    "english": "afternoon; CL:個|个[ge4]; p.m.",
+    "polish": "popołudnie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 237,
+    "sourceWord": "下午",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "写",
+    "traditional": "寫",
+    "pinyin": "xiě",
+    "english": "to write",
+    "polish": "pisać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 238,
+    "sourceWord": "写",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "些",
+    "traditional": "些",
+    "pinyin": "xiē",
+    "english": "some; few; several; measure word indicating a small amount or small number (greater than 1)",
+    "polish": "trochę, kilka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "classifier",
+      "quantity"
+    ],
+    "partOfSpeech": "measure word",
+    "frequency": 239,
+    "sourceWord": "些",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "谢谢",
+    "traditional": "謝謝",
+    "pinyin": "xiè xie",
+    "english": "to thank; thanks; thank you",
+    "polish": "dziękuję",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite",
+      "essential"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 240,
+    "sourceWord": "谢谢",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "喜欢",
+    "traditional": "喜歡",
+    "pinyin": "xǐ huan",
+    "english": "to like; to be fond of",
+    "polish": "lubić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 241,
+    "sourceWord": "喜欢",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "新",
+    "traditional": "新",
+    "pinyin": "xīn",
+    "english": "abbr. for Xinjiang 新疆[Xin1 jiang1] or Singapore 新加坡[Xin1 jia1 po1]; surname Xin",
+    "polish": "nowy",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adjective",
+      "essential"
+    ],
+    "partOfSpeech": "adjective",
+    "frequency": 242,
+    "sourceWord": "新",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "星期",
+    "traditional": "星期",
+    "pinyin": "xīng qī",
+    "english": "week; CL:個|个[ge4]; day of the week; Sunday",
+    "polish": "tydzień",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 243,
+    "sourceWord": "星期",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "星期日",
+    "traditional": "星期日",
+    "pinyin": "xīng qī rì",
+    "english": "Sunday; CL:個|个[ge4]",
+    "polish": "niedziela",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 244,
+    "sourceWord": "星期日",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "星期天",
+    "traditional": "星期天",
+    "pinyin": "xīng qī tiān",
+    "english": "Sunday; CL:個|个[ge4]",
+    "polish": "niedziela",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 245,
+    "sourceWord": "星期天",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "休息",
+    "traditional": "休息",
+    "pinyin": "xiū xi",
+    "english": "rest; to rest",
+    "polish": "odpoczywać; odpoczynek",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 246,
+    "sourceWord": "休息",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "学",
+    "traditional": "學",
+    "pinyin": "xué",
+    "english": "to learn; to study; to imitate; science; -ology",
+    "polish": "uczyć się; studiować; naśladować; nauka",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 247,
+    "sourceWord": "学",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "雪",
+    "traditional": "雪",
+    "pinyin": "xuě",
+    "english": "surname Xue",
+    "polish": "śnieg",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Time",
+      "Weather"
+    ],
+    "partOfSpeech": "",
+    "frequency": 248,
+    "sourceWord": "雪",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "学生",
+    "traditional": "學生",
+    "pinyin": "xué sheng",
+    "english": "student; schoolchild",
+    "polish": "student, uczeń",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "occupation"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 249,
+    "sourceWord": "学生",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "学习",
+    "traditional": "學習",
+    "pinyin": "xué xí",
+    "english": "to learn; to study",
+    "polish": "uczyć się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "study"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 250,
+    "sourceWord": "学习",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "学校",
+    "traditional": "學校",
+    "pinyin": "xué xiào",
+    "english": "school; CL:所[suo3]",
+    "polish": "szkoła",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "school",
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 251,
+    "sourceWord": "学校",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "要",
+    "traditional": "要",
+    "pinyin": "yāo",
+    "english": "to demand; to request; to coerce",
+    "polish": "żądać; prosić; zmuszać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 252,
+    "sourceWord": "要",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "也",
+    "traditional": "也",
+    "pinyin": "yě",
+    "english": "surname Ye",
+    "polish": "też, również",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 253,
+    "sourceWord": "也",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "一",
+    "traditional": "一",
+    "pinyin": "yī",
+    "english": "one; 1; single; a (article); as soon as; entire; whole; all; throughout; \"one\" radical in Chinese characters (Kangxi radical 1); also pr. [yao1] for greater clarity when spelling out numbers digit by digit",
+    "polish": "jeden",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "number",
+      "essential"
+    ],
+    "partOfSpeech": "numeral",
+    "frequency": 254,
+    "sourceWord": "一",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "一半",
+    "traditional": "一半",
+    "pinyin": "yī bàn",
+    "english": "half",
+    "polish": "połowa",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 255,
+    "sourceWord": "一半",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "一点儿",
+    "traditional": "一點兒",
+    "pinyin": "yī diǎn r",
+    "english": "erhua variant of 一點|一点[yi1 dian3]",
+    "polish": "trochę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "quantity"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 256,
+    "sourceWord": "一点儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "衣服",
+    "traditional": "衣服",
+    "pinyin": "yī fu",
+    "english": "clothes; CL:件[jian4],套[tao4]",
+    "polish": "ubranie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "clothing"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 257,
+    "sourceWord": "衣服",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "医生",
+    "traditional": "醫生",
+    "pinyin": "yī shēng",
+    "english": "doctor; CL:個|个[ge4],位[wei4],名[ming2]",
+    "polish": "lekarz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "occupation",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 258,
+    "sourceWord": "医生",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "一下",
+    "traditional": "一下",
+    "pinyin": "yī xià",
+    "english": "(used after a verb) give it a go; to do (sth for a bit to give it a try); one time; once; in a while; all of a sudden; all at once",
+    "polish": "chwilę; trochę; (po czasowniku) na próbę; raz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 259,
+    "sourceWord": "一下",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "一些",
+    "traditional": "一些",
+    "pinyin": "yī xiē",
+    "english": "some; a few; a little",
+    "polish": "trochę; kilka; parę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 260,
+    "sourceWord": "一些",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "医院",
+    "traditional": "醫院",
+    "pinyin": "yī yuàn",
+    "english": "hospital; CL:所[suo3],家[jia1],座[zuo4]",
+    "polish": "szpital",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "health"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 261,
+    "sourceWord": "医院",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "椅子",
+    "traditional": "椅子",
+    "pinyin": "yǐ zi",
+    "english": "chair; CL:把[ba3],套[tao4]",
+    "polish": "krzesło",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 262,
+    "sourceWord": "椅子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "有",
+    "traditional": "有",
+    "pinyin": "yǒu",
+    "english": "to have; there is; there are; to exist; to be",
+    "polish": "mieć, jest",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "essential"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 263,
+    "sourceWord": "有",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "有的",
+    "traditional": "有的",
+    "pinyin": "yǒu de",
+    "english": "(there are) some (who are...); some (exist)",
+    "polish": "niektórzy; niektóre",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 264,
+    "sourceWord": "有的",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "有些",
+    "traditional": "有些",
+    "pinyin": "yǒu xiē",
+    "english": "some; somewhat",
+    "polish": "niektóre; trochę; nieco",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 265,
+    "sourceWord": "有些",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "有（一）点儿",
+    "traditional": "有（一）点儿",
+    "pinyin": "yǒu(yì)diǎnr",
+    "english": "a bit; somewhat",
+    "polish": "trochę; nieco",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 266,
+    "sourceWord": "有（一）点儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "雨",
+    "traditional": "雨",
+    "pinyin": "yǔ",
+    "english": "rain; CL:陣|阵[zhen4],場|场[chang2]",
+    "polish": "deszcz",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 267,
+    "sourceWord": "雨",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "元",
+    "traditional": "元",
+    "pinyin": "yuán",
+    "english": "surname Yuan; the Yuan or Mongol dynasty (1279-1368)",
+    "polish": "juan (jednostka waluty); dynastia Yuan",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 268,
+    "sourceWord": "元",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "月",
+    "traditional": "月",
+    "pinyin": "yuè",
+    "english": "moon; month; monthly; CL:個|个[ge4],輪|轮[lun2]",
+    "polish": "miesiąc, księżyc",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 269,
+    "sourceWord": "月",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "再",
+    "traditional": "再",
+    "pinyin": "zài",
+    "english": "again; once more; re-; second; another; then (after sth, and not until then)",
+    "polish": "znowu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 270,
+    "sourceWord": "再",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "在",
+    "traditional": "在",
+    "pinyin": "zài",
+    "english": "(located) at; (to be) in; to exist; in the middle of doing sth; (indicating an action in progress)",
+    "polish": "w, na (lokalizacja)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "location",
+      "essential"
+    ],
+    "partOfSpeech": "verb/preposition",
+    "frequency": 271,
+    "sourceWord": "在",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "再见",
+    "traditional": "再見",
+    "pinyin": "zài jiàn",
+    "english": "goodbye; see you again later",
+    "polish": "do widzenia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "expression",
+      "polite",
+      "essential"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 272,
+    "sourceWord": "再见",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "早",
+    "traditional": "早",
+    "pinyin": "zǎo",
+    "english": "early; morning; Good morning!; long ago; prematurely",
+    "polish": "wcześnie; rano; dzień dobry (rano); dawno temu",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 273,
+    "sourceWord": "早",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "早饭",
+    "traditional": "早飯",
+    "pinyin": "zǎo fàn",
+    "english": "breakfast; CL:份[fen4],頓|顿[dun4],次[ci4],餐[can1]",
+    "polish": "śniadanie",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 274,
+    "sourceWord": "早饭",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "早上",
+    "traditional": "早上",
+    "pinyin": "zǎo shang",
+    "english": "early morning; CL:個|个[ge4]",
+    "polish": "wczesny ranek; rano",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 275,
+    "sourceWord": "早上",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "怎么",
+    "traditional": "怎麼",
+    "pinyin": "zěn me",
+    "english": "how?; what?; why?",
+    "polish": "jak",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 276,
+    "sourceWord": "怎么",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "怎么样",
+    "traditional": "怎麼樣",
+    "pinyin": "zěn me yàng",
+    "english": "how?; how about?; how was it?; how are things?",
+    "polish": "co sądzisz, jak tam",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "question",
+      "expression"
+    ],
+    "partOfSpeech": "expression",
+    "frequency": 277,
+    "sourceWord": "怎么样",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "找",
+    "traditional": "找",
+    "pinyin": "zhǎo",
+    "english": "to try to find; to look for; to call on sb; to find; to seek; to return; to give change",
+    "polish": "szukać; odwiedzać; znaleźć; wydawać resztę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 278,
+    "sourceWord": "找",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "这",
+    "traditional": "這",
+    "pinyin": "zhè",
+    "english": "this; these; (commonly pr. [zhei4] before a classifier, esp. in Beijing)",
+    "polish": "to, ten",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "essential"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 279,
+    "sourceWord": "这",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "这边",
+    "traditional": "這邊",
+    "pinyin": "zhè biān",
+    "english": "this side; here",
+    "polish": "ta strona; tutaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 280,
+    "sourceWord": "这边",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "这个",
+    "traditional": "這個",
+    "pinyin": "zhè ge",
+    "english": "this; this one",
+    "polish": "ten; to",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 281,
+    "sourceWord": "这个",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "这里",
+    "traditional": "這裏",
+    "pinyin": "zhè lǐ",
+    "english": "variant of 這裡|这里[zhe4 li3]",
+    "polish": "tutaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 282,
+    "sourceWord": "这里",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "真",
+    "traditional": "真",
+    "pinyin": "zhēn",
+    "english": "really; truly; indeed; real; true; genuine",
+    "polish": "naprawdę",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "degree"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 283,
+    "sourceWord": "真",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "正在",
+    "traditional": "正在",
+    "pinyin": "zhèng zài",
+    "english": "just at (that time); right in (that place); right in the middle of (doing sth)",
+    "polish": "właśnie (robić)",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "partOfSpeech": "adverb",
+    "frequency": 284,
+    "sourceWord": "正在",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "这儿",
+    "traditional": "這兒",
+    "pinyin": "zhè r",
+    "english": "here",
+    "polish": "tutaj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "pronoun",
+      "location"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 285,
+    "sourceWord": "这儿",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "这些",
+    "traditional": "這些",
+    "pinyin": "zhè xiē",
+    "english": "these",
+    "polish": "te",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 286,
+    "sourceWord": "这些",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "只",
+    "traditional": "只",
+    "pinyin": "zhǐ",
+    "english": "only; merely; just; but",
+    "polish": "tylko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "General"
+    ],
+    "partOfSpeech": "",
+    "frequency": 287,
+    "sourceWord": "只",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "知道",
+    "traditional": "知道",
+    "pinyin": "zhī dào",
+    "english": "to know; to become aware of; also pr. [zhi1 dao5]",
+    "polish": "wiedzieć; dowiedzieć się",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 288,
+    "sourceWord": "知道",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "中国",
+    "traditional": "中國",
+    "pinyin": "zhōng guó",
+    "english": "China",
+    "polish": "Chiny",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "place",
+      "country"
+    ],
+    "partOfSpeech": "proper noun",
+    "frequency": 289,
+    "sourceWord": "中国",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "中文",
+    "traditional": "中文",
+    "pinyin": "zhōng wén",
+    "english": "Chinese language",
+    "polish": "język chiński",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 290,
+    "sourceWord": "中文",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "中午",
+    "traditional": "中午",
+    "pinyin": "zhōng wǔ",
+    "english": "noon; midday; CL:個|个[ge4]",
+    "polish": "południe",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 291,
+    "sourceWord": "中午",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "中学",
+    "traditional": "中學",
+    "pinyin": "zhōng xué",
+    "english": "middle school; CL:個|个[ge4]",
+    "polish": "szkoła średnia",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 292,
+    "sourceWord": "中学",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "中学生",
+    "traditional": "中學生",
+    "pinyin": "zhōng xué shēng",
+    "english": "middle-school student; high school student",
+    "polish": "uczeń szkoły średniej",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [],
+    "partOfSpeech": null,
+    "frequency": 293,
+    "sourceWord": "中学生",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "住",
+    "traditional": "住",
+    "pinyin": "zhù",
+    "english": "to live; to dwell; to stay; to reside; to stop; (suffix indicating firmness, steadiness, or coming to a halt)",
+    "polish": "mieszkać",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "housing"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 294,
+    "sourceWord": "住",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "桌子",
+    "traditional": "桌子",
+    "pinyin": "zhuō zi",
+    "english": "table; desk; CL:張|张[zhang1],套[tao4]",
+    "polish": "stół, biurko",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "furniture"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 295,
+    "sourceWord": "桌子",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "字",
+    "traditional": "字",
+    "pinyin": "zì",
+    "english": "letter; symbol; character; word; CL:個|个[ge4]; courtesy or style name traditionally given to males aged 20 in dynastic China",
+    "polish": "znak, słowo",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "language"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 296,
+    "sourceWord": "字",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "坐",
+    "traditional": "坐",
+    "pinyin": "zuò",
+    "english": "surname Zuo",
+    "polish": "siedzieć",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 297,
+    "sourceWord": "坐",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "做",
+    "traditional": "做",
+    "pinyin": "zuò",
+    "english": "to do; to make; to produce; to write; to compose; to act as; to engage in; to hold (a party); to be; to become; to function (in some capacity); to serve as; to be used for; to form (a bond or relationship); to pretend; to feign; to act a part; to put on appearance",
+    "polish": "robić",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "verb",
+      "daily"
+    ],
+    "partOfSpeech": "verb",
+    "frequency": 298,
+    "sourceWord": "做",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "做饭",
+    "traditional": "做飯",
+    "pinyin": "zuò fàn",
+    "english": "to prepare a meal; to cook",
+    "polish": "zajmij się gotowaniem",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "Food",
+      "Actions"
+    ],
+    "partOfSpeech": "pronoun",
+    "frequency": 299,
+    "sourceWord": "做饭",
+    "sourceEdition": "HSK 2025"
+  },
+  {
+    "hanzi": "昨天",
+    "traditional": "昨天",
+    "pinyin": "zuó tiān",
+    "english": "yesterday",
+    "polish": "wczoraj",
+    "level": "HSK-1",
+    "notes": "",
+    "tags": [
+      "noun",
+      "time"
+    ],
+    "partOfSpeech": "noun",
+    "frequency": 300,
+    "sourceWord": "昨天",
+    "sourceEdition": "HSK 2025"
+  }
+]

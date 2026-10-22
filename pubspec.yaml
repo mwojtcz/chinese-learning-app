@@ -1,5 +1,5 @@
 name: chinese_flow
-description: "ChineseFlow - Master Chinese with HSK 3.0 vocabulary and interactive tests"
+description: "Cíkǎ - Chinese and Polish flashcards with HSK vocabulary and grammar guides"
 publish_to: 'none'
 
 version: 1.4.0+5
@@ -59,10 +59,19 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/data/hsk1_words.json
-    - assets/data/hsk2_words.json
-    - assets/data/hsk3_words.json
-    - assets/data/hsk4_words.json
+    - assets/data/hsk2025_1_words.json
+    - assets/data/hsk2025_2_words.json
+    - assets/data/hsk2025_3_words.json
+    - assets/data/hsk2025_4_words.json
+    - assets/data/hsk2025_5_words.json
+    - assets/data/hsk2025_6_words.json
+    - assets/data/hsk2025_7_9_words.json
+    - assets/data/grammar_chinese.json
+    - assets/data/grammar_polish_cases.json
+    - assets/data/grammar_polish_verbs.json
+    - assets/data/grammar_polish_numbers.json
+    - assets/data/practice_exercises.json
+    - assets/data/polish_word_forms.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -1,6 +1,6 @@
-﻿# 🇨🇳 ChineseFlow
+﻿# Cíkǎ · 词卡
 
-**Master Chinese with flow.** A modern Chinese language learning application based on the official HSK 3.0 Standard (2021) from China's Ministry of Education.
+**Polish and Chinese, one card at a time.** A local-first Flutter app for learning Chinese or Polish, with English translations as a bridge language.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.24.5-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.5.4-blue)
@@ -13,35 +13,18 @@
 
 Or download the Windows application from [Releases](https://github.com/mwojtcz/chinese-learning-app/releases).
 
-## ✨ Features
+## Features
 
-- 🏠 **Dashboard** - Actionable learning hub with stats, streak counter, and quick actions
-- 📚 **HSK Dictionary** - 3,229 words from HSK levels 1-4 (standard 3.0)
-  - 🔀 Traditional/Simplified Chinese toggle
-  - 🇵🇱 Polish translations via DeepL API
-  - 🇬🇧 English translations
-- 🎋 **Chengyu Learning** - Chinese idioms with literal and actual meanings
-  - Example sentences for context
-  - Beautiful card-based layout
-- ⭐ **My Words** - Save favorite words for studying
-- 📝 **Test System** - 3 testing modes:
-  - 🇨🇳 → 🇬🇧 (Hanzi → English/Polish)
-  - 🇬🇧 → 🇨🇳 (English/Polish → Hanzi)
-  - 🔤 → 🇨🇳 (Pinyin → Hanzi)
-- 🎨 **Modern Dark Theme** - Elegant interface with improved readability
-- 🔍 **Advanced Search** - Filter by HSK level, parts of speech, and tags
-- 📊 **Auto-Tagging** - Intelligent word categorization
-- 💾 **Auto-Save** - Correct answers automatically added to "My Words"
-- 🎯 **Smooth Animations** - Fade transitions between screens
+- **Flashcard deck** with tap-to-reveal, touch swipes, keyboard controls, and persistent decisions: skip, save for study, or mark as known.
+- **Polish and Chinese interfaces** (simplified or traditional script); cards retain Chinese characters, pinyin, Polish, and English as available.
+- **HSK 2025 library and search**, including the shared HSK 7–9 vocabulary band.
+- **Grammar guides** for Chinese and Polish, including classifiers, negation, Chinese 的/地/得, Polish cases, number agreement, adjective comparison, and verb conjugation.
+- **Practice tab** with vocabulary multiple choice and typed sentence-gap exercises, localized in Polish, Simplified Chinese, and Traditional Chinese.
+- **Curated Polish word forms** for selected common nouns, adjectives, and verbs, with example sentences and Chinese translations.
+- **Personal saved-word list** stored locally on the device.
+- **Responsive layout** for desktop, tablet, and mobile.
 
-## 🆕 What's New in v1.4.0
-
-- ✅ **Chengyu Screen** - Learn Chinese idioms with detailed explanations
-- ✅ **Complete UI Redesign** - Dark theme with optimized layout
-- ✅ **Smooth Transitions** - Elegant fade animations between screens
-- ✅ **Improved Typography** - Significantly larger, more readable fonts
-- ✅ **Compact Dashboard** - Two-column layout for better space utilization
-- ✅ **Functional Quick Actions** - Navigate directly to Dictionary, Tests, or My Words
+The app keeps English and Polish meanings separate: when a Polish translation is missing, the card labels the English gloss as a bridge instead of presenting it as Polish. All 11,105 HSK entries now have Polish glosses; the 87 source rows that lacked pinyin or English glosses have also been completed. Twenty-three entries carry review notes for context-sensitive or ambiguous readings.
 
 ## 🚀 Installation
 
@@ -72,32 +55,14 @@ Download the latest version from [Releases](https://github.com/mwojtcz/chinese-l
 - Run `chinese_learning_app.exe`
 - No installation required - portable!
 
-## 📖 How to Use
+## How to Use
 
-### Dashboard
-- View your learning streak 🔥
-- See total vocabulary progress
-- Quick access to Dictionary, Tests, and My Words
-- Daily chengyu (Chinese idiom)
-
-### Dictionary
-- Browse all 3,229 HSK 1-4 words
-- Filter by level (HSK-1, HSK-2, HSK-3)
-- Search by hanzi, pinyin, or translation
-- Click a word to add to "My Words"
-
-### My Words
-- View saved words
-- All filtering features as in Dictionary
-- Remove words with one click
-
-### Test
-1. Choose test mode
-2. Select HSK level
-3. Set number of questions (5-50)
-4. Check "Only from My Words" (optional)
-5. Start test!
-6. Correct answers are automatically added to "My Words"
+- Choose **PL**, **简**, or **繁** in the upper corner. Polish UI studies Chinese; Chinese UI studies Polish.
+- Tap the card to reveal pinyin and translations. On a keyboard, use Space/Enter to reveal, Left to skip, Up to mark known, and Right to save for study.
+- Select an HSK level to focus the deck. Revisit skipped cards from the deck controls.
+- Browse and search the full available vocabulary in **HSK**; open a word to see translations and available Polish forms.
+- Use **Practice** for HSK vocabulary questions or sentence-gap exercises. Polish A1 gap exercises are an initial curated set; Polish vocabulary questions draw from the shared bilingual vocabulary and are not a CEFR placement.
+- Use **Grammar** for short reference lessons in both languages. Detailed Polish paradigms and examples are curated for selected common words, not generated for every dictionary entry.
 
 ## 📁 Project Structure
 
@@ -105,23 +70,16 @@ Download the latest version from [Releases](https://github.com/mwojtcz/chinese-l
 chinese_learning_app/
 ├── lib/
 │   ├── main.dart                    # Entry point
-│   ├── models/                      # Data models
-│   │   ├── word.dart
-│   │   └── test_config.dart
-│   ├── providers/                   # State management
-│   │   ├── word_provider.dart
-│   │   └── test_provider.dart
+│   ├── models/                      # Word and interface-language models
+│   ├── providers/                   # Vocabulary and study-decision state
+│   ├── screens/
+│   │   ├── home_screen.dart         # Responsive shell and locale switcher
+│   │   ├── learning_tabs.dart       # Deck, HSK, grammar, saved words
+│   │   └── practice_tab.dart        # Vocabulary and sentence-gap practice
 │   ├── database/                    # Database handling
 │   │   └── database_helper.dart
-│   └── widgets/                     # UI components
-│       ├── dictionary_tab.dart
-│       ├── my_words_tab.dart
-│       └── test_tab.dart
 ├── assets/
-│   └── data/                        # HSK vocabulary
-│       ├── hsk1_words.json          # 500 words (with Polish)
-│       ├── hsk2_words.json          # 763 words (with Polish)
-│       └── hsk3_words.json          # 966 words (English only)
+│   └── data/                        # HSK vocabulary, grammar, exercises, and curated word forms
 ├── .github/
 │   └── workflows/
 │       └── build-windows.yml        # CI/CD - automated builds
@@ -129,16 +87,19 @@ chinese_learning_app/
     └── ChineseLearningApp-v1.0.0-Windows.zip
 ```
 
-## 📊 Data Sources
+## Data Sources and Attribution
 
-HSK 3.0 vocabulary sourced from the official Ministry of Education of China standard (GF0025-2021):
-- [krmanik/HSK-3.0](https://github.com/krmanik/HSK-3.0) - OCR of official PDF standard
+- **HSK 2025 word lists:** [krmanik/HSK-3.0](https://github.com/krmanik/HSK-3.0), pinned to commit `182692ce5a11bc30bdc771835d2f0f27491c25de`. The repository declares its HSK word lists under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). HSK 7–9 is a single shared band. The source license and attribution are included in `assets/data/sources/hsk-2025/License.md`.
+- **Traditional characters, pinyin, and English glosses:** [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict), distributed under CC BY-SA 4.0. The HSK builder joins dictionary entries by simplified form and prefers a matching legacy reading when available. See the source notice in the app and the builder at `assets/data/scripts/build_hsk_2025_data.py`.
+- **Polish glosses:** authored for this application and carried over from matching local translations when the reading agrees. All 11,105 entries have Polish glosses; 23 entries include review notes for context-sensitive or ambiguous senses/readings. Translation gaps are tracked by `assets/data/polish_translation_worklist.csv`. Rebuild source data with `python assets/data/scripts/build_hsk_2025_data.py`, then run `python assets/data/scripts/merge_hsk_2025_translations.py` after all 21 validated translation shards are present. The merge refuses partial or mismatched batches.
 
-**HSK 3.0 Levels:**
-- **HSK-1**: 500 words (基础 - basic)
-- **HSK-2**: 763 words (提高 - intermediate)  
-- **HSK-3**: 966 words (进阶 - advanced)
-- **Total**: 2,229 words
+The current source lists contain 11,105 entries: HSK 1–6 (300, 204, 507, 1,019, 1,638, and 1,815 entries) plus 5,622 entries in HSK 7–9. The levels are the supplied incremental sets, not cumulative totals. The lists themselves provide Chinese words only; pinyin, traditional characters, and English glosses are joined from CC-CEDICT, and Polish glosses are curated for the full vocabulary.
+
+The repository's MIT license applies to application code. Source-derived vocabulary data has its own CC BY-SA 4.0 attribution and share-alike requirements; see `assets/data/sources/hsk-2025/ATTRIBUTION.md`.
+
+Grammar lessons are localized JSON under `assets/data/grammar_*.json`. Each lesson should include Polish, Simplified Chinese, and Traditional Chinese text, examples, and notes that distinguish rules from common exceptions. Confirm the source and reuse terms for each grammar dataset independently.
+
+Practice exercises are localized in `assets/data/practice_exercises.json`; accepted answer variants are listed explicitly to avoid overly permissive matching. Curated Polish paradigms and example sentences are stored in `assets/data/polish_word_forms.json`. These tables are educational examples for selected entries, not a complete automatic inflection engine.
 
 ## 🛠️ Technologies
 
@@ -169,13 +130,11 @@ flutter build web --release --base-href "/chinese-learning-app/"
 
 ### Roadmap
 
-- [x] HSK-2 Polish translations
-- [ ] HSK-3 Polish translations
-- [ ] Spaced Repetition System (SRS)
-- [ ] Export/import word lists
-- [ ] Learning progress statistics
-- [ ] Audio pronunciation recordings (pinyin)
-- [ ] Auto-update mechanism
+- [x] Add the HSK 2025 vocabulary lists, including the shared HSK 7–9 band
+- [x] Complete Polish gloss coverage across all HSK 2025 levels (ambiguous entries are marked for review)
+- [ ] Expand word-level Polish declension and conjugation tables
+- [ ] Add spaced repetition, audio, and printable A5 sheets
+- [ ] Add word-list import/export and learning statistics
 
 ## 📝 License
 

@@ -35,7 +35,7 @@ class DatabaseHelper {
 
     return await openDatabase(
       path,
-      version: 3, // Incremented to version 3 for traditional Chinese support
+      version: 4,
       onCreate: _createDB,
       onUpgrade: _onUpgrade,
     );
@@ -52,6 +52,9 @@ class DatabaseHelper {
       // Add traditional Chinese column for version 3
       await db.execute('ALTER TABLE my_words ADD COLUMN traditional TEXT');
     }
+    if (oldVersion < 4) {
+      await db.execute('ALTER TABLE my_words ADD COLUMN sourceWord TEXT');
+    }
   }
 
   Future<void> _createDB(Database db, int version) async {
@@ -66,6 +69,7 @@ class DatabaseHelper {
         tags TEXT,
         partOfSpeech TEXT,
         frequency INTEGER,
+        sourceWord TEXT,
         notes TEXT,
         added_date TEXT NOT NULL
       )
@@ -157,53 +161,71 @@ class DatabaseHelper {
   // Load all words from separate HSK level files
   Future<List<Word>> loadAllWords() async {
     final List<Word> allWords = [];
-    
-    // Lista plików dla każdego poziomu HSK
-    final levels = ['hsk1', 'hsk2', 'hsk3', 'hsk4'];
-    
-    for (final level in levels) {
-      try {
-        final String jsonString = await rootBundle.loadString('assets/data/${level}_words.json');
-        final List<dynamic> jsonList = json.decode(jsonString);
-        final words = jsonList.map((json) {
-          final word = Word.fromJson(json);
-          // Auto-convert to traditional if not already set
-          if (word.traditional == word.hanzi) {
-            return Word(
-              hanzi: word.hanzi,
-              traditional: ChineseConverterHelper.toTraditional(word.hanzi),
-              pinyin: word.pinyin,
-              englishTranslation: word.englishTranslation,
-              polishTranslation: word.polishTranslation,
-              level: word.level,
-              notes: word.notes,
-              tags: word.tags,
-              partOfSpeech: word.partOfSpeech,
-              frequency: word.frequency,
-            );
-          }
+
+    const assets = [
+      'assets/data/hsk2025_1_words.json',
+      'assets/data/hsk2025_2_words.json',
+      'assets/data/hsk2025_3_words.json',
+      'assets/data/hsk2025_4_words.json',
+      'assets/data/hsk2025_5_words.json',
+      'assets/data/hsk2025_6_words.json',
+      'assets/data/hsk2025_7_9_words.json',
+    ];
+
+    for (final asset in assets) {
+      final jsonString = await rootBundle.loadString(asset);
+      final jsonList = json.decode(jsonString) as List<dynamic>;
+      allWords.addAll(jsonList.map((value) {
+        final word = Word.fromJson(value as Map<String, dynamic>);
+        if (word.traditional != word.hanzi || word.displayHanzi != word.hanzi) {
           return word;
-        }).toList();
-        allWords.addAll(words);
-      } catch (e) {
-        print('Error loading $level: $e');
-      }
+        }
+        return Word(
+          hanzi: word.hanzi,
+          traditional: ChineseConverterHelper.toTraditional(word.displayHanzi),
+          pinyin: word.pinyin,
+          englishTranslation: word.englishTranslation,
+          polishTranslation: word.polishTranslation,
+          level: word.level,
+          notes: word.notes,
+          tags: word.tags,
+          partOfSpeech: word.partOfSpeech,
+          frequency: word.frequency,
+          sourceWord: word.sourceWord,
+        );
+      }));
     }
-    
+
     return allWords;
   }
 
   // Load words for specific HSK level
   Future<List<Word>> loadWordsByLevel(String level) async {
-    try {
-      final levelKey = level.toLowerCase().replaceAll('-', '');
-      final String jsonString = await rootBundle.loadString('assets/data/${levelKey}_words.json');
-      final List<dynamic> jsonList = json.decode(jsonString);
-      return jsonList.map((json) => Word.fromJson(json)).toList();
-    } catch (e) {
-      print('Error loading $level: $e');
-      return [];
-    }
+    final compactLevel = level
+        .trim()
+        .toUpperCase()
+        .replaceAll(' ', '')
+        .replaceAll('–', '-');
+    final levelKey = compactLevel.startsWith('HSK') &&
+            compactLevel.length > 3 &&
+            compactLevel[3] != '-'
+        ? 'HSK-${compactLevel.substring(3)}'
+        : compactLevel;
+    final asset = switch (levelKey) {
+      'HSK-1' => 'assets/data/hsk2025_1_words.json',
+      'HSK-2' => 'assets/data/hsk2025_2_words.json',
+      'HSK-3' => 'assets/data/hsk2025_3_words.json',
+      'HSK-4' => 'assets/data/hsk2025_4_words.json',
+      'HSK-5' => 'assets/data/hsk2025_5_words.json',
+      'HSK-6' => 'assets/data/hsk2025_6_words.json',
+      'HSK-7-9' => 'assets/data/hsk2025_7_9_words.json',
+      _ => throw ArgumentError.value(level, 'level', 'Unknown HSK level'),
+    };
+    final jsonString = await rootBundle.loadString(asset);
+    final jsonList = json.decode(jsonString) as List<dynamic>;
+    return jsonList
+        .map((value) => Word.fromJson(value as Map<String, dynamic>))
+        .toList(growable: false);
   }
 
   // Close database
